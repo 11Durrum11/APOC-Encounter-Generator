@@ -319,3 +319,20 @@ Shaun's correction, in his words: "The Badlands is everywhere the city is not. E
 - Verification: `verify.py` OVERALL PASS (bands still sum 100 and contiguous on the renamed table; Saint James still only at its 100-band, now on Open Wastes / Ruins / Ruins Interior) and `test3`/`test4`/`test5`/`test6` PASS.
 
 **Sharpening (same day, Shaun's exact words via the hub): "in the generator, you have it as the Badlands as one particular landscape, and that's just not true."** The landscapes are all IN the Badlands; the Badlands itself is not one of them. So the entry's name drops "Badlands" entirely: the landscape is **Open Wastes** — first in the list as the Badlands' general table for its open blighted country, with the table note stating outright that the Badlands is not one landscape among the others and that every table but the Bastion's is a place within it. No table in the set is named for the Badlands anymore; the Badlands stands over the whole list as the world it all lies in. Contents and math unchanged again (23 entries, bands 1–100; Saint James still only at the 100-band).
+
+---
+
+## The Badlands layer — an on/off additive over the landscapes — v1.9 (2026-11-11) — Shaun, via the AI DM hub
+
+Shaun's refinement: "Maybe Badlands can be an additive. On and off additive to all the landscapes." Built exactly so. The roller now carries a **Badlands layer** toggle (in the Roller piece, movable like every button; state persists per device). It is not a table and not a landscape — it is the Badlands itself, layered over whichever landscape is rolled. The Open Wastes table stays a landscape (the Badlands' general table); the additive is the layer above all of them.
+
+**What the layer does when ON (all effects taken from Shaun's canon on file — his World-and-City-Canon: "The Badlands," "The twisting," "Constant war"; the screening rules; the claimed/unclaimed lore):**
+- It applies to the 16 landscape tables and never to the 3 Bastion tables — the city is the exception (when a Bastion table is selected, the toggle's note says the layer does not reach inside the walls, and no layer block or history mark is produced).
+- Every landscape result is produced as a Badlands encounter and carries the layer block with the canon conditions for that country: **surface landscapes** (Open Wastes, Plains, Forest, Hills, Mountains, Desert, Swamp/Marsh, River/Lake/Coast, Road/Trail, Ruins, Ruins Interior, Shoreline, Open Water) — one grey sky, Fog of Life on the surface, hatestorms rage in this country, the permanent war runs through it, the unclaimed walk here; **underground landscapes** (Underground, Deep Dark, Dungeon/Interior) — no Fog of Life underground, but the blight soaked deep, the war runs through the dark, the unclaimed walk here.
+- The layer block also carries the twisting: the land's own life in defiled country may be twisted — warped in body, wrong in habit; no demon, and no servant of demons — with Shaun's Twisted template named as applying where the DM calls it.
+- Roll history marks layered rolls "[Badlands layer]". Table contents and math are untouched either way.
+
+**Flagged, not guessed (needs Shaun, per the order's own instruction):**
+1. **Twisted application.** Canon says the land's creatures "sometimes" come out twisted — no frequency is given anywhere on file, and the mechanical Twisted template is Shaun's Doc #4 version, which is not among the generator's sources (his canon document carries the story, not stat changes). The layer therefore presents the twisting and names the template; it does not roll a probability or apply stat changes. Give me the template (or a chance) and the layer will apply it for real.
+2. **Pool blending.** The layer does not blend the Open Wastes general pool into landscape rolls — no canon rate for that exists. If Shaun wants badlands-grade pressure mixed into landscape rolls, the rate is his to set.
+- Verification: `test3.mjs` extended (toggle exists and defaults OFF, persists per device, layer block on a surface landscape roll, underground variant line, no layer on the Bastion, exception note, history marking) — full suite PASS.
