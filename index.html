@@ -17990,7 +17990,29 @@ function showResult(t,r,e){
       :'One grey sky over demon-crossed country: Fog of Life lies on the surface, hatestorms rage in this country, the permanent war runs through it, and the unclaimed walk here.')
       +' The land\u2019s own life in defiled country may be twisted \u2014 warped in body, wrong in habit; no demon, and no servant of demons. (Shaun\u2019s Twisted template applies where the DM calls it.)</div>';}
   if(steam){const city=BASTION_TABLES.includes(t.name);
-    const isMachine=/Construct/i.test(e.type||'');
+    /* The rewrite (Shaun's spec, 2026-11-11): with the overlay ON the rolled creature is
+       presented rewritten as a steampunk version of itself — the overlay's layer on top.
+       The published record below stays verbatim and untouched; OFF = exactly as published. */
+    const sbTxt=(e.statblock&&e.statblock.b!=null)?(DATA.blocks[e.statblock.b]||''):((e.statblock&&e.statblock.text)||'');
+    const head=sbTxt.slice(0,900);
+    const isMachine=/construct/i.test(e.type||'')||/construct/i.test(head.split('\n').slice(0,6).join(' '));
+    const isPerson=(e.kinds||[]).includes('npc')||e.name==='Saint James';
+    if(isMachine){
+      h+='<div class="apoc"><b>'+esc(e.name)+'</b> — already a machine of the age (Steampunk overlay). The overlay has nothing to rewrite: it stands as published, the element itself.</div>';
+    } else if(isPerson){
+      h+='<div class="apoc"><b>'+esc(e.name)+'</b> — in the steam idiom (Steampunk overlay). Not rebuilt — kitted: steamcraft gear and apparatus in their hands, firearms where they carry. The person stands as published, unchanged.</div>';
+    } else {
+      const sizeM=head.match(/\b(Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)\b/);
+      const atkM=sbTxt.match(/(?:^|\n)\**(?:Full Attack|Attack)\**\s*:?\s*(?:\d+\s+)?([a-z][a-z']+)/i);
+      let dsc='The '+e.name+' as this age rebuilds it: a '+(sizeM?sizeM[1].toLowerCase()+' ':'')+'frame of riveted iron and brass over the old form, boiler-hearted and gear-driven';
+      if(/\bfly\s+\d/i.test(head))dsc+=', brass-pinioned, venting steam as it flies';
+      else if(/\bswim\s+\d/i.test(head))dsc+=', screw-driven, venting steam as it drives through the water';
+      else if(/\bburrow\s+\d/i.test(head))dsc+=', auger-limbed for the deep earth';
+      dsc+='. ';
+      if(atkM)dsc+='Its '+atkM[1]+' is rebuilt in steel — piston-driven, plate-riveted. ';
+      dsc+='What it was shows through the work: the same creature, wearing the age.';
+      h+='<div class="apoc"><b>Steamwork '+esc(e.name)+'</b> — the steampunk version in play (Steampunk overlay). Base creature: '+esc(e.name)+', CR '+esc(e.cr)+' — its published record stands below, untouched.<br>'+esc(dsc)+'<br><i>Build: steamwork construction over the published form — run the block exactly as printed. The overlay reworks the form, not the numbers.</i></div>';
+    }
     h+='<div class="apoc"><b>Steampunk overlay — ON.</b> '+(city
       ?'The city runs on steam: cannoneer towers along the wall, the walking constructs on their rounds, steamcraft in the workshops — and elemental workings fed through steampunk apparatus.'
       :'Steam and gearwork run through this country too: war-machines crawl out of the enclaves, constructs work the fields and ruins, steamcraft gear turns up in ready hands — and elemental workings are fed through steampunk apparatus.')
