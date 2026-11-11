@@ -258,3 +258,16 @@ The Encounter Generator now carries the same treatment as every other APOC progr
 - **Rules 1–3 as before, rechecked:** buttons at minimum footprint with the layout pushing up together; every dropdown opens sized to its content; one uniform high-contrast scheme (white on black) with no white-on-white anywhere.
 - Layout (piece positions/sizes/locks, button positions, nests) persists per device; Reset layout restores the stacked default and also clears the retired v1.0 panel-position keys.
 - Verification: jsdom execution test `work/livecheck/test5.mjs` PASS (10 pieces with grips and resize handles, locked by default, piece drag + persistence, resize persistence, locked piece immovable, button drag-to-nest with badge + persistence, full layout restored on a fresh load); roller and tools regressions (`test3.mjs`, `test4.mjs`) PASS.
+
+---
+
+## Visual identity — v1.4 (2026-11-11) — Shaun's order via the AI DM hub: the Campaign Tracker's visual identity
+
+The whole surface (page, panels, buttons, dropdowns, tools, lightbox) now wears the Campaign Tracker's palette and flavor, so the roller reads as family next to the tracker. Function, the v1.3.0 treatment mechanics, and all data are unchanged — this pass touched styling only.
+
+- **Values copied verbatim from the live tracker's `:root`** (pulled from https://11durrum11.github.io/APOC-Campaign-Tracker/ on 2026-11-11, not approximated): background `hsl(222 22% 10%)`; parchment foreground `hsl(42 38% 88%)`; amber primary/ring `hsl(38 92% 50%)` with `hsl(30 40% 10%)` on-primary text; card/popover/secondary surfaces transparent (`hsla(222,20%,14%,0)` family) so the backdrop shows through; borders `hsl(220 16% 24%)`, inputs `hsl(220 16% 26%)`; muted text `hsl(220 12% 62%)`; radius `12px`; font **Georgia, "Times New Roman", serif**.
+- **Backdrop:** the tracker's own pinned scene (`assets/scenes/bastion-streets.webp`, referenced from the tracker site) at 45% under the tracker's exact darkening wash gradient — the same settled backdrop treatment the tracker itself uses.
+- **Controls:** buttons take the tracker's `.btn` form (transparent secondary surface, 1px card-border, 9px radius, amber ring on hover); the active tool tab fills amber; selects and their options carry the tracker's explicit opaque `hsl(222 20% 13%)` with parchment text (the tracker's own no-white-on-white implementation); inputs take tracker border/radius/popover values; section labels and tool headings take the tracker's amber treatment.
+- **Treatment chrome** stays dark blue, now at the tracker's own exact treatment blue `--mv-blue: hsl(222,89%,47%)` (the same value the tracker's moving system uses) for grips, resize handles, outlines, nest badges, and the edit bar.
+- **Lightbox:** tracker overlay value `rgba(10,12,16,.85)`, parchment caption, muted hint, tracker border/radius on the frame. Pictures themselves untouched (artwork is treatment-exempt, as everywhere).
+- Verification: `work/verify.py` OVERALL PASS; `test3.mjs` / `test4.mjs` / `test5.mjs` PASS on the staging build (test5's chrome assertion updated from the retired #003399 to the tracker's mv-blue value — the chrome is the same dark blue, at the tracker's exact value); a token audit confirms all 19 checked tracker values appear verbatim in the built page and no black/white theme values remain.

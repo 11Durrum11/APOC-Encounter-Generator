@@ -1,44 +1,81 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>APOC Encounter Roller</title><style>
-body{background:#000;color:#fff;font-family:system-ui,sans-serif;margin:8px}
-select,button{background:#000;color:#fff;border:2px solid #fff;font-size:16px;padding:2px 6px;width:max-content;max-width:95vw}
-#panel{padding:8px;max-width:97vw}
+/* Visual identity: Campaign Tracker family — tokens copied verbatim from the live tracker's :root (2026-11-11) */
+:root{
+color-scheme:dark;
+--background:hsl(222 22% 10%);
+--foreground:hsl(42 38% 88%);
+--card:hsla(222,20%,14%,0);
+--card-foreground:hsl(42 38% 88%);
+--card-border:hsl(220 16% 24%);
+--popover:hsla(222,20%,13%,0);
+--primary:hsl(38 92% 50%);
+--primary-foreground:hsl(30 40% 10%);
+--secondary:hsla(220,16%,20%,0);
+--muted:hsla(220,16%,20%,0);
+--muted-foreground:hsl(220 12% 62%);
+--accent:hsla(222,18%,22%,0);
+--accent-foreground:hsl(42 38% 90%);
+--destructive:hsl(0 62% 46%);
+--border:hsl(220 16% 24%);
+--input:hsl(220 16% 26%);
+--ring:hsl(38 92% 50%);
+--radius:12px;
+--scene-image:url("https://11durrum11.github.io/APOC-Campaign-Tracker/assets/scenes/bastion-streets.webp");
+--mv-blue:hsl(222,89%,47%);
+--mv-blue-a:hsla(222,89%,55%,.6);
+--mv-blue-b:hsla(222,89%,55%,.5);
+--mv-blue-c:hsla(222,89%,55%,.45);
+}
+*{box-sizing:border-box}
+body{margin:8px;background:var(--background);color:var(--foreground);font-family:Georgia,"Times New Roman",serif;line-height:1.5;min-height:100vh}
+body::before{content:"";position:fixed;left:0;top:0;width:100%;height:100vh;height:100lvh;z-index:-2;background-image:var(--scene-image);background-size:cover;background-position:center;opacity:.45}
+body::after{content:"";position:fixed;left:0;top:0;width:100%;height:100vh;height:100lvh;z-index:-1;pointer-events:none;background:linear-gradient(180deg,hsla(222,22%,10%,.62),hsla(222,22%,10%,.86) 46%,hsla(222,22%,10%,.96) 100%),radial-gradient(ellipse at 50% 0%,transparent 0%,hsla(222,22%,10%,.40) 72%)}
+button,input,select,textarea{font:inherit}
+select,button{width:max-content;max-width:95vw}
+button{border:1px solid var(--card-border);background:var(--secondary);color:var(--foreground);border-radius:9px;padding:4px 9px;min-height:30px;cursor:pointer}
+button:hover{border-color:var(--ring)}
+select{background:hsl(222 20% 13%);color:var(--foreground);color-scheme:dark;border:1px solid var(--input);border-radius:8px;padding:4px 6px;min-height:30px}
+select option{background:hsl(222 20% 13%);color:var(--foreground)}
+#panel{padding:8px;max-width:97vw;position:relative}
 #editbar{position:fixed;top:6px;right:6px;z-index:9000;display:flex;gap:4px}
-#editbar button{background:#003399;color:#fff;border:2px solid #fff;font-size:14px}
-body.editing #editToggle{background:#fff;color:#003399}
-.piece{position:relative;margin:0 0 8px;border:2px solid #fff;padding:8px;width:max-content;max-width:97vw;background:#000}
+#editbar button{min-height:32px;padding:5px 10px;border:1px solid var(--card-border);border-radius:999px;background:var(--popover);color:var(--foreground);font-size:.8rem;opacity:.88;box-shadow:0 10px 26px rgba(0,0,0,.4)}
+#editbar button:hover{opacity:1;color:var(--mv-blue);border-color:var(--mv-blue)}
+body.editing #editToggle{opacity:1;color:var(--mv-blue);border-color:var(--mv-blue)}
+.piece{position:relative;margin:0 0 8px;border:1px solid var(--card-border);border-radius:var(--radius);padding:8px;width:max-content;max-width:97vw;background:var(--card)}
 .piece.abs{position:absolute;margin:0;z-index:40}
-.grip{display:none;background:#003399;color:#fff;font-size:12px;padding:2px 6px;cursor:move;user-select:none;margin:-8px -8px 6px}
+.grip{display:none;background:var(--mv-blue);color:#fff;font-size:12px;padding:2px 6px;cursor:move;user-select:none;margin:-8px -8px 6px;border-radius:var(--radius) var(--radius) 0 0}
 body.editing .grip{display:flex;justify-content:space-between;align-items:center}
-body.editing .piece{outline:2px solid #003399}
-.plock{background:#003399 !important;border:1px solid #fff !important;color:#fff;font-size:11px;padding:0 4px}
-.rz{display:none;position:absolute;right:0;bottom:0;width:18px;height:18px;background:#003399;cursor:nwse-resize;z-index:5}
+body.editing .piece{outline:2px solid var(--mv-blue)}
+.plock{background:var(--mv-blue) !important;border:1px solid #fff !important;color:#fff;font-size:11px;padding:0 4px;min-height:0}
+.rz{display:none;position:absolute;right:0;bottom:0;width:18px;height:18px;background:var(--mv-blue);cursor:nwse-resize;z-index:5;border-radius:0 0 var(--radius) 0}
 body.editing .rz{display:block}
 .piece #result,.piece .statblock{max-width:100%}
-.nest{display:none;border:1px dashed #003399;padding:4px;margin:4px 0}
+.nest{display:none;border:1px dashed var(--mv-blue);padding:4px;margin:4px 0}
 .nest.open{display:block}
 button.btnabs{position:absolute;z-index:6}
-button.dragover{outline:3px solid #003399}
-.nestbadge{background:#003399 !important;color:#fff;font-size:11px;padding:0 4px;margin-left:4px}
+button.dragover{outline:3px solid var(--mv-blue)}
+.nestbadge{background:var(--mv-blue) !important;color:#fff;font-size:11px;padding:0 4px;margin-left:4px;min-height:0}
 #result{margin-top:8px;max-width:680px}
-#result img{max-width:260px;max-height:260px;border:2px solid #fff;display:block;margin:6px 0}
+#result img{max-width:260px;max-height:260px;border:1px solid var(--card-border);border-radius:8px;display:block;margin:6px 0}
 #result img.pic{cursor:zoom-in;position:relative;transition:transform .18s ease;transform-origin:left top}
-#result img.pic:hover{transform:scale(2.1);z-index:60;box-shadow:0 0 0 2px #fff,0 10px 34px #000}
-.statblock{white-space:pre-wrap;border:1px solid #fff;padding:6px;max-width:660px;max-height:55vh;overflow:auto}
-.credit{font-size:12px}
-#history{margin-top:8px;max-width:680px;font-size:14px}
+#result img.pic:hover{transform:scale(2.1);z-index:60;box-shadow:0 0 0 2px var(--ring),0 10px 34px rgba(0,0,0,.55)}
+.statblock{white-space:pre-wrap;border:1px solid var(--border);border-radius:8px;background:var(--popover);padding:10px 11px;max-width:660px;max-height:55vh;overflow:auto}
+.credit{font-size:12px;color:var(--muted-foreground)}
+#history{margin-top:8px;max-width:680px;font-size:14px;color:var(--muted-foreground)}
 #preview{margin-top:8px;max-width:680px;font-size:14px}
-#preview img{width:32px;height:32px;object-fit:cover;vertical-align:middle;border:1px solid #fff}
+#preview img{width:32px;height:32px;object-fit:cover;vertical-align:middle;border:1px solid var(--card-border);border-radius:4px}
 #preview img.thumb{cursor:zoom-in;position:relative;transition:transform .15s ease;transform-origin:left center}
-#preview img.thumb:hover{transform:scale(4.5);z-index:60;box-shadow:0 0 0 2px #fff,0 8px 26px #000}
-#lightbox{position:fixed;inset:0;background:rgba(0,0,0,.95);display:none;align-items:center;justify-content:center;flex-direction:column;z-index:9999;cursor:zoom-out;padding:10px}
+#preview img.thumb:hover{transform:scale(4.5);z-index:60;box-shadow:0 0 0 2px var(--ring),0 8px 26px rgba(0,0,0,.55)}
+#lightbox{position:fixed;inset:0;background:rgba(10,12,16,.85);display:none;align-items:center;justify-content:center;flex-direction:column;z-index:9999;cursor:zoom-out;padding:10px}
 #lightbox.open{display:flex}
-#lightbox img{max-width:94vw;max-height:82vh;border:2px solid #fff;object-fit:contain}
-#lightbox .cap{color:#fff;margin-top:10px;font-size:16px;text-align:center;max-width:94vw}
-#lightbox .hint{color:#fff;font-size:12px;margin-top:4px}
+#lightbox img{max-width:94vw;max-height:82vh;border:1px solid var(--card-border);border-radius:8px;object-fit:contain}
+#lightbox .cap{color:var(--foreground);margin-top:10px;font-size:16px;text-align:center;max-width:94vw}
+#lightbox .hint{color:var(--muted-foreground);font-size:12px;margin-top:4px}
 #lbClose{position:absolute;top:10px;right:12px;cursor:pointer}
-h1{font-size:20px;margin:4px 0}
+h1{font-size:clamp(1.3rem,3.4vw,1.7rem);font-weight:500;letter-spacing:.01em;margin:4px 0}
 details{margin-top:6px}
+summary{cursor:pointer;color:var(--accent-foreground)}
 </style></head><body>
 <div id="editbar"><button id="editToggle">🔒 Edit layout</button><button id="layoutReset">Reset layout</button></div>
 <div id="panel">
@@ -50,18 +87,20 @@ details{margin-top:6px}
 <style>
 .tools{margin-top:10px}
 .tools .tbtn{margin:2px 2px 6px 0}
-.tools .tbtn.on{background:#fff;color:#000}
-.tool{display:none;border-top:1px solid #fff;padding-top:6px}
+.tools .tbtn.on{background:var(--primary);color:var(--primary-foreground);border-color:var(--primary)}
+.tool{display:none;border-top:1px solid var(--border);padding-top:6px}
 .tool.on{display:block}
 .tool label{display:inline-block;margin:2px 6px 2px 0}
-.tool input[type=number]{width:64px;background:#000;color:#fff;border:2px solid #fff;font-size:16px;padding:2px 4px}
-.tool input[type=text]{background:#000;color:#fff;border:2px solid #fff;font-size:16px;padding:2px 4px;max-width:60vw}
+.tool b{color:var(--primary);letter-spacing:.06em}
+.tool input[type=number]{width:64px;background:var(--popover);color:var(--foreground);border:1px solid var(--input);border-radius:8px;padding:4px 6px;min-height:30px}
+.tool input[type=text]{background:var(--popover);color:var(--foreground);border:1px solid var(--input);border-radius:8px;padding:4px 6px;min-height:30px;max-width:60vw}
+.tool input::placeholder{color:var(--muted-foreground)}
 .tool .out{margin-top:8px}
-.tool .statblock{white-space:pre-wrap;border:1px solid #fff;padding:6px;max-width:660px;max-height:55vh;overflow:auto}
-.tool img.thumb2{width:40px;height:40px;object-fit:cover;vertical-align:middle;border:1px solid #fff;cursor:zoom-in}
-.encrow{border:1px solid #fff;padding:4px 6px;margin:4px 0}
+.tool .statblock{white-space:pre-wrap;border:1px solid var(--border);border-radius:8px;background:var(--popover);padding:10px 11px;max-width:660px;max-height:55vh;overflow:auto}
+.tool img.thumb2{width:40px;height:40px;object-fit:cover;vertical-align:middle;border:1px solid var(--card-border);border-radius:4px;cursor:zoom-in}
+.encrow{border:1px solid var(--card-border);border-radius:8px;background:var(--secondary);padding:4px 6px;margin:4px 0}
 .encrow button{margin-left:4px}
-.small{font-size:13px}
+.small{font-size:13px;color:var(--muted-foreground)}
 </style>
 <div class="tools" id="tools">
 <div class="piece" data-piece="toolsbar"><div>
@@ -18117,7 +18156,7 @@ function renderRun(){
   if(rows.length>40)rows=rows.slice(0,40);
   bState.run=rows;bState.round=1;
   let h='<details><summary>▶ Run it — initiative &amp; HP ('+rows.length+' combatants)</summary><div class="small">Round <button id="rPrev">−</button> <b id="rNum">1</b> <button id="rNext">+</button> — set initiative, sort, then track HP (rolled uses each creature\'s Hit Dice).</div>';
-  rows.forEach((r,i)=>{h+='<div class="encrow"><b>'+esc(r.name)+'</b> Init <input type="number" class="rInit" data-ri="'+i+'" style="width:52px;background:#000;color:#fff;border:2px solid #fff"> HP <b id="rhp-'+i+'">'+(r.cur==null?'—':r.cur)+'</b>'+(r.avg!=null?' (avg '+r.avg+')':'')+' <button data-roll="'+i+'">Roll HP</button> <input type="number" class="rDmg" data-rd="'+i+'" style="width:52px;background:#000;color:#fff;border:2px solid #fff" placeholder="dmg"> <button data-hit="'+i+'">Hit</button> <button data-heal="'+i+'">Heal</button></div>';});
+  rows.forEach((r,i)=>{h+='<div class="encrow"><b>'+esc(r.name)+'</b> Init <input type="number" class="rInit" data-ri="'+i+'" style="width:52px;background:hsl(222 20% 13%);color:hsl(42 38% 88%);border:1px solid hsl(220 16% 26%);border-radius:8px;padding:4px 6px"> HP <b id="rhp-'+i+'">'+(r.cur==null?'—':r.cur)+'</b>'+(r.avg!=null?' (avg '+r.avg+')':'')+' <button data-roll="'+i+'">Roll HP</button> <input type="number" class="rDmg" data-rd="'+i+'" style="width:52px;background:hsl(222 20% 13%);color:hsl(42 38% 88%);border:1px solid hsl(220 16% 26%);border-radius:8px;padding:4px 6px" placeholder="dmg"> <button data-hit="'+i+'">Hit</button> <button data-heal="'+i+'">Heal</button></div>';});
   h+='<button id="rSort">Sort by initiative</button></details>';
   out.innerHTML=h;
   $('rNext').onclick=()=>{bState.round++;$('rNum').textContent=bState.round;};
@@ -18340,7 +18379,7 @@ $('tGo').onclick=()=>{const mode=$('tMode').value;
   const t=genTreasure(budget,cats,minV,maxV,countMode,want);
   $('tOut').innerHTML=treText(t)+'<div class="small">Built on DMG Table 3-3 average values (EL averages and average gem/art/magic-item values). Specific magic items are rolled/picked from the DMG treasure tables.</div>';};
 /* ================= XP CALCULATOR ================= */
-function xRow(){const d=document.createElement('div');d.innerHTML='<label>CR <input type="number" class="xCr" step="0.125" value="5" style="width:64px;background:#000;color:#fff;border:2px solid #fff"></label> <label>Count <input type="number" class="xCnt" value="1" min="1" style="width:52px;background:#000;color:#fff;border:2px solid #fff"></label> <button class="xDel">✕</button>';d.querySelector('.xDel').onclick=()=>d.remove();$('xRows').appendChild(d);}
+function xRow(){const d=document.createElement('div');d.innerHTML='<label>CR <input type="number" class="xCr" step="0.125" value="5" style="width:64px;background:hsl(222 20% 13%);color:hsl(42 38% 88%);border:1px solid hsl(220 16% 26%);border-radius:8px;padding:4px 6px"></label> <label>Count <input type="number" class="xCnt" value="1" min="1" style="width:52px;background:hsl(222 20% 13%);color:hsl(42 38% 88%);border:1px solid hsl(220 16% 26%);border-radius:8px;padding:4px 6px"></label> <button class="xDel">✕</button>';d.querySelector('.xDel').onclick=()=>d.remove();$('xRows').appendChild(d);}
 xRow();xRow();
 $('xAdd').onclick=xRow;
 $('xGo').onclick=()=>{const n=Math.max(1,parseInt($('xN').value)||4),lvl=Math.max(1,parseInt($('xLvl').value)||1);
