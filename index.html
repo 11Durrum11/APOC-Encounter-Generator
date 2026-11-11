@@ -86,6 +86,7 @@ summary{cursor:pointer;color:var(--accent-foreground)}
 <div style="margin-top:6px"><button id="badlandsToggle" class="tbtn" type="button">Badlands layer: OFF</button> <span id="badlandsNote" class="credit"></span></div>
 <div style="margin-top:4px"><button id="steamToggle" class="tbtn" type="button">Steampunk overlay: OFF</button> <span id="steamNote" class="credit"></span></div>
 <div style="margin-top:4px"><button id="twistedToggle" class="tbtn" type="button">Twisted overlay: OFF</button> <span id="twistedNote" class="credit"></span></div>
+<div style="margin-top:6px"><button id="bleedToggle" class="tbtn" type="button">Badlands bleed: ON</button> <button id="weightToggle" class="tbtn" type="button">Machine weighting: ON</button> <button id="gearToggle" class="tbtn" type="button">Gear drops: ON</button></div>
 <label>Table <select id="tbl"></select></label> <button id="roll">Roll d1000</button> <button id="previewBtn">Preview table</button> <button id="reset">Reset layout</button></div>
 <style>
 .tools{margin-top:10px}
@@ -17990,6 +17991,18 @@ function twistable(e){if(!twisted)return false;const ty=(e.type||''),kinds=e.kin
   if(kinds.includes('npc')||e.name==='Saint James')return false;
   return true;}
 const GEAR=['a steampunk apparatus, gear-driven and hissing softly','steamcraft tools, still warm from the work','alchemical components, stoppered and labeled','a firearm, oiled and ready','gearwork prosthetic components, wrapped in oilcloth','brass fittings and boiler plate, salvageable','a clockwork mechanism, ticking on its own','pressure valves and copper piping, a matched set'];
+/* Feature toggles (Shaun, 2026-11-11: "Make them toggles too") — the bleed, the
+   machine weighting, and the gear drops each get their own switch beside the overlay
+   toggles. They are Shaun's rulings, so they default ON; each gates only its own
+   feature, and each still needs its overlay on to do anything. */
+function featToggle(id,key,label){let on=true;try{on=localStorage.getItem(key)!=='0';}catch(e){}
+  const b=document.getElementById(id);if(!b)return ()=>on;
+  function sync(){b.textContent=label+': '+(on?'ON':'OFF');b.classList.toggle('on',on);}
+  b.addEventListener('click',()=>{on=!on;try{localStorage.setItem(key,on?'1':'0');}catch(e){}sync();});
+  sync();return ()=>on;}
+const bleedOn=featToggle('bleedToggle','apocEncBleed','Badlands bleed');
+const weightOn=featToggle('weightToggle','apocEncWeight','Machine weighting');
+const gearOn=featToggle('gearToggle','apocEncGear','Gear drops');
 const lb=document.getElementById('lightbox'),lbImg=document.getElementById('lbImg'),lbCap=document.getElementById('lbCap');
 function openPic(src,name,credit){lbImg.src=src;lbImg.alt=name||'';lbCap.textContent=(name||'')+(credit?' — '+credit:'');lb.classList.add('open');}
 function closePic(){lb.classList.remove('open');lbImg.src='';}
@@ -18043,7 +18056,7 @@ function showResult(t,r,e,fx){
       ?'The city runs on steam: cannoneer towers along the wall, the walking constructs on their rounds, steamcraft in the workshops — and elemental workings fed through steampunk apparatus.'
       :'Steam and gearwork run through this country too: war-machines crawl out of the enclaves, constructs work the fields and ruins, steamcraft gear turns up in ready hands — and elemental workings are fed through steampunk apparatus.')
       +(isMachine?' This roll is the element itself: a machine of the age, met in the field.':'')+'</div>';
-    h+='<div class="credit">Steamcraft gear drop: '+GEAR[Math.floor(Math.random()*GEAR.length)]+'.</div>';}
+    if(gearOn())h+='<div class="credit">Steamcraft gear drop: '+GEAR[Math.floor(Math.random()*GEAR.length)]+'.</div>';}
   if(twistable(e)){const sizeM2=head.match(/\b(Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)\b/);
     const clawD={Small:'1d2',Medium:'1d3',Large:'1d4'}[sizeM2?sizeM2[1]:''];
     const shift=/animal|vermin/i.test(e.type||'')?' Animals and vermin become magical beasts under it; otherwise its type is unchanged.':'';
@@ -18076,14 +18089,14 @@ document.getElementById('roll').onclick=()=>{
   /* Badlands bleed (Shaun's settled rate): with the layer ON, the Open Wastes pool
      bleeds into the other landscapes' rolls — 1 in 20 come out of the general pool.
      Landscapes only; Saint James is never displaced by an overlay. */
-  if(badlandsOn(t.name)&&t.name!=='Open Wastes'&&e.name!=='Saint James'&&Math.random()<0.05){
+  if(bleedOn()&&badlandsOn(t.name)&&t.name!=='Open Wastes'&&e.name!=='Saint James'&&Math.random()<0.05){
     const ow=DATA.tables.find(x=>x.name==='Open Wastes'); const r2=1+Math.floor(Math.random()*1000);
     const e2=ow.entries.find(x=>r2>=x.low&&r2<=x.high);
     if(e2){t=ow;r=r2;e=e2;fx.bled=true;}}
   /* Steampunk weighting (Shaun's ruling): machines 7 out of 10 under steam — a
      non-machine result bends to this table's own machine population at the rate
      that makes machines seven in ten in expectation, drawn by band weight. */
-  if(steam&&e.name!=='Saint James'&&!/construct/i.test(e.type||'')){
+  if(steam&&weightOn()&&e.name!=='Saint James'&&!/construct/i.test(e.type||'')){
     const ms=t.entries.filter(x=>/construct/i.test(x.type||''));
     const pm=ms.reduce((a,x)=>a+(x.high-x.low+1),0)/1000;
     if(ms.length&&pm<0.7){

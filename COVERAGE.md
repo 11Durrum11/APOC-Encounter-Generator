@@ -406,3 +406,10 @@ The consolidated spec from the hub carried the pointer this project had been mis
 ## Framing grounding — v1.14.1 (2026-11-11)
 
 Shaun's grounding for the Twisted overlay, same call, carried into the panel's framing line verbatim in substance: the twisting is demon-defilement — "when demons move through the environment and they defile the environment, the creatures in the environment sometimes get twisted." The Twisted panel now opens: "one of the land's own creatures, twisted where the demons moved through and defiled the country around it." Text only; no mechanics changed.
+
+---
+
+## Feature toggles — v1.15 (2026-11-11) — Shaun: "Make them toggles too"
+
+Shaun's ruling (AI DM voice call, recorded in canon): the Badlands bleed, the Steampunk machine weighting, and the steamcraft gear drops each get their own on/off toggle beside the overlay switches. Built exactly so: three feature toggles under the overlay toggles in the Roller — **Badlands bleed**, **Machine weighting**, **Gear drops** — each defaulting **ON** (they are his rulings), each persisting per device (`apocEncBleed` / `apocEncWeight` / `apocEncGear`), each gating **only its own feature**: the bleed toggle off means landscape rolls never bleed (the Badlands layer's conditions still show); the weighting toggle off means Steampunk rolls stand as rolled (the rewrite and drops still apply); the gear toggle off means no drop line (the rewrite and weighting still apply). A feature still needs its overlay on to do anything at all. All three are ordinary buttons under the platform treatment — movable, nestable, persistent — like every other switch on the page.
+- Verification: `test3.mjs` extended (toggles exist and default ON; bleed queued-sequence suppressed with its toggle off, marks absent; Swamp roll stands as the Raven with weighting off; drop line absent with gear off; states persisted and restored) — full suite PASS.
