@@ -83,9 +83,6 @@ summary{cursor:pointer;color:var(--accent-foreground)}
 <div id="panel">
 <div class="piece" data-piece="roller"><h1>APOC Encounter Roller (d100)</h1>
 <label>Table <select id="tbl"></select></label> <button id="roll">Roll d100</button> <button id="previewBtn">Preview table</button> <button id="reset">Reset layout</button></div>
-<div class="piece" data-piece="result"><div id="result">Pick a table and roll. Dragons haven't been seen in a thousand years — no roll produces one.</div></div>
-<div class="piece" data-piece="preview"><div id="preview"></div></div>
-<div class="piece" data-piece="history"><div id="history"></div></div>
 <style>
 .tools{margin-top:10px}
 .tools .tbtn{margin:2px 2px 6px 0}
@@ -174,6 +171,10 @@ summary{cursor:pointer;color:var(--accent-foreground)}
 <div class="out" id="xOut"></div>
 </div>
 </div>
+
+<div class="piece" data-piece="result"><div id="result">Pick a table and roll. Dragons haven't been seen in a thousand years — no roll produces one.</div></div>
+<div class="piece" data-piece="preview"><div id="preview"></div></div>
+<div class="piece" data-piece="history"><div id="history"></div></div>
 </div>
 <div id="lightbox"><button id="lbClose">✕ Close</button><img id="lbImg" alt=""><div class="cap" id="lbCap"></div><div class="hint">Click anywhere or press Esc to close</div></div>
 <script>

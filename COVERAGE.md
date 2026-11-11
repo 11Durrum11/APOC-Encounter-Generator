@@ -282,3 +282,11 @@ The page background is now a **full-screen slideshow of all the monsters**: ever
 - Readability treatment: each slide is dimmed (`brightness(.5) saturate(.85)`) and the Campaign Tracker's exact darkening wash gradient from v1.4.0 still overlays the backdrop, so the parchment-on-dark UI keeps its contrast under the platform's high-contrast rules. Panels, buttons, dropdowns, tools, and the lightbox keep the tracker palette unchanged; the v1.4.0 static scene backdrop is retired in the slideshow's favor.
 - The slideshow reads its pictures from the same pool data as the roller — all 339 distinct placed creatures, each picture its own creature's (picture law unchanged); artwork itself is untouched.
 - Verification: new jsdom test `work/livecheck/test6.mjs` PASS (container + two layers fixed behind content at z −2, 2.8s crossfade, dimming filter, tracker wash present, pool carries 339/339 pictures, first slide showing is one of the 339); `verify.py`, `test3.mjs`, `test4.mjs`, `test5.mjs` all PASS.
+
+---
+
+## Tools bar moved up — v1.6 (2026-11-11) — Shaun's order (voice): "that bubble with the buttons on the bottom put under the APOC encounter roller, above the pick a table and roll button"
+
+The tools button bar (Encounter Builder / Monster Advancer / Chart Generator / Treasure / XP Calculator, with its tool panels) moved from the bottom of the page to **directly under the APOC Encounter Roller piece and above the Result piece** ("Pick a table and roll…"). Default flow order is now: Roller → Tools → Result → Table preview → Roll history. It is a default-arrangement change only — the treatment is untouched, so any layout Shaun has floated/locked himself still applies on top, and the bar remains its own movable, lockable piece.
+
+- Verification: `test5.mjs` gained a DOM-order assertion for the arrangement and passes with the full suite (`verify.py`, `test3`, `test4`, `test6`) on the staging build.
