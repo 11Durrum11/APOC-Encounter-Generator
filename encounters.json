@@ -92,7 +92,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 7,
+     "high": 70,
      "name": "Fiendish Symbiont, Fiendish Familiar",
      "cr": 0.125,
      "number": "Solitary (see source book)",
@@ -112,8 +112,8 @@
      }
     },
     {
-     "low": 8,
-     "high": 13,
+     "low": 71,
+     "high": 130,
      "name": "Nerra, Varoot",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -133,8 +133,8 @@
      }
     },
     {
-     "low": 14,
-     "high": 20,
+     "low": 131,
+     "high": 200,
      "name": "Desiccator",
      "cr": 2.0,
      "number": "Solitary or gang (2\u20135)",
@@ -157,8 +157,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 21,
-     "high": 27,
+     "low": 201,
+     "high": 270,
      "name": "Vasuthant",
      "cr": 2.0,
      "number": "Solitary",
@@ -181,8 +181,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 28,
-     "high": 33,
+     "low": 271,
+     "high": 330,
      "name": "Tin Golem",
      "cr": 3.0,
      "number": "Solitary, pair, or gang (3\u20134)",
@@ -204,8 +204,8 @@
      }
     },
     {
-     "low": 34,
-     "high": 39,
+     "low": 331,
+     "high": 390,
      "name": "Rutterkin",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -227,8 +227,8 @@
      }
     },
     {
-     "low": 40,
-     "high": 45,
+     "low": 391,
+     "high": 450,
      "name": "Flameskull",
      "cr": 4.0,
      "number": "Solitary or company (3\u201312)",
@@ -251,8 +251,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 46,
-     "high": 50,
+     "low": 451,
+     "high": 500,
      "name": "Gravetouched Ghoul Harpy",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -275,8 +275,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 51,
-     "high": 55,
+     "low": 501,
+     "high": 550,
      "name": "Karina",
      "cr": 5.0,
      "number": "Solitary, gang (2-6)",
@@ -298,8 +298,8 @@
      }
     },
     {
-     "low": 56,
-     "high": 60,
+     "low": 551,
+     "high": 600,
      "name": "Bloodmote Cloud",
      "cr": 6.0,
      "number": "Solitary, cloud (2\u20134 swarms), or infestation (7\u201312 swarms)",
@@ -322,8 +322,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 61,
-     "high": 65,
+     "low": 601,
+     "high": 650,
      "name": "Lesser Spawn of Juiblex",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -343,8 +343,8 @@
      }
     },
     {
-     "low": 66,
-     "high": 70,
+     "low": 651,
+     "high": 700,
      "name": "Cinder Ghoul",
      "cr": 7.0,
      "number": "Solitary, gang (2\u20135), or mob (6\u201311)",
@@ -367,8 +367,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 71,
-     "high": 74,
+     "low": 701,
+     "high": 740,
      "name": "Mohrg",
      "cr": 8.0,
      "number": "Solitary, gang (2\u20134), or mob (2\u20134 plus 5\u201310 zombies)",
@@ -391,8 +391,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 75,
-     "high": 79,
+     "low": 741,
+     "high": 790,
      "name": "Shadow Demon",
      "cr": 8.0,
      "number": "Solitary",
@@ -414,8 +414,8 @@
      }
     },
     {
-     "low": 80,
-     "high": 83,
+     "low": 791,
+     "high": 830,
      "name": "Kappa",
      "cr": 9.0,
      "number": "Solitary",
@@ -437,8 +437,8 @@
      }
     },
     {
-     "low": 84,
-     "high": 86,
+     "low": 831,
+     "high": 860,
      "name": "Cerebrilith",
      "cr": 10.0,
      "number": "Solitary or gang (2\u20134)",
@@ -460,8 +460,8 @@
      }
     },
     {
-     "low": 87,
-     "high": 89,
+     "low": 861,
+     "high": 890,
      "name": "Demon, Kastighur",
      "cr": 11,
      "number": "Solitary or pair (Fox Hunt, EL 16: two kastighurs \u2014 MM4 p.43; kastighurs typically serve more intelligent and powerful demons as hunters and jailers)",
@@ -481,8 +481,8 @@
      }
     },
     {
-     "low": 90,
-     "high": 92,
+     "low": 891,
+     "high": 920,
      "name": "Infernal Soul Stalker",
      "cr": 12.0,
      "number": "Solitary (see source book)",
@@ -502,8 +502,8 @@
      }
     },
     {
-     "low": 93,
-     "high": 95,
+     "low": 921,
+     "high": 950,
      "name": "Blood Fiend",
      "cr": 14.0,
      "number": "Solitary, pair, or gang (3\u20135)",
@@ -527,8 +527,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 96,
-     "high": 97,
+     "low": 951,
+     "high": 970,
      "name": "Dream Vestige",
      "cr": 16.0,
      "number": "Solitary",
@@ -552,8 +552,8 @@
      "leadership": true
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Lifespark Construct",
      "cr": 18.0,
      "number": "Solitary",
@@ -575,8 +575,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 99,
+     "low": 981,
+     "high": 990,
      "name": "Isitwalangcengce",
      "cr": 21.0,
      "number": "Solitary",
@@ -598,8 +598,8 @@
      }
     },
     {
-     "low": 100,
-     "high": 100,
+     "low": 991,
+     "high": 1000,
      "name": "Saint James",
      "cr": 15.0,
      "number": "1 (plus sentient telepathic dire crocodile partner and flying tavern ST-JAMES \u2014 Booze and Magic; crew of unseen servants / invisible stalkers)",
@@ -628,7 +628,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 6,
+     "high": 60,
      "name": "Toad",
      "cr": 0.1,
      "number": "Solitary (see source book)",
@@ -648,8 +648,8 @@
      }
     },
     {
-     "low": 7,
-     "high": 12,
+     "low": 61,
+     "high": 120,
      "name": "Kenku",
      "cr": 0.5,
      "number": "Solitary (see source book)",
@@ -669,8 +669,8 @@
      }
     },
     {
-     "low": 13,
-     "high": 18,
+     "low": 121,
+     "high": 180,
      "name": "Raggamoffyn",
      "cr": 1.0,
      "number": "Solitary, pair, or gang (3\u20136)",
@@ -692,8 +692,8 @@
      }
     },
     {
-     "low": 19,
-     "high": 25,
+     "low": 181,
+     "high": 250,
      "name": "Desiccator",
      "cr": 2.0,
      "number": "Solitary or gang (2\u20135)",
@@ -716,8 +716,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 26,
-     "high": 31,
+     "low": 251,
+     "high": 310,
      "name": "Swarm, Bat",
      "cr": 2.0,
      "number": "Solitary, cloud (2\u20134 swarms), or infestation (7\u201312 swarms)",
@@ -738,8 +738,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 32,
-     "high": 36,
+     "low": 311,
+     "high": 360,
      "name": "Dinosaur, Deinonychus",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -759,8 +759,8 @@
      }
     },
     {
-     "low": 37,
-     "high": 42,
+     "low": 361,
+     "high": 420,
      "name": "Carrionette",
      "cr": 3.0,
      "number": "Solitary or pack (2d4)",
@@ -783,8 +783,8 @@
      }
     },
     {
-     "low": 43,
-     "high": 47,
+     "low": 421,
+     "high": 470,
      "name": "Crocodile, Giant",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -804,8 +804,8 @@
      }
     },
     {
-     "low": 48,
-     "high": 52,
+     "low": 471,
+     "high": 520,
      "name": "Schir",
      "cr": 4.0,
      "number": "Solitary or pack (3\u20138)",
@@ -827,8 +827,8 @@
      }
     },
     {
-     "low": 53,
-     "high": 57,
+     "low": 521,
+     "high": 570,
      "name": "Deadly Sin, Gluttony",
      "cr": 5.0,
      "number": "Solitary",
@@ -850,8 +850,8 @@
      }
     },
     {
-     "low": 58,
-     "high": 63,
+     "low": 571,
+     "high": 630,
      "name": "Mummy",
      "cr": 5.0,
      "number": "Solitary, warden squad (2\u20134), or guardian detail (6\u201310)",
@@ -874,8 +874,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 64,
-     "high": 67,
+     "low": 631,
+     "high": 670,
      "name": "Caryatid Column",
      "cr": 6.0,
      "number": "Solitary, corbel (2), or colonnade (4\u201324)",
@@ -897,8 +897,8 @@
      }
     },
     {
-     "low": 68,
-     "high": 71,
+     "low": 671,
+     "high": 710,
      "name": "Tainted Minion",
      "cr": 6.0,
      "number": "Solitary or gang (2\u20135)",
@@ -921,8 +921,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 72,
-     "high": 76,
+     "low": 711,
+     "high": 760,
      "name": "Groaning Spirit",
      "cr": 7.0,
      "number": "Solitary                                        Groaning spirits are the bane of other undead, and",
@@ -945,8 +945,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 77,
-     "high": 81,
+     "low": 761,
+     "high": 810,
      "name": "Black Troll",
      "cr": 8.0,
      "number": "Solitary",
@@ -969,8 +969,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 82,
-     "high": 85,
+     "low": 811,
+     "high": 850,
      "name": "Shetan",
      "cr": 8.0,
      "number": "Solitary, gang (2-6)",
@@ -992,8 +992,8 @@
      }
     },
     {
-     "low": 86,
-     "high": 88,
+     "low": 851,
+     "high": 880,
      "name": "Mastodon",
      "cr": 9,
      "number": "Solitary (see source book)",
@@ -1013,8 +1013,8 @@
      }
     },
     {
-     "low": 89,
-     "high": 91,
+     "low": 881,
+     "high": 910,
      "name": "Githyanki Captain",
      "cr": 10,
      "number": "Solitary (see source book)",
@@ -1034,8 +1034,8 @@
      }
     },
     {
-     "low": 92,
-     "high": 94,
+     "low": 911,
+     "high": 940,
      "name": "The Lord of Blades",
      "cr": 12.0,
      "number": "Solitary (see source book)",
@@ -1057,8 +1057,8 @@
      }
     },
     {
-     "low": 95,
-     "high": 97,
+     "low": 941,
+     "high": 970,
      "name": "Boneyard",
      "cr": 14.0,
      "number": "Solitary",
@@ -1081,8 +1081,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Hellfire Golem",
      "cr": 17.0,
      "number": "Solitary",
@@ -1104,8 +1104,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Crawling Head",
      "cr": 20.0,
      "number": "Solitary",
@@ -1136,7 +1136,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 5,
+     "high": 50,
      "name": "Toad",
      "cr": 0.1,
      "number": "Solitary (see source book)",
@@ -1156,8 +1156,8 @@
      }
     },
     {
-     "low": 6,
-     "high": 11,
+     "low": 51,
+     "high": 110,
      "name": "Eagle",
      "cr": 0.5,
      "number": "Solitary (see source book)",
@@ -1179,8 +1179,8 @@
      }
     },
     {
-     "low": 12,
-     "high": 17,
+     "low": 111,
+     "high": 170,
      "name": "Trollkin",
      "cr": 0.5,
      "number": "Solitary (see source book)",
@@ -1200,8 +1200,8 @@
      }
     },
     {
-     "low": 18,
-     "high": 23,
+     "low": 171,
+     "high": 230,
      "name": "Mule",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -1223,8 +1223,8 @@
      }
     },
     {
-     "low": 24,
-     "high": 29,
+     "low": 231,
+     "high": 290,
      "name": "Abyssal Skulker",
      "cr": 2.0,
      "number": "Solitary, pair, or gang (3\u20135)",
@@ -1246,8 +1246,8 @@
      }
     },
     {
-     "low": 30,
-     "high": 34,
+     "low": 291,
+     "high": 340,
      "name": "Greenspawn Leaper",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -1267,8 +1267,8 @@
      }
     },
     {
-     "low": 35,
-     "high": 40,
+     "low": 341,
+     "high": 400,
      "name": "Sythyss",
      "cr": 2.0,
      "number": "Solitary or gang (2\u20135)",
@@ -1291,8 +1291,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 41,
-     "high": 45,
+     "low": 401,
+     "high": 450,
      "name": "Devil Rat Swarm",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -1312,8 +1312,8 @@
      }
     },
     {
-     "low": 46,
-     "high": 50,
+     "low": 451,
+     "high": 500,
      "name": "Owl, Giant",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -1333,8 +1333,8 @@
      }
     },
     {
-     "low": 51,
-     "high": 55,
+     "low": 501,
+     "high": 550,
      "name": "Bluespawn Ambusher",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -1354,8 +1354,8 @@
      }
     },
     {
-     "low": 56,
-     "high": 60,
+     "low": 551,
+     "high": 600,
      "name": "Myconid Guard",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -1375,8 +1375,8 @@
      }
     },
     {
-     "low": 61,
-     "high": 65,
+     "low": 601,
+     "high": 650,
      "name": "Avvite",
      "cr": 5.0,
      "number": "Solitary or pack (1 avvite dire wolf and 4\u20137 followers)",
@@ -1398,8 +1398,8 @@
      }
     },
     {
-     "low": 66,
-     "high": 70,
+     "low": 651,
+     "high": 700,
      "name": "Cadaver Lord",
      "cr": 5.0,
      "number": "Solitary or troupe (cadaver lord plus 1\u20134 cadavers)",
@@ -1422,8 +1422,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 71,
-     "high": 74,
+     "low": 701,
+     "high": 740,
      "name": "Dinosaur, Bloodstriker",
      "cr": 6,
      "number": "Solitary (see source book)",
@@ -1443,8 +1443,8 @@
      }
     },
     {
-     "low": 75,
-     "high": 79,
+     "low": 741,
+     "high": 790,
      "name": "Voidwraith",
      "cr": 6.0,
      "number": "Solitary, pair, or gang (3\u20135)",
@@ -1467,8 +1467,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 80,
-     "high": 83,
+     "low": 791,
+     "high": 830,
      "name": "Greenspawn Razorfiend",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -1488,8 +1488,8 @@
      }
     },
     {
-     "low": 84,
-     "high": 87,
+     "low": 831,
+     "high": 870,
      "name": "Deadborn Vulture",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -1511,8 +1511,8 @@
      }
     },
     {
-     "low": 88,
-     "high": 90,
+     "low": 871,
+     "high": 900,
      "name": "Blackspawn Stalker",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -1532,8 +1532,8 @@
      }
     },
     {
-     "low": 91,
-     "high": 93,
+     "low": 901,
+     "high": 930,
      "name": "Dire Elephant",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -1553,8 +1553,8 @@
      }
     },
     {
-     "low": 94,
-     "high": 96,
+     "low": 931,
+     "high": 960,
      "name": "Tatzylwurm, Black",
      "cr": 11.0,
      "number": "Solitary (see source book)",
@@ -1574,8 +1574,8 @@
      }
     },
     {
-     "low": 97,
-     "high": 99,
+     "low": 961,
+     "high": 990,
      "name": "Riven",
      "cr": 13.0,
      "number": "Solitary",
@@ -1599,8 +1599,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 100,
-     "high": 100,
+     "low": 991,
+     "high": 1000,
      "name": "Elite Demon War Mount",
      "cr": 16,
      "number": "Solitary (see source book)",
@@ -1627,7 +1627,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 5,
+     "high": 50,
      "name": "Kobold",
      "cr": 0.25,
      "number": "Solitary (see source book)",
@@ -1649,8 +1649,8 @@
      }
     },
     {
-     "low": 6,
-     "high": 10,
+     "low": 51,
+     "high": 100,
      "name": "Gnome, Forest",
      "cr": 0.5,
      "number": "Solitary (see source book)",
@@ -1670,8 +1670,8 @@
      }
     },
     {
-     "low": 11,
-     "high": 18,
+     "low": 101,
+     "high": 180,
      "name": "Bram Holt",
      "cr": 1.0,
      "number": "Solitary",
@@ -1693,8 +1693,8 @@
      }
     },
     {
-     "low": 19,
-     "high": 24,
+     "low": 181,
+     "high": 240,
      "name": "Raiment",
      "cr": 1.0,
      "number": "Solitary",
@@ -1717,8 +1717,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 25,
-     "high": 30,
+     "low": 241,
+     "high": 300,
      "name": "Baneguard",
      "cr": 2.0,
      "number": "Solitary, pair, or squad (3\u201310)",
@@ -1741,8 +1741,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 31,
-     "high": 36,
+     "low": 301,
+     "high": 360,
      "name": "Malachi Vane",
      "cr": 2.0,
      "number": "Solitary",
@@ -1764,8 +1764,8 @@
      }
     },
     {
-     "low": 37,
-     "high": 41,
+     "low": 361,
+     "high": 410,
      "name": "Bile Thrall",
      "cr": 3.0,
      "number": "Solitary or troop (6-10); often accompa-",
@@ -1789,8 +1789,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 42,
-     "high": 46,
+     "low": 411,
+     "high": 460,
      "name": "Hoar Spirit",
      "cr": 3.0,
      "number": "Pack (2\u20135) or gang (6\u201311)",
@@ -1813,8 +1813,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 47,
-     "high": 51,
+     "low": 461,
+     "high": 510,
      "name": "Skin Kite",
      "cr": 3.0,
      "number": "Solitary, pair, or flock (5\u20138)",
@@ -1837,8 +1837,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 52,
-     "high": 56,
+     "low": 511,
+     "high": 560,
      "name": "Draug",
      "cr": 4.0,
      "number": "Solitary or crew (1 draug plus 6-11 brine",
@@ -1861,8 +1861,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 57,
-     "high": 60,
+     "low": 561,
+     "high": 600,
      "name": "Orc Berserker",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -1882,8 +1882,8 @@
      }
     },
     {
-     "low": 61,
-     "high": 65,
+     "low": 601,
+     "high": 650,
      "name": "Anvil-7",
      "cr": 5.0,
      "number": "Solitary",
@@ -1905,8 +1905,8 @@
      }
     },
     {
-     "low": 66,
-     "high": 70,
+     "low": 651,
+     "high": 700,
      "name": "Cadaver Lord",
      "cr": 5.0,
      "number": "Solitary or troupe (cadaver lord plus 1\u20134 cadavers)",
@@ -1929,8 +1929,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 71,
-     "high": 75,
+     "low": 701,
+     "high": 750,
      "name": "Darnoc",
      "cr": 6.0,
      "number": "Solitary or gang (2-4)",
@@ -1953,8 +1953,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 76,
-     "high": 79,
+     "low": 751,
+     "high": 790,
      "name": "Apparition",
      "cr": 7.0,
      "number": "Solitary or gang (2-4)                                                              succeeds, the victim",
@@ -1977,8 +1977,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 80,
-     "high": 83,
+     "low": 791,
+     "high": 830,
      "name": "Groaning Spirit",
      "cr": 7.0,
      "number": "Solitary                                        Groaning spirits are the bane of other undead, and",
@@ -2001,8 +2001,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 84,
-     "high": 86,
+     "low": 831,
+     "high": 860,
      "name": "Bladerager Troll",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -2022,8 +2022,8 @@
      }
     },
     {
-     "low": 87,
-     "high": 90,
+     "low": 861,
+     "high": 900,
      "name": "Scylla Flock",
      "cr": 8.0,
      "number": "Solitary, flight (2\u20134), or colony (5\u201310)",
@@ -2046,8 +2046,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 91,
-     "high": 93,
+     "low": 901,
+     "high": 930,
      "name": "Aspect of Vecna",
      "cr": 10.0,
      "number": "Solitary",
@@ -2071,8 +2071,8 @@
      "leadership": true
     },
     {
-     "low": 94,
-     "high": 96,
+     "low": 931,
+     "high": 960,
      "name": "Devourer",
      "cr": 11.0,
      "number": "Solitary",
@@ -2095,8 +2095,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 97,
-     "high": 99,
+     "low": 961,
+     "high": 990,
      "name": "Jarilith",
      "cr": 13.0,
      "number": "Solitary, pair, or pride (6\u201310)",
@@ -2118,8 +2118,8 @@
      }
     },
     {
-     "low": 100,
-     "high": 100,
+     "low": 991,
+     "high": 1000,
      "name": "Giant, Eldritch",
      "cr": 15,
      "number": "Solitary",
@@ -2146,7 +2146,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 7,
+     "high": 70,
      "name": "Moonrat",
      "cr": 0.25,
      "number": "Solitary (see source book)",
@@ -2166,8 +2166,8 @@
      }
     },
     {
-     "low": 8,
-     "high": 13,
+     "low": 71,
+     "high": 130,
      "name": "Krenshar",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -2187,8 +2187,8 @@
      }
     },
     {
-     "low": 14,
-     "high": 19,
+     "low": 131,
+     "high": 190,
      "name": "Greenspawn Leaper",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -2208,8 +2208,8 @@
      }
     },
     {
-     "low": 20,
-     "high": 25,
+     "low": 191,
+     "high": 250,
      "name": "Worg",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -2229,8 +2229,8 @@
      }
     },
     {
-     "low": 26,
-     "high": 32,
+     "low": 251,
+     "high": 320,
      "name": "Hoar Spirit",
      "cr": 3.0,
      "number": "Pack (2\u20135) or gang (6\u201311)",
@@ -2253,8 +2253,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 33,
-     "high": 38,
+     "low": 321,
+     "high": 380,
      "name": "Yuan-ti Pureblood",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -2274,8 +2274,8 @@
      }
     },
     {
-     "low": 39,
-     "high": 43,
+     "low": 381,
+     "high": 430,
      "name": "Owlbear",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -2295,8 +2295,8 @@
      }
     },
     {
-     "low": 44,
-     "high": 48,
+     "low": 431,
+     "high": 480,
      "name": "Cyclops",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -2316,8 +2316,8 @@
      }
     },
     {
-     "low": 49,
-     "high": 54,
+     "low": 481,
+     "high": 540,
      "name": "Shaft Wight",
      "cr": 5.0,
      "number": "Solitary or small band (2\u20136)",
@@ -2340,8 +2340,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 55,
-     "high": 59,
+     "low": 541,
+     "high": 590,
      "name": "Bluespawn Stormlizard",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -2361,8 +2361,8 @@
      }
     },
     {
-     "low": 60,
-     "high": 64,
+     "low": 591,
+     "high": 640,
      "name": "Redspawn Arcaniss",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -2382,8 +2382,8 @@
      }
     },
     {
-     "low": 65,
-     "high": 68,
+     "low": 641,
+     "high": 680,
      "name": "Chimera",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -2403,8 +2403,8 @@
      }
     },
     {
-     "low": 69,
-     "high": 72,
+     "low": 681,
+     "high": 720,
      "name": "Yuan-ti Abomination",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -2424,8 +2424,8 @@
      }
     },
     {
-     "low": 73,
-     "high": 76,
+     "low": 721,
+     "high": 760,
      "name": "Ken-Kuni",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -2445,8 +2445,8 @@
      }
     },
     {
-     "low": 77,
-     "high": 80,
+     "low": 761,
+     "high": 800,
      "name": "Bluespawn Burrower",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -2466,8 +2466,8 @@
      }
     },
     {
-     "low": 81,
-     "high": 84,
+     "low": 801,
+     "high": 840,
      "name": "Rylkar Harridan",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -2487,8 +2487,8 @@
      }
     },
     {
-     "low": 85,
-     "high": 87,
+     "low": 841,
+     "high": 870,
      "name": "Ken-Li",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -2508,8 +2508,8 @@
      }
     },
     {
-     "low": 88,
-     "high": 90,
+     "low": 871,
+     "high": 900,
      "name": "Giant, Cloud",
      "cr": 11.0,
      "number": "Solitary (see source book)",
@@ -2529,8 +2529,8 @@
      }
     },
     {
-     "low": 91,
-     "high": 93,
+     "low": 901,
+     "high": 930,
      "name": "Brood Keeper Larva Swarm",
      "cr": 12,
      "number": "Solitary (see source book)",
@@ -2550,8 +2550,8 @@
      }
     },
     {
-     "low": 94,
-     "high": 96,
+     "low": 931,
+     "high": 960,
      "name": "Tatzylwurm, Pale",
      "cr": 12.0,
      "number": "Solitary (see source book)",
@@ -2571,8 +2571,8 @@
      }
     },
     {
-     "low": 97,
-     "high": 99,
+     "low": 961,
+     "high": 990,
      "name": "Deathshrieker",
      "cr": 15.0,
      "number": "Solitary",
@@ -2595,8 +2595,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 100,
-     "high": 100,
+     "low": 991,
+     "high": 1000,
      "name": "Lucent Worm",
      "cr": 17.0,
      "number": "Solitary (see source book)",
@@ -2623,7 +2623,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 6,
+     "high": 60,
      "name": "Giant Fire Beetle",
      "cr": 0.3333333333333333,
      "number": "Solitary (see source book)",
@@ -2643,8 +2643,8 @@
      }
     },
     {
-     "low": 7,
-     "high": 12,
+     "low": 61,
+     "high": 120,
      "name": "Camel",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -2664,8 +2664,8 @@
      }
     },
     {
-     "low": 13,
-     "high": 18,
+     "low": 121,
+     "high": 180,
      "name": "Giant Bee",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -2685,8 +2685,8 @@
      }
     },
     {
-     "low": 19,
-     "high": 24,
+     "low": 181,
+     "high": 240,
      "name": "Moonwing",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -2706,8 +2706,8 @@
      }
     },
     {
-     "low": 25,
-     "high": 30,
+     "low": 241,
+     "high": 300,
      "name": "Thri-Kreen",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -2727,8 +2727,8 @@
      }
     },
     {
-     "low": 31,
-     "high": 35,
+     "low": 301,
+     "high": 350,
      "name": "Giant Bombardier Beetle",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -2748,8 +2748,8 @@
      }
     },
     {
-     "low": 36,
-     "high": 40,
+     "low": 351,
+     "high": 400,
      "name": "Monstrous Centipede",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -2769,8 +2769,8 @@
      }
     },
     {
-     "low": 41,
-     "high": 45,
+     "low": 401,
+     "high": 450,
      "name": "Armand",
      "cr": 3,
      "number": "Solitary (see source book)",
@@ -2790,8 +2790,8 @@
      }
     },
     {
-     "low": 46,
-     "high": 50,
+     "low": 451,
+     "high": 500,
      "name": "Cataphract Beetle",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -2811,8 +2811,8 @@
      }
     },
     {
-     "low": 51,
-     "high": 55,
+     "low": 501,
+     "high": 550,
      "name": "Giant Wasp",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -2832,8 +2832,8 @@
      }
     },
     {
-     "low": 56,
-     "high": 60,
+     "low": 551,
+     "high": 600,
      "name": "Lolth-Touched Monstrous Hunting Spider",
      "cr": 3,
      "number": "Solitary (see source book)",
@@ -2853,8 +2853,8 @@
      }
     },
     {
-     "low": 61,
-     "high": 65,
+     "low": 601,
+     "high": 650,
      "name": "Swarm, Locust",
      "cr": 3.0,
      "number": "Solitary, cloud (2\u20134 swarms), or infestation (7\u201312 swarms)",
@@ -2875,8 +2875,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 66,
-     "high": 70,
+     "low": 651,
+     "high": 700,
      "name": "Giant Stag Beetle",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -2896,8 +2896,8 @@
      }
     },
     {
-     "low": 71,
-     "high": 74,
+     "low": 701,
+     "high": 740,
      "name": "Harssaf",
      "cr": 5,
      "number": "Solitary (see source book)",
@@ -2917,8 +2917,8 @@
      }
     },
     {
-     "low": 75,
-     "high": 78,
+     "low": 741,
+     "high": 780,
      "name": "Chelicera",
      "cr": 6,
      "number": "Solitary (see source book)",
@@ -2938,8 +2938,8 @@
      }
     },
     {
-     "low": 79,
-     "high": 82,
+     "low": 781,
+     "high": 820,
      "name": "Swarm, Locust, Rapture",
      "cr": 6.0,
      "number": "Solitary, cloud (2\u20134 swarms), or infestation (7\u201312 swarms)",
@@ -2960,8 +2960,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 83,
-     "high": 86,
+     "low": 821,
+     "high": 860,
      "name": "Swarm, Locust, Bloodfiend",
      "cr": 8.0,
      "number": "Solitary, cloud (2\u20134 swarms), or infestation (7\u201312 swarms)",
@@ -2982,8 +2982,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 87,
-     "high": 89,
+     "low": 861,
+     "high": 890,
      "name": "Ethon",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -3005,8 +3005,8 @@
      }
     },
     {
-     "low": 90,
-     "high": 93,
+     "low": 891,
+     "high": 930,
      "name": "Sand Dervish",
      "cr": 10.0,
      "number": "Solitary",
@@ -3029,8 +3029,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 94,
-     "high": 97,
+     "low": 931,
+     "high": 970,
      "name": "Crawling Apocalypse",
      "cr": 11.0,
      "number": "Solitary",
@@ -3053,8 +3053,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Desert Hydra (5-headed)",
      "cr": 15.0,
      "number": "Solitary (see source book)",
@@ -3074,8 +3074,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Dry Lich",
      "cr": 18.0,
      "number": "Solitary",
@@ -3106,7 +3106,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 6,
+     "high": 60,
      "name": "Raven",
      "cr": 0.16666666666666666,
      "number": "Solitary (see source book)",
@@ -3129,8 +3129,8 @@
      }
     },
     {
-     "low": 7,
-     "high": 12,
+     "low": 61,
+     "high": 120,
      "name": "Warforged",
      "cr": 0.5,
      "number": "Solitary (see source book)",
@@ -3154,8 +3154,8 @@
      }
     },
     {
-     "low": 13,
-     "high": 18,
+     "low": 121,
+     "high": 180,
      "name": "Shadar-Kai",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -3175,8 +3175,8 @@
      }
     },
     {
-     "low": 19,
-     "high": 24,
+     "low": 181,
+     "high": 240,
      "name": "Dire Maggot",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -3198,8 +3198,8 @@
      }
     },
     {
-     "low": 25,
-     "high": 30,
+     "low": 241,
+     "high": 300,
      "name": "Sickening Sleep",
      "cr": 2,
      "number": "Solitary (see source book)",
@@ -3219,8 +3219,8 @@
      }
     },
     {
-     "low": 31,
-     "high": 36,
+     "low": 301,
+     "high": 360,
      "name": "Boggle",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -3240,8 +3240,8 @@
      }
     },
     {
-     "low": 37,
-     "high": 42,
+     "low": 361,
+     "high": 420,
      "name": "Monstrous Scorpion",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -3261,8 +3261,8 @@
      }
     },
     {
-     "low": 43,
-     "high": 47,
+     "low": 421,
+     "high": 470,
      "name": "Arkamoi",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -3282,8 +3282,8 @@
      }
     },
     {
-     "low": 48,
-     "high": 52,
+     "low": 471,
+     "high": 520,
      "name": "Nagatha",
      "cr": 4,
      "number": "Solitary (see source book)",
@@ -3303,8 +3303,8 @@
      }
     },
     {
-     "low": 53,
-     "high": 57,
+     "low": 521,
+     "high": 570,
      "name": "Kobold Wraith",
      "cr": 5.0,
      "number": "Solitary, pair, gang (3\u20135), or pack (6\u201311).",
@@ -3327,8 +3327,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 58,
-     "high": 62,
+     "low": 571,
+     "high": 620,
      "name": "Bog Mummy",
      "cr": 6.0,
      "number": "Solitary, warden squad (2-4), or guard-",
@@ -3351,8 +3351,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 63,
-     "high": 67,
+     "low": 621,
+     "high": 670,
      "name": "Catoblepas",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -3372,8 +3372,8 @@
      }
     },
     {
-     "low": 68,
-     "high": 72,
+     "low": 671,
+     "high": 720,
      "name": "Redspawn Arcaniss",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -3393,8 +3393,8 @@
      }
     },
     {
-     "low": 73,
-     "high": 76,
+     "low": 721,
+     "high": 760,
      "name": "Darktentacles",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -3414,8 +3414,8 @@
      }
     },
     {
-     "low": 77,
-     "high": 80,
+     "low": 761,
+     "high": 800,
      "name": "Apparition",
      "cr": 7.0,
      "number": "Solitary or gang (2-4)                                                              succeeds, the victim",
@@ -3438,8 +3438,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 81,
-     "high": 84,
+     "low": 801,
+     "high": 840,
      "name": "Blackwing",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -3462,8 +3462,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 85,
-     "high": 88,
+     "low": 841,
+     "high": 880,
      "name": "Doru, Infectious Blasheme",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -3486,8 +3486,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 89,
-     "high": 91,
+     "low": 881,
+     "high": 910,
      "name": "Forest Haunt",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -3510,8 +3510,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 92,
-     "high": 94,
+     "low": 911,
+     "high": 940,
      "name": "Skindancer",
      "cr": 11,
      "number": "Solitary (see source book)",
@@ -3531,8 +3531,8 @@
      }
     },
     {
-     "low": 95,
-     "high": 97,
+     "low": 941,
+     "high": 970,
      "name": "Twilight Sisters",
      "cr": 12.0,
      "number": "Solitary (see source book)",
@@ -3552,8 +3552,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Siege Beetle",
      "cr": 16.0,
      "number": "Solitary (see source book)",
@@ -3573,8 +3573,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "The Black Duke",
      "cr": 19.0,
      "number": "Solitary (see source book)",
@@ -3605,7 +3605,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 9,
+     "high": 90,
      "name": "Cullenrock Barnacle",
      "cr": 0.5,
      "number": "Solitary (see source book)",
@@ -3625,8 +3625,8 @@
      }
     },
     {
-     "low": 10,
-     "high": 15,
+     "low": 91,
+     "high": 150,
      "name": "Bog Trog",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -3646,8 +3646,8 @@
      }
     },
     {
-     "low": 16,
-     "high": 21,
+     "low": 151,
+     "high": 210,
      "name": "Selkie",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -3667,8 +3667,8 @@
      }
     },
     {
-     "low": 22,
-     "high": 28,
+     "low": 211,
+     "high": 280,
      "name": "Zombie, Brine",
      "cr": 1.0,
      "number": "Gang (2-4) or crew (6-11)",
@@ -3691,8 +3691,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 29,
-     "high": 34,
+     "low": 281,
+     "high": 340,
      "name": "Sahuagin, Malenti",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -3712,8 +3712,8 @@
      }
     },
     {
-     "low": 35,
-     "high": 40,
+     "low": 341,
+     "high": 400,
      "name": "Dinosaur, Cryptoclidus",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -3733,8 +3733,8 @@
      }
     },
     {
-     "low": 41,
-     "high": 46,
+     "low": 401,
+     "high": 460,
      "name": "Fire Bat",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -3754,8 +3754,8 @@
      }
     },
     {
-     "low": 47,
-     "high": 51,
+     "low": 461,
+     "high": 510,
      "name": "Gargoyle, Kapoacinth",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -3775,8 +3775,8 @@
      }
     },
     {
-     "low": 52,
-     "high": 56,
+     "low": 511,
+     "high": 560,
      "name": "Vine Horror",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -3796,8 +3796,8 @@
      }
     },
     {
-     "low": 57,
-     "high": 61,
+     "low": 561,
+     "high": 610,
      "name": "Troll, Scrag",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -3817,8 +3817,8 @@
      }
     },
     {
-     "low": 62,
-     "high": 66,
+     "low": 611,
+     "high": 660,
      "name": "Glaistig",
      "cr": 6,
      "number": "Solitary (see source book)",
@@ -3838,8 +3838,8 @@
      }
     },
     {
-     "low": 67,
-     "high": 71,
+     "low": 661,
+     "high": 710,
      "name": "Storm Elemental, Large",
      "cr": 6,
      "number": "Solitary (see source book)",
@@ -3859,8 +3859,8 @@
      }
     },
     {
-     "low": 72,
-     "high": 75,
+     "low": 711,
+     "high": 750,
      "name": "Chuul",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -3880,8 +3880,8 @@
      }
     },
     {
-     "low": 76,
-     "high": 79,
+     "low": 751,
+     "high": 790,
      "name": "Naga, Water",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -3901,8 +3901,8 @@
      }
     },
     {
-     "low": 80,
-     "high": 83,
+     "low": 791,
+     "high": 830,
      "name": "Octopus, Giant",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -3932,8 +3932,8 @@
       "undead"
      ],
      "type": "",
-     "low": 84,
-     "high": 87,
+     "low": 831,
+     "high": 870,
      "picture": {
       "file": "pictures/drowned.webp",
       "credit": "Undead roster picture index: official book art \u2014 official book art \u2014 Monster Manual III",
@@ -3946,8 +3946,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 88,
-     "high": 90,
+     "low": 871,
+     "high": 900,
      "name": "Ruin Elemental",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -3967,8 +3967,8 @@
      }
     },
     {
-     "low": 91,
-     "high": 93,
+     "low": 901,
+     "high": 930,
      "name": "Earth Weird",
      "cr": 12.0,
      "number": "Solitary (see source book)",
@@ -3988,8 +3988,8 @@
      }
     },
     {
-     "low": 94,
-     "high": 95,
+     "low": 931,
+     "high": 950,
      "name": "Cinder Swarm",
      "cr": 13,
      "number": "Solitary (see source book)",
@@ -4009,8 +4009,8 @@
      }
     },
     {
-     "low": 96,
-     "high": 97,
+     "low": 951,
+     "high": 970,
      "name": "Cyclonic Ravager",
      "cr": 15,
      "number": "Solitary (see source book)",
@@ -4030,8 +4030,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Aboleth Mage",
      "cr": 17.0,
      "number": "Solitary (see source book)",
@@ -4051,8 +4051,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Ocean Strider",
      "cr": 18.0,
      "number": "Solitary (see source book)",
@@ -4079,7 +4079,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 6,
+     "high": 60,
      "name": "Cerebral Symbiont, Mind Leech",
      "cr": 0.125,
      "number": "Solitary (see source book)",
@@ -4099,8 +4099,8 @@
      }
     },
     {
-     "low": 7,
-     "high": 12,
+     "low": 61,
+     "high": 120,
      "name": "Bram Holt",
      "cr": 1.0,
      "number": "Solitary",
@@ -4122,8 +4122,8 @@
      }
     },
     {
-     "low": 13,
-     "high": 18,
+     "low": 121,
+     "high": 180,
      "name": "Vasha Rook",
      "cr": 1.0,
      "number": "Solitary",
@@ -4145,8 +4145,8 @@
      }
     },
     {
-     "low": 19,
-     "high": 24,
+     "low": 181,
+     "high": 240,
      "name": "Lurking Strangler",
      "cr": 2,
      "number": "Solitary (see source book)",
@@ -4166,8 +4166,8 @@
      }
     },
     {
-     "low": 25,
-     "high": 30,
+     "low": 241,
+     "high": 300,
      "name": "Automaton Hammerer",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -4189,8 +4189,8 @@
      }
     },
     {
-     "low": 31,
-     "high": 37,
+     "low": 301,
+     "high": 370,
      "name": "Ghoul-Stirge",
      "cr": 3.0,
      "number": "Solitary, gang (2-4), or flock (5-8)",
@@ -4213,8 +4213,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 38,
-     "high": 44,
+     "low": 371,
+     "high": 440,
      "name": "Skulleton",
      "cr": 3.0,
      "number": "Solitary",
@@ -4237,8 +4237,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 45,
-     "high": 49,
+     "low": 441,
+     "high": 490,
      "name": "Gargoyle",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -4260,8 +4260,8 @@
      }
     },
     {
-     "low": 50,
-     "high": 54,
+     "low": 491,
+     "high": 540,
      "name": "Swarm, Centipede",
      "cr": 4.0,
      "number": "Solitary, cloud (2\u20134 swarms), or infestation (7\u201312 swarms)",
@@ -4282,8 +4282,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 55,
-     "high": 59,
+     "low": 541,
+     "high": 590,
      "name": "Howler Wasp Queen",
      "cr": 5,
      "number": "Solitary (see source book)",
@@ -4303,8 +4303,8 @@
      }
     },
     {
-     "low": 60,
-     "high": 64,
+     "low": 591,
+     "high": 640,
      "name": "Beholder, Gauth",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -4324,8 +4324,8 @@
      }
     },
     {
-     "low": 65,
-     "high": 69,
+     "low": 641,
+     "high": 690,
      "name": "Mummy Administrator",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -4348,8 +4348,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 70,
-     "high": 73,
+     "low": 691,
+     "high": 730,
      "name": "Dire Bear",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -4371,8 +4371,8 @@
      }
     },
     {
-     "low": 74,
-     "high": 77,
+     "low": 731,
+     "high": 770,
      "name": "Swordwraith",
      "cr": 7.0,
      "number": "Solitary, company (2\u20138), or squadron (11\u201320 plus 1 leader of 6th\u20139th level)",
@@ -4395,8 +4395,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 78,
-     "high": 81,
+     "low": 771,
+     "high": 810,
      "name": "Mindshredder Zenthal",
      "cr": 8,
      "number": "Solitary (see source book)",
@@ -4426,8 +4426,8 @@
       "undead"
      ],
      "type": "",
-     "low": 82,
-     "high": 85,
+     "low": 811,
+     "high": 850,
      "picture": {
       "file": "pictures/drowned.webp",
       "credit": "Undead roster picture index: official book art \u2014 official book art \u2014 Monster Manual III",
@@ -4440,8 +4440,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 86,
-     "high": 88,
+     "low": 851,
+     "high": 880,
      "name": "Darkweaver",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -4461,8 +4461,8 @@
      }
     },
     {
-     "low": 89,
-     "high": 92,
+     "low": 881,
+     "high": 920,
      "name": "Grimweird",
      "cr": 11.0,
      "number": "Solitary, pair, or clique (3\u20139)",
@@ -4485,8 +4485,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 93,
-     "high": 95,
+     "low": 921,
+     "high": 950,
      "name": "Slaughterstone Eviscerator",
      "cr": 12,
      "number": "Solitary (see source book)",
@@ -4508,8 +4508,8 @@
      }
     },
     {
-     "low": 96,
-     "high": 97,
+     "low": 951,
+     "high": 970,
      "name": "Dolomite",
      "cr": 15.0,
      "number": "Solitary (see source book)",
@@ -4529,8 +4529,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Ethergaunt, Black",
      "cr": 17.0,
      "number": "Solitary (see source book)",
@@ -4550,8 +4550,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Brammin Ironroot",
      "cr": 19.0,
      "number": "Solitary",
@@ -4580,7 +4580,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 6,
+     "high": 60,
      "name": "Cerebral Symbiont, Mind Leech",
      "cr": 0.125,
      "number": "Solitary (see source book)",
@@ -4600,8 +4600,8 @@
      }
     },
     {
-     "low": 7,
-     "high": 12,
+     "low": 61,
+     "high": 120,
      "name": "Gnoll",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -4624,8 +4624,8 @@
      }
     },
     {
-     "low": 13,
-     "high": 18,
+     "low": 121,
+     "high": 180,
      "name": "Bugbear",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -4649,8 +4649,8 @@
      }
     },
     {
-     "low": 19,
-     "high": 24,
+     "low": 181,
+     "high": 240,
      "name": "Triton",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -4670,8 +4670,8 @@
      }
     },
     {
-     "low": 25,
-     "high": 30,
+     "low": 241,
+     "high": 300,
      "name": "Ettercap",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -4691,8 +4691,8 @@
      }
     },
     {
-     "low": 31,
-     "high": 36,
+     "low": 301,
+     "high": 360,
      "name": "Salamander",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -4712,8 +4712,8 @@
      }
     },
     {
-     "low": 37,
-     "high": 43,
+     "low": 361,
+     "high": 430,
      "name": "Flameskull",
      "cr": 4.0,
      "number": "Solitary or company (3\u201312)",
@@ -4736,8 +4736,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 44,
-     "high": 50,
+     "low": 431,
+     "high": 500,
      "name": "Vampire Spawn",
      "cr": 4.0,
      "number": "Solitary or pack (2\u20135)",
@@ -4760,8 +4760,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 51,
-     "high": 55,
+     "low": 501,
+     "high": 550,
      "name": "Ghostly Sorcerer",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -4784,8 +4784,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 56,
-     "high": 60,
+     "low": 551,
+     "high": 600,
      "name": "Troll",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -4808,8 +4808,8 @@
      }
     },
     {
-     "low": 61,
-     "high": 65,
+     "low": 601,
+     "high": 650,
      "name": "Hag, Annis",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -4829,8 +4829,8 @@
      }
     },
     {
-     "low": 66,
-     "high": 69,
+     "low": 651,
+     "high": 690,
      "name": "Chaos Beast",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -4850,8 +4850,8 @@
      }
     },
     {
-     "low": 70,
-     "high": 75,
+     "low": 691,
+     "high": 750,
      "name": "Spectral Troll",
      "cr": 7.0,
      "number": "Solitary or gang (2\u20134)",
@@ -4874,8 +4874,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 76,
-     "high": 79,
+     "low": 751,
+     "high": 790,
      "name": "Mob of Zombies",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -4898,8 +4898,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 80,
-     "high": 83,
+     "low": 791,
+     "high": 830,
      "name": "Eloko",
      "cr": 9.0,
      "number": "Solitary",
@@ -4921,8 +4921,8 @@
      }
     },
     {
-     "low": 84,
-     "high": 87,
+     "low": 831,
+     "high": 870,
      "name": "Yunwi Djunsti",
      "cr": 9.0,
      "number": "Solitary, 2-5 (gang)",
@@ -4944,8 +4944,8 @@
      }
     },
     {
-     "low": 88,
-     "high": 90,
+     "low": 871,
+     "high": 900,
      "name": "Yagnoloth",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -4965,8 +4965,8 @@
      }
     },
     {
-     "low": 91,
-     "high": 93,
+     "low": 901,
+     "high": 930,
      "name": "Abeil Queen",
      "cr": 12.0,
      "number": "Solitary (see source book)",
@@ -4986,8 +4986,8 @@
      }
     },
     {
-     "low": 94,
-     "high": 95,
+     "low": 931,
+     "high": 950,
      "name": "Sarkrith, Spelleater",
      "cr": 13.0,
      "number": "Solitary (see source book)",
@@ -5007,8 +5007,8 @@
      }
     },
     {
-     "low": 96,
-     "high": 97,
+     "low": 951,
+     "high": 970,
      "name": "Thoon Elder Brain",
      "cr": 15.0,
      "number": "Solitary (see source book)",
@@ -5030,8 +5030,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Vermin Lord",
      "cr": 17,
      "number": "Solitary (see source book)",
@@ -5051,8 +5051,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 99,
+     "low": 981,
+     "high": 990,
      "name": "Aspect of Dispater",
      "cr": 21.0,
      "number": "Solitary (see source book)",
@@ -5072,8 +5072,8 @@
      }
     },
     {
-     "low": 100,
-     "high": 100,
+     "low": 991,
+     "high": 1000,
      "name": "Saint James",
      "cr": 15.0,
      "number": "1 (plus sentient telepathic dire crocodile partner and flying tavern ST-JAMES \u2014 Booze and Magic; crew of unseen servants / invisible stalkers)",
@@ -5102,7 +5102,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 7,
+     "high": 70,
      "name": "Hawk",
      "cr": 0.3333333333333333,
      "number": "Solitary (see source book)",
@@ -5124,8 +5124,8 @@
      }
     },
     {
-     "low": 8,
-     "high": 14,
+     "low": 71,
+     "high": 140,
      "name": "Bogun",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -5147,8 +5147,8 @@
      }
     },
     {
-     "low": 15,
-     "high": 21,
+     "low": 141,
+     "high": 210,
      "name": "Skorne",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -5170,8 +5170,8 @@
      }
     },
     {
-     "low": 22,
-     "high": 28,
+     "low": 211,
+     "high": 280,
      "name": "Lumi",
      "cr": 2,
      "number": "Solitary (see source book)",
@@ -5193,8 +5193,8 @@
      }
     },
     {
-     "low": 29,
-     "high": 34,
+     "low": 281,
+     "high": 340,
      "name": "Clockwork Stallion",
      "cr": 3,
      "number": "Solitary (see source book)",
@@ -5216,8 +5216,8 @@
      }
     },
     {
-     "low": 35,
-     "high": 40,
+     "low": 341,
+     "high": 400,
      "name": "Tin Golem",
      "cr": 3.0,
      "number": "Solitary, pair, or gang (3\u20134)",
@@ -5239,8 +5239,8 @@
      }
     },
     {
-     "low": 41,
-     "high": 46,
+     "low": 401,
+     "high": 460,
      "name": "Force Golem",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -5262,8 +5262,8 @@
      }
     },
     {
-     "low": 47,
-     "high": 52,
+     "low": 461,
+     "high": 520,
      "name": "Chain Golem",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -5285,8 +5285,8 @@
      }
     },
     {
-     "low": 53,
-     "high": 58,
+     "low": 521,
+     "high": 580,
      "name": "Incarnate Construct (sample)",
      "cr": 5.0,
      "number": "Solitary (alone or with its spellcaster liberator)",
@@ -5308,8 +5308,8 @@
      }
     },
     {
-     "low": 59,
-     "high": 63,
+     "low": 581,
+     "high": 630,
      "name": "Caryatid Column",
      "cr": 6.0,
      "number": "Solitary, corbel (2), or colonnade (4\u201324)",
@@ -5331,8 +5331,8 @@
      }
     },
     {
-     "low": 64,
-     "high": 68,
+     "low": 631,
+     "high": 680,
      "name": "Scyther of Thoon",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -5354,8 +5354,8 @@
      }
     },
     {
-     "low": 69,
-     "high": 73,
+     "low": 681,
+     "high": 730,
      "name": "Shrapnyl",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -5377,8 +5377,8 @@
      }
     },
     {
-     "low": 74,
-     "high": 77,
+     "low": 731,
+     "high": 770,
      "name": "Iron Maiden",
      "cr": 8.0,
      "number": "Solitary",
@@ -5400,8 +5400,8 @@
      }
     },
     {
-     "low": 78,
-     "high": 81,
+     "low": 771,
+     "high": 810,
      "name": "Clockwork Horror, Adamantine",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -5423,8 +5423,8 @@
      }
     },
     {
-     "low": 82,
-     "high": 85,
+     "low": 811,
+     "high": 850,
      "name": "Bronze Serpent",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -5446,8 +5446,8 @@
      }
     },
     {
-     "low": 86,
-     "high": 88,
+     "low": 851,
+     "high": 880,
      "name": "Alchemical Golem",
      "cr": 11,
      "number": "Solitary (see source book)",
@@ -5469,8 +5469,8 @@
      }
     },
     {
-     "low": 89,
-     "high": 91,
+     "low": 881,
+     "high": 910,
      "name": "Wicker Man",
      "cr": 11.0,
      "number": "Solitary (see source book)",
@@ -5492,8 +5492,8 @@
      }
     },
     {
-     "low": 92,
-     "high": 94,
+     "low": 911,
+     "high": 940,
      "name": "Slaughterstone Eviscerator",
      "cr": 12,
      "number": "Solitary (see source book)",
@@ -5515,8 +5515,8 @@
      }
     },
     {
-     "low": 95,
-     "high": 96,
+     "low": 941,
+     "high": 960,
      "name": "Inevitable, Marut",
      "cr": 15.0,
      "number": "Solitary",
@@ -5538,8 +5538,8 @@
      }
     },
     {
-     "low": 97,
-     "high": 97,
+     "low": 961,
+     "high": 970,
      "name": "Zodar",
      "cr": 16.0,
      "number": "Solitary",
@@ -5561,8 +5561,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Blackstone Gigant",
      "cr": 18.0,
      "number": "Solitary",
@@ -5584,8 +5584,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Hellfire Engine",
      "cr": 19.0,
      "number": "Solitary (see source book)",
@@ -5614,7 +5614,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 8,
+     "high": 80,
      "name": "Toad",
      "cr": 0.1,
      "number": "Solitary (see source book)",
@@ -5634,8 +5634,8 @@
      }
     },
     {
-     "low": 9,
-     "high": 15,
+     "low": 81,
+     "high": 150,
      "name": "Elf, Gray",
      "cr": 0.5,
      "number": "Solitary (see source book)",
@@ -5655,8 +5655,8 @@
      }
     },
     {
-     "low": 16,
-     "high": 22,
+     "low": 151,
+     "high": 220,
      "name": "Bram Holt",
      "cr": 1.0,
      "number": "Solitary",
@@ -5678,8 +5678,8 @@
      }
     },
     {
-     "low": 23,
-     "high": 28,
+     "low": 221,
+     "high": 280,
      "name": "Orc Battle Priest",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -5699,8 +5699,8 @@
      }
     },
     {
-     "low": 29,
-     "high": 34,
+     "low": 281,
+     "high": 340,
      "name": "Boar",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -5722,8 +5722,8 @@
      }
     },
     {
-     "low": 35,
-     "high": 40,
+     "low": 341,
+     "high": 400,
      "name": "Leopard",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -5743,8 +5743,8 @@
      }
     },
     {
-     "low": 41,
-     "high": 46,
+     "low": 401,
+     "high": 460,
      "name": "Armand",
      "cr": 3,
      "number": "Solitary (see source book)",
@@ -5764,8 +5764,8 @@
      }
     },
     {
-     "low": 47,
-     "high": 52,
+     "low": 461,
+     "high": 520,
      "name": "Owl, Giant",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -5785,8 +5785,8 @@
      }
     },
     {
-     "low": 53,
-     "high": 57,
+     "low": 521,
+     "high": 570,
      "name": "Fiendish Cleric of Yeenoghu",
      "cr": 4,
      "number": "Solitary (see source book)",
@@ -5806,8 +5806,8 @@
      }
     },
     {
-     "low": 58,
-     "high": 62,
+     "low": 571,
+     "high": 620,
      "name": "Tharn Bloodtrackers",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -5827,8 +5827,8 @@
      }
     },
     {
-     "low": 63,
-     "high": 67,
+     "low": 621,
+     "high": 670,
      "name": "Harrier",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -5848,8 +5848,8 @@
      }
     },
     {
-     "low": 68,
-     "high": 72,
+     "low": 671,
+     "high": 720,
      "name": "Blood Ape",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -5869,8 +5869,8 @@
      }
     },
     {
-     "low": 73,
-     "high": 77,
+     "low": 721,
+     "high": 770,
      "name": "Sea Tiger",
      "cr": 6,
      "number": "Solitary (see source book)",
@@ -5890,8 +5890,8 @@
      }
     },
     {
-     "low": 78,
-     "high": 81,
+     "low": 771,
+     "high": 810,
      "name": "Greenspawn Sneak Raid Leader",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -5911,8 +5911,8 @@
      }
     },
     {
-     "low": 82,
-     "high": 85,
+     "low": 811,
+     "high": 850,
      "name": "Gravorg",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -5932,8 +5932,8 @@
      }
     },
     {
-     "low": 86,
-     "high": 89,
+     "low": 851,
+     "high": 890,
      "name": "Dinosaur, Triceratops",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -5953,8 +5953,8 @@
      }
     },
     {
-     "low": 90,
-     "high": 93,
+     "low": 891,
+     "high": 930,
      "name": "Yrthak",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -5974,8 +5974,8 @@
      }
     },
     {
-     "low": 94,
-     "high": 96,
+     "low": 931,
+     "high": 960,
      "name": "Giant, Cloud",
      "cr": 11.0,
      "number": "Solitary (see source book)",
@@ -5995,8 +5995,8 @@
      }
     },
     {
-     "low": 97,
-     "high": 99,
+     "low": 961,
+     "high": 990,
      "name": "Roper",
      "cr": 12.0,
      "number": "Solitary (see source book)",
@@ -6018,8 +6018,8 @@
      }
     },
     {
-     "low": 100,
-     "high": 100,
+     "low": 991,
+     "high": 1000,
      "name": "Giant, Death",
      "cr": 16,
      "number": "Solitary, dread (2\u20134 swarms), or horror (5\u20138 swarms)",
@@ -6046,7 +6046,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 9,
+     "high": 90,
      "name": "Hawk",
      "cr": 0.3333333333333333,
      "number": "Solitary (see source book)",
@@ -6068,8 +6068,8 @@
      }
     },
     {
-     "low": 10,
-     "high": 17,
+     "low": 91,
+     "high": 170,
      "name": "Clockroach",
      "cr": 1,
      "number": "Solitary (see source book)",
@@ -6091,8 +6091,8 @@
      }
     },
     {
-     "low": 18,
-     "high": 24,
+     "low": 171,
+     "high": 240,
      "name": "Animated Object",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -6114,8 +6114,8 @@
      }
     },
     {
-     "low": 25,
-     "high": 31,
+     "low": 241,
+     "high": 310,
      "name": "Automaton Hammerer",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -6137,8 +6137,8 @@
      }
     },
     {
-     "low": 32,
-     "high": 38,
+     "low": 311,
+     "high": 380,
      "name": "Maug",
      "cr": 3.0,
      "number": "Solitary, squad (4\u20137), warband (2\u20134 maugs plus 4\u20139 hobgoblins), or company (10\u201340 maugs plus 1 sergeant of 1st or 2nd level per 5 maugs, 2\u20134 lieutenants of 3rd\u20136th level, 1 leader of 7th\u201310th level, and 20\u201350 hobgoblins)",
@@ -6160,8 +6160,8 @@
      }
     },
     {
-     "low": 39,
-     "high": 44,
+     "low": 381,
+     "high": 440,
      "name": "Clockwork Horror",
      "cr": 4.0,
      "number": "Pair or component (3\u20138)",
@@ -6183,8 +6183,8 @@
      }
     },
     {
-     "low": 45,
-     "high": 50,
+     "low": 441,
+     "high": 500,
      "name": "Mimic",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -6206,8 +6206,8 @@
      }
     },
     {
-     "low": 51,
-     "high": 56,
+     "low": 501,
+     "high": 560,
      "name": "Nightmare",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -6229,8 +6229,8 @@
      }
     },
     {
-     "low": 57,
-     "high": 62,
+     "low": 561,
+     "high": 620,
      "name": "Caryatid Column",
      "cr": 6.0,
      "number": "Solitary, corbel (2), or colonnade (4\u201324)",
@@ -6252,8 +6252,8 @@
      }
     },
     {
-     "low": 63,
-     "high": 68,
+     "low": 621,
+     "high": 680,
      "name": "Mechagargoyle",
      "cr": 6.0,
      "number": "Solitary or band (2\u20135)",
@@ -6275,8 +6275,8 @@
      }
     },
     {
-     "low": 69,
-     "high": 73,
+     "low": 681,
+     "high": 730,
      "name": "Shrapnyl",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -6298,8 +6298,8 @@
      }
     },
     {
-     "low": 74,
-     "high": 78,
+     "low": 731,
+     "high": 780,
      "name": "Mind Flayer",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -6321,8 +6321,8 @@
      }
     },
     {
-     "low": 79,
-     "high": 82,
+     "low": 781,
+     "high": 820,
      "name": "Inevitable, Zelekhut",
      "cr": 9.0,
      "number": "Solitary",
@@ -6344,8 +6344,8 @@
      }
     },
     {
-     "low": 83,
-     "high": 86,
+     "low": 821,
+     "high": 860,
      "name": "Golem, Brass",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -6367,8 +6367,8 @@
      }
     },
     {
-     "low": 87,
-     "high": 90,
+     "low": 861,
+     "high": 900,
      "name": "Golem, Stone",
      "cr": 11.0,
      "number": "Solitary (see source book)",
@@ -6390,8 +6390,8 @@
      }
     },
     {
-     "low": 91,
-     "high": 93,
+     "low": 901,
+     "high": 930,
      "name": "Cadaver Collector",
      "cr": 12.0,
      "number": "Solitary, pair, or squad (3\u20135)",
@@ -6413,8 +6413,8 @@
      }
     },
     {
-     "low": 94,
-     "high": 95,
+     "low": 931,
+     "high": 950,
      "name": "Greater Shadesteel Golem",
      "cr": 14,
      "number": "Solitary (see source book)",
@@ -6436,8 +6436,8 @@
      }
     },
     {
-     "low": 96,
-     "high": 97,
+     "low": 951,
+     "high": 970,
      "name": "Woldwrath",
      "cr": 16.0,
      "number": "Solitary (see source book)",
@@ -6459,8 +6459,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Merchurion",
      "cr": 17.0,
      "number": "Solitary (see source book)",
@@ -6482,8 +6482,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Scouring Slinger",
      "cr": 18.0,
      "number": "Solitary (see source book)",
@@ -6512,7 +6512,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 9,
+     "high": 90,
      "name": "Hawk",
      "cr": 0.3333333333333333,
      "number": "Solitary (see source book)",
@@ -6534,8 +6534,8 @@
      }
     },
     {
-     "low": 10,
-     "high": 17,
+     "low": 91,
+     "high": 170,
      "name": "Farrow",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -6555,8 +6555,8 @@
      }
     },
     {
-     "low": 18,
-     "high": 25,
+     "low": 171,
+     "high": 250,
      "name": "Dread Guard",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -6578,8 +6578,8 @@
      }
     },
     {
-     "low": 26,
-     "high": 33,
+     "low": 251,
+     "high": 330,
      "name": "Clockwork Mender Swarm",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -6601,8 +6601,8 @@
      }
     },
     {
-     "low": 34,
-     "high": 41,
+     "low": 331,
+     "high": 410,
      "name": "Tin Golem",
      "cr": 3.0,
      "number": "Solitary, pair, or gang (3\u20134)",
@@ -6624,8 +6624,8 @@
      }
     },
     {
-     "low": 42,
-     "high": 48,
+     "low": 411,
+     "high": 480,
      "name": "Gargoyle",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -6647,8 +6647,8 @@
      }
     },
     {
-     "low": 49,
-     "high": 55,
+     "low": 481,
+     "high": 550,
      "name": "Guttersnipe",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -6670,8 +6670,8 @@
      }
     },
     {
-     "low": 56,
-     "high": 62,
+     "low": 551,
+     "high": 620,
      "name": "Stormcloud of Thoon",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -6693,8 +6693,8 @@
      }
     },
     {
-     "low": 63,
-     "high": 68,
+     "low": 621,
+     "high": 680,
      "name": "Mechagargoyle",
      "cr": 6.0,
      "number": "Solitary or band (2\u20135)",
@@ -6716,8 +6716,8 @@
      }
     },
     {
-     "low": 69,
-     "high": 74,
+     "low": 681,
+     "high": 740,
      "name": "Shrapnyl",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -6739,8 +6739,8 @@
      }
     },
     {
-     "low": 75,
-     "high": 79,
+     "low": 741,
+     "high": 790,
      "name": "Rip Cutter",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -6762,8 +6762,8 @@
      }
     },
     {
-     "low": 80,
-     "high": 84,
+     "low": 791,
+     "high": 840,
      "name": "Rogue Eidolon",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -6785,8 +6785,8 @@
      }
     },
     {
-     "low": 85,
-     "high": 88,
+     "low": 841,
+     "high": 880,
      "name": "Runic Guardian",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -6808,8 +6808,8 @@
      }
     },
     {
-     "low": 89,
-     "high": 92,
+     "low": 881,
+     "high": 920,
      "name": "Shadesteel Golem",
      "cr": 11,
      "number": "Solitary (see source book)",
@@ -6831,8 +6831,8 @@
      }
     },
     {
-     "low": 93,
-     "high": 95,
+     "low": 921,
+     "high": 950,
      "name": "Golem, Iron",
      "cr": 13.0,
      "number": "Solitary (see source book)",
@@ -6854,8 +6854,8 @@
      }
     },
     {
-     "low": 96,
-     "high": 97,
+     "low": 951,
+     "high": 970,
      "name": "Thoon Elder Brain",
      "cr": 15.0,
      "number": "Solitary (see source book)",
@@ -6877,8 +6877,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Inevitable, Quarut",
      "cr": 17.0,
      "number": "Solitary",
@@ -6900,8 +6900,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Prismatic Golem",
      "cr": 18,
      "number": "Solitary (see source book)",
@@ -6930,7 +6930,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 7,
+     "high": 70,
      "name": "Mohrg",
      "cr": 8.0,
      "number": "Solitary, gang (2\u20134), or mob (2\u20134 plus 5\u201310 zombies)",
@@ -6953,8 +6953,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 8,
-     "high": 15,
+     "low": 71,
+     "high": 150,
      "name": "Bodak",
      "cr": 8.0,
      "number": "Solitary or gang (2\u20134)",
@@ -6977,8 +6977,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 16,
-     "high": 24,
+     "low": 151,
+     "high": 240,
      "name": "Shaft Wight",
      "cr": 5.0,
      "number": "Solitary or small band (2\u20136)",
@@ -7001,8 +7001,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 25,
-     "high": 33,
+     "low": 241,
+     "high": 330,
      "name": "Slaughter Wight",
      "cr": 8.0,
      "number": "Solitary, gang (2\u20134), or death squad (5\u201310)",
@@ -7025,8 +7025,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 34,
-     "high": 39,
+     "low": 331,
+     "high": 390,
      "name": "Clockwork Horror, Adamantine",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -7048,8 +7048,8 @@
      }
     },
     {
-     "low": 40,
-     "high": 47,
+     "low": 391,
+     "high": 470,
      "name": "Pistol Wraith",
      "cr": 9.0,
      "number": "Solitary",
@@ -7072,8 +7072,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 48,
-     "high": 53,
+     "low": 471,
+     "high": 530,
      "name": "Brain Golem",
      "cr": 10.0,
      "number": "Solitary",
@@ -7095,8 +7095,8 @@
      }
     },
     {
-     "low": 54,
-     "high": 59,
+     "low": 531,
+     "high": 590,
      "name": "Leechwalker",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -7116,8 +7116,8 @@
      }
     },
     {
-     "low": 60,
-     "high": 66,
+     "low": 591,
+     "high": 660,
      "name": "Atropal Scion",
      "cr": 11.0,
      "number": "Solitary",
@@ -7140,8 +7140,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 67,
-     "high": 71,
+     "low": 661,
+     "high": 710,
      "name": "Mud Golem",
      "cr": 11,
      "number": "Solitary (see source book)",
@@ -7163,8 +7163,8 @@
      }
     },
     {
-     "low": 72,
-     "high": 76,
+     "low": 711,
+     "high": 760,
      "name": "Cadaver Collector",
      "cr": 12.0,
      "number": "Solitary, pair, or squad (3\u20135)",
@@ -7186,8 +7186,8 @@
      }
     },
     {
-     "low": 77,
-     "high": 80,
+     "low": 761,
+     "high": 800,
      "name": "Death Centaur (Bone Golem)",
      "cr": 13.0,
      "number": "Solitary (unique)",
@@ -7209,8 +7209,8 @@
      }
     },
     {
-     "low": 81,
-     "high": 84,
+     "low": 801,
+     "high": 840,
      "name": "Ten-Headed Terror",
      "cr": 13,
      "number": "Solitary (see source book)",
@@ -7230,8 +7230,8 @@
      }
     },
     {
-     "low": 85,
-     "high": 87,
+     "low": 841,
+     "high": 870,
      "name": "Sample 15th-Level NPC Artificer (Warforged)",
      "cr": 15.0,
      "number": "Solitary (see source book)",
@@ -7253,8 +7253,8 @@
      }
     },
     {
-     "low": 88,
-     "high": 90,
+     "low": 871,
+     "high": 900,
      "name": "Windghost",
      "cr": 15.0,
      "number": "Solitary (see source book)",
@@ -7274,8 +7274,8 @@
      }
     },
     {
-     "low": 91,
-     "high": 92,
+     "low": 901,
+     "high": 920,
      "name": "Zodar",
      "cr": 16.0,
      "number": "Solitary",
@@ -7297,8 +7297,8 @@
      }
     },
     {
-     "low": 93,
-     "high": 96,
+     "low": 921,
+     "high": 960,
      "name": "Marilith",
      "cr": 17.0,
      "number": "Solitary or pair",
@@ -7321,8 +7321,8 @@
      }
     },
     {
-     "low": 97,
-     "high": 97,
+     "low": 961,
+     "high": 970,
      "name": "Golem, Demonflesh",
      "cr": 18.0,
      "number": "Solitary",
@@ -7344,8 +7344,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Famine Spirit",
      "cr": 19.0,
      "number": "Solitary, pair, brood (3\u20135), or band (2\u20135 plus 2\u20138 ghasts and 4\u201316 ghouls)",
@@ -7369,8 +7369,8 @@
      "leadership": true
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Titan",
      "cr": 21.0,
      "number": "Solitary (see source book)",
@@ -7400,7 +7400,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 8,
+     "high": 80,
      "name": "Cerebral Symbiont, Mind Leech",
      "cr": 0.125,
      "number": "Solitary (see source book)",
@@ -7420,8 +7420,8 @@
      }
     },
     {
-     "low": 9,
-     "high": 15,
+     "low": 81,
+     "high": 150,
      "name": "Giant Bee",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -7441,8 +7441,8 @@
      }
     },
     {
-     "low": 16,
-     "high": 22,
+     "low": 151,
+     "high": 220,
      "name": "Cadaver",
      "cr": 2.0,
      "number": "Solitary or gang (2\u20135)",
@@ -7466,8 +7466,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 23,
-     "high": 29,
+     "low": 221,
+     "high": 290,
      "name": "Zombie, Yellow Musk",
      "cr": 2.0,
      "number": "Solitary or patch (2\u20135 yellow musk",
@@ -7490,8 +7490,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 30,
-     "high": 36,
+     "low": 291,
+     "high": 360,
      "name": "Gadacro",
      "cr": 3.0,
      "number": "Clutch (2\u20136), or murder (7\u201312) (per Sample Encounter, MM5 p.27)",
@@ -7513,8 +7513,8 @@
      }
     },
     {
-     "low": 37,
-     "high": 42,
+     "low": 361,
+     "high": 420,
      "name": "Spectral Steed",
      "cr": 3.0,
      "number": "Solitary or herd (2\u201312)",
@@ -7537,8 +7537,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 43,
-     "high": 49,
+     "low": 421,
+     "high": 490,
      "name": "Haunt",
      "cr": 4.0,
      "number": "Solitary",
@@ -7562,8 +7562,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 50,
-     "high": 55,
+     "low": 491,
+     "high": 550,
      "name": "Avvite",
      "cr": 5.0,
      "number": "Solitary or pack (1 avvite dire wolf and 4\u20137 followers)",
@@ -7585,8 +7585,8 @@
      }
     },
     {
-     "low": 56,
-     "high": 61,
+     "low": 551,
+     "high": 610,
      "name": "Mummy",
      "cr": 5.0,
      "number": "Solitary, warden squad (2\u20134), or guardian detail (6\u201310)",
@@ -7609,8 +7609,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 62,
-     "high": 66,
+     "low": 611,
+     "high": 660,
      "name": "Curst",
      "cr": 6.0,
      "number": "Solitary",
@@ -7633,8 +7633,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 67,
-     "high": 71,
+     "low": 661,
+     "high": 710,
      "name": "Yugoloth, Mezzoloth",
      "cr": 6,
      "number": "Solitary (see source book)",
@@ -7654,8 +7654,8 @@
      }
     },
     {
-     "low": 72,
-     "high": 76,
+     "low": 711,
+     "high": 760,
      "name": "Orc Plague Speaker",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -7675,8 +7675,8 @@
      }
     },
     {
-     "low": 77,
-     "high": 80,
+     "low": 761,
+     "high": 800,
      "name": "Gorgon",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -7699,8 +7699,8 @@
      }
     },
     {
-     "low": 81,
-     "high": 84,
+     "low": 801,
+     "high": 840,
      "name": "Demon, Zovvut",
      "cr": 9.0,
      "number": "Solitary or squad (1 plus 2\u20134 wights)",
@@ -7720,8 +7720,8 @@
      }
     },
     {
-     "low": 85,
-     "high": 88,
+     "low": 841,
+     "high": 880,
      "name": "Azi-Dahaka",
      "cr": 10.0,
      "number": "Solitary",
@@ -7743,8 +7743,8 @@
      }
     },
     {
-     "low": 89,
-     "high": 92,
+     "low": 881,
+     "high": 920,
      "name": "Derek Windsfire",
      "cr": 11.0,
      "number": "Solitary",
@@ -7766,8 +7766,8 @@
      }
     },
     {
-     "low": 93,
-     "high": 95,
+     "low": 921,
+     "high": 950,
      "name": "Ooze, Elder Black Pudding",
      "cr": 12.0,
      "number": "Solitary                                        to move over the opponents, affecting as many as it can",
@@ -7787,8 +7787,8 @@
      }
     },
     {
-     "low": 96,
-     "high": 97,
+     "low": 951,
+     "high": 970,
      "name": "Ammit",
      "cr": 15.0,
      "number": "Solitary",
@@ -7810,8 +7810,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Ethergaunt, Black",
      "cr": 17.0,
      "number": "Solitary (see source book)",
@@ -7831,8 +7831,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Ragewind",
      "cr": 19.0,
      "number": "Solitary, pair, or cluster (3\u20135)",
@@ -7863,7 +7863,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 7,
+     "high": 70,
      "name": "Cerebral Symbiont, Mind Leech",
      "cr": 0.125,
      "number": "Solitary (see source book)",
@@ -7883,8 +7883,8 @@
      }
     },
     {
-     "low": 8,
-     "high": 14,
+     "low": 71,
+     "high": 140,
      "name": "Kaorti",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -7904,8 +7904,8 @@
      }
     },
     {
-     "low": 15,
-     "high": 21,
+     "low": 141,
+     "high": 210,
      "name": "Desiccator",
      "cr": 2.0,
      "number": "Solitary or gang (2\u20135)",
@@ -7928,8 +7928,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 22,
-     "high": 28,
+     "low": 211,
+     "high": 280,
      "name": "Gibborite",
      "cr": 3.0,
      "number": "Solitary or squadron (one gibborite with 3d6 humanoid barbarians, fighters, or warriors of 1st to 3rd level)",
@@ -7951,8 +7951,8 @@
      }
     },
     {
-     "low": 29,
-     "high": 34,
+     "low": 281,
+     "high": 340,
      "name": "Lion",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -7975,8 +7975,8 @@
      }
     },
     {
-     "low": 35,
-     "high": 40,
+     "low": 341,
+     "high": 400,
      "name": "Vampire Spawn",
      "cr": 4.0,
      "number": "Solitary or pack (2\u20135)",
@@ -7999,8 +7999,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 41,
-     "high": 47,
+     "low": 401,
+     "high": 470,
      "name": "Painspeaker",
      "cr": 4.0,
      "number": "Solitary or cabal (2\u20136)",
@@ -8023,8 +8023,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 48,
-     "high": 53,
+     "low": 471,
+     "high": 530,
      "name": "Deadly Sin, Envy",
      "cr": 5.0,
      "number": "Solitary",
@@ -8046,8 +8046,8 @@
      }
     },
     {
-     "low": 54,
-     "high": 60,
+     "low": 531,
+     "high": 600,
      "name": "Selune-Marra Vael",
      "cr": 5.0,
      "number": "Solitary",
@@ -8069,8 +8069,8 @@
      }
     },
     {
-     "low": 61,
-     "high": 65,
+     "low": 601,
+     "high": 650,
      "name": "Gear Wyrm",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -8092,8 +8092,8 @@
      }
     },
     {
-     "low": 66,
-     "high": 70,
+     "low": 651,
+     "high": 700,
      "name": "Chaos Beast",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -8113,8 +8113,8 @@
      }
     },
     {
-     "low": 71,
-     "high": 75,
+     "low": 701,
+     "high": 750,
      "name": "Susurrus",
      "cr": 7,
      "number": "Solitary (see source book)",
@@ -8134,8 +8134,8 @@
      }
     },
     {
-     "low": 76,
-     "high": 79,
+     "low": 751,
+     "high": 790,
      "name": "Pyre Troll",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -8155,8 +8155,8 @@
      }
     },
     {
-     "low": 80,
-     "high": 83,
+     "low": 791,
+     "high": 830,
      "name": "Infernal, Quelvitar",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -8176,8 +8176,8 @@
      }
     },
     {
-     "low": 84,
-     "high": 88,
+     "low": 831,
+     "high": 880,
      "name": "Draudnu",
      "cr": 10.0,
      "number": "Rarely encountered in groups of more than four members (A Hard Place, EL 12: a pack of three draudnus \u2014 MM5 p.25)",
@@ -8199,8 +8199,8 @@
      }
     },
     {
-     "low": 89,
-     "high": 92,
+     "low": 881,
+     "high": 920,
      "name": "Kastighur",
      "cr": 11.0,
      "number": "Solitary or pair (Fox Hunt, EL 16: two kastighurs \u2014 MM4 p.43; kastighurs typically serve more intelligent and powerful demons as hunters and jailers)",
@@ -8222,8 +8222,8 @@
      }
     },
     {
-     "low": 93,
-     "high": 95,
+     "low": 921,
+     "high": 950,
      "name": "Death Centaur (Bone Golem)",
      "cr": 13.0,
      "number": "Solitary (unique)",
@@ -8245,8 +8245,8 @@
      }
     },
     {
-     "low": 96,
-     "high": 97,
+     "low": 951,
+     "high": 970,
      "name": "Giant Psurlon",
      "cr": 15.0,
      "number": "Solitary (see source book)",
@@ -8266,8 +8266,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Inevitable, Quarut",
      "cr": 17.0,
      "number": "Solitary",
@@ -8289,8 +8289,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 99,
+     "low": 981,
+     "high": 990,
      "name": "Kumbhakarna",
      "cr": 20.0,
      "number": "Unique",
@@ -8312,8 +8312,8 @@
      }
     },
     {
-     "low": 100,
-     "high": 100,
+     "low": 991,
+     "high": 1000,
      "name": "Saint James",
      "cr": 15.0,
      "number": "1 (plus sentient telepathic dire crocodile partner and flying tavern ST-JAMES \u2014 Booze and Magic; crew of unseen servants / invisible stalkers)",
@@ -8342,7 +8342,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 8,
+     "high": 80,
      "name": "Elf, Aquatic",
      "cr": 0.5,
      "number": "Solitary (see source book)",
@@ -8362,8 +8362,8 @@
      }
     },
     {
-     "low": 9,
-     "high": 17,
+     "low": 81,
+     "high": 170,
      "name": "Zombie, Brine",
      "cr": 1.0,
      "number": "Gang (2-4) or crew (6-11)",
@@ -8386,8 +8386,8 @@
      "undeadKind": "unclaimed"
     },
     {
-     "low": 18,
-     "high": 25,
+     "low": 171,
+     "high": 250,
      "name": "Storm Elemental, Small",
      "cr": 2,
      "number": "Solitary (see source book)",
@@ -8407,8 +8407,8 @@
      }
     },
     {
-     "low": 26,
-     "high": 33,
+     "low": 251,
+     "high": 330,
      "name": "Elemental, Earth",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -8428,8 +8428,8 @@
      }
     },
     {
-     "low": 34,
-     "high": 41,
+     "low": 331,
+     "high": 410,
      "name": "Fire Bat",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -8449,8 +8449,8 @@
      }
     },
     {
-     "low": 42,
-     "high": 48,
+     "low": 411,
+     "high": 480,
      "name": "Sea Cat",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -8470,8 +8470,8 @@
      }
     },
     {
-     "low": 49,
-     "high": 54,
+     "low": 481,
+     "high": 540,
      "name": "Belker",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -8491,8 +8491,8 @@
      }
     },
     {
-     "low": 55,
-     "high": 60,
+     "low": 541,
+     "high": 600,
      "name": "Ormyrr",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -8512,8 +8512,8 @@
      }
     },
     {
-     "low": 61,
-     "high": 66,
+     "low": 601,
+     "high": 660,
      "name": "Breathdrinker",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -8533,8 +8533,8 @@
      }
     },
     {
-     "low": 67,
-     "high": 72,
+     "low": 661,
+     "high": 720,
      "name": "Mudmaw",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -8554,8 +8554,8 @@
      }
     },
     {
-     "low": 73,
-     "high": 77,
+     "low": 721,
+     "high": 770,
      "name": "Legendary Snake",
      "cr": 8.0,
      "number": "Solitary (see source book)",
@@ -8575,8 +8575,8 @@
      }
     },
     {
-     "low": 78,
-     "high": 81,
+     "low": 771,
+     "high": 810,
      "name": "Marraenoloth",
      "cr": 10.0,
      "number": "Solitary (see source book)",
@@ -8596,8 +8596,8 @@
      }
     },
     {
-     "low": 82,
-     "high": 85,
+     "low": 811,
+     "high": 850,
      "name": "Air Weird",
      "cr": 12.0,
      "number": "Solitary (see source book)",
@@ -8617,8 +8617,8 @@
      }
     },
     {
-     "low": 86,
-     "high": 89,
+     "low": 851,
+     "high": 890,
      "name": "Octopus Tree",
      "cr": 12.0,
      "number": "Solitary (see source book)",
@@ -8638,8 +8638,8 @@
      }
     },
     {
-     "low": 90,
-     "high": 92,
+     "low": 891,
+     "high": 920,
      "name": "Cinder Swarm",
      "cr": 13,
      "number": "Solitary (see source book)",
@@ -8659,8 +8659,8 @@
      }
     },
     {
-     "low": 93,
-     "high": 96,
+     "low": 921,
+     "high": 960,
      "name": "Skeleton Warrior",
      "cr": 14.0,
      "number": "Solitary.                                          and is used by permission.",
@@ -8683,8 +8683,8 @@
      "undeadKind": "either"
     },
     {
-     "low": 97,
-     "high": 98,
+     "low": 961,
+     "high": 980,
      "name": "Waterveiled Assassin",
      "cr": 15,
      "number": "Solitary (see source book)",
@@ -8704,8 +8704,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Teratomorph",
      "cr": 16.0,
      "number": "Solitary (see source book)",
@@ -8732,7 +8732,7 @@
    "entries": [
     {
      "low": 1,
-     "high": 7,
+     "high": 70,
      "name": "Cullenrock Barnacle",
      "cr": 0.5,
      "number": "Solitary (see source book)",
@@ -8752,8 +8752,8 @@
      }
     },
     {
-     "low": 8,
-     "high": 15,
+     "low": 71,
+     "high": 150,
      "name": "Bog Trog",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -8773,8 +8773,8 @@
      }
     },
     {
-     "low": 16,
-     "high": 23,
+     "low": 151,
+     "high": 230,
      "name": "Octopus",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -8794,8 +8794,8 @@
      }
     },
     {
-     "low": 24,
-     "high": 31,
+     "low": 231,
+     "high": 310,
      "name": "Squid",
      "cr": 1.0,
      "number": "Solitary (see source book)",
@@ -8817,8 +8817,8 @@
      }
     },
     {
-     "low": 32,
-     "high": 38,
+     "low": 311,
+     "high": 380,
      "name": "Sahuagin",
      "cr": 2.0,
      "number": "Solitary (see source book)",
@@ -8838,8 +8838,8 @@
      }
     },
     {
-     "low": 39,
-     "high": 45,
+     "low": 381,
+     "high": 450,
      "name": "Dinosaur, Cryptoclidus",
      "cr": 3.0,
      "number": "Solitary (see source book)",
@@ -8859,8 +8859,8 @@
      }
     },
     {
-     "low": 46,
-     "high": 52,
+     "low": 451,
+     "high": 520,
      "name": "Mummy of the Deep",
      "cr": 4.0,
      "number": "Solitary or gang (2-4)",
@@ -8883,8 +8883,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 53,
-     "high": 59,
+     "low": 521,
+     "high": 590,
      "name": "Vine Horror",
      "cr": 4.0,
      "number": "Solitary (see source book)",
@@ -8904,8 +8904,8 @@
      }
     },
     {
-     "low": 60,
-     "high": 65,
+     "low": 591,
+     "high": 650,
      "name": "Troll, Scrag",
      "cr": 5.0,
      "number": "Solitary (see source book)",
@@ -8925,8 +8925,8 @@
      }
     },
     {
-     "low": 66,
-     "high": 71,
+     "low": 651,
+     "high": 710,
      "name": "Kopru",
      "cr": 6.0,
      "number": "Solitary (see source book)",
@@ -8946,8 +8946,8 @@
      }
     },
     {
-     "low": 72,
-     "high": 76,
+     "low": 711,
+     "high": 760,
      "name": "Boatman",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -8967,8 +8967,8 @@
      }
     },
     {
-     "low": 77,
-     "high": 81,
+     "low": 761,
+     "high": 810,
      "name": "Naga, Water",
      "cr": 7.0,
      "number": "Solitary (see source book)",
@@ -8998,8 +8998,8 @@
       "undead"
      ],
      "type": "",
-     "low": 82,
-     "high": 86,
+     "low": 811,
+     "high": 860,
      "picture": {
       "file": "pictures/drowned.webp",
       "credit": "Undead roster picture index: official book art \u2014 official book art \u2014 Monster Manual III",
@@ -9012,8 +9012,8 @@
      "undeadKind": "claimed"
     },
     {
-     "low": 87,
-     "high": 91,
+     "low": 861,
+     "high": 910,
      "name": "Squid, Giant",
      "cr": 9.0,
      "number": "Solitary (see source book)",
@@ -9033,8 +9033,8 @@
      }
     },
     {
-     "low": 92,
-     "high": 95,
+     "low": 911,
+     "high": 950,
      "name": "Megalodon",
      "cr": 11.0,
      "number": "Solitary (see source book)",
@@ -9054,8 +9054,8 @@
      }
     },
     {
-     "low": 96,
-     "high": 97,
+     "low": 951,
+     "high": 970,
      "name": "Elder Spawn of Juiblex",
      "cr": 14.0,
      "number": "Solitary (see source book)",
@@ -9075,8 +9075,8 @@
      }
     },
     {
-     "low": 98,
-     "high": 98,
+     "low": 971,
+     "high": 980,
      "name": "Aboleth Mage",
      "cr": 17.0,
      "number": "Solitary (see source book)",
@@ -9096,8 +9096,8 @@
      }
     },
     {
-     "low": 99,
-     "high": 100,
+     "low": 981,
+     "high": 1000,
      "name": "Ocean Strider",
      "cr": 18.0,
      "number": "Solitary (see source book)",
