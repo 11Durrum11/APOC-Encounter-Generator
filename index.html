@@ -17998,6 +17998,8 @@ document.getElementById('lbClose').addEventListener('click',closePic);
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape')closePic();});
 function showResult(t,r,e,fx){
   fx=fx||{};
+  const sbTxt=(e.statblock&&e.statblock.b!=null)?(DATA.blocks[e.statblock.b]||''):((e.statblock&&e.statblock.text)||'');
+  const head=sbTxt.slice(0,900);
   let h='<b>d1000: '+r+'</b> on '+esc(t.name)+' (band '+(e.low===e.high?e.low:e.low+'–'+e.high)+')<br>';
   if(fx.bled)h+='<div class="apoc"><b>The Open Wastes bleed in.</b> Under the Badlands layer, this roll came out of the general Badlands pool instead — one in twenty, as the country wills it.</div>';
   if(fx.weighted)h+='<div class="apoc"><b>Steampunk weighting.</b> Under the overlay the roll bends to a machine — seven in ten under steam.</div>';
@@ -18014,14 +18016,17 @@ function showResult(t,r,e,fx){
     /* The rewrite (Shaun's spec, 2026-11-11): with the overlay ON the rolled creature is
        presented rewritten as a steampunk version of itself — the overlay's layer on top.
        The published record below stays verbatim and untouched; OFF = exactly as published. */
-    const sbTxt=(e.statblock&&e.statblock.b!=null)?(DATA.blocks[e.statblock.b]||''):((e.statblock&&e.statblock.text)||'');
-    const head=sbTxt.slice(0,900);
     const isMachine=/construct/i.test(e.type||'')||/construct/i.test(head.split('\n').slice(0,6).join(' '));
     const isPerson=(e.kinds||[]).includes('npc')||e.name==='Saint James';
+    const isUndead=(e.kinds||[]).includes('undead')||/undead/i.test(e.type||'')||/\bUndead\b/.test(head.split('\n').slice(0,4).join(' '));
     if(isMachine){
       h+='<div class="apoc"><b>'+esc(e.name)+'</b> — already a machine of the age (Steampunk overlay). The overlay has nothing to rewrite: it stands as published, the element itself.</div>';
     } else if(isPerson){
       h+='<div class="apoc"><b>'+esc(e.name)+'</b> — in the steam idiom (Steampunk overlay). Not rebuilt — kitted: steamcraft gear and apparatus in their hands, firearms where they carry. The person stands as published, unchanged.</div>';
+    } else if(isUndead&&!/incorporeal/i.test((e.type||'')+' '+head)){
+      /* Shaun's Steampunk-Augmented Undead template — on file in the Blendcrafter
+         library's homebrew records; applies to corporeal undead. */
+      h+='<div class="apoc"><b>Steampunk-Augmented '+esc(e.name)+'</b> — Shaun\u2019s template applied (Steampunk overlay; homebrew, via the Blendcrafter library). CR +1; Str +4, Dex \u22122; natural armor +4 in bolted iron plate and brass gears; type stays Undead and gains the Construct subtype. Piston Slam (Ex): gains a slam, or its slam\u2019s die grows a step, dealing an extra 1d6 bludgeoning. Steam Charge (Ex) once per encounter at double land speed; Alchemical Fortification (Ex): 25% to ignore the extra damage of critical hits and sneak attacks; Boiler Explosion (Ex) at 0 hp — 2d6 fire to all within 10 ft (Reflex DC 13 half); vulnerability to electricity (+50%); land speed \u22125 ft. The published block below stands untouched.</div>';
     } else {
       const sizeM=head.match(/\b(Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)\b/);
       const atkM=sbTxt.match(/(?:^|\n)\**(?:Full Attack|Attack)\**\s*:?\s*(?:\d+\s+)?([a-z][a-z']+)/i);
@@ -18039,7 +18044,15 @@ function showResult(t,r,e,fx){
       :'Steam and gearwork run through this country too: war-machines crawl out of the enclaves, constructs work the fields and ruins, steamcraft gear turns up in ready hands — and elemental workings are fed through steampunk apparatus.')
       +(isMachine?' This roll is the element itself: a machine of the age, met in the field.':'')+'</div>';
     h+='<div class="credit">Steamcraft gear drop: '+GEAR[Math.floor(Math.random()*GEAR.length)]+'.</div>';}
-  if(twistable(e))h+='<div class="apoc"><b>Twisted '+esc(e.name)+'</b> — the blight took this one (Twisted overlay). Warped in body, wrong in habit: the land\u2019s own life, gone on living where the demons passed — no demon, and no servant of demons. Its published block stands as printed; Shaun\u2019s Twisted template rides over it in form.</div>';
+  if(twistable(e)){const sizeM2=head.match(/\b(Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)\b/);
+    const clawD={Small:'1d2',Medium:'1d3',Large:'1d4'}[sizeM2?sizeM2[1]:''];
+    const shift=/animal|vermin/i.test(e.type||'')?' Animals and vermin become magical beasts under it; otherwise its type is unchanged.':'';
+    h+='<div class="apoc"><b>Twisted '+esc(e.name)+'</b> — Shaun\u2019s Twisted template applied (Twisted overlay; Misc Other House Rules, Doc #4, via the Blendcrafter library record \u201CTwisted (House)\u201D). Warped in body, wrong in habit — the land\u2019s own life, gone on living where the demons passed; no demon, and no servant of demons.'+shift
+      +' Str +4, Con +4, Cha \u22122, Intelligence at least 3; natural armor improves by +2; alignment becomes evil.'
+      +' Gains Smite Good (Su) once per day — extra damage equal to its HD (maximum +20) against a good foe — and a Disruptive Attack (Su): +1 vile damage when it touches uncorrupted, living, corporeal nonoutsiders.'
+      +(clawD?' Its two claw attacks deal '+clawD+' each and are its primary natural weapons.':' It gains two claw attacks as its primary natural weapons.')
+      +' Darkvision 60 ft.; damage reduction 5/cold iron; its natural weapons count as magic for overcoming damage reduction; immunity to electricity and poison; resistance 10 to acid, cold, and fire.'
+      +' The document gives no CR adjustment — CR stands as published, and the published block below is untouched.</div>';}
   if(e.picture && e.picture.status==='on file'){
     h+='<img class="pic" src="'+esc(e.picture.file)+'" alt="'+esc(e.name)+'" title="Hover to enlarge — click for full size">';
     if(e.picture.credit) h+='<div class="credit">Picture: '+esc(e.picture.credit)+' (hover to enlarge, click to expand)</div>';
