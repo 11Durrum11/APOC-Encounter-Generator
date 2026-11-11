@@ -87,8 +87,8 @@
  },
  "tables": [
   {
-   "name": "Badlands",
-   "note": "Dragons haven't been seen in a thousand years \u2014 a legend under the Council of Wyrms. Flavor only: no roll ever produces a dragon. Fog of Life lies on this surface terrain.",
+   "name": "Badlands \u2014 Open Wastes",
+   "note": "The general table for the open blighted wastes of the Badlands \u2014 the untamed world outside the held cities; every other table in this set but the Bastion's is another place within it. Dragons haven't been seen in a thousand years \u2014 a legend under the Council of Wyrms. Flavor only: no roll ever produces a dragon. Fog of Life lies on this surface terrain.",
    "entries": [
     {
      "low": 1,

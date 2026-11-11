@@ -4,23 +4,26 @@ Built 2026-11-09 from canonical sources only: Demons roster (361 in file — the
 
 **Stat blocks & pictures:** every creature on these tables carries its full stat block and its picture in the roller (`index.html`) and in [STATBLOCKS.md](STATBLOCKS.md) / `encounters.json` — roll on the page to see the rolled creature's block and picture. This document stays the quick-reference table set.
 
+## The Badlands — the world outside the cities (Shaun, canon correction 2026-11-11)
+**The Badlands is everywhere the city is not.** It is all the untamed world outside the held cities — everywhere the demons crossed the landscape and blighted it as they travelled through. Every table in this set except the Bastion's own describes a place WITHIN the Badlands: its plains, forests, hills, mountains, deserts, swamps, waters, ruins, roads, and deep places are regions of the Badlands, not lands beside it. The **Badlands — Open Wastes** table is the general table for the open blighted country of the Badlands, between and beyond those regions. Only the Bastion tables are inside a held city.
+
 ## APOC screening rules (hard)
 - No summoning, no planar arrivals. Demons are mortal enclave demons already here; undead are the Kingdom of the Undead and local undead.
-- Fog of Life is surface-only — it does not apply underground or inside the Bastion. Hatestorm/wasteland effects belong to Badlands tables only.
+- Fog of Life is surface-only — it does not apply underground or inside the Bastion. Hatestorms rage across the Badlands — the whole untamed world outside the held cities; inside the Bastion only regular fog applies.
 - The Bastion's Melairshield bars undead, demons, dragons and flying creatures. Bastion-interior tables are Watch/Guard patrols, citizens, consortium people, Warforged, War-Torn, sentient constructs, vermin and NPCs.
 - Drow do not appear (folded into the demons) and tieflings do not appear (they were taken) — both excluded entirely.
 - **Dragons haven't been seen in a thousand years** (Shaun, 2026-11-09) — a legend under the Council of Wyrms. NO dragon is rollable on any table, including dracolich and any Dragon-type creature; excluded and counted in COVERAGE.md.
 - Undead entries carry Shaun's house rules in their APOC note: maximized hp, +4 turning/control resistance re-rolled every round, zombie-type bite infects.
 
 ## WORLD LORE — claimed and unclaimed undead (Shaun, 2026-11-09: "Not world law, world lore")
-There are two kinds of undead, as it were. The **unclaimed** are wild undead, living out in the Badlands or in their respective environments, following no nation's rule. The **claimed** are the undead nation — the Kingdom of the Undead — ruled by its own laws and its own way of doing things. The nation's society is led from the top: the highest order of undead — its most powerful and intelligent — make up the society's upper crust and leadership, and the lesser claimed are its rank and file under them. Every undead entry carries a lore tag (`undeadKind`: claimed / unclaimed / either) in the APOC layer only; published stat lines are untouched, and no specific laws, rulers, or customs of the nation are invented — only the above is established. Claimed undead still never appear inside the Bastion: the Melairshield bars all undead regardless of claimed status.
+There are two kinds of undead, as it were. The **unclaimed** are wild undead, living out in the Badlands — each in its own corner of it — following no nation's rule. The **claimed** are the undead nation — the Kingdom of the Undead — ruled by its own laws and its own way of doing things. The nation's society is led from the top: the highest order of undead — its most powerful and intelligent — make up the society's upper crust and leadership, and the lesser claimed are its rank and file under them. Every undead entry carries a lore tag (`undeadKind`: claimed / unclaimed / either) in the APOC layer only; published stat lines are untouched, and no specific laws, rulers, or customs of the nation are invented — only the above is established. Claimed undead still never appear inside the Bastion: the Melairshield bars all undead regardless of claimed status.
 
 - Correction pass 2026-11-09: the Drowned (Monster Manual III) restored — it is an undead, not a drow; the drow exclusion is word-boundary (the Tirbana Drowser, a Monster Manual V magical beast, was a second substring false positive). Extraction-noise rows cleaned — see COVERAGE.md.
 
 - Improvement pass 2026-11-09: full stat blocks merged onto every entry (see STATBLOCKS.md), pictures matched from the roster picture pools, and an ecology audit applied (published Environment governs; swaps and weak fits logged in COVERAGE.md).
 
 ## Area-type layering & folded combinations
-- Open wilderness: use the terrain table as-is.
+- Open country: use the region's table as-is; for the open blighted wastes between regions, use Badlands — Open Wastes, the Badlands' general table.
 - Road/trail: roll on Road/Trail generic, or the terrain table — road travellers are drawn from humanoid/giant/animal stock, so a separate per-terrain road matrix is FOLDED into the one generic Road/Trail table (reason: roads cross terrains; duplicating 11 road tables would repeat the same traveller pool).
 - Dungeon/interior: Underground — Dungeon/Interior table (folded from Underground+Ruins pools, reason: built below-ground interiors share both pools).
 - City streets/districts: Bastion Streets and Bastion Districts/Interior are separate tables (ward-screened).
@@ -28,9 +31,9 @@ There are two kinds of undead, as it were. The **unclaimed** are wild undead, li
 - River/Lake/Coast is split into Shoreline and Open Water sub-tables (aquatic creatures only in Open Water).
 - Per-terrain city and per-terrain dungeon matrices are FOLDED as above — the Bastion is APOC's one great city table-set, and dungeons are terrain-independent interiors. Every named terrain and area type is covered.
 
-## Badlands (d100)
+## Badlands — Open Wastes (d100)
 
-*Dragons haven't been seen in a thousand years — a legend under the Council of Wyrms. Flavor only: no roll ever produces a dragon. Fog of Life lies on this surface terrain.*
+*The general table for the open blighted wastes of the Badlands — the untamed world outside the held cities; every other table in this set but the Bastion's is another place within it. Dragons haven't been seen in a thousand years — a legend under the Council of Wyrms. Flavor only: no roll ever produces a dragon. Fog of Life lies on this surface terrain.*
 
 | d100 | Encounter | CR | Number appearing | Source |
 |---|---|---|---|---|
