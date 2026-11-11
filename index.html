@@ -85,6 +85,7 @@ summary{cursor:pointer;color:var(--accent-foreground)}
 <div class="credit">Everywhere outside the city is the Badlands — the whole untamed world. Every table but the Bastion's is a place within it.</div>
 <div style="margin-top:6px"><button id="badlandsToggle" class="tbtn" type="button">Badlands layer: OFF</button> <span id="badlandsNote" class="credit"></span></div>
 <div style="margin-top:4px"><button id="steamToggle" class="tbtn" type="button">Steampunk overlay: OFF</button> <span id="steamNote" class="credit"></span></div>
+<div style="margin-top:4px"><button id="twistedToggle" class="tbtn" type="button">Twisted overlay: OFF</button> <span id="twistedNote" class="credit"></span></div>
 <label>Table <select id="tbl"></select></label> <button id="roll">Roll d1000</button> <button id="previewBtn">Preview table</button> <button id="reset">Reset layout</button></div>
 <style>
 .tools{margin-top:10px}
@@ -17972,14 +17973,34 @@ function syncSteam(){const b=document.getElementById('steamToggle');if(!b)return
   document.getElementById('steamNote').textContent=steam?'Steam and gearwork layered over this roll — the age runs on steam.':'';}
 document.getElementById('steamToggle').addEventListener('click',()=>{steam=!steam;try{localStorage.setItem('apocEncSteampunk',steam?'1':'0');}catch(e){}syncSteam();});
 syncSteam();
+/* The Twisted overlay — the third additive (Shaun's rulings, 2026-11-11). When ON, the
+   land's own living life on a landscape roll is presented Twisted. Not eligible: the
+   undead, constructs, demons, and persons — the blight twists the living land, and
+   named people are Shaun's own story calls. */
+let twisted=false; try{twisted=localStorage.getItem('apocEncTwisted')==='1';}catch(e){}
+function syncTwisted(){const b=document.getElementById('twistedToggle');if(!b)return;
+  b.textContent='Twisted overlay: '+(twisted?'ON':'OFF');b.classList.toggle('on',twisted);
+  document.getElementById('twistedNote').textContent=twisted?'The blight twists the land\u2019s own life on these rolls.':'';}
+document.getElementById('twistedToggle').addEventListener('click',()=>{twisted=!twisted;try{localStorage.setItem('apocEncTwisted',twisted?'1':'0');}catch(e){}syncTwisted();});
+syncTwisted();
+function twistable(e){if(!twisted)return false;const ty=(e.type||''),kinds=e.kinds||[];
+  if(/construct|undead/i.test(ty))return false;
+  if(kinds.includes('undead')||kinds.includes('demon'))return false;
+  if(/outsider/i.test(ty))return false;
+  if(kinds.includes('npc')||e.name==='Saint James')return false;
+  return true;}
+const GEAR=['a steampunk apparatus, gear-driven and hissing softly','steamcraft tools, still warm from the work','alchemical components, stoppered and labeled','a firearm, oiled and ready','gearwork prosthetic components, wrapped in oilcloth','brass fittings and boiler plate, salvageable','a clockwork mechanism, ticking on its own','pressure valves and copper piping, a matched set'];
 const lb=document.getElementById('lightbox'),lbImg=document.getElementById('lbImg'),lbCap=document.getElementById('lbCap');
 function openPic(src,name,credit){lbImg.src=src;lbImg.alt=name||'';lbCap.textContent=(name||'')+(credit?' — '+credit:'');lb.classList.add('open');}
 function closePic(){lb.classList.remove('open');lbImg.src='';}
 lb.addEventListener('click',closePic);
 document.getElementById('lbClose').addEventListener('click',closePic);
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape')closePic();});
-function showResult(t,r,e){
+function showResult(t,r,e,fx){
+  fx=fx||{};
   let h='<b>d1000: '+r+'</b> on '+esc(t.name)+' (band '+(e.low===e.high?e.low:e.low+'–'+e.high)+')<br>';
+  if(fx.bled)h+='<div class="apoc"><b>The Open Wastes bleed in.</b> Under the Badlands layer, this roll came out of the general Badlands pool instead — one in twenty, as the country wills it.</div>';
+  if(fx.weighted)h+='<div class="apoc"><b>Steampunk weighting.</b> Under the overlay the roll bends to a machine — seven in ten under steam.</div>';
   h+='<b>'+esc(e.name)+'</b> — CR '+esc(e.cr)+'<br>Number appearing: '+esc(e.number)+'<br>Source: '+esc(e.source);
   if(e.environment) h+='<br>Environment (published/mapped): '+esc(e.environment);
   if(e.undeadKind){const K={claimed:'Claimed — of the undead nation, under its own laws',unclaimed:'Unclaimed — wild dead, under no nation’s rule',either:'Claimed or unclaimed — not settled by the record'};h+='<br><b>Undead kind (world lore):</b> '+K[e.undeadKind]+(e.leadership?' — <b>upper crust</b>: the highest order of undead lead the nation’s society':'');}
@@ -17988,7 +18009,7 @@ function showResult(t,r,e){
     h+='<div class="apoc"><b>Badlands layer — ON.</b> '+(under
       ?'Demon-crossed country, even down here: no Fog of Life underground, but the blight soaked deep, the permanent war runs through the dark, and the unclaimed walk here.'
       :'One grey sky over demon-crossed country: Fog of Life lies on the surface, hatestorms rage in this country, the permanent war runs through it, and the unclaimed walk here.')
-      +' The land\u2019s own life in defiled country may be twisted \u2014 warped in body, wrong in habit; no demon, and no servant of demons. (Shaun\u2019s Twisted template applies where the DM calls it.)</div>';}
+      +'</div>';}
   if(steam){const city=BASTION_TABLES.includes(t.name);
     /* The rewrite (Shaun's spec, 2026-11-11): with the overlay ON the rolled creature is
        presented rewritten as a steampunk version of itself — the overlay's layer on top.
@@ -18016,7 +18037,9 @@ function showResult(t,r,e){
     h+='<div class="apoc"><b>Steampunk overlay — ON.</b> '+(city
       ?'The city runs on steam: cannoneer towers along the wall, the walking constructs on their rounds, steamcraft in the workshops — and elemental workings fed through steampunk apparatus.'
       :'Steam and gearwork run through this country too: war-machines crawl out of the enclaves, constructs work the fields and ruins, steamcraft gear turns up in ready hands — and elemental workings are fed through steampunk apparatus.')
-      +(isMachine?' This roll is the element itself: a machine of the age, met in the field.':'')+'</div>';}
+      +(isMachine?' This roll is the element itself: a machine of the age, met in the field.':'')+'</div>';
+    h+='<div class="credit">Steamcraft gear drop: '+GEAR[Math.floor(Math.random()*GEAR.length)]+'.</div>';}
+  if(twistable(e))h+='<div class="apoc"><b>Twisted '+esc(e.name)+'</b> — the blight took this one (Twisted overlay). Warped in body, wrong in habit: the land\u2019s own life, gone on living where the demons passed — no demon, and no servant of demons. Its published block stands as printed; Shaun\u2019s Twisted template rides over it in form.</div>';
   if(e.picture && e.picture.status==='on file'){
     h+='<img class="pic" src="'+esc(e.picture.file)+'" alt="'+esc(e.name)+'" title="Hover to enlarge — click for full size">';
     if(e.picture.credit) h+='<div class="credit">Picture: '+esc(e.picture.credit)+' (hover to enlarge, click to expand)</div>';
@@ -18034,10 +18057,29 @@ function showResult(t,r,e){
   if(pim) pim.addEventListener('click',()=>openPic(e.picture.file,e.name,e.picture.credit||''));
 }
 document.getElementById('roll').onclick=()=>{
-  const t=DATA.tables[sel.value]; const r=1+Math.floor(Math.random()*1000);
-  const e=t.entries.find(x=>r>=x.low&&r<=x.high);
-  showResult(t,r,e);
-  hist.unshift(t.name+': '+r+' — '+e.name+' (CR '+e.cr+')'+(badlandsOn(t.name)?' [Badlands layer]':'')+(steam?' [Steampunk]':''));
+  let t=DATA.tables[sel.value]; let r=1+Math.floor(Math.random()*1000);
+  let e=t.entries.find(x=>r>=x.low&&r<=x.high);
+  const fx={bled:false,weighted:false};
+  /* Badlands bleed (Shaun's settled rate): with the layer ON, the Open Wastes pool
+     bleeds into the other landscapes' rolls — 1 in 20 come out of the general pool.
+     Landscapes only; Saint James is never displaced by an overlay. */
+  if(badlandsOn(t.name)&&t.name!=='Open Wastes'&&e.name!=='Saint James'&&Math.random()<0.05){
+    const ow=DATA.tables.find(x=>x.name==='Open Wastes'); const r2=1+Math.floor(Math.random()*1000);
+    const e2=ow.entries.find(x=>r2>=x.low&&r2<=x.high);
+    if(e2){t=ow;r=r2;e=e2;fx.bled=true;}}
+  /* Steampunk weighting (Shaun's ruling): machines 7 out of 10 under steam — a
+     non-machine result bends to this table's own machine population at the rate
+     that makes machines seven in ten in expectation, drawn by band weight. */
+  if(steam&&e.name!=='Saint James'&&!/construct/i.test(e.type||'')){
+    const ms=t.entries.filter(x=>/construct/i.test(x.type||''));
+    const pm=ms.reduce((a,x)=>a+(x.high-x.low+1),0)/1000;
+    if(ms.length&&pm<0.7){
+      const bend=(0.7-pm)/(1-pm);
+      if(Math.random()<bend){
+        const tot=ms.reduce((a,x)=>a+(x.high-x.low+1),0); let pick=Math.random()*tot,acc=0;
+        for(const m of ms){acc+=(m.high-m.low+1); if(pick<acc){e=m;fx.weighted=true;break;}}}}}
+  showResult(t,r,e,fx);
+  hist.unshift(t.name+': '+r+' — '+e.name+' (CR '+e.cr+')'+(badlandsOn(t.name)?' [Badlands layer]':'')+(steam?' [Steampunk]':'')+(twistable(e)?' [Twisted]':'')+(fx.bled?' [bled in from the Open Wastes]':'')+(fx.weighted?' [Steampunk weighting]':''));
   document.getElementById('history').innerHTML='<b>Roll history</b><br>'+hist.slice(0,20).map(esc).join('<br>');
 };
 document.getElementById('previewBtn').onclick=()=>{
