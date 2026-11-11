@@ -4,7 +4,9 @@ Full stat blocks for every creature placed on the encounter tables (339 distinct
 
 ## Abeil Queen — CR 12 — Monster Manual II
 
-*Picture: none on file.*
+![Abeil Queen](pictures/abeil-queen.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -16,7 +18,9 @@ Description: Abeils are insectlike humanoids known for their industriousness and
 
 ## Aboleth Mage — CR 17 — Monster Manual I
 
-*Picture: none on file.*
+![Aboleth Mage](pictures/aboleth-mage.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -63,7 +67,9 @@ ABYSSAL SKULKER — Monster Manual II, p.57
 
 ## Air Weird — CR 12 — Monster Manual II
 
-*Picture: none on file.*
+![Air Weird](pictures/air-weird.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -75,7 +81,9 @@ Description: Air weirds are elemental spirits that offer direction and guidance 
 
 ## Alchemical Golem — CR 11 — Monster Manual III
 
-*Picture: none on file.*
+![Alchemical Golem](pictures/alchemical-golem.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -132,7 +140,9 @@ Ammit — CR 15 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 ## Animated Object — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Animated Object](pictures/animated-object.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -279,7 +289,9 @@ APPARITION
 
 ## Arkamoi — CR 4 — Monster Manual V
 
-*Picture: none on file.*
+![Arkamoi](pictures/arkamoi.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -291,7 +303,9 @@ Description: This bald, gray-skinned humanoid is clad in blue robes that barely 
 
 ## Armand — CR 3 — Monster Manual III
 
-*Picture: none on file.*
+![Armand](pictures/armand.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -303,7 +317,9 @@ Description: This short, solidly built humanoid with thick, plated skin seems as
 
 ## Aspect of Dispater — CR 21 — Fiendish Codex II
 
-*Picture: none on file.*
+![Aspect of Dispater](pictures/aspect-of-dispater.png)
+
+*Picture: APOC-VTT monster library art — Fiendish Codex II*
 
 **Partial — fullest block on file:**
 
@@ -373,7 +389,9 @@ Flavor/combat prose (read in full): clots of divine flesh from a stillborn godli
 
 ## Automaton Hammerer — CR 3 — Monster Manual II
 
-*Picture: none on file.*
+![Automaton Hammerer](pictures/automaton-hammerer.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -385,7 +403,9 @@ Description: The hammerer automaton is a roughly human-shaped, bipedal war machi
 
 ## Avvite — CR 5 — Anger of Angels
 
-*Picture: none on file.*
+![Avvite](pictures/avvite.webp)
+
+*Picture: GENERATED — generated from the published description (Anger of Angels sample: nearly skeletal dire wolf in red and black scales)*
 
 ### 2b. Avvite — TEMPLATE (variant entry)
 
@@ -509,7 +529,9 @@ Sidebar, "Creating a Baneguard" (p.162): A spellcaster can create a baneguard us
 
 ## Beholder, Gauth — CR 6 — Monster Manual I
 
-*Picture: none on file.*
+![Beholder, Gauth](pictures/beholder-gauth.webp)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -521,7 +543,9 @@ Description: The gauth, sometimes known as the lesser beholder, is a 4-foot wide
 
 ## Belker — CR 6 — Monster Manual I
 
-*Picture: none on file.*
+![Belker](pictures/belker.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -646,7 +670,9 @@ Stat blocks: 1+1+1+1+1+1+1+1+1+1+1+1+1+6+1 = 20.
 
 ## Blackspawn Stalker — CR 9 — Monster Manual IV
 
-*Picture: none on file.*
+![Blackspawn Stalker](pictures/blackspawn-stalker.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -732,7 +758,9 @@ BLACKWING — Monster Manual V, p.12
 
 ## Bladerager Troll — CR 8 — Monster Manual V
 
-*Picture: none on file.*
+![Bladerager Troll](pictures/bladerager-troll.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -744,7 +772,9 @@ Description: A snarling and muscular giant lumbers into view, plates of steel em
 
 ## Blood Ape — CR 6 — Monster Manual II
 
-*Picture: none on file.*
+![Blood Ape](pictures/blood-ape.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -807,7 +837,9 @@ Flavor/combat prose (read in full): a swarm of undead mosquitoes; never sated. B
 
 ## Bluespawn Ambusher — CR 4 — Monster Manual IV
 
-*Picture: none on file.*
+![Bluespawn Ambusher](pictures/bluespawn-ambusher.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -819,7 +851,9 @@ Description: The ground trembles, and a blue form bursts from the ground in a sh
 
 ## Bluespawn Burrower — CR 9 — Monster Manual IV
 
-*Picture: none on file.*
+![Bluespawn Burrower](pictures/bluespawn-burrower.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -831,7 +865,9 @@ Description: Possessing a head that closely resembles that of a blue dragon and 
 
 ## Bluespawn Stormlizard — CR 6 — Monster Manual IV
 
-*Picture: none on file.*
+![Bluespawn Stormlizard](pictures/bluespawn-stormlizard.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -843,7 +879,9 @@ Description: A hulking creature, as big as a horse and twice as wide, circles ar
 
 ## Boar — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Boar](pictures/boar.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -855,7 +893,9 @@ Description: Though not carnivores, these wild swine are bad-tempered and usuall
 
 ## Boatman — CR 7 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Boatman](pictures/boatman.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -989,7 +1029,9 @@ BOG MUMMY
 
 ## Bog Trog — CR 1 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Bog Trog](pictures/bog-trog.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -1001,7 +1043,9 @@ Description: I think I am one of the few travelers of the Iron Kingdoms who has 
 
 ## Boggle — CR 3 — Monster Manual II
 
-*Picture: none on file.*
+![Boggle](pictures/boggle.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -1142,7 +1186,9 @@ Brain golems do not speak or understand any language, despite their intelligence
 
 ## Breathdrinker — CR 7 — Monster Manual II
 
-*Picture: none on file.*
+![Breathdrinker](pictures/breathdrinker.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -1154,7 +1200,9 @@ Description: The breathdrinker is a dreadful elemental that feeds on air extract
 
 ## Bronze Serpent — CR 10 — Monster Manual II
 
-*Picture: none on file.*
+![Bronze Serpent](pictures/bronze-serpent.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -1166,7 +1214,9 @@ Description: First seen in tropical lands, bronze serpents are golemlike guardia
 
 ## Brood Keeper Larva Swarm — CR 12 — Monster Manual III
 
-*Picture: none on file.*
+![Brood Keeper Larva Swarm](pictures/brood-keeper-larva-swarm.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -1178,7 +1228,9 @@ Description: As you watch, the plates of chitin on the creature's back slowly op
 
 ## Bugbear — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Bugbear](pictures/bugbear.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -1318,7 +1370,9 @@ Sample: CADAVER LORD (undead lord cadaver) — CR 5
 
 ## Camel — CR 1 — Monster Manual I
 
-*Picture: none on file.*
+![Camel](pictures/camel.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -1417,7 +1471,9 @@ Caryatid columns are incapable of speech.
 
 ## Cataphract Beetle — CR 3 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Cataphract Beetle](pictures/cataphract-beetle.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -1429,7 +1485,9 @@ Description: While I can’t say that my forced travels into the east were comfo
 
 ## Catoblepas — CR 6 — Monster Manual II
 
-*Picture: none on file.*
+![Catoblepas](pictures/catoblepas.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -1441,7 +1499,9 @@ Description: The catoblepas is a bizarre, loathsome creature that inhabits disma
 
 ## Cerebral Symbiont, Mind Leech — CR 0.125 — Fiend Folio
 
-*Picture: none on file.*
+![Cerebral Symbiont, Mind Leech](pictures/cerebral-symbiont-mind-leech.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -1505,7 +1565,9 @@ Description: A mind leech is a small, slimy creature that coils itself around th
 
 ## Chain Golem — CR 5 — Monster Manual II
 
-*Picture: none on file.*
+![Chain Golem](pictures/chain-golem.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -1517,7 +1579,9 @@ Description: Creations of the diabolical kytons (see the Monster Manual), chain 
 
 ## Chaos Beast — CR 7 — Monster Manual I
 
-*Picture: none on file.*
+![Chaos Beast](pictures/chaos-beast.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -1529,7 +1593,9 @@ Description: The horrific creatures known as chaos beasts have mutable, ever-cha
 
 ## Chelicera — CR 6 — Monster Manual III
 
-*Picture: none on file.*
+![Chelicera](pictures/chelicera.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -1541,7 +1607,9 @@ Description: This creature looks like a spindly black spider as large as a human
 
 ## Chimera — CR 7 — Monster Manual I
 
-*Picture: none on file.*
+![Chimera](pictures/chimera.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -1553,7 +1621,9 @@ Description: The skorne inhabit some of the harshest lands I’ve ever encounter
 
 ## Chuul — CR 7 — Monster Manual I
 
-*Picture: none on file.*
+![Chuul](pictures/chuul.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -1618,7 +1688,9 @@ A creature that is burned to death by magical fire may rise again as a fiery und
 
 ## Cinder Swarm — CR 13 — Monster Manual III
 
-*Picture: none on file.*
+![Cinder Swarm](pictures/cinder-swarm.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -1630,7 +1702,9 @@ Description: Flickering flames move along the ground and through the air as one 
 
 ## Clockroach — CR 1 — Monster Manual IV
 
-*Picture: none on file.*
+![Clockroach](pictures/clockroach.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -1769,7 +1843,9 @@ All clockwork horrors share the following qualities.
 
 ## Clockwork Horror, Adamantine — CR 9 — Monster Manual II
 
-*Picture: none on file.*
+![Clockwork Horror, Adamantine](pictures/clockwork-horror-adamantine.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -1781,7 +1857,9 @@ Description: An adamantine horror is the supreme leader of the entire clockwork 
 
 ## Clockwork Mender Swarm — CR 3 — Monster Manual IV
 
-*Picture: none on file.*
+![Clockwork Mender Swarm](pictures/clockwork-mender-swarm.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -1815,7 +1893,9 @@ Always LN Tiny construct (extraplanar, lawful, swarm)
 
 ## Clockwork Stallion — CR 3 — Monster Manual IV
 
-*Picture: none on file.*
+![Clockwork Stallion](pictures/clockwork-stallion.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -1902,7 +1982,9 @@ CRAWLING HEAD — Fiend Folio, pp.35–36
 
 ## Crocodile, Giant — CR 4 — Monster Manual I
 
-*Picture: none on file.*
+![Crocodile, Giant](pictures/crocodile-giant.webp)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -1914,7 +1996,9 @@ Description: These huge creatures usually live in salt water and can be more tha
 
 ## Cullenrock Barnacle — CR 0.5 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Cullenrock Barnacle](pictures/cullenrock-barnacle.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -2000,7 +2084,9 @@ The curst fights recklessly, knowing that even if it is carved to pieces, it wil
 
 ## Cyclonic Ravager — CR 15 — Monster Manual IV
 
-*Picture: none on file.*
+![Cyclonic Ravager](pictures/cyclonic-ravager.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -2012,7 +2098,9 @@ Description: The air before you seems to explode in fury. Dirt and debris funnel
 
 ## Cyclops — CR 5 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Cyclops](pictures/cyclops.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -2024,7 +2112,9 @@ Description: My journeys through eastern Immoren often brought me afoul of the e
 
 ## Darktentacles — CR 7 — Monster Manual II
 
-*Picture: none on file.*
+![Darktentacles](pictures/darktentacles.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -2036,7 +2126,9 @@ Description: The darktentacles is a justly feared swamp monster. Both intelligen
 
 ## Darkweaver — CR 10 — Fiend Folio
 
-*Picture: none on file.*
+![Darkweaver](pictures/darkweaver.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -2319,7 +2411,9 @@ DEATHSHRIEKER — Monster Manual III, pp.32–33
 
 ## Demon, Kastighur — CR 11 — Monster Manual IV
 
-*Picture: none on file.*
+![Demon, Kastighur](pictures/demon-kastighur.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 KASTIGHUR — Monster Manual IV, p.42 (entry pp.42–43)
 
@@ -2352,7 +2446,9 @@ KASTIGHUR — Monster Manual IV, p.42 (entry pp.42–43)
 
 ## Demon, Zovvut — CR 9 — Monster Manual II
 
-*Picture: none on file.*
+![Demon, Zovvut](pictures/demon-zovvut.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 ZOVVUT — Monster Manual II, pp.60–61
 
@@ -2409,7 +2505,9 @@ ZOVVUT — Monster Manual II, pp.60–61
 
 ## Desert Hydra (5-headed) — CR 15 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Desert Hydra (5-headed)](pictures/desert-hydra-5-headed.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -2436,7 +2534,9 @@ Flavor/combat prose (verbatim, Libris Mortis pp.94–95): Desiccators are the dr
 
 ## Devil Rat Swarm — CR 3 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Devil Rat Swarm](pictures/devil-rat-swarm.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -2491,7 +2591,9 @@ Devourers speak Common.
 
 ## Dinosaur, Bloodstriker — CR 6 — Monster Manual III
 
-*Picture: none on file.*
+![Dinosaur, Bloodstriker](pictures/dinosaur-bloodstriker.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -2503,7 +2605,9 @@ Description: This quadruped is covered with a thick, spiked hide. Two large horn
 
 ## Dinosaur, Cryptoclidus — CR 3 — Monster Manual II
 
-*Picture: none on file.*
+![Dinosaur, Cryptoclidus](pictures/dinosaur-cryptoclidus.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -2515,7 +2619,9 @@ Description: Cryptoclidus is a plesiosaur, a 10-foot-long aquatic reptile much l
 
 ## Dinosaur, Deinonychus — CR 3 — Monster Manual I
 
-*Picture: none on file.*
+![Dinosaur, Deinonychus](pictures/dinosaur-deinonychus.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -2527,7 +2633,9 @@ Description: A deinonychus is bright green along its back and flanks, with a muc
 
 ## Dinosaur, Triceratops — CR 9 — Monster Manual I
 
-*Picture: none on file.*
+![Dinosaur, Triceratops](pictures/dinosaur-triceratops.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -2539,7 +2647,9 @@ Description: A triceratops has a body about 25 feet long and weighs about 20,000
 
 ## Dire Bear — CR 7 — Monster Manual I
 
-*Picture: none on file.*
+![Dire Bear](pictures/dire-bear.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -2551,7 +2661,9 @@ Description: The omnivorous dire bear usually does not bother creatures that try
 
 ## Dire Elephant — CR 10 — Monster Manual II
 
-*Picture: none on file.*
+![Dire Elephant](pictures/dire-elephant.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -2563,7 +2675,9 @@ Description: These titanic herbivores are somewhat unpredictable and moody. Gian
 
 ## Dire Maggot — CR 2 — Libris Mortis
 
-*Picture: none on file.*
+![Dire Maggot](pictures/dire-maggot.webp)
+
+*Picture: GENERATED — generated from the published description (Libris Mortis: dead-white segmented worm, clacking mandibles, ichor)*
 
 ## 16. DIRE MAGGOT — Libris Mortis p.95, CR 2 — **[SCREENED: NOT UNDEAD]**
 **Vermin** (Huge per index [DMREF]; the full-text mirror's stat line is internally garbled — "Small" with Huge size modifiers — *verify — web extraction*). HD 6d8+6 (33 hp), Init +2, Speed 40 ft./climb 40 ft., bite +3 (1d8+2 plus paralytic saliva — Paralytic Saliva (Ex): Fort DC 14 or paralyzed 1 round), CR 2, Environment underground, Organization solitary or slaughter (2–5).
@@ -2571,7 +2685,9 @@ Description: These titanic herbivores are somewhat unpredictable and moody. Gian
 
 ## Dolomite — CR 15 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Dolomite](pictures/dolomite.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -2583,7 +2699,9 @@ Description: I must confess I find the dolomite, or slag hound as it is known in
 
 ## Doru, Infectious Blasheme — CR 9 — Libris Mortis
 
-*Picture: none on file.*
+![Doru, Infectious Blasheme](pictures/doru-infectious-blasheme.webp)
+
+*Picture: GENERATED — generated from the published description (surgically modified corpse, wedge-shaped head, teeth like black steaming ice)*
 
 ### 3.5 DORU, INFECTIOUS BLASHEME — CR 9 (tactical E8, Church Understory, book p.42)
 
@@ -2854,7 +2972,9 @@ Cleric Spells Prepared (6/8/8/7/6/5/4/3; save DC 17 + spell level; caster level 
 
 ## Eagle — CR 0.5 — Monster Manual I
 
-*Picture: none on file.*
+![Eagle](pictures/eagle.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -2866,7 +2986,9 @@ Description: These birds of prey inhabit nearly every terrain and climate, thoug
 
 ## Earth Weird — CR 12 — Monster Manual II
 
-*Picture: none on file.*
+![Earth Weird](pictures/earth-weird.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -2878,7 +3000,9 @@ Description: Earth weirds are foretellers of death and doom. They can pronounce 
 
 ## Elder Spawn of Juiblex — CR 14 — Monster Manual V
 
-*Picture: none on file.*
+![Elder Spawn of Juiblex](pictures/elder-spawn-of-juiblex.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -2890,7 +3014,9 @@ Description: A hulking mass of tarry, steaming ooze rears impossibly high. Convu
 
 ## Elemental, Earth — CR 3 — Monster Manual I
 
-*Picture: none on file.*
+![Elemental, Earth](pictures/elemental-earth.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -2902,7 +3028,9 @@ Description: Elementals are incarnations of the elements that compose existence.
 
 ## Elf, Aquatic — CR 0.5 — Monster Manual I
 
-*Picture: none on file.*
+![Elf, Aquatic](pictures/elf-aquatic.webp)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -2914,7 +3042,9 @@ Description: Also called sea elves, these creatures are waterbreathing cousins t
 
 ## Elf, Gray — CR 0.5 — Monster Manual I
 
-*Picture: none on file.*
+![Elf, Gray](pictures/elf-gray.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -2926,7 +3056,9 @@ Description: Taller and grander in physical appearance than others of their race
 
 ## Elite Demon War Mount — CR 16 — Monster Manual III
 
-*Picture: none on file.*
+![Elite Demon War Mount](pictures/elite-demon-war-mount.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -2985,7 +3117,9 @@ Eloko — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 ## Ethergaunt, Black — CR 17 — Fiend Folio
 
-*Picture: none on file.*
+![Ethergaunt, Black](pictures/ethergaunt-black.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -2997,7 +3131,9 @@ Description: Black ethergaunts stand at the pinnacle of khen-zai society. Honore
 
 ## Ethon — CR 10 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Ethon](pictures/ethon.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -3009,7 +3145,9 @@ Description: One never need look far while traveling the Stormlands to see it re
 
 ## Ettercap — CR 3 — Monster Manual I
 
-*Picture: none on file.*
+![Ettercap](pictures/ettercap.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3052,7 +3190,9 @@ FAMINE SPIRIT — Monster Manual II, p.96
 
 ## Farrow — CR 1 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Farrow](pictures/farrow.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -3064,7 +3204,9 @@ Description: The farrow are half-man, half-boar creatures that have the intellig
 
 ## Fiendish Cleric of Yeenoghu — CR 4 — Monster Manual IV
 
-*Picture: none on file.*
+![Fiendish Cleric of Yeenoghu](pictures/fiendish-cleric-of-yeenoghu.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -3076,7 +3218,9 @@ Description: This hyena-headed being has darker fur than others of her kind, and
 
 ## Fiendish Symbiont, Fiendish Familiar — CR 0.125 — Fiend Folio
 
-*Picture: none on file.*
+![Fiendish Symbiont, Fiendish Familiar](pictures/fiendish-symbiont-fiendish-familiar.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -3088,7 +3232,9 @@ Description: A fiendish familiar is a small face with an evil expression that is
 
 ## Fire Bat — CR 3 — Monster Manual II
 
-*Picture: none on file.*
+![Fire Bat](pictures/fire-bat.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -3253,7 +3399,9 @@ GADACRO — Monster Manual V, pp.26–28
 
 ## Gargoyle — CR 4 — Monster Manual I
 
-*Picture: none on file.*
+![Gargoyle](pictures/gargoyle.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3265,7 +3413,9 @@ Description: Gargoyles often appear to be winged stone statues, for they can per
 
 ## Gargoyle, Kapoacinth — CR 4 — Monster Manual I
 
-*Picture: none on file.*
+![Gargoyle, Kapoacinth](pictures/gargoyle-kapoacinth.png)
+
+*Picture: GENERATED — monster library generated art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3277,7 +3427,9 @@ Description: These cousins of the gargoyle have the aquatic subtype. They have a
 
 ## Gear Wyrm — CR 6 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Gear Wyrm](pictures/gear-wyrm.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -3402,7 +3554,9 @@ GHOUL-STIRGE
 
 ## Giant Bee — CR 1 — Monster Manual I
 
-*Picture: none on file.*
+![Giant Bee](pictures/giant-bee.webp)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3414,7 +3568,9 @@ Description: Although many times larger, growing to a length of about 5 feet, gi
 
 ## Giant Bombardier Beetle — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Giant Bombardier Beetle](pictures/giant-bombardier-beetle.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3426,7 +3582,9 @@ Description: These creatures feed primarily on carrion and offal, gathering heap
 
 ## Giant Fire Beetle — CR 0.333333 — Monster Manual I
 
-*Picture: none on file.*
+![Giant Fire Beetle](pictures/giant-fire-beetle.webp)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3438,7 +3596,9 @@ Description: These luminous nocturnal insects are prized by miners and adventure
 
 ## Giant Psurlon — CR 15 — Monster Manual II
 
-*Picture: none on file.*
+![Giant Psurlon](pictures/giant-psurlon.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -3450,7 +3610,9 @@ Description: Giant psurlons are bred for combat. Like all psurlons, however, the
 
 ## Giant Stag Beetle — CR 4 — Monster Manual I, Monster Manual IV
 
-*Picture: none on file.*
+![Giant Stag Beetle](pictures/giant-stag-beetle.jpg)
+
+*Picture: Monster library art — Monster Manual I, Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -3462,7 +3624,9 @@ Description: These creatures are serious pests that greedily devour cultivated c
 
 ## Giant Wasp — CR 3 — Monster Manual I, Monster Manual IV
 
-*Picture: none on file.*
+![Giant Wasp](pictures/giant-wasp.jpg)
+
+*Picture: Monster library art — Monster Manual I, Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -3474,7 +3638,9 @@ Description: Giant wasps attack when hungry or threatened, stinging their prey t
 
 ## Giant, Cloud — CR 11 — Monster Manual I
 
-*Picture: none on file.*
+![Giant, Cloud](pictures/giant-cloud.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3486,7 +3652,9 @@ Description: Cloud giants' skin ranges in color from milky white to light sky bl
 
 ## Giant, Death — CR 16 — Monster Manual III
 
-*Picture: none on file.*
+![Giant, Death](pictures/giant-death.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 SCARAB SWARM, DEATH — CR 7
 
@@ -3527,7 +3695,9 @@ Skills: A death scarab swarm has a +8 racial bonus on Climb checks and can alway
 
 ## Giant, Eldritch — CR 15 — Monster Manual III
 
-*Picture: none on file.*
+![Giant, Eldritch](pictures/giant-eldritch.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 Eldritch
 
@@ -3600,7 +3770,9 @@ Gibborite Characters (verbatim): "Gibborim favor the sorcerer class. Most become
 
 ## Githyanki Captain — CR 10 — Monster Manual IV
 
-*Picture: none on file.*
+![Githyanki Captain](pictures/githyanki-captain.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -3612,7 +3784,9 @@ Description: This slim humanoid is as strong and lithe as a hunting cat. He wear
 
 ## Glaistig — CR 6 — Monster Manual III
 
-*Picture: none on file.*
+![Glaistig](pictures/glaistig.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -3624,7 +3798,9 @@ Description: A staggeringly beautiful maiden stands waist-deep in the water, swa
 
 ## Gnoll — CR 1 — Monster Manual I
 
-*Picture: none on file.*
+![Gnoll](pictures/gnoll.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3636,7 +3812,9 @@ Description: Gnolls are hyena-headed, evil humanoids that wander in loose tribes
 
 ## Gnome, Forest — CR 0.5 — Monster Manual I
 
-*Picture: none on file.*
+![Gnome, Forest](pictures/gnome-forest.webp)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3697,7 +3875,9 @@ Unlike most golems, a demonflesh golem is reasonably intelligent, and it speaks 
 
 ## Golem, Iron — CR 13 — Monster Manual I
 
-*Picture: none on file.*
+![Golem, Iron](pictures/golem-iron.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3709,7 +3889,9 @@ Description: This golem has a humanoid body made from iron. An iron golem can be
 
 ## Golem, Stone — CR 11 — Monster Manual I
 
-*Picture: none on file.*
+![Golem, Stone](pictures/golem-stone.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3721,7 +3903,9 @@ Description: This golem has a humanoid body made from stone. A stone golem is 9 
 
 ## Gorgon — CR 8 — Monster Manual I
 
-*Picture: none on file.*
+![Gorgon](pictures/gorgon.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3756,7 +3940,9 @@ The gravetouched ghoul template's primary printing is Libris Mortis (Batch 1 cro
 
 ## Gravorg — CR 8 — Monster Manual II
 
-*Picture: none on file.*
+![Gravorg](pictures/gravorg.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -3768,7 +3954,9 @@ Description: A gravorg is a carnivorous predator that lairs underground. These m
 
 ## Greater Shadesteel Golem — CR 14 — Monster Manual III
 
-*Picture: none on file.*
+![Greater Shadesteel Golem](pictures/greater-shadesteel-golem.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -3780,7 +3968,9 @@ Description: A greater shadesteel golem stands 11 feet tall and weighs about 4,0
 
 ## Greenspawn Leaper — CR 2 — Monster Manual IV
 
-*Picture: none on file.*
+![Greenspawn Leaper](pictures/greenspawn-leaper.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -3792,7 +3982,9 @@ Description: The sound of shaking branches and scrabbling claws grows near. Sudd
 
 ## Greenspawn Razorfiend — CR 7 — Monster Manual IV
 
-*Picture: none on file.*
+![Greenspawn Razorfiend](pictures/greenspawn-razorfiend.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -3804,7 +3996,9 @@ Description: A draconic shape leaps from the water, slashing with razor-tipped, 
 
 ## Greenspawn Sneak Raid Leader — CR 7 — Monster Manual IV
 
-*Picture: none on file.*
+![Greenspawn Sneak Raid Leader](pictures/greenspawn-sneak-raid-leader.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -3943,7 +4137,9 @@ GROANING SPIRIT                                                        Advanceme
 
 ## Guttersnipe — CR 5 — Monster Manual II
 
-*Picture: none on file.*
+![Guttersnipe](pictures/guttersnipe.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -3955,7 +4151,9 @@ Description: Guttersnipes are most prevalent around settlements of dwarves, gnom
 
 ## Hag, Annis — CR 6 — Monster Manual I
 
-*Picture: none on file.*
+![Hag, Annis](pictures/hag-annis.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -3967,7 +4165,9 @@ Description: An annis commonly uses its disguise self ability to take the form o
 
 ## Harrier — CR 5 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Harrier](pictures/harrier.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -3979,7 +4179,9 @@ Description: Lynus’ description of the creatures he saw––eyeless, very dra
 
 ## Harssaf — CR 5 — Monster Manual III
 
-*Picture: none on file.*
+![Harssaf](pictures/harssaf.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -4072,7 +4274,9 @@ HAUNT
 
 ## Hawk — CR 0.333333 — Monster Manual I
 
-*Picture: none on file.*
+![Hawk](pictures/hawk.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -4084,7 +4288,9 @@ Description: These creatures are similar to eagles but slightly smaller: 1 to 2 
 
 ## Hellfire Engine — CR 19 — Fiendish Codex II
 
-*Picture: none on file.*
+![Hellfire Engine](pictures/hellfire-engine.png)
+
+*Picture: APOC-VTT monster library art — Fiendish Codex II*
 
 **Partial — fullest block on file:**
 
@@ -4183,7 +4389,9 @@ Believed to be the spirits of humanoids that freeze to death either because of t
 
 ## Howler Wasp Queen — CR 5 — Monster Manual IV
 
-*Picture: none on file.*
+![Howler Wasp Queen](pictures/howler-wasp-queen.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -4264,7 +4472,9 @@ Description: A bear-sized, wingless creature lies in the center of the hive. Its
 
 ## Inevitable, Marut — CR 15 — Monster Manual I
 
-*Picture: none on file.*
+![Inevitable, Marut](pictures/inevitable-marut.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 3. MARUT (Inevitable)
 
@@ -4304,7 +4514,9 @@ When a marut has identified its target, it walks surely and implacably toward th
 
 ## Inevitable, Quarut — CR 17 — Fiend Folio
 
-*Picture: none on file.*
+![Inevitable, Quarut](pictures/inevitable-quarut.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 QUARUT [3.0-format as published]
 
@@ -4338,7 +4550,9 @@ Quaruts are concerned about spellcasters who use such powerful magic as *limited
 
 ## Inevitable, Zelekhut — CR 9 — Monster Manual I
 
-*Picture: none on file.*
+![Inevitable, Zelekhut](pictures/inevitable-zelekhut.png)
+
+*Picture: GENERATED — monster library generated art — Monster Manual I*
 
 1. ZELEKHUT (Inevitable)
 
@@ -4376,7 +4590,9 @@ A zelekhut may initially appear rather nonthreatening—but when it is about to 
 
 ## Infernal Soul Stalker — CR 12 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Infernal Soul Stalker](pictures/infernal-soul-stalker.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -4388,7 +4604,9 @@ Description: These infernal hounds are some of the most horrifying beasts I've e
 
 ## Infernal, Quelvitar — CR 9 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Infernal, Quelvitar](pictures/infernal-quelvitar.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -4540,7 +4758,9 @@ JARILITH — Monster Manual II, pp.60–61
 
 ## Kaorti — CR 1 — Fiend Folio
 
-*Picture: none on file.*
+![Kaorti](pictures/kaorti.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -4686,7 +4906,9 @@ KASTIGHUR — Monster Manual IV, p.42 (entry pp.42–43)
 
 ## Ken-Kuni — CR 8 — Monster Manual V
 
-*Picture: none on file.*
+![Ken-Kuni](pictures/ken-kuni.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -4698,7 +4920,9 @@ Description: The ground splits in front of you, and rocks tumble down into your 
 
 ## Ken-Li — CR 10 — Monster Manual V
 
-*Picture: none on file.*
+![Ken-Li](pictures/ken-li.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -4710,7 +4934,9 @@ Description: A wave of heat presages the arrival of this towering, horned giant.
 
 ## Kenku — CR 0.5 — Monster Manual III
 
-*Picture: none on file.*
+![Kenku](pictures/kenku.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -4722,7 +4948,9 @@ Description: A cloaked humanoid clings to the shadows. It has birdlike talons in
 
 ## Kobold — CR 0.25 — Monster Manual I
 
-*Picture: none on file.*
+![Kobold](pictures/kobold.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -4762,7 +4990,9 @@ Description: Kobolds are short, reptilian humanoids with cowardly and sadistic t
 
 ## Kopru — CR 6 — Monster Manual II
 
-*Picture: none on file.*
+![Kopru](pictures/kopru.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -4774,7 +5004,9 @@ Description: Many generations ago, the koprus built a large and mysterious civil
 
 ## Krenshar — CR 1 — Monster Manual I
 
-*Picture: none on file.*
+![Krenshar](pictures/krenshar.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -4834,7 +5066,9 @@ Kumbhakarna — CR 20 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 ## Leechwalker — CR 10 — Monster Manual II
 
-*Picture: none on file.*
+![Leechwalker](pictures/leechwalker.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -4846,7 +5080,9 @@ Description: The leechwalker is a thirsty vermin that can drain a creature of al
 
 ## Legendary Snake — CR 8 — Monster Manual II
 
-*Picture: none on file.*
+![Legendary Snake](pictures/legendary-snake.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -4858,7 +5094,9 @@ Description: A strong constrictor with a potent venomous bite, the legendary sna
 
 ## Leopard — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Leopard](pictures/leopard.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -4870,7 +5108,9 @@ Description: These jungle cats are about 4 feet long and weigh about 120 pounds.
 
 ## Lesser Spawn of Juiblex — CR 6 — Monster Manual V
 
-*Picture: none on file.*
+![Lesser Spawn of Juiblex](pictures/lesser-spawn-of-juiblex.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -4882,7 +5122,9 @@ Description: A giant mass of dark liquid rears upward, its surface heaving as it
 
 ## Lifespark Construct — CR 18 — Advanced Bestiary
 
-*Picture: none on file.*
+![Lifespark Construct](pictures/lifespark-construct.webp)
+
+*Picture: GENERATED — generated from the published template description (Advanced Bestiary: a construct awakened by a spark of life)*
 
 ## 12. LIFESPARK CONSTRUCT (template) — CR: none printed (sample CR 18) [WEB-ONLY]
 
@@ -4943,7 +5185,9 @@ Description (verbatim): "A lifespark iron golem looks like any other iron golem,
 
 ## Lion — CR 3 — Monster Manual I
 
-*Picture: none on file.*
+![Lion](pictures/lion.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -4955,7 +5199,9 @@ Description: The statistics presented here describe a male African lion, which i
 
 ## Lolth-Touched Monstrous Hunting Spider — CR 3 — Monster Manual IV
 
-*Picture: none on file.*
+![Lolth-Touched Monstrous Hunting Spider](pictures/lolth-touched-monstrous-hunting-spider.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -4967,7 +5213,9 @@ Description: An enormous, dusky spider looms ahead. Its swollen body, marked by 
 
 ## Lucent Worm — CR 17 — Fiend Folio
 
-*Picture: none on file.*
+![Lucent Worm](pictures/lucent-worm.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -4979,7 +5227,9 @@ Description: Those who encounter a lucent worm often do so before they know the 
 
 ## Lumi — CR 2 — Monster Manual III
 
-*Picture: none on file.*
+![Lumi](pictures/lumi.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -4991,7 +5241,9 @@ Description: A solemn and dignified head floats about six inches above the shoul
 
 ## Lurking Strangler — CR 2 — Monster Manual III
 
-*Picture: none on file.*
+![Lurking Strangler](pictures/lurking-strangler.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -5084,7 +5336,9 @@ CR 17 — Marilith
 
 ## Marraenoloth — CR 10 — Monster Manual II
 
-*Picture: none on file.*
+![Marraenoloth](pictures/marraenoloth.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -5096,7 +5350,9 @@ Description: The marraenoloths serve a specialized function, possibly the most s
 
 ## Mastodon — CR 9 — Monster Manual III
 
-*Picture: none on file.*
+![Mastodon](pictures/mastodon.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -5187,7 +5443,9 @@ ENTRY 9 — MECHAGARGOYLE
 
 ## Megalodon — CR 11 — Monster Manual II
 
-*Picture: none on file.*
+![Megalodon](pictures/megalodon.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -5250,7 +5508,9 @@ A merchurion is proficient with any weapon it generates using this ability, even
 
 ## Mimic — CR 4 — Monster Manual I
 
-*Picture: none on file.*
+![Mimic](pictures/mimic.webp)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5262,7 +5522,9 @@ Description: A mimic can have almost any dimensions, but usually is not more tha
 
 ## Mind Flayer — CR 8 — Monster Manual I
 
-*Picture: none on file.*
+![Mind Flayer](pictures/mind-flayer.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5274,7 +5536,9 @@ Description: In terms of height, weight, and build, mind flayers were roughly co
 
 ## Mindshredder Zenthal — CR 8 — Monster Manual III
 
-*Picture: none on file.*
+![Mindshredder Zenthal](pictures/mindshredder-zenthal.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -5371,7 +5635,9 @@ Most mohrgs are 5 to 6 feet tall and weigh about 120 pounds.
 
 ## Monstrous Centipede — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Monstrous Centipede](pictures/monstrous-centipede.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5383,7 +5649,9 @@ Description: Monstrous centipedes tend to attack anything that resembles food, b
 
 ## Monstrous Scorpion — CR 3 — Monster Manual I
 
-*Picture: none on file.*
+![Monstrous Scorpion](pictures/monstrous-scorpion.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5395,7 +5663,9 @@ Description: Monstrous scorpions are likely to attack any creature that approach
 
 ## Moonrat — CR 0.25 — Monster Manual II
 
-*Picture: none on file.*
+![Moonrat](pictures/moonrat.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -5407,7 +5677,9 @@ Description: Moonrats are indistinguishable from normal rats except in moonlight
 
 ## Moonwing — CR 1 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Moonwing](pictures/moonwing.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -5419,7 +5691,9 @@ Description: I've witnessed many a strange beast in my travels of this world, bu
 
 ## Mud Golem — CR 11 — Monster Manual III
 
-*Picture: none on file.*
+![Mud Golem](pictures/mud-golem.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -5431,7 +5705,9 @@ Description: This humanoid mass of mud stands twice the height of a normal human
 
 ## Mudmaw — CR 7 — Monster Manual II
 
-*Picture: none on file.*
+![Mudmaw](pictures/mudmaw.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -5443,7 +5719,9 @@ Description: Mudmaws wait just below the surface of the water in swamps, slow ri
 
 ## Mule — CR 1 — Monster Manual I
 
-*Picture: none on file.*
+![Mule](pictures/mule.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5596,7 +5874,9 @@ MUMMY OF THE DEEP
 
 ## Myconid Guard — CR 4 — Monster Manual II
 
-*Picture: none on file.*
+![Myconid Guard](pictures/myconid-guard.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -5608,7 +5888,9 @@ Description: These myconids are sixteen to twenty years old. They are charged wi
 
 ## Naga, Water — CR 7 — Monster Manual I
 
-*Picture: none on file.*
+![Naga, Water](pictures/naga-water.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5620,7 +5902,9 @@ Description: All nagas have long, snakelike bodies covered with glistening scale
 
 ## Nagatha — CR 4 — Monster Manual IV
 
-*Picture: none on file.*
+![Nagatha](pictures/nagatha.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -5632,7 +5916,9 @@ Description: This creature has the lower body of a worm, the head of a snake wit
 
 ## Nerra, Varoot — CR 1 — Fiend Folio
 
-*Picture: none on file.*
+![Nerra, Varoot](pictures/nerra-varoot.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -5644,7 +5930,9 @@ Description: Varoots are the most common nerras to be found both on the Plane of
 
 ## Nightmare — CR 5 — Monster Manual I
 
-*Picture: none on file.*
+![Nightmare](pictures/nightmare.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5656,7 +5944,9 @@ Description: A nightmare is about the size of a light war horse.
 
 ## Ocean Strider — CR 18 — Monster Manual II
 
-*Picture: none on file.*
+![Ocean Strider](pictures/ocean-strider.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -5668,7 +5958,9 @@ Description: Ocean striders live to protect the seas and oceans from those who s
 
 ## Octopus — CR 1 — Monster Manual I
 
-*Picture: none on file.*
+![Octopus](pictures/octopus.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5680,7 +5972,9 @@ Description: These bottom-dwelling sea creatures are dangerous only to their pre
 
 ## Octopus Tree — CR 12 — Fiend Folio
 
-*Picture: none on file.*
+![Octopus Tree](pictures/octopus-tree.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -5692,7 +5986,9 @@ Description: Sailors sometimes tell stories of strange and terrible forests of t
 
 ## Octopus, Giant — CR 8 — Monster Manual I
 
-*Picture: none on file.*
+![Octopus, Giant](pictures/octopus-giant.webp)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5704,7 +6000,9 @@ Description: These creatures are aggressive and territorial hunters, with arms r
 
 ## Ooze, Elder Black Pudding — CR 12 — Monster Manual I
 
-*Picture: none on file.*
+![Ooze, Elder Black Pudding](pictures/ooze-elder-black-pudding.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 Ooze, Undead
 
@@ -5789,7 +6087,9 @@ OOZE, UNDEAD
 
 ## Orc Battle Priest — CR 1 — Monster Manual IV
 
-*Picture: none on file.*
+![Orc Battle Priest](pictures/orc-battle-priest.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -5801,7 +6101,9 @@ Description: This shamanistic figure is tattooed with blood-red symbols, dominat
 
 ## Orc Berserker — CR 4 — Monster Manual IV
 
-*Picture: none on file.*
+![Orc Berserker](pictures/orc-berserker.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -5813,7 +6115,9 @@ Description: A brutish, battle-scarred orc charges toward you, his jagged greata
 
 ## Orc Plague Speaker — CR 7 — Monster Manual IV
 
-*Picture: none on file.*
+![Orc Plague Speaker](pictures/orc-plague-speaker.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -5825,7 +6129,9 @@ Description: A pallid, scrawny orc wearing full plate points a bony claw toward 
 
 ## Ormyrr — CR 6 — Monster Manual II
 
-*Picture: none on file.*
+![Ormyrr](pictures/ormyrr.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -5837,7 +6143,9 @@ Description: Ormyrrs are intelligent, seminomadic creatures that live in small s
 
 ## Owl, Giant — CR 3 — Monster Manual I
 
-*Picture: none on file.*
+![Owl, Giant](pictures/owl-giant.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5849,7 +6157,9 @@ Description: Giant owls are nocturnal birds of prey, feared for their ability to
 
 ## Owlbear — CR 4 — Monster Manual I
 
-*Picture: none on file.*
+![Owlbear](pictures/owlbear.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -5958,7 +6268,9 @@ Legends & Lore — Common: Those who fancy themselves to be deadly pistoleers ma
 
 ## Prismatic Golem — CR 18 — Monster Manual III
 
-*Picture: none on file.*
+![Prismatic Golem](pictures/prismatic-golem.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -5970,7 +6282,9 @@ Description: A 10-foot-diameter sphere of scintillating, multicolored light glid
 
 ## Pyre Troll — CR 8 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Pyre Troll](pictures/pyre-troll.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -6147,7 +6461,9 @@ Flavor/combat prose (read in full): the clothing of an atrocity victim, animated
 
 ## Raven — CR 0.166667 — Monster Manual I
 
-*Picture: none on file.*
+![Raven](pictures/raven.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -6159,7 +6475,9 @@ Description: These glossy black birds are about 2 feet long and have wingspans o
 
 ## Redspawn Arcaniss — CR 6 — Monster Manual IV
 
-*Picture: none on file.*
+![Redspawn Arcaniss](pictures/redspawn-arcaniss.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -6171,7 +6489,9 @@ Description: A humanoid, covered in red scales with yellow and orange flamelike 
 
 ## Rip Cutter — CR 8 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Rip Cutter](pictures/rip-cutter.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -6379,7 +6699,9 @@ Description: Many centuries ago, hidden cults of various dark gods created large
 
 ## Roper — CR 12 — Monster Manual I
 
-*Picture: none on file.*
+![Roper](pictures/roper.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -6391,7 +6713,9 @@ Description: A roper stands some 9 feet tall and tapers from 3 or 4 feet in diam
 
 ## Ruin Elemental — CR 10 — Monster Manual V
 
-*Picture: none on file.*
+![Ruin Elemental](pictures/ruin-elemental.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -6403,7 +6727,9 @@ Description: What appeared at first to be the debris of a fallen wall or crumbli
 
 ## Runic Guardian — CR 10 — Monster Manual II
 
-*Picture: none on file.*
+![Runic Guardian](pictures/runic-guardian.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -6459,7 +6785,9 @@ CR 3 — Rutterkin
 
 ## Rylkar Harridan — CR 9 — Monster Manual V
 
-*Picture: none on file.*
+![Rylkar Harridan](pictures/rylkar-harridan.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -6471,7 +6799,9 @@ Description: Vile odors hang heavy in the air even before you spot their source.
 
 ## Sahuagin — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Sahuagin](pictures/sahuagin.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -6483,7 +6813,9 @@ Description: Most sahuagin feature green coloration, darker along the back and l
 
 ## Sahuagin, Malenti — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Sahuagin, Malenti](pictures/sahuagin-malenti.png)
+
+*Picture: GENERATED — monster library generated art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -6609,7 +6941,9 @@ Saint James is a pirate who lives out in the badlands aboard **ST-JAMES — Booz
 
 ## Salamander — CR 3 — Monster Manual I
 
-*Picture: none on file.*
+![Salamander](pictures/salamander.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -6621,7 +6955,9 @@ Description: Salamanders speak Ignan. Some average salamanders and all nobles al
 
 ## Sample 15th-Level NPC Artificer (Warforged) — CR 15 — Sharn: City of Towers
 
-*Picture: none on file.*
+![Sample 15th-Level NPC Artificer (Warforged)](pictures/sample-15th-level-npc-artificer-warforged.webp)
+
+*Picture: GENERATED — generated from the published stat block (warforged artificer 15, heavy mace, light crossbow, Mithral Body)*
 
 ## 5B-7. SAMPLE 15TH-LEVEL NPC ARTIFICER (WARFORGED) — CR 15 — Sharn, pp. 173–175
 
@@ -6976,7 +7312,9 @@ Feats:                     Imp
 
 ## Sarkrith, Spelleater — CR 13 — Fiend Folio
 
-*Picture: none on file.*
+![Sarkrith, Spelleater](pictures/sarkrith-spelleater.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -7003,7 +7341,9 @@ CR 4 — Schir
 
 ## Scouring Slinger — CR 18 — Monster Manual V
 
-*Picture: none on file.*
+![Scouring Slinger](pictures/scouring-slinger.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -7195,7 +7535,9 @@ of their victims.
 
 ## Scyther of Thoon — CR 6 — Monster Manual V
 
-*Picture: none on file.*
+![Scyther of Thoon](pictures/scyther-of-thoon.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -7207,7 +7549,9 @@ Description: Before you is a silvery automaton with four arms, perfectly constru
 
 ## Sea Cat — CR 4 — Monster Manual I
 
-*Picture: none on file.*
+![Sea Cat](pictures/sea-cat.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -7219,7 +7563,9 @@ Description: A typical sea cat is 12 feet long and weighs 800 pounds.
 
 ## Sea Tiger — CR 6 — Monster Manual III
 
-*Picture: none on file.*
+![Sea Tiger](pictures/sea-tiger.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -7231,7 +7577,9 @@ Description: This long, streamlined creature has a striped, leathery hide with a
 
 ## Selkie — CR 1 — Fiend Folio
 
-*Picture: none on file.*
+![Selkie](pictures/selkie.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -7271,7 +7619,9 @@ Description: Appearing as humanoids when on land and seals in the sea, selkies a
 
 ## Shadar-Kai — CR 1 — Fiend Folio
 
-*Picture: none on file.*
+![Shadar-Kai](pictures/shadar-kai.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -7283,7 +7633,9 @@ Description: The shadar-kai, or shadow fey, are a race of bitter, determined fol
 
 ## Shadesteel Golem — CR 11 — Monster Manual III
 
-*Picture: none on file.*
+![Shadesteel Golem](pictures/shadesteel-golem.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -7432,7 +7784,9 @@ Shetan — CR 8 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 ## Shrapnyl — CR 7 — Monster Manual II
 
-*Picture: none on file.*
+![Shrapnyl](pictures/shrapnyl.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -7444,7 +7798,9 @@ Description: Shrapnyls are the only raggamoffyns made entirely of metal. They lu
 
 ## Sickening Sleep — CR 2 — Monster Manual III
 
-*Picture: none on file.*
+![Sickening Sleep](pictures/sickening-sleep.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -7456,7 +7812,9 @@ Description: A gray swirling mist hangs thick in the air. The living spell sicke
 
 ## Siege Beetle — CR 16 — Monster Manual V
 
-*Picture: none on file.*
+![Siege Beetle](pictures/siege-beetle.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -7567,7 +7925,9 @@ Flavor/combat prose (verbatim, Libris Mortis pp.119–120): Skin kites are undea
 
 ## Skindancer — CR 11 — Monster Manual III
 
-*Picture: none on file.*
+![Skindancer](pictures/skindancer.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -7579,7 +7939,9 @@ Description: This powerful humanoid stands over 9 feet tall and has a bestial fa
 
 ## Skorne — CR 1 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Skorne](pictures/skorne.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -7692,7 +8054,9 @@ Flavor/combat prose (verbatim, Libris Mortis pp.121–122): Slaughter wights are
 
 ## Slaughterstone Eviscerator — CR 12 — Monster Manual III
 
-*Picture: none on file.*
+![Slaughterstone Eviscerator](pictures/slaughterstone-eviscerator.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -7845,7 +8209,9 @@ SPECTRAL TROLL
 
 ## Squid — CR 1 — Monster Manual I
 
-*Picture: none on file.*
+![Squid](pictures/squid.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -7857,7 +8223,9 @@ Description: These free-swimming mollusks are fairly aggressive. They are more f
 
 ## Squid, Giant — CR 9 — Monster Manual I
 
-*Picture: none on file.*
+![Squid, Giant](pictures/squid-giant.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -7869,7 +8237,9 @@ Description: These voracious creatures can have bodies more than 20 feet long an
 
 ## Storm Elemental, Large — CR 6 — Monster Manual III
 
-*Picture: none on file.*
+![Storm Elemental, Large](pictures/storm-elemental-large.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -7881,7 +8251,9 @@ Description: A dark storm cloud crackles with lightning and reverberates with th
 
 ## Storm Elemental, Small — CR 2 — Monster Manual III
 
-*Picture: none on file.*
+![Storm Elemental, Small](pictures/storm-elemental-small.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -7934,7 +8306,9 @@ Stormclouds of Thoon, constructs birthed by madcrafters of Thoon, are floating s
 
 ## Susurrus — CR 7 — Monster Manual III
 
-*Picture: none on file.*
+![Susurrus](pictures/susurrus.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -7946,7 +8320,9 @@ Description: This headless humanoid shape appears to be covered in glass shards 
 
 ## Swarm, Bat — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Swarm, Bat](pictures/swarm-bat.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 6. BLOODMOTE CLOUD — Libris Mortis p.88, CR 6 — SWARM
 
@@ -7959,7 +8335,9 @@ Flavor/combat prose (read in full): a swarm of undead mosquitoes; never sated. B
 
 ## Swarm, Centipede — CR 4 — Monster Manual I
 
-*Picture: none on file.*
+![Swarm, Centipede](pictures/swarm-centipede.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 6. BLOODMOTE CLOUD — Libris Mortis p.88, CR 6 — SWARM
 
@@ -7972,7 +8350,9 @@ Flavor/combat prose (read in full): a swarm of undead mosquitoes; never sated. B
 
 ## Swarm, Locust — CR 3 — Monster Manual I
 
-*Picture: none on file.*
+![Swarm, Locust](pictures/swarm-locust.png)
+
+*Picture: GENERATED — monster library generated art — Monster Manual I*
 
 6. BLOODMOTE CLOUD — Libris Mortis p.88, CR 6 — SWARM
 
@@ -7985,7 +8365,9 @@ Flavor/combat prose (read in full): a swarm of undead mosquitoes; never sated. B
 
 ## Swarm, Locust, Bloodfiend — CR 8 — Fiend Folio
 
-*Picture: none on file.*
+![Swarm, Locust, Bloodfiend](pictures/swarm-locust-bloodfiend.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 6. BLOODMOTE CLOUD — Libris Mortis p.88, CR 6 — SWARM
 
@@ -7998,7 +8380,9 @@ Flavor/combat prose (read in full): a swarm of undead mosquitoes; never sated. B
 
 ## Swarm, Locust, Rapture — CR 6 — Fiend Folio
 
-*Picture: none on file.*
+![Swarm, Locust, Rapture](pictures/swarm-locust-rapture.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 6. BLOODMOTE CLOUD — Libris Mortis p.88, CR 6 — SWARM
 
@@ -8156,7 +8540,9 @@ Creating a Tainted Minion (verbatim, complete — pp. 153–154):
 
 ## Tatzylwurm, Black — CR 11 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Tatzylwurm, Black](pictures/tatzylwurm-black.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -8168,7 +8554,9 @@ Description: Ihave not till this point written much of the rare black tatzylwurm
 
 ## Tatzylwurm, Pale — CR 12 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Tatzylwurm, Pale](pictures/tatzylwurm-pale.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -8180,7 +8568,9 @@ Description: Tatzylwurms are a remarkable group of predators that roam the less 
 
 ## Ten-Headed Terror — CR 13 — Monster Manual III
 
-*Picture: none on file.*
+![Ten-Headed Terror](pictures/ten-headed-terror.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -8192,7 +8582,9 @@ Description: Thankfully rare in the extreme, solitary ten-headed shrieking terro
 
 ## Teratomorph — CR 16 — Monster Manual II
 
-*Picture: none on file.*
+![Teratomorph](pictures/teratomorph.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -8204,7 +8596,9 @@ Description: Teratomorphs lurk in the watery depths of the sea and in undergroun
 
 ## Tharn Bloodtrackers — CR 4 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Tharn Bloodtrackers](pictures/tharn-bloodtrackers.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -8216,7 +8610,9 @@ Description: Recently I have heard reports that have led me to reappraise my opi
 
 ## The Black Duke — CR 19 — Monster Manual V
 
-*Picture: none on file.*
+![The Black Duke](pictures/the-black-duke.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 THE BLACK DUKE — Monster Manual V, p.190 (unique)
 
@@ -8261,7 +8657,9 @@ THE BLACK DUKE — Monster Manual V, p.190 (unique)
 
 ## The Lord of Blades — CR 12 — Five Nations
 
-*Picture: none on file.*
+![The Lord of Blades](pictures/the-lord-of-blades.webp)
+
+*Picture: GENERATED — generated from the published stat block (Five Nations: adamantine warforged, two-bladed sword)*
 
 ## 5B-5. THE LORD OF BLADES — CR 12 — Five Nations, pp. 83–86 (block pp. 84–85)
 
@@ -8313,7 +8711,9 @@ Narrative (pp. 83–84, summarized, not reproduced in full): the Lord of Blades,
 
 ## Thoon Elder Brain — CR 15 — Monster Manual V
 
-*Picture: none on file.*
+![Thoon Elder Brain](pictures/thoon-elder-brain.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual V*
 
 **Partial — fullest block on file:**
 
@@ -8325,7 +8725,9 @@ Description: Floating in the air is a purple, bulbous mass that looks like a gia
 
 ## Thri-Kreen — CR 1 — Monster Manual II
 
-*Picture: none on file.*
+![Thri-Kreen](pictures/thri-kreen.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -8389,7 +8791,9 @@ Level Adjustment: —
 
 ## Titan — CR 21 — Monster Manual I
 
-*Picture: none on file.*
+![Titan](pictures/titan.png)
+
+*Picture: GENERATED — monster library generated art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -8401,7 +8805,9 @@ Description: A titan is about 25 feet tall and weighs about 14,000 pounds. Titan
 
 ## Toad — CR 0.1 — Monster Manual I
 
-*Picture: none on file.*
+![Toad](pictures/toad.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -8413,7 +8819,9 @@ Description: These diminutive amphibians are innocuous and beneficial, since the
 
 ## Triton — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Triton](pictures/triton.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -8425,7 +8833,9 @@ Description: A triton has silvery skin that fades into silver-blue scales on the
 
 ## Troll — CR 5 — Monster Manual I, Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Troll](pictures/troll.png)
+
+*Picture: Monster library art — Monster Manual I, Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -8437,7 +8847,9 @@ Description: Trolls walk upright but hunched forward with sagging shoulders. The
 
 ## Troll, Scrag — CR 5 — Monster Manual I
 
-*Picture: none on file.*
+![Troll, Scrag](pictures/troll-scrag.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -8449,7 +8861,9 @@ Description: These cousins of the troll have the aquatic subtype. They dwell in 
 
 ## Trollkin — CR 0.5 — Monsternomicon Vol. 1
 
-*Picture: none on file.*
+![Trollkin](pictures/trollkin.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
 
 **Partial — fullest block on file:**
 
@@ -8461,7 +8875,9 @@ Description: The most civilized form of troll is the trollkin, and they boast a 
 
 ## Twilight Sisters — CR 12 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Twilight Sisters](pictures/twilight-sisters.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -8586,7 +9002,9 @@ VASUTHANT — Monster Manual III, pp.182–183
 
 ## Vermin Lord — CR 17 — Monster Manual III
 
-*Picture: none on file.*
+![Vermin Lord](pictures/vermin-lord.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 
@@ -8598,7 +9016,9 @@ Description: The insectlike creature before you stands 12 feet tall on locust le
 
 ## Vine Horror — CR 4 — Fiend Folio
 
-*Picture: none on file.*
+![Vine Horror](pictures/vine-horror.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -8644,7 +9064,9 @@ Cross-reference record A — WARFORGED (MM III monster version)
 
 ## Waterveiled Assassin — CR 15 — Monster Manual IV
 
-*Picture: none on file.*
+![Waterveiled Assassin](pictures/waterveiled-assassin.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual IV*
 
 **Partial — fullest block on file:**
 
@@ -8656,7 +9078,9 @@ Description: The walls around you groan, buckle, and bulge outward as a torrent 
 
 ## Wicker Man — CR 11 — Fiend Folio
 
-*Picture: none on file.*
+![Wicker Man](pictures/wicker-man.png)
+
+*Picture: APOC-VTT monster library art — Fiend Folio*
 
 **Partial — fullest block on file:**
 
@@ -8668,7 +9092,9 @@ Description: A wicker man is a huge, hollow structure of branches and vines crud
 
 ## Windghost — CR 15 — Monster Manual II
 
-*Picture: none on file.*
+![Windghost](pictures/windghost.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -8680,7 +9106,9 @@ Description: Mysterious observers that float casually through the skies, windgho
 
 ## Woldwrath — CR 16 — Monsternomicon Vol. 2
 
-*Picture: none on file.*
+![Woldwrath](pictures/woldwrath.png)
+
+*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
 
 **Partial — fullest block on file:**
 
@@ -8692,7 +9120,9 @@ Description: Perhaps it is my competitive streak, but after reading Edrea’s re
 
 ## Worg — CR 2 — Monster Manual I
 
-*Picture: none on file.*
+![Worg](pictures/worg.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -8704,7 +9134,9 @@ Description: A typical worg has gray or black fur, grows to 5 feet long and stan
 
 ## Yagnoloth — CR 10 — Monster Manual II
 
-*Picture: none on file.*
+![Yagnoloth](pictures/yagnoloth.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual II*
 
 **Partial — fullest block on file:**
 
@@ -8716,7 +9148,9 @@ Description: In the simplistic feudal hierarchy of Gehenna, yagnoloths are minor
 
 ## Yrthak — CR 9 — Monster Manual I
 
-*Picture: none on file.*
+![Yrthak](pictures/yrthak.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -8728,7 +9162,9 @@ Description: A yrthak is blind. It senses sound and movement by means of a speci
 
 ## Yuan-ti Abomination — CR 7 — Monster Manual I
 
-*Picture: none on file.*
+![Yuan-ti Abomination](pictures/yuan-ti-abomination.jpg)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -8740,7 +9176,9 @@ Description: Yuan-ti abominations resembled massive snakes, some 8 to 12 feet (2
 
 ## Yuan-ti Pureblood — CR 3 — Monster Manual I
 
-*Picture: none on file.*
+![Yuan-ti Pureblood](pictures/yuan-ti-pureblood.png)
+
+*Picture: Monster library art — Monster Manual I*
 
 **Partial — fullest block on file:**
 
@@ -8752,7 +9190,9 @@ Description: This being looks much like a slim-hipped, lithe human with sharp fe
 
 ## Yugoloth, Mezzoloth — CR 6 — Monster Manual III
 
-*Picture: none on file.*
+![Yugoloth, Mezzoloth](pictures/yugoloth-mezzoloth.png)
+
+*Picture: APOC-VTT monster library art — Monster Manual III*
 
 **Partial — fullest block on file:**
 

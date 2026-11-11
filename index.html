@@ -5,11 +5,21 @@ select,button{background:#000;color:#fff;border:2px solid #fff;font-size:16px;pa
 #panel{border:2px solid #fff;padding:8px;width:max-content;max-width:97vw;cursor:move}
 #result{margin-top:8px;max-width:680px}
 #result img{max-width:260px;max-height:260px;border:2px solid #fff;display:block;margin:6px 0}
+#result img.pic{cursor:zoom-in;position:relative;transition:transform .18s ease;transform-origin:left top}
+#result img.pic:hover{transform:scale(2.1);z-index:60;box-shadow:0 0 0 2px #fff,0 10px 34px #000}
 .statblock{white-space:pre-wrap;border:1px solid #fff;padding:6px;max-width:660px;max-height:55vh;overflow:auto}
 .credit{font-size:12px}
 #history{margin-top:8px;max-width:680px;font-size:14px}
 #preview{margin-top:8px;max-width:680px;font-size:14px}
 #preview img{width:32px;height:32px;object-fit:cover;vertical-align:middle;border:1px solid #fff}
+#preview img.thumb{cursor:zoom-in;position:relative;transition:transform .15s ease;transform-origin:left center}
+#preview img.thumb:hover{transform:scale(4.5);z-index:60;box-shadow:0 0 0 2px #fff,0 8px 26px #000}
+#lightbox{position:fixed;inset:0;background:rgba(0,0,0,.95);display:none;align-items:center;justify-content:center;flex-direction:column;z-index:9999;cursor:zoom-out;padding:10px}
+#lightbox.open{display:flex}
+#lightbox img{max-width:94vw;max-height:82vh;border:2px solid #fff;object-fit:contain}
+#lightbox .cap{color:#fff;margin-top:10px;font-size:16px;text-align:center;max-width:94vw}
+#lightbox .hint{color:#fff;font-size:12px;margin-top:4px}
+#lbClose{position:absolute;top:10px;right:12px;cursor:pointer}
 h1{font-size:20px;margin:4px 0}
 details{margin-top:6px}
 </style></head><body>
@@ -18,6 +28,7 @@ details{margin-top:6px}
 <div id="result">Pick a table and roll. Dragons haven't been seen in a thousand years — no roll produces one.</div>
 <div id="preview"></div>
 <div id="history"></div></div>
+<div id="lightbox"><button id="lbClose">✕ Close</button><img id="lbImg" alt=""><div class="cap" id="lbCap"></div><div class="hint">Click anywhere or press Esc to close</div></div>
 <script>
 const DATA={
  "meta": {
@@ -123,9 +134,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/fiendish-symbiont-fiendish-familiar.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -144,9 +155,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/nerra-varoot.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -354,9 +365,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/lesser-spawn-of-juiblex.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -492,9 +503,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/demon-kastighur.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -513,9 +524,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/infernal-soul-stalker.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -586,9 +597,9 @@ const DATA={
      ],
      "type": "",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/lifespark-construct.webp",
+      "credit": "GENERATED \u2014 generated from the published template description (Advanced Bestiary: a construct awakened by a spark of life)",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -659,9 +670,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/toad.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -680,9 +691,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/kenku.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -748,9 +759,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/swarm-bat.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -770,9 +781,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/dinosaur-deinonychus.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -815,9 +826,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/crocodile-giant.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1024,9 +1035,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/mastodon.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1045,9 +1056,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/githyanki-captain.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1068,9 +1079,9 @@ const DATA={
      ],
      "type": "",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/the-lord-of-blades.webp",
+      "credit": "GENERATED \u2014 generated from the published stat block (Five Nations: adamantine warforged, two-bladed sword)",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -1167,9 +1178,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/toad.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1190,9 +1201,9 @@ const DATA={
      ],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/eagle.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1211,9 +1222,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/trollkin.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1234,9 +1245,9 @@ const DATA={
      ],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/mule.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1278,9 +1289,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/greenspawn-leaper.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1323,9 +1334,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/devil-rat-swarm.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1344,9 +1355,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/owl-giant.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1365,9 +1376,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/bluespawn-ambusher.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1386,9 +1397,9 @@ const DATA={
      "kinds": [],
      "type": "Plant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/myconid-guard.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1409,9 +1420,9 @@ const DATA={
      ],
      "type": "",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/avvite.webp",
+      "credit": "GENERATED \u2014 generated from the published description (Anger of Angels sample: nearly skeletal dire wolf in red and black scales)",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -1454,9 +1465,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/dinosaur-bloodstriker.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1499,9 +1510,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/greenspawn-razorfiend.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1543,9 +1554,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/blackspawn-stalker.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1564,9 +1575,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/dire-elephant.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1585,9 +1596,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/tatzylwurm-black.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1631,9 +1642,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/elite-demon-war-mount.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1660,9 +1671,9 @@ const DATA={
      ],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/kobold.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1681,9 +1692,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/gnome-forest.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -1893,9 +1904,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/orc-berserker.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2033,9 +2044,9 @@ const DATA={
      "kinds": [],
      "type": "Giant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/bladerager-troll.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2150,9 +2161,9 @@ const DATA={
      "kinds": [],
      "type": "Giant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-eldritch.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -2177,9 +2188,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/moonrat.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2198,9 +2209,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/krenshar.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2219,9 +2230,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/greenspawn-leaper.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2240,9 +2251,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/worg.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2285,9 +2296,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/yuan-ti-pureblood.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2306,9 +2317,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/owlbear.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2327,9 +2338,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cyclops.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2372,9 +2383,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/bluespawn-stormlizard.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2393,9 +2404,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/redspawn-arcaniss.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2414,9 +2425,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/chimera.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2435,9 +2446,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/yuan-ti-abomination.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2456,9 +2467,9 @@ const DATA={
      "kinds": [],
      "type": "Giant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ken-kuni.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2477,9 +2488,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/bluespawn-burrower.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2498,9 +2509,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/rylkar-harridan.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2519,9 +2530,9 @@ const DATA={
      "kinds": [],
      "type": "Giant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ken-li.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2540,9 +2551,9 @@ const DATA={
      "kinds": [],
      "type": "Giant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-cloud.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2561,9 +2572,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/brood-keeper-larva-swarm.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2582,9 +2593,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/tatzylwurm-pale.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2627,9 +2638,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/lucent-worm.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2654,9 +2665,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-fire-beetle.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2675,9 +2686,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/camel.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2696,9 +2707,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-bee.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2717,9 +2728,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/moonwing.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2738,9 +2749,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/thri-kreen.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2759,9 +2770,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-bombardier-beetle.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2780,9 +2791,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/monstrous-centipede.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2801,9 +2812,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/armand.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2822,9 +2833,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cataphract-beetle.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2843,9 +2854,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-wasp.webp",
+      "credit": "Monster library art \u2014 Monster Manual I, Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2864,9 +2875,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/lolth-touched-monstrous-hunting-spider.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2885,9 +2896,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/swarm-locust.webp",
+      "credit": "GENERATED \u2014 monster library generated art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -2907,9 +2918,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-stag-beetle.webp",
+      "credit": "Monster library art \u2014 Monster Manual I, Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2928,9 +2939,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/harssaf.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2949,9 +2960,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/chelicera.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -2970,9 +2981,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/swarm-locust-rapture.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -2992,9 +3003,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/swarm-locust-bloodfiend.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -3016,9 +3027,9 @@ const DATA={
      ],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ethon.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3085,9 +3096,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/desert-hydra-5-headed.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3140,9 +3151,9 @@ const DATA={
      ],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/raven.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3186,9 +3197,9 @@ const DATA={
      "kinds": [],
      "type": "Fey",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/shadar-kai.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3209,9 +3220,9 @@ const DATA={
      ],
      "type": "",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/dire-maggot.webp",
+      "credit": "GENERATED \u2014 generated from the published description (Libris Mortis: dead-white segmented worm, clacking mandibles, ichor)",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -3230,9 +3241,9 @@ const DATA={
      "kinds": [],
      "type": "Ooze",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/sickening-sleep.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3251,9 +3262,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/boggle.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3272,9 +3283,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/monstrous-scorpion.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3293,9 +3304,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/arkamoi.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3314,9 +3325,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/nagatha.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3383,9 +3394,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/catoblepas.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3404,9 +3415,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/redspawn-arcaniss.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3425,9 +3436,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/darktentacles.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3496,9 +3507,9 @@ const DATA={
      ],
      "type": "",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/doru-infectious-blasheme.webp",
+      "credit": "GENERATED \u2014 generated from the published description (surgically modified corpse, wedge-shaped head, teeth like black steaming ice)",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -3542,9 +3553,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/skindancer.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3563,9 +3574,9 @@ const DATA={
      "kinds": [],
      "type": "Fey",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/twilight-sisters.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3584,9 +3595,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/siege-beetle.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3607,9 +3618,9 @@ const DATA={
      ],
      "type": "",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/the-black-duke.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -3636,9 +3647,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cullenrock-barnacle.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3657,9 +3668,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/bog-trog.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3678,9 +3689,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/selkie.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3723,9 +3734,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/sahuagin-malenti.webp",
+      "credit": "GENERATED \u2014 monster library generated art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3744,9 +3755,9 @@ const DATA={
      "kinds": [],
      "type": "Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/dinosaur-cryptoclidus.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3765,9 +3776,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/fire-bat.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3786,9 +3797,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/gargoyle-kapoacinth.webp",
+      "credit": "GENERATED \u2014 monster library generated art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3807,9 +3818,9 @@ const DATA={
      "kinds": [],
      "type": "Plant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/vine-horror.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3828,9 +3839,9 @@ const DATA={
      "kinds": [],
      "type": "Giant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/troll-scrag.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3849,9 +3860,9 @@ const DATA={
      "kinds": [],
      "type": "Fey",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/glaistig.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3870,9 +3881,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/storm-elemental-large.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3891,9 +3902,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/chuul.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3912,9 +3923,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/naga-water.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3933,9 +3944,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/octopus-giant.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3978,9 +3989,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ruin-elemental.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -3999,9 +4010,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/earth-weird.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4020,9 +4031,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cinder-swarm.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4041,9 +4052,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cyclonic-ravager.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4062,9 +4073,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/aboleth-mage.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4083,9 +4094,9 @@ const DATA={
      "kinds": [],
      "type": "Fey",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ocean-strider.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4110,9 +4121,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cerebral-symbiont-mind-leech.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4177,9 +4188,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/lurking-strangler.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4200,9 +4211,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/automaton-hammerer.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4271,9 +4282,9 @@ const DATA={
      ],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/gargoyle.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4292,9 +4303,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/swarm-centipede.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -4314,9 +4325,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/howler-wasp-queen.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4335,9 +4346,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/beholder-gauth.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4382,9 +4393,9 @@ const DATA={
      ],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/dire-bear.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4427,9 +4438,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/mindshredder-zenthal.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4472,9 +4483,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/darkweaver.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4519,9 +4530,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/slaughterstone-eviscerator.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4540,9 +4551,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/dolomite.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4561,9 +4572,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ethergaunt-black.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4611,9 +4622,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cerebral-symbiont-mind-leech.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4635,9 +4646,9 @@ const DATA={
      ],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/gnoll.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4660,9 +4671,9 @@ const DATA={
      ],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/bugbear.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4681,9 +4692,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/triton.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4702,9 +4713,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ettercap.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4723,9 +4734,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/salamander.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4819,9 +4830,9 @@ const DATA={
      ],
      "type": "Giant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/troll.webp",
+      "credit": "Monster library art \u2014 Monster Manual I, Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4840,9 +4851,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/hag-annis.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4861,9 +4872,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/chaos-beast.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4976,9 +4987,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/yagnoloth.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -4997,9 +5008,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/abeil-queen.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5018,9 +5029,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/sarkrith-spelleater.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5041,9 +5052,9 @@ const DATA={
      ],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/thoon-elder-brain.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5062,9 +5073,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/vermin-lord.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5083,9 +5094,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/aspect-of-dispater.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiendish Codex II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5135,9 +5146,9 @@ const DATA={
      ],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/hawk.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5181,9 +5192,9 @@ const DATA={
      ],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/skorne.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5204,9 +5215,9 @@ const DATA={
      ],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/lumi.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5227,9 +5238,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/clockwork-stallion.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5296,9 +5307,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/chain-golem.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5365,9 +5376,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/scyther-of-thoon.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5388,9 +5399,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/shrapnyl.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5434,9 +5445,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/clockwork-horror-adamantine.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5457,9 +5468,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/bronze-serpent.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5480,9 +5491,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/alchemical-golem.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5503,9 +5514,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/wicker-man.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5526,9 +5537,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/slaughterstone-eviscerator.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5549,9 +5560,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/inevitable-marut.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -5618,9 +5629,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/hellfire-engine.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiendish Codex II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5645,9 +5656,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/toad.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5666,9 +5677,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/elf-gray.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5710,9 +5721,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/orc-battle-priest.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5733,9 +5744,9 @@ const DATA={
      ],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/boar.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5754,9 +5765,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/leopard.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5775,9 +5786,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/armand.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5796,9 +5807,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/owl-giant.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5817,9 +5828,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/fiendish-cleric-of-yeenoghu.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5838,9 +5849,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/tharn-bloodtrackers.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5859,9 +5870,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/harrier.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5880,9 +5891,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/blood-ape.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5901,9 +5912,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/sea-tiger.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5922,9 +5933,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/greenspawn-sneak-raid-leader.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5943,9 +5954,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/gravorg.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5964,9 +5975,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/dinosaur-triceratops.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -5985,9 +5996,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/yrthak.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6006,9 +6017,9 @@ const DATA={
      "kinds": [],
      "type": "Giant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-cloud.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6029,9 +6040,9 @@ const DATA={
      ],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/roper.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6050,9 +6061,9 @@ const DATA={
      "kinds": [],
      "type": "Giant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-death.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -6079,9 +6090,9 @@ const DATA={
      ],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/hawk.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6102,9 +6113,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/clockroach.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6125,9 +6136,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/animated-object.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6148,9 +6159,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/automaton-hammerer.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6217,9 +6228,9 @@ const DATA={
      ],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/mimic.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6240,9 +6251,9 @@ const DATA={
      ],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/nightmare.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6309,9 +6320,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/shrapnyl.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6332,9 +6343,9 @@ const DATA={
      ],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/mind-flayer.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6355,9 +6366,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/inevitable-zelekhut.webp",
+      "credit": "GENERATED \u2014 monster library generated art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -6401,9 +6412,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/golem-stone.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6447,9 +6458,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/greater-shadesteel-golem.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6470,9 +6481,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/woldwrath.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6516,9 +6527,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/scouring-slinger.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6545,9 +6556,9 @@ const DATA={
      ],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/hawk.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6566,9 +6577,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/farrow.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6612,9 +6623,9 @@ const DATA={
      ],
      "type": "",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/clockwork-mender-swarm.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6658,9 +6669,9 @@ const DATA={
      ],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/gargoyle.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6681,9 +6692,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/guttersnipe.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6750,9 +6761,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/shrapnyl.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6773,9 +6784,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/rip-cutter.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6819,9 +6830,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/runic-guardian.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6842,9 +6853,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/shadesteel-golem.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6865,9 +6876,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/golem-iron.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6888,9 +6899,9 @@ const DATA={
      ],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/thoon-elder-brain.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -6911,9 +6922,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/inevitable-quarut.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -6934,9 +6945,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/prismatic-golem.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7059,9 +7070,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/clockwork-horror-adamantine.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7127,9 +7138,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/leechwalker.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7174,9 +7185,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/mud-golem.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7241,9 +7252,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ten-headed-terror.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7264,9 +7275,9 @@ const DATA={
      ],
      "type": "",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/sample-15th-level-npc-artificer-warforged.webp",
+      "credit": "GENERATED \u2014 generated from the published stat block (warforged artificer 15, heavy mace, light crossbow, Mithral Body)",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -7285,9 +7296,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/windghost.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7404,9 +7415,9 @@ const DATA={
      ],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/titan.webp",
+      "credit": "GENERATED \u2014 monster library generated art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7431,9 +7442,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cerebral-symbiont-mind-leech.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7452,9 +7463,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-bee.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7596,9 +7607,9 @@ const DATA={
      ],
      "type": "",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/avvite.webp",
+      "credit": "GENERATED \u2014 generated from the published description (Anger of Angels sample: nearly skeletal dire wolf in red and black scales)",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -7665,9 +7676,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/yugoloth-mezzoloth.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7686,9 +7697,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/orc-plague-speaker.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7710,9 +7721,9 @@ const DATA={
      ],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/gorgon.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7731,9 +7742,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/demon-zovvut.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -7798,9 +7809,9 @@ const DATA={
      "kinds": [],
      "type": "Ooze",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ooze-elder-black-pudding.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -7842,9 +7853,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ethergaunt-black.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7894,9 +7905,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cerebral-symbiont-mind-leech.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7915,9 +7926,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/kaorti.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -7986,9 +7997,9 @@ const DATA={
      ],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/lion.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8103,9 +8114,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/gear-wyrm.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8124,9 +8135,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/chaos-beast.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8145,9 +8156,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/susurrus.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8166,9 +8177,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/pyre-troll.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8187,9 +8198,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/infernal-quelvitar.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8277,9 +8288,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/giant-psurlon.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8300,9 +8311,9 @@ const DATA={
      ],
      "type": "Construct",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/inevitable-quarut.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "full",
@@ -8373,9 +8384,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/elf-aquatic.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8418,9 +8429,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/storm-elemental-small.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8439,9 +8450,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/elemental-earth.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8460,9 +8471,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/fire-bat.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8481,9 +8492,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/sea-cat.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8502,9 +8513,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/belker.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8523,9 +8534,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ormyrr.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8544,9 +8555,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/breathdrinker.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8565,9 +8576,9 @@ const DATA={
      "kinds": [],
      "type": "Magical Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/mudmaw.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8586,9 +8597,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/legendary-snake.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8607,9 +8618,9 @@ const DATA={
      "kinds": [],
      "type": "Outsider",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/marraenoloth.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8628,9 +8639,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/air-weird.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8649,9 +8660,9 @@ const DATA={
      "kinds": [],
      "type": "Plant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/octopus-tree.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8670,9 +8681,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cinder-swarm.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual III",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8715,9 +8726,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/waterveiled-assassin.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual IV",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8736,9 +8747,9 @@ const DATA={
      "kinds": [],
      "type": "Ooze",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/teratomorph.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8763,9 +8774,9 @@ const DATA={
      "kinds": [],
      "type": "Vermin",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/cullenrock-barnacle.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 2",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8784,9 +8795,9 @@ const DATA={
      "kinds": [],
      "type": "Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/bog-trog.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8805,9 +8816,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/octopus.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8828,9 +8839,9 @@ const DATA={
      ],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/squid.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8849,9 +8860,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/sahuagin.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8870,9 +8881,9 @@ const DATA={
      "kinds": [],
      "type": "Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/dinosaur-cryptoclidus.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8915,9 +8926,9 @@ const DATA={
      "kinds": [],
      "type": "Plant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/vine-horror.webp",
+      "credit": "APOC-VTT monster library art \u2014 Fiend Folio",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8936,9 +8947,9 @@ const DATA={
      "kinds": [],
      "type": "Giant",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/troll-scrag.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8957,9 +8968,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/kopru.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8978,9 +8989,9 @@ const DATA={
      "kinds": [],
      "type": "Monstrous Humanoid",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/boatman.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monsternomicon Vol. 1",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -8999,9 +9010,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/naga-water.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -9044,9 +9055,9 @@ const DATA={
      "kinds": [],
      "type": "Animal",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/squid-giant.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -9065,9 +9076,9 @@ const DATA={
      "kinds": [],
      "type": "Beast",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/megalodon.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -9086,9 +9097,9 @@ const DATA={
      "kinds": [],
      "type": "Elemental",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/elder-spawn-of-juiblex.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual V",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -9107,9 +9118,9 @@ const DATA={
      "kinds": [],
      "type": "Aberration",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/aboleth-mage.webp",
+      "credit": "Monster library art \u2014 Monster Manual I",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -9128,9 +9139,9 @@ const DATA={
      "kinds": [],
      "type": "Fey",
      "picture": {
-      "file": "",
-      "credit": "",
-      "status": "none on file"
+      "file": "pictures/ocean-strider.webp",
+      "credit": "APOC-VTT monster library art \u2014 Monster Manual II",
+      "status": "on file"
      },
      "statblock": {
       "status": "partial",
@@ -9145,6 +9156,12 @@ const sel=document.getElementById('tbl');
 DATA.tables.forEach((t,i)=>{const o=document.createElement('option');o.value=i;o.textContent=t.name;sel.appendChild(o);});
 const hist=[];
 function esc(s){const d=document.createElement('div');d.textContent=(s==null?'':String(s));return d.innerHTML;}
+const lb=document.getElementById('lightbox'),lbImg=document.getElementById('lbImg'),lbCap=document.getElementById('lbCap');
+function openPic(src,name,credit){lbImg.src=src;lbImg.alt=name||'';lbCap.textContent=(name||'')+(credit?' — '+credit:'');lb.classList.add('open');}
+function closePic(){lb.classList.remove('open');lbImg.src='';}
+lb.addEventListener('click',closePic);
+document.getElementById('lbClose').addEventListener('click',closePic);
+document.addEventListener('keydown',ev=>{if(ev.key==='Escape')closePic();});
 function showResult(t,r,e){
   let h='<b>d100: '+r+'</b> on '+esc(t.name)+' (band '+(e.low===e.high?e.low:e.low+'–'+e.high)+')<br>';
   h+='<b>'+esc(e.name)+'</b> — CR '+esc(e.cr)+'<br>Number appearing: '+esc(e.number)+'<br>Source: '+esc(e.source);
@@ -9152,8 +9169,8 @@ function showResult(t,r,e){
   if(e.undeadKind){const K={claimed:'Claimed — of the undead nation, under its own laws',unclaimed:'Unclaimed — wild dead, under no nation’s rule',either:'Claimed or unclaimed — not settled by the record'};h+='<br><b>Undead kind (world lore):</b> '+K[e.undeadKind]+(e.leadership?' — <b>upper crust</b>: the highest order of undead lead the nation’s society':'');}
   if(e.apoc) h+='<br>'+esc(e.apoc);
   if(e.picture && e.picture.status==='on file'){
-    h+='<img src="'+esc(e.picture.file)+'" alt="'+esc(e.name)+'">';
-    if(e.picture.credit) h+='<div class="credit">Picture: '+esc(e.picture.credit)+'</div>';
+    h+='<img class="pic" src="'+esc(e.picture.file)+'" alt="'+esc(e.name)+'" title="Hover to enlarge — click for full size">';
+    if(e.picture.credit) h+='<div class="credit">Picture: '+esc(e.picture.credit)+' (hover to enlarge, click to expand)</div>';
   } else { h+='<div class="credit">Picture: none on file.</div>'; }
   const sb=e.statblock||{status:'missing',text:''};
   if(sb.status==='full'){
@@ -9164,6 +9181,8 @@ function showResult(t,r,e){
     h+='<div class="statblock">Stat block not on file — see '+esc(e.source)+'.</div>';
   }
   document.getElementById('result').innerHTML=h;
+  const pim=document.querySelector('#result img.pic');
+  if(pim) pim.addEventListener('click',()=>openPic(e.picture.file,e.name,e.picture.credit||''));
 }
 document.getElementById('roll').onclick=()=>{
   const t=DATA.tables[sel.value]; const r=1+Math.floor(Math.random()*100);
@@ -9175,12 +9194,16 @@ document.getElementById('roll').onclick=()=>{
 document.getElementById('previewBtn').onclick=()=>{
   const t=DATA.tables[sel.value];
   let h='<b>'+esc(t.name)+'</b><br>';
-  t.entries.forEach(e=>{
+  t.entries.forEach((e,i)=>{
     const band=(e.low===e.high?e.low:e.low+'–'+e.high);
-    const thumb=(e.picture&&e.picture.status==='on file')?' <img src="'+esc(e.picture.file)+'" alt="">':'';
+    const thumb=(e.picture&&e.picture.status==='on file')?' <img class="thumb" data-i="'+i+'" src="'+esc(e.picture.file)+'" alt="" title="Hover to enlarge — click for full size">':'';
     h+=band+' — '+esc(e.name)+' (CR '+esc(e.cr)+')'+thumb+'<br>';
   });
   document.getElementById('preview').innerHTML=h;
+  document.querySelectorAll('#preview img.thumb').forEach(im=>{
+    const e=t.entries[Number(im.getAttribute('data-i'))];
+    im.addEventListener('click',()=>openPic(e.picture.file,e.name,e.picture.credit||''));
+  });
 };
 sel.addEventListener('change',()=>{document.getElementById('previewBtn').click();});
 // movable panel (drag, persists per device)
