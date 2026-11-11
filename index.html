@@ -9149,7 +9149,7 @@ function showResult(t,r,e){
   let h='<b>d100: '+r+'</b> on '+esc(t.name)+' (band '+(e.low===e.high?e.low:e.low+'–'+e.high)+')<br>';
   h+='<b>'+esc(e.name)+'</b> — CR '+esc(e.cr)+'<br>Number appearing: '+esc(e.number)+'<br>Source: '+esc(e.source);
   if(e.environment) h+='<br>Environment (published/mapped): '+esc(e.environment);
-  if(e.undeadKind){const K={claimed:'Claimed — of the undead nation, under its own laws',unclaimed:'Unclaimed — wild dead, under no nation\\'s rule',either:'Claimed or unclaimed — not settled by the record'};h+='<br><b>Undead kind (world lore):</b> '+K[e.undeadKind]+(e.leadership?' — <b>upper crust</b>: the highest order of undead lead the nation\\'s society':'');}
+  if(e.undeadKind){const K={claimed:'Claimed — of the undead nation, under its own laws',unclaimed:'Unclaimed — wild dead, under no nation’s rule',either:'Claimed or unclaimed — not settled by the record'};h+='<br><b>Undead kind (world lore):</b> '+K[e.undeadKind]+(e.leadership?' — <b>upper crust</b>: the highest order of undead lead the nation’s society':'');}
   if(e.apoc) h+='<br>'+esc(e.apoc);
   if(e.picture && e.picture.status==='on file'){
     h+='<img src="'+esc(e.picture.file)+'" alt="'+esc(e.name)+'">';
