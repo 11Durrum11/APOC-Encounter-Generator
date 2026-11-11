@@ -18412,12 +18412,15 @@ $('xGo').onclick=()=>{const n=Math.max(1,parseInt($('xN').value)||4),lvl=Math.ma
     else{const each=Math.floor(v/n);per+=each*cnt;lines.push('CR '+fmtCr(cr)+' × '+cnt+' — '+v+' XP base, '+each+' per PC');}});
   $('xOut').innerHTML=lines.join('<br>')+'<br><b>XP per PC: '+per+'</b> (DMG Table 2-6, per monster, divided by '+n+' PCs)';};
 })();
-</script><script>/* APOC platform treatment v1.3 — the same treatment as the other programs:
+</script><script>/* APOC platform treatment — the same treatment as the other programs:
    every piece individually movable / resizable / lockable, editable in place
    behind a locked-by-default edit lock, all treatment chrome dark blue;
-   every button movable by the user; dropping a button on another button
-   NESTS it inside/under that one (drag back out or double-click to un-nest);
-   campaign artwork is exempt. Layout persists per device. */
+   EVERY button movable, no exceptions (roller, tools, tabs, generated row
+   buttons, lightbox controls, the edit bar itself): drag to a new spot,
+   or drop on another button to NEST inside/under it (drag back out or
+   double-click to un-nest). Buttons generated per roll carry their layout
+   for that render; identified buttons persist per device. Campaign
+   artwork is exempt. */
 (function(){
 "use strict";
 const LKEY='apocEncLayout3';
@@ -18433,12 +18436,19 @@ pieces.forEach(p=>{const id=p.getAttribute('data-piece');
 function pieceOf(el){return el.closest('.piece');}
 function pieceId(el){const p=pieceOf(el);return p?p.getAttribute('data-piece'):null;}
 /* ---------- button identity ---------- */
-function btnKey(b){return b.id||(b.getAttribute('data-tool')?'tool:'+b.getAttribute('data-tool'):'txt:'+b.textContent.trim().slice(0,40));}
-function allButtons(){return [...document.querySelectorAll('#panel button')];}
+function btnKey(b){
+  if(b.classList.contains('plock'))return 'plock:'+pieceId(b);
+  return b.id||(b.getAttribute('data-tool')?'tool:'+b.getAttribute('data-tool'):'txt:'+b.textContent.trim().slice(0,40));}
+/* Buttons with a stable identity persist; generated row buttons and nest
+   badges are movable for the render that created them. */
+function ephemeral(b){return b.classList.contains('nestbadge')||(!b.id&&!b.getAttribute('data-tool')&&!b.classList.contains('plock'));}
+function allButtons(){return [...document.querySelectorAll('button')];}
 function findBtn(key){return allButtons().find(b=>btnKey(b)===key);}
-function recordHome(b){const k=btnKey(b);if(L.homes[k])return;const p=pieceOf(b);if(!p)return;
-  const sibs=[...p.querySelectorAll('button')].filter(x=>pieceOf(x)===p);
-  L.homes[k]={piece:p.getAttribute('data-piece'),idx:sibs.indexOf(b)};}
+function recordHome(b){if(ephemeral(b))return;const k=btnKey(b);if(L.homes[k])return;
+  const p=pieceOf(b);
+  if(p){const sibs=[...p.querySelectorAll('button')].filter(x=>pieceOf(x)===p);
+    L.homes[k]={piece:p.getAttribute('data-piece'),idx:sibs.indexOf(b)};}
+  else if(b.parentElement&&b.parentElement.id){L.homes[k]={parent:b.parentElement.id};}}
 /* ---------- nests ---------- */
 function trayFor(host,create){
   let tray=host.parentNode.querySelector(':scope > .nest[data-host="'+CSS.escape(btnKey(host))+'"]');
@@ -18450,19 +18460,19 @@ function trayFor(host,create){
   return tray;}
 function refreshTray(host){const tray=host.parentNode?host.parentNode.querySelector(':scope > .nest[data-host="'+CSS.escape(btnKey(host))+'"]'):null;
   if(tray&&!tray.querySelector('button')){if(tray._badge)tray._badge.remove();const b2=host.parentNode.querySelector(':scope > .nestbadge');if(b2&&!document.querySelector('.nest[data-host="'+CSS.escape(btnKey(host))+'"] > button'))b2.remove();tray.remove();}}
+function clearPlacement(b){b.classList.remove('btnabs');b.style.left='';b.style.top='';b.style.position='';b.style.zIndex='';}
 function nestInto(btn,host){recordHome(btn);const tray=trayFor(host,true);tray.appendChild(btn);
-  btn.classList.remove('btnabs');btn.style.left='';btn.style.top='';
+  clearPlacement(btn);
   delete L.btnPos[btnKey(btn)];L.nests[btnKey(btn)]=btnKey(host);save();}
-function unNest(btn,piece){recordHome(btn);delete L.nests[btnKey(btn)];
-  if(piece)piece.appendChild(btn);refreshTray(btn);save();}
 /* ---------- apply saved layout ---------- */
 function applyLayout(){
   pieces.forEach(p=>{const id=p.getAttribute('data-piece');const s=L.pieces[id];
     const lock=p.querySelector('.plock');if(lock)lock.textContent=(s&&s.locked)?'🔒':'🔓';
     if(s&&(s.x!=null)){p.classList.add('abs');p.style.left=s.x+'px';p.style.top=s.y+'px';
       if(s.w)p.style.width=s.w+'px';if(s.h)p.style.height=s.h+'px';}});
-  Object.keys(L.nests).forEach(k=>{const b=findBtn(k),h=findBtn(L.nests[k]);if(b&&h&&b!==h){const tray=trayFor(h,true);tray.appendChild(b);}});
+  Object.keys(L.nests).forEach(k=>{const b=findBtn(k),h=findBtn(L.nests[k]);if(b&&h&&b!==h){const tray=trayFor(h,true);tray.appendChild(b);clearPlacement(b);}});
   Object.keys(L.btnPos).forEach(k=>{const b=findBtn(k);if(!b)return;const pp=L.btnPos[k];
+    if(pp.fixed){b.style.position='fixed';b.style.left=pp.x+'px';b.style.top=pp.y+'px';b.style.zIndex='9500';return;}
     const piece=pieces.find(p=>p.getAttribute('data-piece')===pp.piece);if(!piece)return;
     piece.appendChild(b);b.classList.add('btnabs');b.style.left=pp.x+'px';b.style.top=pp.y+'px';});}
 applyLayout();
@@ -18476,24 +18486,21 @@ function pieceLocked(p){const s=L.pieces[p.getAttribute('data-piece')];return !!
 pieces.forEach(p=>{const lock=p.querySelector('.plock');if(!lock)return;
   lock.addEventListener('click',ev=>{ev.stopPropagation();const id=p.getAttribute('data-piece');
     L.pieces[id]=L.pieces[id]||{};L.pieces[id].locked=!L.pieces[id].locked;lock.textContent=L.pieces[id].locked?'🔒':'🔓';save();});});
-/* ---------- piece drag & resize ---------- */
+/* ---------- drag: pieces, resize, and EVERY button ---------- */
 let drag=null;
 document.addEventListener('pointerdown',e=>{
   if(!editing())return;
+  const b=e.target.closest('button');
+  if(b){const p=pieceOf(b);if(p&&pieceLocked(p)&&!b.classList.contains('plock'))return;
+    if(p&&pieceLocked(p)&&b.classList.contains('plock'))return;
+    drag={kind:'btn',el:b,sx:e.clientX,sy:e.clientY,moved:false,over:null};return;}
   const grip=e.target.closest('.grip');
-  if(grip&&!e.target.closest('.plock')){const p=grip.closest('.piece');if(pieceLocked(p))return;
+  if(grip){const p=grip.closest('.piece');if(pieceLocked(p))return;
     const r=p.getBoundingClientRect();drag={kind:'piece',el:p,dx:e.clientX-r.left,dy:e.clientY-r.top,moved:false};return;}
   const rz=e.target.closest('.rz');
   if(rz){const p=rz.closest('.piece');if(pieceLocked(p))return;
-    const r=p.getBoundingClientRect();drag={kind:'resize',el:p,sw:r.width,sh:r.height,sx:e.clientX,sy:e.clientY,moved:false};return;}
-  const b=e.target.closest('button');
-  if(b&&treatable(b)){const p=pieceOf(b);if(p&&pieceLocked(p))return;
-    drag={kind:'btn',el:b,sx:e.clientX,sy:e.clientY,moved:false,over:null};}});
-function treatable(b){
-  if(b.closest('#editbar')||b.closest('.grip')||b.classList.contains('nestbadge')||b.classList.contains('plock'))return false;
-  if(b.closest('.encrow')||b.closest('#xRows')||b.closest('#lightbox'))return false;
-  if(b.hasAttribute('data-inc')||b.hasAttribute('data-dec')||b.hasAttribute('data-del')||b.hasAttribute('data-lock')||b.hasAttribute('data-roll')||b.hasAttribute('data-hit')||b.hasAttribute('data-heal'))return false;
-  return true;}
+    const r=p.getBoundingClientRect();drag={kind:'resize',el:p,sw:r.width,sh:r.height,sx:e.clientX,sy:e.clientY,moved:false};return;}});
+function nestTarget(t,b){return t&&t!==b&&!t.classList.contains('nestbadge')&&!t.closest('.nest')&&!b.contains(t);}
 document.addEventListener('pointermove',e=>{
   if(!drag)return;
   if(drag.kind==='piece'){const p=drag.el;const x=Math.min(Math.max(0,e.clientX-drag.dx),Math.max(0,window.innerWidth-60));
@@ -18505,7 +18512,7 @@ document.addEventListener('pointermove',e=>{
     if(drag.moved){const el=document.elementFromPoint(e.clientX,e.clientY);
       const t=el?el.closest('button'):null;
       if(drag.over&&drag.over!==t)drag.over.classList.remove('dragover');
-      drag.over=(t&&t!==drag.el&&treatable(t)&&!t.closest('.nest'))?t:null;
+      drag.over=nestTarget(t,drag.el)?t:null;
       if(drag.over)drag.over.classList.add('dragover');}}});
 let suppressClick=false;
 document.addEventListener('pointerup',e=>{
@@ -18515,26 +18522,34 @@ document.addEventListener('pointerup',e=>{
   else if(d.kind==='resize'&&d.moved){const p=d.el;const id=p.getAttribute('data-piece');
     L.pieces[id]=Object.assign(L.pieces[id]||{},{w:parseInt(p.style.width)||p.offsetWidth,h:parseInt(p.style.height)||p.offsetHeight});save();}
   else if(d.kind==='btn'&&d.moved){suppressClick=true;setTimeout(()=>{suppressClick=false;},50);
-    const b=d.el;if(d.over) d.over.classList.remove('dragover');
-    if(d.over){nestInto(b,d.over);}
+    const b=d.el;if(d.over)d.over.classList.remove('dragover');
+    const stable=!ephemeral(b),k=btnKey(b),wasNested=!!b.closest('.nest');
+    if(d.over){if(stable){nestInto(b,d.over);}
+      else{const tray=trayFor(d.over,true);tray.appendChild(b);clearPlacement(b);}}
     else{const el=document.elementFromPoint(e.clientX,e.clientY);const piece=el?el.closest('.piece'):pieceOf(b);
-      if(piece){const wasNested=!!b.closest('.nest');
-        if(wasNested){delete L.nests[btnKey(b)];piece.appendChild(b);refreshTray(b);}
-        recordHome(b);piece.appendChild(b);b.classList.add('btnabs');
+      if(wasNested&&stable)delete L.nests[k];
+      if(piece){if(wasNested)refreshTray(b);
+        recordHome(b);piece.appendChild(b);clearPlacement(b);b.classList.add('btnabs');
         const r=piece.getBoundingClientRect();
-        const x=Math.max(0,Math.min(e.clientX-r.left-10,r.width-30)),y=Math.max(0,Math.min(e.clientY-r.top-8,r.height-20));
+        const x=Math.max(0,Math.min(e.clientX-r.left-10,Math.max(30,r.width-30))),y=Math.max(0,Math.min(e.clientY-r.top-8,Math.max(20,r.height-20)));
         b.style.left=x+'px';b.style.top=y+'px';
-        L.btnPos[btnKey(b)]={piece:piece.getAttribute('data-piece'),x:x,y:y};save();}}}});
+        if(stable){L.btnPos[k]={piece:piece.getAttribute('data-piece'),x:x,y:y};save();}}
+      else{if(wasNested){const host=b.closest('.nest');if(host)refreshTray(b);}
+        recordHome(b);clearPlacement(b);
+        const x=Math.min(Math.max(8,e.clientX-10),Math.max(8,window.innerWidth-48));
+        const y=Math.min(Math.max(8,e.clientY-8),Math.max(8,window.innerHeight-40));
+        b.style.position='fixed';b.style.left=x+'px';b.style.top=y+'px';b.style.zIndex='9500';
+        if(stable){L.btnPos[k]={fixed:true,x:x,y:y};save();}}}}});
 document.addEventListener('click',e=>{if(suppressClick){e.stopPropagation();e.preventDefault();suppressClick=false;}},true);
-/* double-click a treated button in edit mode: send it home */
+/* double-click a moved button in edit mode: send it home */
 document.addEventListener('dblclick',e=>{
-  if(!editing())return;const b=e.target.closest('button');if(!b||!treatable(b))return;
+  if(!editing())return;const b=e.target.closest('button');if(!b||ephemeral(b))return;
   const k=btnKey(b);const home=L.homes[k];delete L.nests[k];delete L.btnPos[k];
-  b.classList.remove('btnabs');b.style.left='';b.style.top='';
-  if(home){const piece=pieces.find(p=>p.getAttribute('data-piece')===home.piece);
-    if(piece){const sibs=[...piece.querySelectorAll(':scope button')];
-      piece.appendChild(b);} }
-  document.querySelectorAll('.nest').forEach(n=>{if(!n.querySelector('button')){const host=n.getAttribute('data-host');n.remove();}});
+  clearPlacement(b);
+  if(home&&home.piece){const piece=pieces.find(p=>p.getAttribute('data-piece')===home.piece);if(piece)piece.appendChild(b);}
+  else if(home&&home.parent){const par=$(home.parent);if(par)par.appendChild(b);}
+  document.querySelectorAll('.nest').forEach(n=>{if(!n.querySelector('button'))n.remove();});
+  document.querySelectorAll('.nestbadge').forEach(bd=>{const host=bd.parentNode&&bd.parentNode.querySelector(':scope > .nest');if(!host)bd.remove();});
   save();});
 /* ---------- reset ---------- */
 function resetLayout(){L={pieces:{},nests:{},btnPos:{},homes:{}};save();
