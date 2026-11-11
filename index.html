@@ -9185,9 +9185,9 @@ document.getElementById('previewBtn').onclick=()=>{
 sel.addEventListener('change',()=>{document.getElementById('previewBtn').click();});
 // movable panel (drag, persists per device)
 const p=document.getElementById('panel'); let dx,dy,drag=false;
-const saved=localStorage.getItem('apocEncPanel'); if(saved){const j=JSON.parse(saved);p.style.position='absolute';p.style.left=j.x+'px';p.style.top=j.y+'px';}
+const saved=localStorage.getItem('apocEncPanel2'); if(saved){try{const j=JSON.parse(saved);const mx=Math.max(0,window.innerWidth-60), my=Math.max(0,window.innerHeight-40);const x=Math.min(Math.max(0,j.x||0),mx), y=Math.min(Math.max(0,j.y||0),my);if(x!==j.x||y!==j.y){localStorage.removeItem('apocEncPanel2');}else{p.style.position='absolute';p.style.left=x+'px';p.style.top=y+'px';}}catch(e){localStorage.removeItem('apocEncPanel2');}}
 p.addEventListener('pointerdown',e=>{if(e.target.tagName==='SELECT'||e.target.tagName==='BUTTON'||e.target.tagName==='SUMMARY'||e.target.tagName==='IMG')return;drag=true;dx=e.clientX-p.offsetLeft;dy=e.clientY-p.offsetTop;});
-document.addEventListener('pointermove',e=>{if(!drag)return;p.style.position='absolute';p.style.left=(e.clientX-dx)+'px';p.style.top=(e.clientY-dy)+'px';});
-document.addEventListener('pointerup',()=>{if(drag){localStorage.setItem('apocEncPanel',JSON.stringify({x:p.offsetLeft,y:p.offsetTop}));}drag=false;});
-document.getElementById('reset').onclick=()=>{localStorage.removeItem('apocEncPanel');p.style.position='static';};
+document.addEventListener('pointermove',e=>{if(!drag)return;const mx=Math.max(0,window.innerWidth-60), my=Math.max(0,window.innerHeight-40);const x=Math.min(Math.max(0,e.clientX-dx),mx), y=Math.min(Math.max(0,e.clientY-dy),my);p.style.position='absolute';p.style.left=x+'px';p.style.top=y+'px';});
+document.addEventListener('pointerup',()=>{if(drag){localStorage.setItem('apocEncPanel2',JSON.stringify({x:p.offsetLeft,y:p.offsetTop}));}drag=false;});
+document.getElementById('reset').onclick=()=>{localStorage.removeItem('apocEncPanel2');localStorage.removeItem('apocEncPanel');p.style.position='static';};
 </script></body></html>
