@@ -18047,7 +18047,7 @@ function showResult(t,r,e,fx){
   if(twistable(e)){const sizeM2=head.match(/\b(Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)\b/);
     const clawD={Small:'1d2',Medium:'1d3',Large:'1d4'}[sizeM2?sizeM2[1]:''];
     const shift=/animal|vermin/i.test(e.type||'')?' Animals and vermin become magical beasts under it; otherwise its type is unchanged.':'';
-    h+='<div class="apoc"><b>Twisted '+esc(e.name)+'</b> — Shaun\u2019s Twisted template applied (Twisted overlay; Misc Other House Rules, Doc #4, via the Blendcrafter library record \u201CTwisted (House)\u201D). Warped in body, wrong in habit — the land\u2019s own life, gone on living where the demons passed; no demon, and no servant of demons.'+shift
+    h+='<div class="apoc"><b>Twisted '+esc(e.name)+'</b> — Shaun\u2019s Twisted template applied (Twisted overlay; Misc Other House Rules, Doc #4, via the Blendcrafter library record \u201CTwisted (House)\u201D). Warped in body, wrong in habit — one of the land\u2019s own creatures, twisted where the demons moved through and defiled the country around it; no demon, and no servant of demons.'+shift
       +' Str +4, Con +4, Cha \u22122, Intelligence at least 3; natural armor improves by +2; alignment becomes evil.'
       +' Gains Smite Good (Su) once per day — extra damage equal to its HD (maximum +20) against a good foe — and a Disruptive Attack (Su): +1 vile damage when it touches uncorrupted, living, corporeal nonoutsiders.'
       +(clawD?' Its two claw attacks deal '+clawD+' each and are its primary natural weapons.':' It gains two claw attacks as its primary natural weapons.')
