@@ -271,3 +271,14 @@ The whole surface (page, panels, buttons, dropdowns, tools, lightbox) now wears 
 - **Treatment chrome** stays dark blue, now at the tracker's own exact treatment blue `--mv-blue: hsl(222,89%,47%)` (the same value the tracker's moving system uses) for grips, resize handles, outlines, nest badges, and the edit bar.
 - **Lightbox:** tracker overlay value `rgba(10,12,16,.85)`, parchment caption, muted hint, tracker border/radius on the frame. Pictures themselves untouched (artwork is treatment-exempt, as everywhere).
 - Verification: `work/verify.py` OVERALL PASS; `test3.mjs` / `test4.mjs` / `test5.mjs` PASS on the staging build (test5's chrome assertion updated from the retired #003399 to the tracker's mv-blue value — the chrome is the same dark blue, at the tracker's exact value); a token audit confirms all 19 checked tracker values appear verbatim in the built page and no black/white theme values remain.
+
+---
+
+## Monster slideshow backdrop — v1.5 (2026-11-11) — Shaun's addition via the AI DM hub
+
+The page background is now a **full-screen slideshow of all the monsters**: every one of the 339 creature pictures cycles as the full-viewport backdrop, behind the panels and tools.
+
+- Two stacked layers crossfade slowly (2.8s fade, a new slide every 15s), shuffled fresh on each page load; the next slide preloads before it fades in, and cycling pauses while the tab is hidden. `prefers-reduced-motion` gets a single still slide.
+- Readability treatment: each slide is dimmed (`brightness(.5) saturate(.85)`) and the Campaign Tracker's exact darkening wash gradient from v1.4.0 still overlays the backdrop, so the parchment-on-dark UI keeps its contrast under the platform's high-contrast rules. Panels, buttons, dropdowns, tools, and the lightbox keep the tracker palette unchanged; the v1.4.0 static scene backdrop is retired in the slideshow's favor.
+- The slideshow reads its pictures from the same pool data as the roller — all 339 distinct placed creatures, each picture its own creature's (picture law unchanged); artwork itself is untouched.
+- Verification: new jsdom test `work/livecheck/test6.mjs` PASS (container + two layers fixed behind content at z −2, 2.8s crossfade, dimming filter, tracker wash present, pool carries 339/339 pictures, first slide showing is one of the 339); `verify.py`, `test3.mjs`, `test4.mjs`, `test5.mjs` all PASS.

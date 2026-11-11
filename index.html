@@ -21,7 +21,6 @@ color-scheme:dark;
 --input:hsl(220 16% 26%);
 --ring:hsl(38 92% 50%);
 --radius:12px;
---scene-image:url("https://11durrum11.github.io/APOC-Campaign-Tracker/assets/scenes/bastion-streets.webp");
 --mv-blue:hsl(222,89%,47%);
 --mv-blue-a:hsla(222,89%,55%,.6);
 --mv-blue-b:hsla(222,89%,55%,.5);
@@ -29,7 +28,9 @@ color-scheme:dark;
 }
 *{box-sizing:border-box}
 body{margin:8px;background:var(--background);color:var(--foreground);font-family:Georgia,"Times New Roman",serif;line-height:1.5;min-height:100vh}
-body::before{content:"";position:fixed;left:0;top:0;width:100%;height:100vh;height:100lvh;z-index:-2;background-image:var(--scene-image);background-size:cover;background-position:center;opacity:.45}
+#bgshow{position:fixed;inset:0;z-index:-2;overflow:hidden;background:var(--background)}
+#bgshow img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 2.8s ease;filter:brightness(.5) saturate(.85)}
+#bgshow img.on{opacity:1}
 body::after{content:"";position:fixed;left:0;top:0;width:100%;height:100vh;height:100lvh;z-index:-1;pointer-events:none;background:linear-gradient(180deg,hsla(222,22%,10%,.62),hsla(222,22%,10%,.86) 46%,hsla(222,22%,10%,.96) 100%),radial-gradient(ellipse at 50% 0%,transparent 0%,hsla(222,22%,10%,.40) 72%)}
 button,input,select,textarea{font:inherit}
 select,button{width:max-content;max-width:95vw}
@@ -77,6 +78,7 @@ h1{font-size:clamp(1.3rem,3.4vw,1.7rem);font-weight:500;letter-spacing:.01em;mar
 details{margin-top:6px}
 summary{cursor:pointer;color:var(--accent-foreground)}
 </style></head><body>
+<div id="bgshow"><img id="bgA" alt=""><img id="bgB" alt=""></div>
 <div id="editbar"><button id="editToggle">🔒 Edit layout</button><button id="layoutReset">Reset layout</button></div>
 <div id="panel">
 <div class="piece" data-piece="roller"><h1>APOC Encounter Roller (d100)</h1>
@@ -17994,6 +17996,25 @@ document.getElementById('previewBtn').onclick=()=>{
   });
 };
 sel.addEventListener('change',()=>{document.getElementById('previewBtn').click();});
+// Full-screen monster slideshow backdrop — every creature picture (339), shuffled,
+// slow crossfade, dimmed under the tracker wash so the UI stays high-contrast.
+(function(){
+  const seen=new Set(),pics=[];
+  DATA.pool.forEach(p=>{if(p.picture&&p.picture.status==='on file'&&!seen.has(p.picture.file)){seen.add(p.picture.file);pics.push(p.picture.file);}});
+  if(!pics.length)return;
+  for(let i=pics.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));const t=pics[i];pics[i]=pics[j];pics[j]=t;}
+  const A=document.getElementById('bgA'),B=document.getElementById('bgB');
+  let cur=A,alt=B,idx=0;
+  cur.src=pics[0];cur.classList.add('on');
+  if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  setInterval(()=>{
+    if(document.hidden)return;
+    idx=(idx+1)%pics.length;
+    const next=new Image();
+    next.onload=()=>{alt.src=pics[idx];alt.classList.add('on');cur.classList.remove('on');const t=cur;cur=alt;alt=t;};
+    next.src=pics[idx];
+  },15000);
+})();
 </script><script>/* APOC Encounter tools v1.2 — Builder / Advancer / Chart / Treasure / XP.
    All math is D&D 3.5: EL by the doubling rule (DMG pp.48-49), XP by DMG
    Table 2-6 (formula-verified against the printed DM Screen rows, with the
