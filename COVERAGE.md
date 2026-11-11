@@ -245,3 +245,16 @@ Five tools added under the roller, all running on the APOC pool (the 339 placed 
 - **Stated limits:** the Advancer works on the 125 creatures with full stat blocks (partials don't carry the lines to recalculate). Template traits are not auto-applied — the template's CR modifier is applied and its traits come from its book. Advancement math is the SRD's; a DM still eyeballs CR once it has doubled from the base, exactly as the SRD advises.
 
 - Verification: `work/verify.py` OVERALL PASS; jsdom execution tests — `work/livecheck/test3.mjs` (roller regression: 1,900-roll sweep, pictures, lightbox) PASS and `work/livecheck/test4.mjs` (tools: 10 XP table spot-checks incl. every printed quirk, all builder modes, lock-and-reroll, advancer hand-checked on Desiccator (8 HD → Large, CR 4, saves Fort +2 / Ref +1 / Will +6) and Vasuthant + 2 Fighter levels, chart contiguity and roller loading, treasure EL 5 averaging 1,600 gp over 12 runs) PASS.
+
+---
+
+## Platform treatment — v1.3 (2026-11-11) — Shaun's order: "give the user interface all the same treatments as the rest of the programs"
+
+The Encounter Generator now carries the same treatment as every other APOC program (the five platform rules plus the movable/editable treatment system):
+
+- **Pieces, individually treated:** the page is ten pieces — Roller, Result, Table preview, Roll history, the Tools bar, and the five tools (Builder, Advancer, Chart, Treasure, XP Calculator). Each piece is individually **movable** (drag by its grip), **resizable** (corner handle, contents reflow), and **individually lockable** (its own 🔒 on the grip).
+- **Edit lock, locked by default:** nothing moves until Shaun unlocks with the **🔒 Edit layout** button, which sits fixed at the top-right and can never be dragged off-screen or buried — the Reset layout button sits beside it (and in the Roller piece). All treatment chrome is **dark blue**, as everywhere else.
+- **Every button movable; drop-to-nest:** in edit mode any button can be dragged to a new spot in its piece, or dropped **on top of another button to nest inside/under it** (rule 5) — the host grows a "▾ nested" badge that opens the nest; drag a nested button back out, or double-click it, to un-nest. Dynamically generated combat-row buttons (the Run panel's per-creature controls, XP rows) ride inside their pieces instead of carrying their own layout, and campaign artwork (pictures, lightbox) is exempt as everywhere.
+- **Rules 1–3 as before, rechecked:** buttons at minimum footprint with the layout pushing up together; every dropdown opens sized to its content; one uniform high-contrast scheme (white on black) with no white-on-white anywhere.
+- Layout (piece positions/sizes/locks, button positions, nests) persists per device; Reset layout restores the stacked default and also clears the retired v1.0 panel-position keys.
+- Verification: jsdom execution test `work/livecheck/test5.mjs` PASS (10 pieces with grips and resize handles, locked by default, piece drag + persistence, resize persistence, locked piece immovable, button drag-to-nest with badge + persistence, full layout restored on a fresh load); roller and tools regressions (`test3.mjs`, `test4.mjs`) PASS.

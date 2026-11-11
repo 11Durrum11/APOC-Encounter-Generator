@@ -2,7 +2,24 @@
 <title>APOC Encounter Roller</title><style>
 body{background:#000;color:#fff;font-family:system-ui,sans-serif;margin:8px}
 select,button{background:#000;color:#fff;border:2px solid #fff;font-size:16px;padding:2px 6px;width:max-content;max-width:95vw}
-#panel{border:2px solid #fff;padding:8px;width:max-content;max-width:97vw;cursor:move}
+#panel{padding:8px;max-width:97vw}
+#editbar{position:fixed;top:6px;right:6px;z-index:9000;display:flex;gap:4px}
+#editbar button{background:#003399;color:#fff;border:2px solid #fff;font-size:14px}
+body.editing #editToggle{background:#fff;color:#003399}
+.piece{position:relative;margin:0 0 8px;border:2px solid #fff;padding:8px;width:max-content;max-width:97vw;background:#000}
+.piece.abs{position:absolute;margin:0;z-index:40}
+.grip{display:none;background:#003399;color:#fff;font-size:12px;padding:2px 6px;cursor:move;user-select:none;margin:-8px -8px 6px}
+body.editing .grip{display:flex;justify-content:space-between;align-items:center}
+body.editing .piece{outline:2px solid #003399}
+.plock{background:#003399 !important;border:1px solid #fff !important;color:#fff;font-size:11px;padding:0 4px}
+.rz{display:none;position:absolute;right:0;bottom:0;width:18px;height:18px;background:#003399;cursor:nwse-resize;z-index:5}
+body.editing .rz{display:block}
+.piece #result,.piece .statblock{max-width:100%}
+.nest{display:none;border:1px dashed #003399;padding:4px;margin:4px 0}
+.nest.open{display:block}
+button.btnabs{position:absolute;z-index:6}
+button.dragover{outline:3px solid #003399}
+.nestbadge{background:#003399 !important;color:#fff;font-size:11px;padding:0 4px;margin-left:4px}
 #result{margin-top:8px;max-width:680px}
 #result img{max-width:260px;max-height:260px;border:2px solid #fff;display:block;margin:6px 0}
 #result img.pic{cursor:zoom-in;position:relative;transition:transform .18s ease;transform-origin:left top}
@@ -23,12 +40,15 @@ select,button{background:#000;color:#fff;border:2px solid #fff;font-size:16px;pa
 h1{font-size:20px;margin:4px 0}
 details{margin-top:6px}
 </style></head><body>
-<div id="panel"><h1>APOC Encounter Roller (d100)</h1>
-<label>Table <select id="tbl"></select></label> <button id="roll">Roll d100</button> <button id="previewBtn">Preview table</button> <button id="reset">Reset positions</button>
-<div id="result">Pick a table and roll. Dragons haven't been seen in a thousand years — no roll produces one.</div>
-<div id="preview"></div>
-<div id="history"></div><style>
-.tools{margin-top:10px;max-width:680px}
+<div id="editbar"><button id="editToggle">🔒 Edit layout</button><button id="layoutReset">Reset layout</button></div>
+<div id="panel">
+<div class="piece" data-piece="roller"><h1>APOC Encounter Roller (d100)</h1>
+<label>Table <select id="tbl"></select></label> <button id="roll">Roll d100</button> <button id="previewBtn">Preview table</button> <button id="reset">Reset layout</button></div>
+<div class="piece" data-piece="result"><div id="result">Pick a table and roll. Dragons haven't been seen in a thousand years — no roll produces one.</div></div>
+<div class="piece" data-piece="preview"><div id="preview"></div></div>
+<div class="piece" data-piece="history"><div id="history"></div></div>
+<style>
+.tools{margin-top:10px}
 .tools .tbtn{margin:2px 2px 6px 0}
 .tools .tbtn.on{background:#fff;color:#000}
 .tool{display:none;border-top:1px solid #fff;padding-top:6px}
@@ -44,11 +64,11 @@ details{margin-top:6px}
 .small{font-size:13px}
 </style>
 <div class="tools" id="tools">
-<div>
+<div class="piece" data-piece="toolsbar"><div>
 <button class="tbtn" data-tool="builder">🛠 Encounter Builder</button><button class="tbtn" data-tool="advancer">⬆ Monster Advancer</button><button class="tbtn" data-tool="chart">📜 Chart Generator</button><button class="tbtn" data-tool="treasure">💰 Treasure</button><button class="tbtn" data-tool="xpcalc">✦ XP Calculator</button>
-</div>
+</div></div>
 
-<div class="tool" id="tool-builder">
+<div class="piece tool" data-piece="builder" id="tool-builder">
 <div><b>Party</b> <label>PCs <input type="number" id="bNpcs" value="4" min="1" max="12"></label>
 <label>Level <input type="number" id="bLvl" value="5" min="1" max="20"></label>
 <label>Difficulty <select id="bDiff"><option value="-2">Easy (EL −2)</option><option value="0" selected>Standard (EL = level)</option><option value="2">Hard (EL +2)</option><option value="4">Overwhelming (EL +4)</option></select></label></div>
@@ -69,7 +89,7 @@ details{margin-top:6px}
 <div class="out" id="bRun"></div>
 </div>
 
-<div class="tool" id="tool-advancer">
+<div class="piece tool" data-piece="advancer" id="tool-advancer">
 <div><label>Creature <select id="aCrea"></select></label> <span class="small">(full stat blocks only — the advancer recalculates from the printed lines)</span></div>
 <div><label>Target HD <input type="number" id="aHD" min="1" max="60"></label> <span id="aAdvInfo" class="small"></span></div>
 <div><label>Size <select id="aSize"><option value="auto">Auto (per printed Advancement)</option><option value="force">Force +1 size step</option><option value="keep">Keep size</option></select></label>
@@ -84,7 +104,7 @@ details{margin-top:6px}
 <div class="out" id="aOut"></div>
 </div>
 
-<div class="tool" id="tool-chart">
+<div class="piece tool" data-piece="chart" id="tool-chart">
 <div><label>Build from <select id="cSrc"></select></label>
 <label>EL from <input type="number" id="cMin" value="1" min="0" max="30"></label>
 <label>to <input type="number" id="cMax" value="10" min="0" max="30"></label>
@@ -93,7 +113,7 @@ details{margin-top:6px}
 <div class="out" id="cOut"></div>
 </div>
 
-<div class="tool" id="tool-treasure">
+<div class="piece tool" data-piece="treasure" id="tool-treasure">
 <div><label>Mode <select id="tMode"><option value="el">By encounter EL</option><option value="value">By total value (gp)</option><option value="count">By number of items</option></select></label>
 <label>EL <input type="number" id="tEL" value="5" min="0" max="40"></label>
 <label>Target gp <input type="number" id="tGp" value="2000" min="0"></label>
@@ -105,7 +125,7 @@ details{margin-top:6px}
 <div class="out" id="tOut"></div>
 </div>
 
-<div class="tool" id="tool-xpcalc">
+<div class="piece tool" data-piece="xpcalc" id="tool-xpcalc">
 <div><b>Party</b> <label>PCs <input type="number" id="xN" value="4" min="1" max="12"></label>
 <label>Level <input type="number" id="xLvl" value="5" min="1" max="20"></label></div>
 <div id="xRows"></div>
@@ -17935,13 +17955,6 @@ document.getElementById('previewBtn').onclick=()=>{
   });
 };
 sel.addEventListener('change',()=>{document.getElementById('previewBtn').click();});
-// movable panel (drag, persists per device)
-const p=document.getElementById('panel'); let dx,dy,drag=false;
-const saved=localStorage.getItem('apocEncPanel2'); if(saved){try{const j=JSON.parse(saved);const mx=Math.max(0,window.innerWidth-60), my=Math.max(0,window.innerHeight-40);const x=Math.min(Math.max(0,j.x||0),mx), y=Math.min(Math.max(0,j.y||0),my);if(x!==j.x||y!==j.y){localStorage.removeItem('apocEncPanel2');}else{p.style.position='absolute';p.style.left=x+'px';p.style.top=y+'px';}}catch(e){localStorage.removeItem('apocEncPanel2');}}
-p.addEventListener('pointerdown',e=>{if(e.target.tagName==='SELECT'||e.target.tagName==='BUTTON'||e.target.tagName==='SUMMARY'||e.target.tagName==='IMG')return;drag=true;dx=e.clientX-p.offsetLeft;dy=e.clientY-p.offsetTop;});
-document.addEventListener('pointermove',e=>{if(!drag)return;const mx=Math.max(0,window.innerWidth-60), my=Math.max(0,window.innerHeight-40);const x=Math.min(Math.max(0,e.clientX-dx),mx), y=Math.min(Math.max(0,e.clientY-dy),my);p.style.position='absolute';p.style.left=x+'px';p.style.top=y+'px';});
-document.addEventListener('pointerup',()=>{if(drag){localStorage.setItem('apocEncPanel2',JSON.stringify({x:p.offsetLeft,y:p.offsetTop}));}drag=false;});
-document.getElementById('reset').onclick=()=>{localStorage.removeItem('apocEncPanel2');localStorage.removeItem('apocEncPanel');p.style.position='static';};
 </script><script>/* APOC Encounter tools v1.2 — Builder / Advancer / Chart / Treasure / XP.
    All math is D&D 3.5: EL by the doubling rule (DMG pp.48-49), XP by DMG
    Table 2-6 (formula-verified against the printed DM Screen rows, with the
@@ -18337,5 +18350,137 @@ $('xGo').onclick=()=>{const n=Math.max(1,parseInt($('xN').value)||4),lvl=Math.ma
     if(v==null)lines.push('CR '+fmtCr(cr)+' × '+cnt+' — no award (CR 8+ below level '+lvl+')');
     else{const each=Math.floor(v/n);per+=each*cnt;lines.push('CR '+fmtCr(cr)+' × '+cnt+' — '+v+' XP base, '+each+' per PC');}});
   $('xOut').innerHTML=lines.join('<br>')+'<br><b>XP per PC: '+per+'</b> (DMG Table 2-6, per monster, divided by '+n+' PCs)';};
+})();
+</script><script>/* APOC platform treatment v1.3 — the same treatment as the other programs:
+   every piece individually movable / resizable / lockable, editable in place
+   behind a locked-by-default edit lock, all treatment chrome dark blue;
+   every button movable by the user; dropping a button on another button
+   NESTS it inside/under that one (drag back out or double-click to un-nest);
+   campaign artwork is exempt. Layout persists per device. */
+(function(){
+"use strict";
+const LKEY='apocEncLayout3';
+let L={pieces:{},nests:{},btnPos:{},homes:{}};
+try{const s=localStorage.getItem(LKEY);if(s)L=Object.assign(L,JSON.parse(s));}catch(e){}
+function save(){try{localStorage.setItem(LKEY,JSON.stringify(L));}catch(e){}}
+const $=id=>document.getElementById(id);
+const pieces=[...document.querySelectorAll('.piece')];
+const LABELS={roller:'Roller',result:'Result',preview:'Table preview',history:'Roll history',toolsbar:'Tools',builder:'Encounter Builder',advancer:'Monster Advancer',chart:'Chart Generator',treasure:'Treasure',xpcalc:'XP Calculator'};
+pieces.forEach(p=>{const id=p.getAttribute('data-piece');
+  if(!p.querySelector('.grip')){const g=document.createElement('div');g.className='grip';const sp=document.createElement('span');sp.textContent='⋮⋮ '+(LABELS[id]||id);g.appendChild(sp);const lk=document.createElement('button');lk.className='plock';lk.textContent='🔓';lk.title='Lock this piece';g.appendChild(lk);p.prepend(g);}
+  if(!p.querySelector('.rz')){const r=document.createElement('div');r.className='rz';p.appendChild(r);}});
+function pieceOf(el){return el.closest('.piece');}
+function pieceId(el){const p=pieceOf(el);return p?p.getAttribute('data-piece'):null;}
+/* ---------- button identity ---------- */
+function btnKey(b){return b.id||(b.getAttribute('data-tool')?'tool:'+b.getAttribute('data-tool'):'txt:'+b.textContent.trim().slice(0,40));}
+function allButtons(){return [...document.querySelectorAll('#panel button')];}
+function findBtn(key){return allButtons().find(b=>btnKey(b)===key);}
+function recordHome(b){const k=btnKey(b);if(L.homes[k])return;const p=pieceOf(b);if(!p)return;
+  const sibs=[...p.querySelectorAll('button')].filter(x=>pieceOf(x)===p);
+  L.homes[k]={piece:p.getAttribute('data-piece'),idx:sibs.indexOf(b)};}
+/* ---------- nests ---------- */
+function trayFor(host,create){
+  let tray=host.parentNode.querySelector(':scope > .nest[data-host="'+CSS.escape(btnKey(host))+'"]');
+  if(!tray&&create){tray=document.createElement('div');tray.className='nest';tray.setAttribute('data-host',btnKey(host));
+    host.after(tray);
+    const badge=document.createElement('button');badge.className='nestbadge';badge.textContent='▾ nested';badge.type='button';
+    badge.addEventListener('click',ev=>{ev.stopPropagation();tray.classList.toggle('open');});
+    tray.before(badge);tray._badge=badge;}
+  return tray;}
+function refreshTray(host){const tray=host.parentNode?host.parentNode.querySelector(':scope > .nest[data-host="'+CSS.escape(btnKey(host))+'"]'):null;
+  if(tray&&!tray.querySelector('button')){if(tray._badge)tray._badge.remove();const b2=host.parentNode.querySelector(':scope > .nestbadge');if(b2&&!document.querySelector('.nest[data-host="'+CSS.escape(btnKey(host))+'"] > button'))b2.remove();tray.remove();}}
+function nestInto(btn,host){recordHome(btn);const tray=trayFor(host,true);tray.appendChild(btn);
+  btn.classList.remove('btnabs');btn.style.left='';btn.style.top='';
+  delete L.btnPos[btnKey(btn)];L.nests[btnKey(btn)]=btnKey(host);save();}
+function unNest(btn,piece){recordHome(btn);delete L.nests[btnKey(btn)];
+  if(piece)piece.appendChild(btn);refreshTray(btn);save();}
+/* ---------- apply saved layout ---------- */
+function applyLayout(){
+  pieces.forEach(p=>{const id=p.getAttribute('data-piece');const s=L.pieces[id];
+    const lock=p.querySelector('.plock');if(lock)lock.textContent=(s&&s.locked)?'🔒':'🔓';
+    if(s&&(s.x!=null)){p.classList.add('abs');p.style.left=s.x+'px';p.style.top=s.y+'px';
+      if(s.w)p.style.width=s.w+'px';if(s.h)p.style.height=s.h+'px';}});
+  Object.keys(L.nests).forEach(k=>{const b=findBtn(k),h=findBtn(L.nests[k]);if(b&&h&&b!==h){const tray=trayFor(h,true);tray.appendChild(b);}});
+  Object.keys(L.btnPos).forEach(k=>{const b=findBtn(k);if(!b)return;const pp=L.btnPos[k];
+    const piece=pieces.find(p=>p.getAttribute('data-piece')===pp.piece);if(!piece)return;
+    piece.appendChild(b);b.classList.add('btnabs');b.style.left=pp.x+'px';b.style.top=pp.y+'px';});}
+applyLayout();
+/* ---------- edit lock ---------- */
+const toggle=$('editToggle');
+function setEdit(on){document.body.classList.toggle('editing',on);toggle.textContent=on?'🔓 Editing layout':'🔒 Edit layout';
+  document.querySelectorAll('.nest').forEach(n=>{if(on)n.classList.add('open');});}
+toggle.addEventListener('click',()=>setEdit(!document.body.classList.contains('editing')));
+function editing(){return document.body.classList.contains('editing');}
+function pieceLocked(p){const s=L.pieces[p.getAttribute('data-piece')];return !!(s&&s.locked);}
+pieces.forEach(p=>{const lock=p.querySelector('.plock');if(!lock)return;
+  lock.addEventListener('click',ev=>{ev.stopPropagation();const id=p.getAttribute('data-piece');
+    L.pieces[id]=L.pieces[id]||{};L.pieces[id].locked=!L.pieces[id].locked;lock.textContent=L.pieces[id].locked?'🔒':'🔓';save();});});
+/* ---------- piece drag & resize ---------- */
+let drag=null;
+document.addEventListener('pointerdown',e=>{
+  if(!editing())return;
+  const grip=e.target.closest('.grip');
+  if(grip&&!e.target.closest('.plock')){const p=grip.closest('.piece');if(pieceLocked(p))return;
+    const r=p.getBoundingClientRect();drag={kind:'piece',el:p,dx:e.clientX-r.left,dy:e.clientY-r.top,moved:false};return;}
+  const rz=e.target.closest('.rz');
+  if(rz){const p=rz.closest('.piece');if(pieceLocked(p))return;
+    const r=p.getBoundingClientRect();drag={kind:'resize',el:p,sw:r.width,sh:r.height,sx:e.clientX,sy:e.clientY,moved:false};return;}
+  const b=e.target.closest('button');
+  if(b&&treatable(b)){const p=pieceOf(b);if(p&&pieceLocked(p))return;
+    drag={kind:'btn',el:b,sx:e.clientX,sy:e.clientY,moved:false,over:null};}});
+function treatable(b){
+  if(b.closest('#editbar')||b.closest('.grip')||b.classList.contains('nestbadge')||b.classList.contains('plock'))return false;
+  if(b.closest('.encrow')||b.closest('#xRows')||b.closest('#lightbox'))return false;
+  if(b.hasAttribute('data-inc')||b.hasAttribute('data-dec')||b.hasAttribute('data-del')||b.hasAttribute('data-lock')||b.hasAttribute('data-roll')||b.hasAttribute('data-hit')||b.hasAttribute('data-heal'))return false;
+  return true;}
+document.addEventListener('pointermove',e=>{
+  if(!drag)return;
+  if(drag.kind==='piece'){const p=drag.el;const x=Math.min(Math.max(0,e.clientX-drag.dx),Math.max(0,window.innerWidth-60));
+    const y=Math.min(Math.max(0,e.clientY-drag.dy),Math.max(0,window.innerHeight-40));
+    p.classList.add('abs');p.style.left=x+'px';p.style.top=y+'px';drag.moved=true;}
+  else if(drag.kind==='resize'){const p=drag.el;p.style.width=Math.max(180,drag.sw+(e.clientX-drag.sx))+'px';
+    p.style.height=Math.max(60,drag.sh+(e.clientY-drag.sy))+'px';drag.moved=true;}
+  else if(drag.kind==='btn'){if(Math.abs(e.clientX-drag.sx)+Math.abs(e.clientY-drag.sy)>7)drag.moved=true;
+    if(drag.moved){const el=document.elementFromPoint(e.clientX,e.clientY);
+      const t=el?el.closest('button'):null;
+      if(drag.over&&drag.over!==t)drag.over.classList.remove('dragover');
+      drag.over=(t&&t!==drag.el&&treatable(t)&&!t.closest('.nest'))?t:null;
+      if(drag.over)drag.over.classList.add('dragover');}}});
+let suppressClick=false;
+document.addEventListener('pointerup',e=>{
+  if(!drag)return;const d=drag;drag=null;
+  if(d.kind==='piece'&&d.moved){const p=d.el;const id=p.getAttribute('data-piece');
+    L.pieces[id]=Object.assign(L.pieces[id]||{},{x:parseInt(p.style.left)||0,y:parseInt(p.style.top)||0});save();}
+  else if(d.kind==='resize'&&d.moved){const p=d.el;const id=p.getAttribute('data-piece');
+    L.pieces[id]=Object.assign(L.pieces[id]||{},{w:parseInt(p.style.width)||p.offsetWidth,h:parseInt(p.style.height)||p.offsetHeight});save();}
+  else if(d.kind==='btn'&&d.moved){suppressClick=true;setTimeout(()=>{suppressClick=false;},50);
+    const b=d.el;if(d.over) d.over.classList.remove('dragover');
+    if(d.over){nestInto(b,d.over);}
+    else{const el=document.elementFromPoint(e.clientX,e.clientY);const piece=el?el.closest('.piece'):pieceOf(b);
+      if(piece){const wasNested=!!b.closest('.nest');
+        if(wasNested){delete L.nests[btnKey(b)];piece.appendChild(b);refreshTray(b);}
+        recordHome(b);piece.appendChild(b);b.classList.add('btnabs');
+        const r=piece.getBoundingClientRect();
+        const x=Math.max(0,Math.min(e.clientX-r.left-10,r.width-30)),y=Math.max(0,Math.min(e.clientY-r.top-8,r.height-20));
+        b.style.left=x+'px';b.style.top=y+'px';
+        L.btnPos[btnKey(b)]={piece:piece.getAttribute('data-piece'),x:x,y:y};save();}}}});
+document.addEventListener('click',e=>{if(suppressClick){e.stopPropagation();e.preventDefault();suppressClick=false;}},true);
+/* double-click a treated button in edit mode: send it home */
+document.addEventListener('dblclick',e=>{
+  if(!editing())return;const b=e.target.closest('button');if(!b||!treatable(b))return;
+  const k=btnKey(b);const home=L.homes[k];delete L.nests[k];delete L.btnPos[k];
+  b.classList.remove('btnabs');b.style.left='';b.style.top='';
+  if(home){const piece=pieces.find(p=>p.getAttribute('data-piece')===home.piece);
+    if(piece){const sibs=[...piece.querySelectorAll(':scope button')];
+      piece.appendChild(b);} }
+  document.querySelectorAll('.nest').forEach(n=>{if(!n.querySelector('button')){const host=n.getAttribute('data-host');n.remove();}});
+  save();});
+/* ---------- reset ---------- */
+function resetLayout(){L={pieces:{},nests:{},btnPos:{},homes:{}};save();
+  localStorage.removeItem('apocEncPanel');localStorage.removeItem('apocEncPanel2');
+  location.reload();}
+window.__encResetLayout=resetLayout;
+const rb=$('layoutReset');if(rb)rb.addEventListener('click',resetLayout);
+const rb2=$('reset');if(rb2)rb2.addEventListener('click',resetLayout);
 })();
 </script></body></html>
