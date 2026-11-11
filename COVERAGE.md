@@ -348,3 +348,18 @@ Shaun's order, in the flow of the additive work: "In light of the fact that we'r
 - **Scope call, stated plainly:** all 19 tables were scaled, the Bastion's three included, so the roller throws one die throughout — Shaun's words named the landscape rolls; if he wants the city kept at d100 as part of its exception, the three Bastion tables revert in one move.
 - **Twisted flag, updated by canon during this build:** Shaun settled that the twisting happens RANDOMLY — chance, not a fixed rate or schedule (now recorded in the Twisted canon entry). The mechanism is settled; the rate is still stated nowhere on file, and Shaun's Doc #4 template is still not among the generator's sources. The layer therefore still presents the twisting without rolling it. One number from Shaun (or Doc #4) and the layer rolls the chance per eligible creature, as canon now directs.
 - Verification: `verify.py` OVERALL PASS on the new scale (Saint James tail check moved to ≥991); `test3` (roll 1000 still lands Saint James; Badlands layer assertions), `test4` (d1000 chart generate/roll/load), `test5`, `test6` PASS.
+
+---
+
+## The Steampunk overlay — the second additive — v1.11 (2026-11-11) — Shaun, via the AI DM hub
+
+Shaun's addition to the d1000/Badlands design: "Make steampunk also an overlay." Built as a second toggle in the Roller beside the Badlands layer — **independent, combinable in any state** (four combinations, all working; history marks stack: [Badlands layer] [Steampunk]). State persists per device (`apocEncSteampunk`), default OFF, movable like every button.
+
+**What it does, from the campaign's established steampunk canon (Shaun's World-and-City-Canon + standing canon), nothing invented:**
+- It layers over **all 19 tables** — steampunk is the age's own technology and belongs in the city as much as out of it; unlike the Badlands layer it has no city exception (Shaun's wording: "over whatever landscape and roll comes up").
+- On any roll with the overlay ON, the result carries the Steampunk block. **Landscape variant:** war-machines crawl out of the enclaves (canon: the demon enclaves raise steampunk war-machines), constructs work the fields and ruins, steamcraft gear turns up in ready hands, elemental workings are fed through steampunk apparatus (canon: elemental magic limps unless fed through alchemical components or steampunk apparatus). **Bastion variant:** the city runs on steam — cannoneer towers along the wall, the walking constructs on their rounds, steamcraft in the workshops.
+- **Made manifest:** when the roll itself produces a construct-type creature (35 such entries are on the tables, placed by their published environments — Clockwork Horrors, Gear Wyrms, golems, the Warforged among them), the block names it the element itself: a machine of the age, met in the field. That is the entry's own published type, stated — not a weighting change.
+- No table contents and no math change in any state.
+
+**Flagged, not guessed:** (1) **Population weighting** — making machines/constructs more likely while the overlay is on would need a canon rate; none exists, so none was applied. (2) **Steamcraft gear generation** — the overlay does not produce steamcraft items; the generator has no canon gear tables or rates for it (the Warforged/War-Torn/Steamcraft shared equipment pool is Blendcrafter-side canon, not a drop table). Either is buildable the moment Shaun sets the terms.
+- Verification: `test3.mjs` extended (toggle/default/persistence, landscape block + war-machine line, construct manifestation on a known Warforged band, Bastion city variant, both overlays stacked with dual history marks) — full suite PASS.

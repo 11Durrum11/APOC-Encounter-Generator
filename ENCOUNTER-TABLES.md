@@ -28,6 +28,9 @@ There are two kinds of undead, as it were. The **unclaimed** are wild undead, li
 
 - Improvement pass 2026-11-09: full stat blocks merged onto every entry (see STATBLOCKS.md), pictures matched from the roster picture pools, and an ecology audit applied (published Environment governs; swaps and weak fits logged in COVERAGE.md).
 
+## The Steampunk overlay — the second additive (Shaun, 2026-11-11)
+Beside the Badlands layer sits a second toggle: the **Steampunk overlay**. The two are independent and combine in any state — Badlands on or off, Steampunk on or off — because they layer different things: the Badlands layer is the world's condition; the Steampunk overlay is the age's technology. Steampunk belongs everywhere in this age, so the overlay reaches **every** table, the Bastion's included — the city runs on steam (cannoneer towers, the walking constructs, steamcraft in the workshops), and out in the landscapes the enclaves' war-machines crawl, constructs work fields and ruins, and steamcraft gear turns up in ready hands; elemental workings, in the city or out of it, are fed through steampunk apparatus. When a roll itself produces a construct, the overlay names it the element made manifest: a machine of the age, met in the field. Like the layer, it changes no table contents and no math; the roll history marks it [Steampunk], and the two marks stack when both are on.
+
 ## Area-type layering & folded combinations
 - Open country: use the region's table as-is; for the open blighted wastes between regions, use Open Wastes, the Badlands' general table.
 - Road/trail: roll on Road/Trail generic, or the terrain table — road travellers are drawn from humanoid/giant/animal stock, so a separate per-terrain road matrix is FOLDED into the one generic Road/Trail table (reason: roads cross terrains; duplicating 11 road tables would repeat the same traveller pool).

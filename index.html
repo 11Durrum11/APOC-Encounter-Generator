@@ -84,6 +84,7 @@ summary{cursor:pointer;color:var(--accent-foreground)}
 <div class="piece" data-piece="roller"><h1>APOC Encounter Roller (d1000)</h1>
 <div class="credit">Everywhere outside the city is the Badlands — the whole untamed world. Every table but the Bastion's is a place within it.</div>
 <div style="margin-top:6px"><button id="badlandsToggle" class="tbtn" type="button">Badlands layer: OFF</button> <span id="badlandsNote" class="credit"></span></div>
+<div style="margin-top:4px"><button id="steamToggle" class="tbtn" type="button">Steampunk overlay: OFF</button> <span id="steamNote" class="credit"></span></div>
 <label>Table <select id="tbl"></select></label> <button id="roll">Roll d1000</button> <button id="previewBtn">Preview table</button> <button id="reset">Reset layout</button></div>
 <style>
 .tools{margin-top:10px}
@@ -17962,6 +17963,15 @@ function syncBadlands(){const b=document.getElementById('badlandsToggle');if(!b)
 document.getElementById('badlandsToggle').addEventListener('click',()=>{badlands=!badlands;try{localStorage.setItem('apocEncBadlands',badlands?'1':'0');}catch(e){}syncBadlands();});
 sel.addEventListener('change',syncBadlands);
 syncBadlands();
+/* The Steampunk overlay — a second ON/OFF additive (Shaun, 2026-11-11), independent
+   of the Badlands layer and combinable with it in any state. Steampunk is the age's
+   own technology, so it layers over every table, the Bastion's included. */
+let steam=false; try{steam=localStorage.getItem('apocEncSteampunk')==='1';}catch(e){}
+function syncSteam(){const b=document.getElementById('steamToggle');if(!b)return;
+  b.textContent='Steampunk overlay: '+(steam?'ON':'OFF');b.classList.toggle('on',steam);
+  document.getElementById('steamNote').textContent=steam?'Steam and gearwork layered over this roll — the age runs on steam.':'';}
+document.getElementById('steamToggle').addEventListener('click',()=>{steam=!steam;try{localStorage.setItem('apocEncSteampunk',steam?'1':'0');}catch(e){}syncSteam();});
+syncSteam();
 const lb=document.getElementById('lightbox'),lbImg=document.getElementById('lbImg'),lbCap=document.getElementById('lbCap');
 function openPic(src,name,credit){lbImg.src=src;lbImg.alt=name||'';lbCap.textContent=(name||'')+(credit?' — '+credit:'');lb.classList.add('open');}
 function closePic(){lb.classList.remove('open');lbImg.src='';}
@@ -17979,6 +17989,12 @@ function showResult(t,r,e){
       ?'Demon-crossed country, even down here: no Fog of Life underground, but the blight soaked deep, the permanent war runs through the dark, and the unclaimed walk here.'
       :'One grey sky over demon-crossed country: Fog of Life lies on the surface, hatestorms rage in this country, the permanent war runs through it, and the unclaimed walk here.')
       +' The land\u2019s own life in defiled country may be twisted \u2014 warped in body, wrong in habit; no demon, and no servant of demons. (Shaun\u2019s Twisted template applies where the DM calls it.)</div>';}
+  if(steam){const city=BASTION_TABLES.includes(t.name);
+    const isMachine=/Construct/i.test(e.type||'');
+    h+='<div class="apoc"><b>Steampunk overlay — ON.</b> '+(city
+      ?'The city runs on steam: cannoneer towers along the wall, the walking constructs on their rounds, steamcraft in the workshops — and elemental workings fed through steampunk apparatus.'
+      :'Steam and gearwork run through this country too: war-machines crawl out of the enclaves, constructs work the fields and ruins, steamcraft gear turns up in ready hands — and elemental workings are fed through steampunk apparatus.')
+      +(isMachine?' This roll is the element itself: a machine of the age, met in the field.':'')+'</div>';}
   if(e.picture && e.picture.status==='on file'){
     h+='<img class="pic" src="'+esc(e.picture.file)+'" alt="'+esc(e.name)+'" title="Hover to enlarge — click for full size">';
     if(e.picture.credit) h+='<div class="credit">Picture: '+esc(e.picture.credit)+' (hover to enlarge, click to expand)</div>';
@@ -17999,7 +18015,7 @@ document.getElementById('roll').onclick=()=>{
   const t=DATA.tables[sel.value]; const r=1+Math.floor(Math.random()*1000);
   const e=t.entries.find(x=>r>=x.low&&r<=x.high);
   showResult(t,r,e);
-  hist.unshift(t.name+': '+r+' — '+e.name+' (CR '+e.cr+')'+(badlandsOn(t.name)?' [Badlands layer]':''));
+  hist.unshift(t.name+': '+r+' — '+e.name+' (CR '+e.cr+')'+(badlandsOn(t.name)?' [Badlands layer]':'')+(steam?' [Steampunk]':''));
   document.getElementById('history').innerHTML='<b>Roll history</b><br>'+hist.slice(0,20).map(esc).join('<br>');
 };
 document.getElementById('previewBtn').onclick=()=>{
