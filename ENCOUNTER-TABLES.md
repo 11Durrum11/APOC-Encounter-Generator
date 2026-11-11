@@ -38,7 +38,143 @@ Three independent overlays, any combination. **Badlands:** with the layer on, th
 
 **The templates are on file now (2026-11-11).** Both of Shaun's house templates live in the Blendcrafter library's homebrew records, and the overlays apply them for real. The **Twisted template** (Misc Other House Rules, Doc #4 — the record is "Twisted (House)") rides the Twisted overlay: +4 Strength, +4 Constitution, −2 Charisma, Intelligence at least 3, natural armor +2, alignment to evil, Smite Good and a vile Disruptive Attack, two claws, darkvision, damage reduction 5/cold iron, immunities and resistances — and no CR adjustment, for the document gives none; animals and vermin become magical beasts under it. The **Steampunk-Augmented Undead** template rides the Steampunk overlay onto corporeal undead: boiler-driven thralls in bolted plate, CR +1, a Piston Slam, a boiler that bursts when they fall. In both cases the application is the overlay's layer; the published record underneath stands verbatim.
 
+**The twisting happens randomly (Shaun's ruling, 2026-11-11):** under the Twisted overlay an eligible creature is not twisted on every roll — each result rolls its own chance, because in the world the twisting is a matter of chance, not a fixed rate or schedule. (The generator's working chance is 1 in 5 — a build parameter, stated here so it is never mistaken for a canon rate.)
+
 **Feature toggles (Shaun, 2026-11-11: "Make them toggles too"):** the bleed, the machine weighting, and the gear drops each carry their own on/off switch beside the overlay toggles, defaulting ON — they are Shaun's rulings, switched on unless he turns one off — and each gates only its own feature; a feature still needs its overlay on to do anything.
+
+## Possible scenarios — who, what, when, where, why, and how (Shaun, 2026-11-11)
+Every roll in the roller now also presents a **scenario**: six lines — Who, What, When, Where, Why, How — drawn from the frames below by the table's context and the creature's kind. They are DM-facing POSSIBILITIES, not script: the roll names the creature, the scenario offers a shape for the meeting. Who is the rolled creature or person by name and number appearing (a named person's own Faction, Role, and Motivation ride the line, from their record); the version in play leads when an overlay fired — Twisted, Steamwork, Steampunk-Augmented, or bled in from the Open Wastes — with the published base named. Canon holds throughout: the Fog of Life lies on surface country only — never in the Bastion and never underground; hatestorms are Badlands weather; under the grey sky there is no dawn, dusk, sun, or star anywhere, and underground there is no day at all; no dragon ever appears (a thousand years unseen — legend only); nothing is summoned and nothing arrives by plane. **The Bastion frames default to packed conditions** — the city is very crowded, life boiling over, and that is why the Watch holds it the way it does: shoulder-to-shoulder streets, queues, markets at the crush; an empty street inside the walls is called out as the omen it is.
+
+### Scenarios — The Bastion (city tables)
+
+- **When:** At the bell that changes the Watch — patrols handing over in the press of the street.
+- **When:** In the thick of the market hours, when the crowd is at its crush.
+- **When:** At a shift change in the consortium halls, when the queues are longest.
+- **When:** Deep in the grey hours, when the tenements are stacked and sleeping floor on floor — the city quieter, never empty.
+- **Where:** On a shoulder-to-shoulder thoroughfare where the press of bodies sets the pace.
+- **Where:** In a market at the crush, stalls on every side and no room to step back.
+- **Where:** In a queue — at a gate, a fountain, or a consortium office — with the line stretching behind.
+- **Where:** On a packed tenement stair, families living stacked floor on floor.
+- **Where:** At a gate or wall post, the queue for the walls moving through in a slow river.
+- **What:** The encounter unfolds in the middle of the crowd — whatever it is, it happens in front of a hundred witnesses.
+- **What:** A press, a blockage, a hold-up in the flow of the street — and the party is in it when it happens.
+- **What:** Business as usual in the Bastion, until it suddenly is not: a shout, a surge, a space opening in the crowd.
+- **What:** Strange, and worth noticing: a stretch of street gone empty in a city that is never empty. In the Bastion, an emptied street is itself an omen — something cleared it.
+- **Why:** The city is packed and life boils over — most encounters here are friction: too many people, too little room, somebody's business crossing somebody else's.
+- **Why:** The Watch keeps the inward peace in a city with no slack in it; anything that draws their eye draws it in public.
+- **Why:** Twenty-four consortiums transact over, under, and around one another all day — a crossing of interests is always a possible spark.
+- **Why:** Reclamation Item Retrieval is hiring, equipping, or arguing about a recovery — the city's one business touches half the streets in it.
+- **How:** It comes out of the crowd itself — no approach across open ground; it is simply there, at arm's length, when the party notices.
+- **How:** Word runs ahead of it through the press — bystanders, porters, and queue-standers carry the news faster than anyone can walk.
+- **How:** The Watch is already moving — whistles, a patrol shouldering through; the party meets it as the street makes room.
+- **How:** It has been building in plain sight — in the queue, the stall line, the stairwell — and picks this moment to surface.
+
+### Scenarios — Road / Trail
+
+- **When:** In the grey hours on the road — no dawn or dusk to mark it under the Fog of Life, only the party's own watches.
+- **When:** At a halt the party did not choose — a broken trace, a blocked way, weather closing in.
+- **When:** While hatestorm country threatens off the road's edge — the Badlands pressing close.
+- **Where:** At a ruined mile-marker where the old road's stones still stand.
+- **Where:** At a ford, a bridge ruin, or a narrows where everything on the road must pass.
+- **Where:** Where the road bends through blighted country and sight is short.
+- **What:** Travellers, wreckage, or trouble met on the way — the road collects whatever the Badlands pushes onto it.
+- **What:** Something using the road the same way the party is: the road is the one kept line through a war.
+- **Why:** Beyond the walls the war never ended — the road is crossed by everyone the war moves: caravans, patrols, deserters, and worse.
+- **Why:** Reclamation parties, traders, and the desperate all use the road — and not all of them mean the city well.
+- **How:** Seen first at the edge of sight in the grey — shapes resolving as the distance closes.
+- **How:** The party walks into its leavings first: sign, wreckage, or leavings on the road, then the thing itself.
+
+### Scenarios — Wilderness surface (the Badlands' landscapes)
+
+- **When:** In the grey timeless hours under the Fog of Life — no sun, no stars, nothing to tell the time by but the party's own reckoning.
+- **When:** As a hatestorm builds or breaks over the country — the Badlands' own weather.
+- **When:** In the lull of the permanent war — the quiet that means the fighting is elsewhere, for now.
+- **Where:** In open blighted country, on ground the demons crossed and defiled as they travelled through.
+- **Where:** At the one feature the country offers — a ruin's edge, a dead wood, a poisoned watercourse, a war-scarred rise.
+- **What:** The land's own life, met in a country that was poisoned around it — or something the war has pushed this way.
+- **What:** A meeting neither side chose: two parties crossing the same bad country for their own reasons.
+- **Why:** The war outside the walls is permanent and multi-way — enclaves, the undead nation, the Remnants, and the land itself all move through this country.
+- **Why:** Where the demons passed, the defilement lingers — the creatures of the place live with what was done to it.
+- **How:** It comes on the party out of the Fog — grey on grey, closer than anyone is comfortable with before it is seen.
+- **How:** Sign first: tracks, kills, twisted growth, the war's leavings — then the encounter itself.
+
+### Scenarios — Underground
+
+- **When:** No day reaches here at all — time is kept by the watch-bells carried down from above, or not kept at all.
+- **When:** In the deep dark between one party of delvers and the next — the underground keeps its own hours.
+- **Where:** In a worked passage of the deep places — old digging, older dark.
+- **Where:** Where the blight soaked deepest: even down here, the demon-crossing left its mark.
+- **What:** Something that lives where the Fog never reaches — the underground has its own ecology and its own war.
+- **What:** A meeting in the dark neither side lit a way toward.
+- **Why:** The permanent war runs through the dark as well as over it — the deep places are crossed, held, and fought over like the surface.
+- **Why:** Old workings, sealed places, and buried wealth draw delvers down — and what guards them is already here.
+- **How:** Light gives it away first — or the lack of it: a darkness moving against the party's light.
+- **How:** Sound carries in the deep: the party hears it, or is heard, long before anything is seen.
+
+### Scenarios — Ruins
+
+- **When:** In the grey hours, with the Fog lying on the ruin like a held breath.
+- **When:** While a hatestorm worries the ruin's edges — the Badlands reminding everyone whose country this is.
+- **Where:** Inside the ruin's worked stone — a hall, a vault, a stair that still holds.
+- **Where:** At the ruin's threshold, where what lives in it meets what comes from outside.
+- **What:** What the ruin kept: its guardians, its squatters, or its dead — ruins in the Badlands are never simply empty.
+- **What:** Another party's leavings, or another party — Reclamation work and ruin-delving cross here constantly.
+- **Why:** Treasures of all types lie buried in the Badlands — ruins are where the city's one business sends its people, and everyone else with a claim.
+- **Why:** The war uses ruins: strongpoints, caches, and graves. Whoever held this place last left something behind.
+- **How:** The ruin shapes the meeting: doorways, drops, and dead ends decide how it starts.
+- **How:** It announces itself by what it disturbed — dust, rubble, a door that was shut and is not.
+
+### Scenarios — Shoreline / Open Water
+
+- **When:** In the grey hours on grey water — no sun or stars over it, the Fog lying flat on the surface.
+- **When:** As the weather turns on the water — hatestorm country reaches the shore.
+- **Where:** At the shoreline, where the water's country meets the land's.
+- **Where:** Out on the open water, with the shore a grey line behind.
+- **What:** What the water holds, met where the party must cross or work its edge.
+- **What:** A meeting on the water is a meeting with no cover and no retreat — both sides know it.
+- **Why:** The waters of the Badlands are crossed and fished and fought over like everything else outside the walls.
+- **Why:** Reclamation routes cross water — where the cargo is valuable, the water is watched.
+- **How:** It breaks the surface, or the surface breaks over it — the water shows it a moment before it arrives.
+- **How:** Seen from the shore or the boat first: a shape, a wake, a wrongness in the grey.
+
+### Scenarios — by the creature's kind
+
+**Persons / NPCs**
+
+- **What:** A person with their own business in hand — this is a meeting of agendas, not a monster stepping out of the dark.
+- **Why:** Their own record gives their stake (see the Who line) — the encounter turns on what they want and what the party does about it.
+- **How:** They choose the moment, or it chooses them — either way, this one can talk, bargain, threaten, or walk away.
+
+**Constructs / machines**
+
+- **What:** A machine of the age, met at its work — or off it. Constructs in this world guard, haul, build, and hold.
+- **Why:** It is where it is because somebody built it, set it, or lost it — its orders or its ruin are the story here.
+- **How:** It does not announce itself like a living thing: it is simply working, watching, or waiting when the party comes on it.
+
+**Undead**
+
+- **What:** The dead, met on their own ground — already here, never summoned; nothing calls the dead in this world.
+- **What:** World lore applies: the claimed answer to the undead nation and its laws; the unclaimed are wild dead under no nation's rule.
+- **Why:** The undead nation's business, or a wild dead thing's hunger — which kind this is decides how it can be dealt with.
+- **How:** The dead do not hurry. It has likely known the party was coming longer than the party has known about it.
+
+**Demons**
+
+- **What:** A demon of the mortal enclaves — already here in the world, trapped in the sphere like everything else; no summoning brought it and none was needed.
+- **Why:** The enclaves wage the permanent war for their own ends — this one's errand serves that war, or its own appetite.
+- **How:** Demons in the Badlands move like an occupying power: openly where they hold ground, carefully where they do not.
+
+**Beasts / animals / swarms**
+
+- **What:** The land's own life, going about its living — dangerous the way a cornered, hungry, or blighted animal is dangerous.
+- **Why:** Territory, hunger, young, or the blight's wrongness in it — the reason is the animal's own.
+- **How:** It comes on the party the way animals do: by scent, sound, and ground — the meeting is set before either side sees the other.
+
+**All other kinds**
+
+- **What:** A meeting in the course of the journey — the situation around it matters as much as the creature itself.
+- **Why:** Everything in the Badlands is there for a reason the war, the blight, or the land itself supplied.
+- **How:** It develops out of the place and the moment — the DM's call which of the possible shapes it takes.
 
 ## Area-type layering & folded combinations
 - Open country: use the region's table as-is; for the open blighted wastes between regions, use Open Wastes, the Badlands' general table.
@@ -363,32 +499,36 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 
 ## Bastion (d1000)
 
-*Dragons haven't been seen in a thousand years — a legend under the Council of Wyrms. Flavor only: no roll ever produces a dragon. No Fog of Life here.*
+*Inside the Melairshield, in a city packed full of people — life boiling over, shoulder to shoulder in every street. Crowds, queues, patrols, and consortium crews are the standing encounters here; a lone figure is the exception. The Watch looks inward, the Guard holds the gates and walls. No undead, demons, dragons, or flyers roll inside the walls. No Fog of Life here.*
 
 | d1000 | Encounter | CR | Number appearing | Source |
 |---|---|---|---|---|
-| 01–70 | Hawk | 0.333333 | Solitary (see source book) | Monster Manual I |
-| 71–140 | Bogun | 1 | Solitary (see source book) | Monster Manual II |
-| 141–210 | Skorne | 1 | Solitary (see source book) | Monsternomicon Vol. 1 |
-| 211–280 | Lumi | 2 | Solitary (see source book) | Monster Manual III |
-| 281–340 | Clockwork Stallion | 3 | Solitary (see source book) | Monster Manual IV |
-| 341–400 | Tin Golem | 3 | Solitary, pair, or gang (3–4) | Dragon Magazine #341 |
-| 401–460 | Force Golem | 4 | Solitary (see source book) | Monster Manual V |
-| 461–520 | Chain Golem | 5 | Solitary (see source book) | Monster Manual II |
-| 521–580 | Incarnate Construct (sample) | 5 | Solitary (alone or with its spellcaster liberator) | Savage Species |
-| 581–630 | Caryatid Column | 6 | Solitary, corbel (2), or colonnade (4–24) | Fiend Folio |
-| 631–680 | Scyther of Thoon | 6 | Solitary (see source book) | Monster Manual V |
-| 681–730 | Shrapnyl | 7 | Solitary (see source book) | Monster Manual II |
-| 731–770 | Iron Maiden | 8 | Solitary | Monsternomicon Vol. 1 |
-| 771–810 | Clockwork Horror, Adamantine | 9 | Solitary (see source book) | Monster Manual II |
-| 811–850 | Bronze Serpent | 10 | Solitary (see source book) | Monster Manual II |
-| 851–880 | Alchemical Golem | 11 | Solitary (see source book) | Monster Manual III |
-| 881–910 | Wicker Man | 11 | Solitary (see source book) | Fiend Folio |
-| 911–940 | Slaughterstone Eviscerator | 12 | Solitary (see source book) | Monster Manual III |
-| 941–960 | Inevitable, Marut | 15 | Solitary | Monster Manual I |
-| 961–970 | Zodar | 16 | Solitary | Fiend Folio |
-| 971–980 | Blackstone Gigant | 18 | Solitary | Fiend Folio |
-| 981–1000 | Hellfire Engine | 19 | Solitary (see source book) | Fiendish Codex II |
+| 01–160 | Citizens of the Bastion — Street Crowd | 1 | Crowd (20–200) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 161–260 | Gate Queue — Citizens at the Wall | 1 | Queue (30–300) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 261–370 | Watch Patrol | 3 | Patrol (3–12) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 371–440 | Consortium Porters and Carters | 1 | Crew (6–40) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 441–500 | Warforged | 0.5 | Solitary (see source book) | Monster Manual III |
+| 501–560 | Bram Holt | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 561–610 | Tilda Ironfoot | 2 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 611–650 | Rivet | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 651–690 | Clockroach | 1 | Solitary (see source book) | Monster Manual IV |
+| 691–725 | Vessa Kade | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 726–755 | Tin Golem | 3 | Solitary, pair, or gang (3–4) | Dragon Magazine / Constructs roster (web-sourced entry) |
+| 756–785 | Mule | 1 | Solitary (see source book) | Monster Manual I |
+| 786–810 | Unit Rook-9 | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 811–835 | Unit Bastion-4 | 7 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 836–855 | Ser Corvin Hale | 4 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 856–875 | Derek Windsfire | 11 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 876–890 | Ser Caspian Thorvald | 13 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 891–905 | Tells | 16 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 906–920 | Captain Rulathon | 15 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 921–932 | Xale | 13 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 933–944 | Helve Urtrace | 14 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 945–956 | Marshal Ezekiel Thorn | 16 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 957–968 | Inara Steelhand | 14 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 969–980 | Ser Ilya Vane | 17 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 981–990 | Anvil-7 | 18 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 991–1000 | Tomas Reyne, the Last Marshal | 20 | Solitary | NPCs — ALL-150 (Shaun's cast) |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
 
@@ -423,57 +563,76 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 
 ## Bastion Streets (d1000)
 
-*Inside the Melairshield: Watch patrols (inward), Guard (outward at gates/walls), citizens, consortium people, Warforged, War-Torn, constructs, vermin, NPCs. Demons, undead, dragons and flyers are barred by the ward.*
+*The Bastion's streets at the crush: packed thoroughfares, market crowds, queues at fountains and offices, Watch patrols moving through the press. Inside the Melairshield — demons, undead, dragons, and flyers are barred, and an empty street in this city is never normal: it means something has gone wrong.*
 
 | d1000 | Encounter | CR | Number appearing | Source |
 |---|---|---|---|---|
-| 01–90 | Hawk | 0.333333 | Solitary (see source book) | Monster Manual I |
-| 91–170 | Clockroach | 1 | Solitary (see source book) | Monster Manual IV |
-| 171–240 | Animated Object | 2 | Solitary (see source book) | Monster Manual I |
-| 241–310 | Automaton Hammerer | 3 | Solitary (see source book) | Monster Manual II |
-| 311–380 | Maug | 3 | Solitary, squad (4–7), warband (2–4 maugs plus 4–9 hobgoblins), or company (10–40 maugs plus 1 sergeant of 1st or 2nd level per 5 maugs, 2–4 lieutenants of 3rd–6th level, 1 leader of 7th–10th level, and 20–50 hobgoblins) | Fiend Folio |
-| 381–440 | Clockwork Horror | 4 | Pair or component (3–8) | Monster Manual II |
-| 441–500 | Mimic | 4 | Solitary (see source book) | Monster Manual I |
-| 501–560 | Nightmare | 5 | Solitary (see source book) | Monster Manual I |
-| 561–620 | Caryatid Column | 6 | Solitary, corbel (2), or colonnade (4–24) | Fiend Folio |
-| 621–680 | Mechagargoyle | 6 | Solitary or band (2–5) | Monsternomicon Vol. 1 |
-| 681–730 | Shrapnyl | 7 | Solitary (see source book) | Monster Manual II |
-| 731–780 | Mind Flayer | 8 | Solitary (see source book) | Monster Manual I |
-| 781–820 | Inevitable, Zelekhut | 9 | Solitary | Monster Manual I |
-| 821–860 | Golem, Brass | 10 | Solitary (see source book) | Monster Manual II |
-| 861–900 | Golem, Stone | 11 | Solitary (see source book) | Monster Manual I |
-| 901–930 | Cadaver Collector | 12 | Solitary, pair, or squad (3–5) | Monster Manual III |
-| 931–950 | Greater Shadesteel Golem | 14 | Solitary (see source book) | Monster Manual III |
-| 951–970 | Woldwrath | 16 | Solitary (see source book) | Monsternomicon Vol. 2 |
-| 971–980 | Merchurion | 17 | Solitary (see source book) | Fiend Folio |
-| 981–1000 | Scouring Slinger | 18 | Solitary (see source book) | Monster Manual V |
+| 01–135 | Citizens of the Bastion — Street Crowd | 1 | Crowd (20–200) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 136–260 | Market Crowd — At the Crush | 1 | Crowd (40–400) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 261–364 | Watch Patrol | 3 | Patrol (3–12) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 365–458 | Queue — Fountain, Office, or Bread Line | 1 | Queue (20–150) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 459–510 | Bram Holt | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 511–562 | Kenku | 0.5 | Solitary (see source book) | Monster Manual III |
+| 563–609 | Pippa Underbough | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 610–656 | Warforged | 0.5 | Solitary (see source book) | Monster Manual III |
+| 657–698 | Wrenna Caladrel | 3 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 699–740 | Clockroach | 1 | Solitary (see source book) | Monster Manual IV |
+| 741–771 | Tilda Cogspring | 6 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 772–802 | Fenwick Aldous | 7 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 803–828 | Jasker | 7 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 829–854 | Kailee Restinan | 6 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 855–880 | Mule | 1 | Solitary (see source book) | Monster Manual I |
+| 881–901 | Mira Voss | 6 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 902–922 | Aldric Vane | 8 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 923–938 | Rodelik Karneth | 8 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 939–954 | PIP-9 | 9 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 955–970 | Nyx Shadowveil | 11 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 971–985 | Sibil Thistledown | 16 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 986–1000 | Derek Windsfire | 11 | Solitary | NPCs — ALL-150 (Shaun's cast) |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
 
 ## Bastion Districts / Interior (d1000)
 
-*Interiors, consortium halls, tenements, markets. Ward-barred creatures do not appear; a barred creature is never rolled here.*
+*Interiors of a bursting city: tenements stacked floor on floor, consortium halls in full session, markets and offices queued out the door. Ward-barred creatures do not appear; a barred creature is never rolled here.*
 
 | d1000 | Encounter | CR | Number appearing | Source |
 |---|---|---|---|---|
-| 01–90 | Hawk | 0.333333 | Solitary (see source book) | Monster Manual I |
-| 91–170 | Farrow | 1 | Solitary (see source book) | Monsternomicon Vol. 1 |
-| 171–250 | Dread Guard | 2 | Solitary (see source book) | Monster Manual II |
-| 251–330 | Clockwork Mender Swarm | 3 | Solitary (see source book) | Monster Manual IV |
-| 331–410 | Tin Golem | 3 | Solitary, pair, or gang (3–4) | Dragon Magazine #341 |
-| 411–480 | Gargoyle | 4 | Solitary (see source book) | Monster Manual I |
-| 481–550 | Guttersnipe | 5 | Solitary (see source book) | Monster Manual II |
-| 551–620 | Stormcloud of Thoon | 5 | Solitary (see source book) | Monster Manual V |
-| 621–680 | Mechagargoyle | 6 | Solitary or band (2–5) | Monsternomicon Vol. 1 |
-| 681–740 | Shrapnyl | 7 | Solitary (see source book) | Monster Manual II |
-| 741–790 | Rip Cutter | 8 | Solitary (see source book) | Monsternomicon Vol. 1 |
-| 791–840 | Rogue Eidolon | 9 | Solitary (see source book) | Monster Manual II |
-| 841–880 | Runic Guardian | 10 | Solitary (see source book) | Monster Manual II |
-| 881–920 | Shadesteel Golem | 11 | Solitary (see source book) | Monster Manual III |
-| 921–950 | Golem, Iron | 13 | Solitary (see source book) | Monster Manual I |
-| 951–970 | Thoon Elder Brain | 15 | Solitary (see source book) | Monster Manual V |
-| 971–980 | Inevitable, Quarut | 17 | Solitary | Fiend Folio |
-| 981–1000 | Prismatic Golem | 18 | Solitary (see source book) | Monster Manual III |
+| 01–118 | Tenement Crowd — Stacked Stairwell | 2 | Crowd (20–120) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 119–208 | Market Crowd — At the Crush | 1 | Crowd (40–400) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 209–288 | Consortium Hall — Full Session | 2 | Assembly (30–200) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 289–358 | Queue — Fountain, Office, or Bread Line | 1 | Queue (20–150) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 359–418 | Watch Patrol | 3 | Patrol (3–12) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 419–458 | Sella Turgran | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 459–493 | Tin Golem | 3 | Solitary, pair, or gang (3–4) | Dragon Magazine / Constructs roster (web-sourced entry) |
+| 494–528 | Thaloril Fenwick | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 529–563 | Brin Odo (Brindlewick Odometer) | 2 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 564–593 | Kazrik Emberhand | 3 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 594–623 | Animated Object | 2 | Solitary (see source book) | Monster Manual I |
+| 624–653 | Farrow | 1 | Solitary (see source book) | Monsternomicon Vol. 1 |
+| 654–678 | Ingrid Hollowdelve | 4 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 679–703 | Bram Tallowick | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 704–728 | Kenku | 0.5 | Solitary (see source book) | Monster Manual III |
+| 729–748 | Pell Underbough | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 749–768 | Sylvaris Lonn | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 769–788 | Caryatid Column | 6 | Solitary, corbel (2), or colonnade (4–24) | Fiend Folio |
+| 789–806 | Seraphine Cole | 8 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 807–824 | Professor Ostwick Hale | 8 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 825–842 | Durgan Ironvein | 8 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 843–857 | Vespera Thorn | 9 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 858–872 | Grath Ironjaw | 9 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 873–887 | Brother Cadmus Vale | 10 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 888–902 | Mira Cogwheel | 10 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 903–914 | Durgan Stonevein | 10 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 915–926 | Mirella Voss | 13 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 927–938 | Fenwick Loam | 12 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 939–950 | Runic Guardian | 10 | Solitary (see source book) | Monster Manual II |
+| 951–960 | Zareth the Pale | 17 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 961–970 | Dagna Stoneveil | 18 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 971–978 | Selune-Marra Vael | 19 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 979–986 | Forge Father | 20 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 987–994 | Elowen Thistledown | 20 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 995–1000 | Naronen Monroe | 20 | Solitary | NPCs — ALL-150 (Shaun's cast) |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
 

@@ -1,6 +1,6 @@
 # APOC Survival — Encounter Stat Blocks
 
-Full stat blocks for every creature placed on the encounter tables (339 distinct: 125 full, 214 partial, 0 missing), in alphabetical order. Full blocks are the published roster text verbatim (APOC notes live in encounters.json / the roller, never blended into the published lines). Partial blocks are the fullest on file — type line, CR, and published description — labeled as partial; nothing was invented. Pictures are the creature's own roster picture where one is on file.
+Full stat blocks for every creature placed on the encounter tables (358 distinct: 167 full, 191 partial, 0 missing), in alphabetical order. Full blocks are the published roster text verbatim (APOC notes live in encounters.json / the roller, never blended into the published lines). Partial blocks are the fullest on file — type line, CR, and published description — labeled as partial; nothing was invented. Pictures are the creature's own roster picture where one is on file.
 
 ## Abeil Queen — CR 12 — Monster Manual II
 
@@ -79,19 +79,36 @@ Source book(s): Monster Manual II
 Description: Air weirds are elemental spirits that offer direction and guidance to those traveling into unknown areas. They can point out paths not considered, reveal unknown doors into new worlds, and describe what may be needed to survive such journeys. An air weird’s pool is often found outside, in an open-air place such as a windy plain or on a mountaintop. An air weird appears as a ghostly, translucent woman composed of flowing vapors. Its eyes are deep blue, and its hair appears windblown. The lower half of the creature’s body is a tendril of mist that trails back into its pool.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Alchemical Golem — CR 11 — Monster Manual III
+## Aldric Vane — CR 8 — NPCs — ALL-150 (Shaun's cast)
 
-![Alchemical Golem](pictures/alchemical-golem.png)
+![Aldric Vane](pictures/aldric-vane.jpg)
 
-*Picture: APOC-VTT monster library art — Monster Manual III*
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
 
-**Partial — fullest block on file:**
+36. Aldric Vane — Human Rogue 5 / Assassin 3, LE — *Prestige*
 
-Type: Large Construct
-Challenge Rating: 11
-Source book(s): Monster Manual III
-Description: A large, humanoid-shaped creature with swollen, unformed features lumbers toward you. Fluid bulges beneath its skin. The body of an alchemical golem is composed of a single tough, transparent membrane in the shape of a humanoid, with the face usually mimicking the appearance of its creator.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+![Aldric Vane](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/aldric-vane.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/aldric-vane.jpg)
+
+**Prereqs:** As Mira Voss, met by L5.
+**Abilities:** Str 12 (+1), Dex 17 (+3, 15+1 L4 +1 L8), Con 13 (+1), Int 14 (+2), Wis 10, Cha 8 (-1)
+**HD/hp:** 8d6+8, **hp 35** (6+3x7 +8) | **Init** +7 | **Speed** 30 ft
+**AC** 19 (+3 Dex, +5 +2 chain shirt, +1 ring), touch 14, flat 16
+**BAB/Grapple** +5/+6 | **Attack** +2 short sword +9 (1d6+3/19-20) | **SA:** Sneak +3d6 rogue +2d6 assassin = +5d6, death attack DC 15 (10+3+2 Int), poison use, +2 vs poison, uncanny dodge
+**Space/Reach** 5 ft/5 ft
+**Saves** Fort +3, Ref +10, Will +3
+**Skills:** Hide +15, Move Silently +13, Disguise +10, Bluff +10, Disable Device +12, Open Lock +13, Tumble +13, Gather Information +10
+**Feats:** Weapon Finesse, Improved Initiative, Two-Weapon Fighting, Combat Reflexes (human+L1,3,6 = 4, legal)
+**Assassin spells (per day 2/1):** 1st *true strike, disguise self* (known), 2nd *invisibility* known, per-day as assassin 3. **No summoning.**
+**Gear (~9,100 gp):** +1 chain shirt, +1 short sword, ring of protection +1, boots of elvenkind, deathblade poison ×1 dose (illegal in the Bastion), potions of *invisibility* ×2, 60 gp.
+**Steampunk aesthetic:** Charcoal envoy's coat with blackened-brass buttons and Kingdom funerary trim, a bone-faced pocket chronometer, poisons kept in a clockwork snuffbox, and gloves of grey-green leather tooled with a single small gear at each cuff.
+**Appearance:** Elegant, greying, dresses like a Kingdom trade envoy — because he is, on paper.
+**Traits/Voice:** Urbane, amused, negotiates everything including mercy.
+**Motivation:** A Kingdom pension and a name cleared of his living-era crimes. **Secret:** His death-attack target list includes Mother Sabeline — his own employer — if a better payer calls.
+**Background:** Kingdom of the Undead contract killer working the Bastion embassy circuit.
+**DM Hook:** High-tier recurring villain, parley-or-perish encounters, assassin-vs-assassin mirror for Mira.
+
+---
 
 ## Ammit — CR 15 — Encyclopedia of Demons & Devils Vol. 1
 
@@ -682,42 +699,6 @@ Source book(s): Monster Manual IV
 Description: Looking like a cross between a black dragon and a spider of nightmarish proportions, this creature glares out at the world with six baleful eyes. It drools a putrid green acid that steams and hisses. Two spined tails eject globules of sticky webbing.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Blackstone Gigant — CR 18 — Fiend Folio
-
-![Blackstone Gigant](pictures/blackstone-gigant.png)
-
-*Picture: Constructs roster picture index: Official book art — Fiend Folio, p. 22 (captioned)*
-
-BLACKSTONE GIGANT [3.0-format as published]
-
-**Gargantuan Construct**
-**Hit Dice:** 32d10+60 (236 hp)
-**Initiative:** –2
-**Speed:** 40 ft., climb 20 ft., fly 40 ft. (perfect)
-**AC:** 31 (–4 size, –2 Dex, +27 natural), touch 4, flat-footed 31
-**Base Attack/Grapple:** +24/+53
-**Attack:** Slam +38 melee
-**Full Attack:** 4 slams +38 melee
-**Damage:** Slam 4d8+17 plus petrification
-**Face/Reach:** 20 ft./20 ft.
-**Special Attacks:** Petrification, trample
-**Special Qualities:** Acid resistance 20, animate statue, cold resistance 20, construct traits, DR 30/+5, electricity resistance 20, fire resistance 20, SR 32
-**Saves:** Fort +10, Ref +10, Will +12
-**Abilities:** Str 45, Dex 7, Con —, Int 6, Wis 10, Cha 10
-**Skills:** Climb +30*, Listen +15, Spot +15
-**Feats:** Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Critical (slam), Iron Will, Lightning Reflexes, Power Attack, Sunder, Weapon Focus (slam)
-**Climate/Terrain:** Any land
-**Organization:** Solitary
-**Challenge Rating:** 18
-**Treasure:** —
-**Alignment:** Often neutral evil (same as creator)
-**Advancement:** 33–54 HD (Gargantuan); 55–96 HD (Colossal)
-
-A blackstone gigant is an enormous construct created by a powerful cleric to be either a bodyguard or a guardian of a sacred site. Possessed of a limited intelligence, a blackstone gigant can serve as an assassin or retrieve an object or creature.
-Most blackstone gigants look like fierce, eight-armed women. Evil creators sometimes carve blackstone gigants to look like mariliths or other demonic creatures.
-Blackstone gigants have the power to petrify foes, and they often take grisly trophies from creatures defeated in such a manner and craft them into a belt of petrified arms or a necklace of petrified heads.
-A blackstone gigant speaks the language of its creator.
-
 ## Blackwing — CR 8 — Monster Manual V
 
 ![Blackwing](pictures/blackwing.png)
@@ -1055,20 +1036,6 @@ Source book(s): Monster Manual II
 Description: Boggles are clever, gibbering scavengers that behave much like some species of monkeys. They do not value treasure, but they do like to collect bright, shiny objects such as coins, precious gems, and jewelry, as well as bits of polished junk. In addition, they can often be tempted with food and sweets. A boggle is a 3-foot-tall, hairless humanoid with a rubbery hide. It has a large, bulbous, bald head, huge ears, and disproportionate body parts, though the exact details vary from one individual to another.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Bogun — CR 1 — Monster Manual II
-
-![Bogun](pictures/bogun.png)
-
-*Picture: Constructs roster picture index: Official book art — Monster Manual II, p. 34*
-
-**Partial — fullest block on file:**
-
-Type: Tiny Construct
-Challenge Rating: 1
-Source book(s): Monster Manual II
-Description: A bogun is a small nature servant created by a druid. Like a homunculus, it is an extension of its creator. Thus, it has the same alignment and link to nature that its master has. A bogun looks like a vaguely humanoid mound of compost. The creator determines its precise features, but the typical version stands about 18 inches tall and has a wingspan of about 2 feet. Its skin is covered with nettles and branches. Insect carapaces, feathers, scales, and other forest detritus may also be part of its form.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Boneyard — CR 14 — Libris Mortis
 
 ![Boneyard](pictures/boneyard.png)
@@ -1155,6 +1122,37 @@ Brain golems do not speak or understand any language, despite their intelligence
 
 ---
 
+## Bram Tallowick — CR 5 — NPCs — ALL-150 (Shaun's cast)
+
+![Bram Tallowick](pictures/bram-tallowick.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+22. Bram Tallowick — Dwarf Cleric 5 of Gond, NG
+
+![Bram Tallowick](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/bram-tallowick.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/bram-tallowick.jpg)
+
+**Abilities:** Str 13 (+1), Dex 10, Con 16 (+3, 14+2 racial), Int 12 (+1), Wis 16 (+3, 15+1 L4), Cha 8 (-1, 10-2)
+**HD/hp:** 5d8+15, **hp 39** (8+4×4 +15) | **Init** +0 | **Speed** 20 ft
+**AC** 18 (+6 +1 chainmail, +2 heavy wooden shield), touch 10, flat 18
+**BAB/Grapple** +3/+4 | **Attack** mwk warhammer +5 melee (1d8+1/x3) or light crossbow +3 (1d8/19-20)
+**Space/Reach** 5/5 | **SA:** Turn undead 2/day (cleric 5, Cha -1), spontaneous cure | **SQ:** Dwarf traits (+2 vs poison/spells, stonecunning, darkvision 60), domains Craft (as Gond: Artifice) and Healing
+**Saves** Fort +7, Ref +1, Will +7
+**Skills:** Craft (alchemy) +9, Heal +11, Knowledge (religion) +5, Concentration +7, Diplomacy +3
+**Feats:** Skill Focus (Heal) [1], Brew Potion [3]
+**Spells prepared (5/4+1/3+1/2+1; DC 13+spell lvl):** 0: *detect magic, guidance, light, mending, purify food and drink*; 1st: *bless, cure light wounds x2, protection from evil, sanctuary(D)*; 2nd: *aid, cure moderate wounds, lesser restoration, heat metal(D)*; 3rd: *cure serious wounds, remove disease, create food and water(D as craft rite — DM may swap for prayer)*
+**Gear (~4,250 gp):** +1 chainmail, mwk warhammer, heavy wooden shield, holy symbol (anvil-gear), healer's kit x3, alchemist lab (portable field kit), antitoxin x3, potion *cure moderate* x2, scroll *remove paralysis*, 62 gp.
+**Steampunk aesthetic:** A boiler-valve key worn as his Gond holy symbol, brass-capped tincture vials racked in a riveted leather bandolier, flip-lens spectacles, and a little steam-steriliser kettle that ticks and hisses through every clinic shift.
+**Appearance:** Beard braided with copper wire, spectacles, ink- and tincture-stained fingers.
+**Traits/Voice:** Methodical, hums while compounding; soft brogue. *"Dosage first. Prayers second. Both matter."*
+**Motivation:** Staff the Freeman Clinic without turning anyone away for coin.
+**Secret/Flaw:** Quietly waters down expensive tinctures for the poor and falsifies the Guild ledger to cover it.
+**Background:** Guild of Apothecaries, Physicians & Alchemists; works Freeman Clinic nights, Remnants volunteer.
+**DM Hook:** Can heal, identify blight-sickness, and will ask PCs to fetch reagents from dangerous fog-roads.
+
+---
+
 ## Brammin Ironroot — CR 19 — NPCs — ALL-150 (Shaun's cast)
 
 ![Brammin Ironroot](pictures/brammin-ironroot.jpg)
@@ -1198,19 +1196,43 @@ Source book(s): Monster Manual II
 Description: The breathdrinker is a dreadful elemental that feeds on air extracted from the lungs of living creatures. How it actually derives sustenance from such a source is unknown, but the cruel monster seems to take great delight in stealing the breath of its helpless victims. The breathdrinker is normally invisible, except when attacking. When it does become visible, it roughly mimics the form of its chosen victim, appearing as a misty, translucent duplicate. Its eyes resemble tiny, red spheres of light. Most breathdrinkers reside on the Elemental Plane of Air.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Bronze Serpent — CR 10 — Monster Manual II
+## Brin Odo (Brindlewick Odometer) — CR 2 — NPCs — ALL-150 (Shaun's cast)
 
-![Bronze Serpent](pictures/bronze-serpent.png)
+![Brin Odo (Brindlewick Odometer)](pictures/brin-odo-brindlewick-odometer.jpg)
 
-*Picture: APOC-VTT monster library art — Monster Manual II*
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
 
-**Partial — fullest block on file:**
+7. Brin Odo (Brindlewick Odometer) — Gnome Bard 2
 
-Type: Huge Construct
-Challenge Rating: 10
-Source book(s): Monster Manual II
-Description: First seen in tropical lands, bronze serpents are golemlike guardians that resemble the serpent gods whose temples they once protected. Over the course of centuries, the secret of the creatures’ construction has spread far and wide, so now they may appear anywhere. A bronze serpent is a 20-foot-long snake built of articulated bronze rings. Its eyes glow blue-white, and its powerful jaws are equipped with impressive fangs that drip fat electrical sparks instead of venom. A bronze serpent cannot speak, but it can understand simple instructions in its creator’s language.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+![Brin Odo (Brindlewick Odometer)](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/brin-odo-brindlewick-odometer.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/brin-odo-brindlewick-odometer.jpg)
+
+**Alignment:** Chaotic Good | **Faction:** Independent (tavern performer) | **Role:** Social
+
+**Abilities:** Str 8 (−1), Dex 13 (+1), Con 14 (+2), Int 14 (+2), Wis 10 (+0), Cha 15 (+2)
+**HD:** 2d6+4; **hp** 13 (6+2, 3+2) | **Init** +1 | **Speed** 20 ft.
+**AC** 15 (+3 studded leather, +1 Dex, +1 size), touch 12, flat-footed 14
+**BAB** +1; **Grapple** −4 (+1 BAB, −1 Str, −4 size)
+**Attack:** Rapier +1 melee (1d4−1, 18–20/×2); light crossbow +3 ranged (1d6, 19–20/×2, 80 ft.)
+**Space/Reach:** 5 ft./5 ft.
+**Special Qualities:** Low-light vision; +2 saves vs. illusion; +1 DC on illusion spells cast; +1 attack vs. kobolds and goblinoids; +4 dodge AC vs. giants; +2 Listen and Craft (alchemy); bardic knowledge +4 (level 2 + Int 2); spell-like abilities 1/day each (CL 2): *dancing lights, ghost sound, prestidigitation, speak with animals* (burrowing mammals only, 1 minute)
+**Special Attacks:** Bardic music 2/day — countersong (30 ft.), *fascinate* (1 creature, DC 12 Will), inspire courage +1 (attack/damage and saves vs. charm/fear)
+**Saves:** Fort +2 (+0 base, +2 Con), Ref +4 (+3 base, +1 Dex), Will +3 (+3 base, +0 Wis); +2 vs. illusion
+**Skills:** Bluff +7 (5 ranks, +2 Cha), Diplomacy +9 (5 ranks, +2 Cha, +2 Negotiator), Gather Information +7 (5 ranks, +2 Cha), Hide +10 (5 ranks, +1 Dex, +4 size), Knowledge (local) +7 (5 ranks, +2 Int), Listen +7 (5 ranks, +0 Wis, +2 racial), Perform (sing) +7 (5 ranks, +2 Cha), Sense Motive +7 (5 ranks, +0 Wis, +2 Negotiator)
+**Feats:** Negotiator
+**Spells Known (Bard 2; 3/1 per day — 1st-level slots come from his Cha bonus; DC 12 + spell level):** 0—*daze, detect magic, ghost sound, mage hand, prestidigitation*; 1st—*charm person, cure light wounds*. No summoning spells known or wanted.
+**Equipment:** Masterwork lute (100 gp), studded leather (25 gp), rapier (20 gp), light crossbow (35 gp) and 20 bolts (2 gp), entertainer's outfit plus three costume changes, disguise kit (50 gp), backpack, 2 potions of *cure light wounds* (100 gp), flask of "performance tonic" (actually strong tea), songbook in his own shorthand. ~340 gp spent; ~1,660 gp — a performer's fortune, mostly in small coins hidden in a hollow lute case.
+
+**Appearance:** A round-faced gnome with an enormous ginger moustache he dyes brighter than nature intended, a waistcoat with too many pockets, and a lute older than he is. He dresses like a celebration in a city that has forgotten how.
+**Steampunk aesthetic:** A performer's steampunk, worn with a wink: his masterwork lute has brass frets and string-pegs and an ornamental winding key inlaid in its neck by a tinker cousin, and his hollow lute case is riveted like a strongbox. His waistcoat buttons are little brass cogs, his costume changes are grey-brown velvet damp at the hems, and one bright scarf is his single defiant splash of colour.
+**Traits:** Irrepressible, nosy, generous with other people's secrets and fiercely protective of his friends'. Believes morale is a resource, like lamp oil.
+**Mannerism/Voice Hook:** Answers questions with song titles and hums under other people's conversations. Bright tenor: "Oh, I *know* a ballad about exactly this. It ends badly, mind you."
+**Motivation:** Keep the Bastion laughing — and keep his ear at every tavern door in the city, because he is quietly building a network of informants "for whoever turns out to deserve it."
+**Secret/Flaw:** He once performed a satirical ballad about a demon-enclave warlord in a roadhouse where the warlord's agents were drinking. They laughed. They also followed him for two days. He still doesn't know why they let him go, and he checks the road behind him, always.
+**Background:** A tinker's son who chose the lute over the wrench. He plays the Elfstone Tavern and two lesser houses on rotation, carries messages in songs (verses encode names and places for those who know the code), and is a familiar, welcome face in every ward of the Bastion.
+**DM Use Hook:** A rumor engine and social lubricant — Brin can introduce the party to anyone, get them invited anywhere, or accidentally get them invited to perform. His encoded songs can deliver a plot hook no one can intercept.
+
+---
 
 ## Brood Keeper Larva Swarm — CR 12 — Monster Manual III
 
@@ -1225,6 +1247,26 @@ Challenge Rating: 12
 Source book(s): Monster Manual III
 Description: As you watch, the plates of chitin on the creature's back slowly open, revealing mucus-filled cavities and the writhing forms of giant maggots with wasp wings. Suddenly, dozens of the footand-a-half-long winged larvae wriggle out of their pockets on the beetle-creature's back and take to the air. Once they are freed from the confines of the shell, you see that their pulpy white bodies are ringed in brown chitin. Brood keeper larvae do not grow while they live with their brood keeper parent but they enjoy the protection the swarm and their parent offer.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Brother Cadmus Vale — CR 10 — NPCs — ALL-150 (Shaun's cast)
+
+![Brother Cadmus Vale](pictures/brother-cadmus-vale.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+48. Brother Cadmus Vale — Human Cleric 3 / Wizard 3 / Mystic Theurge 4, LN
+
+![Brother Cadmus Vale](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/brother-cadmus-vale.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/brother-cadmus-vale.jpg)
+
+**Abilities:** Str 8, Dex 12, Con 13, Int 18 (incl. *headband of intellect +2*), Wis 17, Cha 10. **HD** 3d8+3d4+4d4+10; **hp** 45. **Init** +1; **Speed** 30 ft. **AC** 14 (+1 Dex, +3 *+1 mithral shirt*), touch 11, flat 13. **BAB/Grapple** +5/+4. **Attack:** masterwork quarterstaff +5 (1d6–1). **SA/SQ:** Turn undead 3/day, domains Knowledge and Magic, casts cleric 7th-level (CL7, 4th-level spells) and wizard 7th-level (CL7, 4th-level spells). **Saves:** Fort +6, Ref +4, Will +13. **Skills:** Concentration +14, Knowledge (arcana) +17, (religion) +17, Spellcraft +17, Heal +12. **Feats:** Scribe Scroll, Practised Spellcaster (cleric), Craft Wondrous Item, Spell Focus (Divination), Combat Casting.
+**Equipment (16,000 gp):** *headband of intellect +2* (4,000), *cloak of resistance +3* (9,000), *+1 mithral shirt* (2,100), dual spellbook/holy text, alchemical blight-ledger, 700 gp.
+**Spells:** Cleric prepared (5/4+1/4+1/3+1/2+1; DC 13+level): typical — *cure* line, *dispel magic, prayer, remove curse, divination* D. Wizard prepared (4/4/3/3/2; DC 14+level): *identify, web, clairvoyance, dispel magic, greater invisibility*. No summon spells in either list.
+**Size/Type:** Medium humanoid (human); **Space/Reach:** 5 ft./5 ft.
+**Steampunk aesthetic:** Both books hang from brass chains on a belt of little riveted drawers, his reading prism rides in a copper cage at his chest, and twin hip flasks — ink and holy oil — clink as he walks. His coat is sewn with dead gauge-dials he keeps as ornaments, their needles long still.
+**Appearance/Personality:** Both holy symbol and spellbook chained to one belt, reads two books at once with a prism. Pedantic, kind, exhausted. **Voice:** footnotes his own sentences — "—see appendix." **Motivation:** prove divine and arcane magic blight differently, and publish the mitigation. **Secret/Flaw:** his theurge research was funded by the Kingdom of the Undead. **Background:** Bastion Institute dual fellow. **DM Hook:** offers unmatched research help; asks only for blight samples from wherever the party just cast.
+
+---
 
 ## Bugbear — CR 2 — Monster Manual I
 
@@ -1381,6 +1423,26 @@ Challenge Rating: 1
 Source book(s): Monster Manual I
 Description: Camels are known for their ability to travel long distances without food or water. The statistics presented here are for the dromedary, or one-humped camel, which thrives in warm deserts. A dromedary stands about 7 feet tall at the shoulder, with its hump rising 1 foot higher. The two-humped, or Bactrian, camel is suited to cooler, rocky areas. It is stockier, slower (speed 40 feet), and has a higher Constitution score (16).
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Captain Rulathon — CR 15 — NPCs — ALL-150 (Shaun's cast)
+
+![Captain Rulathon](pictures/captain-rulathon.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+148. Captain Rulathon — Human Fighter 15, LN
+
+![Captain Rulathon](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/captain-rulathon.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/captain-rulathon.jpg)
+
+**Tracker status (as-is):** "Commander of the City Watch"
+**Tracker detail:** Commander of the City Watch, the Bastion's police force. He reports to the Open Lords. His senior commanders are Grand Civilar Derek Windsfire, Mage Civilar Thyriellentha, and Senior Armsmaster Helve Urtrace. The Watch is based at the Palace.
+**Abilities:** Str 18 (+4; 15 +1 level +2 gauntlets), Dex 13 (+1), Con 16 (+3; 14 +2 amulet), Int 13 (+1), Wis 14 (+2), Cha 15 (+2; 14 +1 level). **HD** 15d10+45; **hp** 125 (10 +14×5 +45). **Init** +5; **Speed** 20 ft (armour). **AC** 26 (+10 *+2 full plate*, +4 *+2 heavy steel shield*, +1 Dex (plate cap), +1 *ring of protection +1*), touch 12, flat-footed 25. **BAB/Grapple** +15/+19. **Attack:** *+3 longsword* +23 melee (1d8+7/19–20). **Full Attack:** +23/+18/+13. **Space/Reach** 5 ft./5 ft. **SA/SQ:** Commander of the Watch (city-wide jurisdiction; his lawful orders carry the Open Lords' authority), command presence (+4 circumstance to Diplomacy/Intimidate in Watch uniform within the city), master tactician of precinct deployment (flavour: treats any Watch unit he personally leads as having the benefit of his Leadership feat). **Saves:** Fort +13 (base +9, Con +3, vest +1), Ref +7 (+5, +1, +1), Will +8 (+5, +2, +1). **Skills:** Diplomacy +20, Gather Information +14, Intimidate +20, Knowledge (local) +12, Listen +12, Ride +12, Sense Motive +17, Spot +12. **Feats:** Weapon Focus (longsword), Weapon Specialisation, Greater Weapon Focus, Greater Weapon Specialisation, Power Attack, Cleave, Improved Initiative, Leadership, Combat Expertise, Improved Disarm, Negotiator, Iron Will.
+**Equipment (45,000 gp):** *+2 full plate* (5,650), *+2 heavy steel shield* (4,170), *+3 longsword* (18,315), *gauntlets of ogre power* (4,000), *amulet of health +2* (4,000), *vest of resistance +1* (1,000), *ring of protection +1* (2,000), *cloak of charisma +2* (4,000), commander's baton and seal (Watch issue), *potions of cure serious wounds* ×2 (1,500), 365 gp.
+**Steampunk aesthetic:** The Commander's uniform plate is the Watch at its most formal: deep grey-green full plate with polished brass command gears doubled at both shoulders, a shield bossed with the Palace sigil in copper, and a helmet with a geared amber lamp-visor; his Palace office runs on pneumatic dispatch tubes and a wall-sized brass precinct board whose little lamps track every patrol in the Fog.
+**Appearance/Personality:** Immaculate, economical, and impossible to hurry. He runs a police force the way other men run a siege: maps, rosters, and no wasted motion. **Voice hook:** gives orders as completed facts — "The South Brigade will double its fog patrols. It has doubled them." **Motivation:** one Watch, one law, from the Palace to the seediest lower quarter — the purge of South Brigade corruption happened on his watch and he intends it to be the last. **Secret/Flaw:** he signed the purge orders that broke the South Brigade's corrupt network — and quietly spared one compromised officer whose information made it possible; that officer is still serving, and the debt runs both ways. **DM Hook:** the party's road to lawful authority in the Bastion runs through his office — he can deputise, pardon within the city, or set the entire Watch looking for someone, and he will want a commander's clarity about what they are.
+
+---
 
 ## Carrionette — CR 3 — Dragon Magazine #339
 
@@ -1563,20 +1625,6 @@ Description: A mind leech is a small, slimy creature that coils itself around th
 
 **Nature/role:** The brain demon — a bred psionic enforcer, all telepathic domination and mind-blasts, serving whichever lord owns the leash.
 
-## Chain Golem — CR 5 — Monster Manual II
-
-![Chain Golem](pictures/chain-golem.png)
-
-*Picture: APOC-VTT monster library art — Monster Manual II*
-
-**Partial — fullest block on file:**
-
-Type: Medium Construct
-Challenge Rating: 5
-Source book(s): Monster Manual II
-Description: Creations of the diabolical kytons (see the Monster Manual), chain golems serve as bodyguards for devils and as guardians of unholy places. Occasionally, one of these creatures is selected to carry out a special mission. When a chain golem appears on the Material Plane, it is usually delivering or retrieving a message or an item of particular interest to its kyton master. The body of a chain golem is composed entirely of shifting chains that vary in size and shape, ranging from extremely thin and razor-sharp to thick and mounted with barbs, spikes, and blades.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Chaos Beast — CR 7 — Monster Manual I
 
 ![Chaos Beast](pictures/chaos-beast.png)
@@ -1700,6 +1748,16 @@ Source book(s): Monster Manual III
 Description: Flickering flames move along the ground and through the air as one unified mass. It sparks and crackles, setting fire to all it touches. While most elementals tend toward neutrality, cinders are most definitely evil. They glory in inflicting pain and causing destruction. Individually, they are no more significant than a fleck of hot ash that snaps out of a campfire. Collectively, they possess great destructive power. Each elemental composing a cinder swarm speaks Ignan, but communicating with a single Fine elemental in the swarm is virtually impossible.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
+## Citizens of the Bastion — Street Crowd — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
+
+![Citizens of the Bastion — Street Crowd](pictures/city-street-crowd.jpg)
+
+*Picture: Scene art — a Bastion street at the crush (Dungeon Alchemist first-person view, Shaun's map files)*
+
+**Partial — fullest block on file:**
+
+Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+
 ## Clockroach — CR 1 — Monster Manual IV
 
 ![Clockroach](pictures/clockroach.png)
@@ -1713,133 +1771,6 @@ Challenge Rating: 1
 Source book(s): Monster Manual IV
 Description: Chewing on the ground is a whirring, scuttling metal bug about the size of a large dog. Glass eyes dotting its body look in all directions as it sinks sharp pincers into the ground and spews a stream of acid onto a bit of debris.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
-## Clockwork Horror — CR 4 — Monster Manual II
-
-![Clockwork Horror](pictures/clockwork-horror.png)
-
-*Picture: Constructs roster picture index: Official book art — Monster Manual II, p. 48 (group illustration of all four horror grades — the one entry covers all four blocks)*
-
-## 3. CLOCKWORK HORROR — CR 4 / 5 / 7 / 9 (IN)
-
-**Source:** Monster Manual II, pp. 47–49. **Edition:** 3.0 as published.
-**Sentience basis:** Int 5 / 9 / 13 / 17 by caste; an intelligent, hierarchical collective that plans, commands, and (in the adamantine horror's case) designs new castes. One entry covering all four published blocks.
-
-### Stat blocks (as published)
-
-**Electrum Horror** — Small Construct
-- Hit Dice: 4d10 (22 hp)
-- Initiative: +2
-- Speed: 30 ft.
-- AC: 19 (+1 size, +1 Dex, +7 natural), touch 12, flat-footed 18
-- Attacks: Razor saw +5 melee, or pressure dart +5 ranged
-- Damage: Razor saw 1d8+1, pressure dart 2d4+1
-- Face/Reach: 5 ft. by 5 ft./5 ft.
-- Special Attacks: —
-- Special Qualities: Construct traits, electricity immunity, linked mind, spell vulnerability, SR 17
-- Saves: Fort +1, Ref +2, Will +3
-- Abilities: Str 12, Dex 13, Con —, Int 5, Wis 14, Cha 5
-- Feats: Point Blank Shot (B), Precise Shot (B)
-- Climate/Terrain: Any land and underground
-- Organization: Pair or component (3–8)
-- Challenge Rating: 4
-- Treasure: 50% coins, 50% goods (gems only)
-- Alignment: Always lawful evil
-- Advancement: —
-
-**Gold Horror** — Small Construct
-- Hit Dice: 8d10 (44 hp)
-- Initiative: +2
-- Speed: 30 ft.
-- AC: 22 (+1 size, +2 Dex, +9 natural), touch 13, flat-footed 20
-- Attacks: Razor saw +9 melee
-- Damage: Razor saw 1d10+3
-- Face/Reach: 5 ft. by 5 ft./5 ft.
-- Special Attacks: Lightning bolt
-- Special Qualities: Construct traits, electricity immunity, linked mind, spell vulnerability, SR 18
-- Saves: Fort +2, Ref +4, Will +5
-- Abilities: Str 14, Dex 15, Con —, Int 9, Wis 16, Cha 11
-- Feats: Cleave (B), Power Attack (B), Sunder (B)
-- Climate/Terrain: Any land and underground
-- Organization: Module (1–2 plus 3–12 electrum horrors)
-- Challenge Rating: 5
-- Treasure: 50% coins, 50% goods (gems only)
-- Alignment: Always lawful evil
-- Advancement: —
-
-**Platinum Horror** — Small Construct
-- Hit Dice: 12d10 (66 hp)
-- Initiative: +3
-- Speed: 40 ft.
-- AC: 25 (+1 size, +3 Dex, +11 natural), touch 14, flat-footed 22
-- Attacks: Razor saw +13 melee
-- Damage: Razor saw 1d12+4
-- Face/Reach: 5 ft. by 5 ft./5 ft.
-- Special Attacks: Lightning bolt
-- Special Qualities: Construct traits, electricity immunity, linked mind, spell vulnerability, SR 20
-- Saves: Fort +4, Ref +7, Will +9
-- Abilities: Str 16, Dex 17, Con —, Int 13, Wis 20, Cha 15
-- Feats: Cleave (B), Great Cleave (B), Power Attack (B), Sunder (B)
-- Climate/Terrain: Any land and underground
-- Organization: Series (1 plus 1–2 gold horrors and 4–16 electrum horrors)
-- Challenge Rating: 7
-- Treasure: 50% coins, 50% goods (gems only)
-- Alignment: Always lawful evil
-- Advancement: —
-
-**Adamantine Horror** — Small Construct
-- Hit Dice: 16d10 (88 hp)
-- Initiative: +8
-- Speed: 50 ft.
-- AC: 28 (+1 size, +4 Dex, +13 natural), touch 15, flat-footed 24
-- Attacks: Razor saw +18 melee
-- Damage: Razor saw 2d10+7
-- Face/Reach: 5 ft. by 5 ft./5 ft.
-- Special Attacks: Spell-like abilities
-- Special Qualities: Construct traits, electricity immunity, linked mind, spell vulnerability, SR 22
-- Saves: Fort +5, Ref +9, Will +12
-- Abilities: Str 20, Dex 19, Con —, Int 17, Wis 24, Cha 21
-- Feats: Cleave (B), Great Cleave (B), Improved Initiative (B), Power Attack (B), Sunder (B)
-- Climate/Terrain: Any land and underground
-- Organization: Assembly (1 plus 1–2 platinum horrors, 3–4 gold horrors, and 5–20 electrum horrors)
-- Challenge Rating: 9
-- Treasure: 50% coins, 50% goods (gems only)
-- Alignment: Always lawful evil
-- Advancement: —
-
-### Description (verbatim)
-
-Clockwork horrors are intelligent, arachnidlike constructs that live as a hierarchical collective. They exist solely to strip entire worlds of worked and raw metals, which they use to produce more horrors. These activities take clockwork horrors into areas where metal can be found, from underground mines to civilized areas where processed metal is often readily available. Clockwork horrors ignore nonmechanical creatures unless such beings pose a threat or obviously possess metal. The horrors' searches are methodical and efficient, resulting in the destruction of nearly everything in their path. An army of horrors can devastate an entire nation in a matter of weeks.
-
-A clockwork horror appears as a four-legged, mechanical arachnid with a body about 2 feet in diameter. It is made of a base metal (such as iron) overlaid with a thin patina of precious or semiprecious metal. A large gem is embedded in the creature's brow. A single razor saw is situated near the front of its head where a mouth would normally be located. The more powerful clockwork horrors are more fantastically designed and decorated than the lesser ones. Servant clockwork horrors with precious metal overlays are known to exist, but these serve the hierarchy primarily as laborers.
-
-Clockwork horrors communicate in their own language of mechanical sounds. The linked mind allows for instant communication among individual horrors within 10 miles of each other.
-
-Logic indicates that since the horrors are mechanical beings, someone or something must have created them. What happened to that being is unknown. Some sages theorize that the adamantine horror rebelled against and slew its creator, then devised the other types of clockwork horrors to serve as its armies.
-
-### Combat (verbatim)
-
-Clockwork horrors attack their foes with calculated, merciless precision. Lesser horrors unswervingly follow the orders of their superiors, fighting to the death if so commanded. In battle, clockwork horrors swarm around foes and whittle away at them while calling for reinforcements. A clockwork horror's weaponry is a part of its being, so it cannot be disarmed. When it dies, the gem in its brow disintegrates, and its body fuses into a mass of melted metal.
-
-All clockwork horrors share the following qualities.
-
-**Construct Traits:** A clockwork horror is immune to mind-affecting effects, poison, sleep, paralysis, stunning, disease, death effects, necromantic effects, and any effect that requires a Fortitude save unless it also works on objects. The creature is not subject to critical hits, subdual damage, ability damage, ability drain, energy drain, or death from massive damage. It cannot heal itself but can be healed through repair. It cannot be raised or resurrected. A clockwork horror has darkvision (60-foot range).
-
-**Linked Mind (Ex):** All clockwork horrors within 10 miles of a gold, platinum, or adamantine horror are in constant communication. If one is aware of a particular danger, they all are. If one in a particular group is not flat-footed, none of them are. No clockwork horror in such a group is considered flanked unless they all are.
-
-**Spell Vulnerability (Ex):** A clockwork horror is susceptible to the *shatter* spell, which blinds it for 1d4+1 rounds.
-
-**Electrum Horror** — Electrum horrors are the shock troops of the clockwork horror collective. They are sent in to scout out areas, assess potential resistance, and overcome any opposition. *Combat:* Electrum horrors advance into combat in precise battle lines, with the individual horrors spaced about 10 feet apart. They open fire with volleys of pressure darts. Upon closing with the enemy, some continue firing darts at perceived spellcasters or opponents using ranged weapons, while others slice away at nearby foes with their razor-sharp saws. After a battle, additional electrum horrors scavenge the area, retrieving fallen companions and any abandoned weapons for smelting down and making new horrors.
-
-**Gold Horror** — Gold horrors are the commanders of the clockwork horror armies. They supervise the electrums and other lesser horrors, ensuring that the orders of their superiors are obeyed. *Combat:* Gold horrors fight from behind a line of electrum guards, shooting lightning bolts at their foes. In melee, a gold horror strikes at an enemy's weapon to destroy it. Against magic weapons and items, a gold horror's razor saw functions as a +2 weapon. **Lightning Bolt (Sp):** Once every 2 rounds, the monster can generate a lightning bolt 5 feet wide and 40 feet long that deals 6d6 points of damage. A successful Reflex save (DC 13) halves the damage. *(Verify cleared 2026-11-08: DC 13, read from the MM II text layer — the number was clipped only in the scan's page image.)*
-
-**Platinum Horror** — Platinum horrors are the generals and governors of all lesser clockwork horrors. It is they who identify targets, devise strategies, and decide how best to deploy other horrors to achieve their goals. *Combat:* In combat, platinum horrors fire lightning bolts at opponents before closing with them. In melee, they use their razor saws to sunder the weapons and armor of their enemies. Against magic weapons and items, a platinum horror's razor saw functions as a +3 weapon. **Lightning Bolt (Sp):** A platinum horror's lightning bolt ability produces more powerful lightning bolts than the gold horror can emit. Once every 2 rounds, the platinum horror can fire a lightning bolt 5 feet wide and 80 feet long, dealing 12d6 points of electricity damage. A successful Reflex save (DC 15) halves the damage.
-
-**Adamantine Horror** — An adamantine horror is the supreme leader of the clockwork horror collective. Only one is believed to exist. The adamantine horror directs the harvesting of metal and the creation of new horrors. It alone decides which new horrors to make; thus it controls the composition of the collective. The adamantine horror holds the secret of animating a newly built horror body. The adamantine horror's motives in its aggressive campaign to grow the collective are unknown. Some sages speculate that it strives to destroy rival cultures; others claim it has acquired a living thing's drive to reproduce. Whatever its motives, the creature is a master at destroying other civilizations. *Combat:* An adamantine horror devastates foes with its spell-like abilities from afar. In melee, it slashes through its enemies with its razor saw. Against magic weapons and items, an adamantine horror's razor saw functions as a +5 weapon. **Spell-Like Abilities:** At will—*disintegrate*, *implosion*, *Mordenkainen's disjunction*. Caster level 14th; save DC 15 + spell level. *(Verify cleared 2026-11-08: base DC 15, read from the MM II text layer.)*
-
-### Variants note (3.0-isms)
-
-- Bonus feats are printed with the 3.0 "(B)" tag inside the Feats line; treasure is given as percentages (50% coins, 50% goods, gems only) rather than a 3.5 treasure category. No conversion made.
 
 ## Clockwork Horror, Adamantine — CR 9 — Monster Manual II
 
@@ -1855,55 +1786,25 @@ Source book(s): Monster Manual II
 Description: An adamantine horror is the supreme leader of the entire clockwork horror collective. Only one is believed to exist. The adamantine horror directs the harvesting of metal and the creation of new horrors. It alone decides which new horrors to make; thus it controls the composition of the collective. The adamantine horror holds the secret of animating a newly built horror body. The adamantine horror’s motives in its aggressive campaign to grow the collective are unknown.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Clockwork Mender Swarm — CR 3 — Monster Manual IV
+## Consortium Hall — Full Session — CR 2 — APOC city population — generator entry (Shaun, 2026-11-11)
 
-![Clockwork Mender Swarm](pictures/clockwork-mender-swarm.png)
+![Consortium Hall — Full Session](pictures/consortium-hall.jpg)
 
-*Picture: APOC-VTT monster library art — Monster Manual IV*
-
-**Partial — fullest block on file:**
-
-CLOCKWORK MENDER SWARM — CR 3
-
-Always LN Tiny construct (extraplanar, lawful, swarm)
-**Init** +4; **Senses** darkvision 60 ft., low-light vision; Listen +3, Spot +3
-**Languages** Abyssal, Celestial, Infernal (can't speak)
-**AC** 18, touch 16, flat-footed 14 (+2 size, +4 Dex, +2 natural)
-**hp** 22 (4 HD)
-**Immune** construct immunities, swarm immunities
-**Resist** half damage from slashing and piercing
-**Weakness** swarm vulnerabilities
-**Fort** +1, **Ref** +5, **Will** +2
-**Speed** 10 ft. (2 squares), fly 30 ft. (perfect)
-**Melee** swarm (1d6 plus poison and distraction)
-**Space** 10 ft.; **Reach** 0 ft.
-**Base Atk** +3; **Grp** —
-**Atk Options** aligned strike (lawful), distraction, poison (DC 14, 2d4 Dex/2d4 Dex)
-**Special Actions** swarm repair, swarm sacrifice
-**Abilities** Str 3, Dex 19, Con —, Int 4, Wis 12, Cha 10
-**SQ** construct traits, swarm traits
-**Feats** Alertness, Skill Focus (Craft)
-**Skills** Craft (any one) +7, Listen +3, Spot +3
-**Advancement** —
-
-**Poison (Ex)** The save DC includes a +2 racial bonus.
-**Distraction (Ex)** Fortitude DC 12, nauseated 1 round. The save DC is Constitution-based.
-**Swarm Repair (Su)** A clockwork mender swarm can choose not to damage a construct with its swarm attack. When the clockwork mender swarm occupies a construct's space at the end of the swarm's turn, it can repair of 1 point of damage on that construct. The swarm can use its swarm repair on itself if it does not move for 1 round. *[sic — "repair of 1 point" as printed.]*
-**Swarm Sacrifice (Ex)** A clockwork mender swarm can choose not to damage a construct with its swarm attack. When the swarm occupies a construct's space at the end of the swarm's turn, it can repair damage to that construct, up to the swarm's current hit points. The swarm loses an equal number of hit points as its members sacrifice themselves to become building material to repair the construct. If the swarm sacrifice reduces the clockwork mender swarm's hit points to 0, it breaks up.
-
-## Clockwork Stallion — CR 3 — Monster Manual IV
-
-![Clockwork Stallion](pictures/clockwork-stallion.png)
-
-*Picture: APOC-VTT monster library art — Monster Manual IV*
+*Picture: Scene art — a consortium market hall in session (Shaun's map files)*
 
 **Partial — fullest block on file:**
 
-Type: Large Construct
-Challenge Rating: 3
-Source book(s): Monster Manual IV
-Description: This creature resembles a horse crafted of sturdy metal plates and taut springs. A whistle of steam and the ratcheting click of gears accompany its movements.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+
+## Consortium Porters and Carters — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
+
+![Consortium Porters and Carters](pictures/consortium-porters.jpg)
+
+*Picture: Scene art — a market street at work (Shaun's map files)*
+
+**Partial — fullest block on file:**
+
+Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
 ## Crawling Apocalypse — CR 11 — Sandstorm
 
@@ -2109,6 +2010,34 @@ Challenge Rating: 5
 Source book(s): Monsternomicon Vol. 2
 Description: My journeys through eastern Immoren often brought me afoul of the enormous, semi-prescient beasts I have named cyclopes. Possessing only a massive single eye, these creatures take in their surroundings with a malevolence I have not often seen outside my own species. Either in the wild or as conditioned slaves in the service of the skorne, I quickly learned to loath these brutes.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Dagna Stoneveil — CR 18 — NPCs — ALL-150 (Shaun's cast)
+
+![Dagna Stoneveil](pictures/dagna-stoneveil.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+87. Dagna Stoneveil — Dwarf Cleric 18 of the Forge-Hearth (Earth, Protection)
+
+![Dagna Stoneveil](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/dagna-stoneveil.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/dagna-stoneveil.jpg)
+
+**Alignment:** LG · **Faction:** Bastion — Keeper of the Deep Forge
+**Abilities:** Str 14 (+2), Dex 10 (+0, 12 base −2 racial), Con 18 (+4, 13 base +2 racial +1 level + *amulet of health +2*), Int 12 (+1), Wis 23 (+6, 15 base +4 level [4/8/12/16] + *periapt of wisdom +4*), Cha 12 (+1, 14 base −2 racial)
+**HD/HP:** 18d8; 8 + (17 × 4.5) + (18 × 4) = **156 hp** · **Init:** +0 · **Speed:** 20 ft.
+**AC:** 28, touch 12, flat-footed 28 (+11 *+3 full plate*, +5 *+3 heavy steel shield*, +2 *ring of protection +2*)
+**BAB/Grapple:** +13 / +15 · **Attack:** *+3 warhammer* +18 melee (1d8+5/x3)
+**Full Attack:** +18/+13/+8 · **Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** turn undead 4/day, spells · **Special Qualities:** dwarf traits (darkvision, stonecunning, stability, +2 vs poison/spells), aura
+**Saves:** Fort +17 (11 +4 +2 cloak), Ref +8 (6 +0 +2), Will +19 (11 +6 +2)
+**Skills:** Concentration +25 (21), Craft (stonemasonry) +22 (21), Heal +17 (10), Knowledge (religion) +22 (21), Knowledge (architecture) +12 (10), Sense Motive +17 (10), Spellcraft +22 (21)
+**Feats:** 1 Scribe Scroll, 3 Craft Wondrous Item, 6 Craft Magic Arms and Armour, 9 Extra Turning, 12 Forge Ring, 15 Quicken Spell, 18 Divine Spell Power — 7 feats for 18th level (1,3,6,9,12,15,18).
+**Kit (116,932 gp personal; she also administers 13,068 gp of temple funds and temple-held diamonds for *resurrection* ×1 as faction assets):** *periapt of wisdom +4* (16,000), *strand of prayer beads (standard)* (25,800), *+3 warhammer* (18,312), *phylactery of undead turning* (11,000), *+3 full plate* (10,650), forge-heart gem focus (10,000), *+3 heavy steel shield* (9,170), *ring of protection +2* (8,000), *amulet of health +2* (4,000), *cloak of resistance +2* (4,000).
+**Spells Prepared (6/7+1/7+1/7+1/7+1/6+1/6+1/5+1/5+1/4+1; DC 16 + level):** Domains Earth, Protection (domain spell marked D). 0—*create water, detect magic, guidance, mending, purify food and drink, resistance*; 1st—*sanctuary (D), bless, cure light wounds, divine favour, endure elements, protection from evil, remove fear, shield of faith*; 2nd—*shield other (D), aid, bear's endurance, cure moderate wounds, lesser restoration, remove paralysis, resist energy, silence*; 3rd—*protection from energy (D), create food and water, cure serious wounds, dispel magic, magic vestment, prayer, remove curse, stone shape*; 4th—*spell immunity (D), cure critical wounds, death ward, freedom of movement, neutralise poison, restoration, spike stones*; 5th—*wall of stone (D), break enchantment, cure light wounds mass, flame strike (augmented), raise dead, spell resistance, true seeing*; 6th—*stoneskin (D), blade barrier, cure moderate wounds mass, greater dispel magic, heal, heroes' feast, undeath to death*; 7th—*earthquake (D), cure serious wounds mass, greater restoration, holy word, regeneration, resurrection*; 8th—*iron body (D), cure critical wounds mass, earthquake, fire storm (augmented), holy aura, shield of law*; 9th—*prismatic sphere (D, Protection), implosion, mass heal, miracle, true resurrection*.
+**Steampunk aesthetic:** Forge-hearth plate blackened at the edges under a soot-grey apron, her beard braided with brass forge-rings, a heat-gauge and pressure dial set into her shield boss, and an ember-amber forge-lamp swinging from her hammer belt.
+**Appearance:** Broad, grey-bearded (dwarven women in her clan wear the beard braided with forge-rings), hands like masonry tools, voice that carries underground. **Traits:** Immovable once decided, generous before deciding, keeps grudges in writing. **Voice hook:** Deep, unhurried; "Stone doesn't hurry. Neither do I." **Motivation:** The Deep Forge must never go cold — if it does, the Bastion's engines, walls, and warforged die with it. **Secret/Flaw:** The forge-heart is not a gem. It is a bound fire elemental *from before the Severance*, weakening yearly, and she augments every "forge miracle" with alchemy to hide it. **Background:** Fourth-generation Keeper; she held the forge doors with her own body during the demon riots. **DM Use:** Industrial-religious power broker, resurrection gatekeeper, and a ticking secret under the whole city.
+
+---
 
 ## Darktentacles — CR 7 — Monster Manual II
 
@@ -2483,12 +2412,12 @@ ZOVVUT — Monster Manual II, pp.60–61
 
 ![Derek Windsfire](pictures/derek-windsfire.jpg)
 
-*Picture: Roster picture file (npc roster pictures; named in the creature's roster entry)*
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
 
 149. Derek Windsfire — NG Male Half-Moon Elf Fighter 11
 
-
 ![Derek Windsfire](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/derek-windsfire.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/derek-windsfire.jpg)
 
 **Tracker status (as-is):** "Grand Civilar, City Watch"
 **Tracker detail:** NG male half-moon elf fighter 11 — used exactly as given (half-moon elf built as a moon elf: +2 Dex, −2 Con, elf traits). Senior commander of the City Watch under Captain Rulathon.
@@ -2850,20 +2779,6 @@ DRAUG
                conditions. It is not affected by wind of any type (though                 Copyright Notice
                the draug can still use the wind to maneuver and sail the
 
-## Dread Guard — CR 2 — Monster Manual II
-
-![Dread Guard](pictures/dread-guard.png)
-
-*Picture: Constructs roster picture index: Official book art — Monster Manual II, p. 87*
-
-**Partial — fullest block on file:**
-
-Type: Medium Construct
-Challenge Rating: 2
-Source book(s): Monster Manual II
-Description: A dread guard appears to be an armored undead, still bearing the weapons and shield it carried in life. In fact, it is an animated suit of armor, little different from a golem. Those who create dread guards usually do so to obtain guardians for their strongholds—guardians that can never be bribed and rarely fooled.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Dream Vestige — CR 16 — Libris Mortis
 
 ![Dream Vestige](pictures/dream-vestige.png)
@@ -2969,6 +2884,60 @@ Cleric Spells Prepared (6/8/8/7/6/5/4/3; save DC 17 + spell level; caster level 
 **Kit (Possessions, as published, p.157):** +3 full plate, +1 scorpion-tail whip†, masterwork light crossbow with 20 +1 bolts, periapt of Wisdom +4, cloak of resistance +4, 2 scrolls of horrid wilting, eye ointment (250 gp). † New weapon described on page 98.
 
 **CREATING A DRY LICH (template, as published, p.157):** "Dry lich" is an acquired template that can be added to any living creature (referred to hereafter as the bas
+
+## Durgan Ironvein — CR 8 — NPCs — ALL-150 (Shaun's cast)
+
+![Durgan Ironvein](pictures/durgan-ironvein.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+39. Durgan Ironvein — Dwarf Cleric 8 of Gond, LG
+
+![Durgan Ironvein](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/durgan-ironvein.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/durgan-ironvein.jpg)
+
+**Abilities:** Str 14 (+2), Dex 10, Con 16 (+3, 14+2 racial), Int 12 (+1), Wis 17 (+3, 15+1 L4 +1 L8), Cha 12 (+1, 14-2 racial)
+**HD/hp:** 8d8+24, **hp 60** (8+4x7 +24) | **Init** +0 | **Speed** 20 ft
+**AC** 20 (+7 +1 full plate is 2,650 — +1 half-plate +7, +2 +1 heavy shield: AC 20), touch 10, flat 20
+**BAB/Grapple** +6/+8 | **Attack** +1 warhammer +9/+4 (1d8+3/x3) | **SA:** Turn undead 3/day | **SQ:** Dwarf traits, domains Artifice and Protection
+**Space/Reach** 5 ft/5 ft
+**Saves** Fort +9, Ref +2, Will +9
+**Skills:** Craft (armoursmithing) +10, Craft (alchemy) +8, Heal +10, Knowledge (religion) +9, Concentration +11, Diplomacy +6
+**Feats:** Brew Potion [1], Craft Magic Arms and Armour [3], Power Attack [6]
+**Spells prepared (6/5+1/5+1/4+1/3+1; DC 13+lvl):** 1st: *bless, cure light x2, divine favour, protection from evil, sanctuary(D)*; 2nd: *aid, bull's strength, cure moderate x2, lesser restoration, shield other(D)*; 3rd: *cure serious, dispel magic, prayer, magic vestment(D)*; 4th: *cure critical, divine power, restoration, minor creation(D)*. **No summoning.**
+**Gear (~9,300 gp):** +1 half-plate, +1 heavy shield, +1 warhammer, wand *cure light* (40 ch), steam-assist armour rig (flavour apparatus maintaining plate), anvil holy symbol, 110 gp.
+**Steampunk aesthetic:** Forge-priest in full: steam-assist armour rig with hissing shoulder valves, an anvil holy symbol that doubles as a wrench, brass goggles resting on his helm, and his gear tattoo disappearing under soot worked permanently into the skin.
+**Appearance:** Forge-burnt beard tips, Gond gear tattoo covering one forearm, carries his own anvil-stone.
+**Traits/Voice:** Bellows in the forge, whispers in the temple. *"Gond provides. Then we provide."*
+**Motivation:** Re-arm the Watch with Gond-work before the enclaves out-build it. **Secret:** Accepted Kingdom onyx as payment once, in a famine month; the ledger page is burned, the guilt is not.
+**Background:** House of Inspired Hands, Bastion war-priest engineer.
+**DM Hook:** Crafting patron, arms-race quests, turn-undead muscle with a conscience hook.
+
+---
+
+## Durgan Stonevein — CR 10 — NPCs — ALL-150 (Shaun's cast)
+
+![Durgan Stonevein](pictures/durgan-stonevein.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+50. Durgan Stonevein — Dwarf Druid 10, N
+
+![Durgan Stonevein](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/durgan-stonevein.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/durgan-stonevein.jpg)
+
+**Abilities:** Str 13, Dex 12, Con 17 (14+2 racial+1 lvl), Int 10, Wis 19 (15+2 lvl+2 periapt), Cha 8 (10–2 racial). **HD** 10d8+30; **hp** 78. **Init** +1; **Speed** 20 ft. **AC** 20 (+7 *+1 dragonhide plate (ironwood plate equivalent)*, +1 Dex, +2 *+1 heavy wooden shield*), touch 11, flat 19. **BAB/Grapple** +7/+8. **Attack:** *+1 club / shillelagh* +9 (1d6+2). **SA/SQ:** Wild shape 3/day (Large), venom immunity, woodland stride, trackless step, animal companion — resident cave bear (not summoned), nature sense. **Spontaneous casting: does NOT convert to *summon nature's ally* (APOC ban); converts to *cure* spells of equal level (APOC house adaptation).** **Saves:** Fort +10, Ref +4, Will +11. **Skills:** Survival +17, Knowledge (nature) +13, Heal +15, Listen +13, Spot +13, Handle Animal +9. **Feats:** Track, Natural Spell, Augment Healing, Craft Wand, Endurance.
+**Equipment (16,000 gp):** *periapt of wisdom +2* (4,000), *+1 ironwood plate* (3,000), *+1 heavy wooden shield* (1,157), *cloak of resistance +1* (1,000), *wand of cure moderate wounds* (4,500, 50 charges), alchemical blight-salves, holly focus, 500 gp.
+**Druid spells prepared (6/5/5/4/3/2; DC 14+level):** 0—*create water, detect poison, guidance, mending, purify food, resistance*; 1st—*cure light wounds ×2, entangle, longstrider, goodberry*; 2nd—*barkskin, cure moderate wounds, flame blade* (alchem-lamp augmented), *lesser restoration, warp wood*; 3rd—*cure serious wounds, stone shape, poison, call lightning* (storm-coil tower augmented only — otherwise unprepared); 4th—*cure critical wounds, dispel magic, freedom of movement*; 5th—*wall of stone, cure light mass*. No SNA.
+**Size/Type:** Medium humanoid (dwarf); **Space/Reach:** 5 ft./5 ft.
+**Steampunk aesthetic:** A warden's practical iron: ironwood plate strapped with riveted leather and iron bands, alchemical salve-pots riding in a bandolier of copper tubes, and tiny iron seed-vault tags threaded through his beard moss. His hobnailed boots are caked with blight-mud, and a storm-coil lantern hangs unlit at his belt unless he is working.
+**Appearance/Personality:** Moss in beard (deliberately cultivated blight-sample), bear-claw scars. Patient as geology, furious at waste. **Voice:** names the year a tree fell before answering. **Motivation:** find land that recovers from blight — a true Remnant seed-vault site. **Secret/Flaw:** his seed vault location is written in his bear's collar — and the bear wanders. **Background:** Remnants warden of the Bastion's ration farms. **DM Hook:** the bear is missing; so, therefore, is the vault.
+
+---
+
+## LEVEL 11
+
+---
 
 ## Eagle — CR 0.5 — Monster Manual I
 
@@ -3115,6 +3084,36 @@ Eloko — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 ---
 
+## Elowen Thistledown — CR 20 — NPCs — ALL-150 (Shaun's cast)
+
+![Elowen Thistledown](pictures/elowen-thistledown.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+96. Elowen Thistledown — Elf Wizard 15 / Archmage 5 — HEROIC LEGEND
+
+![Elowen Thistledown](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/elowen-thistledown.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/elowen-thistledown.jpg)
+
+**Alignment:** NG · **Faction:** Bastion — Warden of the Seal
+**Abilities:** Str 8 (−1), Dex 16 (+3, 13 +2 racial +1 level), Con 14 (+2, 14 base −2 racial + *belt of health +2*), Int 28 (+9, 15 base +5 level [4/8/12/16/20] + *headband of intellect +6* + *tome of clear thought +2* inherent), Wis 14 (+2), Cha 12 (+1)
+**HD/HP:** 20d4; 4 + (19 × 2.5, averaged down) + 40 = **91 hp** · **Init:** +7 · **Speed:** 30 ft.
+**AC:** 24, touch 16, flat-footed 21 (+3 Dex, +6 *bracers of armour +6*, +3 *ring of protection +3*, +2 *amulet of natural armour +2*)
+**BAB/Grapple:** +10 / +9 · **Attack:** masterwork dagger +10 melee (1d4−1) or masterwork light crossbow +14 ranged (1d8)
+**Full Attack:** +10/+5 · **Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** spells, Archmage high arcana: mastery of shaping, mastery of elements, spell power +2, arcane reach, mastery of counterspelling (5 abilities, each costing a spell slot as per the Archmage table — slots already reflected in the prepared counts below)
+**Special Qualities:** elf traits, familiar (cat, real, very old)
+**Saves:** Fort +11 (base 6 +2 Con +3 *cloak of resistance +3*), Ref +12 (base 6 +3 Dex +3), Will +18 (base 13 +2 Wis +3)
+**Skills:** Concentration +25 (23), Decipher Script +32 (23), Knowledge (arcana) +32 (23), Knowledge (history) +32 (23), Knowledge (the planes) +27 (18, theory), Spellcraft +34 (23 +2 synergy), Spot +14 (12)
+**Feats:** Archmage prerequisites: Skill Focus (Spellcraft), Spell Focus (two schools — evocation, abjuration). Build: Scribe Scroll (Wizard 1), Skill Focus (Spellcraft) (1), Spell Focus (evocation) (3), Quicken Spell (Wizard 5), Spell Focus (abjuration) (6), Craft Wondrous Item (9), Spell Penetration (12), Empower Spell (Wizard 10), Greater Spell Penetration (15), Spell Focus (transmutation) (18), Maximise Spell (Wizard 15 bonus).
+**Kit (220,000 gp):** *tome of clear thought +2* (55,000), *headband of intellect +6* (36,000), *bracers of armour +6* (36,000), *rod of metamagic (empower, normal)* (32,500), *ring of protection +3* (18,000), alchemical elemental crown-rig (10,000, her own design, the Bastion's casters copy it), *cloak of resistance +3* (9,000), *amulet of natural armour +2* (8,000), *belt of health +2* (4,000), spellbooks (three, oilskin, mundane), masterwork dagger and masterwork light crossbow, and 11,500 gp in coin and gems.
+**Spells Prepared (4/6/6/6/6/6/5/5/5/5; DC 19 + level, +1 evocation/abjuration/transmutation, +2 spell power on her two signature spells):** 0—*detect magic, light, mending, read magic*; 1st—*feather fall, grease, mage armour, magic missile, shield, true strike*; 2nd—*fox's cunning, invisibility, knock, resist energy, scorching ray (aug.), see invisibility*; 3rd—*dispel magic, fireball (aug.), fly, haste, protection from energy, slow*; 4th—*enervation, greater invisibility, ice storm (aug.), scrying, stoneskin, wall of fire (aug.)*; 5th—*baleful polymorph, cone of cold (aug.), dominate person, hold monster, telepathic bond, wall of force*; 6th—*antimagic field, chain lightning (aug.), disintegrate, greater dispel magic, true seeing*; 7th—*finger of death, forcecage, greater scrying, prismatic spray (aug.), spell turning*; 8th—*horrid wilting, irresistible dance, moment of prescience, protection from spells, sunburst*; 9th—*foresight, meteor swarm (aug., mastery of elements can convert it), shapechange, time stop, wish* (prepared only on days the Seal is threatened — and everyone in the Bastion knows what day that would be).
+**Her active spellbook contains no severed spells. Her pre-calamity teleport and summoning pages are preserved, sealed, in the Font — as history, not as weapons.**
+**Steampunk aesthetic:** Fog-grey robes embroidered with copper thread in the gear-and-circuit patterns of her own crown-rig, brass astrolabe fittings and focusing rings worn as a warden's regalia, and a hooded amber lamp-amulet — the Bastion's casters copy the look as faithfully as the design.
+**Appearance:** Ancient elf, hair the colour of the Fog itself, robes embroidered with a star-chart of a sky no living child has seen. **Traits:** Gentle, absolute, teaches constantly. **Voice hook:** Soft, amused, devastating; "I was old when your language was young. Continue." **Motivation:** The Seal on the scarred crystal sphere holds. She is part of the Seal — literally (see Secret). **Secret/Flaw:** Her *tome*-enhanced mind is a load-bearing part of the Bastion's warding lattice; if she dies, a section of the Melairshield fails within the hour. Only Bormin Flint and Dagna Stoneveil know. **Background:** She watched the sphere scar over. She has spent the centuries since making sure the scar never reopens. **DM Use:** The campaign's ultimate arcane ally — and a single point of failure the villains would pay kingdoms to learn about.
+
+---
+
 ## Ethergaunt, Black — CR 17 — Fiend Folio
 
 ![Ethergaunt, Black](pictures/ethergaunt-black.png)
@@ -3202,6 +3201,58 @@ Source book(s): Monsternomicon Vol. 1
 Description: The farrow are half-man, half-boar creatures that have the intelligence and wit of a man and the ferocity and tenacity of a boar. A typical farrow stands at about the height of a man but walks with a stooped posture giving it a shorter appearance. Its body is covered with bristly dark hairs over similarly dark skin. Its arms end in mannish hands, and its feet end in the cloven hooves found among common barnyard swine. The face is a strange mockery of human and boar: two surprisingly human-looking eyes set behind a large pig snout and enormous tusks jutting from the thing's mouth.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
+## Fenwick Aldous — CR 7 — NPCs — ALL-150 (Shaun's cast)
+
+![Fenwick Aldous](pictures/fenwick-aldous.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+32. Fenwick Aldous — Halfling Rogue 7, N
+
+![Fenwick Aldous](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/fenwick-aldous.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/fenwick-aldous.jpg)
+
+**Abilities:** Str 10 (12-2), Dex 18 (+4, 15+2+1 L4), Con 13 (+1), Int 14 (+2), Wis 10, Cha 12 (+1)
+**HD/hp:** 7d6+7, **hp 31** (6+3x6 +7) | **Init** +4 | **Speed** 20 ft
+**AC** 19 (+4 Dex, +1 size, +4 +1 chain shirt), touch 15, flat 15
+**BAB/Grapple** +5/+1 | **Attack** +1 short sword +8 (1d4+1) or hand crossbow +10 (1d3) | **SA:** Sneak +4d6, evasion, improved uncanny dodge, trap sense +2
+**Space/Reach** 5 ft/5 ft
+**Saves** Fort +3, Ref +10, Will +3
+**Skills:** Bluff +11, Diplomacy +9, Forgery +12, Gather Information +11, Hide +16, Move Silently +14, Open Lock +14, Disable Device +12, Appraise +10
+**Feats:** Weapon Finesse [1], Stealthy [3], Persuasive [6]
+**Gear (~7,000 gp):** +1 chain shirt, +1 short sword, gloves of Dexterity +2 is 4,000 — over combined; drop sword to mwk, keep gloves: total ~6,800 with mwk thieves' tools, disguise kit, forged papers for 3 identities, potion *invisibility* x2, 210 gp in mixed cheqs.
+**Steampunk aesthetic:** Colour-matched waistcoats with hidden cog-turned pockets, copper-rimmed spectacles, a pocket chronometer with one hand too many, and a flat brass forgery press in his valise; his ink smells of machine oil.
+**Appearance:** Ageless, smiling, waistcoats colour-matched to whichever guild he is visiting.
+**Traits/Voice:** Purrs, flatters, never writes anything down — except forgeries.
+**Motivation:** Retire to a fog-ward villa on other people's secrets. **Flaw:** Cannot resist forging one document too many.
+**Background:** Merchants' Guild "expediter"; Pell Underbough's customer and patron.
+**DM Hook:** Can get PCs papers, goods, or trouble — prices scale with desperation.
+
+---
+
+## Fenwick Loam — CR 12 — NPCs — ALL-150 (Shaun's cast)
+
+![Fenwick Loam](pictures/fenwick-loam.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+60. Fenwick Loam — Gnome Wizard 7 (Transmuter) / Loremaster 5, NG — Master Alchemist
+
+![Fenwick Loam](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/fenwick-loam.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/fenwick-loam.jpg)
+
+**Abilities:** Str 6 (8–2), Dex 13, Con 16 (14+2 racial), Int 21 (incl. *headband of intellect +2*), Wis 12, Cha 10. **HD** 12d4+36; **hp** 70 (includes Loremaster Secret Health +3). **Init** +1; **Speed** 20 ft. **AC** 16 (+1 Dex, +1 size, +4 *mage armor*), touch 12, flat 15. **BAB/Grapple** +6/–1. **Attack:** masterwork dagger +4 (1d3–2). **SA/SQ:** Loremaster secrets (Secret Health, Applicable Knowledge), Lore +11, greater lore, barred schools Enchantment/Necromancy (transmuter). **Saves:** Fort +7, Ref +5, Will +11. **Skills:** Craft (alchemy) +22, Knowledge (arcana) +20, (nature) +18, (geography) +16, Spellcraft +20, Concentration +16, Decipher Script +16, Appraise +14. **Feats:** Scribe Scroll, Skill Focus (Alchemy), Skill Focus (Knowledge arcana), Brew Potion, Craft Wondrous Item, Craft Magic Arms and Armour (Loremaster secret feat, via Applicable Knowledge), Extend Spell. *Loremaster prereqs met.*
+**Equipment (27,000 gp):** *headband of intellect +2* (4,000), *cloak of resistance +3* (9,000), *bracers of armour +2* (4,000 — worn when *mage armor* down: AC 14 base), portable alchemy lab (masterwork, steam-fired, 1,500), *wand of magic missile* CL7 (5,250), stock of alchemist's fire/acid/thunderstones (1,000), *potions* assorted, spellbooks ×2 (oilskin, non-extra-dimensional), 900 gp in guild cheqs.
+**Wizard spells prepared (4/6/5/5/4/3/2; DC 15+level, Transm +1 slot):** 0—*detect magic, mending, prestidigitation, read magic*; 1st—*mage armor, identify, comprehend languages, feather fall, grease, expeditious retreat*; 2nd—*web, bull's strength, cat's grace, fox's cunning, pyrotechnics* (alchem-aug); 3rd—*haste, dispel magic, gaseous form, shrink item, slow*; 4th—*stone shape, polymorph, greater invisibility, wall of ice* (cryo-alchemy); 5th—*telekinesis, wall of stone, transmute mud to rock*; 6th—*disintegrate, greater dispel magic*. No summon spells — his first spellbook page is a signed oath against them.
+**Size/Type:** Small humanoid (gnome); **Space/Reach:** 5 ft./5 ft.
+**Steampunk aesthetic:** A walking still-room: a waistcoat of brass-buttoned pockets, goggles with flip-down alchemy lenses layered over the first pair, and every bottle on his person corked, copper-labelled, and hung from a riveted bandolier. His coat tails are singed in a neat gradient, and the cinnamon masking scent arrives a full second before he does.
+**Appearance/Personality:** Flour-white eyebrows (bleached by fumes), gloves colour-coded by acid strength, smells faintly of cinnamon (masking agent). Absent-minded about people, fanatical about process. **Voice:** labels emotions like reagents — "Ah. Concern, two drams." **Motivation:** an alchemical substitute for *every* common spell effect, so common folk need no blighting magic at all. **Secret/Flaw:** his famous blight-neutralising powder is 40% effective at best; guild sales literature says 90% — he signed it. **Background:** Guild of Apothecaries, Physicians & Alchemists guildmaster; Freeman Clinic supplier. **DM Hook:** hires party to field-test the powder at a real blight site — results will embarrass or vindicate him publicly.
+
+---
+*Batch 3 complete: 20 NPCs, levels 9–12. Prestige classes: Loremaster ×2, Assassin, Arcane Archer, Mystic Theurge, Duelist, Shadowdancer, Eldritch Knight (8). LA/ECL builds: Tiefling +1, Half-Dragon +3, Vampire +8 (3). No summoning, no extra-dimensional magic, no planar travel anywhere in the batch.*
+
+---
+
 ## Fiendish Cleric of Yeenoghu — CR 4 — Monster Manual IV
 
 ![Fiendish Cleric of Yeenoghu](pictures/fiendish-cleric-of-yeenoghu.png)
@@ -3287,47 +3338,6 @@ Flameskulls speak Common, Draconic, Infernal, and one or two ancient languages n
 **Alignment:** Always lawful evil
 **Advancement:** 5–8 HD (Tiny)
 
-## Force Golem — CR 4 — Monster Manual V
-
-![Force Golem](pictures/force-golem.png)
-
-*Picture: Constructs roster picture index: Official book art — Monster Manual V, p. 69 (captioned)*
-
-**Partial — fullest block on file:**
-
-FORCE GOLEM — CR 4
-
-Usually N Large construct
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; Listen +2, Spot +3
-**Languages** Common, Terran
-**AC** 18, touch 16, flat-footed 15 (–1 size, +3 Dex, +4 deflection, +2 natural)
-**hp** 52 (4 HD); **DR** 5/adamantine
-**Immune** construct immunities, magic
-**Resist** sonic 10
-**Fort** +1, **Ref** +6, **Will** +1
-**Weakness** force vulnerability
-**Speed** 30 ft. (6 squares)
-**Melee** 2 slams +6 each (1d8+4)
-**Ranged** pulse +5 ranged touch (knock back)
-**Space** 10 ft.; **Reach** 10 ft.
-**Base Atk** +3; **Grp** +11
-**Atk Options** Point Blank Shot
-**Special Actions** force burst, force reactive
-**Abilities** Str 19, Dex 16, Con —, Int 12, Wis 10, Cha 14
-**SA** force burst, force reactive, pulse
-**SQ** construct traits
-**Feats** Improved Initiative, Point Blank Shot
-**Skills** Balance +8, Jump +11, Listen +2, Spot +3, Tumble +9
-**Advancement** 5–10 HD (Large); 11–15 HD (Huge)
-
-**Immunity to Magic (Ex)** A force golem is immune to spells and spell-like abilities that allow spell resistance. This immunity does not extend to force effects.
-**Force Vulnerability (Ex)** Force effects deal half again as much (+50%) damage to a force golem.
-**Force Burst (Su)** Once every 3 rounds, a force golem can create a 30-foot-radius burst of force centered on itself. Creatures in the area take 2d6 points of damage and are knocked prone. Those who succeed on a DC 14 Reflex save take half damage and remain standing. Force golems are immune to this ability. The save DC is Charisma-based.
-**Force Reactive (Su)** Whenever an opponent attacks and misses a force golem with a melee attack, the force golem can turn the kinetic energy of the attack back on the attacker as an immediate action. The attacker is pushed 5 feet into an empty square of the force golem's choice. This movement does not provoke attacks of opportunity.
-**Pulse (Sp)** A force golem can target any corporeal opponent within 60 feet with a ranged touch attack. If the force golem hits, it and its target make opposed Strength checks. If the force golem wins the opposed check, the opponent is pushed 10 feet in a direction of the golem's choice and falls prone in the square it ends up in. This movement does not provoke attacks of opportunity. A force golem can push an opponent only in a straight line, and it cannot push an opponent closer to it than the square that foe started in. If an intervening obstacle prevents the opponent from being pushed 10 feet, the foe and the obstacle each take 1d6 points of damage. The opponent then falls prone in the square it was in before striking the obstacle. Any feat or special ability that grants a bonus on resisting bull rush attempts (such as a dwarf's stability) applies to this opposed Strength check.
-
-Force golems are imbued with the power to manipulate kinetic energy and raw force. They can turn opponents' attacks back against them and knock foes flying with a thought.
-
 ## Forest Haunt — CR 10 — Monster Manual V
 
 ![Forest Haunt](pictures/forest-haunt.png)
@@ -3361,6 +3371,35 @@ FOREST HAUNT — Monster Manual V, p.80
 - **Alignment:** Usually neutral evil (prose: "Forest haunts are usually neutral evil, although a rare few might hold onto the goodness they had in life.")
 - **Environment (prose, p.81):** "Forest haunts lurk in ancient groves. They also drift into logging camps, where they can slaughter those who defile the wild places."
 - **Description:** "A shimmering form emerges from the woods, looking like a dead tree with purplish-green veins of sap winding across its surface. It crashes its way forward as if moving large obstacles from its path, but it glides through all such impediments as if they were mere illusions."
+
+## Forge Father — CR 20 — NPCs — ALL-150 (Shaun's cast)
+
+![Forge Father](pictures/forge-father.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+97. Forge Father — Warforged Artificer 20 — HEROIC LEGEND, FIRST-MADE
+
+![Forge Father](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/forge-father.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/forge-father.jpg)
+
+**Alignment:** NG · **Faction:** Free Warforged — their elder and maker-of-makers
+**Abilities:** Str 16 (+3), Dex 12 (+1), Con 18 (+4, 14 base +2 racial + *embedded health core +2*), Int 26 (+8, 15 base +5 level + *headband of intellect +6*), Wis 15 (+2, 13 base −2 racial + *periapt of wisdom +4*), Cha 12 (+1, 10 base −2 racial + *cloak of charisma +4*)
+**HD/HP:** 20d6; 6 + (19 × 3.5, averaged down) + 80 = **152 hp** · **Init:** +1 · **Speed:** 30 ft.
+**AC:** 27, touch 13, flat-footed 26 (+1 Dex, +9 mithral body plating with *+4 enhancement*, +5 *+3 heavy steel shield*, +2 *ring of protection +2*)
+**BAB/Grapple:** +15 / +18 · **Attack:** *+4 warhammer* +22 melee (1d8+7/x3) or masterwork repeating heavy crossbow +17 ranged (1d10/19–20)
+**Full Attack:** +22/+17/+12 · **Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** infusions 6th level, metamagic spell trigger/completion at full artificer progression
+**Special Qualities:** living construct traits (as Anvil-7), item creation (all Craft feats via class), craft reserve (max), retain essence, skill mastery (UMD, Spellcraft, Disable Device, Craft), artificer knowledge
+**Saves:** Fort +13 (base 6 +4 Con +3 *vest of resistance +3*), Ref +10 (6 +1 +3), Will +17 (base 12 +2 Wis +3)
+**Skills:** Appraise +31 (23), Concentration +27 (23), Craft (alchemy) +35 (23 + apparatus), Craft (armoursmithing) +31 (23), Craft (sculpting) +31 (23), Disable Device +31 (23), Knowledge (arcana) +31 (23), Search +31 (23), Spellcraft +33 (23), Use Magic Device +27 (23 +1 Cha +3 Skill Focus)
+**Feats:** Class-granted item creation: Scribe Scroll, Brew Potion, Craft Wondrous Item, Craft Magic Arms and Armour, Craft Wand, Craft Rod, Craft Staff, Forge Ring, Craft Construct. Character feats (7): 1 Mithral Body (his body feat — his plating is a unique mithral-adamantine alloy, cost accounted in kit), 3 Skill Focus (UMD), 6 Extraordinary Artisan, 9 Legendary Artisan, 12 Wand Mastery, 15 Exceptional Artisan, 18 Twin Spell (for metamagic trigger).
+**Kit (213,700 gp, including a 22,518 gp foundry endowment he holds for his people):** *headband of intellect +6* (36,000), *+4 warhammer* (32,312), charged *staff of repair* (custom charged item built on the *total repair* infusion, 30,000), plating enhancement +4 (16,000), *periapt of wisdom +4* (16,000), *cloak of charisma +4* (16,000), *+3 heavy steel shield* (9,170), *vest of resistance +3* (9,000), embedded health core (+2 Con, slotless component, 8,000), *ring of protection +2* (8,000), portable forge-wagon (mundane, horse-drawn, NOT extra-dimensional; 8,000), masterwork repeating heavy crossbow (700), the First Forge tools (masterwork, priceless to his people, 2,000 gp material), foundry endowment (22,518).
+**Infusions (6/6/6/6/5/5 per day):** The full artificer list, with *minor creation/major creation* equivalents (conjuration (creation)) used for mundane matter only.
+**Steampunk aesthetic:** The original article — slender mithral-adamantine plating engraved with thousands of names, jeweller-articulated fingers of brass and steel, a deep amber boiler-heart glow at his chest, and his forge-wagon behind him: chimney, bellows and riveted iron, drawn through the Fog like a travelling foundry.
+**Appearance:** Slender for a warforged, fingers articulated like a jeweller's tools, faceplate engraved — by his own hand, over centuries — with the names of every warforged he has repaired. There are thousands of names. He has started on the back. **Traits:** Patient beyond human scale, asks consent before repairing anyone, weeps (silently, without tears) at births of new warforged. **Voice hook:** Warm, precise, old; "You are not broken. You are *unfinished*. There is a difference, and it matters." **Motivation:** Every warforged is a person. He will spend eternity proving it, one repair at a time. **Secret/Flaw:** He remembers his makers — all of them, by name, including the one who built him as a *proof of concept for disposable soldiers*. He has forgiven all of them except that one, and the unforgiven one is long dead, which he finds unforgivable in itself. **Background:** Among the first warforged ever activated in this region; pre-dates the Bastion; taught Bormin Flint's master. **DM Use:** Warforged soul of the campaign, ultimate crafter, and a living archive who remembers the world *before* — ask him anything, and price the answer in stories.
+
+---
 
 ## Gadacro — CR 3 — Monster Manual V
 
@@ -3424,6 +3463,16 @@ Challenge Rating: 4
 Source book(s): Monster Manual I
 Description: These cousins of the gargoyle have the aquatic subtype. They have a base land speed of 40 feet and a swim speed of 60 feet (no fly speed) and are found only in aquatic environments.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Gate Queue — Citizens at the Wall — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
+
+![Gate Queue — Citizens at the Wall](pictures/gate-queue.jpg)
+
+*Picture: Scene art — the Bastion from its walls (Shaun's Bastion map art)*
+
+**Partial — fullest block on file:**
+
+Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
 ## Gear Wyrm — CR 6 — Monsternomicon Vol. 1
 
@@ -3824,20 +3873,6 @@ Source book(s): Monster Manual I
 Description: They are the smallest of all the gnomes, averaging 2 to 2½ feet in height, but look just like regular gnomes except with bark-colored or gray-green skin, and eyes that can be brown or green as well as blue. A very long-lived people, forest gnomes have an average life expectancy of 500 years.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Golem, Brass — CR 10 — Monster Manual II
-
-![Golem, Brass](pictures/golem-brass.png)
-
-*Picture: Constructs roster picture index: Official book art — Monster Manual II, p. 117 — shared golem scene; brass figure cropped from the left; full scene also filed as golem-plate-mm2-p117.png*
-
-**Partial — fullest block on file:**
-
-Type: Large Construct
-Challenge Rating: 10
-Source book(s): Monster Manual II
-Description: A brass golem exists to fulfill one goal, set at the time of its creation. It waits with absolute patience until activated, then it becomes a terrible instrument of destruction. If its goal becomes unattainable—for example, if it was created to guard a temple that no longer exists—the brass golem loses its enchantment entirely and becomes nothing more than a statue. A brass golem is most often forged to resemble a minotaur. Until activated, it appears as a large, brass statue armed with a gleaming greataxe.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Golem, Demonflesh — CR 18 — Fiend Folio
 
 ![Golem, Demonflesh](pictures/golem-demonflesh.png)
@@ -3873,34 +3908,6 @@ The ultimate example of fiendish grafting (see Appendix 2), the demonflesh golem
 A demonflesh golem bears a superficial resemblance to a flesh golem. Its overall form is humanoid, with the addition of a pair of membranous wings and a long, thin tail. Its left arm is muscular and sinewy, with a large, clawed hand, while its right arm is more slender and ends in a heavy, bony hand. Its right leg is long and agile, while its left is thicker and heavier. Despite having a pronounced limp, the creature moves quickly and can climb and jump with remarkable ease. One eye is bright red and has a black iris, while the other is yellow with no visible iris, but it has a pupil shaped like a cat's.
 Unlike most golems, a demonflesh golem is reasonably intelligent, and it speaks and understands Abyssal.
 
-## Golem, Iron — CR 13 — Monster Manual I
-
-![Golem, Iron](pictures/golem-iron.png)
-
-*Picture: Monster library art — Monster Manual I*
-
-**Partial — fullest block on file:**
-
-Type: Large Construct
-Challenge Rating: 13
-Source book(s): Monster Manual I
-Description: This golem has a humanoid body made from iron. An iron golem can be fashioned in any manner, just like a stone golem (see below), although it almost always displays armor of some sort. Its features are much smoother than those of a stone golem. Iron golems sometimes carry a short sword in one hand. An iron golem is 12 feet tall and weighs about 5,000 pounds. An iron golem cannot speak or make any vocal noise, nor does it have any distinguishable odor. It moves with a ponderous but smooth gait. Each step causes the floor to tremble unless it is on a thick, solid foundation.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
-## Golem, Stone — CR 11 — Monster Manual I
-
-![Golem, Stone](pictures/golem-stone.jpg)
-
-*Picture: Monster library art — Monster Manual I*
-
-**Partial — fullest block on file:**
-
-Type: Large Construct
-Challenge Rating: 11
-Source book(s): Monster Manual I
-Description: This golem has a humanoid body made from stone. A stone golem is 9 feet tall and weighs around 2,000 pounds. Its body is frequently stylized to suit its creator. For example, it might look like it is wearing armor, with a particular symbol carved on the breastplate, or have designs worked into the stone of its limbs.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Gorgon — CR 8 — Monster Manual I
 
 ![Gorgon](pictures/gorgon.jpg)
@@ -3914,6 +3921,25 @@ Challenge Rating: 8
 Source book(s): Monster Manual I
 Description: A typical gorgon stands over 6 feet tall at the shoulder and measures 8 feet from snout to tail. It weighs about 4,000 pounds. Gorgons are nothing if not aggressive. They attack intruders on sight, attempting to trample, gore, or petrify them. There is no way to calm these furious creatures, and they are impossible to domesticate.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Grath Ironjaw — CR 9 — NPCs — ALL-150 (Shaun's cast)
+
+![Grath Ironjaw](pictures/grath-ironjaw.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+42. Grath Ironjaw — Dwarf Fighter 9, LN
+
+![Grath Ironjaw](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/grath-ironjaw.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/grath-ironjaw.jpg)
+
+**Abilities:** Str 17 (15+2 belt), Dex 13, Con 16 (14+2 racial), Int 12, Wis 10, Cha 8 (10–2 racial). **HD** 9d10+27; **hp** 81 (10+8×5.5+27). **Init** +1; **Speed** 20 ft. **AC** 22 (+9 *+1 full plate*, +1 Dex, +2 *+1 heavy steel shield*), touch 11, flat 21. **BAB/Grapple** +9/+12. **Full Attack:** *+1 warhammer* +14/+9 (1d8+6/x3), shield bash +11 (1d4+3). **SA/SQ:** Dwarf traits, stability, stonecunning, darkvision 60 ft. **Saves:** Fort +9, Ref +4, Will +3 (+2 vs poison/spells). **Skills:** Craft (weaponsmithing) +15, Craft (armorsmithing) +13, Intimidate +7, Climb +7. **Feats:** Weapon Focus/Specialisation (warhammer), Power Attack, Cleave, Improved Sunder, Endurance, Diehard, Iron Will, Improved Bull Rush.
+**Equipment (12,000 gp):** *+1 full plate* (2,650), *+1 heavy shield* (1,170), *+1 warhammer* (2,312), *belt of giant strength +2* (4,000), masterwork smith's tools, *potion of bull's strength*, 700 gp guild cheqs.
+**Size/Type:** Medium humanoid (dwarf); **Space/Reach:** 5 ft./5 ft.
+**Steampunk aesthetic:** Forge-iron all through: beard rings stamped like gear-teeth, a quench-oil-blackened apron over riveted leather, and copper wire wound down his hammer haft. His steel-toed boots are coal-scuffed, and the riveted plate in his jaw ticks faintly when he chews.
+**Appearance/Personality:** Braided iron-grey beard with steel rings, jaw rebuilt with a riveted plate after a press accident. Blunt, fair, counts everything twice. **Voice:** "Aye. Measured. Marked. Done." **Motivation:** keep Bastion's forges fed and its smiths union-strong. **Secret/Flaw:** has been quietly buying demon-forged steel and re-stamping it — superior metal, treasonous source. **Background:** Most Careful Order guildmaster; runs the Anvil night shift, pays warforged smiths full rate (scandalous). **DM Hook:** offers masterwork commissions, then begs help when a re-stamped blade is recognised by its demon maker.
+
+---
 
 ## Gravetouched Ghoul Harpy — CR 5 — Libris Mortis
 
@@ -3950,20 +3976,6 @@ Type: Large Magical Beast
 Challenge Rating: 8
 Source book(s): Monster Manual II
 Description: A gravorg is a carnivorous predator that lairs underground. These monsters are only rarely encountered in the wilderness; they tend to move from cave to cave or dungeon to dungeon in search of prey.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
-## Greater Shadesteel Golem — CR 14 — Monster Manual III
-
-![Greater Shadesteel Golem](pictures/greater-shadesteel-golem.png)
-
-*Picture: APOC-VTT monster library art — Monster Manual III*
-
-**Partial — fullest block on file:**
-
-Type: Large Construct (Extraplanar)
-Challenge Rating: 14
-Source book(s): Monster Manual III
-Description: A greater shadesteel golem stands 11 feet tall and weighs about 4,000 pounds.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
 ## Greenspawn Leaper — CR 2 — Monster Manual IV
@@ -4135,20 +4147,6 @@ GROANING SPIRIT                                                        Advanceme
 
 ---
 
-## Guttersnipe — CR 5 — Monster Manual II
-
-![Guttersnipe](pictures/guttersnipe.png)
-
-*Picture: APOC-VTT monster library art — Monster Manual II*
-
-**Partial — fullest block on file:**
-
-Type: Medium Construct
-Challenge Rating: 5
-Source book(s): Monster Manual II
-Description: Guttersnipes are most prevalent around settlements of dwarves, gnomes, and halflings. They form from worn-out and discarded adventuring and construction gear. A guttersnipe appears as a whirling mound of frayed rope, worn leather pieces, strings, belts, and swatches of cloth. Within this mass of material is a core made of small gems, bits of glass, and glitter. Guttersnipes are content to lie in wait for suitable hosts. They save their glitterdust ability to dazzle foes when they need to escape.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Hag, Annis — CR 6 — Monster Manual I
 
 ![Hag, Annis](pictures/hag-annis.jpg)
@@ -4272,34 +4270,6 @@ HAUNT
                           temporarily returns to normal) and attempts to
                           complete its unfinished task.
 
-## Hawk — CR 0.333333 — Monster Manual I
-
-![Hawk](pictures/hawk.jpg)
-
-*Picture: Monster library art — Monster Manual I*
-
-**Partial — fullest block on file:**
-
-Type: Tiny Animal
-Challenge Rating: 1/3
-Source book(s): Monster Manual I
-Description: These creatures are similar to eagles but slightly smaller: 1 to 2 feet long, with wingspans of 6 feet or less.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
-## Hellfire Engine — CR 19 — Fiendish Codex II
-
-![Hellfire Engine](pictures/hellfire-engine.png)
-
-*Picture: APOC-VTT monster library art — Fiendish Codex II*
-
-**Partial — fullest block on file:**
-
-Type: Huge construct
-Challenge Rating: 19
-Source book(s): Fiendish Codex II
-Description: This automaton thunders forward, its metal plates shrieking with each step, looking like an armored giant. Through the gaps at its joints you can see the white-hot light of some inferno raging within. Its head is terrifying, wrought to appear like a bearded man with the horns of a stag, its mouth opened impossibly wide.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Hellfire Golem — CR 17 — Fiend Folio
 
 ![Hellfire Golem](pictures/hellfire-golem.png)
@@ -4333,6 +4303,26 @@ HELLFIRE GOLEM [3.0-format as published]
 
 A hellfire golem is a construct from the infernal planes that is crafted by devils for sheer destructive and pyromaniac delight. It appears as a towering humanoid creature that seems to be formed of brilliant lava covered with a crumbling black crust. Flames leap out from the cracks in its crusty skin and wreathe its body in infernal fire.
 Unlike most golems, a hellfire golem is reasonably intelligent, and it speaks and understands Infernal.
+
+## Helve Urtrace — CR 14 — NPCs — ALL-150 (Shaun's cast)
+
+![Helve Urtrace](pictures/helve-urtrace.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+144. Helve Urtrace — Human Fighter 14, LN
+
+![Helve Urtrace](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/helve-urtrace.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/helve-urtrace.jpg)
+
+**Tracker status (as-is):** "Senior Armsmaster, City Watch"
+**Tracker detail:** Senior Armsmaster and senior commander of the City Watch under Captain Rulathon.
+**Abilities:** Str 18 (+4; 15 +1 level +2 gauntlets), Dex 14 (+2), Con 16 (+3; 14 +2 amulet — amulet of health +2, belt slot free), Int 12 (+1), Wis 13 (+1), Cha 10 (+0). **HD** 14d10+42; **hp** 117 (10 +13×5 +42). **Init** +6; **Speed** 20 ft (armour). **AC** 24 (+9 *+1 full plate*, +3 *+1 heavy steel shield*, +1 Dex (plate cap), +1 *ring of protection +1*), touch 12, flat-footed 23. **BAB/Grapple** +14/+18. **Attack:** *+3 bastard sword* +22 melee (1d10+8/19–20, two-handed +23 damage line: one-handed as listed). **Full Attack:** +22/+17/+12. **Space/Reach** 5 ft./5 ft. **SA/SQ:** Armsmaster (trains the entire Watch; can re-spec a watchman's weapon drills in a week), weapon mastery chain as feats, armour familiarity. **Saves:** Fort +13 (base +9, Con +3, vest +1), Ref +7 (+4, +2, +1), Will +6 (+4, +1, +1). **Skills:** Climb +14, Craft (weaponsmithing) +18, Intimidate +17, Jump +14, Knowledge (local) +8, Profession (armsmaster) +18, Ride +13, Sense Motive +9. **Feats:** Exotic Weapon Proficiency (bastard sword), Weapon Focus (bastard sword), Weapon Specialisation, Greater Weapon Focus, Greater Weapon Specialisation, Power Attack, Cleave, Great Cleave, Improved Sunder, Improved Initiative, Combat Expertise, Improved Disarm, Endurance, Diehard.
+**Equipment (44,800 gp):** *+1 full plate* (2,650), *+1 heavy steel shield* (1,170), *+3 bastard sword* (18,335), *gauntlets of ogre power* (4,000), *amulet of health +2* (4,000), *vest of resistance +1* (1,000), *ring of protection +1* (2,000), masterwork armoury tools, armoury key-ring (Watch issue), *potions of cure serious wounds* ×2 (1,500), training-yard ledger, 10,145 gp in an armoury improvement fund under his seal (personal carried kit ≈ 34,700 gp).
+**Steampunk aesthetic:** The Armsmaster's plate is a teaching aid: every joint exposed, pinned, and stamped with its maker's mark, brass gears at the elbows of his parade harness, and a forge-apron of riveted leather over it in the yard; the Watch armoury he runs is a steam-hammer hall where the amber lamps burn day and night and every weapon rack is labelled in his square hand.
+**Appearance/Personality:** Built like the door of his own armoury and twice as hard to move. Fair, blunt, and beloved by recruits he has personally broken and rebuilt. **Voice hook:** counts faults like a drill — "Grip. Stance. Breathing. Again." **Motivation:** no watchman in this city dies because their training or their steel was cheap. **Secret/Flaw:** he failed a promising recruit out of the Watch years ago on a forged fitness report to protect a commander's nephew; the recruit died a sellsword, and Helve has paid the widow an anonymous pension ever since. **DM Hook:** he can equip, train, or evaluate any fighter in the Bastion — and his armoury ledger quietly records every significant weapon in the city.
+
+---
 
 ## Hoar Spirit — CR 3 — Tome of Horrors II
 
@@ -4401,116 +4391,37 @@ Source book(s): Monster Manual IV
 Description: A bear-sized, wingless creature lies in the center of the hive. Its swollen shape combines features of baboons and hornets.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Incarnate Construct (sample) — CR 5 — Savage Species
+## Inara Steelhand — CR 14 — NPCs — ALL-150 (Shaun's cast)
 
-![Incarnate Construct (sample)](pictures/incarnate-construct-sample.png)
+![Inara Steelhand](pictures/inara-steelhand.jpg)
 
-*Picture: Constructs roster picture index: Official book art — Savage Species, p. 120*
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
 
-## ENTRY 1 — INCARNATE CONSTRUCT (template)
+66. Inara Steelhand — Warforged Champion
 
-**Source:** Savage Species, Ch. 10: Templates, pp. 120–121 (template, "Creating an Incarnate Construct," pp. 121; sample p. 120–121).
-**Gate:** IN — the template exists to give a construct "actual life and a living body"; the result "has a mind and feelings like any true creature." The sample's published Int is 11.
+![Inara Steelhand](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/inara-steelhand.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/inara-steelhand.jpg)
 
-> An incarnate construct is a construct creature that has been given actual life and a living body by the *incarnate construct* spell.
->
-> Made of flesh and bone, it has a mind and feelings like any true creature; it is no longer the automaton it was created to be. An incarnate construct looks like a living version of its former self, having normal flesh instead of inanimate material and showing emotion instead of coldly programmed servitude. Any unusual limbs it had as a construct (such as arms that end in mallets instead of hands, but not wings or a tail) become normal humanlike limbs proportional to its size.
->
-> An incarnate construct normally lives in service to the spellcaster that gave it true life. A few, however, wander the land trying to find their places in the world now that they can interact with normal people. Still others are orphans, hunting those that slew the person who gave them life.
->
-> An incarnate construct speaks one language, usually the primary language of the being that crafted it. Occasionally, however, one awakens from its unliving state with knowledge of its liberator's language.
+**Warforged Fighter 9 / Warforged Juggernaut 5, LG, Level 14** — Warforged: +2 Con, -2 Wis, -2 Cha, composite plating, light fortification, living construct.
+Str 20 (+5) [15+1 lvl4+1 lvl8+1 lvl12=18, +2 belt=20], Dex 13 (+1), Con 18 (+4) [14+2 racial, +2 amulet of health in kit], Int 12 (+1), Wis 10 (+0) [12-2 racial], Cha 8 (-1) [10-2 racial]
 
-### Creating an Incarnate Construct
+**HD/hp:** 14d10+56 = 10 + (13×5.5=71) +56 = **137 hp**. **Init:** +1. **Speed:** 30 ft.
+**AC:** 23 (+1 Dex, +10 adamantine body plating (+8 base, +2 enhancement), +2 ring of protection), touch 13, flat-footed 22.
+**BAB/Grapple:** +14 / +19.
+**Attack:** *+3 greatsword (slam integrated)* +22 melee (2d6+10 /19-20); slam +19 (1d4+5).
+**Full Attack:** Greatsword +22/+17/+12.
+**Space/Reach:** 5 ft / 5 ft.
+**Special Attacks:** Powerful charge, improved powerful charge, superior bull rush (Warforged Juggernaut, as published).
+**Special Qualities:** Adamantine body, DR 3/adamantine (body + Juggernaut), light fortification 25%, construct perfection (Juggernaut 5 immunities, as published), immune to poison, sleep, paralysis, disease, nausea, fatigue, exhaustion, energy drain (living construct traits + Juggernaut).
+**Note on APOC canon:** Warforged healing in APOC follows Shaun's Doc #4 ruling — healing spells work at full effect on Warforged, plus nanite natural healing. Inara is built and played under that ruling.
+**Saves:** Fort +15, Ref +6, Will +6.
+**Skills:** Intimidate +12, Climb +16, Jump +16, Craft (armoursmithing) +10, Sense Motive +8.
+**Feats:** Adamantine Body (1st, Warforged), Power Attack, Improved Bull Rush, Shock Trooper, Weapon Focus (greatsword), Weapon Specialization (greatsword), Improved Sunder, Combat Brute, Improved Critical (greatsword), Cleave (10 feats: 5 general + 5 fighter bonus, Adamantine Body taken at 1st).
+**Kit (~44,800 gp):** +3 greatsword (18,350), +2 enhancement to plating, belt of giant strength +2 (4,000), amulet of health +2 (4,000), ring of protection +2 (8,000), cloak of resistance +2 (4,000), embedded wand sheath with wand of *repair serious damage* (charges 32 — repair, not summoning), badge of the Free Warforged enclave, 900 gp in cheqs.
+**Steampunk aesthetic:** Living steampunk made literal: riveted adamantine juggernaut plating, piston joints at shoulder and hip that sigh faint steam when she charges, a brass Free Warforged citizenship badge polished by hand, and oil-sheened fists — the child's painted wall on her pauldron kept lacquered against the damp.
+**Appearance:** Polished adamantine fists, Bastion wall painted in miniature on her left pauldron by a child she saved, no face paint — ever. **Traits:** Deliberate, protective, dry humour that lands late. **Voice hook:** Flat, unhurried — "I do not tire. I do not leave. Choose accordingly." **Motivation:** Win full citizenship for free Warforged, by example if she must be the example alone. **Secret/Flaw:** Her nanite healing is degrading; she has hidden the diagnostics from everyone, including her own smith. **Background:** Champion of the free Warforged, second-class citizens who hold the Bastion's foundry district; she commands the foundry militia and sits — without a vote — in Bastion councils. **DM Hook:** Asks the party to guard a Warforged citizenship hearing, then to investigate who paid for the riot planned outside it.
 
-> "Incarnate construct" is an acquired template that can be applied to any construct creature with a generally humanoid form—two arms, two legs, one head (hereafter referred to as the base creature). An incarnate construct has all the base creature's characteristics except as noted here.
->
-> **Size and Type:** The creature's type changes to humanoid if it is Medium-size or smaller, or giant if it is Large or larger.
-> **Hit Dice:** The creature's Hit Die type changes to d8.
-> **Speed:** If Small or smaller, land speed is 20 feet. If Medium-size, land speed is 30 feet. If Large or larger, land speed is 40 feet. If the base creature had wings and could fly, use the base creature's fly speed and maneuverability.
-> **AC:** The base creature's natural armor bonus is reduced to a maximum of +3 if Medium-size or smaller, otherwise reduced to a maximum of +9.
-> **Attacks:** An incarnate construct's base attack bonus is normal for a construct of its Hit Dice. An incarnate construct loses all its original attacks. It may attack with unarmed strikes in the manner of a creature similar to its size and shape.
-> **Damage:** The damage from its unarmed strike is standard for its size. For example, a Medium-size incarnate construct can deal 1d3 points of subdual damage with an unarmed strike; a Large incarnate construct can deal 1d4 points.
-> **Special Attacks:** The base creature loses all its special attacks.
-> **Special Qualities:** The base creature loses all its special qualities.
-> **Base Saves:** An incarnate construct's good saving throw is Fortitude. Its poor saving throws are Reflex and Will.
-> **Abilities:** Any ability score lower than 3 is increased to 3, and nonabilities such as Constitution and Intelligence are rolled (4d6, drop lowest result).
-> **Skills:** An incarnate construct gains no skill points for becoming a living creature, but if it gains levels, it acquires skill points normally.
-> **Feats:** An incarnate construct has no feats when it becomes a living creature, but if it gains levels, it acquires feats normally.
-> **Climate/Terrain:** Any land and underground.
-> **Organization:** Solitary (alone or with its spellcaster liberator).
-> **Challenge Rating:** Base creature's CR divided by 2.
-> **Treasure:** Standard (initially none).
-> **Alignment:** Usually neutral.
-> **Advancement:** By character class.
-> **Level Adjustment:** –2 (minimum 0).
-
-### Sample Incarnate Construct — Incarnate Construct Stone Golem
-
-*This example uses a stone golem as the base creature.* (Savage Species, pp. 120–121.)
-
-**Size/Type:** Large Giant
-**Hit Dice:** 14d8+28 (90 hp)
-**Initiative:** –1
-**Speed:** 40 ft.
-**AC:** 17 (–1 size, –1 Dex, +9 natural), touch 8, flat-footed 17
-**Attacks:** 2 unarmed strikes +23 melee
-**Damage:** 2 unarmed strikes 1d4+9
-**Face/Reach:** 10 ft./10 ft.
-**Saves:** Fort +11, Ref +3, Will +4
-**Abilities:** Str 29, Dex 9, Con 14, **Int 11**, Wis 11, Cha 3
-**Climate/Terrain:** Any land and underground
-**Organization:** Solitary (alone or with its spellcaster liberator)
-**Challenge Rating:** 5
-**Alignment:** Neutral
-**Advancement:** By character class
-
-*(The sample prints no Special Attacks, Special Qualities, Skills, or Feats lines — the template strips them all, as published.)*
-
-### Incarnate Construct Characters
-
-> Because they usually possess excellent physical ability scores, incarnate constructs usually become fighters or rangers. Their preferred class is fighter.
-
-## Inevitable, Marut — CR 15 — Monster Manual I
-
-![Inevitable, Marut](pictures/inevitable-marut.jpg)
-
-*Picture: Monster library art — Monster Manual I*
-
-3. MARUT (Inevitable)
-
-
-**Source:** Monster Manual (3.5), pp. 159–160 (stat block and description p. 159, Combat p. 160; general inevitable text p. 158) — book copy in the local library (`MonsterManual1.pdf` / `MonsterManual1.txt`), verified against the rendered printed pages.
-
-**Size/Type:** Large Construct (Extraplanar, Lawful)
-**Hit Dice:** 15d10+30 (112 hp)
-**Initiative:** +1
-**Speed:** 30 ft. in full plate armor (6 squares); base speed 40 ft.
-**Armor Class:** 34 (–1 size, +1 Dex, +16 natural, +8 full plate armor), touch 10, flat-footed 33
-**Base Attack/Grapple:** +11/+27
-**Attack:** Slam +22 melee (2d6+12 plus 3d6 sonic or 3d6 electricity)
-**Full Attack:** 2 slams +22 melee (2d6+12 plus 3d6 sonic or 3d6 electricity)
-**Space/Reach:** 10 ft./10 ft.
-**Special Attacks:** Fists of thunder and lightning, spell-like abilities
-**Special Qualities:** Construct traits, damage reduction 15/chaotic, darkvision 60 ft., fast healing 10, low-light vision, spell resistance 25
-**Saves:** Fort +7, Ref +6, Will +8
-**Abilities:** Str 35, Dex 13, Con —, Int 12, Wis 17, Cha 18
-**Skills:** Concentration +13, Diplomacy +6, Knowledge (religion) +10, Listen +16, Search +10, Sense Motive +12, Spot +16, Survival +3 (+5 following tracks)
-**Feats:** Ability Focus (fists), Awesome Blow, Combat Casting, Great Fortitude, Improved Bull Rush, Power Attack
-**Environment:** Clockwork Nirvana of Mechanus
-**Organization:** Solitary
-**Challenge Rating:** 15
-**Treasure:** None
-**Alignment:** Always lawful neutral
-**Advancement:** 16–28 HD (Large); 29–45 HD (Huge)
-**Level Adjustment:** —
-
-*This creature, outfitted in golden armor over an onyx-colored body, is humanoid in shape but much larger than a human and seems to be made of mechanical parts. It carries no weapons or other equipment.*
-
-Maruts represent the inevitability of death. They confront those who would try to deny the grave itself.
-
-Any who use unnatural means to extend their life span (such as a lich) could be targeted by a marut. Those who take extraordinary measures to cheat death in some other way (such as sacrificing hundreds of others to keep oneself safe from a plague) might be labeled transgressors as well. Those who use magic to reverse death (*raise dead* spells, for example) aren't worthy of a marut's attention unless they do so repeatedly or on a massive scale.
-
-When a marut has identified its target, it walks surely and implacably toward the foe, never resting.
+---
 
 ## Inevitable, Quarut — CR 17 — Fiend Folio
 
@@ -4548,46 +4459,6 @@ Quaruts are among the most powerful of inevitables in existence. They protect tw
 A quarut appears humanoid in form, though that is where the resemblance ends. Typical of most inevitables, a quarut has a clockwork body, complete with gears and pistons. Numerous small timepieces and hourglasses function within its body. A quarut wears extremely fine half-plate armor that is etched with various symbols involving time. In place of a head, it has a continually flowing hourglass. Sometimes the sand inside the hourglass seems to be flowing up; no quarut has ever explained why this is so.
 Quaruts are concerned about spellcasters who use such powerful magic as *limited wish*, *miracle*, *temporal stasis*, *time stop*, and *wish*. In the eyes of a quarut, the use of these spells plays havoc with the universe and risks all beings. However, despite their displeasure with spellcasters that use these spells and abilities, quaruts employ most of these spells with impunity.
 
-## Inevitable, Zelekhut — CR 9 — Monster Manual I
-
-![Inevitable, Zelekhut](pictures/inevitable-zelekhut.png)
-
-*Picture: GENERATED — monster library generated art — Monster Manual I*
-
-1. ZELEKHUT (Inevitable)
-
-
-**Source:** Monster Manual (3.5), p. 160 (stat block, description, Combat); general inevitable text p. 158 — book copy in the local library (`MonsterManual1.pdf` / `MonsterManual1.txt`), verified against the rendered printed page.
-
-**Size/Type:** Large Construct (Extraplanar, Lawful)
-**Hit Dice:** 8d10+30 (74 hp)
-**Initiative:** +0
-**Speed:** 35 ft. in plate barding (7 squares), fly 40 ft. (average) in plate barding (8 squares); base speed 50 ft., fly 60 ft. (average)
-**Armor Class:** 27 (–1 size, +10 natural, +8 plate barding), touch 9, flat-footed 27
-**Base Attack/Grapple:** +6/+15
-**Attack:** Spiked chain +10 melee (2d6+5 plus 1d6 electricity)
-**Full Attack:** 2 spiked chains +10 melee (2d6+5 plus 1d6 electricity)
-**Space/Reach:** 10 ft./10 ft.
-**Special Attacks:** Spell-like abilities
-**Special Qualities:** Construct traits, damage reduction 10/chaotic, darkvision 60 ft., fast healing 5, low-light vision, spell resistance 20
-**Saves:** Fort +4, Ref +2, Will +5
-**Abilities:** Str 21, Dex 11, Con —, Int 10, Wis 17, Cha 15
-**Skills:** Diplomacy +4, Listen +9, Search +9, Sense Motive +12, Spot +9, Survival +3 (+5 following tracks)
-**Feats:** Great Fortitude, Ride-By Attack, Spirited Charge
-**Environment:** Clockwork Nirvana of Mechanus
-**Organization:** Solitary
-**Challenge Rating:** 9
-**Treasure:** None
-**Alignment:** Always lawful neutral
-**Advancement:** 9–16 HD (Large); 17–24 HD (Huge)
-**Level Adjustment:** +7
-
-*This clockwork creature resembles a centaur in shape. It wears ornate golden armor over alabaster skin. It carries no weapons or other equipment.*
-
-Zelekhuts are charged with hunting down those who would deny justice—especially those who flee to escape punishment. Expert trackers, they use a combination of natural skill and magic to find fugitives wherever they may hide.
-
-A zelekhut may initially appear rather nonthreatening—but when it is about to enter combat, it can cause two spiked chains to spring forth from its forearms as a free action. In similar fashion, it can cause a pair of golden metallic wings to emerge from its back. Retracting the chains or the wings is also a free action.
-
 ## Infernal Soul Stalker — CR 12 — Monsternomicon Vol. 1
 
 ![Infernal Soul Stalker](pictures/infernal-soul-stalker.png)
@@ -4616,47 +4487,44 @@ Source book(s): Monsternomicon Vol. 2
 Description: As she described these horrifying creatures, Sybeth went to great pains to caution me against ever feeling confident in my appraisal of an infernal. The curators and executors work souls like clay and can mold conscriptus into any form with any powers the creators can conceive. Thus conscriptus are weapons more so than any natural creature. By way of example she described the Quelvitar, or “soul gnawer”.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Iron Maiden — CR 8 — Monsternomicon Vol. 1
+## Ingrid Hollowdelve — CR 4 — NPCs — ALL-150 (Shaun's cast)
 
-![Iron Maiden](pictures/iron-maiden.png)
+![Ingrid Hollowdelve](pictures/ingrid-hollowdelve.jpg)
 
-*Picture: Constructs roster picture index: Official book art — Monsternomicon Vol. I (2002 original), printed p. 118 (entry pp. 118–119)*
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
 
-ENTRY 8 — IRON MAIDEN
+19. Ingrid Hollowdelve — Dwarf Monk 4
 
+![Ingrid Hollowdelve](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/ingrid-hollowdelve.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/ingrid-hollowdelve.jpg)
 
-**Source:** Monsternomicon Vol. I (2002), pp. 118–119. (2005 revision: CR 8 per the VTT roster data — variant flagged, not merged.)
-**Gate:** IN — published **Int 10**, with skills and feats, and the text is explicit: the iron maiden is a construct body built around the bound spirit of a dead woman warrior — "the enslaved spirit of a great warrior of the fairer sex" — a thinking person in an iron shell.
+**Alignment:** Lawful Neutral | **Faction:** Bastion guilds (Stonecutters'/Masons' orbit; temple-trained) | **Role:** Combat
 
-**Size/Type:** Medium-size Construct
-**Hit Dice:** 10d10 (55 hp)
-**Initiative:** +4 (+4 Improved Initiative)
-**Speed:** 30 ft.
-**AC:** 24 (+14 natural)
-**Attacks:** 2 slams +12 melee; or 2 claws +12 melee
-**Damage:** Slam 1d6+5; or claw 2d4+5
-**Face/Reach:** 5 ft. by 5 ft./5 ft.
-**Special Attacks:** Improved grab, impale, berserk
-**Special Qualities:** Spikeskin, construct, damage reduction 15/+1
-**Saves:** Fort +3, Ref +3, Will +4
-**Abilities:** Str 20, Dex 11, Con —, **Int 10**, Wis 13, Cha 4
-**Skills:** Balance +7, Climb +7, Hide +7, Listen +3, Move Silently +7, Sense Motive +3, Spot +3
-**Feats:** Improved Initiative, Lightning Reflexes, Run, Track
-**Climate/Terrain:** Any land and underground
-**Organization:** Solitary
-**Challenge Rating:** 7
-**Alignment:** Always neutral
-**Advancement:** 11–16 HD (Medium-size)
+**Abilities:** Str 13 (+1), Dex 14 (+2), Con 14 (+2), Int 10 (+0), Wis 16 (+3; 15 base, +1 at 4th level), Cha 6 (−2)
+**HD:** 4d8+8; **hp** 28 (8+2, 4+2, 4+2, 4+2) | **Init** +2 | **Speed** 40 ft. (monk fast movement +10 ft.)
+**AC** 16 (+2 Dex, +3 Wis, +1 monk AC bonus), touch 16, flat-footed 13; +1 vs. one designated opponent with Dodge. Unarmored.
+**BAB** +3; **Grapple** +8 (+3 BAB, +1 Str, +4 Improved Grapple)
+**Attack:** Unarmed strike +4 melee (1d8+1); masterwork kama +5 melee (1d6+1); shuriken +5 ranged (1d2+1, 10 ft.)
+**Full Attack:** Flurry of blows +2/+2 (unarmed 1d8+1 each) or flurry with kama +3/+3 as above with the kama line
+**Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** Stunning Fist 4/day (DC 15 Fort: 10 + ½ monk level 2 + Wis 3), flurry of blows (−2 penalty, included above)
+**Special Qualities:** Darkvision 60 ft., stonecunning, weapon familiarity, +2 saves vs. poison and spells/spell-like effects, +1 attack vs. orcs/goblinoids, +4 dodge AC vs. giants, stability; AC bonus (Wis to AC, +1 class bonus), evasion, still mind (+2 saves vs. enchantment), *ki* strike (magic), slow fall 20 ft.
+**Saves:** Fort +6 (+4 base, +2 Con), Ref +6 (+4 base, +2 Dex), Will +7 (+4 base, +3 Wis); +2 vs. enchantment (still mind) and +2 racial vs. poison/spells as applicable
+**Skills:** Balance +9 (7 ranks, +2 Dex), Listen +10 (7 ranks, +3 Wis), Spot +10 (7 ranks, +3 Wis), Tumble +9 (7 ranks, +2 Dex)
+*Skill budget: monk 4 + Int 0 = 4/level; 16 at 1st + 4 + 4 + 4 = 28 ranks: four skills at 7 ranks.*
+**Feats:** Improved Unarmed Strike (monk bonus), Stunning Fist (monk bonus), Improved Grapple (monk bonus 1st), Combat Reflexes (monk bonus 2nd), Dodge (level 1), Blind-Fight (level 3)
+**Equipment:** Bracers of armor +1 (1,000 gp), cloak of resistance +1 (1,000 gp), masterwork kama (302 gp), 10 shuriken (2 gp), backpack, bedroll, masterwork mason's tools (55 gp), 50 ft. silk rope (10 gp), grappling hook (1 gp), 5 days' rations, potion of *cure moderate wounds* ×2 (600 gp), potion of *mage armor* (50 gp, redundant with her bracers but kept for companions), stone-carved prayer beads (her own work, priceless to her). ~2,970 gp spent; ~330 gp in guild dues prepaid and small coin.
 
-> The iron maiden is both an incredible creation and a travesty of the soul. On one hand, it is a construct of unsurpassed loyalty and wit, and on the other it is the enslaved spirit of a great warrior of the fairer sex. This construct is created by practitioners of the arcane as a means of self-preservation, or it is created for others in positions of wealth or authority for that same reason; the iron maiden is an effective bodyguard if ever there was one.
->
-> This construct, at first glance, appears to be a shapely woman, hooded and cloaked, as if engaged in some manner of skullduggery. Looking closer, one notices the distinct shine of metal hither and thither and a somewhat rigid gait and bearing. Whenever the maiden or its master are threatened the construct reveals its true nature—hundreds of razor-sharp spikes and barbs spring from every portion of its body, ready to rend and kill at the drop of a coin.
->
-> "The metallic body is formed from the finest and purest iron to be found in the kingdoms; purity of the iron must be ensured to withhold the powerful and fierce spirit to be contained inside. Only the most excellent artificers are allowed to take part in the creation of an iron maiden, and once the body is fashioned the wizard who is the binder inspects the work of the artificer. If it is to his or her liking, they summon the spirit of a female warrior from the lands of the dead and encase the spirit in the still-cooling iron body. The bound spirit soon finds it has very little control over her new body and little way of exercising her will on the world around this form. Often, this moment of truth is enough to forever bind the spirit to eternal servitude, but even so the newly made maiden tends to eventually lose her sense of self; in due time, the more sexless 'she' feels, and the more construct 'it' then becomes.
->
-> "In the weeks to follow its birth, a maiden must be taught its new nature and the purpose for which it was created—as bodyguard and assassin. The magics inherent in the creation of an iron maiden give it the abilities required to carry out these tasks: the ability to move with a measure of silence, to skulk about in the shadows, and the hidden weaponry to dispatch its target. Ironically, it is the spirit that gives the construct its gift for learning and intuitive-ness that may—in the direst of circumstances—has been known to cause it to break free of its master's will and wreak havoc on its surroundings. The iron maiden, because it has no apparatus created for the purpose, cannot speak or create any auditory emissions. If the spirit in life had the ability to write, then the maiden may do so, if it has the presence of mind and the permission of its master."
->
-> The mistake has been made in the past of allowing an iron maiden to express itself in writing, and, somehow rediscovering its former passions, the construct brought the master's house down around him, proceeding to tear through several boroughs of Corvis before finally being dismantled by an immense show of force by the city watch. Unfortunately for him, the incautious master had been slain by the maiden, a testament indeed that the spirit of the iron maiden is unpredictable at best.
+**Appearance:** A compact, corded dwarf with a shaven scalp inked with a mason's level-line straight over the crown, knuckles like river stones, and bare feet in all weathers inside the Bastion. She wears undyed wool the color of quarry dust.
+**Steampunk aesthetic:** A mason-monk's working steampunk: her *bracers of armor* are plain dark leather banded with brass studs, her prayer beads alternate carved stone with a single brass bead, and her kama's haft is ironwood ringed with copper. Her masterwork mason's tools are precise iron in a riveted leather roll, her undyed wool is quarry-grey, and the level-line inked over her crown is ruled as straight as any instrument the guild makes.
+**Traits:** Disciplined, dry, immovable. Believes the body is a wall: build it true, maintain it daily, and it will stand when ornamented things fall.
+**Mannerism/Voice Hook:** Answers questions with her hands still moving — forms, stretches, a slow kata between sentences. Low, flat voice: "Stone doesn't hurry. Stone also doesn't lose."
+**Motivation:** Prove a dwarf of the guilds can master the open-hand temple discipline as fully as any surface-born monk, and bring the discipline home to the masons' lodges as a workingman's art.
+**Secret/Flaw:** She left the temple two days before her final vows after striking a senior brother who mocked her clan — struck him, she maintains, "accurately." The temple considers her a runaway; her papers in the Bastion claim she completed her training. If the temple sends someone to correct the record, she will not run again.
+**Background:** A stonecutter's apprentice who traded her chisel hours for temple hours for six years. Now she works the Bastion's wall-crews by day — the only mason who can stand on a scaffold's edge in a gale without a rope and smile — and teaches laborers falling, breathing, and balance in the lodge yard at dusk.
+**DM Use Hook:** A physical problem-solver and a moral metronome: Ingrid can be hired for any job involving heights, walls, or sieges; she'll challenge a party monk to a friendly bout that becomes a job interview, and her temple secret gives a pursuer from her past a reason to arrive in the Bastion looking for her.
+
+---
 
 ## Isitwalangcengce — CR 21 — Encyclopedia of Demons & Devils Vol. 1
 
@@ -4755,6 +4623,46 @@ JARILITH — Monster Manual II, pp.60–61
 - **Description:** "Jariliths, the elite hunting beasts of the Abyss, are terrifying feline creatures conjured up from the nightmares of a thousand generations of mortals. They prefer demonic flesh and are comfortable hunting their favorite prey in desert, jungle, waste, or forest. A jarilith resembles a slightly larger than average male lion, complete with a glorious mane. Long teeth extend from its jaws, and its claws are longer still. The creature's blood-red coat reveals its origin, but it strikes so fast that the only clue most victims get to its presence is a slight reek of brimstone. Jariliths do not speak, but they understand Abyssal. They communicate silently with one another through telepathy." 
 
 **Nature/role:** A lion-like tanar'ri killing machine — low cunning, extreme lethality; CR 13 on only 10 HD.
+
+## Jasker — CR 7 — NPCs — ALL-150 (Shaun's cast)
+
+![Jasker](pictures/jasker.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+127. Jasker — Human Expert 6 / Fighter 1, NG
+
+![Jasker](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/jasker.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/jasker.jpg)
+
+**Tracker status (as-is):** "Guild master, the Anvil (smiths)"
+**Tracker detail:** Human smith and current guild master of the Most Careful Order of Skilled Smiths & Metalforgers at 'The Anvil'. Takes his position and job very seriously; on all other topics he is a notorious joker and comedian.
+**Abilities:** Str 16 (+3), Dex 11 (+0), Con 14 (+2), Int 13 (+1), Wis 12 (+1), Cha 14 (+2). **HD** 6d6+1d10+14; **hp** 40. **Init** +0; **Speed** 30 ft. **AC** 15 (+5 *+1 chain shirt*), touch 10, flat-footed 15 (at the forge he often works in apron only, AC 10 — and complains about it theatrically). **BAB/Grapple** +5 / +8. **Attack** *+1 warhammer* +9 melee (1d8+4/x3). **Space/Reach** 5 ft. / 5 ft. **SA/SQ:** None (guild authority). **Saves:** Fort +6, Ref +2, Will +6. **Skills:** Appraise (metalwork) +12, Craft (blacksmithing) +17, Diplomacy +9, Intimidate +9, Knowledge (architecture & engineering) +9, Perform (comedy) +11, Profession (smith) +13, Sense Motive +10. **Feats:** Endurance, Persuasive, Skill Focus (Craft [blacksmithing]), Toughness, Weapon Focus (warhammer).
+**Equipment (≤7,200 gp):** *+1 chain shirt* (1,250), *+1 warhammer* (2,312), *cloak of resistance +1* (1,000), masterwork forge tools (55), *potions of cure moderate wounds* ×2 (600), guild master's regalia — a collar of linked brass gears (200, non-magical), 500 gp. Total ≈ 5,900 gp. (The Anvil's forges, bellows engines and halls are guild assets.)
+**Steampunk aesthetic:** The Anvil made flesh — a soot-blackened apron with copper rivets, goggles pushed up on a forge-reddened brow, and a guild collar of brass gears; his masterwork hammer is etched with the steam-pressure marks of every great work it has struck.
+**Personality:** Deadly serious at the anvil, a notorious comedian everywhere else. **Appearance:** Barrel-chested, forearms like rope, a grin that arrives half a second before the joke. **Voice hook:** Two voices, strictly separated: forge-voice (short, absolute, no jokes) and tavern-voice (puns about metalwork so bad apprentices are fined for laughing — the fines buy ale). **Motivation:** The Order's standard: a Bastion blade should outlive its maker and its maker's grandchildren. **Secret/Flaw:** He failed his first masterwork three times and re-stamped the second failure with his master's mark; the blade hangs in a demon enclave's trophy hall now, and he wants it back or destroyed before the guild finds out. **DM hook:** The Anvil's great steam hammer has begun striking once, softly, at 3 a.m. with the furnaces cold — Jasker will pay master rates for discreet investigators, and will not explain why he already knows what they'll find under the floor.
+
+---
+
+## Kailee Restinan — CR 6 — NPCs — ALL-150 (Shaun's cast)
+
+![Kailee Restinan](pictures/kailee-restinan.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+118. Kailee Restinan — Human Expert 4 / Rogue 2, CN
+
+![Kailee Restinan](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/kailee-restinan.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/kailee-restinan.jpg)
+
+**Tracker status (as-is):** "Owner, the Lizard's Boat"
+**Tracker detail:** Owner of the Lizard's Boat (dockside tavern/boat-house). She once humiliated Yonshi Quansath in public — he has not forgotten it.
+**Abilities:** Str 10 (+0), Dex 14 (+2), Con 12 (+1), Int 13 (+1), Wis 11 (+0), Cha 15 (+2). **HD** 6d6+6; **hp** 27. **Init** +2; **Speed** 30 ft. **AC** 16 (+4 *+1 studded leather*, +2 Dex), touch 12, flat-footed 14. **BAB/Grapple** +4 / +4. **Attack** masterwork rapier +7 melee (1d6/18–20) or dagger +6 ranged (1d4/19–20). **Full Attack** rapier +7 and off-hand dagger +5 (two-weapon, light off-hand). **Space/Reach** 5 ft. / 5 ft. **SA/SQ:** Sneak attack +1d6, trapfinding, evasion. **Saves:** Fort +2, Ref +6, Will +4. **Skills:** Appraise +9, Bluff +11, Diplomacy +13, Gather Information +11, Intimidate +8, Knowledge (local) +8, Profession (innkeeper) +9, Sense Motive +9, Tumble +8. **Feats:** Dodge, Negotiator, Persuasive, Weapon Finesse.
+**Equipment (≤5,600 gp):** *+1 studded leather* (1,025), masterwork rapier (320), *cloak of resistance +1* (1,000), masterwork thieves' tools (100), *potions of cure light wounds* ×2 (100), silvered dagger, strongbox with 650 gp in cheqs and trade coin, tavern keys and cellar ledger (Lizard's Boat itself is her business, not carried wealth). Total ≈ 3,600 gp + business assets.
+**Steampunk aesthetic:** Her tavern armour is a riveted leather apron over the studded coat, a brass tap-gauge worn as a brooch, and the Boat's famous boiler-keg behind the bar — copper pipes run the length of the bar so every ale arrives faintly warm and hissing.
+**Personality:** Quick, golden-tongued, and utterly unembarrassed by anything. **Appearance:** Red hair pinned with a cut-down clock hand, sleeves always rolled. **Voice hook:** Calls every customer "captain," whatever their trade — and remembers exactly what each one drinks and owes. **Motivation:** Keep the Lizard's Boat the docks' neutral ground where even enemies drink in peace. **Secret/Flaw:** The public humiliation of Yonshi was staged at *his* request years ago (a debt-dodge) — but it worked too well, and now the grudge is real; she doesn't know how to undo it. **DM hook:** She'll trade a night's free drinks and beds for the party discreetly ending the Yonshi feud before it turns into a guild war over stone for the tavern's new cellar.
+
+---
 
 ## Kaorti — CR 1 — Fiend Folio
 
@@ -4903,6 +4811,44 @@ KASTIGHUR — Monster Manual IV, p.42 (entry pp.42–43)
 - **Description:** "This hideous demon's body ripples with muscle. Its massive head is heavy with long horns while its powerful legs end in cloven hooves. Most of its head is hidden by an enormous steel helm that has been bolted to the creature's neck. A breastplate fastened onto its body provides additional protection for its already tough hide. Cruel and sadistic, the brutish kastighurs act as hunters and prison wardens among the tanar'ri. Kastighurs stand anywhere from 15 feet to 20 feet tall, and can weigh as much as 10,000 pounds." 
 
 **Nature/role:** Hunter and prison warden of demonkind — the thing demon lords send to drag escapees back.
+
+## Kazrik Emberhand — CR 3 — NPCs — ALL-150 (Shaun's cast)
+
+![Kazrik Emberhand](pictures/kazrik-emberhand.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+13. Kazrik Emberhand — Gnome Wizard 3 (Transmuter)
+
+![Kazrik Emberhand](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/kazrik-emberhand.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/kazrik-emberhand.jpg)
+
+**Alignment:** Lawful Neutral | **Faction:** Alchemists' Guild | **Role:** Caster (alchemical researcher)
+
+**Abilities:** Str 6 (−2), Dex 14 (+2), Con 15 (+2), Int 15 (+2), Wis 12 (+1), Cha 10 (+0)
+**HD:** 3d4+6; **hp** 14 (4+2, 2+2, 2+2) | **Init** +2 | **Speed** 20 ft.
+**AC** 13 (+2 Dex, +1 size), touch 13, flat-footed 11
+**BAB** +1; **Grapple** −5 (+1 BAB, −2 Str, −4 size)
+**Attack:** Light crossbow +4 ranged (1d6, 19–20/×2, 80 ft.); dagger +0 melee (1d3−2, 19–20/×2)
+**Space/Reach:** 5 ft./5 ft.
+**Special Qualities:** Low-light vision; +2 saves vs. illusion; +1 DC illusion spells; +1 attack vs. kobolds/goblinoids; +4 dodge AC vs. giants; +2 Listen and Craft (alchemy); spell-like abilities 1/day (CL 3): *dancing lights, ghost sound, prestidigitation, speak with animals*. **Specialist wizard (Transmutation); prohibited schools: Evocation and Necromancy** — Kazrik cannot cast elemental evocations at all, a limitation he calls "my competitive advantage in a world where fireballs eat farmland." **No familiar** (never attempted; Guild policy and personal inclination agree).
+**Saves:** Fort +3 (+1 base, +2 Con), Ref +3 (+1 base, +2 Dex), Will +4 (+3 base, +1 Wis); +2 vs. illusion
+**Skills:** Concentration +8 (6 ranks, +2 Con), Craft (alchemy) +10 (6 ranks, +2 Int, +2 racial), Knowledge (arcana) +8 (6 ranks, +2 Int), Spellcraft +8 (6 ranks, +2 Int)
+**Feats:** Scribe Scroll (wizard bonus), Brew Potion (level 1), Craft Wondrous Item (level 3)
+**Spellbook:** 1st—*enlarge person, feather fall, grease, identify, mage armor, reduce person, shield*; 2nd—*bear's endurance, bull's strength, cat's grace, spider climb*.
+**Spells Prepared (Wizard 3 specialist; 4/4/3 per day incl. Int bonus and specialist slot; DC 12 + spell level):** 0—*detect magic, mending, open/close, prestidigitation*; 1st—*enlarge person* (specialist), *grease, mage armor, shield*; 2nd—*bull's strength* (specialist), *cat's grace, spider climb*.
+**Equipment:** Alchemist's lab (500 gp, fixed at his Guild bench), light crossbow (35 gp) and 20 bolts (2 gp), dagger (2 gp), spellbook, spell component pouch (5 gp), 3 potions of *cure light wounds* (self-brewed, 75 gp in materials), potion of *bull's strength* (self-brewed, 150 gp in materials), scroll of *identify* ×2 (self-scribed, 25 gp in materials), masterwork artisan's tools (55 gp), Guild robes with burn-proof apron. ~875 gp spent; ~1,625 gp in Guild credit and stored reagents.
+
+**Appearance:** A compact gnome with copper-red hair fading to white at the temples, a singed beard worn short for laboratory safety, and magnifying lenses mounted on a brass headband. He smells faintly of vinegar and hot metal.
+**Steampunk aesthetic:** Laboratory steampunk, gnome-scale and precise: magnifying lenses ride a brass headband adjusted by tiny gears, his burn-proof apron is grey-brown leather with copper rivets, and stoppered vials and pressure-corked tubes line a fitted reagent belt. His masterwork tools are clockmaker-fine, each in its own slot, and his cuffs are permanently soot-stained from the Guild benches.
+**Traits:** Methodical, curious, quietly vain about his results. Treats every problem as a formula awaiting one more variable.
+**Mannerism/Voice Hook:** Labels things. Verbally. "Specimen: one (1) locked door. Reagent: thief." Precise, slightly nasal voice; he also labels people in his notebook with batch numbers.
+**Motivation:** Perfect a transmutative alchemical process that hardens Bastion wall-timber to iron strength — the discovery that would make his name and, not incidentally, make the walls he lives behind much harder to breach.
+**Secret/Flaw:** His process works — once in five times. The other four, the timber becomes brittle as glass after a month. He has reported only the successes to the Guild, and a test section of palisade near the north sally port is already four weeks old.
+**Background:** Guild-born and Guild-raised, third generation. He runs a testing bench at the Alchemists' Guild tower, certifies potion batches in the morning, and pursues his timber process in the afternoons while senior alchemists pretend not to notice the smell.
+**DM Use Hook:** A ticking clock in gnome form: the palisade section will fail during the worst possible storm or attack unless someone checks it. Kazrik can also brew, identify, and analyze anything the party brings him — for Guild rates and a sample.
+
+---
 
 ## Ken-Kuni — CR 8 — Monster Manual V
 
@@ -5225,20 +5171,6 @@ Source book(s): Fiend Folio
 Description: Those who encounter a lucent worm often do so before they know the creature is near. Although massive in size, a lucent worm is adept at hiding itself. This, combined with its versatile means of locomotion, ensures that the lucent worm rarely goes hungry. An adult lucent worm measures 5 feet in diameter and almost 100 feet long, weighing in at 55,000 to 60,000 pounds.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Lumi — CR 2 — Monster Manual III
-
-![Lumi](pictures/lumi.png)
-
-*Picture: APOC-VTT monster library art — Monster Manual III*
-
-**Partial — fullest block on file:**
-
-Type: Medium Outsider (Extraplanar)
-Challenge Rating: 2
-Source book(s): Monster Manual III
-Description: A solemn and dignified head floats about six inches above the shoulders of the otherwise headless body of this stocky humanoid creature. The being's skin softly glows, and white light peeks between the cracks of its armor. The lumi are a race of warriors and healers who live on the Positive Energy Plane. There they build towering cities of glass and light that are protected from intruders simply by virtue of the plane's dangers to nonnative life. The power of unchecked positive energy keeps all but the most curious from even reaching their doorstep.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Lurking Strangler — CR 2 — Monster Manual III
 
 ![Lurking Strangler](pictures/lurking-strangler.png)
@@ -5334,6 +5266,16 @@ CR 17 — Marilith
 - Source: Monster Manual p.44 / d20 SRD
 - **APOC Note:** Summon Demon — [APOC: inert — no summoning / severed planes]
 
+## Market Crowd — At the Crush — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
+
+![Market Crowd — At the Crush](pictures/market-crowd.jpg)
+
+*Picture: Scene art — a market district at the crush (Shaun's map files)*
+
+**Partial — fullest block on file:**
+
+Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+
 ## Marraenoloth — CR 10 — Monster Manual II
 
 ![Marraenoloth](pictures/marraenoloth.png)
@@ -5347,6 +5289,38 @@ Challenge Rating: 10
 Source book(s): Monster Manual II
 Description: The marraenoloths serve a specialized function, possibly the most specialized of any of the yugoloths. They are the ferrymen on the River Styx, somberly poling their ghastly crafts along that sepulchral river and through all the horrid planes it visits. These pallid humanoids are little more than skeletons clothed in rotted robes and grave wrappings. Only their red-glowing eyes show signs of life. Like all natives of Gehenna, they are pitiless and mercenary. They can speak any language, but they communicate with other marraenoloths telepathically.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Marshal Ezekiel Thorn — CR 16 — NPCs — ALL-150 (Shaun's cast)
+
+![Marshal Ezekiel Thorn](pictures/marshal-ezekiel-thorn.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+78. Marshal Ezekiel Thorn
+
+![Marshal Ezekiel Thorn](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/marshal-ezekiel-thorn.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/marshal-ezekiel-thorn.jpg)
+
+**Human Paladin 10 / Cavalier 6, LG, Level 16**
+Str 20 (+5) [15+1 lvl4+1 lvl8+1 lvl12=18, +2 gauntlets of ogre power in kit; his 16th-level increase went to Charisma], Dex 12 (+1), Con 16 (+3) [14+2 amulet of health in kit], Int 12 (+1), Wis 14 (+2), Cha 18 (+4) [15+1 lvl16, +2 cloak of charisma in kit]
+
+**HD/hp:** 16d10+48 = 10 + (15×5.5=82) +48 = **140 hp**. **Init:** +1. **Speed:** 20 ft in armour, mounted 50 ft.
+**AC:** 26 (+10 *+3 full plate*, +5 *+3 heavy shield*, +1 Dex), touch 11, flat-footed 25. Mounted, with shield: as above.
+**BAB/Grapple:** +16 / +21.
+**Attack:** *+3 holy lance* (mounted charge) +24 melee (1d8+8, ×3 on charge with Spirited Charge = triple damage as published feat interaction); *+3 longsword* +23 (1d8+8 /19-20).
+**Full Attack:** Longsword +23/+18/+13/+8.
+**Space/Reach:** 5 ft / 5 ft (lance reach 10 ft as weapon).
+**Special Attacks:** Smite evil 4/day (+4 hit, +16 damage), deadly charge (Cavalier, 3/day equivalent as published), burst of speed (mount), turn undead 7/day.
+**Special Qualities:** Divine grace, lay on hands 64/day, aura of courage, remove disease 3/week, special mount — **Verdict**, a living advanced heavy warhorse with paladin mount benefits (resident and stabled in the Bastion; raised there and bonded in person, never *called* from anywhere — APOC allows no planar mount), full mounted attack (Cavalier).
+**Saves:** Fort +19, Ref +9, Will +14 (all incl. divine grace +4).
+**Skills:** Ride +24, Diplomacy +20, Handle Animal +18, Sense Motive +16, Knowledge (religion) +12, Knowledge (nobility / war) +12, Heal +12.
+**Feats:** Mounted Combat, Ride-By Attack, Spirited Charge, Trample, Weapon Focus (lance), Weapon Focus (longsword), Power Attack, Leadership, Improved Bull Rush, Divine Might.
+**Kit (~76,700 gp):** +3 holy lance (~32,315), +3 longsword (18,315), +3 full plate (10,650), +3 heavy shield (9,170), gauntlets of ogre power, cloak of charisma +2 (4,000), amulet of health +2 (4,000), Verdict's +1 chain barding, marshal's baton, campaign chest (physical, on a wagon — no extra-dimensional storage in his train, by regulation he wrote himself), 1,200 gp.
+**Spells prepared (Paladin, CL 5, no summoning):** 1st — *bless weapon, divine favour*; 2nd — *bull's strength, shield other*; 3rd — *heal mount*.
+**Steampunk aesthetic:** Field-marshal steampunk kept deliberately unpolished: dented plate hung with small brass muster-tags, one for every fallen soldier he names, Verdict's barding in riveted chain with brass stable plates, and an iron-bound campaign chest that travels on a wagon behind him.
+**Appearance:** White moustache, ramrod posture even asleep (his men swear it), armour dented and never replaced — "the dents are the service record." **Traits:** Fair, immovable, remembers every fallen soldier's name and says them at muster. **Voice hook:** Parade-ground clear, softens off duty — "Ride out. Ride together. Ride home." **Motivation:** Retire with the Bastion's field army intact and a successor trained — he has not found the successor, and it is eating him. **Secret/Flaw:** His hands shake in the mornings now. Verdict's groom knows. No one else does. He is terrified it is not age, but fear, and has never tested which. **Background:** Supreme field marshal of the Bastion; commands the wall, the field army, and the cavalry screen on the enclave road; Caspian Thorvald (No.61) is his protégé and intended — unspoken — successor. **DM Hook:** Privately asks the party to assess Caspian Thorvald for high command — ride with him, fight beside him, report honestly — because Ezekiel cannot be objective about the man he raised.
+
+---
 
 ## Mastodon — CR 9 — Monster Manual III
 
@@ -5362,85 +5336,6 @@ Source book(s): Monster Manual III
 Description: A gigantic elephantlike creature towers before you, with an extremely long pair of tusks that are nearly as long as it is. More vicious and territorial than their more domesticated cousins, mastodons are ancient creatures related to elephants. Mastodons usually live in isolated forests, jungles, or tropical islands. In colder climates, they grow thick coats of fur, making them look very shaggy. A few species, especially those that live in snow regions, lack the extended tusks of the mastodon described here. A mastodon stands 10 feet high at the shoulder and weighs over 4,000 pounds.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Maug — CR 3 — Fiend Folio
-
-![Maug](pictures/maug.png)
-
-*Picture: Constructs roster picture index: Official book art — Fiend Folio, p. 122 (captioned)*
-
-MAUG [3.0-format as published]
-
-**Large Construct (Extraplanar)**
-**Hit Dice:** 2d10+30 (41 hp)
-**Initiative:** +2
-**Speed:** 40 ft. (can't run)
-**AC:** 25 (–1 size, +1 Dex, +8 masterwork full plate armor, +7 natural), touch 10, flat-footed 24
-**Base Attack/Grapple:** +1/+10
-**Attack:** Masterwork two-bladed sword +5 melee, or slam +6 melee
-**Full Attack:** Masterwork two-bladed sword +5 melee and +5 melee, or slam +6 melee
-**Damage:** Masterwork two-bladed sword 2d6+5/19–20 and 2d6+2/19–20, slam 1d8+7
-**Face/Reach:** 10 ft./10 ft.
-**Special Attacks:** Pulverize
-**Special Qualities:** Construct traits, grafts, rapid repair, SR 14
-**Saves:** Fort +0, Ref +2, Will +0
-**Abilities:** Str 20, Dex 15, Con —, Int 13, Wis 11, Cha 12
-**Skills:** Craft (blacksmithing) +6, Craft (stonemasonry) +10*, Intimidate +6, Knowledge (architecture and engineering) +10*, Listen +7, Profession (siege engineer) +5, Profession (soldier) +5, Spot +7, Survival +5
-**Feats:** Alertness (B), Two-Weapon Fighting
-**Climate/Terrain:** Any land and underground (Acheron)
-**Organization:** Solitary, squad (4–7), warband (2–4 maugs plus 4–9 hobgoblins), or company (10–40 maugs plus 1 sergeant of 1st or 2nd level per 5 maugs, 2–4 lieutenants of 3rd–6th level, 1 leader of 7th–10th level, and 20–50 hobgoblins)
-**Challenge Rating:** 3
-**Treasure:** Half standard
-**Alignment:** Usually lawful neutral
-**Advancement:** By character class
-**Level Adjustment:** +3
-**Kit (published, standard issue):** masterwork full plate armor and a masterwork Huge two-bladed sword, both carried in the block above; treasure is "half standard" as published. Maug grafts (below) are additional published equipment, priced per graft in the book's Appendix 2.
-
-Maugs are tireless soldiers in search of battle. These constructs from Acheron are used on battlefields across the planes as perfect mercenaries, since they remain unflinchingly loyal to their employer and are fearless in battle. Maugs serve any master willing to meet their price, and they do not trouble themselves with questions of right and wrong.
-Maugs are hulking constructs of stone standing more than 9 feet tall and weighing almost 1,500 pounds. Their steel-gray bodies are cut from the pitiless stone of Acheron into massive, humanoid forms. Most maugs carry Huge two-bladed swords forged in the harsh foundries of their home plane and wear heavy iron breastplates of the same origin. A number of maugs are modified with grafts of stone and metal.
-Scholars of planar matters suspect that maugs first served as shock troops in an ancient war between two long-lost empires. In the end, one empire or both discovered some means of transporting the maugs to Thuldanin, the second layer of Acheron and a junkyard of debris from all wars. Initially transported to Thuldanin as prisoners, the maugs ended up changing the layer into their fortress. The first maugs banished there used knowledge stolen from their creators to craft more maugs. These ancient maugs are known by their fellows as the Thulkarr, and they rule the maugs to this day. The Thulkarr and other maug spellcasters have the ability to travel to other planes, and they sometimes use *plane shift* or *gate* to call up squads and platoons of maugs to fight in conflicts across the multiverse.
-Since maugs are nonliving constructs and do not die unless destroyed in combat, many of these mercenaries remain on the Material Plane for centuries, seeking out wars to give meaning to their existence.
-Maugs speak Common, Draconic, and Giant.
-
-**Sidebar (p. 121, published):** "MAUGS AND TOME AND BLOOD — *Tome and Blood* introduces several sorcerer/wizard spells that maugs should make use of: *repair minor damage*, *repair light damage*, *repair moderate damage*, *repair serious damage*, and *repair critical damage*. These spells work like the corresponding *cure* spells, except that they are arcane spells that repair damage only to a construct that has at least 1 hit point remaining. If you use *Tome and Blood* in your campaign, there is no reason that maug spellcasters shouldn't create potions or wands with *repair* spells to facilitate their recovery from damage."
-
-## Mechagargoyle — CR 6 — Monsternomicon Vol. 1
-
-![Mechagargoyle](pictures/mechagargoyle.png)
-
-*Picture: Constructs roster picture index: Official book art — Monsternomicon Vol. I (2002 original), printed p. 124 (entry pp. 124–125)*
-
-ENTRY 9 — MECHAGARGOYLE
-
-
-**Source:** Monsternomicon Vol. I (2002), pp. 124–125.
-**Gate:** IN — published **Int 10**; the text states the shell is animated by a resident spirit and says outright, "Although intelligent, they are completely incapable of communication."
-
-**Size/Type:** Small Construct
-**Hit Dice:** 5d10 (28 hp)
-**Initiative:** +5 (+5 Dex)
-**Speed:** 20 ft.
-**AC:** 31 (+1 size, +5 Dex, +15 natural)
-**Attacks:** 2 claws +7 melee, bite +5 melee
-**Damage:** Claw 1d4+3, bite 1d2+1
-**Face/Reach:** 5 ft. by 5 ft./5 ft.
-**Special Attacks:** Spell-like abilities, stunning strike 1d6+1
-**Special Qualities:** Construct, damage reduction 20/+1, regeneration, vigilance
-**Saves:** Fort +1, Ref +6, Will +1
-**Abilities:** Str 17, Dex 20, Con —, **Int 10**, Wis 14, Cha 12
-**Skills:** Balance +8, Climb +7, Intuit Direction +5, Listen +8, Spot +10
-**Feats:** Flyby Attack, Multiattack
-**Climate/Terrain:** Urban
-**Organization:** Solitary or band (2–5)
-**Challenge Rating:** 6
-**Alignment:** Always neutral
-**Advancement:** 2–4 HD (Tiny); 6–10 HD (Medium-size); 10–15 HD (Large)
-
-> …the strange thing about these constructs that distinguishes them so much is that their internal drive comes from a spirit that takes residence inside the shell of the construct, which is itself quite mundane. Only the most finely constructed forms will attract an animating spirit, and once one has taken up residence it will never leave its metal body. Constructing a shell is a rare art, and even the best craftsmen often find their works spurned by the fickle spirits.
->
-> Simplicity seems to be their nature of the mechagargoyle. They are universal in their purpose, which is to protect an occupied building in just about any urban city. They are very patient creatures, and despite the residing spirit, I've never witnessed one bearing any personality. The only thing they require of the tenants whose buildings they guard is a regular supply of processed iron, preferably in bars. Those who fail to provide for their gargoyles soon find them gone.
->
-> Mechagargoyles come in all varieties (from animal shapes, to humanoids, to even stranger things), although most are about 3 or 4 feet in height or length. The craftsmanship required to construct one is the highest, and those that bear fine and intricate ornamentation seem to have a better success rate in the creation process. For a construct, they are surprisingly nimble, and they are quite vigilant in their guard duties. The magic that binds them together also enables them to fly, as well as exercise a few other abilities. Although intelligent, they are completely incapable of communication (so you had better know what to do when one lands on your stoop).
-
 ## Megalodon — CR 11 — Monster Manual II
 
 ![Megalodon](pictures/megalodon.png)
@@ -5453,85 +5348,6 @@ Type: Gargantuan Beast (Aquatic)
 Challenge Rating: 11
 Source book(s): Monster Manual II
 Description: One of the largest predators in the world, a megalodon defers to dragons and little else. Large enough to devour an entire whale, the megalodon gives even hardened sailors nightmares. A megalodon is normally 55 to 65 feet long, and it weighs between 10 to 60 tons. Rumors of individual megalodons reaching a length of 80 to 90 feet cannot be confirmed.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
-## Merchurion — CR 17 — Fiend Folio
-
-![Merchurion](pictures/merchurion.png)
-
-*Picture: Constructs roster picture index: Official book art — Monster Manual V, p. 103 (captioned; the entry text is p. 102, the illustration faces it on p. 103)*
-
-**Partial — fullest block on file:**
-
-MERCHURION — CR 17
-
-Usually CE Huge construct (living construct)
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; Listen +10, Spot +10
-**Languages** Common, Giant, Terran
-**AC** 31, touch 15, flat-footed 24; Dodge, Mobility (–2 size, +7 Dex, +16 natural)
-**hp** 319 (22 HD); **DR** 10/magic and silver
-**Immune** fire, living construct immunities
-**Weakness** vulnerability to sonic
-**Fort** +16, **Ref** +14, **Will** +11
-**Speed** 60 ft. (12 squares); Spring Attack
-**Melee** +3 silvered battleaxe +28/+23/+18/+13 (3d6+12) [generated weapon]
-**Space** 15 ft.; **Reach** 15 ft.
-**Base Atk** +16; **Grp** +33
-**Atk Options** Awesome Blow, Cleave, Improved Bull Rush, Power Attack, absorb properties, magic strike
-**Special Actions** generate weapon
-**Abilities** Str 28, Dex 25, Con 28, Int 10, Wis 14, Cha 17
-**SA** absorb properties, generate weapons, magic strike
-**SQ** living construct traits
-**Feats** Awesome Blow, Cleave, Dodge, Greater Weapon Focus (generated weapon)ᴮ, Improved Bull Rush, Iron Will, Mobility, Power Attack, Spring Attack, Weapon Focus (generated weapon)ᴮ
-**Skills** Climb +17, Intimidate +12, Jump +29, Listen +10, Spot +10, Survival +11
-**Advancement** 23–26 HD (Huge); 27–34 HD (Gargantuan)
-
-**Absorb Properties (Ex)** If a merchurion is successfully struck by a magic weapon, all that weapon's properties are absorbed by the merchurion for 1 hour. The weapon loses its properties during that time (or until the merchurion is slain). The merchurion can manifest any of these absorbed properties in its generated weapon.
-A merchurion can absorb and manifest weapon properties totaling a +5 enhancement bonus (see page 211 of the Dungeon Master's Guide) or with a market value of up to 50,000 gp. Properties beyond these limits are not absorbed. If a weapon has properties in excess of these limits, properties are absorbed weakest first. As an immediate action, a merchurion can choose to give up absorbed properties in order to absorb new properties. If it does so, the properties it gives up are restored to the weapon they were absorbed from.
-Manifested weapon properties must be suitable for the type of weapon a merchurion generates. Properties that are unsuitable can be absorbed and count toward the total limit even if they cannot be manifested. For instance, a merchurion could absorb the disruption property from a *mace of disruption*, but it could not manifest that property in a battleaxe.
-A merchurion does not absorb the enhancement bonus of a weapon whose properties it absorbs. Such weapons that lose properties continue to function with their magical enhancement bonus, as normal.
-**Generate Weapon (Su)** A merchurion can spontaneously create a single weapon from its flowing metal form. Such weapons have a +3 enhancement bonus and are treated as silvered weapons for the purpose of overcoming damage reduction. If a generated weapon ever leaves the merchurion's hand, that weapon immediately melts into a pool of harmless silver liquid.
-A merchurion is proficient with any weapon it generates using this ability, even an exotic one.
-**Magic Strike:** no separate ability text is printed in the entry (pp. 102–103 read in full); the ability appears only in the block's Atk Options and SA lines above. The block's generated weapon is the +3 silvered battleaxe in the Melee line.
-
-**Origin (p. 102):** Merchurions are what became of an ancient race of fire giants, transformed — "emerging instead as construct creatures of living quicksilver." A transformed people, not a device.
-**Death (p. 103):** When a merchurion is slain, it collapses to a pool of silver liquid that evaporates harmlessly after 24 hours. Any weapon dipped into this pool undergoes a permanent change, becoming silvered and striking as a magic weapon (if not already magic) for the purpose of overcoming damage reduction.
-**In Eberron (p. 103, published setting sidebar — reproduced because it names an individual):** "The merchurions of Eberron are an ancient race whose origins are shrouded in mystery, but which is no doubt connected to the ancient creation forges of Xen'drik. Merchurions have ranged far from the shattered land in the countless centuries since their creation, and one extended tribe now serves a powerful silver dragon named Azraxror-Shien on Argonnessen. A neutral good merchurion named Silverfist resides in Thrane. The creature converted to the faith of the Silver Flame and is recognized as an icon by some clergy. His place in the church remains a source of debate." *[Sidebar prose as published; the Eberron setting content is stripped for APOC per the standing rule — the mechanics and the existence of named individuals are what carry over. The "Merchurions in Faerûn" sidebar begins at the foot of p. 103.]*
-**Level Adjustment:** none printed — the MM V entry (pp. 102–103, read in full from the folio-verified pages) carries no Level Adjustment line anywhere, in the block, the Ecology, or the For Player Characters text. A +5 figure carried in an earlier draft of this entry is not in the book and is removed.
-
-**Treasure (as published):** no Treasure line is printed in the compact MM V block.
-
-**APOC Note:** Merchurions are not built — they are a *people transformed*, fire giants remade as living quicksilver, with their own tribes, faiths, and named individuals (the book itself prints one, Silverfist, holding a religion and a public reputation). Of everything in this batch, the merchurion is the entry where "construct" is a body, not a status: in the APOC they are citizens in the same fight as the Warforged — created-into-a-new-shape, second-class, "toi" spat at them just the same — except they remember being giants. The absorb-properties power makes every merchurion a walking arsenal dispute: a weapon it takes properties from is restored when it gives them up or dies, which in Bastion law is a property case, not a monster trait. Eberron sidebar content above stays stripped for play; the personhood does not.
-**Picture (final, at merge):** `pictures/merchurion-mm5-p103.png` — OFFICIAL BOOK ART (Monster Manual V, p. 103)
-
----
-
-## Mimic — CR 4 — Monster Manual I
-
-![Mimic](pictures/mimic.webp)
-
-*Picture: Monster library art — Monster Manual I*
-
-**Partial — fullest block on file:**
-
-Type: Large Aberration (Shapechanger)
-Challenge Rating: 4
-Source book(s): Monster Manual I
-Description: A mimic can have almost any dimensions, but usually is not more than 10 feet long. A typical mimic has a volume of 150 cubic feet (5 feet by 5 feet by 6 feet) and weighs about 4,500 pounds. Mimics speak Common.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
-## Mind Flayer — CR 8 — Monster Manual I
-
-![Mind Flayer](pictures/mind-flayer.jpg)
-
-*Picture: Monster library art — Monster Manual I*
-
-**Partial — fullest block on file:**
-
-Type: Medium Aberration
-Challenge Rating: 8
-Source book(s): Monster Manual I
-Description: In terms of height, weight, and build, mind flayers were roughly comparable to thin humans, but it was at this point that any external comparison to humanoids ended. An illithid's bulging, ridged, elongated head was reminiscent of an octopus, with a cluster of four flexible, unsegmented, extendable, purplish-black tentacles surrounding their mouths.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
 ## Mindshredder Zenthal — CR 8 — Monster Manual III
@@ -5547,6 +5363,90 @@ Challenge Rating: 8
 Source book(s): Monster Manual III
 Description: The strange-looking creature resembles a gaunt, fleshy spider with only four thin legs. Two tentacles protrude from its shoulders, swinging over the creature's head and dripping a toxic-looking slime. The creature's skin has a faint bluish glow, and it is clear that some strange mystical energy surrounds it. The final and most powerful life stage of the strange creatures known as mindshredders, the mindshredder zenthal combines powerful spell-like abilities with the Wisdom-damaging attacks that all mindshredders share.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Mira Cogwheel — CR 10 — NPCs — ALL-150 (Shaun's cast)
+
+![Mira Cogwheel](pictures/mira-cogwheel.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+49. Mira Cogwheel — Gnome Bard 10, CN
+
+![Mira Cogwheel](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/mira-cogwheel.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/mira-cogwheel.jpg)
+
+**Abilities:** Str 8 (10–2 racial), Dex 14, Con 15 (13+2 racial), Int 12, Wis 10, Cha 19 (15+2 lvl+2 cloak). **HD** 10d6+20; **hp** 57 (6+9×3.5+20). **Init** +2; **Speed** 20 ft. **AC** 17 (+4 *+1 mithral chain shirt*, +2 Dex, +1 size), touch 13, flat 15. **BAB/Grapple** +7/+2. **Attack:** *+1 rapier* +9 (1d4/18–20), steam-whistle crossbow +10 (1d6). **SA/SQ:** Bardic music 10/day (inspire courage +2, inspire competence, fascinate, suggestion, inspire greatness), bardic knowledge +13, lore master 1/day, gnome SLAs. **Saves:** Fort +5, Ref +9, Will +7. **Skills:** Perform (sing/steam organ) +17, Diplomacy +15, Bluff +15, Tumble +13, Use Magic Device +15, Knowledge (local) +11, Hide +11. **Feats:** Lingering Song, Extra Music, Weapon Finesse, Spell Focus (Enchantment), Improved Initiative.
+**Equipment (16,000 gp):** *cloak of charisma +2* (4,000), *+1 mithral chain shirt* (2,100), steam-whistle (alchemical *obscuring mist* effect, non-planar) (2,000), *wand of cure moderate wounds* (4,500), masterwork steam organ (portable), costume trunk, 900 gp.
+**Bard spells known (DC 14+level, Ench +1):** 0—*dancing lights, ghost sound, mage hand, mending, message, prestidigitation*; 1st (4/day, known 4)—*cure light wounds, charm person, disguise self, expeditious retreat*; 2nd (4/day, known 4)—*cure moderate wounds, suggestion, mirror image, silence*; 3rd (3/day, known 3)—*cure serious wounds, haste, glibness*; 4th (1/day, known 2)—*greater invisibility, modify memory*. No summon spells.
+**Size/Type:** Small humanoid (gnome); **Space/Reach:** 5 ft./5 ft.
+**Steampunk aesthetic:** Her patchwork velvet is reinforced with riveted leather at every wear-point, a harness of miniature steam-organ pipes rides her back, and her songbird is pure wind-up brass, re-wound between sets. Polished copper toe-caps catch the cabaret's amber foot-lights, and her goggles have a second, green lens that flips down for stage smoke.
+**Appearance/Personality:** Brass goggles, patchwork velvet, a trained (resident) clockwork songbird. Irrepressible, nosy, generous with other people's secrets. **Voice:** sings one word per sentence, randomly. **Motivation:** keep the Bastion laughing — "a city that stops laughing starts rotting." **Secret/Flaw:** her cabaret's cellar is a dead-drop for three factions at once; even she lost track of which parcel was whose. **Background:** Independent cabaret owner near the Playhouse. **DM Hook:** a parcel mix-up puts a demon contract, an undead reliquary, and a love letter in the wrong hands — party must unsort it in one night.
+
+---
+
+## Mira Voss — CR 6 — NPCs — ALL-150 (Shaun's cast)
+
+![Mira Voss](pictures/mira-voss.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+26. Mira Voss — Human Rogue 5 / Assassin 1, NE — *Prestige*
+
+![Mira Voss](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/mira-voss.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/mira-voss.jpg)
+
+**Prereqs met:** Evil alignment, Disguise 4, Hide 8, Move Silently 8 ranks by L5, performed a kill for the enclave (in background).
+**Abilities:** Str 12 (+1), Dex 16 (+3, 15+1 L4), Con 13 (+1), Int 14 (+2), Wis 10, Cha 8 (-1)
+**HD/hp:** 5d6+5 + 1d6+1, **hp 27** (6+12+3 +6) | **Init** +3 | **Speed** 30 ft
+**AC** 17 (+3 Dex, +4 +1 chain shirt), touch 13, flat 14
+**BAB/Grapple** +3/+4 | **Attack** +1 short sword +5 melee (1d6+2) | **SA:** Sneak attack +3d6 (rogue) +1d6 assassin = +4d6 on qualifying hits (stacks), death attack DC 13 (10+1 assassin lvl+2 Int) after 3 rounds study, poison use
+**Space/Reach** 5 ft/5 ft
+**Saves** Fort +2, Ref +9, Will +1 (+1 vs poison)
+**Skills:** Hide +13, Move Silently +11, Disguise +7, Bluff +7, Disable Device +10, Open Lock +11, Spot +8, Tumble +11
+**Feats:** Two-Weapon Fighting [human], Weapon Finesse [1], Improved Initiative [3]
+**Assassin spells (1/day 1st):** *true strike* prepared typical. **No summoning.**
+**Gear (~5,500 gp):** +1 chain shirt, +1 short sword, mwk daggers ×2, mwk thieves' tools, giant wasp poison ×2 doses, potion of *invisibility*, 40 gp.
+**Steampunk aesthetic:** Deliberately plain grey-brown servant's dress — except for the clockwork gear-clasp belt that meters out her poison vials, copper-threaded reversible coat, and dagger sheath dulled with soot so it never catches lamplight.
+**Appearance:** Plain face, plain clothes — deliberately unmemorable; only her hands (inkless, scarless) are distinctive.
+**Traits/Voice:** Soft, polite, asks about your family. Remembers answers.
+**Motivation:** Rise in the demon enclave that shelters her younger brother. **Secret/Flaw:** She has twice let a marked child escape; a third mercy will expose her.
+**Background:** Poses as a scrivener's clerk in the Bastion; takes contracts through a Loviatar chapel cut-out.
+**DM Hook:** Recurring villain / moral trap; can be turned if her brother is protected.
+
+---
+
+## Mirella Voss — CR 13 — NPCs — ALL-150 (Shaun's cast)
+
+![Mirella Voss](pictures/mirella-voss.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+62. Mirella Voss — Grandmaster Alchemist
+
+![Mirella Voss](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/mirella-voss.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/mirella-voss.jpg)
+
+**Human Wizard (Transmuter) 9 / Loremaster 4, NG, Level 13** — Barred: Enchantment, Necromancy
+Str 8 (-1), Dex 14 (+2), Con 13 (+1), Int 22 (+6) [15+1 lvl4+1 lvl8+1 lvl12=18, +4 headband =22], Wis 12 (+1), Cha 10 (+0)
+
+**HD/hp:** 13d4+13 = 4 + (12×2.5=30) +13 = **47 hp**. **Init:** +2. **Speed:** 30 ft.
+**AC:** 16 (+2 Dex, +2 natural (amulet), +2 deflection (ring)), touch 14, flat-footed 14; 20 with *mage armour* (flat-footed 18).
+**BAB/Grapple:** +6 / +5.
+**Attack:** Masterwork dagger +6 melee (1d4-1), light crossbow +8 ranged (1d8 /19-20).
+**Full Attack:** Dagger +6/+1.
+**Space/Reach:** 5 ft / 5 ft.
+**Special Attacks:** Spells (below).
+**Special Qualities:** Lore +11, secret (lore of true stamina +2 Fort applied), familiar — rat named Pip (kept, not summoned; a living animal companion housed in her laboratory), scribe scroll, bonus feats.
+**Saves:** Fort +7, Ref +8, Will +13.
+**Skills:** Craft (alchemy) +27 (16 ranks, +6 Int, +2 lab, +3 Skill Focus), Knowledge (arcana) +22, Spellcraft +24, Concentration +17, Knowledge (nature) +18, Decipher Script +18, Heal +10, Appraise +16.
+**Feats:** Skill Focus (Craft alchemy), Brew Potion, Scribe Scroll, Craft Wondrous Item, Craft Magic Arms and Armour, Empower Spell, Skill Focus (Knowledge arcana — Loremaster), Alertness (familiar).
+**Kit (~34,800 gp):** Headband of intellect +4 (16,000), ring of protection +2 (8,000), amulet of natural armour +2 (8,000), masterwork alchemist's lab (500), portable steam-still (apparatus — allows elemental augmentation), 12 alchemist's fire, 6 acid, 4 tanglefoot (carried in bandolier, mundane container), spellbook in lead-lined case, 1,200 gp in reagents and cheqs.
+**Spells prepared (CL 13, no summoning, elemental only with apparatus/still):** 0 — *detect magic, read magic, prestidigitation, mending*; 1st — *mage armour, grease, identify, feather fall, endure elements (apparatus)*; 2nd — *bull's strength, cat's grace, scorching ray (apparatus), web*; 3rd — *dispel magic, haste, fireball (apparatus), stinking cloud*; 4th — *polymorph, stoneskin, ice storm (apparatus)*; 5th — *transmute rock to mud, wall of force, baleful polymorph*; 6th — *disintegrate, flesh to stone*; 7th — *reverse gravity*.
+**Blight habit:** She will not cast above 3rd level on living soil. Her laboratory floor is solid lead and stone, paid for herself, and she keeps a blight ledger — every high casting entered, every acre answered for.
+**Steampunk aesthetic:** Copper goggles and a brass-stoppered bandolier of vials kept ticking-warm by her portable steam-still, a lead apron closed with a gear-clasp, green alchemy stains up both arms — the Guild Grandmaster dressed as her own laboratory.
+**Appearance:** Copper goggles pushed up, hands stained green to the wrist, hair in a singed braid. **Traits:** Precise, dryly funny, treats recipes as law. **Voice hook:** Clipped, quantities in every sentence — "Two minutes. Three, if you're lying." **Motivation:** Prove alchemy can replace raw magic entirely. **Secret/Flaw:** Her early transmutation blighted her sister's farm; she sends money anonymously and has never visited. **Background:** Grandmaster of the Guild of Apothecaries, Physicians & Alchemists; runs the Bastion's potion rationing. **DM Hook:** Needs an escort for a reagent convoy — and a discreet witness, because one crate is not on the manifest.
+
+---
 
 ## Mob of Zombies — CR 8 — Exemplars of Evil
 
@@ -5914,6 +5814,27 @@ Source book(s): Monster Manual IV
 Description: This creature has the lower body of a worm, the head of a snake with milky white eyes, and two long arms that terminate in enormous bone claws. It holds its body at about the height of a human as it rises to attack.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
+## Naronen Monroe — CR 20 — NPCs — ALL-150 (Shaun's cast)
+
+![Naronen Monroe](pictures/naronen-monroe.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+137. Naronen Monroe — Male Human Wizard 10 / Steam Mage 10, LN (ECL 20)
+
+![Naronen Monroe](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/naronen-monroe.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/naronen-monroe.jpg)
+
+**Tracker status (as-is):** "Institute of Arcane Science triad (Wiz10/Stm10)"
+**Tracker detail:** Male human, wizard 10 / steam mage 10 — used exactly as given. One of the three founding mages who administer the Institute of Arcane Science. **Chassis note:** Steam Mage is a Bastion class from the source document; built here on the closest legal 3.5 chassis — wizard spellcasting progression continued to CL 20, with Archmage-style mastery and apparatus class features (steam affinity, manifold casting) in place of a separate spell list.
+**Abilities:** Str 8 (−1), Dex 14 (+2), Con 14 (+2; 12 +2 amulet), Int 26 (+8; 15 +5 level +6 headband), Wis 13 (+1), Cha 12 (+1). **HD** 20d4+40; **hp** 82 (4 +19×2 +40). **Init** +6; **Speed** 30 ft. **AC** 20 (+6 *bracers of armour +6*, +2 Dex, +2 *ring of protection +2*), touch 14, flat-footed 18. **BAB/Grapple** +10/+9. **Attack:** masterwork dagger +10 (1d4−1) or masterwork light crossbow +13 (1d8). **Space/Reach** 5 ft./5 ft. **SA/SQ:** CL 20 wizard casting, steam affinity (elemental spells function at full effect only through his Institute manifold rig — carried as a 15 lb brass condenser harness), manifold mastery (as Archmage mastery of elements, apparatus-bound), blight ledger (he has personally logged 41 acres of institute blight), familiar dismissed — he keeps a clockwork pseudofamiliar (non-magical construct companion, no spell link). **Saves:** Fort +11 (base +6, Con +2, vest +3), Ref +11 (+6, +2, +3), Will +17 (+13, +1, +3). **Skills:** Concentration +25, Craft (alchemy) +31, Knowledge (arcana) +31, Knowledge (architecture & engineering) +26, Knowledge (history) +21, Profession (steam engineer) +24, Spellcraft +33, Use Magic Device +12 (cross-class ranks noted). **Feats:** Scribe Scroll, Craft Wondrous Item, Craft Magic Arms & Armour, Spell Focus (Evocation), Greater Spell Focus (Evocation), Spell Penetration, Greater Spell Penetration, Empower Spell, Quicken Spell, Skill Focus (Craft alchemy), Improved Initiative, Brew Potion.
+**Equipment (175,500 gp personal):** *headband of intellect +6* (36,000), *bracers of armour +6* (36,000), *amulet of health +2* (4,000), *ring of protection +2* (8,000), *vest of resistance +3* (9,000), *rod of metamagic, empower (normal)* (32,500), *wand of enervation* (21,000), Institute manifold harness (masterwork apparatus, 5,000), spellbooks ×4 (oilskin, mundane, 15,000 in rare inks/pages), *scrolls of disintegrate* ×2 and *greater dispel magic* ×2 (9,000). He is also a signatory on 42,500 gp of Institute research funds (restricted, not personal wealth); the Institute's laboratory is an Institute asset.
+**Wizard spells prepared (4/6/6/6/6/5/5/5/5/3; DC 18+level, Evocation +2):** 0—*detect magic, mage hand, prestidigitation, read magic*; 1st—*identify, mage armour, magic missile ×2, shield, true strike*; 2nd—*glitterdust, invisibility, mirror image, scorching ray* (manifold), *web, whispering wind*; 3rd—*dispel magic, fireball* (manifold), *haste, lightning bolt* (manifold), *sleet storm, tongues*; 4th—*greater invisibility, ice storm* (manifold), *polymorph, scrying, stoneskin, wall of fire* (manifold); 5th—*cloudkill, cone of cold* (manifold), *permanency* (self-only effects), *sending, wall of force*; 6th—*chain lightning* (manifold), *disintegrate, greater dispel magic, true seeing, wall of iron*; 7th—*finger of death, forcecage, mordenkainen's sword* (a force effect, not a summon — allowed), *spell turning, waves of exhaustion*; 8th—*horrid wilting, irresistible dance, polymorph any object, sunburst* (manifold-fed, dimmed under Fog); 9th—*foresight, meteor swarm* (manifold), *time stop*. No summoning, no teleportation, no planar spells anywhere in the book.
+**Steampunk aesthetic:** The Institute triad's robes are boiler-room formal: charcoal frock coat with brass manifold valves worn like orders of merit, a condenser harness ticking softly under it, and goggles pushed up on a soot-grey brow; his office is a forest of pressure gauges and amber lamps, and his "spellbook" rides in a riveted steel case with a combination lock.
+**Appearance/Personality:** Precise, dry, and faintly amused by everyone less organised than himself. Runs the Institute like a boiler room: pressure, tolerances, no surprises. **Voice hook:** quotes tolerances — "within tolerance," "outside tolerance, therefore interesting." **Motivation:** keep arcane science funded, licensed, and pointed at the blight problem. **Secret/Flaw:** the Institute's secret defence project draws on his manifold research in ways he has not told his fellow triad members about in full. **DM Hook:** he can identify, license, or quietly buy almost any apparatus or spell research in the Bastion — and he remembers every favour.
+
+---
+
 ## Nerra, Varoot — CR 1 — Fiend Folio
 
 ![Nerra, Varoot](pictures/nerra-varoot.png)
@@ -5928,19 +5849,24 @@ Source book(s): Fiend Folio
 Description: Varoots are the most common nerras to be found both on the Plane of Mirrors and the Material Plane. They are experts at spying, infiltration, and subterfuge. In their natural form, varoots have a basic humanoid shape that is covered with a mirrorlike sheen that reflects everything around them. Their facial features are smooth and rather indistinct.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Nightmare — CR 5 — Monster Manual I
+## Nyx Shadowveil — CR 11 — NPCs — ALL-150 (Shaun's cast)
 
-![Nightmare](pictures/nightmare.jpg)
+![Nyx Shadowveil](pictures/nyx-shadowveil.jpg)
 
-*Picture: Monster library art — Monster Manual I*
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
 
-**Partial — fullest block on file:**
+52. Nyx Shadowveil — Halfling Rogue 7 / Shadowdancer 4, NE
 
-Type: Large Outsider (Evil, Extraplanar)
-Challenge Rating: 5
-Source book(s): Monster Manual I
-Description: A nightmare is about the size of a light war horse.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+![Nyx Shadowveil](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/nyx-shadowveil.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/nyx-shadowveil.jpg)
+
+**Abilities:** Str 10 (12–2), Dex 20 (14+2 racial+2 lvl+2 gloves), Con 13, Int 15, Wis 10, Cha 8. **HD** 11d6+11; **hp** 52. **Init** +5; **Speed** 20 ft. **AC** 20 (+4 *+1 mithral shirt*, +5 Dex, +1 size), touch 16, flat 15. **BAB/Grapple** +8/+3. **Attack:** *+1 short sword* +14 (1d4+1/19–20) + sneak +4d6; shadow jump 20 ft/day (supernatural shadow-step within the same plane). **SA/SQ:** Sneak +4d6, evasion, improved uncanny dodge, hide in plain sight, shadow illusion, defensive roll. **Saves:** Fort +4, Ref +13, Will +3. **Skills:** Hide +23, Move Silently +19, Tumble +19, Disable Device +16, Open Lock +19, Sleight of Hand +17, Bluff +11, Jump +12. **Feats:** Dodge, Mobility, Combat Reflexes, Weapon Finesse, Spring Attack, Improved Initiative. *Shadowdancer prereqs met: Dodge/Mobility/Combat Reflexes, Hide 10 ranks, Move Silently 8 ranks, Perform (dance) 5 ranks.*
+**Equipment (21,000 gp):** *gloves of dexterity +2* (4,000), *+1 mithral shirt* (2,100), *+1 short sword* (2,310), *cloak of resistance +2* (4,000), *slippers of spider climbing* (4,800), masterwork tools, shadow-dye alchemy, 900 gp in cut gems.
+**Size/Type:** Small humanoid (halfling); **Space/Reach:** 5 ft./5 ft.
+**Steampunk aesthetic:** Everything matte to drink the light: shadow-dyed leathers fastened with blackened copper, picks in a clockmaker's roll, and a candle-stub lantern in a riveted iron cage never far from her hand. Her slippers are stitched with grey thread, and a soot-darkened goggle case — never worn, always carried — knocks softly at her belt.
+**Appearance/Personality:** Grey-dyed hair, never seen entering a room — only noticed already in it. Professional, amused, sells everything twice. **Voice:** finishes other people's sentences, correctly, for a fee. **Motivation:** steal the Bastion mint's cheq plates and retire as the economy. **Secret/Flaw:** terrified of total darkness — ironic and exploitable; needs a candle stub always. **Background:** Independent contractor to guilds and enclaves alike. **DM Hook:** hires the party as "distraction consultants" without saying for what — pay is excellent.
+
+---
 
 ## Ocean Strider — CR 18 — Monster Manual II
 
@@ -6211,6 +6137,100 @@ A painspeaker speaks the languages it knew when alive.
 **Advancement:** 7–12 HD (Medium); 13–18 HD (Large)
 **Level Adjustment:** —
 
+## Pell Underbough — CR 5 — NPCs — ALL-150 (Shaun's cast)
+
+![Pell Underbough](pictures/pell-underbough.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+25. Pell Underbough — Halfling Bard 5, CN
+
+![Pell Underbough](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/pell-underbough.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/pell-underbough.jpg)
+
+**Abilities:** Str 10 (12-2), Dex 16 (+3, 14+2), Con 13 (+1), Int 12 (+1), Wis 8 (-1), Cha 16 (+3, 15+1 L4)
+**HD/hp:** 5d6+5, **hp 23** (6+3x4 +5) | **Init** +3 | **Speed** 20 ft
+**AC** 17 (+3 Dex, +1 size, +3 +1 studded leather), touch 14, flat 14
+**BAB/Grapple** +3/-1 | **Attack** +1 short sword +5 melee (1d4+1/19-20) or mwk sling +8 ranged (1d3) | **SA/SQ:** Bardic music 5/day (countersong, fascinate, inspire courage +1, inspire competence +2), bardic knowledge +6, halfling traits
+**Space/Reach** 5 ft/5 ft
+**Saves** Fort +2, Ref +8, Will +3
+**Skills:** Perform (lute/sing) +11, Bluff +11, Diplomacy +9, Gather Information +11, Hide +11, Move Silently +9, Sense Motive +5, Disguise +7
+**Feats:** Skill Focus (Perform) [1], Lingering Song [3]
+**Spells known:** 0 (6): *dancing lights, detect magic, ghost sound, mage hand, message, prestidigitation*; 1st (4): *charm person, cure light wounds, disguise self, silent image*; 2nd (2): *invisibility, suggestion*. Per day 3/3/2 (incl. Cha bonus), DC 13+spell level. **No summoning.**
+**Gear (~4,250 gp):** +1 studded leather, +1 short sword, mwk lute, potions of *cure moderate wounds* ×2, mwk disguise kit, forged guild papers, 120 gp.
+**Steampunk aesthetic:** A damp grey-green waistcoat with brass cog buttons and tooled leather pockets, a lute whose tuning pegs are clockwork gears, and a playbill-patched case fitted with a tiny amber fog-lamp for reading set lists in the murk.
+**Appearance:** Round-faced, waistcoat with too many pockets, lute case patched with playbills.
+**Traits/Voice:** Warm tenor, drops a proverb per sentence, lies kindly.
+**Motivation:** Pay off the Playhouse debt and keep his troupe fed. **Secret:** Passes Watch patrol times to Fenwick Aldous (below) for coin — and songs to the Watch about smugglers. Both sides.
+**Background:** Bastion Playhouse regular, Entertainers' Guild.
+**DM Hook:** Rumour hub, social infiltrator, comic relief with real information — for a price in applause.
+
+---
+## LEVEL 6
+
+---
+
+## PIP-9 — CR 9 — NPCs — ALL-150 (Shaun's cast)
+
+![PIP-9](pictures/pip-9-pip.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+45. PIP-9 "Pip" — Warforged Ranger 9, CG
+
+![PIP-9 "Pip"](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/pip-9-pip.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/pip-9-pip.jpg)
+
+**Abilities:** Str 15, Dex 14, Con 16 (14+2 racial), Int 10, Wis 14, Cha 8. **HD** 9d8+27; **hp** 71 (8+8×4.5+27). **Init** +2; **Speed** 30 ft. **AC** 19 (+5 *+1 composite plating (mithral body equivalent +1 enhancement)*, +2 Dex, +2 *+1 light shield*), touch 12, flat 17. **BAB/Grapple** +9/+11. **Full Attack:** *+1 longsword* +13/+8 (1d8+3/19–20) and slam +8 (1d4+1); composite longbow +12/+7 (1d8+2/x3). **SA/SQ:** Favoured enemies demons +4, undead +2, Track, wild empathy, endurance, woodland stride, swift tracker, evasion (ranger 9), light fortification 25%, warforged immunities, animal companion — resident dire raven (not summoned). **Saves:** Fort +9, Ref +8, Will +5. **Skills:** Survival +14, Listen +14, Spot +14, Hide +12, Move Silently +12, Knowledge (nature) +8, Heal +10. **Feats:** Mithral Body, Track, Endurance, Manyshot, Rapid Shot, Point Blank Shot, Improved Precise Shot (bonus style), Weapon Focus (longbow).
+**Equipment (12,000 gp):** *+1 longsword* (2,315), *+1 composite longbow (+2 Str)* (2,600), *+1 plating enhancement* (1,000), *cloak of resistance +1* (1,000), repair kit (oil of *repair moderate damage* ×3), alchemical fog-lantern, 600 gp, *wand of cure light wounds* (for living allies, 750).
+**Ranger spells (2/1; DC 12+level):** 1st—*longstrider, pass without trace*; 2nd—*barkskin*. No summon/animal-summoning spells taken.
+**Size/Type:** Medium construct (living construct); **Space/Reach:** 5 ft./5 ft.
+**Steampunk aesthetic:** Riveted mithral plating under the white guide-stripes, exposed brass gearing at the shoulder joints, and an amber fog-lantern gimbal-mounted at his chest so it stays level on any slope. His pauldron is fitted with a little iron roost-ring for the raven, and every seam weeps a bead of machine oil.
+**Appearance/Personality:** Small for a warforged, plating painted with white guide-stripes, raven rides his shoulder pauldron. Cheerful, tireless, logs every road by rivet-count. **Voice:** cheerful whistle before bad news. **Motivation:** legal personhood for warforged — a marked road where they may walk free is his proof of concept. **Secret/Flaw:** his chest contains a pre-Calamity military command core that occasionally issues orders in a dead general's voice. **Background:** Remnants scout who defected to the rights movement; guides caravans through the fog. **DM Hook:** offers free guidance — then the command core speaks mid-journey.
+
+---
+
+## LEVEL 10
+
+---
+
+## Pippa Underbough — CR 1 — NPCs — ALL-150 (Shaun's cast)
+
+![Pippa Underbough](pictures/pippa-underbough.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+3. Pippa Underbough — Halfling Rogue 1
+
+![Pippa Underbough](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/pippa-underbough.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/pippa-underbough.jpg)
+
+**Alignment:** Chaotic Neutral | **Faction:** Independent (courier/smuggler) | **Role:** Skill
+
+**Abilities:** Str 8 (−1), Dex 17 (+3), Con 12 (+1), Int 14 (+2), Wis 13 (+1), Cha 10 (+0)
+**HD:** 1d6+1; **hp** 7 | **Init** +3 | **Speed** 20 ft.
+**AC** 16 (+2 leather, +3 Dex, +1 size), touch 14, flat-footed 13
+**BAB** +0; **Grapple** −5 (+0 BAB, −1 Str, −4 size)
+**Attack:** Dagger +0 melee (1d3−1, 19–20/×2); light crossbow +4 ranged (1d6, 19–20/×2, 80 ft.)
+**Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** Sneak attack +1d6
+**Special Qualities:** Trapfinding; +2 racial on Climb, Jump, Listen, Move Silently; +1 racial on all saves; +2 morale bonus on saves vs. fear; +1 racial attack with thrown weapons and slings
+**Saves:** Fort +2 (+0 base, +1 Con, +1 racial), Ref +6 (+2 base, +3 Dex, +1 racial), Will +2 (+0 base, +1 Wis, +1 racial); +2 vs. fear
+**Skills:** Hide +11 (4 ranks, +3 Dex, +4 size), Move Silently +9 (4 ranks, +3 Dex, +2 racial), Disable Device +6 (4 ranks, +2 Int), Open Lock +7 (4 ranks, +3 Dex), Search +6 (4 ranks, +2 Int), Spot +5 (4 ranks, +1 Wis), Listen +7 (4 ranks, +1 Wis, +2 racial), Bluff +4 (4 ranks), Tumble +7 (4 ranks, +3 Dex), Sleight of Hand +7 (4 ranks, +3 Dex)
+**Feats:** Dodge
+**Equipment:** Leather armor (10 gp), dagger (2 gp), light crossbow (35 gp), 20 bolts (2 gp), masterwork thieves' tools (100 gp), backpack, grappling hook and 50 ft. silk rope (11 gp), disguise kit (50 gp), 2 sunrods (4 gp, treasured — real light in a grey world), potion of *cure light wounds* (50 gp), smuggler's false-bottomed satchel (custom, 40 gp). ~305 gp spent; ~595 gp sewn into three different coat linings.
+
+**Appearance:** A quick, sharp-faced halfling barely three feet tall, with chestnut hair cut ragged-short and ink-stained fingers. She dresses in greys and browns that match the Fog of Life exactly — she calls it "Bastion camouflage."
+**Steampunk aesthetic:** Small-scale and practical: her false-bottomed satchel has brass corner-studs and a little clockwork latch she winds each morning, her coat buttons are filed-down cog teeth, and her crossbow is blackened wood and matte iron that won't catch lamplight. Grey and brown leather straps everywhere — in the fog, with her sunrod shuttered down, she is nearly invisible.
+**Traits:** Cheerful, mercenary, pathologically curious about locked things. Loyal only after she's been paid, but then completely.
+**Mannerism/Voice Hook:** Counts exits out loud, cheerfully, in every room. High, fast voice: "Two doors, one window, one very climbable drainpipe. Lovely."
+**Motivation:** Save enough to buy a legitimate courier's license and a shopfront — she wants to go straight *eventually*, which she defines as "when it's profitable."
+**Secret/Flaw:** She once carried a sealed packet for a client she later learned was a demon-enclave cultist; whatever was in it, people died. She still takes sealed packets. She just charges more and doesn't sleep after.
+**Background:** Raised in the Bastion's market wards running messages for merchants who didn't want their cargo on the books. She moves small, valuable, deniable things — alchemical reagents, letters, medicine — through the wards and occasionally out to Remnant farmsteads.
+**DM Use Hook:** The party's entry to the Bastion underworld: she can get them in anywhere once, sell them a rumor, or show up at the worst moment carrying a packet addressed to *them*.
+
+---
+
 ## Pistol Wraith — CR 9 — Monsternomicon Vol. I
 
 ![Pistol Wraith](pictures/pistol-wraith.png)
@@ -6266,19 +6286,36 @@ Legends & Lore — Common: Those who fancy themselves to be deadly pistoleers ma
 
 ---
 
-## Prismatic Golem — CR 18 — Monster Manual III
+## Professor Ostwick Hale — CR 8 — NPCs — ALL-150 (Shaun's cast)
 
-![Prismatic Golem](pictures/prismatic-golem.png)
+![Professor Ostwick Hale](pictures/professor-ostwick-hale.jpg)
 
-*Picture: APOC-VTT monster library art — Monster Manual III*
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
 
-**Partial — fullest block on file:**
+37. Professor Ostwick Hale — Human Wizard 7 / Loremaster 1, LN — *Prestige*
 
-Type: Large Construct (Extraplanar, Good, Incorporeal)
-Challenge Rating: 18
-Source book(s): Monster Manual III
-Description: A 10-foot-diameter sphere of scintillating, multicolored light glides silently toward you. A prismatic golem is a construct of pure light gathered from the luminescence of the plane of Elysium. Celestial spellcasters, always endeavoring to achieve the art of perfection, find that light compacted to its essence makes for a radiant servant. A prismatic golem has no weight and cannot speak, although it nods to acknowledge a valid command.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+![Professor Ostwick Hale](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/professor-ostwick-hale.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/professor-ostwick-hale.jpg)
+
+**Prereqs met:** Knowledge (arcana) 10 ranks + Knowledge (history) 10 ranks by L7, Skill Focus (Knowledge arcana), 3 metamagic/item-creation feats (Scribe Scroll, Craft Wondrous Item, Extend Spell, Craft Wand = 4), can cast 3rd-lvl arcane incl. one divination (met).
+**Abilities:** Str 8 (-1), Dex 12 (+1), Con 13 (+1), Int 19 (+4, 15+1 L4+1 L8+1? base 15+2=17, +2 headband = 19 effective), Wis 14 (+2), Cha 10
+**HD/hp:** 8d4+8, **hp 28** (4+2x7 +8) | **Init** +1 | **Speed** 30 ft
+**AC** 12 (+1 Dex, +1 ring), touch 12, flat 11 (16 mage armour)
+**BAB/Grapple** +3/+2 | **Attack** dagger +2 (1d4-1) | **SQ:** Lore +5 (Loremaster secret at 1: secret of — lore ability), familiar (owl)
+**Space/Reach** 5 ft/5 ft
+**Saves** Fort +3, Ref +3, Will +9
+**Skills:** Knowledge (arcana) +15, Knowledge (history) +15, Knowledge (religion) +12, Spellcraft +15, Decipher Script +13, Concentration +9, Gather Information +8 (lore-assisted)
+**Feats:** Scribe Scroll (wizard bonus), Skill Focus (Knowledge [arcana]) [human], Craft Wondrous Item [1], Extend Spell [3], Craft Wand [wizard 5 bonus], Spell Penetration [6]
+**Spells prepared (4/5/4/3/2 caster L8; DC 14+spell level):** 0: *detect magic, read magic, light, mage hand*; 1st: *mage armour, identify, comprehend languages, magic missile, shield*; 2nd: *locate object, mirror image, web, invisibility*; 3rd: *dispel magic, tongues, lightning bolt* (augmented via condenser-lens apparatus); 4th: *scrying* (this sphere only — planar severance), *polymorph*; 5th: none at CL 8 (first 5th-level slot at CL 9). Extra-dimensional/teleport spells (*dimension door, teleport*) are **excluded per APOC law**.
+**Gear (~9,300 gp):** Headband of Intellect +2, ring of protection +1, wand *cure? no — wand of magic missile* CL5, apparatus condenser-lens, spellbooks x2, scrolls *identify, tongues*, 140 gp.
+**Steampunk aesthetic:** Reading spectacles on three brass chains, a condenser-lens apparatus on an articulated jeweller's arm over his lectern, cog-buttoned waistcoat under ink-stained robes, and Marginalia the owl perched on a steam-warmed brass lamp.
+**Appearance:** Stooped, ink cuffs, reading spectacles on three chains, owl (Marginalia) on the lectern.
+**Traits/Voice:** Footnotes his own sentences aloud. *"As I said — asterisk — provisionally."*
+**Motivation:** Finish a true history of the calamity before the Kingdom's version wins. **Secret:** One chapter, already written, proves a Remnant hero freed — not fought — a demon. He has not published it.
+**Background:** Institute of Arcane Science, Hall of Reflected Moonlight archives.
+**DM Hook:** Lore oracle (lore check), quest patron, the unpublished chapter is a faction bomb.
+
+---
 
 ## Pyre Troll — CR 8 — Monsternomicon Vol. 2
 
@@ -6293,6 +6330,16 @@ Challenge Rating: 8
 Source book(s): Monsternomicon Vol. 2
 Description: Ihave described many troll varieties in earlier works (cursorily in Monsternomicon: Denizens of the Iron Kingdoms and more exhaustively in Genera and Species of Southern Trolls). I feel that two of the more unusual troll subspecies, the pyre and slag troll, deserve some examination especially in light of current events.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Queue — Fountain, Office, or Bread Line — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
+
+![Queue — Fountain, Office, or Bread Line](pictures/city-queue.jpg)
+
+*Picture: Scene art — a clerk's office (Shaun's map files)*
+
+**Partial — fullest block on file:**
+
+Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
 ## Ragewind — CR 19 — Monster Manual II
 
@@ -6487,20 +6534,6 @@ Source book(s): Monster Manual IV
 Description: A humanoid, covered in red scales with yellow and orange flamelike markings, leaps at you. It wears studded leather armor and carries a buckler, and it spits harsh sounds as its empty hand reaches into a spell component pouch.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Rip Cutter — CR 8 — Monsternomicon Vol. 1
-
-![Rip Cutter](pictures/rip-cutter.png)
-
-*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
-
-**Partial — fullest block on file:**
-
-Type: Medium Construct
-Challenge Rating: 8
-Source book(s): Monsternomicon Vol. 1
-Description: My good friend, the wizard Thain Raleah, is a fearsome opponent when something raises his ire, and there's not much in this world from which he would shy. But when I went to him inquiring of a strange brand of constructs called animatons, his face went pale and his tone dropped immediately. As Thain explained to me, they are not living creatures nor creations of any intelligent being. They are strange constructs born of latent magical energy and are the ultimate bane of all who tamper with magic or wield enchanted devices.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Riven — CR 13 — Monsternomicon Vol. II
 
 ![Riven](pictures/riven.jpg)
@@ -6683,19 +6716,67 @@ are Charisma-based.
 
 ---
 
-## Rogue Eidolon — CR 9 — Monster Manual II
+## Rivet — CR 1 — NPCs — ALL-150 (Shaun's cast)
 
-![Rogue Eidolon](pictures/rogue-eidolon.png)
+![Rivet](pictures/rivet.jpg)
 
-*Picture: Constructs roster picture index: Official book art — Monster Manual II, p. 180*
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
 
-**Partial — fullest block on file:**
+5. Rivet — Warforged Barbarian 1
 
-Type: Large Construct
-Challenge Rating: 9
-Source book(s): Monster Manual II
-Description: Many centuries ago, hidden cults of various dark gods created large statues in the images of their leaders. The faces of these statues were left blank, except for the symbols of their deities, to indicate each god’s mastery over its followers. These statues were placed at honored locations in temples where they presided over countless sacrifices. A dark deity that was especially pleased with a particular cult cell sometimes sent the tiniest shred of its power across the dimensions to infuse that cult’s statue, granting it minimal sentience.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+![Rivet](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/rivet.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/rivet.jpg)
+
+**Alignment:** Chaotic Good | **Faction:** Independent (dock laborer) | **Role:** Combat
+
+**Abilities:** Str 15 (+2), Dex 13 (+1), Con 16 (+3), Int 10 (+0), Wis 10 (+0), Cha 6 (−2)
+**HD:** 1d12+3; **hp** 15 | **Init** +1 | **Speed** 40 ft. (base 30 + barbarian fast movement; composite plating counts as light armor)
+**AC** 13 (+2 composite plating, +1 Dex), touch 11, flat-footed 12; 11 while raging
+**BAB** +1; **Grapple** +3
+**Attack:** Battleaxe +3 melee (1d8+2, ×3); slam +3 melee (1d4+2)
+**Full Attack:** Battleaxe +3 and slam −2 (secondary, 1d4+1)
+**Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** Rage 1/day (6 rounds: Str 19, Con 20, hp 17, AC 11, battleaxe +5 melee 1d8+4, Will saves +2)
+**Special Qualities:** Living construct traits (immune to poison, sleep, paralysis, disease, nausea, fatigue, exhaustion, energy drain; does not eat, sleep, or breathe; cannot heal damage naturally — repaired by Craft or *repair* spells; inert at 0 hp rather than dying, disabled normally); composite plating (+2 armor, counts as light armor, 5% arcane spell failure, −2 armor check penalty); light fortification (25% chance to negate crits/sneak attack); fast movement +10 ft.
+**Saves:** Fort +5 (+2 base, +3 Con), Ref +1 (+0 base, +1 Dex), Will +0 (+0 base, +0 Wis); +2 Will while raging
+**Skills:** Climb +4 (4 ranks, +2 Str, −2 ACP), Intimidate +2 (4 ranks, −2 Cha), Jump +4 (4 ranks, +2 Str, −2 ACP), Listen +4 (4 ranks, +0 Wis)
+**Feats:** Power Attack
+**Equipment:** Battleaxe (10 gp), backpack, 50 ft. hemp rope, grappling hook, repair kit (Craft tools, 5 gp), 2 oils of *repair light damage* (100 gp, bought at full price from a Guild shop that "doesn't serve his kind" but takes his money), dock-worker's heavy gloves and tarred cloak. ~125 gp spent; ~775 gp saved toward a legal identity charter.
+
+**Appearance:** A seven-foot labor frame of darkwood, riveted iron, and brass fittings, its face a smooth mask with two amber optical lenses. The name RIVET is stamped — by its own hand, crookedly — across its chest plate. Dock tally-marks cover its left forearm, one per year worked.
+**Steampunk aesthetic:** Rivet *is* the aesthetic: darkwood panels and riveted iron plating gone grey-green with dock damp, brass fittings polished only where its own hands reach, and tally-marks stamped into its forearm plate. When it rages, a slow boiler-heart tick deepens behind its chest plate and a thin vent-hiss escapes its collar seams, while its amber optical lenses glow in the fog like two dock lamps — the only warmth on the pier.
+**Traits:** Gentle, literal, stubbornly cheerful. Collects words it likes ("serendipity" is a favorite) and uses them slightly wrong.
+**Mannerism/Voice Hook:** A deep, resonant voice with a faint metallic echo; it taps its chest twice when introducing itself, so people look at the name. "I am Rivet. I lift. I do not drop."
+**Motivation:** Buy a Bastion identity charter — the legal document that would make Rivet a citizen instead of property-that-walks. Every copper goes to the fund.
+**Secret/Flaw:** Rivet remembers fragments of the war it was built for — orders, a battlefield, a commander's face it cannot name. It has never told anyone, fearing the Bastion would seize it as a "military asset" if the memories proved valuable.
+**Background:** One of the Bastion's free warforged, which in practice means free to be underpaid, overcharged, and blamed. Rivet loads alchemical freight at the docks by day, sleeps in a rented warehouse corner it is not legally permitted to rent, and quietly carries injured workers to Sella Turgran's shrine after accidents.
+**DM Use Hook:** A sympathetic face for warforged second-class status — Rivet can ask the party to witness a contract signing, stand between an angry mob and a scapegoated warforged, or offer terrifying strength at a fair price.
+
+---
+
+## LEVEL 2
+
+---
+
+## Rodelik Karneth — CR 8 — NPCs — ALL-150 (Shaun's cast)
+
+![Rodelik Karneth](pictures/rodelik-karneth.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+122. Rodelik Karneth — Human Rogue 3 / Expert 5, LG
+
+![Rodelik Karneth](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/rodelik-karneth.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/rodelik-karneth.jpg)
+
+**Tracker status (as-is):** "Guild master, Jewelers' Guild"
+**Tracker detail:** A no-nonsense human. As a child he ran with gangs of young cutpurses and thugs until a particularly patient paladin of the Fastralli family caught him failing to rob him — and let him go on condition he apprentice to a guild. He chose the jewelers and quickly became one of its most talented members.
+**Abilities:** Str 11 (+0), Dex 16 (+3), Con 12 (+1), Int 14 (+2), Wis 13 (+1), Cha 10 (+0). **HD** 3d6+5d6+8; **hp** 35. **Init** +3; **Speed** 30 ft. **AC** 18 (+5 *+1 mithral chain shirt*, +3 Dex), touch 13, flat-footed 15. **BAB/Grapple** +5 / +5. **Attack** *+1 rapier* +9 melee (1d6+1/18–20). **Space/Reach** 5 ft. / 5 ft. **SA/SQ:** Sneak attack +2d6, trapfinding, evasion, trap sense +1. **Saves:** Fort +3, Ref +7, Will +6. **Skills:** Appraise (gems) +17, Craft (gemcutting) +15, Diplomacy +11, Disable Device +11, Hide +10, Move Silently +10, Open Lock +12, Search +13, Sense Motive +12, Sleight of Hand +12. **Feats:** Nimble Fingers, Skill Focus (Appraise), Skill Focus (Craft [gemcutting]), Weapon Finesse.
+**Equipment (≤9,400 gp):** *+1 mithral chain shirt* (2,100), *+1 rapier* (2,320), *ring of protection +1* (2,000), *cloak of resistance +1* (1,000), masterwork gemcutter's and thieves' tools with jeweller's loupe (350), *potions of cure light wounds* ×2 (100), guild seal and assay ledgers, 600 gp. Total ≈ 8,500 gp.
+**Steampunk aesthetic:** A jeweller's visor with flip-down brass loupes, soot-black work coat with copper clasps, and the guildhall's pride — a steam-driven cutting lathe whose flywheel he can stop with one finger, a show-off trick every apprentice tries and fails to copy.
+**Personality:** No-nonsense, exact, and quietly merciful to street kids. **Appearance:** Close-cropped, burn-scarred forearms, eyes that go to a visitor's hands and purse before their face — old habit, now an appraiser's habit. **Voice hook:** Prices things aloud, involuntarily: "Boots, forty gold. Ring — paste. Story — priceless, which means worthless." **Motivation:** Keep the Jewelers' Guild clean; he knows exactly how easily gem-work becomes fence-work. **Secret/Flaw:** Once a year he leaves an uncut stone on the Fastralli paladin's family shrine — and he still cannot walk past a rich man's unguarded purse without his fingers itching, which shames him. **DM hook:** A stone in a party treasure is a guild-registered gem stolen a decade ago — by a cutpurse whose technique Rodelik recognises as his own teacher's.
+
+---
 
 ## Roper — CR 12 — Monster Manual I
 
@@ -7339,20 +7420,6 @@ CR 4 — Schir
 - Description (verbatim, book pp.50–51): "The goat-headed schirim pervade the Material Plane, primarily because they can be summoned by magics easily accessible to spellcasters with very little skill. Clumsy covens fumbling with half-understood scrolls frequently bring a schir from the Abyss, and many credulous cultists believe all demons look like the bestial schirim. / The goat demons revel in their reception on the Prime, seldom speaking of their station at home. In the Abyss, schirim are little more than soldiers or guardians, expected to follow the orders of their betters at all times. Dull-witted and slow to learn, they nonetheless make superlative sentries, thanks to their spell-like abilities and otherworldly sense of focus. / A schir looks like the bastard offspring of human and goat. Its long, muscular neck supports a bestial head topped with two backward-curving horns. The creature's nauseating yellowed teeth reek of decayed meat and human waste, and its beady eyes burn with an amber rage. A tangled, food-encrusted beard dangles from the demon's chin. Coarse hair covers a schir from head to toe, growing especially thick at the legs and shoulders. Its legs feature two knees, the lower set of which bend backwards just above cloven-hoofed feet. / Schirim carve or brand a number of mystical symbols upon their chests. These markings represent clan affiliations, and some schirim refuse to work with members of other clans; such refusals occasionally break out into open battle between the schirim serving allied demon lords. To a schir, clan allegiance is paramount to all other concerns, and no task is too important to get in the way of eons-old internecine struggle. / Though all schirim pay lip service to their creator, the demon prince Azazel, not all serve the progenitor of their race. Perhaps due to their incredible fecundity, schirim have spread to nearly every inhabitable layer of the Abyss, and rare is the demon noble who does not employ at least a pack of the creatures somewhere in its vast retinue. / Schirim speak Abyssal, relying upon their *tongues* ability to communicate with mortals." (Plural printed "schirim" in the book text, as reproduced.)
 - Nature/role: goat-demon soldier/guardian, the common summoned-demon stereotype of the book's lore. APOC Note: third-party reference only; mortal and trapped — in APOC it cannot be summoned at all (summoning spells don't work, whatever the book says about easy summoning magics); Bastion-barred.
 
-## Scouring Slinger — CR 18 — Monster Manual V
-
-![Scouring Slinger](pictures/scouring-slinger.png)
-
-*Picture: APOC-VTT monster library art — Monster Manual V*
-
-**Partial — fullest block on file:**
-
-Type: Always N Huge construct
-Challenge Rating: 18
-Source book(s): Monster Manual V
-Description: This massive tangle of branches and roots is surrounded by a swarming mass of insects. It rises up and extrudes six arms from its central mass, each holding what appears to be a construct scorpion some 4 feet long.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Scylla Flock — CR 8 — Monsternomicon Vol. II
 
 ![Scylla Flock](pictures/scylla-flock.png)
@@ -7533,20 +7600,6 @@ of their victims.
 
 ---
 
-## Scyther of Thoon — CR 6 — Monster Manual V
-
-![Scyther of Thoon](pictures/scyther-of-thoon.png)
-
-*Picture: APOC-VTT monster library art — Monster Manual V*
-
-**Partial — fullest block on file:**
-
-Type: Always N Medium construct
-Challenge Rating: 6
-Source book(s): Monster Manual V
-Description: Before you is a silvery automaton with four arms, perfectly constructed to wield the two wicked-looking scythes it carries. Its eyes glow as they cast forth beams of illumination. It crouches as if preparing to attack.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Sea Cat — CR 4 — Monster Manual I
 
 ![Sea Cat](pictures/sea-cat.png)
@@ -7589,16 +7642,54 @@ Source book(s): Fiend Folio
 Description: Appearing as humanoids when on land and seals in the sea, selkies are shapechangers with purported fey ancestry whose dealings with nonfey are often tinged with tragedy. In seal form, a selkie looks just like a normal seal, though its eyes usually betray a hint of its intelligence. In humanoid form, selkies resemble very attractive humans, usually with gray hair and eyes and very pale skin.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Selune-Marra Vael — CR 5 — NPCs — ALL-150 (Shaun's cast)
+## Sella Turgran — CR 1 — NPCs — ALL-150 (Shaun's cast)
+
+![Sella Turgran](pictures/sella-turgran.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+2. Sella Turgran — Dwarf Cleric 1 of Moradin
+
+![Sella Turgran](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/sella-turgran.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/sella-turgran.jpg)
+
+**Alignment:** Lawful Good | **Faction:** Remnants of Life | **Role:** Support (shrine-keeper/healer)
+
+**Abilities:** Str 13 (+1), Dex 10 (+0), Con 16 (+3), Int 12 (+1), Wis 15 (+2), Cha 6 (−2)
+**HD:** 1d8+3; **hp** 11 | **Init** +0 | **Speed** 20 ft.
+**AC** 16 (+4 scale mail, +2 heavy steel shield), touch 10, flat-footed 16
+**BAB** +0; **Grapple** +1
+**Attack:** Warhammer +1 melee (1d8+1, ×3); sling +0 ranged (1d4+1, 50 ft.)
+**Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** Turn undead 1/day (3 + Cha modifier −2 = 1; turning check 1d20−2, turning damage 2d6+1−2)
+**Special Qualities:** Darkvision 60 ft., stonecunning, weapon familiarity (dwarven waraxes, urgroshes), +2 saves vs. poison and spells/spell-like effects, +1 attack vs. orcs and goblinoids, +4 dodge AC vs. giants, stability (+4 vs. bull rush/trip), domains: Earth (turn/destroy air creatures 1/day, rebuke earth creatures) and Protection (*sanctuary* domain spell; protective ward +1 resistance bonus on saves, 1/day, touch)
+**Saves:** Fort +5 (+2 base, +3 Con), Ref +0, Will +4 (+2 base, +2 Wis); +2 racial vs. poison/spells above
+**Skills:** Concentration +7 (4 ranks, +3 Con), Heal +6 (4 ranks, +2 Wis), Knowledge (religion) +5 (4 ranks, +1 Int)
+**Feats:** Combat Casting
+**Spells Prepared (Cleric 1; 3/2+1 per day; DC 12 + spell level):** 0—*detect magic, light, mending*; 1st—*bless, shield of faith*, + domain *sanctuary*. No summoning spells — in APOC they simply fail, and Sella preaches that the severing is Moradin's mercy.
+**Equipment:** Scale mail (50 gp), heavy steel shield (20 gp), warhammer (12 gp), sling and 10 bullets (1 gp), silver holy symbol (25 gp), healer's kit (50 gp), 2 potions of *cure light wounds* (100 gp), backpack, alchemist's fire ×2 (40 gp, carried for the shrine's braziers), 3 vials holy water (75 gp). ~375 gp spent; ~525 gp in shrine donations she guards but will not spend on herself.
+
+**Appearance:** A stocky dwarf woman with iron-grey braids bound in copper wire and burn scars up both forearms from shrine-forge work. She wears her grandfather's scale mail, re-riveted twice.
+**Steampunk aesthetic:** Pure forge-shrine Bastion: scale mail re-riveted with copper, iron-grey braids bound in copper wire, and a silver holy symbol hung on a chain of salvaged forge-links. Her healer's kit travels in a brass-cornered leather case, the shrine braziers behind her are riveted iron, and soot from them greys every hem she owns.
+**Traits:** Blunt, devout, tireless. Believes any problem can be worked like metal — heated, hammered, quenched.
+**Mannerism/Voice Hook:** Taps any stone surface twice with a knuckle before trusting it. Speaks in forge metaphors: "We'll quench that fear, aye?"
+**Motivation:** Keep the little Moradin shrine in the smiths' quarter open and its soup pot full; the Remnants' faithful are drifting to louder gods and she intends to out-last them.
+**Secret/Flaw:** She has begun to doubt Moradin can hear prayers through the scarred crystal sphere at all. She performs certainty she no longer feels, and the doubt is eating her alive.
+**Background:** A smith's daughter who took vows after the shrine's previous priest died of blight-rot. By day she mends tools, blesses forge-water, patches injured smiths, and carries meals to warforged laborers the other temples turn away.
+**DM Use Hook:** A reliable low-level healer and a moral compass with a crack in it — she'll ask the party to escort a tithe-cart, investigate why shrine candles keep guttering (sabotage, not magic), or confess her doubt to a sympathetic PC.
+
+---
+
+## Selune-Marra Vael — CR 19 — NPCs — ALL-150 (Shaun's cast)
 
 ![Selune-Marra Vael](pictures/selune-marra-vael.jpg)
 
-*Picture: Roster picture file (npc roster pictures; named in the creature's roster entry)*
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
 
 91. Selune-Marra Vael — Human Wizard 14 / Loremaster 5
 
-
 ![Selune-Marra Vael](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/selune-marra-vael.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/selune-marra-vael.jpg)
 
 **Alignment:** NG · **Faction:** Bastion — Font of Knowledge, heroic legend
 **Abilities:** Str 8 (−1), Dex 14 (+2), Con 16 (+3, 12 base + *amulet of health +4*), Int 27 (+8, 15 base +4 level [4/8/12/16] + *headband of intellect +6* + *tome of clear thought +2* inherent), Wis 14 (+2), Cha 12 (+1)
@@ -7617,6 +7708,139 @@ Description: Appearing as humanoids when on land and seals in the sea, selkies a
 
 ---
 
+## Ser Caspian Thorvald — CR 13 — NPCs — ALL-150 (Shaun's cast)
+
+![Ser Caspian Thorvald](pictures/ser-caspian-thorvald.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+61. Ser Caspian Thorvald — Bastion Commander
+
+![Ser Caspian Thorvald](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/ser-caspian-thorvald.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/ser-caspian-thorvald.jpg)
+
+**Human Paladin 8 / Pious Templar 5 (of Kord), LG, Level 13**
+Str 16 (+3) [15+1 at 8th], Dex 10 (+0), Con 14 (+2), Int 12 (+1), Wis 14 (+2) [13+1 at 4th], Cha 17 (+3) [14+1 at 12th, +2 cloak of charisma in kit]
+
+**HD/hp:** 13d10+26 = 10 + (12×5.5=66) +26 = **102 hp**. **Init:** +0. **Speed:** 20 ft in armour (30 base).
+**AC:** 24 (+10 *+2 full plate*, +4 *+2 heavy steel shield*, +0 Dex), touch 10, flat-footed 24.
+**BAB/Grapple:** +13 / +16.
+**Attack:** *+2 undead-bane longsword* +18 melee (1d8+5 /19-20) ; masterwork composite longbow +13 ranged (1d8+3 /×3).
+**Full Attack:** Longsword +18/+13/+8.
+**Space/Reach:** 5 ft / 5 ft.
+**Special Attacks:** Smite evil 3/day (+3 hit, +13 damage), smite (Pious Templar) 2/day, turn undead 6/day (+3, 2d6+16), lay on hands 39/day.
+**Special Qualities:** Divine grace, divine health, aura of courage, remove disease 2/week, DR 2/—, weapon specialization (longsword), mettle.
+**Saves:** Fort +15, Ref +6, Will +13 (includes divine grace +3).
+**Skills:** Diplomacy +16 (13 ranks), Heal +12, Knowledge (religion) +12, Ride +11, Sense Motive +15, Concentration +10.
+**Feats:** Weapon Focus (longsword), Power Attack, Cleave, True Believer, Weapon Specialization (longsword, Templar bonus), Divine Vigor, Improved Turning, Extra Smiting (human + 1,3,6,9,12 + class bonus accounted: 7 total listed incl. bonus).
+**Kit (~34,600 gp):** +2 full plate (5,650), +2 heavy shield (4,170), +2 undead-bane longsword (~18,315), cloak of charisma +2 (4,000), phylactery of faithfulness, 2× potion of cure serious wounds, holy symbol, warhorse with chain barding (non-magical, kept in Bastion stables — no extra-dimensional storage), 420 gp in cheqs and gems.
+**Spells prepared (Paladin, CL 8 / Templar CL 5, no summoning):** 1st — *bless weapon, protection from evil, divine favour*; 2nd — *bull's strength, shield other*; 3rd (Templar) — *dispel magic, prayer*.
+**Steampunk aesthetic:** Bastion wall-issue steampunk: soot-darkened full plate bossed with brass rivets in a Kord-knot pattern, a copper fog-lamp burning amber on his shield boss, gear-toothed pauldrons, and an oilskin cloak that smells of coal smoke and wet iron.
+**Appearance:** Grey-shot black beard trimmed square, left cheek scarred by a ghoul's claw, armour polished even in the fog. **Traits:** Calm, oath-bound, merciful to surrendering undead who were once Bastion citizens. **Voice hook:** Low, measured; ends orders with "Hold the line, hold each other." **Motivation:** Keep the Bastion's south wall for one more winter. **Secret/Flaw:** He hid a turned scout rather than destroy her; she now serves Thessaly (No.64) and he owes her silence. **Background:** Rose from City Watch to wall commander during the South Brigade purges; day to day he drills militia, hears wall disputes, and rides the fog road. **DM Hook:** Hires the party for a wall breach he cannot be seen to investigate — because his own smite failed there, and he does not know why.
+
+---
+
+## Ser Corvin Hale — CR 4 — NPCs — ALL-150 (Shaun's cast)
+
+![Ser Corvin Hale](pictures/ser-corvin-hale.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+16. Ser Corvin Hale — Human Paladin 4
+
+![Ser Corvin Hale](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/ser-corvin-hale.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/ser-corvin-hale.jpg)
+
+**Alignment:** Lawful Good | **Faction:** Remnants of Life | **Role:** Combat/Support (cavalryman without a war)
+
+**Abilities:** Str 16 (+3; 15 base, +1 at 4th level), Dex 8 (−1), Con 12 (+1), Int 10 (+0), Wis 13 (+1), Cha 14 (+2)
+**HD:** 4d10+4; **hp** 29 (10+1, 5+1, 5+1, 5+1) | **Init** −1 | **Speed** 20 ft. (heavy armor)
+**AC** 19 (+8 full plate, +2 heavy steel shield, −1 Dex), touch 9, flat-footed 19
+**BAB** +4; **Grapple** +7
+**Attack:** Masterwork longsword +8 melee (1d8+3, 19–20/×2); lance +7 melee (1d8+3, ×3; double damage on a mounted charge); composite longbow +3 ranged (1d8+2, ×3)
+**Space/Reach:** 5 ft./5 ft. (10 ft. with lance)
+**Special Attacks:** Smite evil 1/day (+2 attack, +4 damage vs. evil); turn undead 5/day as a 2nd-level cleric (turning check 1d20+2, turning damage 2d6+2+2)
+**Special Qualities:** Aura of good (moderate), *detect evil* at will, divine grace (+2 Cha bonus to all saves, included below), lay on hands (8 hp/day), aura of courage (+4 morale on saves vs. fear; allies within 10 ft. gain the same), divine health (immune to disease)
+**Saves:** Fort +7 (+4 base, +1 Con, +2 divine grace), Ref +2 (+1 base, −1 Dex, +2 divine grace), Will +4 (+1 base, +1 Wis, +2 divine grace)
+**Skills:** Diplomacy +9 (7 ranks, +2 Cha), Heal +8 (7 ranks, +1 Wis), Knowledge (religion) +3 (3 ranks), Sense Motive +5 (4 ranks, +1 Wis)
+*Skill budget: paladin 2 + Int 0 + human 1 = 3/level; 12 at 1st + 3 + 3 + 3 = 21 ranks.*
+**Feats:** Weapon Focus (longsword) (human bonus), Power Attack (level 1), Divine Might (level 3; spend a turn attempt to add +2 Cha bonus to weapon damage for 1 round)
+**Spells Prepared (Paladin 4; 1/day from Wis bonus; caster level 2; DC 11 + spell level):** 1st—*protection from evil*.
+**Equipment:** Full plate (1,500 gp), heavy steel shield (20 gp), masterwork longsword (315 gp), lance (10 gp), composite longbow (+2 Str, 300 gp) and 20 arrows, silver holy symbol (25 gp), backpack, bedroll, 5 days' rations, potion of *cure moderate wounds* (300 gp), 2 vials holy water (50 gp). ~2,525 gp spent; ~775 gp in Remnant chapter funds he administers.
+
+**Appearance:** A tall, broad-shouldered man in his mid-thirties with a sunless pallor, a close-trimmed blond beard, and full plate kept mirror-bright in a city where nobody polishes anything anymore. A faded campaign ribbon from the old wars is woven into his sword-knot.
+**Steampunk aesthetic:** The exception that proves the Bastion's rule — full plate kept bright amid the soot — but the city is on him anyway: riveted repair plates at the joints, copper rivets around his shield's rim, a brass-and-leather sword belt, and a lance pennon of damp grey-green wool. The polish is his statement; the rivets, patches, and coal-smoke tang are the Bastion's.
+**Traits:** Honorable, courteous, quietly furious at the state of the world. Keeps every oath, feeds every prisoner, and has never once been seen to hurry.
+**Mannerism/Voice Hook:** Addresses everyone — dukes, drunks, demons — by title and surname until invited otherwise. Measured baritone: "Ser Corvin Hale, at your service. State your business plainly, and I shall answer in kind."
+**Motivation:** Hold the Remnant chapter-house at the Bastion's edge as a place where the old codes still function — sanctuary, parole, burial of enemies — as proof the apocalypse didn't win everything.
+**Secret/Flaw:** His warhorse, the last creature he ever performed the special-mount bond with in his dreams of advancement, died of blight-rot last spring. He has told the chapter the horse is "pastured at a farmstead." He cannot bring himself to requisition another, and a cavalryman on foot is a joke he hears in every silence.
+**Background:** A tourney knight's grandson raised on codes the world discarded. He commands a dozen Remnant armsmen at the chapter-house, escorts Anselm Crowe's medicine convoys, and stands ceremonial guard at Remnant funerals — of which there are many.
+**DM Use Hook:** A patron with standards: Corvin can hire the party for work that must be done *honorably* (parley under flag, prisoner exchange with the Kingdom), vouch for them before the Remnants, or become a problem when the party's necessary methods aren't.
+
+---
+
+## Ser Ilya Vane — CR 17 — NPCs — ALL-150 (Shaun's cast)
+
+![Ser Ilya Vane](pictures/ser-ilya-vane.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+84. Ser Ilya Vane — Human Paladin 17
+
+![Ser Ilya Vane](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/ser-ilya-vane.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/ser-ilya-vane.jpg)
+
+**Alignment:** LG · **Faction:** Bastion — Wall Command, Order of the Aster
+**Abilities:** Str 18 (+4, 14 base + *belt of giant strength +4*), Dex 12 (+1), Con 16 (+3, 13 base +1 level [8] + *amulet of health +2*), Int 10 (+0), Wis 14 (+2), Cha 20 (+5, 15 base +3 level [4/12/16] + *cloak of charisma +2*)
+**HD/HP:** 17d10; 10 + (16 × 5.5) + 51 = **149 hp** · **Init:** +1 · **Speed:** 20 ft. in plate (30 base)
+**AC:** 28, touch 13, flat-footed 27 (+1 Dex, +10 *+2 full plate*, +5 *+3 heavy steel shield*, +2 *ring of protection +2*)
+**BAB/Grapple:** +17 / +21 · **Attack:** *+3 holy longsword* +24 melee (1d8+7/19–20, +2d6 vs evil)
+**Full Attack:** +24/+19/+14/+9 · **Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** smite evil 5/day (+5 attack, +17 damage), turn undead 8/day as Cleric 14
+**Special Qualities:** aura of good, divine grace (included in saves), lay on hands 85 hp/day, aura of courage, divine health, special mount ("Verdict," a flesh-and-blood heavy warhorse raised in the Bastion and bonded, never summoned — the mount-calling power is severed in APOC; Verdict lives, eats, and can die), remove curse 3/week, remove disease 5/week
+**Saves:** Fort +21 (10 +3 Con +5 grace +3 *vest of resistance +3*), Ref +14 (5 +1 +5 +3), Will +15 (5 +2 Wis +5 +3)
+**Skills:** Diplomacy +25 (20), Handle Animal +15 (10), Heal +12 (10), Knowledge (religion) +10 (10), Ride +21 (20), Sense Motive +12 (10)
+**Feats:** Human bonus: Power Attack; 1 Mounted Combat, 3 Ride-By Attack, 6 Spirited Charge, 9 Divine Might, 12 Improved Sunder, 15 Leadership — 7 feats.
+**Kit (99,622 gp):** *+3 holy longsword* (32,315), *vest of resistance +3* (9,000), *+3 heavy steel shield* (9,170), *belt of giant strength +4* (16,000), *ring of protection +2* (8,000), *+2 full plate* (5,650), *boots of striding and springing* (5,500), *cloak of charisma +2* (4,000), *amulet of health +2* (4,000), alchemical potion stock (3,000), warhorse barding (2,000), masterwork lance (302), alchemical lance-charges (500), 185 gp.
+**Paladin Spells Prepared (3/3/2/2; DC 12 + level):** 1st—*bless weapon, divine favour, lesser restoration*; 2nd—*bull's strength, eagle's splendour, shield other*; 3rd—*heal mount, prayer*; 4th—*death ward, holy sword*.
+**Steampunk aesthetic:** Polished wall-plate edged and riveted in brass under a fog-damp grey tabard, a hooded amber wall-lamp mounted on one pauldron, steam-scored shield fittings, and lance-charges racked in a copper-banded leather case at her saddle.
+**Appearance:** Tall, scar through one eyebrow, armour polished even in the fog, white Aster tabard muddied at the hem — always. **Traits:** Calm under bombardment, keeps every promise literally, terrible at lying. **Voice hook:** Level, carrying; "Hold the wall. Then we talk." **Motivation:** The wall has never fallen on her watch; she intends to die undefeated or not at all. **Secret/Flaw:** Her Leadership cohort is her younger brother, whom she falsified papers for to keep him off the wall — the one dishonest act of her life. **Background:** Squired at 12, knighted in the calamity's ashes, wall commander for a decade. **DM Use:** Honour-bound ally, duel opponent with a code, and a commander who will order a retreat the PCs must talk her out of — or into.
+
+---
+
+## Seraphine Cole — CR 8 — NPCs — ALL-150 (Shaun's cast)
+
+![Seraphine Cole](pictures/seraphine-cole.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+40. Seraphine Cole — Half-Elf Druid 8, NG
+
+![Seraphine Cole](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/seraphine-cole.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/seraphine-cole.jpg)
+
+**Abilities:** Str 10, Dex 14 (+2), Con 13 (+1), Int 12 (+1), Wis 17 (+3, 15+1 L4 +1 L8), Cha 13 (+1)
+**HD/hp:** 8d8+8, **hp 44** (8+4x7 +8) | **Init** +2 | **Speed** 30 ft
+**AC** 18 (+2 Dex, +4 +1 hide armour, +2 heavy wooden shield), touch 12, flat-footed 16
+**BAB/Grapple** +6/+6 | **Attack** +1 scimitar +7/+2 (1d6+1/18-20) | **SQ:** Wild shape 3/day, animal companion (dire? no — wolf advanced), venom immunity is L9 no; woodland stride, trackless step, resist nature's lure, low-light
+**Space/Reach** 5 ft/5 ft
+**Saves** Fort +7, Ref +4, Will +9
+**Skills:** Survival +14, Heal +13, Knowledge (nature) +11, Handle Animal +10, Spot +11, Craft (alchemy) +10, Diplomacy +5 (racial +2 incl.)
+**Feats:** Track [1], Skill Focus (Survival) [3], Natural Spell [6]
+**Spells prepared (6/5/4/4/3/2; DC 13+lvl):** 1st: *cure light x2, entangle, longstrider, speak with animals, obscuring mist*; 2nd: *barkskin, cure moderate x2, lesser restoration, soften earth*; 3rd: *cure serious, neutralize poison, call lightning* (aug. storm-rod), *meld into stone*; 4th: *cure critical, dispel magic, flame strike* (aug.), *freedom of movement*; 5th (CL8 druid: 1+Wis? per day 2 shown — 5th slots at L8 druid = 1 + bonus 1 for Wis 17 = 2): *cure light wounds mass? (mass cure light, L5 druid) x1, wall of thorns x1*. **Summon Nature's Ally NOT used — summoning is dead; she teaches this to initiates.**
+**Gear (~9,300 gp):** +1 hide, +1 scimitar, periapt of Wisdom is not taken (Wis stays 17), wand *cure moderate* (20 ch), alchemy lab kit, apparatus storm-rod (500 gp), antitoxin x3, 130 gp.
+**Steampunk aesthetic:** Copper-riveted hide armour over tincture-stained leathers, a brass-coiled storm-rod, an amber-vial bandolier with gear clasps, and Sedge the wolf in a patched harness hung with a small fog-bell and lamp.
+**Appearance:** Silver-streaked auburn hair, hands always faintly green from tinctures, wolf companion (Sedge) at heel.
+**Traits/Voice:** Calm, wry, names blight patches like deceased relatives.
+**Motivation:** Push a green belt through the blighted fringe before the Kingdom plants its own dead gardens there. **Secret:** She has been feeding Old Tam's orchard with a tincture derived from Kingdom onyx — effective, and possibly corrupting.
+**Background:** Remnants warden, Bastion fringe green-belt project.
+**DM Hook:** Blight-war arc lead, apparatus-vs-nature debate in person, high-value healer ally.
+
+---
+**Batch 2 complete: 20/20. Prestige builds: Mira Voss (Assassin), Aldric Vane (Assassin), Ostwick Hale (Loremaster), Kaelis Thornbow (Arcane Archer) = 4. Monstrous/LA: Zesskar, Tiefling LA +1, ECL 6 shown. No summoning spells, no extra-dimensional gear anywhere in batch.** Steampunk aesthetic line added to every NPC, and full stat/kit audit completed (Shaun, 2026-11-03).
+
+---
+
 ## Shadar-Kai — CR 1 — Fiend Folio
 
 ![Shadar-Kai](pictures/shadar-kai.png)
@@ -7629,20 +7853,6 @@ Type: Medium-Size Fey (Extraplanar)
 Challenge Rating: 1
 Source book(s): Fiend Folio
 Description: The shadar-kai, or shadow fey, are a race of bitter, determined folk whose souls are poisoned by shadow. Gray skinned and dark-eyed, the slender shadar-kai stand slightly taller than average humans, and their soft movements exude grace and uncanny stealth. Shadow follows the shadar-kai wherever they go.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
-## Shadesteel Golem — CR 11 — Monster Manual III
-
-![Shadesteel Golem](pictures/shadesteel-golem.png)
-
-*Picture: APOC-VTT monster library art — Monster Manual III*
-
-**Partial — fullest block on file:**
-
-Type: Medium Construct (Extraplanar)
-Challenge Rating: 11
-Source book(s): Monster Manual III
-Description: This 7-foot-tall shadowy automaton is crafted from a matte black metal that seems to absorb light. A mist fills the hollow spaces between its skeletal frame, and its two long arms end in sharp metal claws. A dour, skull-shaped head surmounts its broad torso, but the construct has no neck to speak of. It moves slowly but silently, hovering slightly above the ground and disturbing nothing as it passes. Crafted from metal mined and forged entirely on the Plane of Shadow, shadesteel golems are silent and powerful guardians.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
 ## Shadow Demon — CR 8 — Book of Vile Darkness
@@ -7782,19 +7992,36 @@ Shetan — CR 8 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 ---
 
-## Shrapnyl — CR 7 — Monster Manual II
+## Sibil Thistledown — CR 16 — NPCs — ALL-150 (Shaun's cast)
 
-![Shrapnyl](pictures/shrapnyl.png)
+![Sibil Thistledown](pictures/sibil-thistledown.jpg)
 
-*Picture: APOC-VTT monster library art — Monster Manual II*
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
 
-**Partial — fullest block on file:**
+79. Sibil Thistledown — Spymaster of the Gray Hands
 
-Type: Large Construct
-Challenge Rating: 7
-Source book(s): Monster Manual II
-Description: Shrapnyls are the only raggamoffyns made entirely of metal. They lurk near battlegrounds as well as forges. A shrapnyl consists of bits of metal in every size. Its appearance can vary greatly—one might consist of swords, shields, and cooking gear, while another could contain a helm, coins, chains, and keys.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+![Sibil Thistledown](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/sibil-thistledown.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/sibil-thistledown.jpg)
+
+**Halfling Rogue 10 / Shadowdancer 6, N, Level 16** — Halfling: +2 Dex, -2 Str, small, +2 Climb/Jump/Listen/Move Silently, +1 saves, +1 vs fear additional
+Str 10 (+0) [12-2 racial], Dex 24 (+7) [14+2 racial+1 lvl4+1 lvl8+1 lvl12+1 lvl16=20, +4 gloves of dexterity in kit], Con 13 (+1), Int 16 (+3), Wis 12 (+1), Cha 14 (+2)
+
+**HD/hp:** 16d6+16 = 6 + (15×3.5=52) +16 = **74 hp**. **Init:** +7. **Speed:** 20 ft (small).
+**AC:** 24 (+1 size, +7 Dex, +4 *+2 mithral chain shirt*, +2 ring), touch 20, flat-footed 17 (improved uncanny dodge).
+**BAB/Grapple:** +11 / +7 (small).
+**Attack:** *+3 short sword* +21 melee (1d4+3 /19-20).
+**Full Attack:** +21/+16/+11.
+**Space/Reach:** 5 ft / 5 ft.
+**Special Attacks:** Sneak attack +5d6, shadow jump 40 ft/day (Shadowdancer — **APOC ruling: shadow jump is a short physical slip through shadow within the same place, NOT planar or extra-dimensional travel**).
+**Special Qualities:** Hide in plain sight, evasion / improved evasion (Rogue 10 special ability), defensive roll (Rogue special ability choice), darkvision (Shadowdancer), improved uncanny dodge, shadow illusion, **summon shadow — NOT USED / DOES NOT FUNCTION in APOC (summoning is severed). Sibil has never had a shadow companion and her class progression in this world simply has a dead rung where that ability would be; she compensates with a living network of informants. This is intentional and is the APOC-correct build.**
+**Saves:** Fort +7 (+1 halfling incl.), Ref +19, Will +8 (+1 halfling, +2 vs fear additional).
+**Skills:** Hide +30 (+4 size, racial), Move Silently +28, Disguise +20, Bluff +20, Gather Information +20, Listen +20, Spot +18, Tumble +24, Sleight of Hand +24, Forgery +18, Sense Motive +16, Open Lock +20, Disable Device +18.
+**Feats:** Dodge, Mobility, Combat Reflexes (Shadowdancer prerequisites), Weapon Finesse, Improved Initiative, Skill Focus (Hide), Stealthy — 7 feats total: her 6 general feats (1st, 3rd, 6th, 9th, 12th, 15th) plus her Rogue 10 special ability taken as a bonus feat.
+**Kit (~66,500 gp personal):** +3 short sword (18,310), +2 mithral chain shirt (5,100), gloves of dexterity +4 (16,000), ring of protection +2 (8,000), cloak of resistance +3 (9,000), hat of disguise (1,800), eyes of minute seeing (2,500), slippers of spider climbing (4,800), masterwork thieves' tools, false papers in six names, 900 gp walking money in mixed coin (never cheqs — cheqs can be traced). Her dead-drop network (12,000 gp in dispersed retainers, paid a year in advance — her real weapon) is Gray Hands faction funding, not personal wealth.
+**Steampunk aesthetic:** Steampunk by being perfectly Bastion-ordinary: damp grey-brown clerk's wool, mismatched copper buttons, plain iron-framed spectacles, a drainage-archive key ring heavy with brass keys for her cover office, and a market basket lined with oilcloth — soot, damp, and nothing anyone remembers.
+**Appearance:** Unremarkable. That is the entire description anyone has ever given, including people who have met her eleven times. Middle-aged halfling, brown hair, clerk's clothes, a basket. **Traits:** Patient, amused, loyal to the Bastion as an *institution* rather than to any person in it. **Voice hook:** Different every time; her real voice, heard once by the party if they earn it, is low, dry, and tired — "Everyone is someone's informant. I just keep the list." **Motivation:** Keep the Gray Hands independent — the day a marshal or a bishop owns the list, the Bastion starts eating itself. **Secret/Flaw:** She is Anselm Rook's (No.75) sealed confession problem: she *knows* about the Shieldmeet plot, from three sources, and has told no one, because two of the sources would die if she acted. She is running the clock on purpose. **Background:** Spymaster of the Gray Hands; her office does not officially exist, her budget is buried in the Dungsweepers' Guild accounts, and her clerks all believe they work for a drainage archive. **DM Hook:** Hires the party through a cut-out to guard a person whose name she will not give, at a place she will describe an hour beforehand — the person is her, the place is a Gray Hands safehouse, and the test is whether the party follows instructions they do not understand.
+
+---
 
 ## Sickening Sleep — CR 2 — Monster Manual III
 
@@ -7935,20 +8162,6 @@ Type: Large Monstrous Humanoid
 Challenge Rating: 11
 Source book(s): Monster Manual III
 Description: This powerful humanoid stands over 9 feet tall and has a bestial face vaguely reminiscent of a lizard's. Its skin is covered with patches of a strangely morphic carapace—a constantly moving and faintly iridescent shell that covers its shoulders, torso, and upper thighs. The creature has thick forelimbs that curve slightly away from its body. The creature looks like a cross between a giant, a lizard, and an ape. Born of arcane experiments into the changeable nature of life, the skindancer perpetuates a perversion of eldritch magic.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
-## Skorne — CR 1 — Monsternomicon Vol. 1
-
-![Skorne](pictures/skorne.png)
-
-*Picture: APOC-VTT monster library art — Monsternomicon Vol. 1*
-
-**Partial — fullest block on file:**
-
-Type: Medium Humanoid
-Challenge Rating: 1
-Source book(s): Monsternomicon Vol. 1
-Description: The Iron Kingdoms only recently became aware of the threat known as the skorne when Vinter Raelthorne IV came to Corvis accompanied by them in his recent assault. The skorne are very similar to men, though there are legends that their ancient history is tied with that of the elves. In general, the skorne are stronger, taller, and slimmer than the typical Caspian but differ little otherwise anatomically. In appearance, though, they are quite savage, sporting rugged features, tattoos, and bald heads.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
 ## Skulleton — CR 3 — Tome of Horrors Revised (Necromancer Games
@@ -8263,47 +8476,6 @@ Source book(s): Monster Manual III
 Description: A dark storm cloud crackles with lightning and reverberates with the dull rumble of thunder. The elemental incarnation of a living storm, a storm elemental displays the same sudden, violent nature as a tempest. It seldom leaves its home plane unless summoned or called, but when it does it is capable of great destruction. When not on the Elemental Plane of Air, storm elementals seek out natural squalls and are happiest in the midst of a raging thunderstorm. Storm elementals speak Auran but rarely choose to do so. A storm elemental's voice sounds like distant thunder.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Stormcloud of Thoon — CR 5 — Monster Manual V
-
-![Stormcloud of Thoon](pictures/stormcloud-of-thoon.png)
-
-*Picture: Constructs roster picture index: Official book art — Monster Manual V, p. 119 (captioned; illus. A. Stokes)*
-
-**Partial — fullest block on file:**
-
-STORMCLOUD OF THOON — CR 5
-
-Usually NE Medium construct
-**Init** +2; **Senses** darkvision 60 ft., illumination, low-light vision, tremorsense 60 ft. (see below); Listen +7, Spot +7
-**Languages** Undercommon; telepathy 100 ft.
-**AC** 17, touch 12, flat-footed 15 (+2 Dex, +5 natural)
-**hp** 64 (8 HD); natural healing
-**Immune** acid, construct immunities
-**Fort** +2, **Ref** +8, **Will** +9
-**Speed** 30 ft. (6 squares), fly 10 ft. (perfect), swim 20 ft.; levitative movement
-**Melee** 4 tentacles +8 each (1d4+1)
-**Space** 5 ft.; **Reach** 5 ft.
-**Base Atk** +6; **Grp** +7
-**Atk Options** Combat Reflexes
-**Special Actions** lightning bolt (5d6; DC 12; see below)
-**Spell-Like Abilities** (CL 5th): At will—*detect magic*; 3/day—*shield*
-**Abilities** Str 13, Dex 14, Con —, Int 5, Wis 16, Cha 9
-**SA** lightning bolt, spell-like abilities
-**SQ** construct traits
-**Feats** Combat Reflexes, Sense Quintessence*, Weapon Focus (tentacle)
-**Skills** Listen +7, Search +0, Spot +7, Swim +9
-**Advancement** unknown; see Advanced Stormclouds of Thoon
-* New feat; see sidebar, page 110.
-
-**Illumination** The glowing eyes of a stormcloud of Thoon shed light in a 60-foot cone and provide shadowy illumination in a 120-foot cone. A stormcloud of Thoon can close its eyes and eliminate the illumination, but doing so leaves it blind.
-**Tremorsense (Ex)** A stormcloud of Thoon must bury one of its tentacles a few inches under the ground for its tremorsense to function. Doing so is a swift action, but a stormcloud loses tremorsense if it moves out of the square in which it set the tentacle.
-**Natural Healing (Ex)** Unlike most constructs, a stormcloud of Thoon is capable of natural healing, albeit very slowly. A stormcloud of Thoon heals 1 hit point for every 8 hours it remains motionless.
-**Levitative Movement (Ex)** Even when the creature uses its land speed, the body of a stormcloud of Thoon is actually floating about 5 feet off the ground, propelled by an unseen force. A stormcloud of Thoon's tentacles don't need to touch the ground when moving, and the creature is unaffected by difficult or hazardous terrain. When a stormcloud of Thoon flies more than 5 feet above the ground, its speed slows dramatically.
-**Lightning Bolt (Sp)** As the *lightning bolt* spell; at will; DC 12, caster level 5th. A stormcloud of Thoon must tap into its quintessence reserves to use this ability, causing it to take 10 points of damage whenever it does so.
-**Skills** A stormcloud of Thoon has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. The creature can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action when swimming, provided it swims in a straight line.
-
-Stormclouds of Thoon, constructs birthed by madcrafters of Thoon, are floating sentinels that are adept at locating quintessence sources and spotting the enemies of the mind flayers of Thoon.
-
 ## Susurrus — CR 7 — Monster Manual III
 
 ![Susurrus](pictures/susurrus.png)
@@ -8432,6 +8604,37 @@ SWORDWRAITH — Fiend Folio, p.173 (template; fully statted sample filed here)
   - cloak of resistance +1
   - potion of gaseous form
 - **Description:** "Some mercenaries are so dedicated to a life of war that they rise from death to continue the battle, prowling the site of their deaths or the places of their burial, looking for foes to put to the sword. Swordwraiths appear similar to how they did in life, although their equipment is more battered and their flesh appears insubstantial. In dim light or darkness, their eyes can be seen to glow dimly. As most in a particular band come from the same mercenary company, they usually bear the same insignia. Swordwraiths speak any languages they knew in life. Some have been willing to parlay with those they consider their military equal. The sample swordwraith uses a 5th-level human fighter as the base creature."
+
+## Sylvaris Lonn — CR 5 — NPCs — ALL-150 (Shaun's cast)
+
+![Sylvaris Lonn](pictures/sylvaris-lonn.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+23. Sylvaris Lonn — Elf Wizard 5, CG
+
+![Sylvaris Lonn](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/sylvaris-lonn.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/sylvaris-lonn.jpg)
+
+**Abilities:** Str 8 (-1), Dex 16 (+3, 14+2 racial), Con 10 (12-2 racial), Int 16 (+3, 15+1 L4; 18/+4 with headband), Wis 12 (+1), Cha 10
+**HD/hp:** 5d4+0, **hp 12** (4+2×4) | **Init** +3 | **Speed** 30 ft
+**AC** 14 (+3 Dex, +1 ring), touch 14, flat 11 (17 with *mage armour*)
+**BAB/Grapple** +2/+1 | **Attack** mwk longbow +6 ranged (1d8/x3) or dagger +1 (1d4-1) | **Full Attack:** same single attack (BAB +2 grants one attack)
+**Space/Reach** 5 ft/5 ft
+**SQ:** Elf traits, familiar (rat, +2 Fort to master), low-light vision | **Saves** Fort +3 (+1 base, +2 rat familiar), Ref +4, Will +5
+**Skills:** Concentration +8, Craft (alchemy) +11, Knowledge (arcana) +11, Knowledge (nature) +8, Spellcraft +13, Decipher Script +8
+**Feats:** Scribe Scroll (wizard bonus), Point Blank Shot [1], Craft Wondrous Item [3], Spell Focus (Evocation) [wizard 5 bonus]
+**Spells prepared (4/4/3/2, DC 14+ lvl, evocation +1; with headband DC 15+):** 0: *ray of frost*, detect magic, light, prestidigitation*; 1st: *mage armour, magic missile, burning hands* (augmented), *shield*; 2nd: *scorching ray* (augmented), *web, mirror image*; 3rd: *fireball* (augmented), *dispel magic*. **No summoning spells in book.**
+**Augmentation apparatus (APOC law):** Brass condenser-coil staff and phlogiston vials — elemental spells only function at full effect when cast through it; each elemental casting leaves a thumb-print of blighted soil.
+**Gear (~4,300 gp):** Headband of Intellect +2, ring of protection +1, mwk longbow, spellbook, alchemist's fire x4, phlogiston vials x6 (150 gp), scrolls *web, invisibility*, 55 gp.
+**Steampunk aesthetic:** His brass condenser-coil staff is wound with copper tubing and pressure gauges, phlogiston vials glowing amber in the pockets of a damp, grey-green coat, and a copper-filter respirator mask hangs at his chest beside soot-rimmed goggles.
+**Appearance:** Tall, ash-blond, wears a respirator-mask on a chain, coat fitted with glass vials.
+**Traits/Voice:** Precise, delighted by apparatus, horrified by blight he causes; clipped academic diction.
+**Motivation:** Prove augmented casting can be blight-neutral. **Secret:** His last unaugmented fireball blighted a Remnant farm plot; he pays its family anonymously.
+**Background:** Institute of Arcane Science lecturer, seconded to the Apothecaries' Guild.
+**DM Hook:** Quest-giver for apparatus parts; in combat he warns PCs where the blight will fall.
+
+---
 
 ## Sythyss — CR 2 — Monsternomicon Vol. I
 
@@ -8566,6 +8769,26 @@ Source book(s): Monsternomicon Vol. 1
 Description: Tatzylwurms are a remarkable group of predators that roam the less tamed lands and waters of the Iron Kingdoms. There are two dominant varieties, 'painted' and 'pale.' The highly aggressive pale tatzylwurms make their homes in the most secluded areas of the Iron Kingdoms. They are fearless and unyielding creatures, attacking anything and everything that comes within their territory. Their scales are an indistinct grayish color, perfect for concealing themselves within the shadows.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
+## Tells — CR 16 — NPCs — ALL-150 (Shaun's cast)
+
+![Tells](pictures/tells.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+142. Tells — LG Human Male Fighter 8 / Watchman 8 (ECL 16)
+
+![Tells](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/tells.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/tells.jpg)
+
+**Tracker status (as-is):** "Precinct Commander, South Brigade Precinct"
+**Tracker detail:** LG human male fighter 8 / watchman 8 — used exactly as given. Precinct Commander of the South Brigade Precinct, the watch garrison in the city's seediest lower quarter. **Chassis note:** Watchman is a Bastion class from the source document; built on the closest legal 3.5 chassis — full BAB, good Fortitude, watch skills (Gather Information, Sense Motive, Spot as class), and precinct-authority class features in place of further fighter bonus feats.
+**Abilities:** Str 17 (+3; 15 +2 gauntlets), Dex 14 (+2), Con 15 (+2; 14 +1 level), Int 12 (+1), Wis 14 (+2), Cha 13 (+1). **HD** 16d10+32; **hp** 117 (10 +15×5 +32). **Init** +6; **Speed** 20 ft (armour). **AC** 25 (+10 *+2 full plate*, +3 *+1 heavy steel shield*, +1 Dex (plate cap), +1 *ring of protection +1*), touch 12, flat-footed 24. **BAB/Grapple** +16/+19. **Attack:** *+3 longsword* +23 melee (1d8+6/19–20). **Full Attack:** +23/+18/+13/+8. **Space/Reach** 5 ft./5 ft. **SA/SQ:** Watchman's authority (precinct jurisdiction, +4 circumstance to Gather Information/Intimidate within the South Brigade), precinct network (contacts in every street gang and guildhall of the lower quarter), fighter bonus feats as listed, armour training familiarity (decades in plate). **Saves:** Fort +15 (base +12, Con +2, vest +1), Ref +8 (base +5, Dex +2, +1), Will +8 (base +5, Wis +2, +1). **Skills:** Diplomacy +12, Gather Information +20, Intimidate +19, Knowledge (local) +12, Listen +13, Ride +11, Sense Motive +19, Spot +17. **Feats:** Weapon Focus (longsword), Weapon Specialisation (longsword), Greater Weapon Focus, Power Attack, Cleave, Improved Sunder, Combat Expertise, Improved Disarm, Improved Initiative, Leadership, Negotiator, Iron Will.
+**Equipment (76,500 gp):** *+2 full plate* (5,650), *+1 heavy steel shield* (1,170), *+3 longsword* (18,315), *gauntlets of ogre power* (4,000), precinct strongbox, masterwork signal lanterns and cell fittings under his seal (4,000), *ring of protection +1* (2,000), *vest of resistance +1* (1,000), *cloak of charisma +2* (4,000), precinct commander's brass key-ring and lamp (Watch issue), *potions of cure serious wounds* ×3 (2,250), masterwork manacles ×4, signal whistle, 34,115 gp held as the precinct's informant-and-repair fund under his personal seal (listed, restricted — his personal carried kit ≈ 42,400 gp).
+**Steampunk aesthetic:** South Brigade plate is the Bastion's working iron at its most honest: soot-black full plate with brass precinct gears riveted over old dents, a shield fitted with an amber lamp housing for fog patrols, and a commander's coat with copper piping gone green at the seams; the precinct house behind him runs on a coal boiler that heats the cells, the baths, and the tea, in that order of honesty.
+**Appearance/Personality:** A big, weathered man who knows every pickpocket in the lower quarter by name, employer, and grandmother. Lawful to the bone and beloved for it — his law is predictable, which in the South Brigade passes for mercy. **Voice hook:** addresses everyone by full name and street — "Marlo Fenwick, of Tanner's Row, you are lying to me again." **Motivation:** a lower quarter that polices itself because it trusts the precinct more than it fears it. **Secret/Flaw:** after the bombings and the corruption purge, he personally kept two compromised watchmen on the rolls because they were *his* — a mercy that is also a liability someone will eventually find. **DM Hook:** the single best ally the party can have in the lower quarter — and the man who will arrest them, courteously and without exception, if they break his peace.
+
+---
+
 ## Ten-Headed Terror — CR 13 — Monster Manual III
 
 ![Ten-Headed Terror](pictures/ten-headed-terror.png)
@@ -8580,6 +8803,16 @@ Source book(s): Monster Manual III
 Description: Thankfully rare in the extreme, solitary ten-headed shrieking terrors have been reported by planar travelers. A ten-headed terror has a wingspan of 16 feet and weighs 1,600 pounds.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
+## Tenement Crowd — Stacked Stairwell — CR 2 — APOC city population — generator entry (Shaun, 2026-11-11)
+
+![Tenement Crowd — Stacked Stairwell](pictures/tenement-crowd.jpg)
+
+*Picture: Scene art — a packed city block (Shaun's map files)*
+
+**Partial — fullest block on file:**
+
+Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+
 ## Teratomorph — CR 16 — Monster Manual II
 
 ![Teratomorph](pictures/teratomorph.png)
@@ -8593,6 +8826,45 @@ Challenge Rating: 16
 Source book(s): Monster Manual II
 Description: Teratomorphs lurk in the watery depths of the sea and in underground caverns. Normally, they spend most of their time floating on underwater currents, but sometimes these currents wash them ashore. Occasionally they come ashore of their own volition to search for food. A teratomorph is a shapeless horror the size of a cottage. Its body consists primarily of thick, translucent, iridescent slime coating coils of opaque tissue that shift and move, as though constantly in a state of flux. Beneath its slimy hide, bursts of energy occasionally flash, lighting portions of its form momentarily.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Thaloril Fenwick — CR 1 — NPCs — ALL-150 (Shaun's cast)
+
+![Thaloril Fenwick](pictures/thaloril-fenwick.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+4. Thaloril Fenwick — Elf Wizard 1
+
+![Thaloril Fenwick](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/thaloril-fenwick.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/thaloril-fenwick.jpg)
+
+**Alignment:** Neutral | **Faction:** Alchemists' Guild (junior reagent-tester) | **Role:** Caster
+
+**Abilities:** Str 8 (−1), Dex 15 (+2), Con 12 (+1), Int 15 (+2), Wis 12 (+1), Cha 10 (+0)
+**HD:** 1d4+1; **hp** 5 | **Init** +2 | **Speed** 30 ft.
+**AC** 12 (+2 Dex), touch 12, flat-footed 10 (15 with *mage armor*)
+**BAB** +0; **Grapple** −1
+**Attack:** Dagger −1 melee (1d4−1, 19–20/×2); longbow +2 ranged (1d8, ×3, 100 ft.)
+**Space/Reach:** 5 ft./5 ft.
+**Special Qualities:** Low-light vision; immunity to *sleep*; +2 saves vs. enchantment; +2 Listen, Search, Spot; secret-door detection (Search check within 5 ft.). **No familiar:** Thaloril has never attempted the familiar bond — the Guild teaches that the severing makes the rite unreliable and possibly dangerous, and he is in no hurry to test it.
+**Saves:** Fort +1 (+0 base, +1 Con), Ref +2 (+0 base, +2 Dex), Will +3 (+2 base, +1 Wis)
+**Skills:** Concentration +5 (4 ranks, +1 Con), Craft (alchemy) +6 (4 ranks, +2 Int), Knowledge (arcana) +6 (4 ranks, +2 Int), Spellcraft +6 (4 ranks, +2 Int)
+**Feats:** Scribe Scroll (wizard bonus), Spell Focus (Evocation)
+**Spellbook:** 0—all; 1st—*burning hands, color spray, grease, identify, mage armor, magic missile, shield*.
+**Spells Prepared (Wizard 1; 3/2 per day; DC 12 + spell level, Evocation DC 13 + level):** 0—*detect magic, prestidigitation, ray of frost*; 1st—*mage armor, burning hands*.
+**APOC Note:** *Burning hands* and *ray of frost* are elemental and hampered without augmentation: Thaloril casts them through a Guild-issue brass focusing coil charged with alchemical reagents (sulfur salts for fire, brine-copper for cold). Casting them leaves a thumb-sized blight-scar on soil or stone, which he dutifully logs for the Guild.
+**Equipment:** Longbow (75 gp), 20 arrows (1 gp), dagger (2 gp), spellbook, spell component pouch (5 gp), brass alchemical focusing coil and reagent vials (60 gp), scholar's outfit, backpack, 2 scrolls of *identify* (self-scribed, 12.5 gp each in materials), potion of *cure light wounds* (50 gp), ink and journal. ~220 gp spent; ~680 gp in Guild scrip and a small inheritance.
+
+**Appearance:** A slender elf of indeterminate young age with ink-black hair in a single braid and perpetually reagent-stained cuffs. One eyebrow is permanently singed shorter than the other.
+**Steampunk aesthetic:** Guild steampunk at its most literal: the brass focusing coil on his wrist is fitted with a fogged pressure gauge that ticks as reagents warm, and his spell components ride in a riveted leather rack of copper-capped vials across his chest. His scholar's robe is grey-green wool with reagent-stained cuffs, and even his longbow has plain brass nocks.
+**Traits:** Precise, dry-humored, more comfortable with reactions than people. Keeps meticulous notes on everything, including conversations.
+**Mannerism/Voice Hook:** Narrates his own actions in experimental terms. Flat, soft voice: "Trial four: speaking to the captain. Hypothesis: bribery unnecessary."
+**Motivation:** Guild advancement — he wants his own testing bench and an end to being handed volatile compounds by senior alchemists who stand well back.
+**Secret/Flaw:** He falsified one reagent-purity report to cover a friend's error. The batch went into lamp oil across three wards; nobody was hurt, but he keeps the true figures in his journal and wakes at night over them.
+**Background:** Guild-raised in the Bastion, apprenticed at nine, now a junior tester who certifies alchemical stock and occasionally rides out with Remnant caravans as a paid spellcaster. Day to day: titration, paperwork, and small evocations under Guild supervision.
+**DM Use Hook:** A walking exposition source on alchemy and APOC magic-law who can identify substances, hire the party to recover a stolen reagent shipment, or become a liability when his falsified report resurfaces.
+
+---
 
 ## Tharn Bloodtrackers — CR 4 — Monsternomicon Vol. 2
 
@@ -8737,6 +9009,76 @@ Source book(s): Monster Manual II
 Description: Thri-kreen, often called mantis warriors, are intelligent humanoids with insectlike features. They prefer deserts and savannas, where they maintain a nomadic lifestyle as hunters. A thri-kreen looks like a bipedal praying mantis. Of the six limbs protruding from its midsection, two are used for walking, and each of the other four ends in a four-fingered hand. A sandy yellow exoskeleton covers an adult thri-kreen’s body. Two compound eyes, two antennae, and a complicated jaw structure that includes a pair of wicked mandibles give its head an insectlike appearance.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
+## Tilda Cogspring — CR 6 — NPCs — ALL-150 (Shaun's cast)
+
+![Tilda Cogspring](pictures/tilda-cogspring.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+29. Tilda Cogspring — Gnome Ranger 6, NG
+
+![Tilda Cogspring](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/tilda-cogspring.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/tilda-cogspring.jpg)
+
+**Abilities:** Str 11 (13-2), Dex 15 (+2, 14+1 L4), Con 16 (+3, 14+2), Int 12 (+1), Wis 14 (+2), Cha 8 (-1)
+**HD/hp:** 6d8+18, **hp 46** (8+4x5 +18) | **Init** +2 | **Speed** 20 ft
+**AC** 17 (+2 Dex, +1 size, +4 +1 chain shirt), touch 13, flat 15
+**BAB/Grapple** +6/+3 | **Attack** +1 gnome hooked hammer +7/+2 (1d6+1/x3-x4) or +1 light crossbow +10/+5 (1d6+1/19-20) | **SQ:** Favoured enemy demons/outsiders(evil) +4, undead +2 (APOC-relevant reflavour of outsider pick — DM confirm; otherwise magical beasts +2), track, wild empathy, combat style (archery: Rapid Shot, Manyshot), endurance, animal companion (badger — a real animal, not summoned), gnome traits, low-light
+**Space/Reach** 5 ft/5 ft
+**Saves** Fort +8, Ref +7, Will +4
+**Skills:** Survival +11, Hide +11, Move Silently +9, Knowledge (nature) +8, Craft (steam apparatus) +8, Spot +9, Listen +9
+**Feats:** Track (bonus), Rapid Shot/Manyshot (style), Endurance (bonus), Point Blank Shot, Precise Shot, Far Shot (feats L1,3,6 = 3, legal)
+**Spells (1/day 1st):** *longstrider* typical. **No summoning.**
+**Gear (~5,500 gp):** +1 chain shirt, +1 light crossbow, mwk gnome hooked hammer, steam-sight goggles (mundane mwk Spot tool — they do not part or affect the Fog of Life), climber's kit, antitoxin ×2, 70 gp.
+**Steampunk aesthetic:** Beacon-keeper's oilskin in gritty grey-brown, brass valve-badges from every beacon she services, steam-sight goggles pushed up on her forehead, and a cog-tooled harness for Brass the badger fitted with its own tiny amber lamp.
+**Appearance:** Oil-smudged, brass goggles up on forehead, badger (Brass) in a patched harness.
+**Traits/Voice:** Cheerful, rapid-fire, names every valve she meets.
+**Motivation:** Keep the fog-road beacons lit between Bastion and the Remnant farms. **Flaw:** Cannot resist a broken machine — even a trapped one.
+**Background:** Steam & Iron Workers Union beacon-keeper.
+**DM Hook:** Guide for fog-road travel; her beacon route maps are worth gold to several factions.
+
+---
+
+## Tilda Ironfoot — CR 2 — NPCs — ALL-150 (Shaun's cast)
+
+![Tilda Ironfoot](pictures/tilda-ironfoot.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+10. Tilda Ironfoot — Dwarf Fighter 2
+
+![Tilda Ironfoot](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/tilda-ironfoot.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/tilda-ironfoot.jpg)
+
+**Alignment:** Lawful Good | **Faction:** Bastion City Watch | **Role:** Combat (sergeant-track)
+
+**Abilities:** Str 15 (+2), Dex 12 (+1), Con 16 (+3), Int 13 (+1), Wis 10 (+0), Cha 6 (−2)
+**HD:** 2d10+6; **hp** 21 (10+3, 5+3) | **Init** +1 | **Speed** 20 ft.
+**AC** 18 (+5 breastplate, +2 heavy steel shield, +1 Dex), touch 11, flat-footed 17
+**BAB** +2; **Grapple** +4
+**Attack:** Masterwork dwarven waraxe +5 melee (1d10+2, ×3); throwing axe +3 ranged (1d6+2, 10 ft.)
+**Space/Reach:** 5 ft./5 ft.
+**Special Qualities:** Darkvision 60 ft., stonecunning, weapon familiarity, +2 saves vs. poison and spells/spell-like effects, +1 attack vs. orcs/goblinoids, +4 dodge AC vs. giants, stability
+**Saves:** Fort +6 (+3 base, +3 Con), Ref +1 (+0 base, +1 Dex), Will +0 (+0 base, +0 Wis); +2 racial vs. poison/spells above
+**Skills:** Craft (weaponsmithing) +6 (5 ranks, +1 Int), Intimidate +3 (5 ranks, −2 Cha), Climb +1 (5 ranks, +2 Str, −6 ACP from breastplate and heavy shield) — ACP already included
+**Feats:** Weapon Focus (dwarven waraxe) (level 1), Power Attack (fighter 1), Cleave (fighter 2)
+**Equipment:** Masterwork dwarven waraxe (360 gp), breastplate (200 gp), heavy steel shield (20 gp), throwing axe (8 gp), backpack, manacles, watch whistle, smith's tools (5 gp), potion of *cure moderate wounds* (300 gp), potion of *bull's strength* (300 gp), 50 ft. hemp rope. ~1,210 gp spent; ~790 gp in a clan account she sends most of her pay into.
+
+**Appearance:** A square-built dwarf woman with a red-brown beard plaited and tucked through her belt (a clan joke she refuses to explain), a sergeant's stripe painted — not yet earned, painted — on her shield rim where only she can see it. Her breastplate is dented in exactly the shape of a mace head, left unrepaired on purpose.
+**Steampunk aesthetic:** Working iron, proudly kept: her breastplate is hammered iron gone grey-brown at the edges, with the famous mace-dent circled in copper rivets like a medal, and her waraxe haft is wrapped in leather and wire. Her smith's tools travel in a riveted roll, her watch whistle is tarnished brass, and her shield rim carries clan ironwork under the painted stripe only she can see.
+**Traits:** Disciplined, dry, ferociously fair. Keeps every promise, including the inconvenient ones.
+**Mannerism/Voice Hook:** Inspects weapons while talking; hands them back improved or with a verdict. Gravelly voice: "Edge is rolled. You'd have died of embarrassment before blood loss."
+**Motivation:** Make sergeant on merit inside a year and reform her precinct's equipment budget — half the Watch's blades are, in her professional opinion, "spoons with ambitions."
+**Secret/Flaw:** The painted stripe: she has been informally doing a sergeant's job since her sergeant's mind broke last winter, covering his duties and signing his name. If the Watch learns, both careers end; if they don't, a broken man keeps a rank he can't perform.
+**Background:** Clan Ironfoot, smiths for four generations, Watch for two. Tilda splits her days between the south precinct's patrol rota, the precinct forge (where she maintains the squad's arms at cost), and evening visits to her sergeant's widow — who does not know her husband has been relieved of everything but the title.
+**DM Use Hook:** The Watch contact who can get the party's seized gear back, warn them a warrant is being drawn, or ask them — off the record — to handle what her sergeant should be handling.
+
+---
+
+## LEVEL 3
+
+---
+
 ## Tin Golem — CR 3 — Dragon Magazine / Constructs roster (web-sourced entry)
 
 ![Tin Golem](pictures/tin-golem.png)
@@ -8817,6 +9159,44 @@ Source book(s): Monster Manual I
 Description: These diminutive amphibians are innocuous and beneficial, since they eat insects.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
+## Tomas Reyne, the Last Marshal — CR 20 — NPCs — ALL-150 (Shaun's cast)
+
+![Tomas Reyne, the Last Marshal](pictures/tomas-reyne-the-last-marshal.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+100. Tomas Reyne, the Last Marshal — Human Fighter 20 — HEROIC LEGEND
+
+![Tomas Reyne, the Last Marshal](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/tomas-reyne-the-last-marshal.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/tomas-reyne-the-last-marshal.jpg)
+
+**Alignment:** LG · **Faction:** Bastion — Lord Marshal of the Wall
+**Abilities:** Str 26 (+8, 15 base +5 level + *belt of giant strength +6*), Dex 14 (+2), Con 20 (+5, 14 base + *manual of bodily health +2* inherent + *amulet of health +4*), Int 13 (+1), Wis 12 (+1), Cha 14 (+2)
+**HD/HP:** 20d10; 10 + (19 × 5.5, averaged down) + 100 = **214 hp** · **Init:** +6 · **Speed:** 30 ft. in his mithral full plate (mithral heavy armour counts as medium for movement)
+**AC:** 30, touch 14, flat-footed 28 (+2 Dex, +11 *+3 mithral full plate*, +5 *+3 heavy steel shield*, +2 *ring of protection +2*)
+**BAB/Grapple:** +20 / +28 · **Attack:** *+3 holy adamantine longsword* +34 melee (1d8+13/17–20, +2d6 vs evil)
+**Full Attack:** +34/+29/+24/+19 · **Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** — (a fighter's honesty: his special attack is hitting four times)
+**Special Qualities:** — none supernatural. That is the point of him.
+**Saves:** Fort +20 (12 +5 Con +3 *cloak of resistance +3*), Ref +11 (6 +2 +3), Will +12 (6 +1 Wis +3 +2 Iron Will)
+**Skills:** Climb +21 (13), Diplomacy +7 (5 cross-class ranks), Intimidate +25 (23), Jump +21 (13), Ride +25 (23), Swim +21 (13)
+**Feats (fighter 20: 11 fighter bonus + 7 character + 1 human = 19):** Human: Iron Will; 1 Power Attack, Fighter 1 Weapon Focus (longsword), Fighter 2 Cleave, 3 Mounted Combat, Fighter 4 Weapon Specialisation (longsword), Fighter 6 Great Cleave, 6 Leadership, Fighter 8 Greater Weapon Focus (longsword), 9 Improved Critical (longsword), Fighter 10 Improved Sunder, Fighter 12 Greater Weapon Specialisation (longsword), 12 Melee Weapon Mastery (slashing), Fighter 14 Blind-Fight, 15 Combat Brute, Fighter 16 Shield Ward, 18 Improved Initiative (character level 18 = fighter 18), Fighter 18 Robilar's Gambit (PHB2), Fighter 20 Weapon Supremacy (longsword) (PHB2, prerequisites met: Weapon Specialisation/Greater Weapon Specialisation/Greater Weapon Focus + fighter 18).
+**Kit (217,685 gp personal; the Wall's 41,865 gp emergency fund sits in a mundane iron chest with three keys held by three officers, as a faction asset):** *+3 holy adamantine longsword* (53,015), *manual of bodily health +2* (55,000), *belt of giant strength +6* (36,000), *+3 mithral full plate* (19,500), *amulet of health +4* (16,000), *boots of speed* (12,000), *+3 heavy steel shield* (9,170), *cloak of resistance +3* (9,000), *ring of protection +2* (8,000), marshal's standard and horn (mundane, priceless).
+**Steampunk aesthetic:** The Marshal's dress steampunk — mithral plate with brass command fittings and riveted grey ceremonial uniform beneath, the marshal's standard topped with a hooded amber fog-lamp, a gear-stamped horn at his belt, and nineteen sieges' worth of soot worked permanently into the metal.
+**Appearance:** Sixty-one years old, grey, upright as a plumb line, left hand missing two fingers (wall accident, not battle — he corrects people), dress uniform even in the Fog. **Traits:** Fair, tireless, remembers the name of every soldier who died on his wall — all of them, in order. **Voice hook:** Plain, warm, final; "The wall is not stone. The wall is us. Stand up." **Motivation:** Hold until someone younger and better can take the wall. He has been saying this for fifteen years. No one is allowed to agree with him. **Secret/Flaw:** He is not holding out for a successor. He interviewed forty-one candidates and rejected them all for one shared flaw: they were not *him*. His flaw is that the Bastion's greatest strength is a man who cannot imagine it surviving him — and the villains have noticed. **Background:** Wall cadet at 11, marshal at 45, undefeated in nineteen sieges, most of them small, two of them not. **DM Use:** The Bastion's keystone NPC: mentor, commander, quest-giver, and — if the campaign goes dark — the death that changes everything.
+
+---
+
+## Batch 5 — DM Quick Notes
+- **Villains at 19–20 (requirement met):** Morvain (19), Prioress Nocturne (19), Cinder Queen Vesskara (20), Nethrak the Blighted (20).
+- **Heroic legends at 19–20 (requirement met):** Selune-Marra Vael (19), Aurelia Dawnshield (19), Elowen Thistledown (20), Forge Father (20), Tomas Reyne (20).
+- **Templated / ECL math shown:** Threnos Ashborn (Tiefling LA +1, ECL 18), Aurelia Dawnshield (Aasimar LA +1, ECL 19), Nethrak (Lich LA +4, ECL 20).
+- **Long-lived ancients:** Zareth (elf, 310), Brammin (dwarf), Elowen (elf), Forge Father and Anvil-7 (warforged, pre-calamity activation).
+- **Severed magic, enforced everywhere:** no summoning, no *gate*, no teleport/planar travel spells appear in any active spell list, and no extra-dimensional items appear in any kit.
+- **Interlocks (use them):** Morvain was Ilya Vane's commander; Lorne Cade knows Threnos's secret and Threnos knows Lorne's; Nethrak's phylactery sits under Mother Vexalia's clinic; Elowen's secret is known only to Bormin Flint and Dagna Stoneveil; Brammin is quietly choosing Kaelis as successor; Forge Father taught Bormin's master.
+
+---
+
 ## Triton — CR 2 — Monster Manual I
 
 ![Triton](pictures/triton.jpg)
@@ -8886,6 +9266,68 @@ Challenge Rating: 12
 Source book(s): Monsternomicon Vol. 2
 Description: Ifear that sometimes the tales of my exploits put others in needless peril, such as when some of my eager but inexperienced students attempt to replicate my successes. Such was the case with Ardam Martinbridge, a bright student at Corvis University, who overheard Alten Ashley’s tale of Tharn huntresses. Without seeking my advice, Ardam set forth to study them personally, hoping to write a paper on the topic. Apparently he soon got lost in the Glimmerwood as the sky’s last tinge of blue faded completely black, and a few stars glittered through the branches.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Unit Bastion-4 — CR 7 — NPCs — ALL-150 (Shaun's cast)
+
+![Unit Bastion-4](pictures/unit-bastion-4-bast.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+33. Unit Bastion-4 "Bast" — Warforged Fighter 7, LG
+
+![Unit Bastion-4 "Bast"](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/unit-bastion-4-bast.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/unit-bastion-4-bast.jpg)
+
+**Abilities:** Str 16 (+3, 15+1 L4), Dex 13 (+1), Con 16 (+3, 14+2 racial), Int 10, Wis 10 (12-2 racial), Cha 6 (-2, 8-2 racial)
+
+**HD/hp:** 7d10+21, **hp 61** (10+5x6 +21) | **Init** +1 | **Speed** 20 ft
+**AC** 22 (+1 Dex, +2 composite plating, +8 +1 full-plate equivalent Adamantine Body plating (DR 2/adamantine), +1 +1 light shield integrated) — Adamantine Body feat gives +8 armour, DR 2/adamantine; shield separate: AC 23 with +1 light shield. **AC 23**, touch 11, flat 22
+**BAB/Grapple** +7/+10 | **Attack** +1 warhammer +11/+6 (1d8+4/x3) or slam +10 (1d4+3) | **SQ:** Warforged immunities, light fortification (Adamantine Body build), DR 2/adamantine
+**Space/Reach** 5 ft/5 ft
+**Saves** Fort +8, Ref +3, Will +2
+**Skills:** Intimidate +6, Climb +8, Spot +4 (cc)
+**Feats:** Adamantine Body [1, warforged body feat], Power Attack [fighter 1], Cleave [fighter 2], Weapon Focus (warhammer) [3], Weapon Specialization (warhammer) [fighter 4], Improved Bull Rush [fighter 6], Improved Sunder [6]
+**Gear (~7,100 gp):** +1 warhammer, +1 light steel shield, repair oils (*repair moderate* x3), everburning lamp, gate-chain kit, 25 gp (pay docked as second-class — noted in-world).
+**Repair note:** Full-effect healing per Doc #4 ruling.
+**Steampunk aesthetic:** A tower of riveted adamantine plating over a deep boiler-heart, gate-chain winch gears built into one forearm, an amber warning lamp set in his chest plate, and the numeral 4 re-stencilled in brass paint over old scars in the metal.
+**Appearance:** Towering, gate-scored plating, "4" stencilled and re-stencilled, Kord symbol painted by a human friend.
+**Traits/Voice:** Slow, literal, immovable; booming vox. *"Gate stays shut. Friends argue inside, not outside."*
+**Motivation:** Earn citizenship by twenty years of gate service — he is on year nineteen. **Secret:** He lets Remnant refugees in off-manifest, one a month, and logs them as "fog error."
+**Background:** Bastion Watch gate defender, legally second-class despite rank.
+**DM Hook:** Gate access, moral mirror for Warforged rights, immovable object in a siege scene.
+
+---
+
+## Unit Rook-9 — CR 5 — NPCs — ALL-150 (Shaun's cast)
+
+![Unit Rook-9](pictures/unit-rook-9.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+24. Unit Rook-9 — Warforged Rogue 5, N
+
+![Unit Rook-9](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/unit-rook-9.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/unit-rook-9.jpg)
+
+**Abilities:** Str 12 (+1), Dex 16 (+3, 15+1 L4), Con 14 (+2, 12+2), Int 14 (+2), Wis 10, Cha 6 (-2, 8-2)
+**HD/hp:** 5d6+10, **hp 28** (6+3×4 +10) | **Init** +3 | **Speed** 30 ft
+**AC** 17 (+3 Dex, +2 composite plating, +2 +1 buckler forearm plate), touch 13, flat-footed 14
+**BAB/Grapple** +3/+4 | **Attack** mwk short sword +7 melee (Weapon Finesse; 1d6+1/19-20) or mwk light crossbow +7 ranged (1d8/19-20) | **SA:** Sneak attack +3d6, trapfinding, trap sense +1, uncanny dodge, evasion
+**Space/Reach** 5 ft/5 ft
+**Saves** Fort +3, Ref +7, Will +1 (warforged immunities: poison, sleep, paralysis, disease, nausea, fatigue, exhaustion, sickened, energy drain)
+**Skills:** Hide +11, Move Silently +11, Disable Device +12, Open Lock +13, Search +10, Spot +8, Listen +8, Climb +9, Tumble +11
+**Feats:** Improved Initiative [1], Weapon Finesse [3]
+**Gear (~4,200 gp):** +1 buckler forearm plate, mwk short sword, mwk light crossbow, mwk thieves' tools, *oil of repair moderate damage* ×2, silk rope 50 ft, grappling hook, everburning lamp, 90 gp in unmarked cheqs.
+**Repair note:** Healed at full effect per Shaun's Doc #4 Warforged ruling; nanite natural healing applies.
+**Steampunk aesthetic:** Matte composite plating seamed with exposed rivets and patched with mismatched brass plates, a boiler-heart that ticks audibly in quiet rooms, and his single amber optic set in a rotating brass goggle-ring; oil and coal-dust never quite leave his joints.
+**Appearance:** Slim scout chassis, matte grey plating scratched with nine tally notches, one amber optic.
+**Traits/Voice:** Flat, literal, learning slang badly. *"I am not lost. The fog is unmapped. Different problem."*
+**Motivation:** Buy legal personhood papers — Warforged are second-class citizens in the Bastion.
+**Secret/Flaw:** Still carries a sealed orders-slate from before the calamity he cannot read and fears to open.
+**Background:** Runs locks and messages through the fog for whoever pays, based from a Dungsweepers' Guildhall loft.
+**DM Hook:** Hireable scout; his sealed slate is a campaign thread if Shaun wants it.
+
+---
 
 ## Vampire Spawn — CR 4 — Monster Manual I
 
@@ -9014,6 +9456,55 @@ Source book(s): Monster Manual III
 Description: The insectlike creature before you stands 12 feet tall on locust legs. It has four arms, two of which wield a sword and shield in chitinous hands while the others bear large, scorpionlike claws. Beneath its armor, its body is covered with green and black chitin. Pincers project from its mouth, and a scorpion's tail quivers behind it. As it steps forward, the beetlelike carapace on its back flickers open and closed, causing the great wasp wings beneath to rustle like dry leaves.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
+## Vespera Thorn — CR 9 — NPCs — ALL-150 (Shaun's cast)
+
+![Vespera Thorn](pictures/vespera-thorn.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+41. Vespera Thorn — Human Wizard 5 / Loremaster 4, NG
+
+![Vespera Thorn](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/vespera-thorn.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/vespera-thorn.jpg)
+
+**Abilities:** Str 8, Dex 13, Con 12, Int 19 (15+2 lvl+2 headband), Wis 14, Cha 10. **HD** 9d4+9; **hp** 32. **Init** +1; **Speed** 30 ft. **AC** 15 (+1 Dex, +4 *mage armor*), touch 11, flat 14. **BAB/Grapple** +4/–1. **Attack:** dagger +3 melee (1d4–1/19–20), light crossbow +5 ranged (1d8/19–20). **SA/SQ:** Scribe Scroll, raven familiar (resident, non-summoned), Loremaster secrets (Applicable Knowledge, Bonus Language, Lore +8), Secret Knowledge. **Saves:** Fort +4, Ref +4, Will +11. **Skills:** Concentration +13, Decipher Script +16, Knowledge (arcana) +18, (history) +18, (the planes — theory only) +12, Listen +6, Search +12, Spellcraft +18, Spot +6. **Feats:** Scribe Scroll, Skill Focus (Knowledge arcana), Skill Focus (Knowledge history), Extend Spell, Craft Wondrous Item, Spell Focus (Transmutation). *Loremaster prereqs met: both Skill Focus, 10 ranks in two Knowledges, 3 divination + 1 3rd-level divination.*
+**Equipment (12,000 gp):** *headband of intellect +2* (4,000), *cloak of resistance +2* (4,000), spellbook (non-extra-dimensional), *wand of magic missile* CL5 (2,250), *potions of cure moderate wounds* ×2, alchemical cold-iron ink, masterwork dagger, 450 gp in cheqs/gems.
+**Spells prepared (4/5/5/4/3/2; DC 14+level, Transmutation +1):** 0—*detect magic, read magic, light, mending*; 1st—*mage armor, identify, comprehend languages, feather fall, protection from evil*; 2nd—*see invisibility, web, bull's strength, scorching ray* (steam-coil augmented), *knock*; 3rd—*clairvoyance, dispel magic, haste, tongues*; 4th—*scrying, stone shape, greater invisibility, polymorph*; 5th—*telekinesis, wall of stone*. No summon spells in book.
+**Size/Type:** Medium humanoid (human); **Space/Reach:** 5 ft./5 ft.
+**Steampunk aesthetic:** Brass-rimmed spectacles hang on a gear-toothed chain over a damp grey-green librarian's coat, and a little amber page-lamp is clamped to her spellbook's riveted leather cover. Her ink-stained apron is stitched with copper pockets, and soot from the vault lamps has greyed the hem.
+**Appearance/Personality:** 44, ink-stained fingers, grey braid, spectacles on a chain. Dry, precise, secretly funny. **Voice:** whispers page numbers before facts — "Page forty-one — no." **Motivation:** rebuild a working index of pre-Calamity knowledge before it rots. **Secret/Flaw:** memorised a demon's true name and never wrote it down; terrified she'll say it sleep-talking. **Background:** Remnants lore-keeper in the Bastion library vaults; teaches children by lamplight, never casts outdoors without a blight-ledger entry recording the rot she caused. **DM Hook:** hires party to recover a sealed catalogue — she wants the catalogue burned unread if it lists summoning rites.
+
+---
+
+## Vessa Kade — CR 5 — NPCs — ALL-150 (Shaun's cast)
+
+![Vessa Kade](pictures/vessa-kade.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+21. Vessa Kade — Human Fighter 5, LN
+
+![Vessa Kade](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/vessa-kade.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/vessa-kade.jpg)
+
+**Abilities:** Str 16 (+3, 15+1 L4), Dex 13 (+1), Con 14 (+2), Int 10, Wis 12 (+1), Cha 8 (-1)
+**HD/hp:** 5d10+10, **hp 40** (10+5+5+5+5 +10) | **Init** +5 | **Speed** 20 ft (armour), 30 unarmoured
+**AC** 19 (+1 Dex, +7 +1 breastplate, +1 +1 light steel shield), touch 11, flat 18
+**BAB/Grapple** +5/+8 | **Attack** *+1 longsword* +10 melee (1d8+5/19-20) or masterwork composite longbow (+3 Str) +7 ranged (1d8+3/x3) | **Full** same single attack
+**Space/Reach** 5/5 | **SQ:** — | **Saves** Fort +6, Ref +2, Will +2
+**Skills:** Climb +7 (armour -3 applied in use), Intimidate +7, Jump +7, Ride +5, Spot +3 (cc)
+**Feats:** Power Attack, Cleave, Weapon Focus (longsword), Weapon Specialization (longsword), Improved Initiative, Iron Will
+**Gear (~4,200 gp):** +1 breastplate, +1 light shield, +1 longsword, mwk composite longbow + 40 arrows, potion *cure moderate wounds* x2, alchemist's fire x2, climber's kit, Watch whistle, 48 gp in cheqs and coin.
+**Steampunk aesthetic:** Watch-issue breastplate in soot-darkened steel with riveted brass South Brigade fittings, a kettle helm with a flip-down amber fog-lens, and her whistle carried on a cog-link chain; everything smells faintly of coal-smoke and lamp oil.
+**Appearance:** Scar through left eyebrow, hair cropped for a helm, soot never quite washed from her hands.
+**Traits/Voice:** Blunt, fair, counts her squad aloud before any order — gravelly, low. *"One, two, three, four — all mine, all moving."*
+**Motivation:** Hold the South Gate through winter; earn a commission that does not depend on a patron.
+**Secret/Flaw:** Froze for nine seconds during the Shieldmeet attack; another guardsman died in that gap. She drills to never freeze again.
+**Background:** Bastion Watch sergeant, South Brigade Precinct; rents a barracks bunk, sends half her pay to a sister in the lower wards.
+**DM Hook:** First honest Watch contact for PCs; will bend a curfew rule once — and remember it as a debt.
+
+---
+
 ## Vine Horror — CR 4 — Fiend Folio
 
 ![Vine Horror](pictures/vine-horror.png)
@@ -9062,6 +9553,16 @@ Cross-reference record A — WARFORGED (MM III monster version)
 - **Picture:** official illustration, Monster Manual III, p. 190. Extraction owed.
 **Picture (final, at merge):** `pictures/warforged-mm3-p190.png` — OFFICIAL BOOK ART (Monster Manual III, p. 190 — cross-reference row; the entry's primary picture is the ECS plate in Part I)
 
+## Watch Patrol — CR 3 — APOC city population — generator entry (Shaun, 2026-11-11)
+
+![Watch Patrol](pictures/watch-patrol.jpg)
+
+*Picture: Scene art — a Watch barracks street (Shaun's map files)*
+
+**Partial — fullest block on file:**
+
+Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+
 ## Waterveiled Assassin — CR 15 — Monster Manual IV
 
 ![Waterveiled Assassin](pictures/waterveiled-assassin.png)
@@ -9074,20 +9575,6 @@ Type: Large Elemental (Extraplanar, Water)
 Challenge Rating: 15
 Source book(s): Monster Manual IV
 Description: The walls around you groan, buckle, and bulge outward as a torrent of water sprays out from a dozen rents. The water flows together, forming a monstrous shape. Bits of rock, dirt, and bones float within it, along with the shredded remnants of weapons, armor, and clothing. The shape rushes toward you like a tidal wave as it attacks.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
-## Wicker Man — CR 11 — Fiend Folio
-
-![Wicker Man](pictures/wicker-man.png)
-
-*Picture: APOC-VTT monster library art — Fiend Folio*
-
-**Partial — fullest block on file:**
-
-Type: Huge Construct
-Challenge Rating: 11
-Source book(s): Fiend Folio
-Description: A wicker man is a huge, hollow structure of branches and vines crudely woven into the form of a human. A tall crown of twigs juts up from its featureless head, and its arms end in massive bundles of sharp branches that it uses to snatch up creatures and to toss them through the cage door in its chest. A wicker man is usually created for a festival by a druid or cleric in a community that reveres a deity such as Nerull.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
 ## Windghost — CR 15 — Monster Manual II
@@ -9104,20 +9591,6 @@ Source book(s): Monster Manual II
 Description: Mysterious observers that float casually through the skies, windghosts are unfathomable creatures that inspire curiousity, puzzlement, and sometimes fear. The body of a windghost is conical. From top to base, it measures 24 feet. At its base is a gaping, circular mouth, 8 feet across and lined with rows of teeth. Its body tapers up to a rounded cap. A windghost’s rough and mottled hide is purplish gray in color, and it has milk-white eyes. The windghost has two 20-foot tentacles dangling from either side of its base. These appendages primarily serve to carry items.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Woldwrath — CR 16 — Monsternomicon Vol. 2
-
-![Woldwrath](pictures/woldwrath.png)
-
-*Picture: APOC-VTT monster library art — Monsternomicon Vol. 2*
-
-**Partial — fullest block on file:**
-
-Type: Huge Construct (Elemental Construct)
-Challenge Rating: 16
-Source book(s): Monsternomicon Vol. 2
-Description: Perhaps it is my competitive streak, but after reading Edrea’s report on the woldwatcher and hearing Alten’s description of the woldwyrd I felt compelled to discover evidence of these things myself. I had my opportunity as I accompanied several Fort Falk officers, at the request of the Scout General, on an expedition along Cygnar’s eastern border. I was apprising them of skorne tactics and relating intelligence I had gathered about this enemy during my captivity.
-[Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
-
 ## Worg — CR 2 — Monster Manual I
 
 ![Worg](pictures/worg.png)
@@ -9131,6 +9604,65 @@ Challenge Rating: 2
 Source book(s): Monster Manual I
 Description: A typical worg has gray or black fur, grows to 5 feet long and stands 3 feet tall at the shoulder. It weighs 300 pounds. More intelligent than their smaller cousins, worgs speak their own language. Some can also speak Common and Goblin.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Wrenna Caladrel — CR 3 — NPCs — ALL-150 (Shaun's cast)
+
+![Wrenna Caladrel](pictures/wrenna-caladrel.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+11. Wrenna Caladrel — Half-Elf Rogue 3
+
+![Wrenna Caladrel](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/wrenna-caladrel.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/wrenna-caladrel.jpg)
+
+**Alignment:** Chaotic Good | **Faction:** Independent (information broker) | **Role:** Skill/Social
+
+**Abilities:** Str 12 (+1), Dex 15 (+2), Con 10 (+0), Int 14 (+2), Wis 8 (−1), Cha 13 (+1)
+**HD:** 3d6; **hp** 12 (6, 3, 3) | **Init** +6 (+2 Dex, +4 Improved Initiative) | **Speed** 30 ft.
+**AC** 15 (+3 masterwork studded leather, +2 Dex), touch 12, flat-footed 13
+**BAB** +2; **Grapple** +3
+**Attack:** Masterwork rapier +5 melee (1d6+1, 18–20/×2; Weapon Finesse); shortbow +4 ranged (1d6, ×3, 60 ft.)
+**Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** Sneak attack +2d6
+**Special Qualities:** Low-light vision; immunity to *sleep*; +2 saves vs. enchantment; +1 Listen, Search, Spot; +2 Diplomacy and Gather Information; trapfinding; evasion; trap sense +1 (+1 Ref and dodge AC vs. traps)
+**Saves:** Fort +1 (+1 base, +0 Con), Ref +5 (+3 base, +2 Dex; +1 more vs. traps), Will +0 (+1 base, −1 Wis); +2 vs. enchantment
+**Skills:** Bluff +7 (6 ranks, +1 Cha), Diplomacy +11 (6 ranks, +1 Cha, +2 racial, +2 synergy from Bluff), Disable Device +8 (6 ranks, +2 Int), Gather Information +9 (6 ranks, +1 Cha, +2 racial), Hide +8 (6 ranks, +2 Dex), Listen +3 (3 ranks, −1 Wis, +1 racial), Move Silently +8 (6 ranks, +2 Dex), Open Lock +8 (6 ranks, +2 Dex), Search +9 (6 ranks, +2 Int, +1 racial), Spot +3 (3 ranks, −1 Wis, +1 racial), Tumble +8 (6 ranks, +2 Dex)
+*Skill budget: rogue 8 + Int 2 = 10/level; 40 at 1st + 10 + 10 = 60 ranks: nine skills at 6 ranks (54) + Spot 3 + Listen 3 = 60.*
+**Feats:** Weapon Finesse (level 1), Improved Initiative (level 3)
+**Equipment:** Masterwork rapier (320 gp), masterwork studded leather (175 gp), shortbow (30 gp) and 20 arrows, masterwork thieves' tools (100 gp), disguise kit (50 gp), potion of *cure moderate wounds* (300 gp), potion of *cat's grace* (300 gp), hand mirror, chalk, three sets of papers in three names, courtier's outfit and 75 gp of costume jewelry. ~1,360 gp spent; ~1,140 gp in a deposit box rented under a fourth name.
+
+**Appearance:** A willowy half-elf with honey-brown hair she wears up for work and down for pleasure, green eyes, and a wardrobe that spans gutter to gallery. In her own clothes she favors a green coat with too many hidden pockets.
+**Steampunk aesthetic:** Broker's Bastion chic: her green coat — gone grey at the shoulders with fog-damp — fastens with brass cog-buttons she can unpick and re-sew as signals, and her hand mirror lives in a hammered-copper case. Her costume jewellery is mostly gear-brass and smoked glass, her papers ride in an oilskin wallet with a tiny brass latch, and even her gallery dresses are cut over leather-strapped underthings ready for a quick change.
+**Traits:** Warm, quick, theatrical — and calculating underneath every smile. She genuinely likes people, which makes her good at her job and occasionally bad at it.
+**Mannerism/Voice Hook:** Mirrors the accent and posture of whoever she's talking to, unconsciously, within minutes. Bright voice: "Darling, everyone is selling something. I'm just honest about the price."
+**Motivation:** Build the Bastion's best private intelligence ledger — who owes whom, who fears what — and retire on it before she's thirty. Or be run out of the city on a rail. She finds both outcomes oddly exciting.
+**Secret/Flaw:** She is Wis-dumb about danger to herself: she has twice followed targets into rooms she could not get out of. She also once sold the same secret to both sides of a guild dispute and spent a month sleeping in a different inn every night.
+**Background:** A costumer's daughter from the theater ward who discovered that backstage gossip paid better than hems. She brokers introductions, verifies stories, and carries deniable messages for merchants, the Watch (unofficially), and — twice, regretted — a man she now believes was Kingdom of the Undead.
+**DM Use Hook:** The party's social skeleton key: Wrenna can get a meeting, a disguise, or a reputation — for a price, and she'll want to know why badly enough to follow them afterward.
+
+---
+
+## Xale — CR 13 — NPCs — ALL-150 (Shaun's cast)
+
+![Xale](pictures/xale.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+138. Xale — Human Paladin 13 of Selûne, LG
+
+![Xale](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/xale.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/xale.jpg)
+
+**Tracker status (as-is):** "High Moonknight, Order of the Blue Moon"
+**Tracker detail:** High Moonknight of the Order of the Blue Moon, in regular attendance at the House of the Moon. The Knights of the Blue Moon were founded in part to remove him from his leadership role at the House of Wonder.
+**Abilities:** Str 16 (+3; 14 +2 gauntlets), Dex 10 (+0), Con 14 (+2), Int 10 (+0), Wis 14 (+2), Cha 18 (+4; 15 +1 level +2 cloak). **HD** 13d10+26; **hp** 99 (10 +12×5 +26 +3 Toughness). **Init** +0; **Speed** 20 ft (armour). **AC** 25 (+9 *+1 full plate*, +3 *+1 heavy steel shield*, +2 *ring of protection +2*, +1 *amulet of natural armour +1*), touch 12, flat-footed 25. **BAB/Grapple** +13/+16. **Attack:** *+2 longsword* +18 melee (1d8+5/19–20). **Full Attack:** +18/+13/+8. **Space/Reach** 5 ft./5 ft. **SA/SQ:** Smite evil 3/day (+4 hit, +13 damage), divine grace, lay on hands (52 hp/day), aura of courage, divine health, turn undead 7/day, remove disease 3/week, special mount — **a resident destrier stabled at the House of the Moon; the call-mount power does not function in APOC and he has never pretended otherwise**. **Saves:** Fort +16 (base +8, Con +2, Cha +4, cloak +2 — as vest), Ref +10 (+4, +0, +4, +2), Will +12 (+4, +2, +4, +2). **Skills:** Diplomacy +19, Knowledge (religion) +11, Ride +15, Sense Motive +17, Heal +12. **Feats:** Weapon Focus (longsword), Power Attack, Cleave, Mounted Combat, Ride-By Attack, Toughness, Divine Might.
+**Equipment (34,800 gp):** *+1 full plate* (2,650), *+1 heavy steel shield* (1,170), *+2 longsword* (8,315), *gauntlets of ogre power* (4,000), *cloak of charisma +2* (4,000), *vest of resistance +2* (4,000), *ring of protection +2* (8,000), *amulet of natural armour +1* (2,000), silver holy symbol, destrier with masterwork plate barding (Order asset), 665 gp.
+**Paladin spells prepared (2/2/1/1; DC 12+level):** 1st—*bless weapon, divine favour*; 2nd—*bull's strength, eagle's splendour*; 3rd—*dispel magic*; 4th—*dispel evil*.
+**Steampunk aesthetic:** Moonknight plate is Bastion-forged: gunmetal full plate with brass moon-phase rivets marching down the breastplate, a shield bossed with a geared crescent, and a helmet lamp of amber glass he lights before night patrols in the Fog; his destrier's barding is riveted boiler-plate that steams gently in the cold.
+**Appearance/Personality:** Big, courteous, and politically radioactive — a genuinely good knight whom two high priests conspired to promote out of the way. He suspects it. He says nothing. **Voice hook:** painfully formal — "By your leave," even mid-battle. **Motivation:** serve the Order and Selûne well enough that the exile becomes a triumph. **Secret/Flaw:** he knows the Knights were founded to remove him; the not-knowing-*why* is eating him, and his pride won't let him ask. **DM Hook:** the perfect honourable escort/ally whose mere presence at the House of Wonder starts a political incident.
+
+---
 
 ## Yagnoloth — CR 10 — Monster Manual II
 
@@ -9243,6 +9775,38 @@ Yunwi Djunsti — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 **Gifts of the Yunwi Djunsti (verbatim):** "The demon enjoys helping the young and can be found acting as protectors of children in all lands. Children under 10 can see these demons and talk to them as friends. These children are often given valuable diamonds and emeralds as presents on their birthdays."
 
 **APOC NOTE (Shaun's canon — separate from the published text above):** Third-party lore is reference only, not FR canon. In APOC the Yunwi Djunsti is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so its summon tanar'ri calls nothing and no ritual summons it; the Bastion's mythal bars demons absolutely.
+
+---
+
+## Zareth the Pale — CR 17 — NPCs — ALL-150 (Shaun's cast)
+
+![Zareth the Pale](pictures/zareth-the-pale.jpg)
+
+*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+
+85. Zareth the Pale — Elf Wizard (Transmuter) 17, barred: Conjuration & Illusion
+
+![Zareth the Pale](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/zareth-the-pale.jpg)
+**Picture:** [npc portrait](https://gjvebpbxggmumtslidej.supabase.co/storage/v1/object/public/cody-artwork/npc/zareth-the-pale.jpg)
+
+**Alignment:** N · **Faction:** Independent — Institute of Arcane Science, emeritus
+**Abilities:** Str 8 (−1, 10 −2 racial), Dex 16 (+3, 13 +2 racial +1 level), Con 16 (+3, 14 base −2 racial + *amulet of health +4*), Int 24 (+7, 15 base +3 level [4/8/12] + *headband of intellect +6*), Wis 12 (+1), Cha 10 (+0)
+**HD/HP:** 17d4; 4 + (16 × 2.5) + (17 × 3) = **95 hp** · **Init:** +7 (+3 Dex +4 Improved Initiative) · **Speed:** 30 ft.
+**AC:** 20, touch 15, flat-footed 17 (+3 Dex, +5 *bracers of armour +5*, +2 *ring of protection +2*)
+**BAB/Grapple:** +8 / +7 · **Attack:** masterwork dagger +8 melee (1d4−1/19–20) or masterwork light crossbow +12 ranged (1d8/19–20)
+**Full Attack:** dagger +8/+3 · **Space/Reach:** 5 ft./5 ft.
+**Special Attacks:** spells · **Special Qualities:** elf traits (low-light vision, +2 saves vs enchantment, sleep immunity), familiar (raven, "Index" — a real raven, decades-lived through devoted care, not summoned), scribe scroll
+**Saves:** Fort +11 (5 +3 Con +3 cloak), Ref +11 (5 +3 +3), Will +14 (10 +1 +3)
+**Skills:** Concentration +22 (20), Decipher Script +27 (20), Knowledge (arcana) +27 (20), Knowledge (history) +27 (20), Knowledge (the planes) +17 (10) — *studied as pure theory; the planes are unreachable and he will say so*, Spellcraft +29 (20 +2 synergy), Spot +11 (10, familiar/alertness in part)
+**Feats:** Wizard bonus: Scribe Scroll, Extend Spell (5), Craft Wondrous Item (10), Quicken Spell (15); Character: 1 Improved Initiative, 3 Spell Focus (transmutation), 6 Greater Spell Focus (transmutation), 9 Craft Magic Arms and Armour, 12 Spell Penetration, 15 Greater Spell Penetration.
+**Kit (100,000 gp):** *headband of intellect +6* (36,000), *bracers of armour +5* (25,000), *amulet of health +4* (16,000), *cloak of resistance +3* (9,000), *ring of protection +2* (8,000), scroll case with *greater dispel magic, stone to flesh* (2,865), masterwork dagger and masterwork light crossbow (635), alchemical elemental-augmentation focus (2,500), three ordinary large spellbooks in an oilskin satchel (mundane, carried by hand).
+**Spells Prepared (4/6/6/6/6/5/5/5/5/3 + transmutation bonus spell each level; DC 17 + level, +2 transmutation):** 0—*detect magic, light, mending, read magic*; 1st—*enlarge person (T), expeditious retreat (T), feather fall, grease, mage armour, shield, true strike*; 2nd—*bull's strength (T), cat's grace (T), fox's cunning (T), knock, pyrotechnics (T, augmented), scorching ray (augmented), see invisibility*; 3rd—*dispel magic, fireball (augmented), fly, haste (T), shrink item (T), slow (T), water breathing*; 4th—*enervation, ice storm (augmented), minor globe of invulnerability, polymorph (T), resilient sphere, scrying, stoneskin*; 5th—*baleful polymorph (T), cone of cold (augmented), dominate person, hold monster, telekinesis (T), transmute rock to mud (T), wall of force*; 6th—*chain lightning (augmented), disintegrate (T), flesh to stone (T), greater dispel magic, legend lore, true seeing*; 7th—*finger of death, forcecage, limited wish, prismatic spray (augmented), reverse gravity, statue (T)*; 8th—*irresistible dance, moment of prescience, polymorph any object (T), protection from spells, sunburst*; 9th—*foresight, shapechange (T), time stop*. *Wish* is in his book, unprepared (see Secret).
+**Steampunk aesthetic:** Deliberate grey-on-grey scholar's robes cut over a copper-banded alchemical bandolier — alembic vials, reagent phials and his augmentation focus in fitted brass sockets — with gear-rimmed reading lenses and cuffs permanently soot-stained from his own apparatus.
+**Appearance:** Gaunt, ink-stained fingers, hair white since he was 40 (he is 310), wears grey on grey on grey by deliberate camouflage against the Fog. **Traits:** Dry, exact, treats every conversation as a footnote dispute. **Voice hook:** Soft, precise; "Define your terms. Then panic." **Motivation:** Prove the Severance can be *understood*, even if it can never be undone. **Secret/Flaw:** He has *wish* prepared in his book and a standing agreement with himself about the one sentence he would spend it on. He revises the sentence nightly. **Background:** Pre-calamity academy transmuter who watched his teleport arrive *nowhere* with his brother inside the circle. He barred conjuration the next day. **DM Use:** Lore oracle on the Severance, transmutation support, and a walking warning: the smartest man in the room is the one most afraid of his own spellbook.
+
+---
+
+## LEVEL 18
 
 ---
 
