@@ -20115,7 +20115,7 @@ function weightOf(p){let w=0;DATA.tables.forEach(t=>{t.entries.forEach(e=>{if(e.
 function genChart(){
   let cand=chartCandidates();
   if(cand.length<4){$('cOut').innerHTML='Too few creatures match — widen the EL range or type.';chartState=null;return;}
-  cand=cand.map(p=>({p:p,w:weightOf(p)*rnd(0.6,1.4)})).sort((a,b)=>b.w-a.w).slice(0,18);
+  cand=cand.map(p=>({p:p,w:weightOf(p)*rnd(0.6,1.4)})).sort((a,b)=>b.w-a.w).slice(0,36);
   const tot=cand.reduce((s,c)=>s+c.w,0);
   let bands=[],acc=0;
   cand.forEach((c,i)=>{let wdt=i===cand.length-1?1000-acc:Math.max(1,Math.round(c.w/tot*1000));if(acc+wdt>1000)wdt=1000-acc;bands.push({p:c.p,low:acc+1,high:acc+wdt});acc+=wdt;});

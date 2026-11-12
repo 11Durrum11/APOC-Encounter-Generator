@@ -456,3 +456,16 @@ Shaun's ruling on the flagged chance question: "The twisting happens randomly." 
 ## Pool blending settled — v1.17.1 (2026-11-11)
 
 Shaun's ruling on the second flagged item: blending happens randomly, at a low rate — lower than one in ten, confirmed at **one in twenty (5%)** for the Open Wastes pool bleeding into another landscape's roll when the Badlands layer is in play. That is the mechanic as built since v1.13.0 and live in v1.17.0 — no change was needed; this entry closes the flag the v1.17 note left open. The readings, stated for correction: the bleed fires only on landscape tables under the layer (never the Bastion tables; the city boundary holds), never displaces Saint James, replaces the landscape roll with the Open Wastes result, and is gated by its feature toggle (default on). Both flags are now settled, and their relation stands as Shaun put it: the twisting's rate (working chance 1 in 5) sits above the blending rate (1 in 20).
+
+---
+
+## Steampunk-Augmented Undead — original kept, draft void (2026-11-11)
+
+Shaun's ruling: "Keep the original." The Steampunk overlay's undead mechanics stand permanently on Shaun's original Steampunk-Augmented Undead template — the text in his Homebrew Wild-Magic Surge Table Doc (section 3), carried verbatim by the Blendcrafter library record, and applied by this generator since v1.14.0. A stand-in draft of the feature texts, produced on the voice call under the mistaken belief that the original was lost, is VOID: never filed, never built to. The generator's files were searched in full for the draft's distinctive text (five fingerprint phrases) — no copy exists anywhere in the project, so nothing required removal. The held item from the finish order is closed with no build change; this note is the record, riding the next push.
+
+---
+
+## Twice as many chart options — v1.18 (2026-11-12)
+
+Shaun's order: "In the encounter generator on the thousand D chart I want twice as many options." The Chart Generator's generated d1000 charts now carry up to **36 options** (bands), doubled from the previous cap of 18. The cap is a maximum — a chart drawn from a source with fewer eligible creatures (a single small table, a narrow EL band) still carries as many as the source holds; a whole-pool chart at a broad EL range fills all 36 (verified). Weights, normalization to exactly 1000, roll-on-chart, and load-into-roller are unchanged. This push also carries the Steampunk-Augmented closure note recorded 2026-11-11.
+- Verification: `test4.mjs` extended (whole-pool chart row count asserted >18 and ≤36; the reference run lands exactly 36) — full suite PASS on staging, the publish copy, and the live bytes.
