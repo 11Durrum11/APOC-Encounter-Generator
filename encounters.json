@@ -9946,6 +9946,932 @@
      }
     }
    ]
+  },
+  {
+   "name": "Space \u2014 Wildspace",
+   "note": "Wildspace \u2014 the crystal sphere itself: its ships, its peoples, its stations, and the demon incursions flown out of Toril. The sphere's own population \u2014 not a Bastion table and not an overlay. The wall is scarred shut (the Cutting / the Cut): nothing crosses it, and everything here sails inside it. The Rock of Bral rides anchored above the Bastion as the sphere's trading point; a couple of other stations exist, unnamed. Built from Shaun's incorporated Spelljammer material (Blendcrafter Spelljamming records) and the sphere canon.",
+   "entries": [
+    {
+     "low": 1,
+     "high": 69,
+     "name": "Tradesman",
+     "cr": 4,
+     "number": "1 ship (crew 10/25 as printed)",
+     "source": "Spelljammer: Adventures in Space \u2014 Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-tradesman.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Tradesman. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by humans; used by all races. Tonnage 25 \u00b7 Hull Points 25 \u00b7 Crew 10/25 \u00b7 Maneuver Class D \u00b7 Landing: Land no, Water no \u00b7 Armor Rating 8 (the Concordance list reads 5; the Lorebook stat block is kept) \u00b7 Saves as Thick wood \u00b7 Power: major or minor helm \u00b7 Ship's Rating: as for helmsman \u00b7 Armament: 1 light catapult (crew 1), 1 medium ballista (crew 2) \u00b7 Cargo 13 tons \u00b7 Keel 120 ft \u00b7 Beam 30 ft. The most common ship in civilized space \u2014 the standard short-range merchantman found from sphere to sphere in nearly identical form, crewed by every spacefaring race. Cheap to buy and run, it hauls small, valuable cargoes between planets and is often a first ship for deep-space adventurers. A stripped, faster \"light cruiser\" variant is preferred by pirates. .\")"
+     },
+     "scenario": {
+      "role": "merchantman \u2014 the standard short-range trader of civilized space"
+     }
+    },
+    {
+     "low": 70,
+     "high": 131,
+     "name": "Wasp",
+     "cr": 5,
+     "number": "1 ship (crew 8/18 as printed)",
+     "source": "Spelljammer: Adventures in Space \u2014 Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-wasp.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Wasp. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by lizard men; used by lizard men and humans. Tonnage 18 \u00b7 Hull Points 18 \u00b7 Crew 8/18 \u00b7 Maneuver Class D \u00b7 Landing: Land yes, Water yes (Bee class only \u2014 the Concordance list says Water no) \u00b7 Armor Rating 6 \u00b7 Saves as Thick wood \u00b7 Power: major or minor helm \u00b7 Ship's Rating: as for helmsman \u00b7 Armament: 1 heavy ballista (crew 4) \u00b7 Cargo 9 tons \u00b7 Keel 80 ft \u00b7 Beam 20 ft. A dragonfly relative built for the lizard man physique, with flooded lower decks for its crew and a raised hump carrying the ballista turret. Cheap and roomy for its size, a favorite pirate and free-adventuring ship and an excellent boarding platform. Variants: the deep-space \"bee\" and the bloated cargo \"bumble bee.\""
+     },
+     "scenario": {
+      "role": "light warship"
+     }
+    },
+    {
+     "low": 132,
+     "high": 188,
+     "name": "Cargo Barge",
+     "cr": 3,
+     "number": "1 ship",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-cargo-barge.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Cargo Barge. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nTonnage 25 \u00b7 Hull Points 25 \u00b7 Crew none \u00b7 Maneuver Class F \u00b7 Landing: Water yes \u00b7 Armor Rating 8 \u00b7 Power: none (towed) \u00b7 Armament: none \u00b7 Cargo 20 tons \u00b7 Keel 40 ft \u00b7 Beam 20 ft. An unpowered freight hull towed behind a spelljammer; about 15% carry a backup minor helm, and illithid barges are sometimes fitted with series helms."
+     },
+     "scenario": {
+      "role": "unpowered freight hull, towed"
+     }
+    },
+    {
+     "low": 189,
+     "high": 243,
+     "name": "Dragonfly",
+     "cr": 4,
+     "number": "1 ship (crew 3/10 as printed)",
+     "source": "Spelljammer: Adventures in Space \u2014 Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-dragonfly.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Dragonfly. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by humans; used by humans and elves. Tonnage 10 \u00b7 Hull Points 10 \u00b7 Crew 3/10 \u00b7 Maneuver Class C \u00b7 Landing: Land yes, Water no \u00b7 Armor Rating 8 \u00b7 Saves as Thin wood \u00b7 Power: major or minor helm \u00b7 Ship's Rating: as for helmsman \u00b7 Armament: 1 light ballista (crew 1) OR 1 light catapult (crew 1) \u00b7 Cargo 5 tons \u00b7 Keel 100 ft \u00b7 Beam 20 ft. With the tradesman, one of the workhorses of space: small and handy, it hauls small groups, important passengers, and small packages, and is the classic smuggler's and explorer's ship; wizards favor it as a mobile laboratory. A stripped \"firefly\" version is flown as a suicide fire ship."
+     },
+     "scenario": {
+      "role": "light transport"
+     }
+    },
+    {
+     "low": 244,
+     "high": 291,
+     "name": "Turtle Ship",
+     "cr": 5,
+     "number": "1 ship (crew 12/40 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-turtle-ship.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Turtle Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by lizard men; used by lizard men, humans, and mind flayers. Tonnage 40 \u00b7 Hull Points 40 \u00b7 Crew 12/40 \u00b7 Maneuver Class D \u00b7 Landing: Land yes, Water yes \u00b7 Armor Rating 3 \u00b7 Saves as Metal \u00b7 Power: major helm (25%) or minor helm (75%) \u00b7 Ship's Rating: as per helmsman \u00b7 Armament: 3 light ballistas (forward; crew 1 each), 1 medium catapult (aft; crew 3), blunt ram \u00b7 Cargo 28 tons \u00b7 Keel 95 ft \u00b7 Beam 70 ft. A large war barge completely enclosed in iron hull plating, with a square stern \u2014 slow in space but tough. The deck is slightly domed so it sheds water, and the hull can be completely sealed to submerge. (Stat block read from SJR1 Lost Ships, the Ship Catalog.)"
+     },
+     "scenario": {
+      "role": "armored battle boat"
+     }
+    },
+    {
+     "low": 292,
+     "high": 339,
+     "name": "Drakkar",
+     "cr": 4,
+     "number": "1 ship",
+     "source": "Spelljammer: Adventures in Space \u2014 Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-drakkar.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Drakkar. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nA groundling wet-navy hull priced in the boxed set's ship list; the Lorebook gives it no stat block of its own. Groundling hulls like this one are bought cheap and fitted with a purchased or salvaged spelljamming helm."
+     },
+     "scenario": {
+      "role": "groundling hull fitted with a helm"
+     }
+    },
+    {
+     "low": 340,
+     "high": 383,
+     "name": "Goblin Blade",
+     "cr": 5,
+     "number": "1 ship (crew 1/2 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-goblin-blade.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Goblin Blade. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by goblins; used primarily by goblins. Tonnage 2 \u00b7 Hull Points 2 \u00b7 Crew 1/2 \u00b7 Maneuver Class A \u00b7 Armor Rating 4 \u00b7 Saves as Metal \u00b7 Power: Lifejammer or death helm \u00b7 Ship's Rating: as per victim \u00b7 Armament: alchemy fire projector, piercing ram \u00b7 Cargo 1/2 ton \u00b7 Keel 20 ft \u00b7 Beam 20 ft. A two-man goblin flitter built around a single great blade \u2014 a ram with a ship attached."
+     },
+     "scenario": {
+      "role": "raider on a lifejammer"
+     }
+    },
+    {
+     "low": 384,
+     "high": 407,
+     "name": "The Rock of Bral",
+     "cr": 1,
+     "number": "Station \u2014 a small city in the void",
+     "source": "APOC sphere canon \u2014 generator entry (Shaun, 2026-11-12)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: The Rock of Bral (pronounced 'brawl') floats anchored above the Bastion, in deep space off Toril's surface \u2014 a trading point between the held cities. The published Rock of Bral itself.",
+     "kinds": [
+      "npc"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/rock-of-bral.webp",
+      "credit": "Shaun's collection \u2014 the Rock of Bral (Spelljammer files, Maps)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Generator entry \u2014 the sphere's great station (Shaun's canon, 2026-11-11/12). The Rock of Bral is the published Rock of Bral: a city-bearing asteroid anchored above the Bastion, in deep space off Toril's surface, serving as a trading point between the held cities. It is a place and a port, not a creature, and no published stat line exists for it as an encounter; its ships, docks, markets, and crowds are the encounter. (Shaun's fuller expansion of the Rock is filed separately and is not blended into this entry.)"
+     },
+     "scenario": {
+      "role": "station and trading port",
+      "motivation": "Everything in the sphere trades here sooner or later \u2014 cargo, news, crews, and trouble all clear the Rock."
+     }
+    },
+    {
+     "low": 408,
+     "high": 447,
+     "name": "Hammership",
+     "cr": 8,
+     "number": "1 ship (crew 24/60 as printed)",
+     "source": "Spelljammer: Adventures in Space \u2014 Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-hammership.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Hammership. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by humans and lizard men; used by humans, lizard men, and some elves. Tonnage 60 \u00b7 Hull Points 60 \u00b7 Crew 24/60 \u00b7 Maneuver Class D \u00b7 Landing: Land no, Water yes \u00b7 Armor Rating 6 \u00b7 Saves as Thick wood \u00b7 Power: major or minor helm \u00b7 Ship's Rating: as for helmsman \u00b7 Armament: 2 heavy catapults (crew 5), 1 heavy ballista (crew 4), 1 blunt ram \u00b7 Cargo 30 tons \u00b7 Keel 250 ft \u00b7 Beam 25 ft. The heavy warship of space \u2014 if the squid ship is the light warship, the hammership is the heavy galleon: a big, tough hull built around a massive blunt ram, in service with small changes for millennia. Used to haul bulk cargo on a minimum crew, and as the standard armada and privateer craft of known space."
+     },
+     "scenario": {
+      "role": "heavy warship"
+     }
+    },
+    {
+     "low": 448,
+     "high": 485,
+     "name": "Dragonship",
+     "cr": 8,
+     "number": "1 ship (crew 20/45 as printed)",
+     "source": "Spelljammer: Adventures in Space \u2014 Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-dragonship.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Dragonship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by humans; used primarily by humans. Tonnage 45 \u00b7 Hull Points 45 \u00b7 Crew 20/45 \u00b7 Maneuver Class D \u00b7 Landing: Land no, Water yes \u00b7 Armor Rating 5 \u00b7 Saves as Thick wood \u00b7 Power: major or minor helm \u00b7 Ship's Rating: as for helmsman \u00b7 Armament: 2 medium ballistas (crew 2 each) \u00b7 Cargo 22 tons \u00b7 Keel 150 ft \u00b7 Beam 20 ft. The dragon-prowed ship of Shou Lung, Toril's oriental empire: a swift exploration vessel whose helm sits below decks aft under an opening dome. Shou dragonships scout the spheres for wonders to bring back to the emperor, defended by marines with repeating crossbows. \"Flaming dragon\" freebooter versions trade cargo space for bombards and greek fire projectors."
+     },
+     "scenario": {
+      "role": "warship"
+     }
+    },
+    {
+     "low": 486,
+     "high": 521,
+     "name": "Leaf Ship",
+     "cr": 6,
+     "number": "1 ship (crew 20/65 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-leaf-ship.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Leaf Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by thri-kreen; used primarily by thri-kreen. Tonnage 70 \u00b7 Hull Points 70 \u00b7 Crew 20/65 \u00b7 Maneuver Class D \u00b7 Landing: Water yes \u00b7 Armor Rating 6 \u00b7 Saves as Ceramic \u00b7 Power: Crystal Throne \u00b7 Ship's Rating 4 \u00b7 Armament: 1 heavy catapult, 4 heavy ballistae \u00b7 Cargo 30 tons \u00b7 Keel 250 ft \u00b7 Beam 40 ft. The thri-kreen carrier-tree: a Leaf Ship can dock up to four Thorn Ships (below) in its branches."
+     },
+     "scenario": {
+      "role": "thri-kreen cruiser"
+     }
+    },
+    {
+     "low": 522,
+     "high": 557,
+     "name": "Squid Ship",
+     "cr": 9,
+     "number": "1 ship (crew 12/45 as printed)",
+     "source": "Spelljammer: Adventures in Space \u2014 Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-squid-ship.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Squid Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by humans; used by humans and lizard men. Tonnage 45 \u00b7 Hull Points 45 \u00b7 Crew 12/45 \u00b7 Maneuver Class D \u00b7 Landing: Land no, Water yes \u00b7 Armor Rating 5 \u00b7 Saves as Thick wood \u00b7 Power: major or minor helm \u00b7 Ship's Rating: as for helmsman \u00b7 Armament: 1 heavy catapult (crew 3), 2 medium ballistas (crew 2 each), piercing ram \u00b7 Cargo 23 tons \u00b7 Keel 250 ft \u00b7 Beam 25 ft. Officially the cephalopod-class brig, and one of the most popular vessels of its size \u2014 straight lines and good maneuverability for a ship of 45 tons, used for trading, exploration, and privateering. Pirate squid ships carry a full crew of 35 plus a second spellcaster for boarding actions. Lizard man crews use some as egg incubators, devoting 1-6 tons of cargo space to eggs."
+     },
+     "scenario": {
+      "role": "warship"
+     }
+    },
+    {
+     "low": 558,
+     "high": 591,
+     "name": "Eel Ship",
+     "cr": 6,
+     "number": "1 ship (crew 4/20 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-eel-ship.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Eel Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nTonnage 20 \u00b7 Hull Points 20 \u00b7 Crew 4/20 \u00b7 Maneuver Class C \u00b7 Landing: Water yes \u00b7 Armor Rating 6 \u00b7 Power: Furnace (15%) or helm (85%) \u00b7 Ship's Rating 2 (furnace) or as per helmsman \u00b7 Armament: 1 medium ballista, 1 medium catapult \u00b7 Cargo 8 tons \u00b7 Keel 110 ft \u00b7 Beam 15 ft. A slim, cheap hull; the later Lamprey design grew out of it."
+     },
+     "scenario": {
+      "role": "furnace ship"
+     }
+    },
+    {
+     "low": 592,
+     "high": 623,
+     "name": "Lamprey Ship",
+     "cr": 6,
+     "number": "1 ship (crew 8/26 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-lamprey-ship.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Lamprey Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nTonnage 26 \u00b7 Hull Points 26 \u00b7 Crew 8/26 \u00b7 Maneuver Class B \u00b7 Armor Rating 4 \u00b7 Saves as Thin wood \u00b7 Power: Furnace (20%), minor helm (40%), or major helm (40%) \u00b7 Armament: 3 medium ballistae, cone ram mounting a medium ballista \u00b7 Cargo 6 tons \u00b7 Keel 115 ft \u00b7 Beam 25 ft. An attack hull grown from the Eel Ship design; Striker, Fastboat, and Shuttle variants are described in the sources. Price as printed in 2e."
+     },
+     "scenario": {
+      "role": "grappler-raider"
+     }
+    },
+    {
+     "low": 624,
+     "high": 653,
+     "name": "Shrike",
+     "cr": 7,
+     "number": "1 ship (crew 14/30 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-shrike.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Shrike. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nUsed primarily by humans and halflings. Tonnage 30 \u00b7 Hull Points 30 \u00b7 Crew 14/30 \u00b7 Maneuver Class B \u00b7 Landing: Land yes \u00b7 Armor Rating 5 \u00b7 Armament: 3 heavy ballistae, 1 light jettison, piercing ram \u00b7 Cargo 20 tons \u00b7 Keel 100 ft \u00b7 Beam 20 ft. A fast light warship and trader, from Lost Ships and reprinted in the War Captain's Companion. Price as printed in 2e."
+     },
+     "scenario": {
+      "role": "warship"
+     }
+    },
+    {
+     "low": 654,
+     "high": 683,
+     "name": "Swan Ship",
+     "cr": 6,
+     "number": "1 ship (crew 12/32 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-swan-ship.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Swan Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by halflings; used by humans, halflings, and elves. Tonnage 32 \u00b7 Hull Points 32 \u00b7 Crew 12/32 (halflings and other small folk: 16/64) \u00b7 Maneuver Class C \u00b7 Landing: Land no, Water yes \u00b7 Armor Rating 7 \u00b7 Saves as Thin wood \u00b7 Power: major or minor helm \u00b7 Ship's Rating: as per helmsman \u00b7 Armament: 2 medium ballistas (crew 2 each), 1 heavy catapult (aft; crew 5) \u00b7 Cargo 26 tons \u00b7 Keel 100 ft \u00b7 Beam 40 ft. A gracefully carved wooden swan, built in the elven style with great decorated wings, a long arched neck, and a tail with room for gardens. Typically an elven or halfling luxury yacht, yacht-cruiser, or fast courier, sometimes fitted out as a privateer \u2014 a halfling's favorite. (Stat block read from SJR1 Lost Ships, the Ship Catalog.)"
+     },
+     "scenario": {
+      "role": "halfling liner"
+     }
+    },
+    {
+     "low": 684,
+     "high": 711,
+     "name": "Hummingbird",
+     "cr": 5,
+     "number": "1 ship (crew 2/10 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-hummingbird.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Hummingbird. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by humans (the Royal Engineers of Thesalys, Greatspace); used by the ruling house of Greatspace. Tonnage 7 \u00b7 Hull Points 7 \u00b7 Crew 2/10 \u00b7 Maneuver Class A \u00b7 Landing: Land yes, Water no \u00b7 Armor Rating 8 \u00b7 Saves as Thin wood \u00b7 Power: major helm \u00b7 Ship's Rating: as per helmsman \u00b7 Armament: piercing ram, magic missile gun (crew: 1 mage) \u00b7 Cargo 3 tons \u00b7 Keel 100 ft \u00b7 Beam 20 ft. A unique royal yacht, used by the ruling house of Greatspace for ambush and hit-and-fade attacks; its magic missile gun fires a burst of magic missiles at enemy ships. (Stat block as transcribed in the Spelljammer Wiki's article from the SJA3 Crystal Spheres data card and the War Captain's Companion Ship Recognition Manual.)"
+     },
+     "scenario": {
+      "role": "royal courier"
+     }
+    },
+    {
+     "low": 712,
+     "high": 737,
+     "name": "Octopus Ship",
+     "cr": 7,
+     "number": "1 ship (crew 13/70 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-octopus.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Octopus. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by humans and mind flayers; used primarily by humans and mind flayers. Tonnage 70 \u00b7 Hull Points 70 \u00b7 Crew 13/70 \u00b7 Maneuver Class D \u00b7 Landing: Land yes, Water no \u00b7 Armor Rating 7 \u00b7 Saves as Thick wood \u00b7 Power: major or minor helm, or pool helm \u00b7 Ship's Rating 5 (pool helm) or as per helmsman \u00b7 Armament: 2 heavy catapults, 2 heavy ballistae \u00b7 Cargo 35 tons \u00b7 Keel 100 ft \u00b7 Beam 50 ft. The \"Tailgunner\" \u2014 a convoy-protection relic of the human\u2013illithid alliance from the Unhuman Wars."
+     },
+     "scenario": {
+      "role": "heavy warship"
+     }
+    },
+    {
+     "low": 738,
+     "high": 763,
+     "name": "Giff Mercenary Company",
+     "cr": 5,
+     "number": "Mercenary company",
+     "source": "Spelljammer MC Appendix, converted to 3.5 (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere. One of the Peoples of Space \u2014 the sphere's own population.",
+     "kinds": [
+      "npc"
+     ],
+     "type": "Monstrous Humanoid",
+     "picture": {
+      "file": "pictures/giff-mercenaries.webp",
+      "credit": "GENERATED from the published description \u2014 no official art on file",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "People of Space \u2014 race record (partial), converted to 3.5 in the Blendcrafter library. Large Monstrous Humanoid \u00b7 Speed 20 ft \u00b7 Ability modifiers: str: 6, con: 2, int: -2 \u00b7 Racial Hit Dice 4 \u00b7 Natural armor +5 \u00b7 Level adjustment +1 \u00b7 Favored class: Fighter. Traits on the record: Head Butt, Magic Resistance, Magically Inert, Smoke Powder Affinity, Platoon and Rank. Full record: Blendcrafter \u2014 Spelljamming, Peoples of Space."
+     },
+     "scenario": {
+      "role": "Mercenary company",
+      "motivation": "Under contract \u2014 the giff serve for pay, smoke powder, and pride of rank; a platoon keeps its word and its formation."
+     }
+    },
+    {
+     "low": 764,
+     "high": 787,
+     "name": "Hadozee",
+     "cr": 3,
+     "number": "Deck crew",
+     "source": "Spelljammer MC / Complete Spacefarer's Handbook (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere. One of the Peoples of Space \u2014 the sphere's own population.",
+     "kinds": [
+      "npc"
+     ],
+     "type": "Monstrous Humanoid",
+     "picture": {
+      "file": "pictures/hadozee.webp",
+      "credit": "GENERATED from the published description \u2014 no official art on file",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "People of Space \u2014 race record (partial), converted to 3.5 in the Blendcrafter library. Medium Monstrous Humanoid \u00b7 Speed 30 ft \u00b7 Ability modifiers: dex: 2, cha: -2 \u00b7 Racial Hit Dice 3 \u00b7 Natural armor +4 \u00b7 Level adjustment +1 \u00b7 Favored class: Rogue. Full record: Blendcrafter \u2014 Spelljamming, Peoples of Space."
+     },
+     "scenario": {
+      "role": "Deck crew",
+      "motivation": "Signed on for the run \u2014 hadozee live for the rigging and the glide between masts."
+     }
+    },
+    {
+     "low": 788,
+     "high": 811,
+     "name": "Scro War Crew",
+     "cr": 4,
+     "number": "War crew",
+     "source": "Spelljammer MC / Complete Spacefarer's Handbook (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere. One of the Peoples of Space \u2014 the sphere's own population.",
+     "kinds": [
+      "npc"
+     ],
+     "type": "Humanoid",
+     "picture": {
+      "file": "pictures/scro.webp",
+      "credit": "GENERATED from the published description \u2014 no official art on file",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "People of Space \u2014 race record (partial), converted to 3.5 in the Blendcrafter library. Medium Humanoid \u00b7 Speed 30 ft \u00b7 Ability modifiers: str: 2, con: 2, cha: -2 \u00b7 Racial Hit Dice 3 \u00b7 Natural armor +2 \u00b7 Level adjustment +1 \u00b7 Favored class: Fighter. Full record: Blendcrafter \u2014 Spelljamming, Peoples of Space."
+     },
+     "scenario": {
+      "role": "War crew",
+      "motivation": "On campaign \u2014 the scro sail in ordered ranks to make war, nothing like their groundling kin."
+     }
+    },
+    {
+     "low": 812,
+     "high": 833,
+     "name": "Dracon",
+     "cr": 8,
+     "number": "Solitary or small company",
+     "source": "Spelljammer MC Appendix, converted to 3.5 (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere. One of the Peoples of Space \u2014 the sphere's own population.",
+     "kinds": [
+      "npc"
+     ],
+     "type": "Monstrous Humanoid",
+     "picture": {
+      "file": "pictures/dracon.webp",
+      "credit": "GENERATED from the published description \u2014 no official art on file",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "People of Space \u2014 race record (partial), converted to 3.5 in the Blendcrafter library. Large Monstrous Humanoid \u00b7 Speed 40 ft \u00b7 Ability modifiers: str: 4, con: 2, int: 2 \u00b7 Racial Hit Dice 6 \u00b7 Natural armor +6 \u00b7 Level adjustment +2 \u00b7 Favored class: Cleric. Traits on the record: Thumb-Claws, Dueling Code, Herd Instinct, Languages, Head Butt, Magic Resistance. Full record: Blendcrafter \u2014 Spelljamming, Peoples of Space."
+     },
+     "scenario": {
+      "role": "Solitary or small company",
+      "motivation": "Bound by the dueling code and the herd \u2014 a dracon's honor is its whole law."
+     }
+    },
+    {
+     "low": 834,
+     "high": 853,
+     "name": "Shadow Demon",
+     "cr": 8.0,
+     "number": "Solitary",
+     "source": "Book of Vile Darkness",
+     "environment": "Any land and underground [BoVD Climate/Terrain line]",
+     "apoc": "APOC: Mortal enclave demon \u2014 already here, not summoned or plane-shifted. Planar travel is severed. APOC \u2014 in wildspace: a demon incursion out of Toril, the demons' home base, striking outward across the sphere; the other worlds were never touched by portals, only by incursions like this one.",
+     "kinds": [
+      "demon"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/shadow-demon.webp",
+      "credit": "Demons roster picture index: LIBRARY (tier 1)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "full",
+      "text": "SHADOW DEMON \u2014 Book of Vile Darkness, pp.172\u2013174 \u2014 **PAGE PINNED by library extraction** (stat table p.172, description p.173, special abilities pp.173\u2013174; the book's contents list the entry at p.173)\n\n\n- **Size/Type:** Medium Outsider (Chaotic, Evil, **Incorporeal**)\n- **Hit Dice:** 10d8 (45 hp)\n- **Initiative:** +11 (+7 Dex, +4 Improved Initiative)\n- **Speed:** Fly 40 ft. (perfect)\n- **Armor Class:** 22 (+7 Dex, +5 deflection), touch 22, flat-footed 15\n- **Base Attack/Grapple:** \u2014 (no Base Attack/Grapple line in BoVD's 3.0 table format; the Improved Grab text, p.174, gives grapple bonus +17)\n- **Attack:** Claw +17 melee touch\n- **Full Attack:** 2 claws +17 melee touch\n- **Damage:** Claw 1d6 **vile** damage\n- **Space/Reach:** 5 ft. by 5 ft./5 ft. [BoVD Face/Reach line]\n- **Special Attacks:** Improved grab, pounce, rake; spell-like abilities (at will: darkness; 1/day: deeper darkness, damning darkness; 1/week: magic jar; CL 10th; save DC 15 + spell level)\n- **Special Qualities:** Darkness enhancement (+4 enhancement bonus to AC, attack rolls, damage rolls, saves, and skill and ability checks in total darkness); flesh-ripping claws (claws become corporeal on touching flesh; claw/rake attacks are touch attacks; all claw damage is vile damage); incorporeal subtype; light powerlessness (\u20134 penalty to AC, attack rolls, damage rolls, saves, and skill and ability checks in bright light); outsider traits; **Immunities (Su, verbatim BoVD p.174):** immune to fire, cold, and electricity as well as mind-affecting effects, poison, sleep, paralysis, stunning, and disease; not subject to critical hits, subdual damage, ability damage, energy drain, or death from massive damage\n- **Saves:** Fort +7, Ref +16, Will +10\n- **Abilities:** Str \u2014 (incorporeal), Dex 24, Con 10, Int 17, Wis 17, Cha 20\n- **Skills:** Bluff +15, Concentration +10, Diplomacy +12, Hide +30*, Intimidate +7, Knowledge (arcana) +16, Knowledge (the planes) +11, Listen +16, Move Silently +20, Search +16, Spot +15 (*+10 racial bonus on Hide checks)\n- **Feats:** Expertise, Improved Initiative, Lightning Reflexes\n- **Environment:** Any land and underground [BoVD Climate/Terrain line]\n- **Organization:** Solitary\n- **Challenge Rating:** 8 (BoVD and FC1 agree)\n- **Treasure:** None\n- **Alignment:** Always chaotic evil\n- **Advancement:** 11\u201315 HD (Medium-size); 16\u201320 HD (Large)\n- **Level Adjustment:** \u2014 (no Level Adjustment line published in Book of Vile Darkness)\n- **Description (verbatim, BoVD p.173):** \"Shadow demons are denizens of the Abyss without corporeal forms, formed from the very essence of evil on that plane. They skitter and flit about with great speed and a supernatural nimbleness, often mistaken for undead shadows. They resemble gaunt, angular, shadowy humanoids with batlike wings. Shadow demons, like night hags and a few other creatures that inhabit the Lower Planes, trade in souls. They use their magic jar ability to trap souls and sell or trade them to more powerful fiends.\"\n\n**Nature/role:** A demon made of living shadow that rips flesh despite having no body, deepens darkness around itself, and \u2014 once a week \u2014 tries to steal a body outright with magic jar."
+     },
+     "scenario": {
+      "role": "incursion scouts",
+      "motivation": "Outward from Toril on the enclaves' war \u2014 an incursion, not a migration."
+     }
+    },
+    {
+     "low": 854,
+     "high": 871,
+     "name": "Nautiloid",
+     "cr": 10,
+     "number": "1 ship (crew 10/35 as printed)",
+     "source": "Spelljammer: Adventures in Space \u2014 Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-nautiloid.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Nautiloid. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by mind flayers; used primarily by mind flayers. Tonnage 35 \u00b7 Hull Points 35 \u00b7 Crew 10/35 \u00b7 Maneuver Class D \u00b7 Landing: Land no, Water yes \u00b7 Armor Rating 4 \u00b7 Saves as Thick wood \u00b7 Power: series helm (90%) or pool helm (10%) \u00b7 Ship's Rating 2-5 (series helm), 5 (pool helm) \u00b7 Armament: 3 medium ballistas (crew 2 each), 1 medium catapult forward (crew 3), 1 medium jettison rear (crew 3), piercing ram \u00b7 Cargo 17 tons \u00b7 Keel 180 ft (including the ram) \u00b7 Beam 30 ft. The standard ship of the spacefaring illithid nations: a coiled shell whose enclosed decks shelter mind flayers from sunlight. A standard crew is 10 illithids (plus 2-5 more per added series helm) with humanoid slaves manning the catapults. Nautiloids serve as pirate, trade, and picket ships. A pool helm \u2014 an elder brain's pool installed aboard \u2014 gives the ship thought-scanning out to 2 miles and greater tactical speed."
+     },
+     "scenario": {
+      "role": "mind flayer raider"
+     }
+    },
+    {
+     "low": 872,
+     "high": 887,
+     "name": "Neogi Mindspider",
+     "cr": 10,
+     "number": "1 ship (crew 3/40 as printed)",
+     "source": "Spelljammer: Adventures in Space \u2014 Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-neogi-mindspider.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Neogi Mindspider. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by neogi; used primarily by neogi. Tonnage 40 \u00b7 Hull Points 40 \u00b7 Crew 3/40 \u00b7 Maneuver Class C \u00b7 Landing: Land no, Water no \u00b7 Armor Rating 4 \u00b7 Saves as Metal \u00b7 Power: Lifejammer \u00b7 Ship's Rating: as for victim \u00b7 Armament: 2 medium catapults (crew 3 each), 1 medium jettison (crew 3), forward grappling/piercing ram, rear piercing ram \u00b7 Cargo 20 tons \u00b7 Keel 40 ft \u00b7 Beam 15 ft. A newer neogi craft \u2014 lighter, faster, more maneuverable, and stronger than the deathspider, though more lightly armed \u2014 powered by a lifejammer that drains its victim-pilot. It can be run by as few as three neogi through their umber hulk slaves. Used as command ships and pirate craft; stripped \"broodship landers\" carry neogi eggs and an undead old master to seed new planets. No price is printed in either book of the boxed set \u2014 the class is new and little-known, and absent from the Concordance price list."
+     },
+     "scenario": {
+      "role": "neogi slaver"
+     }
+    },
+    {
+     "low": 888,
+     "high": 901,
+     "name": "Tyrant Ship",
+     "cr": 12,
+     "number": "1 ship (crew 15/23 as printed)",
+     "source": "Spelljammer: Adventures in Space \u2014 Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/tyrant-ship.webp",
+      "credit": "GENERATED from the published description \u2014 no official art on file",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Tyrant Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by the Arcane; used by beholders. Tonnage 23 \u00b7 Hull Points 23 \u00b7 Crew 15/23 \u00b7 Maneuver Class C \u00b7 Landing: Land no, Water no \u00b7 Armor Rating 0 \u00b7 Saves as Stone \u00b7 Power: Orbus \u00b7 Ship's Rating 1-6 \u00b7 Armament: special (see below) \u00b7 Cargo 11 tons \u00b7 Keel varies (100 ft front-to-back typical) \u00b7 Beam varies (100 ft radius typical). The most varied class of ship in space \u2014 stone shells shaped like walnuts, eyeballs, or tentacled shells, each grown for one beholder subspecies; these stats are for a \"typical\" tyrant ship. It carries no ship weapons; the crew is the weapon: a \"beholder circuit\" of common beholders, orbi, and a queen focuses a beam of magical energy (about 1,200 ft long in tactical combat) that can duplicate the eye powers of its members \u2014 charm, sleep, telekinesis, flesh to stone, disintegrate, fear, slow, death, and an anti-magic ray that can shut down a spelljamming helm it strikes."
+     },
+     "scenario": {
+      "role": "beholder tyrant"
+     }
+    },
+    {
+     "low": 902,
+     "high": 915,
+     "name": "Skeleton Ship",
+     "cr": 8,
+     "number": "1 ship (crew 1/1\u201312 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "undead"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-skeleton-ship.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Skeleton Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by undead humans; used by undead humans (usually liches). Tonnage 1\u201312 \u00b7 Hull Points 1\u201312 \u00b7 Crew 1/1\u201312 (skeleton) \u00b7 Maneuver Class C \u00b7 Landing: Land no, Water no \u00b7 Armor Rating 9 \u00b7 Saves as Bone \u00b7 Power: major or minor helm, furnace, or lifejammer \u00b7 Ship's Rating: 2 (furnace) or as per helmsman or victim \u00b7 Armament: 2 medium ballistas (crew 2 each) \u00b7 Cargo up to 1 ton \u00b7 Keel 200 ft (varies) \u00b7 Beam 30\u201341 ft (29 + 1d12). A whole salvaged skeleton made spaceworthy \u2014 whatever open structure it has is in the ribcage, under a glass or transparent dome. Kindori skeletons are most common (hence the long keel), but beholder, kraken, and even dragon skeletons fly. The figures vary with the bones, as printed. (Stat block read from SJR1 Lost Ships, the Ship Catalog.)"
+     },
+     "scenario": {
+      "role": "undead boneship"
+     }
+    },
+    {
+     "low": 916,
+     "high": 928,
+     "name": "Man-o-War, Archaic",
+     "cr": 11,
+     "number": "1 ship (crew 10/50 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-man-o-war-archaic.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Man-o-War, Archaic. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by elves; used primarily by elves. Tonnage 50 \u00b7 Hull Points 50 \u00b7 Crew 10/50 \u00b7 Maneuver Class D \u00b7 Landing: Land no, Water no \u00b7 Armor Rating 8 \u00b7 Saves as Ceramic \u00b7 Power: major helm \u00b7 Ship's Rating: as per helmsman \u00b7 Armament: 2 medium ballistae, 1 medium catapult \u00b7 Cargo 30 tons \u00b7 Keel 175 ft \u00b7 Beam 20 ft. The older, smaller pattern of the elven Man-o-War (the current pattern is in the boxed-set catalog) \u2014 lighter-armed and superseded. No price was captured in the compilation, so none is recorded."
+     },
+     "scenario": {
+      "role": "elven warship of the old design"
+     }
+    },
+    {
+     "low": 929,
+     "high": 940,
+     "name": "Armada, Monarch Class",
+     "cr": 13,
+     "number": "1 ship (crew 40/100 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-armada-monarch.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Armada, Monarch Class. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by elves (obsolete design); used primarily by elves and drow. Tonnage 100 \u00b7 Hull Points 100 \u00b7 Crew 40/100 \u00b7 Maneuver Class D \u00b7 Landing: Land no, Water no \u00b7 Armor Rating 4 \u00b7 Saves as Ceramic \u00b7 Power: major helm \u00b7 Armament: 2 heavy catapults, 4 heavy ballistae, 2 heavy jettisons, 2 bombards \u00b7 Cargo 50 tons \u00b7 Keel 300 ft \u00b7 Beam 50 ft. The pre-Unhuman Wars predecessor of the elven Armada \u2014 only six were grown, painted orange, with stiff non-organic wings that cannot regrow when broken. Like the Armada, it serves as a Flitter carrier."
+     },
+     "scenario": {
+      "role": "elven flagship \u2014 an obsolete giant"
+     }
+    },
+    {
+     "low": 941,
+     "high": 952,
+     "name": "Deathglory",
+     "cr": 13,
+     "number": "1 ship (crew 18/70 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-deathglory.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Deathglory. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by gnomes; used by gnomes. Tonnage 70 \u00b7 Hull Points 70 \u00b7 Crew 18/70 (for gnomes 26/140) \u00b7 Maneuver Class D \u00b7 Landing: Land no, Water maybe (leaks badly!) \u00b7 Armor Rating 6 \u00b7 Saves as Metal \u00b7 Power: \"gnomish\" major helm \u00b7 Ship's Rating: as per helmsman, minus 1 (due to spell reflector) \u00b7 Armament: 2 medium ballistas (crew 4 each), 2 medium catapults (forward; crew 6 each), 1 medium jettison (rear; crew 3), 2 tangle line guns (crew 4 each), 2 water cannon (crew 3 each) \u00b7 Cargo 35 tons \u00b7 Keel 80 ft \u00b7 Beam 55 ft (outriggers to 85 ft). The only gnomish battleship design whose systems were tested before installation \u2014 the \"dreadnever-class\" that, in the book's words, actually works. Every system is doubled for redundancy, and a spell reflector plating protects it from hostile magic. Tangle line guns are exactly what the name says. (Stat block read from SJR1 Lost Ships, the Ship Catalog.)"
+     },
+     "scenario": {
+      "role": "gnomish warship"
+     }
+    },
+    {
+     "low": 953,
+     "high": 963,
+     "name": "Quad of Thay",
+     "cr": 11,
+     "number": "1 ship (crew 10/63 as printed)",
+     "source": "Spelljammer, wider line \u2014 Blendcrafter Spelljamming records",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/ship-plan-quad-of-thay.webp",
+      "credit": "Printed deck plans \u2014 Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 Quad of Thay. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.\n\nBuilt by Thay mages and priests; used primarily by Thay mages and priests. Tonnage 63 \u00b7 Hull Points 63 \u00b7 Crew 10/63 \u00b7 Maneuver Class A \u00b7 Landing: Land yes, Water no \u00b7 Armor Rating 3 (\u22121) \u00b7 Saves as Best of metal or crystal \u00b7 Power: grand helm \u00b7 Ship's Rating: as per helmsmen \u00b7 Armament: 4 rams \u00b7 Cargo 31\u00bd tons \u00b7 Keel 40 ft (body), 105 ft (claws) \u00b7 Beam 55 ft. The whole outer hull IS the grand helm: up to four mages pool their levels (total \u00f7 4, round up) for the ship's SR. It travels at double spelljamming speed (200 million miles/day) but phases partly into the Border Ethereal doing so, and cannot enter the phlogiston under its own power. The focused light bathes the ship and imposes a \u22124 penalty on attacks against it. If a claw-ram attack rolls a natural 20, there is a 25% chance 1d4 rams break off; each lost ram costs 25% of SR, and with all four gone the ship is immobile. Most of the interior is a research library. (Stat block read from the printed War Captain's Companion ship card.)"
+     },
+     "scenario": {
+      "role": "Thayan warship"
+     }
+    },
+    {
+     "low": 964,
+     "high": 974,
+     "name": "Marilith",
+     "cr": 17.0,
+     "number": "Solitary or pair",
+     "source": "Monster Manual I",
+     "environment": "A chaotic evil-aligned plane",
+     "apoc": "APOC: Mortal enclave demon \u2014 already here, not summoned or plane-shifted. Planar travel is severed. APOC \u2014 in wildspace: a demon incursion out of Toril, the demons' home base, striking outward across the sphere; the other worlds were never touched by portals, only by incursions like this one.",
+     "kinds": [
+      "construct",
+      "demon"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/marilith.webp",
+      "credit": "Demons roster picture index: WEB-SOURCED (credited; see entry)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "full",
+      "text": "CR 17 \u2014 Marilith\n\n**Description (MM/SRD, verbatim):** \"A marilith usually holds a longsword in each of its six hands and wears many bangles and jewels. A marilith stands about 9 feet tall and measures about 20 feet from head to tip of tail. It weighs about 4,000 pounds.\"\n- Size/Type: Large Outsider (Chaotic, Extraplanar, Evil)\n- Hit Dice: 16d8+144 (216 hp)\n- Initiative: +4\n- Speed: 40 ft. (8 squares)\n- Armor Class: 29 (\u20131 size, +4 Dex, +16 natural), touch 13, flat-footed 25\n- Base Attack/Grapple: +16/+29\n- Attack: Longsword +25 melee (2d6+9/19\u201320) or slam +24 melee (1d8+9) or tail slap +24 melee (4d6+9)\n- Full Attack: Primary longsword +25/+20/+15/+10 melee (2d6+9/19\u201320) and 5 longswords +25 melee (2d6+4/19\u201320) and tail slap +22 melee (4d6+4); or 6 slams +24 melee (1d8+9) and tail slap +22 melee (4d6+4)\n- Space/Reach: 10 ft./10 ft.\n- Special Attacks: Constrict 4d6+13, improved grab, spell-like abilities, summon demon\n- Special Qualities: Damage reduction 10/good and cold iron, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, spell resistance 25, telepathy 100 ft.\n- Saves: Fort +19, Ref +14, Will +14\n- Abilities: Str 29, Dex 19, Con 29, Int 18, Wis 18, Cha 24\n- Skills: Bluff +26, Concentration +28, Diplomacy +30, Disguise +7 (+9 acting), Hide +19, Intimidate +28, Listen +31, Move Silently +23, Search +23, Sense Motive +23, Spellcraft +23 (+25 scrolls), Spot +31, Survival +4 (+6 following tracks), Use Magic Device +26 (+28 scrolls)\n- Feats: Combat Expertise, Combat Reflexes, Multiattack, Multiweapon Fighting, Power Attack, Weapon Focus (longsword)\n- Environment: A chaotic evil-aligned plane\n- Organization: Solitary or pair\n- Challenge Rating: 17\n- Treasure: Standard coins; double goods; standard items, plus 1d4 magic weapons\n- Alignment: Always chaotic evil\n- Advancement: 17\u201320 HD (Large); 21\u201348 HD (Huge)\n- Level Adjustment: \u2014\n- **Constrict (Ex):** A marilith deals 4d6+13 points of damage with a successful grapple check. The constricted creature must succeed on a DC 27 Fortitude save or lose consciousness for as long as it remains in the coils and for 2d4 rounds thereafter. The save DC is Strength-based.\n- **Improved Grab (Ex):** To use this ability, a marilith must hit with its tail slap attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it succeeds on the grapple check, it can constrict.\n- **Spell-Like Abilities:** At will\u2014align weapon, blade barrier (DC 23), magic weapon, project image (DC 23), see invisibility, telekinesis (DC 22), greater teleport (self plus 50 pounds of objects only), unholy aura (DC 25). Caster level 16th. The save DCs are Charisma-based.\n- **Summon Demon (Sp):** Once per day a marilith can attempt to summon 4d10 dretches, 1d4 hezrou, or one nalfeshnee with a 50% chance of success, or one glabrezu or another marilith with a 20% chance of success. This ability is the equivalent of a 5th-level spell.\n- **True Seeing (Su):** Mariliths continuously use this ability, as the spell (caster level 16th).\n- **Skills (entry note):** Mariliths have a +8 racial bonus on Listen and Spot checks.\n- **Feats (entry note):** In combination with its natural abilities, a marilith's Multiweapon Fighting feat allows it to attack with all its arms at no penalty.\n- Picture: marilith.jpg \u2014 see PICTURE-INDEX.md \u2014 library / web / GENERATED, none picture-less\n- Source: Monster Manual p.44 / d20 SRD\n- **APOC Note:** Summon Demon \u2014 [APOC: inert \u2014 no summoning / severed planes]"
+     },
+     "scenario": {
+      "role": "incursion warleader",
+      "motivation": "Outward from Toril on the enclaves' war \u2014 an incursion, not a migration."
+     }
+    },
+    {
+     "low": 975,
+     "high": 983,
+     "name": "Waystation \u2014 Unnamed",
+     "cr": 1,
+     "number": "Station (small)",
+     "source": "APOC sphere canon \u2014 generator entry (Shaun, 2026-11-12)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: A couple of other stations exist besides the Rock of Bral, unnamed and unplaced so far (Shaun's canon) \u2014 a rock with docks, a beacon, and a hard welcome.",
+     "kinds": [
+      "npc"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/waystation.webp",
+      "credit": "GENERATED from the published description \u2014 no official art on file",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Generator entry \u2014 an unnamed waystation of the sphere (Shaun's canon: a couple of other stations exist, unnamed and unplaced so far). A hollowed rock with docks, stores, and a beacon \u2014 a place, not a creature; no published stat line exists for it. Who holds it, and what they charge, is the encounter."
+     },
+     "scenario": {
+      "role": "waystation",
+      "motivation": "A port of necessity \u2014 air, water, repairs, and news, all at the keeper's price."
+     }
+    },
+    {
+     "low": 984,
+     "high": 990,
+     "name": "The Enemy Battleship",
+     "cr": 14,
+     "number": "1 ship (crew: optimum 30, as printed in Shaun's file)",
+     "source": "Shaun's homebrew ship files (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere. One of Shaun's own six homebrew warships \u2014 the heavy of that fleet.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/the-enemy-battleship.webp",
+      "credit": "GENERATED from the published description \u2014 no official art on file",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 The Enemy Battleship, from Shaun's own ship files. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class.\n\nTonnage 80 \u00b7 Keel 150 ft \u00b7 Beam 50 ft \u00b7 Hull Points 80 \u00b7 Crew: optimum 30 / max total passenger load 50 \u00b7 Ship's Rating 5 (major helm, 9th-level technomancer) \u00b7 Tactical speed 2,500 ft/round (65 mph, 2,000 miles/day). The heavy of the fleet \u2014 the only one of Shaun's six homebrew warships rated SR 5. Standard fit on all six: free turrets, an ammunition distribution system, and heavy cannon (shared ship systems, Blendcrafter records)."
+     },
+     "scenario": {
+      "role": "the heavy of Shaun's homebrew fleet"
+     }
+    },
+    {
+     "low": 991,
+     "high": 1000,
+     "name": "The Spelljammer",
+     "cr": 20,
+     "number": "Unique",
+     "source": "Spelljammer \u2014 Legend of Spelljammer / Lorebook of the Void (Blendcrafter library)",
+     "environment": "Wildspace \u2014 type-mapped from the sphere's Spelljamming records",
+     "apoc": "APOC: Wildspace inside the crystal sphere \u2014 the wall is scarred shut (the Cut) and nothing crosses it; all sailing stays within the sphere. The sphere's great legend sails inside the Cut like everything else \u2014 nothing crosses the wall, not even this.",
+     "kinds": [
+      "ship"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/the-spelljammer.webp",
+      "credit": "Printed plans of The Spelljammer \u2014 Shaun's Spelljammer collection",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "partial",
+      "text": "Hull record (partial) \u2014 The Spelljammer, the legendary living ship-city of the sphere, a world unto itself with towers and peoples of its own. No published CR; the CR shown is a generator rating.\n\nBuilt by unknown hands; used by unknown masters. Tonnage 1-1/3 million (est.) \u00b7 Hull Points 1-1/3 million \u00b7 Crew illegible in the scan \u00b7 Maneuver Class B \u00b7 Landing: Land no, Water no \u00b7 Armor Rating 5 \u00b7 Saves as 20th-level wizard \u00b7 Power: Unknown \u00b7 Ship's Rating 8 \u00b7 Armament (all figures estimated): 30 heavy catapults (crew 5 each), 15 medium catapults, 40 heavy ballistas (crew 4 each), 20 light catapults (crew 1 each), 15 heavy jettisons (crew 4 each), 20 bombards (rumored only, crew 3 each) \u00b7 Cargo unlimited \u00b7 Keel 1,575 ft \u00b7 Beam 3,100 ft. The legendary ship that gives spelljamming its name \u2014 the largest self-powered ship in the universe, a manta-shaped city-ship of unknown origin and purpose whose motive force breaks the normal rules of spelljamming. It appears in many spheres, is fought over by factions seeking to land on it, and carries the hulks and helms of a hundred would-be conquerors as treasure in its holds. Unique; no price exists."
+     },
+     "scenario": {
+      "role": "the legendary ship",
+      "motivation": "It answers no one's errand that any crew has lived to report \u2014 meeting it is the story."
+     }
+    }
+   ]
   }
  ]
 }

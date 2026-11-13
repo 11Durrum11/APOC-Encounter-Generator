@@ -1,6 +1,6 @@
 # APOC Survival — Encounter Stat Blocks
 
-Full stat blocks for every creature placed on the encounter tables (358 distinct: 167 full, 191 partial, 0 missing), in alphabetical order. Full blocks are the published roster text verbatim (APOC notes live in encounters.json / the roller, never blended into the published lines). Partial blocks are the fullest on file — type line, CR, and published description — labeled as partial; nothing was invented. Pictures are the creature's own roster picture where one is on file.
+Full stat blocks for every creature placed on the encounter tables (391 distinct: 167 full, 224 partial, 0 missing), in alphabetical order. Full blocks are the published roster text verbatim (APOC notes live in encounters.json / the roller, never blended into the published lines). Partial blocks are the fullest on file — type line, CR, and published description — labeled as partial; nothing was invented. Pictures are the creature's own roster picture where one is on file.
 
 ## Abeil Queen — CR 12 — Monster Manual II
 
@@ -317,6 +317,18 @@ Challenge Rating: 4
 Source book(s): Monster Manual V
 Description: This bald, gray-skinned humanoid is clad in blue robes that barely cover its portly body. As the skin across its head and face undulates like rippling water, it clutches an ornate staff with soft fingers and begins to intone eldritch phrases in a rumbling voice.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Armada, Monarch Class — CR 13 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Armada, Monarch Class](pictures/ship-plan-armada-monarch.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Armada, Monarch Class. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by elves (obsolete design); used primarily by elves and drow. Tonnage 100 · Hull Points 100 · Crew 40/100 · Maneuver Class D · Landing: Land no, Water no · Armor Rating 4 · Saves as Ceramic · Power: major helm · Armament: 2 heavy catapults, 4 heavy ballistae, 2 heavy jettisons, 2 bombards · Cargo 50 tons · Keel 300 ft · Beam 50 ft. The pre-Unhuman Wars predecessor of the elven Armada — only six were grown, painted orange, with stiff non-organic wings that cannot regrow when broken. Like the Armada, it serves as a Flitter carrier.
 
 ## Armand — CR 3 — Monster Manual III
 
@@ -1444,6 +1456,18 @@ Description: Camels are known for their ability to travel long distances without
 
 ---
 
+## Cargo Barge — CR 3 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Cargo Barge](pictures/ship-plan-cargo-barge.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Cargo Barge. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Tonnage 25 · Hull Points 25 · Crew none · Maneuver Class F · Landing: Water yes · Armor Rating 8 · Power: none (towed) · Armament: none · Cargo 20 tons · Keel 40 ft · Beam 20 ft. An unpowered freight hull towed behind a spelljammer; about 15% carry a backup minor helm, and illithid barges are sometimes fitted with series helms.
+
 ## Carrionette — CR 3 — Dragon Magazine #339
 
 ![Carrionette](pictures/carrionette.png)
@@ -2305,6 +2329,18 @@ Deadly Sin, Lust — CR 5 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 ### 3.5 Update
 **3.5 conversion:** **DR printed as 20/+2; converted to 20/magic** (3.5 DR is bypassed by type/material/alignment, not by a plus; the magnitude 20 is steep by 3.5 norms but is carried as printed-converted, not re-balanced). **Hit points change:** 12d10 (66 hp) → **12d10+30 (96 hp)** — 3.5 constructs gain bonus hit points by size (Large +30) in place of a Constitution bonus. **Face/Reach 5 ft. by 5 ft./10 ft. converts to Space/Reach: 10 ft./10 ft.** (3.5 Large creatures take a 10 ft. space; the 5 ft. face was a 3.0 long-creature facing artifact; reach 10 ft. as printed). **Base Attack/Grapple added in 3.5 format:** BAB +9 (¾ × 12 HD), grapple +21 (+9 BAB, +8 Str, +4 size). **Attack line in 3.5 format:** slam +16 melee (2 slams), scythe +17 melee — the printed iterative "+14" does not follow from any 3.0 or 3.5 iteration (BAB +9 gives +17/+12 with the masterwork scythe); the printed value is reproduced above, flagged *verify* against the scan, and the 3.5 full attack reads **2 slams +16 melee or Huge masterwork scythe +17/+12 melee (2d6+9)** — note the scythe damage as printed (+9) matches neither a one-handed (+8) nor a two-handed (+12) Strength application; retained as published, arithmetic flagged, not fixed. **AC line in 3.5 format:** 21 (–1 size, +12 natural), touch 9, flat-footed 21. **Saves do not change:** Fort +4, Ref +4, Will +4 already equal the 3.5 construct progression for 12 HD (base +4, no relevant ability modifiers) — the book's worked example happens to match 3.5 even though the template chapter's cleric-saves rule does not. **Skills/Feats:** none in either edition (mindless). **CR sanity check:** CR 13 for 96 hp, AC 21, DR 20/magic, magic immunity and a homing special attack is high by 3.5 norms (a 3.5 stone golem is CR 11) but defensible given the DR magnitude and Unavoidable; 13 stands as the printed/construction-derived value (base bone golem + modifiers per the book's own table), flagged as the book's arithmetic, not re-derived.
 
+## Deathglory — CR 13 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Deathglory](pictures/ship-plan-deathglory.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Deathglory. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by gnomes; used by gnomes. Tonnage 70 · Hull Points 70 · Crew 18/70 (for gnomes 26/140) · Maneuver Class D · Landing: Land no, Water maybe (leaks badly!) · Armor Rating 6 · Saves as Metal · Power: "gnomish" major helm · Ship's Rating: as per helmsman, minus 1 (due to spell reflector) · Armament: 2 medium ballistas (crew 4 each), 2 medium catapults (forward; crew 6 each), 1 medium jettison (rear; crew 3), 2 tangle line guns (crew 4 each), 2 water cannon (crew 3 each) · Cargo 35 tons · Keel 80 ft · Beam 55 ft (outriggers to 85 ft). The only gnomish battleship design whose systems were tested before installation — the "dreadnever-class" that, in the book's words, actually works. Every system is doubled for redundancy, and a spell reflector plating protects it from hostile magic. Tangle line guns are exactly what the name says. (Stat block read from SJR1 Lost Ships, the Ship Catalog.)
+
 ## Deathshrieker — CR 15 — Monster Manual III
 
 ![Deathshrieker](pictures/deathshrieker.png)
@@ -2645,6 +2681,52 @@ Doru is the son of the village priest Danovich, killed by Strahd as a trial run 
 - **Blasphemous Bite (Su):** a living nonevil creature bitten is dazed 1 round and may contract the necromantic infection.
 - **Disease (Su) — necromantic infection:** bite, Fort DC 22 negates (Cha-based, +3 circumstance bonus as the plague epicenter), instant incubation; the sickened victim who reaches −1 hp or dies rises as an infected zombie in 1d4+1 rounds unless treated (book p.29 sidebar).
 
+## Dracon — CR 8 — Spelljammer MC Appendix, converted to 3.5 (Blendcrafter library)
+
+![Dracon](pictures/dracon.webp)
+
+*Picture: GENERATED from the published description — no official art on file*
+
+**Partial — fullest block on file:**
+
+People of Space — race record (partial), converted to 3.5 in the Blendcrafter library. Large Monstrous Humanoid · Speed 40 ft · Ability modifiers: str: 4, con: 2, int: 2 · Racial Hit Dice 6 · Natural armor +6 · Level adjustment +2 · Favored class: Cleric. Traits on the record: Thumb-Claws, Dueling Code, Herd Instinct, Languages, Head Butt, Magic Resistance. Full record: Blendcrafter — Spelljamming, Peoples of Space.
+
+## Dragonfly — CR 4 — Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library)
+
+![Dragonfly](pictures/ship-plan-dragonfly.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Dragonfly. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by humans; used by humans and elves. Tonnage 10 · Hull Points 10 · Crew 3/10 · Maneuver Class C · Landing: Land yes, Water no · Armor Rating 8 · Saves as Thin wood · Power: major or minor helm · Ship's Rating: as for helmsman · Armament: 1 light ballista (crew 1) OR 1 light catapult (crew 1) · Cargo 5 tons · Keel 100 ft · Beam 20 ft. With the tradesman, one of the workhorses of space: small and handy, it hauls small groups, important passengers, and small packages, and is the classic smuggler's and explorer's ship; wizards favor it as a mobile laboratory. A stripped "firefly" version is flown as a suicide fire ship.
+
+## Dragonship — CR 8 — Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library)
+
+![Dragonship](pictures/ship-plan-dragonship.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Dragonship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by humans; used primarily by humans. Tonnage 45 · Hull Points 45 · Crew 20/45 · Maneuver Class D · Landing: Land no, Water yes · Armor Rating 5 · Saves as Thick wood · Power: major or minor helm · Ship's Rating: as for helmsman · Armament: 2 medium ballistas (crew 2 each) · Cargo 22 tons · Keel 150 ft · Beam 20 ft. The dragon-prowed ship of Shou Lung, Toril's oriental empire: a swift exploration vessel whose helm sits below decks aft under an opening dome. Shou dragonships scout the spheres for wonders to bring back to the emperor, defended by marines with repeating crossbows. "Flaming dragon" freebooter versions trade cargo space for bombards and greek fire projectors.
+
+## Drakkar — CR 4 — Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library)
+
+![Drakkar](pictures/ship-plan-drakkar.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Drakkar. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+A groundling wet-navy hull priced in the boxed set's ship list; the Lorebook gives it no stat block of its own. Groundling hulls like this one are bought cheap and fitted with a purchased or salvaged spelljamming helm.
+
 ## Draudnu — CR 10 — Monster Manual V
 
 ![Draudnu](pictures/draudnu.jpg)
@@ -2966,6 +3048,18 @@ Challenge Rating: 12
 Source book(s): Monster Manual II
 Description: Earth weirds are foretellers of death and doom. They can pronounce an individual’s impending fate or warn of a coming apocalypse. They are also prognosticators of wealth and fortune, foreseeing who shall succeed or fail in the pursuit of material possessions. An earth weird’s pool is often situated at the base of a mountain or deep underground. An earth weird’s upper body resembles that of a beautiful human woman. The creature has sparkling gemstones for eyes and hair the brown color of earth, streaked with veins of gold and silver.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Eel Ship — CR 6 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Eel Ship](pictures/ship-plan-eel-ship.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Eel Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Tonnage 20 · Hull Points 20 · Crew 4/20 · Maneuver Class C · Landing: Water yes · Armor Rating 6 · Power: Furnace (15%) or helm (85%) · Ship's Rating 2 (furnace) or as per helmsman · Armament: 1 medium ballista, 1 medium catapult · Cargo 8 tons · Keel 110 ft · Beam 15 ft. A slim, cheap hull; the later Lamprey design grew out of it.
 
 ## Elder Spawn of Juiblex — CR 14 — Monster Manual V
 
@@ -3817,6 +3911,16 @@ Descent Into Darkness (Ex) (verbatim): "The curse of the gibborim is that over t
 
 Gibborite Characters (verbatim): "Gibborim favor the sorcerer class. Most become fighters, sorcerers, or wizards."
 
+## Giff Mercenary Company — CR 5 — Spelljammer MC Appendix, converted to 3.5 (Blendcrafter library)
+
+![Giff Mercenary Company](pictures/giff-mercenaries.webp)
+
+*Picture: GENERATED from the published description — no official art on file*
+
+**Partial — fullest block on file:**
+
+People of Space — race record (partial), converted to 3.5 in the Blendcrafter library. Large Monstrous Humanoid · Speed 20 ft · Ability modifiers: str: 6, con: 2, int: -2 · Racial Hit Dice 4 · Natural armor +5 · Level adjustment +1 · Favored class: Fighter. Traits on the record: Head Butt, Magic Resistance, Magically Inert, Smoke Powder Affinity, Platoon and Rank. Full record: Blendcrafter — Spelljamming, Peoples of Space.
+
 ## Githyanki Captain — CR 10 — Monster Manual IV
 
 ![Githyanki Captain](pictures/githyanki-captain.png)
@@ -3872,6 +3976,18 @@ Challenge Rating: ½
 Source book(s): Monster Manual I
 Description: They are the smallest of all the gnomes, averaging 2 to 2½ feet in height, but look just like regular gnomes except with bark-colored or gray-green skin, and eyes that can be brown or green as well as blue. A very long-lived people, forest gnomes have an average life expectancy of 500 years.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Goblin Blade — CR 5 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Goblin Blade](pictures/ship-plan-goblin-blade.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Goblin Blade. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by goblins; used primarily by goblins. Tonnage 2 · Hull Points 2 · Crew 1/2 · Maneuver Class A · Armor Rating 4 · Saves as Metal · Power: Lifejammer or death helm · Ship's Rating: as per victim · Armament: alchemy fire projector, piercing ram · Cargo 1/2 ton · Keel 20 ft · Beam 20 ft. A two-man goblin flitter built around a single great blade — a ram with a ship attached.
 
 ## Golem, Demonflesh — CR 18 — Fiend Folio
 
@@ -4147,6 +4263,16 @@ GROANING SPIRIT                                                        Advanceme
 
 ---
 
+## Hadozee — CR 3 — Spelljammer MC / Complete Spacefarer's Handbook (Blendcrafter library)
+
+![Hadozee](pictures/hadozee.webp)
+
+*Picture: GENERATED from the published description — no official art on file*
+
+**Partial — fullest block on file:**
+
+People of Space — race record (partial), converted to 3.5 in the Blendcrafter library. Medium Monstrous Humanoid · Speed 30 ft · Ability modifiers: dex: 2, cha: -2 · Racial Hit Dice 3 · Natural armor +4 · Level adjustment +1 · Favored class: Rogue. Full record: Blendcrafter — Spelljamming, Peoples of Space.
+
 ## Hag, Annis — CR 6 — Monster Manual I
 
 ![Hag, Annis](pictures/hag-annis.jpg)
@@ -4160,6 +4286,18 @@ Challenge Rating: 6
 Source book(s): Monster Manual I
 Description: An annis commonly uses its disguise self ability to take the form of an exceptionally tall human, a fair giant, or an ogre. An annis stands some 8 feet tall and weighs about 325 pounds.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Hammership — CR 8 — Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library)
+
+![Hammership](pictures/ship-plan-hammership.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Hammership. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by humans and lizard men; used by humans, lizard men, and some elves. Tonnage 60 · Hull Points 60 · Crew 24/60 · Maneuver Class D · Landing: Land no, Water yes · Armor Rating 6 · Saves as Thick wood · Power: major or minor helm · Ship's Rating: as for helmsman · Armament: 2 heavy catapults (crew 5), 1 heavy ballista (crew 4), 1 blunt ram · Cargo 30 tons · Keel 250 ft · Beam 25 ft. The heavy warship of space — if the squid ship is the light warship, the hammership is the heavy galleon: a big, tough hull built around a massive blunt ram, in service with small changes for millennia. Used to haul bulk cargo on a minimum crew, and as the standard armada and privateer craft of known space.
 
 ## Harrier — CR 5 — Monsternomicon Vol. 2
 
@@ -4390,6 +4528,18 @@ Challenge Rating: 5
 Source book(s): Monster Manual IV
 Description: A bear-sized, wingless creature lies in the center of the hive. Its swollen shape combines features of baboons and hornets.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Hummingbird — CR 5 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Hummingbird](pictures/ship-plan-hummingbird.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Hummingbird. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by humans (the Royal Engineers of Thesalys, Greatspace); used by the ruling house of Greatspace. Tonnage 7 · Hull Points 7 · Crew 2/10 · Maneuver Class A · Landing: Land yes, Water no · Armor Rating 8 · Saves as Thin wood · Power: major helm · Ship's Rating: as per helmsman · Armament: piercing ram, magic missile gun (crew: 1 mage) · Cargo 3 tons · Keel 100 ft · Beam 20 ft. A unique royal yacht, used by the ruling house of Greatspace for ambush and hit-and-fade attacks; its magic missile gun fires a burst of magic missiles at enemy ships. (Stat block as transcribed in the Spelljammer Wiki's article from the SJA3 Crystal Spheres data card and the War Captain's Companion Ship Recognition Manual.)
 
 ## Inara Steelhand — CR 14 — NPCs — ALL-150 (Shaun's cast)
 
@@ -5010,6 +5160,30 @@ Kumbhakarna — CR 20 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 ---
 
+## Lamprey Ship — CR 6 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Lamprey Ship](pictures/ship-plan-lamprey-ship.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Lamprey Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Tonnage 26 · Hull Points 26 · Crew 8/26 · Maneuver Class B · Armor Rating 4 · Saves as Thin wood · Power: Furnace (20%), minor helm (40%), or major helm (40%) · Armament: 3 medium ballistae, cone ram mounting a medium ballista · Cargo 6 tons · Keel 115 ft · Beam 25 ft. An attack hull grown from the Eel Ship design; Striker, Fastboat, and Shuttle variants are described in the sources. Price as printed in 2e.
+
+## Leaf Ship — CR 6 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Leaf Ship](pictures/ship-plan-leaf-ship.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Leaf Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by thri-kreen; used primarily by thri-kreen. Tonnage 70 · Hull Points 70 · Crew 20/65 · Maneuver Class D · Landing: Water yes · Armor Rating 6 · Saves as Ceramic · Power: Crystal Throne · Ship's Rating 4 · Armament: 1 heavy catapult, 4 heavy ballistae · Cargo 30 tons · Keel 250 ft · Beam 40 ft. The thri-kreen carrier-tree: a Leaf Ship can dock up to four Thorn Ships (below) in its branches.
+
 ## Leechwalker — CR 10 — Monster Manual II
 
 ![Leechwalker](pictures/leechwalker.png)
@@ -5223,6 +5397,18 @@ Description: A 3-foot-long strand of striated muscle connects two floating eyeba
 **DM Use Hook:** A slow-burn infiltrator villain: he can befriend a party caster, sell them discounted reagents, and feed their movements to the enclave — or crack, if the party learns about his sister before his masters do.
 
 ---
+
+## Man-o-War, Archaic — CR 11 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Man-o-War, Archaic](pictures/ship-plan-man-o-war-archaic.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Man-o-War, Archaic. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by elves; used primarily by elves. Tonnage 50 · Hull Points 50 · Crew 10/50 · Maneuver Class D · Landing: Land no, Water no · Armor Rating 8 · Saves as Ceramic · Power: major helm · Ship's Rating: as per helmsman · Armament: 2 medium ballistae, 1 medium catapult · Cargo 30 tons · Keel 175 ft · Beam 20 ft. The older, smaller pattern of the elven Man-o-War (the current pattern is in the boxed-set catalog) — lighter-armed and superseded. No price was captured in the compilation, so none is recorded.
 
 ## Marilith — CR 17 — Monster Manual I
 
@@ -5835,6 +6021,30 @@ Description: This creature has the lower body of a worm, the head of a snake wit
 
 ---
 
+## Nautiloid — CR 10 — Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library)
+
+![Nautiloid](pictures/ship-plan-nautiloid.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Nautiloid. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by mind flayers; used primarily by mind flayers. Tonnage 35 · Hull Points 35 · Crew 10/35 · Maneuver Class D · Landing: Land no, Water yes · Armor Rating 4 · Saves as Thick wood · Power: series helm (90%) or pool helm (10%) · Ship's Rating 2-5 (series helm), 5 (pool helm) · Armament: 3 medium ballistas (crew 2 each), 1 medium catapult forward (crew 3), 1 medium jettison rear (crew 3), piercing ram · Cargo 17 tons · Keel 180 ft (including the ram) · Beam 30 ft. The standard ship of the spacefaring illithid nations: a coiled shell whose enclosed decks shelter mind flayers from sunlight. A standard crew is 10 illithids (plus 2-5 more per added series helm) with humanoid slaves manning the catapults. Nautiloids serve as pirate, trade, and picket ships. A pool helm — an elder brain's pool installed aboard — gives the ship thought-scanning out to 2 miles and greater tactical speed.
+
+## Neogi Mindspider — CR 10 — Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library)
+
+![Neogi Mindspider](pictures/ship-plan-neogi-mindspider.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Neogi Mindspider. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by neogi; used primarily by neogi. Tonnage 40 · Hull Points 40 · Crew 3/40 · Maneuver Class C · Landing: Land no, Water no · Armor Rating 4 · Saves as Metal · Power: Lifejammer · Ship's Rating: as for victim · Armament: 2 medium catapults (crew 3 each), 1 medium jettison (crew 3), forward grappling/piercing ram, rear piercing ram · Cargo 20 tons · Keel 40 ft · Beam 15 ft. A newer neogi craft — lighter, faster, more maneuverable, and stronger than the deathspider, though more lightly armed — powered by a lifejammer that drains its victim-pilot. It can be run by as few as three neogi through their umber hulk slaves. Used as command ships and pirate craft; stripped "broodship landers" carry neogi eggs and an undead old master to seed new planets. No price is printed in either book of the boxed set — the class is new and little-known, and absent from the Concordance price list.
+
 ## Nerra, Varoot — CR 1 — Fiend Folio
 
 ![Nerra, Varoot](pictures/nerra-varoot.png)
@@ -5895,6 +6105,18 @@ Challenge Rating: 1
 Source book(s): Monster Manual I
 Description: These bottom-dwelling sea creatures are dangerous only to their prey. If disturbed, they usually try to escape.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Octopus Ship — CR 7 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Octopus Ship](pictures/ship-plan-octopus.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Octopus. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by humans and mind flayers; used primarily by humans and mind flayers. Tonnage 70 · Hull Points 70 · Crew 13/70 · Maneuver Class D · Landing: Land yes, Water no · Armor Rating 7 · Saves as Thick wood · Power: major or minor helm, or pool helm · Ship's Rating 5 (pool helm) or as per helmsman · Armament: 2 heavy catapults, 2 heavy ballistae · Cargo 35 tons · Keel 100 ft · Beam 50 ft. The "Tailgunner" — a convoy-protection relic of the human–illithid alliance from the Unhuman Wars.
 
 ## Octopus Tree — CR 12 — Fiend Folio
 
@@ -6330,6 +6552,18 @@ Challenge Rating: 8
 Source book(s): Monsternomicon Vol. 2
 Description: Ihave described many troll varieties in earlier works (cursorily in Monsternomicon: Denizens of the Iron Kingdoms and more exhaustively in Genera and Species of Southern Trolls). I feel that two of the more unusual troll subspecies, the pyre and slag troll, deserve some examination especially in light of current events.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Quad of Thay — CR 11 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Quad of Thay](pictures/ship-plan-quad-of-thay.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Quad of Thay. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by Thay mages and priests; used primarily by Thay mages and priests. Tonnage 63 · Hull Points 63 · Crew 10/63 · Maneuver Class A · Landing: Land yes, Water no · Armor Rating 3 (−1) · Saves as Best of metal or crystal · Power: grand helm · Ship's Rating: as per helmsmen · Armament: 4 rams · Cargo 31½ tons · Keel 40 ft (body), 105 ft (claws) · Beam 55 ft. The whole outer hull IS the grand helm: up to four mages pool their levels (total ÷ 4, round up) for the ship's SR. It travels at double spelljamming speed (200 million miles/day) but phases partly into the Border Ethereal doing so, and cannot enter the phlogiston under its own power. The focused light bathes the ship and imposes a −4 penalty on attacks against it. If a claw-ram attack rolls a natural 20, there is a 25% chance 1d4 rams break off; each lost ram costs 25% of SR, and with all four gone the ship is immobile. Most of the interior is a research library. (Stat block read from the printed War Captain's Companion ship card.)
 
 ## Queue — Fountain, Office, or Bread Line — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
 
@@ -7420,6 +7654,16 @@ CR 4 — Schir
 - Description (verbatim, book pp.50–51): "The goat-headed schirim pervade the Material Plane, primarily because they can be summoned by magics easily accessible to spellcasters with very little skill. Clumsy covens fumbling with half-understood scrolls frequently bring a schir from the Abyss, and many credulous cultists believe all demons look like the bestial schirim. / The goat demons revel in their reception on the Prime, seldom speaking of their station at home. In the Abyss, schirim are little more than soldiers or guardians, expected to follow the orders of their betters at all times. Dull-witted and slow to learn, they nonetheless make superlative sentries, thanks to their spell-like abilities and otherworldly sense of focus. / A schir looks like the bastard offspring of human and goat. Its long, muscular neck supports a bestial head topped with two backward-curving horns. The creature's nauseating yellowed teeth reek of decayed meat and human waste, and its beady eyes burn with an amber rage. A tangled, food-encrusted beard dangles from the demon's chin. Coarse hair covers a schir from head to toe, growing especially thick at the legs and shoulders. Its legs feature two knees, the lower set of which bend backwards just above cloven-hoofed feet. / Schirim carve or brand a number of mystical symbols upon their chests. These markings represent clan affiliations, and some schirim refuse to work with members of other clans; such refusals occasionally break out into open battle between the schirim serving allied demon lords. To a schir, clan allegiance is paramount to all other concerns, and no task is too important to get in the way of eons-old internecine struggle. / Though all schirim pay lip service to their creator, the demon prince Azazel, not all serve the progenitor of their race. Perhaps due to their incredible fecundity, schirim have spread to nearly every inhabitable layer of the Abyss, and rare is the demon noble who does not employ at least a pack of the creatures somewhere in its vast retinue. / Schirim speak Abyssal, relying upon their *tongues* ability to communicate with mortals." (Plural printed "schirim" in the book text, as reproduced.)
 - Nature/role: goat-demon soldier/guardian, the common summoned-demon stereotype of the book's lore. APOC Note: third-party reference only; mortal and trapped — in APOC it cannot be summoned at all (summoning spells don't work, whatever the book says about easy summoning magics); Bastion-barred.
 
+## Scro War Crew — CR 4 — Spelljammer MC / Complete Spacefarer's Handbook (Blendcrafter library)
+
+![Scro War Crew](pictures/scro.webp)
+
+*Picture: GENERATED from the published description — no official art on file*
+
+**Partial — fullest block on file:**
+
+People of Space — race record (partial), converted to 3.5 in the Blendcrafter library. Medium Humanoid · Speed 30 ft · Ability modifiers: str: 2, con: 2, cha: -2 · Racial Hit Dice 3 · Natural armor +2 · Level adjustment +1 · Favored class: Fighter. Full record: Blendcrafter — Spelljamming, Peoples of Space.
+
 ## Scylla Flock — CR 8 — Monsternomicon Vol. II
 
 ![Scylla Flock](pictures/scylla-flock.png)
@@ -7992,6 +8236,18 @@ Shetan — CR 8 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 ---
 
+## Shrike — CR 7 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Shrike](pictures/ship-plan-shrike.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Shrike. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Used primarily by humans and halflings. Tonnage 30 · Hull Points 30 · Crew 14/30 · Maneuver Class B · Landing: Land yes · Armor Rating 5 · Armament: 3 heavy ballistae, 1 light jettison, piercing ram · Cargo 20 tons · Keel 100 ft · Beam 20 ft. A fast light warship and trader, from Lost Ships and reprinted in the War Captain's Companion. Price as printed in 2e.
+
 ## Sibil Thistledown — CR 16 — NPCs — ALL-150 (Shaun's cast)
 
 ![Sibil Thistledown](pictures/sibil-thistledown.jpg)
@@ -8050,6 +8306,18 @@ Challenge Rating: 16
 Source book(s): Monster Manual V
 Description: The loud buzz of whipping wings fills the air as a tremendous insect swoops down upon you. Its massive forelegs violently flail and its great, curved mandibles glisten with a strange liquid.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Skeleton Ship — CR 8 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Skeleton Ship](pictures/ship-plan-skeleton-ship.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Skeleton Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by undead humans; used by undead humans (usually liches). Tonnage 1–12 · Hull Points 1–12 · Crew 1/1–12 (skeleton) · Maneuver Class C · Landing: Land no, Water no · Armor Rating 9 · Saves as Bone · Power: major or minor helm, furnace, or lifejammer · Ship's Rating: 2 (furnace) or as per helmsman or victim · Armament: 2 medium ballistas (crew 2 each) · Cargo up to 1 ton · Keel 200 ft (varies) · Beam 30–41 ft (29 + 1d12). A whole salvaged skeleton made spaceworthy — whatever open structure it has is in the ribcage, under a glass or transparent dome. Kindori skeletons are most common (hence the long keel), but beholder, kraken, and even dragon skeletons fly. The figures vary with the bones, as printed. (Stat block read from SJR1 Lost Ships, the Ship Catalog.)
 
 ## Skeleton Warrior — CR 14 — Tome of Horrors Revised (Necromancer Games
 
@@ -8434,6 +8702,18 @@ Source book(s): Monster Manual I
 Description: These free-swimming mollusks are fairly aggressive. They are more feared than sharks in some locales.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
+## Squid Ship — CR 9 — Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library)
+
+![Squid Ship](pictures/ship-plan-squid-ship.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Squid Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by humans; used by humans and lizard men. Tonnage 45 · Hull Points 45 · Crew 12/45 · Maneuver Class D · Landing: Land no, Water yes · Armor Rating 5 · Saves as Thick wood · Power: major or minor helm · Ship's Rating: as for helmsman · Armament: 1 heavy catapult (crew 3), 2 medium ballistas (crew 2 each), piercing ram · Cargo 23 tons · Keel 250 ft · Beam 25 ft. Officially the cephalopod-class brig, and one of the most popular vessels of its size — straight lines and good maneuverability for a ship of 45 tons, used for trading, exploration, and privateering. Pirate squid ships carry a full crew of 35 plus a second spellcaster for boarding actions. Lizard man crews use some as egg incubators, devoting 1-6 tons of cargo space to eggs.
+
 ## Squid, Giant — CR 9 — Monster Manual I
 
 ![Squid, Giant](pictures/squid-giant.jpg)
@@ -8489,6 +8769,18 @@ Challenge Rating: 7
 Source book(s): Monster Manual III
 Description: This headless humanoid shape appears to be covered in glass shards that encircle hollows that run all the way through its body. It lumbers forward on all four limbs, and the slight rasping sound of its scales scraping the floor it mostly masked by a soothing drone that comes from its body. A susurrus is an otherwise peaceful creature that destroys undead on sight. It moves through underground passages, taking in the air that sustains it. This act creates a susurrating dronesong, sounding like a gentle wind blowing through the trees, that has a curiously stupefying effect on undead.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Swan Ship — CR 6 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Swan Ship](pictures/ship-plan-swan-ship.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Swan Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by halflings; used by humans, halflings, and elves. Tonnage 32 · Hull Points 32 · Crew 12/32 (halflings and other small folk: 16/64) · Maneuver Class C · Landing: Land no, Water yes · Armor Rating 7 · Saves as Thin wood · Power: major or minor helm · Ship's Rating: as per helmsman · Armament: 2 medium ballistas (crew 2 each), 1 heavy catapult (aft; crew 5) · Cargo 26 tons · Keel 100 ft · Beam 40 ft. A gracefully carved wooden swan, built in the elven style with great decorated wings, a long arched neck, and a tail with room for gardens. Typically an elven or halfling luxury yacht, yacht-cruiser, or fast courier, sometimes fitted out as a privateer — a halfling's favorite. (Stat block read from SJR1 Lost Ships, the Ship Catalog.)
 
 ## Swarm, Bat — CR 2 — Monster Manual I
 
@@ -8927,6 +9219,18 @@ THE BLACK DUKE — Monster Manual V, p.190 (unique)
 - **Alignment:** Chaotic evil
 - **Description:** "A mighty warrior steps into view through the fog, adorned in gleaming mithral armor. The massive blue blade in his hands is wrapped with tendrils of mist. Through the grate of his wolf-shaped helm, the dark figure laughs."
 
+## The Enemy Battleship — CR 14 — Shaun's homebrew ship files (Blendcrafter library)
+
+![The Enemy Battleship](pictures/the-enemy-battleship.webp)
+
+*Picture: GENERATED from the published description — no official art on file*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — The Enemy Battleship, from Shaun's own ship files. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class.
+
+Tonnage 80 · Keel 150 ft · Beam 50 ft · Hull Points 80 · Crew: optimum 30 / max total passenger load 50 · Ship's Rating 5 (major helm, 9th-level technomancer) · Tactical speed 2,500 ft/round (65 mph, 2,000 miles/day). The heavy of the fleet — the only one of Shaun's six homebrew warships rated SR 5. Standard fit on all six: free turrets, an ammunition distribution system, and heavy cannon (shared ship systems, Blendcrafter records).
+
 ## The Lord of Blades — CR 12 — Five Nations
 
 ![The Lord of Blades](pictures/the-lord-of-blades.webp)
@@ -8980,6 +9284,28 @@ THE BLACK DUKE — Monster Manual V, p.190 (unique)
 Narrative (pp. 83–84, summarized, not reproduced in full): the Lord of Blades, a powerful and charismatic warforged, gathers disenchanted warforged in the Mournland and preaches that the warforged will inherit the world; his lieutenants take blade-names (Saber, Falchion, Scimitar). Some tales say he led Cyre's warforged armies; darker legend claims he caused the destruction of Cyre itself. Tactics (p. 86): Power Attack at –4/+4 against poorly armored foes; charges and bull rushes; a trained warforged minion carries his longbow and readies it for him; before prepared battles he infuses himself with *armor enhancement* (resistance to electricity 10, 50 minutes), *stone construct* (DR 10/adamantine, 50 minutes or 50 points), *bull's strength*, and *shield of faith*.
 
 **Kit note (components cross-reference):** his *embedded wand of magic missile* is an embedded warforged component in use — the wand component itself is an ECS item (Batch 2 components layer); not re-entered here.
+
+## The Rock of Bral — CR 1 — APOC sphere canon — generator entry (Shaun, 2026-11-12)
+
+![The Rock of Bral](pictures/rock-of-bral.jpg)
+
+*Picture: Shaun's collection — the Rock of Bral (Spelljammer files, Maps)*
+
+**Partial — fullest block on file:**
+
+Generator entry — the sphere's great station (Shaun's canon, 2026-11-11/12). The Rock of Bral is the published Rock of Bral: a city-bearing asteroid anchored above the Bastion, in deep space off Toril's surface, serving as a trading point between the held cities. It is a place and a port, not a creature, and no published stat line exists for it as an encounter; its ships, docks, markets, and crowds are the encounter. (Shaun's fuller expansion of the Rock is filed separately and is not blended into this entry.)
+
+## The Spelljammer — CR 20 — Spelljammer — Legend of Spelljammer / Lorebook of the Void (Blendcrafter library)
+
+![The Spelljammer](pictures/the-spelljammer.png)
+
+*Picture: Printed plans of The Spelljammer — Shaun's Spelljammer collection*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — The Spelljammer, the legendary living ship-city of the sphere, a world unto itself with towers and peoples of its own. No published CR; the CR shown is a generator rating.
+
+Built by unknown hands; used by unknown masters. Tonnage 1-1/3 million (est.) · Hull Points 1-1/3 million · Crew illegible in the scan · Maneuver Class B · Landing: Land no, Water no · Armor Rating 5 · Saves as 20th-level wizard · Power: Unknown · Ship's Rating 8 · Armament (all figures estimated): 30 heavy catapults (crew 5 each), 15 medium catapults, 40 heavy ballistas (crew 4 each), 20 light catapults (crew 1 each), 15 heavy jettisons (crew 4 each), 20 bombards (rumored only, crew 3 each) · Cargo unlimited · Keel 1,575 ft · Beam 3,100 ft. The legendary ship that gives spelljamming its name — the largest self-powered ship in the universe, a manta-shaped city-ship of unknown origin and purpose whose motive force breaks the normal rules of spelljamming. It appears in many spheres, is fought over by factions seeking to land on it, and carries the hulks and helms of a hundred would-be conquerors as treasure in its holds. Unique; no price exists.
 
 ## Thoon Elder Brain — CR 15 — Monster Manual V
 
@@ -9197,6 +9523,18 @@ Description: These diminutive amphibians are innocuous and beneficial, since the
 
 ---
 
+## Tradesman — CR 4 — Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library)
+
+![Tradesman](pictures/ship-plan-tradesman.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Tradesman. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by humans; used by all races. Tonnage 25 · Hull Points 25 · Crew 10/25 · Maneuver Class D · Landing: Land no, Water no · Armor Rating 8 (the Concordance list reads 5; the Lorebook stat block is kept) · Saves as Thick wood · Power: major or minor helm · Ship's Rating: as for helmsman · Armament: 1 light catapult (crew 1), 1 medium ballista (crew 2) · Cargo 13 tons · Keel 120 ft · Beam 30 ft. The most common ship in civilized space — the standard short-range merchantman found from sphere to sphere in nearly identical form, crewed by every spacefaring race. Cheap to buy and run, it hauls small, valuable cargoes between planets and is often a first ship for deep-space adventurers. A stripped, faster "light cruiser" variant is preferred by pirates. .")
+
 ## Triton — CR 2 — Monster Manual I
 
 ![Triton](pictures/triton.jpg)
@@ -9253,6 +9591,18 @@ Source book(s): Monsternomicon Vol. 1
 Description: The most civilized form of troll is the trollkin, and they boast a level of refinement that I doubt any other trolls will reach. Although many of our cultures are prejudiced towards them, I have found them capable of a peaceful coexistence with most other peoples - a peace that the trollkin are sometimes denied out of that prejudice. Trollkin are the most advanced of all trolls. Their culture is rich and diverse with a strong heritage based upon bloodlines.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
+## Turtle Ship — CR 5 — Spelljammer, wider line — Blendcrafter Spelljamming records
+
+![Turtle Ship](pictures/ship-plan-turtle-ship.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Turtle Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by lizard men; used by lizard men, humans, and mind flayers. Tonnage 40 · Hull Points 40 · Crew 12/40 · Maneuver Class D · Landing: Land yes, Water yes · Armor Rating 3 · Saves as Metal · Power: major helm (25%) or minor helm (75%) · Ship's Rating: as per helmsman · Armament: 3 light ballistas (forward; crew 1 each), 1 medium catapult (aft; crew 3), blunt ram · Cargo 28 tons · Keel 95 ft · Beam 70 ft. A large war barge completely enclosed in iron hull plating, with a square stern — slow in space but tough. The deck is slightly domed so it sheds water, and the hull can be completely sealed to submerge. (Stat block read from SJR1 Lost Ships, the Ship Catalog.)
+
 ## Twilight Sisters — CR 12 — Monsternomicon Vol. 2
 
 ![Twilight Sisters](pictures/twilight-sisters.png)
@@ -9266,6 +9616,18 @@ Challenge Rating: 12
 Source book(s): Monsternomicon Vol. 2
 Description: Ifear that sometimes the tales of my exploits put others in needless peril, such as when some of my eager but inexperienced students attempt to replicate my successes. Such was the case with Ardam Martinbridge, a bright student at Corvis University, who overheard Alten Ashley’s tale of Tharn huntresses. Without seeking my advice, Ardam set forth to study them personally, hoping to write a paper on the topic. Apparently he soon got lost in the Glimmerwood as the sky’s last tinge of blue faded completely black, and a few stars glittered through the branches.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Tyrant Ship — CR 12 — Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library)
+
+![Tyrant Ship](pictures/tyrant-ship.webp)
+
+*Picture: GENERATED from the published description — no official art on file*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Tyrant Ship. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by the Arcane; used by beholders. Tonnage 23 · Hull Points 23 · Crew 15/23 · Maneuver Class C · Landing: Land no, Water no · Armor Rating 0 · Saves as Stone · Power: Orbus · Ship's Rating 1-6 · Armament: special (see below) · Cargo 11 tons · Keel varies (100 ft front-to-back typical) · Beam varies (100 ft radius typical). The most varied class of ship in space — stone shells shaped like walnuts, eyeballs, or tentacled shells, each grown for one beholder subspecies; these stats are for a "typical" tyrant ship. It carries no ship weapons; the crew is the weapon: a "beholder circuit" of common beholders, orbi, and a queen focuses a beam of magical energy (about 1,200 ft long in tactical combat) that can duplicate the eye powers of its members — charm, sleep, telekinesis, flesh to stone, disintegrate, fear, slow, death, and an anti-magic ray that can shut down a spelljamming helm it strikes.
 
 ## Unit Bastion-4 — CR 7 — NPCs — ALL-150 (Shaun's cast)
 
@@ -9553,6 +9915,18 @@ Cross-reference record A — WARFORGED (MM III monster version)
 - **Picture:** official illustration, Monster Manual III, p. 190. Extraction owed.
 **Picture (final, at merge):** `pictures/warforged-mm3-p190.png` — OFFICIAL BOOK ART (Monster Manual III, p. 190 — cross-reference row; the entry's primary picture is the ECS plate in Part I)
 
+## Wasp — CR 5 — Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library)
+
+![Wasp](pictures/ship-plan-wasp.webp)
+
+*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+
+**Partial — fullest block on file:**
+
+Hull record (partial) — Wasp. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class, for the encounter builder.
+
+Built by lizard men; used by lizard men and humans. Tonnage 18 · Hull Points 18 · Crew 8/18 · Maneuver Class D · Landing: Land yes, Water yes (Bee class only — the Concordance list says Water no) · Armor Rating 6 · Saves as Thick wood · Power: major or minor helm · Ship's Rating: as for helmsman · Armament: 1 heavy ballista (crew 4) · Cargo 9 tons · Keel 80 ft · Beam 20 ft. A dragonfly relative built for the lizard man physique, with flooded lower decks for its crew and a raised hump carrying the ballista turret. Cheap and roomy for its size, a favorite pirate and free-adventuring ship and an excellent boarding platform. Variants: the deep-space "bee" and the bloated cargo "bumble bee."
+
 ## Watch Patrol — CR 3 — APOC city population — generator entry (Shaun, 2026-11-11)
 
 ![Watch Patrol](pictures/watch-patrol.jpg)
@@ -9576,6 +9950,16 @@ Challenge Rating: 15
 Source book(s): Monster Manual IV
 Description: The walls around you groan, buckle, and bulge outward as a torrent of water sprays out from a dozen rents. The water flows together, forming a monstrous shape. Bits of rock, dirt, and bones float within it, along with the shredded remnants of weapons, armor, and clothing. The shape rushes toward you like a tidal wave as it attacks.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
+
+## Waystation — Unnamed — CR 1 — APOC sphere canon — generator entry (Shaun, 2026-11-12)
+
+![Waystation — Unnamed](pictures/waystation.webp)
+
+*Picture: GENERATED from the published description — no official art on file*
+
+**Partial — fullest block on file:**
+
+Generator entry — an unnamed waystation of the sphere (Shaun's canon: a couple of other stations exist, unnamed and unplaced so far). A hollowed rock with docks, stores, and a beacon — a place, not a creature; no published stat line exists for it. Who holds it, and what they charge, is the encounter.
 
 ## Windghost — CR 15 — Monster Manual II
 

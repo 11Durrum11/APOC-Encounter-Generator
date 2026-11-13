@@ -475,3 +475,21 @@ Shaun's order: "In the encounter generator on the thousand D chart I want twice 
 ## Chart Generator — twice as many options on the d1000 chart (v1.18.0, 2026-11-12)
 
 Shaun's order (voice call, 2026-11-12): twice as many options on the d1000 chart. The Chart Generator's option cap is raised from 18 to 36 (the weighted candidate slice in the chart builder); band normalization to exactly 1000 is unchanged, as are the chart's roll and load-into-roller paths. Verified on the live build: whole-pool charts generate 36 options at default filters and at an EL 5–8 filter; a single-table source remains limited by that table's own candidate pool, as before. Recorded here at verification; rides the next push.
+
+---
+
+## Space — the wildspace environment (v1.19.0, 2026-11-12)
+
+Shaun's order (via the AI DM hub, voice call 2026-11-12; the word was SPACE, not "spacing" — the layout/spacing reading was a misread and is cancelled): a twentieth table, **Space — Wildspace**, built like the other environments (d1000, stat blocks, pictures, scenarios) from his canon only.
+
+**Population (35 entries, 33 new distinct; totals now 20 tables / 458 entries / 391 distinct, pictures 391/391, stat blocks 167 full + 224 partial + 0 missing):**
+- **26 spelljamming hulls** from the Blendcrafter Spelljamming records — boxed-set Lorebook hulls (Tradesman, Wasp, Dragonfly, Drakkar, Hammership, Dragonship, Squid Ship, Nautiloid, Neogi Mindspider, Tyrant Ship) and wider-line hulls (Cargo Barge, Goblin Blade, Turtle Ship, Leaf Ship, Eel Ship, Lamprey Ship, Shrike, Swan Ship, Hummingbird, Octopus Ship, Skeleton Ship, Man-o-War Archaic, Monarch Armada, Deathglory, Quad of Thay) — each carrying its published hull record as a partial block. Ships have no published CR; the CR shown is a disclosed generator rating by hull class. Pictures are the hulls' printed deck plans from Shaun's collection (Blendcrafter deck-plan sheets), except the Tyrant Ship (generated, no plan on file).
+- **The Enemy Battleship** (Shaun's own homebrew warship; partial from his file's printed header; picture generated).
+- **4 Peoples of Space** as encounters (Giff Mercenary Company, Hadozee, Scro War Crew, Dracon) — partial blocks from their converted race records; pictures generated from the published descriptions (no official art on file). The other four peoples (Grommam, Hurwaet, Rastipede, Xixchil) sail as crews within the hull entries' records.
+- **2 stations**: the Rock of Bral (picture: Shaun's collection art) and an unnamed waystation (canon: a couple of other stations exist, unnamed; picture generated). Dragon Rock is named in the sphere canon as a separate station of the map; it is not a generator entry (the tables' no-dragons name check is a creature rule, and no encounter record for the Rock as a port exists in his material beyond its map entry).
+- **2 demon incursions** (Shadow Demon, Marilith) — the pool records themselves, placed by the sphere canon: demons fly incursions outward from Toril, their home base. These are the table's 2 ecology weak fits (their published Environment lines are planar/terrestrial) — placed by canon, not by those lines, and recorded here as deliberate.
+- **The Spelljammer** at the extreme tail (991–1000), picture = its printed plan sheet from Shaun's collection.
+
+**Boundary and overlay treatment (the space form of the city-boundary rule):** the table is the sphere's own population — not a Bastion table, not an overlay. The Badlands layer does not reach it (the layer is the blighted land's condition; wildspace has the Cut instead), the Open Wastes bleed neither enters nor leaves it, hulls (kinds: ship) are never Twisted and under Steampunk take the machine line rather than a Steamwork rewrite, and the machine weighting cannot bend its rolls (its population holds no construct-type entries). Scenarios draw a dedicated wildspace context (the drift between worlds, the Toril run, the lanes, anchorages).
+
+**Name collision resolved:** the wider-line hull "Octopus" is entered as **Octopus Ship** — the plain name already belongs to the animal on Open Water, and the pool is name-keyed (compare Squid Ship / Turtle Ship in the same fleet).
