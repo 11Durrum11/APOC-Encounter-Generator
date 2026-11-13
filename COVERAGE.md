@@ -469,3 +469,9 @@ Shaun's ruling: "Keep the original." The Steampunk overlay's undead mechanics st
 
 Shaun's order: "In the encounter generator on the thousand D chart I want twice as many options." The Chart Generator's generated d1000 charts now carry up to **36 options** (bands), doubled from the previous cap of 18. The cap is a maximum — a chart drawn from a source with fewer eligible creatures (a single small table, a narrow EL band) still carries as many as the source holds; a whole-pool chart at a broad EL range fills all 36 (verified). Weights, normalization to exactly 1000, roll-on-chart, and load-into-roller are unchanged. This push also carries the Steampunk-Augmented closure note recorded 2026-11-11.
 - Verification: `test4.mjs` extended (whole-pool chart row count asserted >18 and ≤36; the reference run lands exactly 36) — full suite PASS on staging, the publish copy, and the live bytes.
+
+---
+
+## Chart Generator — twice as many options on the d1000 chart (v1.18.0, 2026-11-12)
+
+Shaun's order (voice call, 2026-11-12): twice as many options on the d1000 chart. The Chart Generator's option cap is raised from 18 to 36 (the weighted candidate slice in the chart builder); band normalization to exactly 1000 is unchanged, as are the chart's roll and load-into-roller paths. Verified on the live build: whole-pool charts generate 36 options at default filters and at an EL 5–8 filter; a single-table source remains limited by that table's own candidate pool, as before. Recorded here at verification; rides the next push.
