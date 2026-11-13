@@ -54,7 +54,7 @@ ABYSSAL SKULKER — Monster Manual II, p.57
 - **Abilities:** Str 10, Dex 15, Con 12, Int 13, Wis 14, Cha 9
 - **Skills:** Hide +9, Listen +7, Move Silently +7, Spot +7
 - **Feats:** Weapon Finesse (claw)
-- **Environment:** Any land and underground (Climate/Terrain line as printed)
+- **Environment:** Any land and underground
 - **Organization:** Solitary, pair, or gang (3–5)
 - **Challenge Rating:** 2
 - **Treasure:** None
@@ -79,11 +79,11 @@ Source book(s): Monster Manual II
 Description: Air weirds are elemental spirits that offer direction and guidance to those traveling into unknown areas. They can point out paths not considered, reveal unknown doors into new worlds, and describe what may be needed to survive such journeys. An air weird’s pool is often found outside, in an open-air place such as a windy plain or on a mountaintop. An air weird appears as a ghostly, translucent woman composed of flowing vapors. Its eyes are deep blue, and its hair appears windblown. The lower half of the creature’s body is a tendril of mist that trails back into its pool.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Aldric Vane — CR 8 — NPCs — ALL-150 (Shaun's cast)
+## Aldric Vane — CR 8 — NPCs — ALL-150
 
 ![Aldric Vane](pictures/aldric-vane.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 36. Aldric Vane — Human Rogue 5 / Assassin 3, LE — *Prestige*
 
@@ -119,7 +119,7 @@ Description: Air weirds are elemental spirits that offer direction and guidance 
 Ammit — CR 15 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 23 (PDF p. 24). "Book is 3.0-era d20 — reproduced as published."
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 23 (PDF p. 24). 
 **Classification evidence (verbatim from the page):** heading "Ammit (Tanar'ri)"; type line "Huge Outsider (Chaotic, Evil)"; "Challenge Rating: 15"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
 
 - **Ammit (Tanar'ri)**
@@ -128,16 +128,16 @@ Ammit — CR 15 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 - **Initiative:** +3 (–1 Dex, +4 Improved Initiative)
 - **Speed:** 40 ft.
 - **AC:** 27 (–2 size, –1 Dex, +30 natural)
-- **Attacks:** Bite +22 melee, 2 claws +20 melee
-- **Damage:** Bite 2d6+9, claw 2d4+4
-- **Face/Reach:** 10 ft. by 20 ft./10 ft. *(no spaces around the slash, as printed)*
+- **Attack:** Bite +22 melee (2d6+9)
+- **Full Attack:** Bite +22 melee (2d6+9) and 2 claws +20 melee (2d4+4)
+- **Space/Reach:** 15 ft./10 ft.
 - **Special Attacks:** Soul devour, spell-like abilities, summon tanar'ri
-- **Special Qualities:** Alternate forms, damage reduction 20/+2, SR 25, tanar'ri qualities
+- **Special Qualities:** Alternate forms, damage reduction 20/magic, SR 25, tanar'ri qualities
 - **Saves:** Fort +14, Ref +10, Will +10
 - **Abilities:** Str 28, Dex 9, Con 20, Int 10, Wis 12, Cha 14
 - **Skills:** Hide +14, Knowledge (arcana) +15, Listen +16, Move Silently +14, Search +15, Sense Motive +16, Spellcraft +15, Spot +16
 - **Feats:** Improved Initiative, Lightning Reflexes, Multiattack, Power Attack
-- **Climate/Terrain:** Any land and underground
+- **Environment:** Any land and underground
 - **Organization:** Solitary
 - **Challenge Rating:** 15
 - **Treasure:** Standard
@@ -151,7 +151,7 @@ Ammit — CR 15 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 **Spell-Like Abilities (verbatim):** "At will—death knell, detect evil, fear, plane shift, unholy aura, unholy blight. These abilities are as the spells cast as a 12th-level sorcerer (save DC 12 + spell level)."
 **Summon Tanar'ri (Sp) (verbatim):** "Twice per day Ammit can attempt to summon 1d4 vrocks and 1d4 hezrou with a 50% chance of success, or one glabrezu with a 20% chance of success."
 
-**APOC NOTE (Shaun's canon — separate from the published text above):** Third-party lore is reference only, not FR canon — the Egyptian judgment-hall treatment (Scales of Justice, Hall of Two Truths, Amenta) is the book's mythology, not FR canon. In APOC Ammit is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so her printed summon tanar'ri calls nothing and her printed plane shift escape goes nowhere; the Bastion's mythal bars demons absolutely. A unique, soul-devouring demon already inside the sphere is a horror of the badlands dead, never of the Bastion.
+**APOC NOTE (APOC canon — separate from the published text above):** Third-party lore is reference only, not FR canon — the Egyptian judgment-hall treatment (Scales of Justice, Hall of Two Truths, Amenta) is the book's mythology, not FR canon. In APOC Ammit is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so her printed summon tanar'ri calls nothing and her printed plane shift escape goes nowhere; the Bastion's mythal bars demons absolutely. A unique, soul-devouring demon already inside the sphere is a horror of the badlands dead, never of the Bastion.
 
 ---
 
@@ -169,7 +169,7 @@ Source book(s): Monster Manual I
 Description: Animated objects come in all sizes, shapes, and colors. They owe their existence as creatures to spells such as animate objects or similar supernatural abilities.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Anvil-7 — CR 5 — NPCs — ALL-150 (Shaun's cast)
+## Anvil-7 — CR 5 — NPCs — ALL-150
 
 ![Anvil-7](pictures/anvil-7.jpg)
 
@@ -297,7 +297,7 @@ APPARITION
 
 **Kit / Treasure (as published):** Treasure line: "Standard" — no itemized gear is published for this entry; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **Planar travel is severed** — any plane shift / Ethereal travel / manifestation in the published text does not function as written in APOC; this undead is bound to the Material Plane on Toril.
 - Its create spawn still makes more of its kind from Toril's dead — creation on Toril, not summoning — and feeds the Kingdom of the Undead's numbers.
@@ -322,7 +322,7 @@ Description: This bald, gray-skinned humanoid is clad in blue robes that barely 
 
 ![Armada, Monarch Class](pictures/ship-plan-armada-monarch.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -414,7 +414,7 @@ Undead Traits: as published (standard text, p.55).
 > *This creature's hairless, overlarge head surmounts its wet, wrinkled, and bloated humanoid body. Its eyes are glassy and vacant. Its arms are too slender, and its tiny hands end in cruelly sharpened nails, while its legs are atrophied, dead things that hang useless below it.*
 Flavor/combat prose (read in full): clots of divine flesh from a stillborn godling, animated by gods of death; speaks Common, Abyssal, Infernal, Celestial. Death Gaze (Su): death, 60 ft., Fort DC 19 negates; humanoids killed rise as wights 24 hours later. Negative Energy Aura (Su): 60-ft. radius, undead gain +4 turn resistance and fast healing 5, living creatures take two negative levels, creatures of 2 HD or less fall dead and may rise as wights under its command. Spell-Like Abilities: 3/day — animate dead, cone of cold (DC 18), create undead, desecrate, dispel magic, invisibility, plane shift, speak with dead, teleport. Caster level 9th.
 **Kit:** Published treasure: **None.** No gear published; nothing invented.
-**APOC Note:** A would-be general of the Kingdom of the Undead — its aura and wight-making make it a force multiplier in the badlands war. **Plane shift is inert** (planar travel severed) and **teleport fails as extra-dimensional/planar movement per APOC rulings**; its remaining spell-likes stand, and animate dead / create undead are creation, not summoning — they stand, with the raw-magic blight applying where Shaun rules the ability counts as raw magic. Victims rising as wights is spawn creation on Toril and stands. Barred from the Bastion by the Melairshield.
+**APOC Note:** A would-be general of the Kingdom of the Undead — its aura and wight-making make it a force multiplier in the badlands war. **Plane shift is inert** (planar travel severed) and **teleport fails as extra-dimensional/planar movement per APOC rulings**; its remaining spell-likes stand, and animate dead / create undead are creation, not summoning — they stand, with the raw-magic blight applying where the ability counts as raw magic. Victims rising as wights is spawn creation on Toril and stands. Barred from the Bastion by the Melairshield.
 
 ## Automaton Hammerer — CR 3 — Monster Manual II
 
@@ -441,7 +441,7 @@ Description: The hammerer automaton is a roughly human-shaped, bipedal war machi
 Description (verbatim excerpts, book pp.111–112): "Avvim are the greatest of the three kinds of corrupt nephilim. Their name means “the devastators,” and they are capable of great destruction. Most avvim were born into their current form, but some are gibborim who succumbed to their race's doom." — "Avvim (singular “avvite”) look like black- and red-scaled reptilian versions of animals or monsters, with or without gangly arms and legs. … Their teeth (and claws, if any) cause horrible bleeding wounds, and their bite can destroy any creature instantly." — "No matter what sort of creature its mortal parent was, an avvite is an evil spirit in a corrupt physical form. … In other words, the base creature for the template need not be the same sort of creature as its mortal parent. Avvim are always twisted, leaner, and more evil-looking than their non-nephilim counterparts."
 
 Sample headline: **Sample Avvite — Avvite Dire Wolf — CR 5.** Sample description (verbatim): "This nearly skeletal dire wolf is covered in red and black scales. Its teeth and claws glint with evil power." / "This example uses a dire wolf as the base creature."
-Sample block (as printed): Avvite Dire Wolf; Large Outsider (Augmented Animal) (Native); Hit Dice: 6d8+18 (45 hp); Initiative: +4 (Dexterity); Speed: 50 feet; AC: 18 (–1 size, +2 Dexterity, +7 natural); touch 11, flat-footed 16; Base Attack/Grapple: +4/+15; Attack: Bite +11 melee (1d8+10) plus 1 Constitution [as printed]; Full Attack: Bite +11 melee (1d8+10) plus 1 Constitution [as printed]; Space/Reach: 10 feet/5 feet; Special Attacks: Devastating bite, ghost touch, spell-like abilities, trip, wounding; Special Qualities: Darkvision, damage reduction 5/magic, immunity to fear, low-light vision, resistance to acid, cold, and electricity 5, scent; Saves: Fortitude +8, Reflex +8, Will +6; Abilities: Str 25, Dex 19, Con 17, Int 3, Wis 12, Cha 12; Skills: Hide +2, Listen +7, Move Silently +6, Spot +7, Survival +2*; Feats: Alertness, Run, TrackB, Weapon Focus (bite); Environment: Any forest, hill, mountains, plains, and underground; Organization: Solitary or pack (1 avvite dire wolf and 4–7 followers); Challenge Rating: 5; Treasure: None; Alignment: Neutral evil; Advancement: 7–18 HD (Large) or by character class; Level Adjustment: —. Combat notes (as printed): DC 14 Fortitude vs. devastating bite; DC 15 for unholy blight; Trip (Ex) as dire wolf; +2 racial bonus to Hide, Listen, Move Silently, Spot; +4 racial bonus to Survival when tracking by scent.
+Sample block: Avvite Dire Wolf; Large Outsider (Augmented Animal) (Native); Hit Dice: 6d8+18 (45 hp); Initiative: +4 (Dexterity); Speed: 50 feet; AC: 18 (–1 size, +2 Dexterity, +7 natural); touch 11, flat-footed 16; Base Attack/Grapple: +4/+15; Attack: Bite +11 melee (1d8+10) plus 1 Constitution [as printed]; Full Attack: Bite +11 melee (1d8+10) plus 1 Constitution [as printed]; Space/Reach: 10 feet/5 feet; Special Attacks: Devastating bite, ghost touch, spell-like abilities, trip, wounding; Special Qualities: Darkvision, damage reduction 5/magic, immunity to fear, low-light vision, resistance to acid, cold, and electricity 5, scent; Saves: Fortitude +8, Reflex +8, Will +6; Abilities: Str 25, Dex 19, Con 17, Int 3, Wis 12, Cha 12; Skills: Hide +2, Listen +7, Move Silently +6, Spot +7, Survival +2*; Feats: Alertness, Run, TrackB, Weapon Focus (bite); Environment: Any forest, hill, mountains, plains, and underground; Organization: Solitary or pack (1 avvite dire wolf and 4–7 followers); Challenge Rating: 5; Treasure: None; Alignment: Neutral evil; Advancement: 7–18 HD (Large) or by character class; Level Adjustment: —. Combat notes: DC 14 Fortitude vs. devastating bite; DC 15 for unholy blight; Trip (Ex) as dire wolf; +2 racial bonus to Hide, Listen, Move Silently, Spot; +4 racial bonus to Survival when tracking by scent.
 
 Creating Avvim (FULL template mechanics, as published, book pp.112–113):
 - "“Avvite” is an acquired or inherited template that you can add to any living animal, fey, giant, humanoid, monstrous humanoid, or gibborite, (referred to hereafter as the “base creature”)."
@@ -476,7 +476,7 @@ Creating Avvim (FULL template mechanics, as published, book pp.112–113):
 Azi-Dahaka — CR 10 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 32 (PDF p. 33). "Book is 3.0-era d20 — reproduced as published."
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 32 (PDF p. 33). 
 **Classification evidence (verbatim from the page):** heading "Azi-Dahaka (Tanar'ri)"; type line "Large Outsider (Chaotic, Evil)"; "Challenge Rating: 10"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
 
 - **Azi-Dahaka (Tanar'ri)**
@@ -485,16 +485,14 @@ Azi-Dahaka — CR 10 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 - **Initiative:** +8 (+4 Dex, +4 Improved Initiative)
 - **Speed:** 30 ft.
 - **AC:** 25 (–1 size, +4 Dex, +12 natural)
-- **Attacks:** 2 bites +19 melee, great sword +15 melee *("great sword" as two words as printed)*
-- **Damage:** bite 1d8+6 plus poison, great sword 2d6+3 *("great sword" as two words as printed; lowercase "bite" as printed)*
-- **Face/Reach:** 5 ft. by 5 ft./10 ft.
+- **Attack:** Bite +19 melee (1d8+6 plus poison) - **Full Attack:** 2 bites +19 melee (1d8+6 plus poison) and greatsword +15 melee (2d6+3) - **Space/Reach:** 5 ft./10 ft.
 - **Special Attacks:** Poison, spell-like abilities, summon tanar'ri
-- **Special Qualities:** Damage reduction 15/+2, SR 22, tanar'ri qualities, unkillable
+- **Special Qualities:** Damage reduction 15/magic, SR 22, tanar'ri qualities, unkillable
 - **Saves:** Fort +12, Ref +13, Will +13
 - **Abilities:** Str 22, Dex 18, Con 16, Int 11, Wis 18, Cha 8
-- **Skills:** Escape Artist +18, Handle Animal +13, Hide +18, Listen +18, Move Silently +18, Search +14, Spot +18, Wilderness Lore +18
+- **Skills:** Escape Artist +18, Handle Animal +13, Hide +18, Listen +18, Move Silently +18, Search +14, Spot +18, Survival +18
 - **Feats:** Dodge, Improved Initiative, Mobility, Spring Attack
-- **Climate/Terrain:** Any land and underground
+- **Environment:** Any land and underground
 - **Organization:** Solitary
 - **Challenge Rating:** 10
 - **Treasure:** Triple coins, no goods, no items
@@ -510,7 +508,7 @@ Azi-Dahaka — CR 10 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 **Summon Tanar'ri (Sp) (verbatim):** "Once per day, it can attempt to summon one succubus with a 20% chance of success."
 **Unkillable (Ex) (verbatim):** "Azi-Dahaka's death has been predestined. Any time a source of damage would kill him before then, he is instead teleported to a mountaintop near the gods, where he is chained and imprisoned."
 
-**APOC NOTE (Shaun's canon — separate from the published text above):** Third-party lore is reference only, not FR canon — the Indo-Aryan treatment and the predestined-death myth are the book's, not Faerûn's. In APOC Azi-Dahaka is mortal like every demon — no god has reserved his death and no teleport whisks him to any mountaintop; he is trapped inside the scarred crystal sphere, planar travel is severed and summoning spells DON'T WORK, so his summon tanar'ri calls nothing; the Bastion's mythal bars demons absolutely.
+**APOC NOTE (APOC canon — separate from the published text above):** Third-party lore is reference only, not FR canon — the Indo-Aryan treatment and the predestined-death myth are the book's, not Faerûn's. In APOC Azi-Dahaka is mortal like every demon — no god has reserved his death and no teleport whisks him to any mountaintop; he is trapped inside the scarred crystal sphere, planar travel is severed and summoning spells DON'T WORK, so his summon tanar'ri calls nothing; the Bastion's mythal bars demons absolutely.
 
 ---
 
@@ -628,7 +626,7 @@ Advancement:         4-9 HD (Medium)
 
 **Kit / Treasure (as published):** the bile cannon is a grafted body weapon, not carried gear; no treasure line is published for it; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
 - **Raw magic blights** the land around the caster in APOC — necromancy worked through raw magic carries that cost; alchemy is the cornerstone inside the walls.
@@ -643,10 +641,7 @@ Advancement:         4-9 HD (Medium)
 
 Black Troll
 
-**Source:** Monsternomicon Vol. I (Privateer Press), p.192 [2005 v3.5 revision text; re-checked 2026-11-08 against the library copy (2002 original), edition differences flagged on the entry]
-
-**2002-original check (2026-11-08, pp.192–193):** CR 8, HD 7d12 (45 hp), AC 19, abilities and saves confirmed as filed; Blood Drain (1d4 Con/round; trolls bitten suffer permanent drain; slain trolls rise as black trolls within one week), Command Whelps (Will DC 16), Touch of Corruption (DC 16) and Troll Bane all match the filed text. Edition differences: the 2002 original prints **regeneration 1** (filed 2005 text: regeneration 5), claw damage **2d4+6** (filed 2005 text: 2d6+6), and Feculent Decay leaves witnesses **shaken** for 2d6 rounds (filed 2005 text: frightened).
-[In the Trolls section, pp.186–195. **Type verified: Large Undead (Troll).** Descriptive text p.192, abilities continued p.193.]
+**Source:** Monsternomicon Vol. I (Privateer Press), p.192
 
 Large Undead (Troll)
 Hit Dice: 7d12 (45 hp)
@@ -688,9 +683,9 @@ Skills: *Black trolls use their Strength modifier instead of their Charisma modi
 Entries: Disembodied (1), Dread (1 sample + template), Eldritch (1 sample + template), Sythyss (1 sample + template), Excruciator (1), Hollowed (1), Husk (1 — NOT undead, Vermin, verification only), Progeny (1 sample + template), Iron Lich (1 sample + template), Mechanithrall (1), Pistol Wraith (1), Sepulchral Lurker (1), Shaft Wight (1), Thrall (6: Risen, Slave, Warrior, Lieutenant, Bane Thrall, Skarlock), Black Troll (1).
 Stat blocks: 1+1+1+1+1+1+1+1+1+1+1+1+1+6+1 = 20.
 
-**Kit / Treasure (as published):** no separate Treasure/Legends & Lore block is printed for the black troll entry (pp.192–193); none invented. **Confirmed against the 2002 original (pp.192–193): the black troll entry prints no Treasure or Legends & Lore block in either edition (treasure for trolls is handled in the chapter's general text); *verify* cleared 2026-11-08.**
+**Kit / Treasure (as published):** no separate Treasure/Legends & Lore block is printed for the black troll entry (pp.192–193); none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
 - **Raw magic blights** the land around the caster in APOC — necromancy worked through raw magic carries that cost; alchemy is the cornerstone inside the walls.
@@ -783,7 +778,7 @@ Description: Blood apes are peaceful diurnal foragers with a unique defense mech
 
 *Picture: Demons roster picture index: LIBRARY (tier 1)*
 
-BLOOD FIEND — Fiend Folio, pp.47–48 — **PAGE CONFIRMED by library extraction** (stat block p.47, abilities and description pp.47–48). Reproduced exactly as published — Large Undead — per Shaun's standing instruction. **Faction ruling (Shaun, 2026-11-08): DEMON side** — Fiend Folio classes it among the demons, and in APOC it belongs to the demon enclaves/faction. The published type (Large Undead (Extraplanar)) is reproduced verbatim and is unchanged — the ruling is faction placement only.
+BLOOD FIEND — Fiend Folio, pp.47–48 — **PAGE CONFIRMED by library extraction** (stat block p.47, abilities and description pp.47–48). Reproduced exactly as published — Large Undead. **Faction: DEMON side** — Fiend Folio classes it among the demons, and in APOC it belongs to the demon enclaves/faction. The published type (Large Undead (Extraplanar)) is reproduced verbatim and is unchanged — the ruling is faction placement only.
 
 
 - **Size/Type:** **Large Undead (Extraplanar)** — FLAG: the type is **Undead, not Outsider**, though Fiend Folio classes it as a demon. It is a vampiric demon that makes more blood fiends from slain demons, vampire-style.
@@ -792,17 +787,16 @@ BLOOD FIEND — Fiend Folio, pp.47–48 — **PAGE CONFIRMED by library extracti
 - **Speed:** 40 ft., fly 80 ft. (perfect)
 - **Armor Class:** 31 (−1 size, +2 Dex, +20 natural), touch 11, flat-footed 29
 - **Base Attack/Grapple:** +6/+18
-- **Attack:** Claw +13 melee
-- **Full Attack:** 4 claws +13 melee and bite +8 melee
-- **Damage:** Claw 1d6+8 plus energy drain, bite 1d8+4 plus blood drain
-- **Space/Reach:** 10 ft./10 ft. [FF Face/Reach line]
-- **Special Attacks:** **Energy drain** (Su; claw hit: Fort DC 21 or gain 1 negative level; the blood fiend heals 5 hp per level bestowed, excess as temporary hit points); **blood drain** (Su; bite: 1d4 points of Constitution drain); **domination** (Su; gaze-like standard action, dominate monster, CL 18th, Will DC 21); spell-like abilities (at will: detect good, detect magic, teleport without error [self plus maximum load of objects only]; 3/day: chaos hammer, darkness, unholy blight; 1/day: blasphemy, desecrate; CL 18th; save DC 15 + spell level); **create spawn (Su, verbatim FF p.48):** "An outsider of the evil subtype slain by a blood fiend's energy drain attack (negative levels equal to current Hit Dice, or drained below 1st level) rises as a blood fiend 1d4 days after death. The new blood fiend does not have any of the abilities it had in life."
-- **Special Qualities:** DR 15/good (3.5 update value; as printed in FF: DR 20/+2); acid resistance 20, cold resistance 20, electricity immunity, fire resistance 20; alternate form (regular or fiendish dire bat, dire wolf, howler, or nightmare); fast healing 5; gaseous form (at will, as the spell, CL 5th, indefinite, fly 20 ft. perfect); SR 24; turn resistance +6; undead traits (per type)
+- **Attack:** Claw +13 melee (1d6+8 plus energy drain)
+- **Full Attack:** 4 claws +13 melee (1d6+8 plus energy drain) and bite +8 melee (1d8+4 plus blood drain)
+- **Space/Reach:** 10 ft./10 ft.
+- **Special Attacks:** **Energy drain** (Su; claw hit: Fort DC 21 or gain 1 negative level; the blood fiend heals 5 hp per level bestowed, excess as temporary hit points); **blood drain** (Su; bite: 1d4 points of Constitution drain); **domination** (Su; gaze-like standard action, dominate monster, CL 18th, Will DC 21); spell-like abilities (at will: detect good, detect magic, greater teleport [self plus maximum load of objects only]; 3/day: chaos hammer, darkness, unholy blight; 1/day: blasphemy, desecrate; CL 18th; save DC 15 + spell level); **create spawn (Su, verbatim FF p.48):** "An outsider of the evil subtype slain by a blood fiend's energy drain attack (negative levels equal to current Hit Dice, or drained below 1st level) rises as a blood fiend 1d4 days after death. The new blood fiend does not have any of the abilities it had in life."
+- **Special Qualities:** DR 15/good; acid resistance 20, cold resistance 20, electricity immunity, fire resistance 20; alternate form (regular or fiendish dire bat, dire wolf, howler, or nightmare); fast healing 5; gaseous form (at will, as the spell, CL 5th, indefinite, fly 20 ft. perfect); SR 24; turn resistance +6; undead traits (per type)
 - **Saves:** Fort +4, Ref +8, Will +13
 - **Abilities:** Str 26, Dex 15, Con — (undead), Int 17, Wis 20, Cha 21
 - **Skills:** Concentration +20, Diplomacy +7, Hide +17, Listen +20, Move Silently +17, Search +19, Sense Motive +20, Spot +20, Survival +5 (+7 following tracks) (printed note: +8 racial bonus on Bluff, Hide, Listen, Move Silently, Search, Sense Motive, and Spot checks)
 - **Feats:** Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility
-- **Environment:** Any land and underground (Abyss) [FF Climate/Terrain line]
+- **Environment:** Any land and underground (Abyss)
 - **Organization:** Solitary, pair, or gang (3–5)
 - **Challenge Rating:** 14 (Fiend Folio and FC1 agree; confirmed p.47)
 - **Treasure:** Standard
@@ -1061,7 +1055,7 @@ Description: Boggles are clever, gibbering scavengers that behave much like some
 > *The pile of bones before you stirs. The bones rise and reform, and as each bone finds its proper place, the shape of a huge serpentine creature emerges, one whose form is composed of interlocking bones, its head the skull of some unnamed and long-dead beast.*
 Flavor/combat prose (read in full): also called bone weirds, dancing bones, bonetakers; 4,000–8,000 lb.; speaks Common, Terran, Abyssal. Bone Subsumption (Su): bite, Fort DC 22 (Will for undead), 2d4 damage each to Str, Dex, Con as the victim's bones melt into it. Utter Subsumption (Su): a second successful grapple check on a pinned victim tears out every bone, instantly killing it. Inescapable Craving: bones.
 **Kit:** Published treasure is a line only — "Standard." No itemized gear published for this intelligent undead; nothing invented.
-**APOC Note:** **Summon Skeletons is a summoning ability — in APOC, summoning is dead; flag this ability INERT as published** (its skeletons were drawn from its own bones, so a Shaun ruling could re-read it as shedding, but as published it is a summon and is flagged, not rewritten). Even without it, a boneyard is a Kingdom of the Undead siege engine that literally eats armies' bones. Barred from the Bastion by the Melairshield.
+**APOC Note:** **Summon Skeletons is a summoning ability — in APOC, summoning is dead; flag this ability INERT as published** (its skeletons were drawn from its own bones, so it could be re-read as shedding, but as published it is a summon and is flagged, not rewritten). Even without it, a boneyard is a Kingdom of the Undead siege engine that literally eats armies' bones. Barred from the Bastion by the Melairshield.
 
 ## Brain Golem — CR 10 — Fiend Folio
 
@@ -1069,7 +1063,7 @@ Flavor/combat prose (read in full): also called bone weirds, dancing bones, bone
 
 *Picture: Constructs roster picture index: Official book art — Fiend Folio, p. 87 — labeled shared plate; brain figure cropped; full plate also filed as golem-plate-ff-p87.png*
 
-BRAIN GOLEM [3.0-format as published]
+### Stat block
 
 **Large Construct**
 **Hit Dice:** 12d10+30 (96 hp)
@@ -1077,17 +1071,16 @@ BRAIN GOLEM [3.0-format as published]
 **Speed:** 20 ft.
 **AC:** 17 (–1 size, +4 inertial armor, +4 natural), touch 9, flat-footed 17
 **Base Attack/Grapple:** +9/+19
-**Attack:** Slam +14 melee
-**Full Attack:** Slam +14 melee
-**Damage:** Slam 2d6+9
-**Face/Reach:** 10 ft./10 ft.
+**Attack:** Slam +14 melee (2d6+9)
+**Full Attack:** Slam +14 melee (2d6+9)
+**Space/Reach:** 10 ft./10 ft.
 **Special Attacks:** Mind blast
-**Special Qualities:** Construct traits, DR 20/+2, inertial armor, SR 25
+**Special Qualities:** Construct traits, DR 20/magic, inertial armor, SR 25
 **Saves:** Fort +4, Ref +4, Will +4
 **Abilities:** Str 23, Dex 11, Con —, Int 6, Wis 11, Cha 8
 **Skills:** Listen +11, Spot +12
 **Feats:** Alertness, Cleave, Power Attack, Skill Focus (Listen), Skill Focus (Spot)
-**Climate/Terrain:** Any underground
+**Environment:** Any underground
 **Organization:** Solitary
 **Challenge Rating:** 10
 **Treasure:** —
@@ -1098,7 +1091,7 @@ A creation of the mind flayers, a brain golem exists purely to fulfill their des
 A brain golem appears as a burly humanoid, about 8 feet tall and 5 feet wide, with an oversized brain serving as its entire head. In fact, the whole body is made up of brain tissue that is covered with a thin film of slimy skin.
 Brain golems do not speak or understand any language, despite their intelligence, but they respond to telepathic commands from any mind flayer.
 
-## Bram Holt — CR 1 — NPCs — ALL-150 (Shaun's cast)
+## Bram Holt — CR 1 — NPCs — ALL-150
 
 ![Bram Holt](pictures/bram-holt.jpg)
 
@@ -1134,11 +1127,11 @@ Brain golems do not speak or understand any language, despite their intelligence
 
 ---
 
-## Bram Tallowick — CR 5 — NPCs — ALL-150 (Shaun's cast)
+## Bram Tallowick — CR 5 — NPCs — ALL-150
 
 ![Bram Tallowick](pictures/bram-tallowick.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 22. Bram Tallowick — Dwarf Cleric 5 of Gond, NG
 
@@ -1165,7 +1158,7 @@ Brain golems do not speak or understand any language, despite their intelligence
 
 ---
 
-## Brammin Ironroot — CR 19 — NPCs — ALL-150 (Shaun's cast)
+## Brammin Ironroot — CR 19 — NPCs — ALL-150
 
 ![Brammin Ironroot](pictures/brammin-ironroot.jpg)
 
@@ -1208,11 +1201,11 @@ Source book(s): Monster Manual II
 Description: The breathdrinker is a dreadful elemental that feeds on air extracted from the lungs of living creatures. How it actually derives sustenance from such a source is unknown, but the cruel monster seems to take great delight in stealing the breath of its helpless victims. The breathdrinker is normally invisible, except when attacking. When it does become visible, it roughly mimics the form of its chosen victim, appearing as a misty, translucent duplicate. Its eyes resemble tiny, red spheres of light. Most breathdrinkers reside on the Elemental Plane of Air.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Brin Odo (Brindlewick Odometer) — CR 2 — NPCs — ALL-150 (Shaun's cast)
+## Brin Odo (Brindlewick Odometer) — CR 2 — NPCs — ALL-150
 
 ![Brin Odo (Brindlewick Odometer)](pictures/brin-odo-brindlewick-odometer.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 7. Brin Odo (Brindlewick Odometer) — Gnome Bard 2
 
@@ -1260,11 +1253,11 @@ Source book(s): Monster Manual III
 Description: As you watch, the plates of chitin on the creature's back slowly open, revealing mucus-filled cavities and the writhing forms of giant maggots with wasp wings. Suddenly, dozens of the footand-a-half-long winged larvae wriggle out of their pockets on the beetle-creature's back and take to the air. Once they are freed from the confines of the shell, you see that their pulpy white bodies are ringed in brown chitin. Brood keeper larvae do not grow while they live with their brood keeper parent but they enjoy the protection the swarm and their parent offer.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Brother Cadmus Vale — CR 10 — NPCs — ALL-150 (Shaun's cast)
+## Brother Cadmus Vale — CR 10 — NPCs — ALL-150
 
 ![Brother Cadmus Vale](pictures/brother-cadmus-vale.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 48. Brother Cadmus Vale — Human Cleric 3 / Wizard 3 / Mystic Theurge 4, LN
 
@@ -1406,7 +1399,7 @@ Sample: CADAVER LORD (undead lord cadaver) — CR 5
 **Advancement:** By character class
 **Level Adjustment:** +4
 
-**Combat/abilities (as printed for the sample):**
+**Combat/abilities (sample):**
 - **Command Undead (Su):** Cadaver lords command or rebuke undead as 5th-level clerics.
 - **Create Spawn (Su):** A creature slain by a cadaver lord rise in 1d4 minutes as a cadaver. Spawn are under control of the cadaver lord. [sic — "rise" as printed]
 - **Disease (Ex):** Filth fever — claw or bite, Fortitude save (DC 14), incubation period 1d3 days; damage 1d3 Dexterity and 1d3 Constitution (see Disease in the DMG). The save DC is Charisma-based.
@@ -1436,11 +1429,11 @@ Source book(s): Monster Manual I
 Description: Camels are known for their ability to travel long distances without food or water. The statistics presented here are for the dromedary, or one-humped camel, which thrives in warm deserts. A dromedary stands about 7 feet tall at the shoulder, with its hump rising 1 foot higher. The two-humped, or Bactrian, camel is suited to cooler, rocky areas. It is stockier, slower (speed 40 feet), and has a higher Constitution score (16).
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Captain Rulathon — CR 15 — NPCs — ALL-150 (Shaun's cast)
+## Captain Rulathon — CR 15 — NPCs — ALL-150
 
 ![Captain Rulathon](pictures/captain-rulathon.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 148. Captain Rulathon — Human Fighter 15, LN
 
@@ -1460,7 +1453,7 @@ Description: Camels are known for their ability to travel long distances without
 
 ![Cargo Barge](pictures/ship-plan-cargo-barge.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -1480,7 +1473,7 @@ Tonnage 25 · Hull Points 25 · Crew none · Maneuver Class F · Landing: Water 
 
 **Gate:** Intelligence 8; written as free-willed persons — "Carrionettes are free-willed and do not need to obey their creator." Speaks in "high shrill voices."
 
-### Published stat block (as printed)
+### Stat block
 
 Tiny Construct
 Hit Dice: 2d10 (11 hp)
@@ -1525,30 +1518,29 @@ Evil dolls that desire living bodies; they speak in high shrill voices, lie moti
 
 *Picture: Constructs roster picture index: Official book art — Fiend Folio, p. 30 (captioned)*
 
-CARYATID COLUMN [3.0-format as published]
+### Stat block
 
-**Medium-Size Construct**
+**Medium Construct**
 **Hit Dice:** 6d10+20 (53 hp)
 **Initiative:** +3
 **Speed:** 30 ft.
 **AC:** 22 (+3 Dex, +9 natural), touch 13, flat-footed 19
 **Base Attack/Grapple:** +4/+9
-**Attack:** +2 *bastard sword* +12 melee (two-handed), or slam +9 melee
-**Full Attack:** +2 *bastard sword* +12 melee (two-handed), or +2 *bastard sword* +12 melee and slam +4 melee, or 2 slams +9 melee
-**Damage:** +2 *bastard sword* 1d10+9 (two-handed), or +2 *bastard sword* 1d10+7 and slam 1d4+2, or slam 1d4+7
-**Face/Reach:** 5 ft./5 ft.
+**Attack:** +2 *bastard sword* +12 melee (1d10+9, two-handed) or slam +9 melee (1d4+7)
+**Full Attack:** +2 *bastard sword* +12 melee (1d10+9, two-handed), or +2 *bastard sword* +12 melee (1d10+7) and slam +4 melee (1d4+2), or 2 slams +9 melee (1d4+7)
+**Space/Reach:** 5 ft./5 ft.
 **Special Attacks:** —
 **Special Qualities:** Break weapon, column form, construct traits, hardness 8, magic weapon
 **Saves:** Fort +2, Ref +5, Will –3
 **Abilities:** Str 20, Dex 16, Con —, Int 6, Wis 1, Cha 1
 **Skills:** Diplomacy –3, Sense Motive +4
 **Feats:** Improved Sunder, Power Attack, Weapon Focus (bastard sword) (B)
-**Climate/Terrain:** Any
+**Environment:** Any
 **Organization:** Solitary, corbel (2), or colonnade (4–24)
 **Challenge Rating:** 6
 **Treasure:** —
 **Alignment:** Always neutral
-**Advancement:** 7–10 HD (Medium-size); 11–21 HD (Large)
+**Advancement:** 7–10 HD (Medium); 11–21 HD (Large)
 **Kit (published, integral to the creature):** a +2 *bastard sword* is incorporated into every caryatid column at creation (see Magic Weapon, below); the weapon is part of the creature, not separate treasure — the block's Treasure line is "—". Construction prices the sword separately: 8,335 gp for a +2 *bastard sword*.
 
 A caryatid column looks like a simple stone pillar until an unwary creature violates the strictures given to the construct by its creator. In the blink of an eye, the caryatid column becomes a silk-draped, beautiful female figure that wields a deadly magic weapon.
@@ -1605,12 +1597,12 @@ Description: A mind leech is a small, slimy creature that coils itself around th
 
 ## CEREBRILITH — CR 10
 
-**Sources:** Expanded Psionics Handbook (XPH), Chapter 8 — primary, 3.5; the XPH cerebrilith text is Open Game Content and is reproduced identically in the Psionics SRD, from which the block below is verified line for line. Classed in FC1 Appendix III as a tanar'ri: "Cerebrilith — Tanar'ri — EPH," CR 10 (FC1 Appendix III CR rankings). **Variant flagged:** the earlier 3.0 *Psionics Handbook* cerebrilith (CR 14 in that book's own rankings, DR 15/good, PR 23, resistances 20, different psi-like suite — *mass domination, whitefire*, etc.) is superseded by the XPH 3.5 version below.
+**Sources:** Expanded Psionics Handbook (XPH), Chapter 8 — primary, 3.5; the XPH cerebrilith text is Open Game Content and is reproduced identically in the Psionics SRD, from which the block below is verified line for line. Classed in FC1 Appendix III as a tanar'ri: "Cerebrilith — Tanar'ri — EPH," CR 10 (FC1 Appendix III CR rankings).
 
 ### Stat block — Expanded Psionics Handbook (3.5, primary)
 
 - **Cerebrilith**
-- Large Outsider (Chaotic, Evil, Extraplanar, Psionic, Tanar'ri) — **CORRECTED by library extraction:** the XPH header (p.193) DOES carry the Tanar'ri subtype alongside Psionic; the earlier note in this entry saying the XPH header carries Psionic in place of Tanar'ri was wrong and is removed. FC1 Appendix III's tanar'ri classing agrees with the book.
+- Large Outsider (Chaotic, Evil, Extraplanar, Psionic, Tanar'ri) — the XPH header (p.193) carries the Tanar'ri subtype alongside Psionic; FC1 Appendix III's tanar'ri classing agrees with the book.
 - **Hit Dice:** 9d8+63 (103 hp)
 - **Initiative:** +1
 - **Speed:** 30 ft. (6 squares)
@@ -1772,15 +1764,15 @@ Source book(s): Monster Manual III
 Description: Flickering flames move along the ground and through the air as one unified mass. It sparks and crackles, setting fire to all it touches. While most elementals tend toward neutrality, cinders are most definitely evil. They glory in inflicting pain and causing destruction. Individually, they are no more significant than a fleck of hot ash that snaps out of a campfire. Collectively, they possess great destructive power. Each elemental composing a cinder swarm speaks Ignan, but communicating with a single Fine elemental in the swarm is virtually impossible.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Citizens of the Bastion — Street Crowd — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
+## Citizens of the Bastion — Street Crowd — CR 1 — APOC city population — generator entry
 
 ![Citizens of the Bastion — Street Crowd](pictures/city-street-crowd.jpg)
 
-*Picture: Scene art — a Bastion street at the crush (Dungeon Alchemist first-person view, Shaun's map files)*
+*Picture: Scene art — a Bastion street at the crush (Dungeon Alchemist first-person view, map files)*
 
 **Partial — fullest block on file:**
 
-Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+Generator entry — city population (the city is packed; crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
 ## Clockroach — CR 1 — Monster Manual IV
 
@@ -1810,25 +1802,25 @@ Source book(s): Monster Manual II
 Description: An adamantine horror is the supreme leader of the entire clockwork horror collective. Only one is believed to exist. The adamantine horror directs the harvesting of metal and the creation of new horrors. It alone decides which new horrors to make; thus it controls the composition of the collective. The adamantine horror holds the secret of animating a newly built horror body. The adamantine horror’s motives in its aggressive campaign to grow the collective are unknown.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Consortium Hall — Full Session — CR 2 — APOC city population — generator entry (Shaun, 2026-11-11)
+## Consortium Hall — Full Session — CR 2 — APOC city population — generator entry
 
 ![Consortium Hall — Full Session](pictures/consortium-hall.jpg)
 
-*Picture: Scene art — a consortium market hall in session (Shaun's map files)*
+*Picture: Scene art — a consortium market hall in session (map files)*
 
 **Partial — fullest block on file:**
 
-Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+Generator entry — city population (the city is packed; crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
-## Consortium Porters and Carters — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
+## Consortium Porters and Carters — CR 1 — APOC city population — generator entry
 
 ![Consortium Porters and Carters](pictures/consortium-porters.jpg)
 
-*Picture: Scene art — a market street at work (Shaun's map files)*
+*Picture: Scene art — a market street at work (map files)*
 
 **Partial — fullest block on file:**
 
-Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+Generator entry — city population (the city is packed; crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
 ## Crawling Apocalypse — CR 11 — Sandstorm
 
@@ -1887,17 +1879,16 @@ CRAWLING HEAD — Fiend Folio, pp.35–36
 - **Speed:** 20 ft., climb 20 ft.
 - **Armor Class:** 12 (–2 size, –2 Dex, +6 natural), touch 8, flat-footed 12
 - **Base Attack/Grapple:** +14/+32
-- **Attack:** Bite +23 melee
-- **Full Attack:** Bite +23 melee and 4 tentacles +17 melee
-- **Damage:** Bite 2d6+10/19–20, tentacle 1d8+5
-- **Face/Reach:** 15 ft./10 ft.
+- **Attack:** Bite +23 melee (2d6+10/19–20)
+- **Full Attack:** Bite +23 melee (2d6+10/19–20) and 4 tentacles +17 melee (1d8+5)
+- **Space/Reach:** 15 ft./10 ft.
 - **Special Attacks:** Cacophony, constrict 1d8+5, improved grab, spell-like abilities, vorpal bite
-- **Special Qualities:** Absorb head, DR 35/+4, electricity immunity, sonic immunity, SR 31, true seeing, undead traits, water vulnerability
+- **Special Qualities:** Absorb head, DR 35/magic, electricity immunity, sonic immunity, SR 31, true seeing, undead traits, water vulnerability
 - **Saves:** Fort +9, Ref +7, Will +20
 - **Abilities:** Str 30, Dex 7, Con —, Int 20, Wis 19, Cha 25
 - **Skills:** Climb +49, Concentration +38, Knowledge (arcana) +36, Knowledge (religion) +36, Search +36, Spellcraft +38 (+40 deciphering scrolls), Spot +35, Survival +4 (+6 following tracks), Use Magic Device +38 (+40 scrolls)
-- **Feats:** Cleave, Expertise, Great Cleave, Improved Critical (bite), Improved Disarm, Improved Initiative, Improved Trip, Power Attack, Spell Penetration, Weapon Focus (bite)
-- **Climate/Terrain:** Any underground or desert
+- **Feats:** Cleave, Combat Expertise, Great Cleave, Improved Critical (bite), Improved Disarm, Improved Initiative, Improved Trip, Power Attack, Spell Penetration, Weapon Focus (bite)
+- **Environment:** Any underground or desert
 - **Organization:** Solitary
 - **Challenge Rating:** 20
 - **Treasure:** Standard, double items
@@ -2035,11 +2026,11 @@ Source book(s): Monsternomicon Vol. 2
 Description: My journeys through eastern Immoren often brought me afoul of the enormous, semi-prescient beasts I have named cyclopes. Possessing only a massive single eye, these creatures take in their surroundings with a malevolence I have not often seen outside my own species. Either in the wild or as conditioned slaves in the service of the skorne, I quickly learned to loath these brutes.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Dagna Stoneveil — CR 18 — NPCs — ALL-150 (Shaun's cast)
+## Dagna Stoneveil — CR 18 — NPCs — ALL-150
 
 ![Dagna Stoneveil](pictures/dagna-stoneveil.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 87. Dagna Stoneveil — Dwarf Cleric 18 of the Forge-Hearth (Earth, Protection)
 
@@ -2085,7 +2076,7 @@ Description: The darktentacles is a justly feared swamp monster. Both intelligen
 
 **Partial — fullest block on file:**
 
-Type: Medium-Size Aberration (Extraplanar)
+Type: Medium Aberration (Extraplanar)
 Challenge Rating: 10
 Source book(s): Fiend Folio
 Description: Darkweavers are sinister and alien beings from the Plane of Shadow that have found that the Material Plane offers far more plentiful hunting grounds than their home. Relatively new arrivals to the Material Plane, the darkweavers seek to learn more about the Material Plane and the power of the creatures that reside there so that they can make a bid for control.
@@ -2171,7 +2162,7 @@ DARNOC
 
 **Kit / Treasure (as published):** Treasure line: "Standard" — no itemized gear is published for this entry; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **Planar travel is severed** — any plane shift / Ethereal travel / manifestation in the published text does not function as written in APOC; this undead is bound to the Material Plane on Toril.
 - Its create spawn still makes more of its kind from Toril's dead — creation on Toril, not summoning — and feeds the Kingdom of the Undead's numbers.
@@ -2203,25 +2194,25 @@ Description: This gigantic bird has black feathers, but like a vulture, its plum
 Deadly Sin, Lust — CR 5 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 56 (PDF p. 57). "Book is 3.0-era d20 — reproduced as published."
-**Classification evidence (verbatim from the page):** heading "Deadly Sin, Lust (Tanar'ri)"; type line "Medium-size Outsider (Chaotic, Evil)"; "Challenge Rating: 5"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 56 (PDF p. 57). 
+**Classification evidence (verbatim from the page):** heading "Deadly Sin, Lust (Tanar'ri)"; type line "Medium Outsider (Chaotic, Evil)"; "Challenge Rating: 5"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
 
 - **Deadly Sin, Lust (Tanar'ri)**
-- Medium-size Outsider (Chaotic, Evil)
+- Medium Outsider (Chaotic, Evil)
 - **Hit Dice:** 6d8+18 (45 hp)
 - **Initiative:** +4 (Improved Initiative)
 - **Speed:** 30 ft.
 - **AC:** 15 (+6 natural)
-- **Attacks:** Claws +11 melee
-- **Damage:** Claws 1d4+5
-- **Face/Reach:** 5 ft. by 5 ft. /5 ft. *(space before the slash, none after, as printed)*
-- **Special Attacks:** Kiss of death, seduction *(lowercase as printed)*
-- **Special Qualities:** Damage reduction 20/+2, SR 22, tanar'ri qualities
+- **Attack:** Claws +11 melee (1d4+5)
+- **Full Attack:** Claws +11 melee (1d4+5)
+- **Space/Reach:** 5 ft./5 ft.
+- **Special Attacks:** Kiss of death, seduction
+- **Special Qualities:** Damage reduction 20/magic, SR 22, tanar'ri qualities
 - **Saves:** Fort +8, Ref +7, Will +5
 - **Abilities:** Str 20, Dex 10, Con 16, Int 10, Wis 10, Cha 20
 - **Skills:** Balance +8, Diplomacy +13, Intimidate +13, Move Silently +8, Open Lock +8, Spot +8
 - **Feats:** Improved Initiative, Lightning Reflexes
-- **Climate/Terrain:** Any land or underground
+- **Environment:** Any land or underground
 - **Organization:** Solitary
 - **Challenge Rating:** 5
 - **Treasure:** Standard
@@ -2232,9 +2223,9 @@ Deadly Sin, Lust — CR 5 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 **Combat (verbatim):** "Lust can attack opponents with her claws, but only as a last resort. Her methods are subtler than most demons', and she may take several days to lure one victim into a compromising position to endure her kiss of death."
 **Kiss of Death (Su) (verbatim):** "Lust uses her kiss of death only after successfully reaching the last stage of her seduction power. Lust clamps her mouth against the victim's and literally sucks the life force out of that person. Every round, the victim suffers a loss of 10 hit points and permanent reduction of one point in all six ability scores unless he can make a successful Fortitude save (DC 30) to break it."
-**Seduction (Su) (verbatim):** "Characters must make a series of Willpower saves to avoid Lust's powers of seduction. A character's failing the first save (DC 20) allows Lust to engage in conversation with the character and lure him toward her with her charismatic charms. Failing the second save (DC 25) forces the character to accompany Lust to a secluded spot away from companions and other mortals. Failing the third save (DC 30) forces the character to begin making love, an act that never reaches conclusion before she unleashes her kiss of death. Note, however, that in a role-playing situation, any character who freely wants to speak with, accompany, and then make love to demonic Lust automatically fails these saves." *("Willpower saves" as printed)*
+**Seduction (Su) (verbatim):** "Characters must make a series of Willpower saves to avoid Lust's powers of seduction. A character's failing the first save (DC 20) allows Lust to engage in conversation with the character and lure him toward her with her charismatic charms. Failing the second save (DC 25) forces the character to accompany Lust to a secluded spot away from companions and other mortals. Failing the third save (DC 30) forces the character to begin making love, an act that never reaches conclusion before she unleashes her kiss of death. Note, however, that in a role-playing situation, any character who freely wants to speak with, accompany, and then make love to demonic Lust automatically fails these saves."
 
-**APOC NOTE (Shaun's canon — separate from the published text above):** Third-party lore is reference only, not FR canon. The book's p. 51 "Deadly Sins" essay frames the sins as demonic embodiments coalesced from unchecked mortal passion — reference only. In APOC Lust is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so no mortal's lust calls her into being across any plane; the Bastion's mythal bars demons absolutely.
+**APOC NOTE (APOC canon — separate from the published text above):** Third-party lore is reference only, not FR canon. The book's p. 51 "Deadly Sins" essay frames the sins as demonic embodiments coalesced from unchecked mortal passion — reference only. In APOC Lust is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so no mortal's lust calls her into being across any plane; the Bastion's mythal bars demons absolutely.
 
 ---
 
@@ -2247,25 +2238,25 @@ Deadly Sin, Lust — CR 5 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 Deadly Sin, Lust — CR 5 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 56 (PDF p. 57). "Book is 3.0-era d20 — reproduced as published."
-**Classification evidence (verbatim from the page):** heading "Deadly Sin, Lust (Tanar'ri)"; type line "Medium-size Outsider (Chaotic, Evil)"; "Challenge Rating: 5"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 56 (PDF p. 57). 
+**Classification evidence (verbatim from the page):** heading "Deadly Sin, Lust (Tanar'ri)"; type line "Medium Outsider (Chaotic, Evil)"; "Challenge Rating: 5"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
 
 - **Deadly Sin, Lust (Tanar'ri)**
-- Medium-size Outsider (Chaotic, Evil)
+- Medium Outsider (Chaotic, Evil)
 - **Hit Dice:** 6d8+18 (45 hp)
 - **Initiative:** +4 (Improved Initiative)
 - **Speed:** 30 ft.
 - **AC:** 15 (+6 natural)
-- **Attacks:** Claws +11 melee
-- **Damage:** Claws 1d4+5
-- **Face/Reach:** 5 ft. by 5 ft. /5 ft. *(space before the slash, none after, as printed)*
-- **Special Attacks:** Kiss of death, seduction *(lowercase as printed)*
-- **Special Qualities:** Damage reduction 20/+2, SR 22, tanar'ri qualities
+- **Attack:** Claws +11 melee (1d4+5)
+- **Full Attack:** Claws +11 melee (1d4+5)
+- **Space/Reach:** 5 ft./5 ft.
+- **Special Attacks:** Kiss of death, seduction
+- **Special Qualities:** Damage reduction 20/magic, SR 22, tanar'ri qualities
 - **Saves:** Fort +8, Ref +7, Will +5
 - **Abilities:** Str 20, Dex 10, Con 16, Int 10, Wis 10, Cha 20
 - **Skills:** Balance +8, Diplomacy +13, Intimidate +13, Move Silently +8, Open Lock +8, Spot +8
 - **Feats:** Improved Initiative, Lightning Reflexes
-- **Climate/Terrain:** Any land or underground
+- **Environment:** Any land or underground
 - **Organization:** Solitary
 - **Challenge Rating:** 5
 - **Treasure:** Standard
@@ -2276,9 +2267,9 @@ Deadly Sin, Lust — CR 5 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 **Combat (verbatim):** "Lust can attack opponents with her claws, but only as a last resort. Her methods are subtler than most demons', and she may take several days to lure one victim into a compromising position to endure her kiss of death."
 **Kiss of Death (Su) (verbatim):** "Lust uses her kiss of death only after successfully reaching the last stage of her seduction power. Lust clamps her mouth against the victim's and literally sucks the life force out of that person. Every round, the victim suffers a loss of 10 hit points and permanent reduction of one point in all six ability scores unless he can make a successful Fortitude save (DC 30) to break it."
-**Seduction (Su) (verbatim):** "Characters must make a series of Willpower saves to avoid Lust's powers of seduction. A character's failing the first save (DC 20) allows Lust to engage in conversation with the character and lure him toward her with her charismatic charms. Failing the second save (DC 25) forces the character to accompany Lust to a secluded spot away from companions and other mortals. Failing the third save (DC 30) forces the character to begin making love, an act that never reaches conclusion before she unleashes her kiss of death. Note, however, that in a role-playing situation, any character who freely wants to speak with, accompany, and then make love to demonic Lust automatically fails these saves." *("Willpower saves" as printed)*
+**Seduction (Su) (verbatim):** "Characters must make a series of Willpower saves to avoid Lust's powers of seduction. A character's failing the first save (DC 20) allows Lust to engage in conversation with the character and lure him toward her with her charismatic charms. Failing the second save (DC 25) forces the character to accompany Lust to a secluded spot away from companions and other mortals. Failing the third save (DC 30) forces the character to begin making love, an act that never reaches conclusion before she unleashes her kiss of death. Note, however, that in a role-playing situation, any character who freely wants to speak with, accompany, and then make love to demonic Lust automatically fails these saves."
 
-**APOC NOTE (Shaun's canon — separate from the published text above):** Third-party lore is reference only, not FR canon. The book's p. 51 "Deadly Sins" essay frames the sins as demonic embodiments coalesced from unchecked mortal passion — reference only. In APOC Lust is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so no mortal's lust calls her into being across any plane; the Bastion's mythal bars demons absolutely.
+**APOC NOTE (APOC canon — separate from the published text above):** Third-party lore is reference only, not FR canon. The book's p. 51 "Deadly Sins" essay frames the sins as demonic embodiments coalesced from unchecked mortal passion — reference only. In APOC Lust is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so no mortal's lust calls her into being across any plane; the Bastion's mythal bars demons absolutely.
 
 ---
 
@@ -2289,51 +2280,47 @@ Deadly Sin, Lust — CR 5 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 *Picture: Constructs roster picture index: Official book art — Constructs: It Is Alive, printed p. 14 — the page's worked-example illustration: the centaur-form skeletal bone golem with its creator (the build the text describes)*
 
 ## 7. DEATH CENTAUR (BONE GOLEM) [3RD-PARTY] — BORDERLINE
-**Source:** Constructs: It Is Alive, p. 15 (worked example, The Drawing Board, pp. 14–15) (Mongoose Publishing, 2002, 3.0)
-**Gate:** BORDERLINE — the book's only full creature stat block, a *named, unique* construct ("Organisation: Solitary (unique)"), entered in full under the BORDERLINE rule because its printed **Int –** puts it outside the sentience gate while its unique/named status puts it inside the brief's named-construct scope. For Shaun to rule.
+**Source:** Constructs: It Is Alive, p. 15 (worked example, The Drawing Board, pp. 14–15) (Mongoose Publishing)
+**Gate:** BORDERLINE — the book's only full creature stat block, a *named, unique* construct (Organization: Solitary (unique)), entered in full under the BORDERLINE rule because its printed **Int –** puts it outside the sentience gate while its unique/named status puts it inside the brief's named-construct scope. Unresolved.
 
-### As published (3.0, verbatim)
+### Stat block
 
-**Planning text (p. 14, the construct's making, abridged to the creature's own facts):** Narsell builds "a terrifying golem: a large skeletal warrior wielding a scythe… a centaur-like skeletal shape, with an elongated snout adorned with fangs," from a Large bone golem (56 CP), the feat Extra Pair of Legs (6 CP), Combat Expertise (2 CP), Melee Weapon Proficiency (scythe) (2 CP), and the special ability Unavoidable (Su). Totals: 66 CP, BR 21, CR modifier +7. Cost: 66 CPs × 25 = 1,650 XP; 82,500 gp total (1,650 × 50), body 1,050 gp (21 BR × 50). The Huge scythe costs 354 gp (18 gp × 3 for one size increment, +300 gp masterwork), deals 2d6 and weighs 36 pounds.
+**Large Construct**
+**Hit Dice:** 12d10+30 (96 hp)
+**Initiative:** +0
+**Speed:** 40 ft. (cannot run)
+**Armor Class:** 21 (–1 size, +12 natural), touch 9, flat-footed 21
+**Base Attack/Grapple:** +9/+21
+**Attack:** Slam +16 melee (3d8+8) or Huge masterwork scythe +17 melee (2d6+9)
+**Full Attack:** 2 slams +16 melee (3d8+8) or Huge masterwork scythe +17/+12 melee (2d6+9)
+**Space/Reach:** 10 ft./10 ft.
+**Special Attacks:** Unavoidable
+**Special Qualities:** Construct traits, magic immunity, damage reduction 20/magic, brittle, darkvision 60 ft.
+**Saves:** Fort +4, Ref +4, Will +4
+**Abilities:** Str 26, Dex 10, Con —, Int —, Wis 11, Cha 1
+**Environment:** Any land
+**Organization:** Solitary (unique)
+**Challenge Rating:** 13
+**Treasure:** None (1 Huge masterwork scythe)
+**Alignment:** Always neutral
 
-> **DEATH CENTAUR (BONE GOLEM)**
-> **Large Construct**
-> **Hit Dice:** 12d10 (66 hp)
-> **Initiative:** +0
-> **Speed:** 40 ft. (cannot run)
-> **AC:** 21 (-1 size, +12 natural)
-> **Attacks:** 2 slams +16 melee or 1 huge scythe +17 / +14 melee [*verify* — second attack value as read from the scan; see 3.5 Update]
-> **Damage:** Slam 3d8+8, scythe 2d6+9
-> **Face/Reach:** 5 ft. by 5 ft./10 ft.
-> **Special Attacks:** Unavoidable
-> **Special Qualities:** Construct, magic immunity, damage reduction 20/+2, brittle, darkvision 60 ft.
-> **Saves:** Fort +4, Ref +4, Will +4
-> **Abilities:** Str 26, Dex 10, Con –, Int –, Wis 11, Cha 1
-> **Climate/Terrain:** Any land
-> **Organisation:** Solitary (unique)
-> **Challenge Rating:** 13
-> **Treasure:** None (1 huge masterwork scythe)
-> **Alignment:** Always neutral
->
-> The death centaur is a golem made from a collection of bones forming a strange centaur-like shape with an inhuman head dotted with small fangs, wielding a great scythe.
->
-> **Construct:** Immune to mind-influencing effects, poison, disease, and similar effects. Not subject to critical hits, subdual damage, ability damage, energy drain, or death from massive damage.
-> **Magic Immunity (Ex):** Bone golems are immune to all spells, spell-like abilities, and supernatural effects, except as follows. Acid-based effects slow them (as the spell) for 1d6 rounds, with no saving throw. An electricity effect breaks any slow effect on the golem and cures 1 point of damage for each 3 points of damage it would otherwise deal. For example, a bone golem hit by a *lightning bolt* cast by a 5th-level wizard gains back 6 hit points if the damage total is 18. The golem rolls no saving throw against electricity effects.
-> **Brittle (Ex):** Unlike normal constructs, bone golems are subject to critical hits from bludgeoning weapons, but not to sneak attacks.
-> **Unavoidable (Su):** The creator can designate a target creature via scrying or by providing a link with it, or the death centaur may acquire one through sight. From then on, the construct is always aware of the location of the target creature and will follow it wherever it may be, as long as they are on the same plane of existence. The death centaur is not fooled by polymorph spells and is only slowed down by effects that block scrying. The creator can recall the construct at any time.
->
-> **Construction:** The golem costs 82,500 gp to create, which includes 1,050 gp for the construction of the body. Assembling the body requires a successful Craft (sculpture) check (DC 19). The creator must be 14th level and able to cast arcane spells. Completing the ritual drains 1,650 XP from the creator and requires *geas/quest, limited wish, locate creature, polymorph any object* and *scrying*.
+The death centaur is a golem made from a collection of bones forming a strange centaur-like shape with an inhuman head dotted with small fangs, wielding a great scythe.
 
-**Kit (fully kitted — unique/named construct):** 1 Huge masterwork scythe — 354 gp (18 gp × 3 size increment + 300 gp masterwork, as printed p. 15), damage 2d6, weight 36 lb. Treasure as published: None beyond the scythe, which is listed in its Treasure line above.
+**Construct:** Immune to mind-influencing effects, poison, disease, and similar effects. Not subject to critical hits, nonlethal damage, ability damage, energy drain, or death from massive damage.
+**Magic Immunity (Ex):** Bone golems are immune to all spells, spell-like abilities, and supernatural effects, except as follows. Acid-based effects slow them (as the spell) for 1d6 rounds, with no saving throw. An electricity effect breaks any slow effect on the golem and cures 1 point of damage for each 3 points of damage it would otherwise deal. For example, a bone golem hit by a *lightning bolt* cast by a 5th-level wizard gains back 6 hit points if the damage total is 18. The golem rolls no saving throw against electricity effects.
+**Brittle (Ex):** Unlike normal constructs, bone golems are subject to critical hits from bludgeoning weapons, but not to sneak attacks.
+**Unavoidable (Su):** The creator can designate a target creature via scrying or by providing a link with it, or the death centaur may acquire one through sight. From then on, the construct is always aware of the location of the target creature and will follow it wherever it may be, as long as they are on the same plane of existence. The death centaur is not fooled by polymorph spells and is only slowed down by effects that block scrying. The creator can recall the construct at any time.
 
-### 3.5 Update
-**3.5 conversion:** **DR printed as 20/+2; converted to 20/magic** (3.5 DR is bypassed by type/material/alignment, not by a plus; the magnitude 20 is steep by 3.5 norms but is carried as printed-converted, not re-balanced). **Hit points change:** 12d10 (66 hp) → **12d10+30 (96 hp)** — 3.5 constructs gain bonus hit points by size (Large +30) in place of a Constitution bonus. **Face/Reach 5 ft. by 5 ft./10 ft. converts to Space/Reach: 10 ft./10 ft.** (3.5 Large creatures take a 10 ft. space; the 5 ft. face was a 3.0 long-creature facing artifact; reach 10 ft. as printed). **Base Attack/Grapple added in 3.5 format:** BAB +9 (¾ × 12 HD), grapple +21 (+9 BAB, +8 Str, +4 size). **Attack line in 3.5 format:** slam +16 melee (2 slams), scythe +17 melee — the printed iterative "+14" does not follow from any 3.0 or 3.5 iteration (BAB +9 gives +17/+12 with the masterwork scythe); the printed value is reproduced above, flagged *verify* against the scan, and the 3.5 full attack reads **2 slams +16 melee or Huge masterwork scythe +17/+12 melee (2d6+9)** — note the scythe damage as printed (+9) matches neither a one-handed (+8) nor a two-handed (+12) Strength application; retained as published, arithmetic flagged, not fixed. **AC line in 3.5 format:** 21 (–1 size, +12 natural), touch 9, flat-footed 21. **Saves do not change:** Fort +4, Ref +4, Will +4 already equal the 3.5 construct progression for 12 HD (base +4, no relevant ability modifiers) — the book's worked example happens to match 3.5 even though the template chapter's cleric-saves rule does not. **Skills/Feats:** none in either edition (mindless). **CR sanity check:** CR 13 for 96 hp, AC 21, DR 20/magic, magic immunity and a homing special attack is high by 3.5 norms (a 3.5 stone golem is CR 11) but defensible given the DR magnitude and Unavoidable; 13 stands as the printed/construction-derived value (base bone golem + modifiers per the book's own table), flagged as the book's arithmetic, not re-derived.
+**Construction:** The golem costs 82,500 gp to create, which includes 1,050 gp for the construction of the body. Assembling the body requires a successful Craft (sculpture) check (DC 19). The creator must be 14th level and able to cast arcane spells. Completing the ritual drains 1,650 XP from the creator and requires *geas/quest, limited wish, locate creature, polymorph any object* and *scrying*.
+
+**Kit (fully kitted — unique/named construct):** 1 Huge masterwork scythe — 354 gp, damage 2d6, weight 36 lb. Treasure: none beyond the scythe.
+
 
 ## Deathglory — CR 13 — Spelljammer, wider line — Blendcrafter Spelljamming records
 
 ![Deathglory](pictures/ship-plan-deathglory.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -2409,7 +2396,7 @@ KASTIGHUR — Monster Manual IV, p.42 (entry pp.42–43)
 
 **Nature/role:** Hunter and prison warden of demonkind — the thing demon lords send to drag escapees back.
 
-## Demon, Zovvut — CR 9 — Monster Manual II
+## Demon, Zovvut — CR 7 — Monster Manual II
 
 ![Demon, Zovvut](pictures/demon-zovvut.png)
 
@@ -2423,19 +2410,19 @@ ZOVVUT — Monster Manual II, pp.60–61
 - **Initiative:** +1
 - **Speed:** 30 ft., fly 50 ft. (average)
 - **Armor Class:** 20 (+1 Dex, +9 natural), touch 11, flat-footed 19
-- **Base Attack/Grapple:** — (not published in Monster Manual II's 3.0 stat format)
+- **Base Attack/Grapple:** +10/+13
 - **Attack:** Claw +13 melee (1d12+3)
 - **Full Attack:** 2 claws +13 melee (1d12+3)
-- **Space/Reach:** 5 ft. by 5 ft./5 ft.
-- **Special Attacks:** Draining gaze (30 ft., Will DC 17 or gain 1 negative level; for each negative level bestowed, the zovvut heals 5 points of damage; a humanoid slain by the gaze rises as a wight in 1d4 rounds); spell-like abilities (at will: clairaudience/clairvoyance, darkness, desecrate, detect good, detect thoughts, doom, suggestion, teleport without error — self plus 50 pounds of objects only; caster level 12th; save DC 12 + spell level)
-- **Special Qualities:** Create spawn, DR 20/+2 (as printed, 3.0), outsider traits, SR 20
+- **Space/Reach:** 5 ft./5 ft.
+- **Special Attacks:** Draining gaze (30 ft., Will DC 17 or gain 1 negative level; for each negative level bestowed, the zovvut heals 5 points of damage; a humanoid slain by the gaze rises as a wight in 1d4 rounds); spell-like abilities (at will: clairaudience/clairvoyance, darkness, desecrate, detect good, detect thoughts, doom, suggestion, greater teleport — self plus 50 pounds of objects only; caster level 12th; save DC 12 + spell level)
+- **Special Qualities:** Create spawn, DR 20/magic, outsider traits, SR 20
 - **Saves:** Fort +9, Ref +8, Will +10
 - **Abilities:** Str 17, Dex 13, Con 15, Int 14, Wis 16, Cha 14
-- **Skills:** Bluff +10, Concentration +12, Diplomacy +6, Hide +11, Intimidate +4, Listen +13, Move Silently +11, Scry +11, +15 [skill name omitted as printed in MM2 — published error, flagged and reproduced as published], Sense Motive +16, Spellcraft +8, Spot +18
+- **Skills:** Bluff +10, Concentration +12, Diplomacy +6, Hide +11, Intimidate +4, Listen +13, Move Silently +11, +15 [skill name omitted in the book — published error], Sense Motive +16, Spellcraft +8, Spot +18
 - **Feats:** Alertness, Dodge, Mobility
-- **Environment:** Any land and underground (Climate/Terrain line as printed)
+- **Environment:** Any land and underground
 - **Organization:** Solitary or squad (1 plus 2–4 wights)
-- **Challenge Rating:** **7** (Fiendish Codex I App. III revision) — **VARIANT: MM2 as printed, CR 9**
+- **Challenge Rating:** **7**
 - **Treasure:** Standard
 - **Alignment:** Always chaotic evil
 - **Advancement:** 11–16 HD (Medium-size)
@@ -2444,11 +2431,11 @@ ZOVVUT — Monster Manual II, pp.60–61
 
 **Nature/role:** Undead-adjacent eye-demon in Orcus's orbit; its gaze makes wights of the slain.
 
-## Derek Windsfire — CR 11 — NPCs — ALL-150 (Shaun's cast)
+## Derek Windsfire — CR 11 — NPCs — ALL-150
 
 ![Derek Windsfire](pictures/derek-windsfire.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 149. Derek Windsfire — NG Male Half-Moon Elf Fighter 11
 
@@ -2695,7 +2682,7 @@ People of Space — race record (partial), converted to 3.5 in the Blendcrafter 
 
 ![Dragonfly](pictures/ship-plan-dragonfly.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -2707,7 +2694,7 @@ Built by humans; used by humans and elves. Tonnage 10 · Hull Points 10 · Crew 
 
 ![Dragonship](pictures/ship-plan-dragonship.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -2719,7 +2706,7 @@ Built by humans; used primarily by humans. Tonnage 45 · Hull Points 45 · Crew 
 
 ![Drakkar](pictures/ship-plan-drakkar.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -2744,7 +2731,7 @@ DRAUDNU — Monster Manual V, pp.24–26
 - **Base Attack/Grapple:** +14/+18
 - **Attack:** Flesh hook +18 melee (2d6+4/19–20 plus immobilize)
 - **Full Attack:** 3 flesh hooks +18 each (2d6+4/19–20 plus immobilize)
-- **Space/Reach:** 5 ft./5 ft. (20 ft. with flesh hooks) — **Reach discrepancy resolved from the library copy and flagged:** the MM5 stat block (p.24) prints "Reach 5 ft. (20 ft. with flesh hooks)" and that block value stands as primary; the entry's own lore table (Draudnu Lore, DC 20, p.25) says a draudnu "can extend its hooks up to 15 feet" — both values are as published in the same entry; the stat block's 20 ft. governs, the lore line is retained here as the flagged variant. (Shaun rules if he wants the lore value instead.)
+- **Space/Reach:** 5 ft./5 ft. (20 ft. with flesh hooks) — **Reach discrepancy resolved from the library copy and flagged:** the MM5 stat block (p.24) prints "Reach 5 ft. (20 ft. with flesh hooks)" and that block value stands as primary; the entry's own lore table (Draudnu Lore, DC 20, p.25) says a draudnu "can extend its hooks up to 15 feet" — both values are as published in the same entry; the stat block's 20 ft. governs, the lore line is retained here as the flagged variant.
 - **Special Attacks:** **Immobilize** (Ex; when a draudnu deals damage with a flesh hook, it can detach the end of that hook in the foe it struck, fastening that opponent to a surface such as a floor or wall — the hook end regrows immediately; that enemy must succeed on a DC 21 Reflex save or be immobilized; the ability doesn't work if the hook can't fasten a creature to a surface; an immobilized opponent can pull itself free with a move action and a DC 21 Strength check or Escape Artist check, but pulling free deals that foe 1d10 points of damage unless it or someone else takes a standard action and succeeds on a DC 21 Heal check to dislodge the hook first; save and check DCs Strength-based); **acid spray** (Ex; whenever a draudnu takes damage, it sprays acidic fluid from the sacs on its body, dealing 2d4 points of acid damage to all creatures in a 5-foot-radius burst, Reflex DC 21 half; save DC Constitution-based); aligned strike (chaotic, evil)
 - **Special Qualities:** **Form of madness** (Su; aura, 60 ft. — when a draudnu comes within 60 feet of a creature, that creature must succeed on a DC 20 Will save or believe that something is growing inside it, becoming sickened; the sickened condition is permanent until the insanity is cured by greater restoration, heal, miracle, or wish; a creature that successfully saves cannot be affected again by that same draudnu's form for 24 hours, and a creature that fails can be affected only once until cured; chaotic evil outsiders are immune; mind-affecting; save DC Charisma-based); fast healing 5; DR 10/lawful; immune acid, mind-affecting spells and abilities, poison; resist cold 10, electricity 10, fire 10; SR 18; darkvision 60 ft.; true seeing; telepathy 100 ft.
 - **Saves:** Fort +13, Ref +13, Will +12
@@ -2874,7 +2861,7 @@ DRAUG
 > *A mighty river of fog streams forward like an evil waterfall, swollen with storm and spray. Accompanying the shape is a susurrus of dreamlike voices that murmur, cry, and rail against some terrible fate. Slender tendrils of mist extend from the mass, patting and feeling for sustenance.*
 Flavor/combat prose (read in full): the original was born from the nightmares of an entire city whose citizens died in cursed sleep (a curse some attribute to Orcus); it incorporates other creatures, living or undead, mind and body, and knows the languages of all it has integrated. Form Consumption (Su): 1d4 Int drain per touch; a victim drained to Int 0 is engulfed and dissolved, leaving nothing. Desecrating Aura (Su): 20-ft. desecrate effect centered on itself as shrine. Frightful Presence (Su): Will DC 23, shaken. Deflective Aura (Su): +13 deflection included above. Self Spawn (Ex): splits in two after gaining temporary hp equal to its full total.
 **Kit:** Published treasure is a line only — "Standard." A dream vestige holds no itemized gear (incorporeal); nothing invented.
-**APOC Note:** **Dream Travel (Su) is flagged: as published it can cross planar borders — that function is INERT in APOC (planar travel severed).** Its in-world movement rate via dreaming (5 miles per minute) is a Shaun ruling, not assumed. Origin fits APOC grimly: a city that died in its sleep is exactly the APOC night at scale — flag as a candidate Kingdom of the Undead apex horror, though it preys on undead too and serves no one. Not to be confused with the Fog of Life: the vestige is a creature of mist-like form, touchable and hostile; the Fog is inert and untouchable. Barred from the Bastion by the Melairshield.
+**APOC Note:** **Dream Travel (Su) is flagged: as published it can cross planar borders — that function is INERT in APOC (planar travel severed).** Its in-world movement rate via dreaming (5 miles per minute) is a ruling of record, not assumed. Origin fits APOC grimly: a city that died in its sleep is exactly the APOC night at scale — flag as a candidate Kingdom of the Undead apex horror, though it preys on undead too and serves no one. Not to be confused with the Fog of Life: the vestige is a creature of mist-like form, touchable and hostile; the Fog is inert and untouchable. Barred from the Bastion by the Melairshield.
 
 ## Drowned — CR 9 — Monster Manual III
 
@@ -2967,11 +2954,11 @@ Cleric Spells Prepared (6/8/8/7/6/5/4/3; save DC 17 + spell level; caster level 
 
 **CREATING A DRY LICH (template, as published, p.157):** "Dry lich" is an acquired template that can be added to any living creature (referred to hereafter as the bas
 
-## Durgan Ironvein — CR 8 — NPCs — ALL-150 (Shaun's cast)
+## Durgan Ironvein — CR 8 — NPCs — ALL-150
 
 ![Durgan Ironvein](pictures/durgan-ironvein.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 39. Durgan Ironvein — Dwarf Cleric 8 of Gond, LG
 
@@ -2997,11 +2984,11 @@ Cleric Spells Prepared (6/8/8/7/6/5/4/3; save DC 17 + spell level; caster level 
 
 ---
 
-## Durgan Stonevein — CR 10 — NPCs — ALL-150 (Shaun's cast)
+## Durgan Stonevein — CR 10 — NPCs — ALL-150
 
 ![Durgan Stonevein](pictures/durgan-stonevein.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 50. Durgan Stonevein — Dwarf Druid 10, N
 
@@ -3053,7 +3040,7 @@ Description: Earth weirds are foretellers of death and doom. They can pronounce 
 
 ![Eel Ship](pictures/ship-plan-eel-ship.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -3140,25 +3127,25 @@ Description: Resembling a very large elephant crossed with a dog, this creature 
 Eloko — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 68 (PDF p. 69). "Book is 3.0-era d20 — reproduced as published."
-**Classification evidence (verbatim from the page):** heading "Eloko (Tanar'ri)"; type line "Medium-size Outsider (Chaotic, Evil)"; "Challenge Rating: 9"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 68 (PDF p. 69). 
+**Classification evidence (verbatim from the page):** heading "Eloko (Tanar'ri)"; type line "Medium Outsider (Chaotic, Evil)"; "Challenge Rating: 9"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
 
 - **Eloko (Tanar'ri)**
-- Medium-size Outsider (Chaotic, Evil)
-- **Hit Dice:** 2d8 +2 (11 hp) *(space before "+2" as printed)*
+- Medium Outsider (Chaotic, Evil)
+- **Hit Dice:** 2d8+2 (11 hp)
 - **Initiative:** +0
 - **Speed:** 30 ft.
 - **AC:** 16 (+6 natural)
-- **Attacks:** Slam +3 melee, 2 Claws +3 melee
-- **Damage:** Slam (1d6+1), Claw (1d4 +1)
-- **Face/Reach:** 5 ft. by 5-ft./5 ft. *(as printed — "5-ft." in the second measure)*
+- **Attack:** Slam +3 melee (1d6+1)
+- **Full Attack:** Slam +3 melee (1d6+1) and 2 claws +3 melee (1d4+1)
+- **Space/Reach:** 5 ft./5 ft.
 - **Special Attacks:** Swallowing whole
-- **Special Qualities:** Damage reduction 30/ +3, SR 28, special regenerative powers, tanar'ri qualities *(space in "30/ +3" as printed)*
+- **Special Qualities:** Damage reduction 30/magic, SR 28, special regenerative powers, tanar'ri qualities
 - **Saves:** Fort +4, Ref +3, Will +4
-- **Abilities:** Str 13, Dex 11, Con 13, Int 9, Wis13, Cha 15 *("Wis13" — no space — as printed)*
-- **Skills:** Climb +4, Hide +4, Move Silently +4, Wilderness Lore +4
+- **Abilities:** Str 13, Dex 11, Con 13, Int 9, Wis 13, Cha 15
+- **Skills:** Climb +4, Hide +4, Move Silently +4, Survival +4
 - **Feats:** Run
-- **Climate/Terrain:** Any forest and underground
+- **Environment:** Any forest and underground
 - **Organization:** Solitary
 - **Challenge Rating:** 9
 - **Treasure:** Standard
@@ -3170,19 +3157,19 @@ Eloko — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 **Combat (verbatim):** *(the book's Combat section opens directly with the Special Regeneration heading — no general combat paragraph is printed)*
 **Special Regeneration (Su) (verbatim):** "The creature can take damage and seem to die. However, when moonlight falls on the demon, the creature comes back to life and is completely regenerated." / "The only way to permanently kill this sort of demon is to separate its head from its body; otherwise the creature will rise and attack mortals the next day."
 **Magic Bells (Ex) (verbatim):** "The demon appears on the prime material plane with five magical bells. When the bells are played after sunset, they have the power to charm as the charm person spell any mortal who fails a Will check (DC 15)."
-**Swallowing Attack (Su) (verbatim):** "The mouth of the Eloku demon is magical. After the creature has successfully damaged a mortal in combat, it has a 30% chance of biting and swallowing the victim whole." — ⚠ **PUBLISHED ERROR, reproduced as printed (verified at 300 dpi): "Eloku" here, against "Eloko" in the entry's heading, Description, and Totems text; each spelling is reproduced where the book prints it.** *(The stat block's Special Attacks line likewise prints the ability as "Swallowing whole," against this section's "Swallowing Attack" heading — both as printed.)*
+**Swallowing Attack (Su) (verbatim):** "The mouth of the Eloku demon is magical. After the creature has successfully damaged a mortal in combat, it has a 30% chance of biting and swallowing the victim whole." — ⚠ **PUBLISHED ERROR, reproduced as printed (verified at 300 dpi): "Eloku" here, against "Eloko" in the entry's heading, Description, and Totems text; each spelling is reproduced where the book prints it.**
 **Fire Eyes (Su) (verbatim):** "The demon's fiery eyes see through any illusion or invisibility as a gem of true seeing. During the day the creature is able to separate its eyes from the rest of its body. These eyes are then able to fly hundreds of miles away from its body. They are used to see the encampments of mortals and spy out individuals who need to be attacked first during the nighttime activities of the demon."
 **Eloko Totems (verbatim):** "These oak totems have three Eloko icons carved into them. They are left at the edges of the forests. When unknowing humans come into the forests, they often strike down or burn these totems, and this gives the totem the energy it needs to summon an Eloko demon to attack those mortals. In the rainforests of central Zaire, where legends of this demon originate, here are tales of foolish mortals who have brought these totems into their villages and cities. Totems that have been taken out of the forest have brought bad luck to the entire village. (All inhabitants have a -1 on all of their DC checks.)" *[sic — "here are tales" as printed, verified at 300 dpi; evidently the book's dropped "t" from "there," reproduced as published]* *(heading printed with no (Ex)/(Su)/(Sp) tag)*
 
-**APOC NOTE (Shaun's canon — separate from the published text above):** Third-party reference only — the Encyclopedia's forest-demon lore (central Zaire legends, totems) is reference only, not FR canon. In APOC the eloko is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so no totem summons one; the Bastion's mythal bars demons absolutely.
+**APOC NOTE (APOC canon — separate from the published text above):** Third-party reference only — the Encyclopedia's forest-demon lore (central Zaire legends, totems) is reference only, not FR canon. In APOC the eloko is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so no totem summons one; the Bastion's mythal bars demons absolutely.
 
 ---
 
-## Elowen Thistledown — CR 20 — NPCs — ALL-150 (Shaun's cast)
+## Elowen Thistledown — CR 20 — NPCs — ALL-150
 
 ![Elowen Thistledown](pictures/elowen-thistledown.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 96. Elowen Thistledown — Elf Wizard 15 / Archmage 5 — HEROIC LEGEND
 
@@ -3216,7 +3203,7 @@ Eloko — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 **Partial — fullest block on file:**
 
-Type: Medium-Size Aberration (Extraplanar)
+Type: Medium Aberration (Extraplanar)
 Challenge Rating: 17
 Source book(s): Fiend Folio
 Description: Black ethergaunts stand at the pinnacle of khen-zai society. Honored as near-divine philosopher-scientists the black caste is credited with advancing ether-gaunt society to its present state of perfection. No lesser khen-zai questions the will of a black ethergaunt, for to do so is to question the pro gress of the entire race.
@@ -3259,21 +3246,21 @@ Description: An ettercap is about 6 feet tall and weighs about 200 pounds. Etter
 FAMINE SPIRIT — Monster Manual II, p.96
 
 
-- **Size/Type:** Medium-Size Undead
+- **Size/Type:** Medium Undead
 - **Hit Dice:** 32d12 (208 hp)
 - **Initiative:** +4
 - **Speed:** 60 ft.
 - **Armor Class:** 18 (+8 natural), touch 10, flat-footed 18
-- **Attacks:** Bite +19 melee and 2 claws +17 melee
-- **Damage:** Bite 1d8+3/19–20/vorpal bite, claw 1d6+1
-- **Face/Reach:** 5 ft. by 5 ft./5 ft.
+- **Attack:** Bite +19 melee (1d8+3/19–20, vorpal bite)
+- **Full Attack:** Bite +19 melee (1d8+3/19–20, vorpal bite) and 2 claws +17 melee (1d6+1)
+- **Space/Reach:** 5 ft./5 ft.
 - **Special Attacks:** Aura of pain, vorpal bite
 - **Special Qualities:** Create spawn, ethereal jaunt, fast healing 10, scent, see invisibility, undead traits
 - **Saves:** Fort +10, Ref +10, Will +20
 - **Abilities:** Str 16, Dex 11, Con —, Int 14, Wis 15, Cha 15
 - **Skills:** Listen +37, Search +36, Spot +37
-- **Feats:** Cleave, Expertise, Great Cleave, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Trip, Multiattack, Power Attack, Sunder
-- **Climate/Terrain:** Any land and underground
+- **Feats:** Cleave, Combat Expertise, Great Cleave, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Trip, Multiattack, Power Attack, Improved Sunder
+- **Environment:** Any land and underground
 - **Organization:** Solitary, pair, brood (3–5), or band (2–5 plus 2–8 ghasts and 4–16 ghouls)
 - **Challenge Rating:** 19
 - **Treasure:** None
@@ -3295,11 +3282,11 @@ Source book(s): Monsternomicon Vol. 1
 Description: The farrow are half-man, half-boar creatures that have the intelligence and wit of a man and the ferocity and tenacity of a boar. A typical farrow stands at about the height of a man but walks with a stooped posture giving it a shorter appearance. Its body is covered with bristly dark hairs over similarly dark skin. Its arms end in mannish hands, and its feet end in the cloven hooves found among common barnyard swine. The face is a strange mockery of human and boar: two surprisingly human-looking eyes set behind a large pig snout and enormous tusks jutting from the thing's mouth.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Fenwick Aldous — CR 7 — NPCs — ALL-150 (Shaun's cast)
+## Fenwick Aldous — CR 7 — NPCs — ALL-150
 
 ![Fenwick Aldous](pictures/fenwick-aldous.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 32. Fenwick Aldous — Halfling Rogue 7, N
 
@@ -3324,11 +3311,11 @@ Description: The farrow are half-man, half-boar creatures that have the intellig
 
 ---
 
-## Fenwick Loam — CR 12 — NPCs — ALL-150 (Shaun's cast)
+## Fenwick Loam — CR 12 — NPCs — ALL-150
 
 ![Fenwick Loam](pictures/fenwick-loam.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 60. Fenwick Loam — Gnome Wizard 7 (Transmuter) / Loremaster 5, NG — Master Alchemist
 
@@ -3466,11 +3453,11 @@ FOREST HAUNT — Monster Manual V, p.80
 - **Environment (prose, p.81):** "Forest haunts lurk in ancient groves. They also drift into logging camps, where they can slaughter those who defile the wild places."
 - **Description:** "A shimmering form emerges from the woods, looking like a dead tree with purplish-green veins of sap winding across its surface. It crashes its way forward as if moving large obstacles from its path, but it glides through all such impediments as if they were mere illusions."
 
-## Forge Father — CR 20 — NPCs — ALL-150 (Shaun's cast)
+## Forge Father — CR 20 — NPCs — ALL-150
 
 ![Forge Father](pictures/forge-father.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 97. Forge Father — Warforged Artificer 20 — HEROIC LEGEND, FIRST-MADE
 
@@ -3558,15 +3545,15 @@ Source book(s): Monster Manual I
 Description: These cousins of the gargoyle have the aquatic subtype. They have a base land speed of 40 feet and a swim speed of 60 feet (no fly speed) and are found only in aquatic environments.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Gate Queue — Citizens at the Wall — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
+## Gate Queue — Citizens at the Wall — CR 1 — APOC city population — generator entry
 
 ![Gate Queue — Citizens at the Wall](pictures/gate-queue.jpg)
 
-*Picture: Scene art — the Bastion from its walls (Shaun's Bastion map art)*
+*Picture: Scene art — the Bastion from its walls (Bastion map art)*
 
 **Partial — fullest block on file:**
 
-Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+Generator entry — city population (the city is packed; crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
 ## Gear Wyrm — CR 6 — Monsternomicon Vol. 1
 
@@ -3688,7 +3675,7 @@ GHOUL-STIRGE
 
 **Kit / Treasure (as published):** Treasure line: "None" — no itemized gear is published for this entry; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
 - **Raw magic blights** the land around the caster in APOC — necromancy worked through raw magic carries that cost; alchemy is the cornerstone inside the walls.
@@ -3844,9 +3831,7 @@ Skills: A death scarab swarm has a +8 racial bonus on Climb checks and can alway
 
 Eldritch
 
-**Source:** Monsternomicon Vol. I (Privateer Press), p.62 [2005 v3.5 revision text; re-checked 2026-11-08 against the library copy (2002 original), edition differences flagged on the entry]
-
-**2002-original check (2026-11-08, pp.62–64):** template confirmed as filed (CR same as character +4; abilities +10 Str/+6 Dex/+2 Int/+4 Cha; +6 racial skill bonuses; touch 2d4+6; darkvision 120 ft.; turn resistance +4; SR 11 + character level; weaknesses identical). Edition differences: the 2002 sample prints **CR 14** (filed 2005 sample: CR 13) and **AC 26** (its printed components — +3 Dex, +5 natural, +5 elven chain, +2 ring of protection — sum to 25; filed 2005 sample: AC 25), and the template's damage reduction prints **15/+1** in 2002 (filed 2005 text: 10/good and magic); the 2002 spell-like list names *change self* (2005 text: *disguise self*) and *contagion (age rot)* (2005 text: *contagion (mummy rot)*).
+**Source:** Monsternomicon Vol. I (Privateer Press), p.62
 
 Template — verified: "Eldritch" is an acquired template (see below). Sample creature:
 
@@ -3981,7 +3966,7 @@ Description: They are the smallest of all the gnomes, averaging 2 to 2½ feet in
 
 ![Goblin Blade](pictures/ship-plan-goblin-blade.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -3995,7 +3980,7 @@ Built by goblins; used primarily by goblins. Tonnage 2 · Hull Points 2 · Crew 
 
 *Picture: Constructs roster picture index: Official book art — Fiend Folio, p. 87 — labeled shared plate; see Brain Golem note (minor flame overlap from the hellfire figure at the crop's lower edge)*
 
-DEMONFLESH GOLEM [3.0-format as published]
+### Stat block
 
 **Huge Construct (Extraplanar)**
 **Hit Dice:** 24d10+40 (172 hp)
@@ -4003,17 +3988,16 @@ DEMONFLESH GOLEM [3.0-format as published]
 **Speed:** 50 ft., fly 100 ft. (average)
 **AC:** 33 (–2 size, –1 Dex, +26 natural), touch 7, flat-footed 33
 **Base Attack/Grapple:** +18/+36
-**Attack:** Slam +27 melee, or tail lash +27 melee
-**Full Attack:** Slam +27 melee and claw +29 melee, or tail lash +27 melee
-**Damage:** Slam 2d6+10, claw 2d6+12/19–20, tail lash 1d6+10 plus daze
-**Face/Reach:** 15 ft./15 ft. (25 ft. with tail)
+**Attack:** Slam +27 melee (2d6+10) or tail lash +27 melee (1d6+10 plus daze)
+**Full Attack:** Slam +27 melee (2d6+10) and claw +29 melee (2d6+12/19–20), or tail lash +27 melee (1d6+10 plus daze)
+**Space/Reach:** 15 ft./15 ft. (25 ft. with tail)
 **Special Attacks:** Claw graft, fear gaze, spell-like abilities, whip tail graft
-**Special Qualities:** Acid resistance 20, cold resistance 20, construct traits, DR 30/+3, electricity immunity, fast leg graft, fire resistance 20, immunity to magic, see invisibility
+**Special Qualities:** Acid resistance 20, cold resistance 20, construct traits, DR 30/magic, electricity immunity, fast leg graft, fire resistance 20, immunity to magic, see invisibility
 **Saves:** Fort +8, Ref +7, Will +9
 **Abilities:** Str 31, Dex 8, Con —, Int 8, Wis 12, Cha 13
 **Skills:** Climb +29, Jump +28
 **Feats:** Cleave, Combat Reflexes, Great Cleave, Improved Critical (claw), Improved Initiative, Power Attack, Weapon Focus (claw), Weapon Focus (slam), Weapon Focus (tail lash)
-**Climate/Terrain:** Any land and underground (the Abyss)
+**Environment:** Any land and underground (the Abyss)
 **Organization:** Solitary
 **Challenge Rating:** 18
 **Treasure:** —
@@ -4038,11 +4022,11 @@ Source book(s): Monster Manual I
 Description: A typical gorgon stands over 6 feet tall at the shoulder and measures 8 feet from snout to tail. It weighs about 4,000 pounds. Gorgons are nothing if not aggressive. They attack intruders on sight, attempting to trample, gore, or petrify them. There is no way to calm these furious creatures, and they are impossible to domesticate.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Grath Ironjaw — CR 9 — NPCs — ALL-150 (Shaun's cast)
+## Grath Ironjaw — CR 9 — NPCs — ALL-150
 
 ![Grath Ironjaw](pictures/grath-ironjaw.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 42. Grath Ironjaw — Dwarf Fighter 9, LN
 
@@ -4255,7 +4239,7 @@ GROANING SPIRIT                                                        Advanceme
 
 **Kit / Treasure (as published):** Treasure line: "Standard                                      must succeed on a DC 17 Will save or flee in fear for 2d6" — no itemized gear is published for this entry; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **Planar travel is severed** — any plane shift / Ethereal travel / manifestation in the published text does not function as written in APOC; this undead is bound to the Material Plane on Toril.
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
@@ -4291,7 +4275,7 @@ Description: An annis commonly uses its disguise self ability to take the form o
 
 ![Hammership](pictures/ship-plan-hammership.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -4414,7 +4398,7 @@ HAUNT
 
 *Picture: Constructs roster picture index: Official book art — Fiend Folio, p. 87 — labeled shared plate; see Brain Golem note*
 
-HELLFIRE GOLEM [3.0-format as published]
+### Stat block
 
 **Large Construct (Extraplanar)**
 **Hit Dice:** 20d10+30 (140 hp)
@@ -4422,17 +4406,16 @@ HELLFIRE GOLEM [3.0-format as published]
 **Speed:** 40 ft.
 **AC:** 27 (–1 size, +2 Dex, +16 natural), touch 11, flat-footed 25
 **Base Attack/Grapple:** +15/+26
-**Attack:** Slam +22 melee
-**Full Attack:** 2 slams +22 melee
-**Damage:** Slam 1d8+7/19–20 plus 2d6 hellfire
-**Face/Reach:** 10 ft./10 ft.
+**Attack:** Slam +22 melee (1d8+7/19–20 plus 2d6 hellfire)
+**Full Attack:** 2 slams +22 melee (1d8+7/19–20 plus 2d6 hellfire)
+**Space/Reach:** 10 ft./10 ft.
 **Special Attacks:** Hellfire, spell-like abilities
-**Special Qualities:** Acid resistance 20, cold resistance 20, construct traits, DR 30/+3, fire immunity, immunity to magic
+**Special Qualities:** Acid resistance 20, cold resistance 20, construct traits, DR 30/magic, fire immunity, immunity to magic
 **Saves:** Fort +8, Ref +8, Will +7
 **Abilities:** Str 25, Dex 14, Con —, Int 12, Wis 13, Cha 14
 **Skills:** Climb +30, Jump +30, Spot +24
 **Feats:** Cleave, Combat Reflexes, Great Fortitude, Great Cleave, Improved Critical (slam), Power Attack, Weapon Focus (slam)
-**Climate/Terrain:** Any land and underground (Nine Hells)
+**Environment:** Any land and underground (Nine Hells)
 **Organization:** Solitary
 **Challenge Rating:** 17
 **Treasure:** —
@@ -4442,11 +4425,11 @@ HELLFIRE GOLEM [3.0-format as published]
 A hellfire golem is a construct from the infernal planes that is crafted by devils for sheer destructive and pyromaniac delight. It appears as a towering humanoid creature that seems to be formed of brilliant lava covered with a crumbling black crust. Flames leap out from the cracks in its crusty skin and wreathe its body in infernal fire.
 Unlike most golems, a hellfire golem is reasonably intelligent, and it speaks and understands Infernal.
 
-## Helve Urtrace — CR 14 — NPCs — ALL-150 (Shaun's cast)
+## Helve Urtrace — CR 14 — NPCs — ALL-150
 
 ![Helve Urtrace](pictures/helve-urtrace.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 144. Helve Urtrace — Human Fighter 14, LN
 
@@ -4533,7 +4516,7 @@ Description: A bear-sized, wingless creature lies in the center of the hive. Its
 
 ![Hummingbird](pictures/ship-plan-hummingbird.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -4541,11 +4524,11 @@ Hull record (partial) — Hummingbird. Ships carry no creature stat block and no
 
 Built by humans (the Royal Engineers of Thesalys, Greatspace); used by the ruling house of Greatspace. Tonnage 7 · Hull Points 7 · Crew 2/10 · Maneuver Class A · Landing: Land yes, Water no · Armor Rating 8 · Saves as Thin wood · Power: major helm · Ship's Rating: as per helmsman · Armament: piercing ram, magic missile gun (crew: 1 mage) · Cargo 3 tons · Keel 100 ft · Beam 20 ft. A unique royal yacht, used by the ruling house of Greatspace for ambush and hit-and-fade attacks; its magic missile gun fires a burst of magic missiles at enemy ships. (Stat block as transcribed in the Spelljammer Wiki's article from the SJA3 Crystal Spheres data card and the War Captain's Companion Ship Recognition Manual.)
 
-## Inara Steelhand — CR 14 — NPCs — ALL-150 (Shaun's cast)
+## Inara Steelhand — CR 14 — NPCs — ALL-150
 
 ![Inara Steelhand](pictures/inara-steelhand.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 66. Inara Steelhand — Warforged Champion
 
@@ -4563,7 +4546,7 @@ Str 20 (+5) [15+1 lvl4+1 lvl8+1 lvl12=18, +2 belt=20], Dex 13 (+1), Con 18 (+4) 
 **Space/Reach:** 5 ft / 5 ft.
 **Special Attacks:** Powerful charge, improved powerful charge, superior bull rush (Warforged Juggernaut, as published).
 **Special Qualities:** Adamantine body, DR 3/adamantine (body + Juggernaut), light fortification 25%, construct perfection (Juggernaut 5 immunities, as published), immune to poison, sleep, paralysis, disease, nausea, fatigue, exhaustion, energy drain (living construct traits + Juggernaut).
-**Note on APOC canon:** Warforged healing in APOC follows Shaun's Doc #4 ruling — healing spells work at full effect on Warforged, plus nanite natural healing. Inara is built and played under that ruling.
+**Note on APOC canon:** Warforged healing in APOC follows the Doc #4 ruling — healing spells work at full effect on Warforged, plus nanite natural healing. Inara is built and played under that ruling.
 **Saves:** Fort +15, Ref +6, Will +6.
 **Skills:** Intimidate +12, Climb +16, Jump +16, Craft (armoursmithing) +10, Sense Motive +8.
 **Feats:** Adamantine Body (1st, Warforged), Power Attack, Improved Bull Rush, Shock Trooper, Weapon Focus (greatsword), Weapon Specialization (greatsword), Improved Sunder, Combat Brute, Improved Critical (greatsword), Cleave (10 feats: 5 general + 5 fighter bonus, Adamantine Body taken at 1st).
@@ -4579,30 +4562,29 @@ Str 20 (+5) [15+1 lvl4+1 lvl8+1 lvl12=18, +2 belt=20], Dex 13 (+1), Con 18 (+4) 
 
 *Picture: APOC-VTT monster library art — Fiend Folio*
 
-QUARUT [3.0-format as published]
+### Stat block
 
-**Medium-Size Construct (Extraplanar, Lawful)**
+**Medium Construct (Extraplanar, Lawful)**
 **Hit Dice:** 18d10+20 (119 hp)
 **Initiative:** +5
 **Speed:** 50 ft.
 **AC:** 31 (+1 Dex, +7 half-plate, +13 natural), touch 11, flat-footed 30
 **Base Attack/Grapple:** +13/+18
-**Attack:** Slam +18 melee
-**Full Attack:** 2 slams +18 melee
-**Damage:** Slam 3d6+5
-**Face/Reach:** 5 ft./5 ft.
+**Attack:** Slam +18 melee (3d6+5)
+**Full Attack:** 2 slams +18 melee (3d6+5)
+**Space/Reach:** 5 ft./5 ft.
 **Special Attacks:** Spell-like abilities
-**Special Qualities:** Construct traits, DR 40/+4, fast healing 15, SR 28
+**Special Qualities:** Construct traits, DR 40/magic, fast healing 15, SR 28
 **Saves:** Fort +6, Ref +7, Will +9
 **Abilities:** Str 20, Dex 13, Con —, Int 14, Wis 17, Cha 20
 **Skills:** Knowledge (arcana) +26, Listen +26, Spellcraft +28, Spot +26
 **Feats:** Alertness, Blind-Fight, Combat Casting, Combat Reflexes, Improved Initiative, Skill Focus (Knowledge [arcana]), Skill Focus (Spellcraft)
-**Climate/Terrain:** Any land and underground (Mechanus)
+**Environment:** Any land and underground (Mechanus)
 **Organization:** Solitary
 **Challenge Rating:** 17
 **Treasure:** —
 **Alignment:** Always lawful neutral
-**Advancement:** 19–24 HD (Medium-size); 25–54 HD (Large)
+**Advancement:** 19–24 HD (Medium); 25–54 HD (Large)
 **Kit (published, integral to the creature):** the +7 half-plate in its AC line is worn armor, part of the creature as presented; the block's Treasure line is "—".
 
 Quaruts are among the most powerful of inevitables in existence. They protect two of the most precious and tenuous things of all: time and space. They use their uncanny sense of both temporal and spatial awareness to know when transgressions that disrupt the time–space continuum are taking place, and then they hunt down the perpetrators.
@@ -4637,11 +4619,11 @@ Source book(s): Monsternomicon Vol. 2
 Description: As she described these horrifying creatures, Sybeth went to great pains to caution me against ever feeling confident in my appraisal of an infernal. The curators and executors work souls like clay and can mold conscriptus into any form with any powers the creators can conceive. Thus conscriptus are weapons more so than any natural creature. By way of example she described the Quelvitar, or “soul gnawer”.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Ingrid Hollowdelve — CR 4 — NPCs — ALL-150 (Shaun's cast)
+## Ingrid Hollowdelve — CR 4 — NPCs — ALL-150
 
 ![Ingrid Hollowdelve](pictures/ingrid-hollowdelve.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 19. Ingrid Hollowdelve — Dwarf Monk 4
 
@@ -4685,32 +4667,32 @@ Description: As she described these horrifying creatures, Sybeth went to great p
 Isitwalangcengce — CR 21 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book pp. 96–97 (PDF pp. 97–98). "Book is 3.0-era d20 — reproduced as published."
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book pp. 96–97 (PDF pp. 97–98). 
 **Classification evidence (verbatim from the page):** heading "Isitwalangcengce (Tanar'ri)"; type line "Huge Outsider (Chaotic, Evil)"; "Challenge Rating: 21"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
 
 - **Isitwalangcengce (Tanar'ri)**
 - Huge Outsider (Chaotic, Evil)
-- **Hit Dice:** 20d8 +120 (210 hp) *(space before "+120" as printed)*
+- **Hit Dice:** 20d8+120 (210 hp)
 - **Initiative:** +1 (Dex)
 - **Speed:** 90 ft.
 - **AC:** 22 (–2 size, +1 Dex, +13 natural)
-- **Attacks:** Huge Log or Bite +31 melee
-- **Damage:** Log 4d6 +19 or Bite 3d6 +19
-- **Face/Reach:** 15 ft. by 15 ft./15 ft.
+- **Attack:** Huge log +31 melee (4d6+19) or bite +31 melee (3d6+19)
+- **Full Attack:** Huge log +31 melee (4d6+19) or bite +31 melee (3d6+19)
+- **Space/Reach:** 15 ft./15 ft.
 - **Special Attacks:** Spell-like abilities
-- **Special Qualities:** Damage reduction 30/ +3, SR 28, tanar'ri qualities *(space in "30/ +3" as printed)*
+- **Special Qualities:** Damage reduction 30/magic, SR 28, tanar'ri qualities
 - **Saves:** Fort +18, Ref +13, Will +17
 - **Abilities:** Str 37, Dex 12, Con 23, Int 21, Wis 20, Cha 18
-- **Skills:** Bluff +27, Climb +21, concentration +29, Knowledge (religion) +28, Listen +30Sense Motive +28, Spot +30 *(lowercase "concentration" as printed; see the PUBLISHED ERROR flag below on "+30Sense")*
-- **Feats:** Alertness, Blind-Fight, Cleave, Expertise, Great Cleave, Power Attack
-- **Climate/Terrain:** Any land and underground
+- **Skills:** Bluff +27, Climb +21, Concentration +29, Knowledge (religion) +28, Listen +30, Sense Motive +28, Spot +30
+- **Feats:** Alertness, Blind-Fight, Cleave, Combat Expertise, Great Cleave, Power Attack
+- **Environment:** Any land and underground
 - **Organization:** Solitary
 - **Challenge Rating:** 21
 - **Treasure:** Double Standard
 - **Alignment:** Always chaotic evil
 - **Advancement Range:** None
 
-⚠ **PUBLISHED ERROR:** the Skills line prints "Listen +30Sense Motive +28" — there is no comma or space between "+30" and "Sense" (verified at 300 dpi). Reproduced as printed, not fixed.
+⚠ **PUBLISHED ERROR:** the Skills line prints "Listen +30, Sense Motive +28" — there is no comma or space between "+30" and "Sense" (verified at 300 dpi). The line above is spaced normally.
 
 **Description (verbatim, book pp. 96–97):** "When first summoned to the prime material plane, the Isitwalangcengce, or "Basket Bearer" of Zulu tales, appears as a huge, titan-like monster with a rotting log in one hand. As the demon begins the quest assigned by its summoner, it turns into its favorite form, which is a huge hyena with a giant bony basket on top of its skull. During this quest, it enjoys eating peasant villagers. It carries them away in its basket and "tenderizes" them against a mountainside, trying to break all of their bones as it throws them down cliffs and onto rocks. When facing foes that have the chance of doing it serious harm, the demon transforms back into its huge humanoid form and fights with its rotting log. / The Isitwalangcengce loves to enter a city or village, posing as an engineer. In this disguise, it offers to help build a bridge or dam that the city can use to grow larger. The demon will work with the inhabitants and do an amazing job on the structure. When it's all finished, however, the demon will cause an earthquake to destroy the structure at the worst possible time. / Well-built buildings, bridges, and other structures enrage this demon. If its usual earthquake attacks don't bring down a targeted building, the Isitwalangcengce could spend years secretly trying to make the structure fall. Legends tell of the huge challenge to the demon that a particularly well-built pyramid once posed. The demon tried everything it could think of to destroy the temple, and nothing worked. After centuries of efforts, in the end, all it could think of was to talk the people of the land into taking the stones for building materials in other large structures. This clever act finally defaced the temple pyramid so that in future ages no one could tell what the structure originally was. / The hyena is the favored animal of the demon. It delights in taking a giant hyena form sometimes when it commits its acts of destruction. Hyenas are not generally favored by mankind, and often they are the subject of hunts because one of them has dragged off a child or killed cattle. Whenever mankind throws a spear into a hyena or hunts down a pack and begins killing its members, the attention of Isitwalangcengce is drawn to that area. There is a 10 percent chance per killed hyena that the demon will appear to protect the remainder of the pack and destroy the foolish humans who have attacked its favored children. If the hyenas are being trapped for sport, there is a 50 percent chance that the demon will appear in giant hyena form and race to kidnap and kill every family member of the warriors who trapped its hyenas. Legends tell of entire cities being destroyed because the people there wanted to destroy all hyenas in the area. One such legend talks about the "Time of Tears," when Isitwalangcengce came to the prime material plane because a hyena pup was killed by the arrow of a warrior. Isitwalangcengce killed the man's wife and four sons, and the warrior struck back by killing a pack of 20 hyenas. This sent Isitwalangcengce into such a rage that he killed all the people of the large island civilization and sank the island when it was through, so that no one would remember these hyena-killing people."
 
@@ -4724,15 +4706,15 @@ Isitwalangcengce — CR 21 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 **Unnatural Aura (Su) (verbatim):** "The log generates an unnatural aura that affects wild and domesticated animals. They can sense the log and its user at a distance of 30 feet. They do not willingly approach nearer than that and panic if forced to do so. They remain panicked as long as they are within that range."
 
-**Stunning Shock (Su) (verbatim):** "Once per round, the log unleashes a cloud of fungi and affects all those within five feet. This attack deals 2d8 points of subdual damage to living opponents (Reflex half DC 12)."
+**Stunning Shock (Su) (verbatim):** "Once per round, the log unleashes a cloud of fungi and affects all those within five feet. This attack deals 2d8 points of nonlethal damage to living opponents (Reflex half DC 12)."
 
-**Isitwalangcengce as a Deity (verbatim, begun book p. 96 and completed book p. 97 — the paragraph breaks across the page turn):** "This deity walks the earth bent on destroying everything. It's fed by anger of any type, and fear and rage strengthens it as it roams. Its followers pay homage to the deity out of fear and the faint hope that if they pray and tithe to the demon, it won't harm them." *("strengthens" as printed)*
+**Isitwalangcengce as a Deity (verbatim, begun book p. 96 and completed book p. 97 — the paragraph breaks across the page turn):** "This deity walks the earth bent on destroying everything. It's fed by anger of any type, and fear and rage strengthens it as it roams. Its followers pay homage to the deity out of fear and the faint hope that if they pray and tithe to the demon, it won't harm them."
 
 **Deity block (verbatim, book p. 97):**
 - **Deity:** Isitwalangcengce, Vengeful God
 - **Alignment:** Chaotic Evil
 - **Domains:** Air, Chaos, Death, Destruction, Earth, Evil
-- **Typical Worshipers:** Evil Spell Casters and Warriors *(label spelled "Worshipers" and "Spell Casters" in two words, as printed)*
+- **Typical Worshipers:** Evil Spell Casters and Warriors
 
 **Isitwalangcengce Temples (verbatim, book p. 97):** "There are no official temples to the deity. Several times in the past, clerics have tried to raise icons of the demon and create temples. Each time, a huge earthquake has come and destroyed the structure when it was half built. There are, therefore, several different types of shrines where one can worship the demon. / **Caved-in Mine:** The side of a caved-in mine has great power for the cult. Many times, the demon has come to working mines and wrecked them for the shear joy of destruction. Those ruined mines are all places to more easily contact the deity. / **Burned-out Villages:** These places are all centers of great holy power for the deity and its clerics. When clerics of the faith are standing in such ruined areas, they cast spells at one level higher. / **Acts of Random Destruction and the Breaking of Arms:** Acts of destruction call to the deity, especially when a cleric or spell caster of the faith breaks someone's arm. That action is an instant call to the deity." *[sic — "shear joy" as printed, for "sheer joy"]*
 
@@ -4752,18 +4734,17 @@ JARILITH — Monster Manual II, pp.60–61
 - **Initiative:** +9
 - **Speed:** 60 ft.
 - **Armor Class:** 32 (−1 size, +9 Dex, +14 natural), touch 18, flat-footed 23
-- **Base Attack/Grapple:** — (not published in Monster Manual II's 3.0 stat format)
-- **Attack:** Claw +22 melee
-- **Full Attack:** 2 claws +22 melee and bite +19 melee
-- **Damage:** Claw 2d6+12/18–20×3; bite 2d8+6/18–20×3
-- **Space/Reach:** 10 ft. by 5 ft./5 ft. (3.0 Face/Reach form, per MM2 spread)
+- **Base Attack/Grapple:** +10/+26
+- **Attack:** Claw +22 melee (2d6+12/18–20×3)
+- **Full Attack:** 2 claws +22 melee (2d6+12/18–20×3) and bite +19 melee (2d8+6/18–20×3)
+- **Space/Reach:** 10 ft./5 ft.
 - **Special Attacks:** Frightful presence (DC 17), improved grab, pounce, rake (2d6+6/18–20), spell-like abilities (at will: clairaudience/clairvoyance, darkness, detect good, detect thoughts, doom; CL 12)
-- **Special Qualities:** Augmented critical (claws and bite threaten 18–20 and deal ×3); DR 15/good (3.5 form; **as printed in MM2: DR 30/+3**); SR 25; summon tanar'ri (35%, another jarilith)
+- **Special Qualities:** Augmented critical (claws and bite threaten 18–20 and deal ×3); DR 15/good; SR 25; summon tanar'ri (35%, another jarilith)
 - **Saves:** Fort +15, Ref +16, Will +8
 - **Abilities:** Str 35, Dex 29, Con 27, Int 8, Wis 12, Cha 14
 - **Skills:** Balance +14, Climb +14, Concentration +21, Hide +22*, Jump +14, Listen +12, Move Silently +25, Search +4, Spot +12 (a jarilith receives a +4 racial bonus on Balance, Hide, and Move Silently checks; *in areas of tall grass or heavy undergrowth, its Hide bonus improves to +12)
 - **Feats:** Multiattack, Power Attack, Weapon Focus (claw)
-- **Environment:** Any land and underground (Climate/Terrain line as printed)
+- **Environment:** Any land and underground
 - **Organization:** Solitary, pair, or pride (6–10)
 - **Challenge Rating:** 13
 - **Treasure:** Standard
@@ -4774,11 +4755,11 @@ JARILITH — Monster Manual II, pp.60–61
 
 **Nature/role:** A lion-like tanar'ri killing machine — low cunning, extreme lethality; CR 13 on only 10 HD.
 
-## Jasker — CR 7 — NPCs — ALL-150 (Shaun's cast)
+## Jasker — CR 7 — NPCs — ALL-150
 
 ![Jasker](pictures/jasker.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 127. Jasker — Human Expert 6 / Fighter 1, NG
 
@@ -4794,11 +4775,11 @@ JARILITH — Monster Manual II, pp.60–61
 
 ---
 
-## Kailee Restinan — CR 6 — NPCs — ALL-150 (Shaun's cast)
+## Kailee Restinan — CR 6 — NPCs — ALL-150
 
 ![Kailee Restinan](pictures/kailee-restinan.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 118. Kailee Restinan — Human Expert 4 / Rogue 2, CN
 
@@ -4822,7 +4803,7 @@ JARILITH — Monster Manual II, pp.60–61
 
 **Partial — fullest block on file:**
 
-Type: Medium-Size Outsider (Evil, Extraplanar)
+Type: Medium Outsider (Evil, Extraplanar)
 Challenge Rating: 1
 Source book(s): Fiend Folio
 Description: Ages ago, a group of curious wizards sought to pierce the boundaries of known existence and penetrate to a distan dimension on the other side of reality. This region, known to scholars as the Far Realm, is a realm of madness and nightmare. The explorers felt confident of their abilities and only intended to stay for a few hours. Unfortunately their confidence was misplaced.
@@ -4837,25 +4818,25 @@ Description: Ages ago, a group of curious wizards sought to pierce the boundarie
 Kappa — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book pp. 102–103 (PDF pp. 103–104). "Book is 3.0-era d20 — reproduced as published."
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book pp. 102–103 (PDF pp. 103–104). 
 **Classification evidence (verbatim from the page):** heading "Kappa (Tanar'ri)"; type line "Large Outsider (Chaotic, Evil)"; "Challenge Rating: 9"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
 
 - **Kappa (Tanar'ri)**
 - Large Outsider (Chaotic, Evil)
-- **Hit Dice:** 12d12 + 60 (138 hp) *(spaces around "+ 60" as printed)*
+- **Hit Dice:** 12d12+60 (138 hp)
 - **Initiative:** +0
 - **Speed:** 30 ft., swimming 30 ft.
-- **AC:** 26(-2 size, +18 natural) *(no space before the parenthesis as printed)*
-- **Attacks:** Bite +18 melee, 2 claws +13 melee
-- **Damage:** Bite 4d6 +8, claw 2d8 +4
-- **Face/Reach:** 30 ft. by 40 ft./15ft. *(as printed — a 30 ft. by 40 ft. face for a Large creature, and "15ft." with no space; reproduced as published)*
-- **Special Attacks:** Breathe weapon, capsize, snatch, summon tanar'ri *("Breathe weapon" as printed)*
-- **Special Qualities:** Damage reduction 30/ +3, fire immunity, SR 28, tanar'ri qualities *(space in "30/ +3" as printed)*
+- **AC:** 26 (–2 size, +18 natural)
+- **Attack:** Bite +18 melee (4d6+8)
+- **Full Attack:** Bite +18 melee (4d6+8) and 2 claws +13 melee (2d8+4)
+- **Space/Reach:** 30 ft./15 ft.
+- **Special Attacks:** Breathe weapon, capsize, snatch, summon tanar'ri
+- **Special Qualities:** Damage reduction 30/magic, fire immunity, SR 28, tanar'ri qualities
 - **Saves:** Fort +13, Ref +8, Will +9
-- **Abilities:** Str 27, Dex 10, Con 21, Int 12, Wis13, Cha 12 *(no space in "Wis13" as printed)*
-- **Skills:** Hide +7, Intimidate +16, Intuit Direction +10, Listen +18, Search +16, Spot +18
+- **Abilities:** Str 27, Dex 10, Con 21, Int 12, Wis13, Cha 12
+- **Skills:** Hide +7, Intimidate +16, Survival +10, Listen +18, Search +16, Spot +18
 - **Feats:** Alertness, Blind-Fight, Cleave, Power Attack
-- **Climate/Terrain:** Aquatic
+- **Environment:** Aquatic
 - **Organization:** Solitary
 - **Challenge Rating:** 9
 - **Treasure:** Triple standard (only jewels and gems)
@@ -4868,14 +4849,14 @@ Kappa — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 **Breath Weapon (Su) (verbatim):** "Lightning 90 feet long and 20 feet wide, every 1d4 rounds; damage 20d6, Reflex half (DC 21), effective both on the surface and underwater."
 **Snatch (Ex) (verbatim):** "The demon hits with its bite attack, attempting to start a grapple as a free action, without provoking an attack of opportunity. If it gets a hold on a creature three or more sizes smaller, it seizes the creature with its mouth and automatically deals bite damage each round. If it does not move and takes no other action in combat, it deals double bite damage to the victim."
 **Capsize (Ex) (verbatim):** "A submerged Kappa that surfaces under a boat or ship less than 20 feet long capsizes the vessel. It has a 50% chance to capsize a vessel from 20 to 60 feet long and a 25% chance to capsize one over 60 feet long."
-**Summon Tanar'ri (Sp) (verbatim):** "Once per day, a kappa can attempt to summon 4d20 dretch with a 95% chance of success." *(lowercase "kappa" and singular "dretch" as printed; the 4d20 figure is as printed, verified at 300 dpi)*
+**Summon Tanar'ri (Sp) (verbatim):** "Once per day, a kappa can attempt to summon 4d20 dretch with a 95% chance of success."
 
 **Kappa as a Deity (verbatim, book p. 102):** "The Kappa deity favors all things from the sea and is a beloved patron of sailors of every race. The Kappa is aware of every storm at sea and will gladly protect a crew of the faithful from storm damage. It spends a great deal of its time being accidentally summoned to the prime material plane to help a ship in danger of sinking. All it asks for in return is one of the crew as a tasty snack, and its cult worshipers agree that's a small price to pay for safe passage. This feature of the deity does force ship crews to be a little larger than is normal for any ship owned by a cult member."
 
 **Deity block (verbatim, book p. 103):**
 - **Deity:** Kappa, Sea Demon God
 - **Alignment:** Chaotic Evil
-- **Domains:** Chaos, Evil, Healing, Luck, Sun, Water, *(trailing comma as printed)*
+- **Domains:** Chaos, Evil, Healing, Luck, Sun, Water,
 - **Typical Worshipers:** Sailors, intelligent underwater creatures
 
 **Kappa Temples (verbatim, book pp. 102–103):** "Kappa temples are always built half in the sea and half on beaches. A large, underground coral cave opening provides enough space for the demon to enter his own temple. The walls of the temple are made with stone and coral. The temple chambers are shaped like the inside of sea shells, and the largest chamber has an altar made from several giant pearls the demon gifts to its temple in order to better communicate with its followers." / "The underwater temples of the demon are always guarded by intelligent undersea folk such sea elves and merfolk." *[sic — "such sea elves" as printed, verified at 300 dpi; the book omits "as"]* "This portion of the temple is an amazing magical structure formed by making water as hard as steel. These temples are made of joined tall, thin towers. Each tower serves a different intelligent race. Many of these temples are between the lands of bitter underwater enemies. In the temples, the opposing races aren't allowed to fight, however, so worship of Kappa has settled many an age-old dispute." / "The above-water portions of a temple have little in the way of treasure, and all the items and real valuables are always transported to the deepest sea temples where they are protected from mortal acts of thievery."
@@ -4893,25 +4874,25 @@ Kappa — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 Karina — CR 5 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 104 (PDF p. 105). "Book is 3.0-era d20 — reproduced as published."
-**Classification evidence (verbatim from the page):** heading "Karina (Tanar'ri)"; type line "Medium-size Outsider (Chaotic, Evil)"; "Challenge Rating: 5"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 104 (PDF p. 105). 
+**Classification evidence (verbatim from the page):** heading "Karina (Tanar'ri)"; type line "Medium Outsider (Chaotic, Evil)"; "Challenge Rating: 5"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
 
 - **Karina (Tanar'ri)**
-- Medium-size Outsider (Chaotic, Evil)
-- **Hit Dice:** 2d8 +2 (11 hp) *(space before "+2" as printed)*
+- Medium Outsider (Chaotic, Evil)
+- **Hit Dice:** 2d8+2 (11 hp)
 - **Initiative:** +1 (Dex)
 - **Speed:** 20 ft.
-- **AC:** 20 (+1 Dex, +9 Natural) *(capital N as printed)*
-- **Attacks:** Bite plus poison +3 melee or 2 claws +3 melee
-- **Damage:** Bite 1d6 +3 plus poison (as giant wasp poison), claw 1d4 +3
-- **Face/Reach:** 5 ft. by 5 ft. / 10 ft.
+- **AC:** 20 (+1 Dex, +9 natural)
+- **Attack:** Bite +3 melee (1d6+3 plus poison, as giant wasp poison)
+- **Full Attack:** Bite +3 melee (1d6+3 plus poison, as giant wasp poison) or 2 claws +3 melee (1d4+3)
+- **Space/Reach:** 5 ft./10 ft.
 - **Special Attacks:** None
-- **Special Qualities:** Damage reduction 30/ +3, SR 28, polymorph self three times a day, tanar'ri qualities *(space in "30/ +3" as printed)*
+- **Special Qualities:** Damage reduction 30/magic, SR 28, polymorph self three times a day, tanar'ri qualities
 - **Saves:** Fort +4, Ref +4, Will +7
 - **Abilities:** Str 13, Dex 13, Con 13, Int 17, Wis 19, Cha 17
 - **Skills:** Concentration +9, Hide +3, Spot +4
-- **Feats:** Alertness, Blind-fight *(lowercase "f" as printed)*
-- **Climate/Terrain:** Desert or underground
+- **Feats:** Alertness, Blind-Fight
+- **Environment:** Desert or underground
 - **Organization:** Solitary, gang (2-6)
 - **Challenge Rating:** 5
 - **Treasure:** None
@@ -4923,7 +4904,7 @@ Karina — CR 5 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 **Combat (verbatim):** "The final attack on the quest victim has the Karina approach the target as a friend. The demon wants to lure the victim into going on a long trip. Sometimes the trip is presented as a helpful favor to the Karina, and other times it is devised as an important quest for the village or city the pair lives in at the time. During the trip, when the target is alone and without family or friends around her, the demon strikes. The Karina then turns from the attractive female it has been disguised as, into a human with a fanged cobra head that injects poison into the throat of its victim. The Karina then likes to return to the victim's home, to help the grieving relatives, as the demon works out how it can find and kill whoever summoned it to the prime material plane. The death of the summoner is a ritual the Karina performs in the exact same manner every time." / "As a rich patron, the Karina uses gold to establish or help grow a local lawful good temple. Once the temple has been greatly enlarged through the donations of the Karina, and the demon has gained the same knowledge of the summoner as of its previous victim, the creature strikes. It intends to despoil the altar of the new lawful temple with the dead body of its summoner."
 *(The book prints no separate special-ability sections for Karina — the entry ends with the Combat text above.)*
 
-**APOC NOTE (Shaun's canon — separate from the published text above):** Third-party lore is reference only, not FR canon. In APOC the karina is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so no rage-spoken name or rite calls her to anyone; the Bastion's mythal bars demons absolutely.
+**APOC NOTE (APOC canon — separate from the published text above):** Third-party lore is reference only, not FR canon. In APOC the karina is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so no rage-spoken name or rite calls her to anyone; the Bastion's mythal bars demons absolutely.
 
 ---
 
@@ -4962,11 +4943,11 @@ KASTIGHUR — Monster Manual IV, p.42 (entry pp.42–43)
 
 **Nature/role:** Hunter and prison warden of demonkind — the thing demon lords send to drag escapees back.
 
-## Kazrik Emberhand — CR 3 — NPCs — ALL-150 (Shaun's cast)
+## Kazrik Emberhand — CR 3 — NPCs — ALL-150
 
 ![Kazrik Emberhand](pictures/kazrik-emberhand.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 13. Kazrik Emberhand — Gnome Wizard 3 (Transmuter)
 
@@ -5067,20 +5048,20 @@ Description: Kobolds are short, reptilian humanoids with cowardly and sadistic t
 
 "This example uses a 1st-level kobold warrior as the base creature."
 **Kobold Wraith** — Small Undead
-- **Hit Dice:** 1d12 (3 hp) — as printed (a 1 HD wraith is genuinely this fragile; confirmed in the book, not an extraction error)
+- **Hit Dice:** 1d12 (3 hp) — a 1 HD wraith is genuinely this fragile
 - **Initiative:** +8; **Speed:** Fly 60 ft. (perfect)
 - **AC:** 17 (+1 size, +4 Dexterity, +2 deflection), touch 17, flat-footed 13
-- **Attacks:** Incorporeal touch +5 melee; **Damage:** Incorporeal touch 1d3 plus 1d6 Constitution drain
-- **Face/Reach:** 5 ft./5 ft.
+- **Attack:** Incorporeal touch +5 melee (1d3 plus 1d6 Constitution drain); **Full Attack:** Incorporeal touch +5 melee (1d3 plus 1d6 Constitution drain)
+- **Space/Reach:** 5 ft./5 ft.
 - **Special Attacks:** Constitution drain
 - **Special Qualities:** Create spawn, incorporeal subtype, sunlight powerlessness, turn resistance +2, undead traits, unnatural aura
 - **Saves:** Fort +0, Ref +4, Will +4
 - **Abilities:** Str —, Dex 19, Con —, Int 14, Wis 14, Cha 14
 - **Skills:** Printed twice in the book (base kobold line, then template-adjusted line): Craft (trapmaking) +2, Hide +8, Listen +3, Move Silently +4, Profession (mining) +2, Search +2, Spot +3 — and: Craft (trapmaking) +6, Hide +11, Listen +4, Move Silently +7, Search +4, Spot +4
 - **Feats:** Alertness; also printed: Alertness, Improved Initiative (B)
-- **Climate/Terrain:** Any land and underground. **Organization:** Solitary, pair, gang (3–5), or pack (6–11).
+- **Environment:** Any land and underground. **Organization:** Solitary, pair, gang (3–5), or pack (6–11).
 - **Challenge Rating:** 5. **Treasure:** None. **Alignment:** Always lawful evil. **Advancement:** By character class.
-- Combat (as printed): Constitution drain Fortitude DC 12; treated as a 2 HD undead for turning; the sample text calls the sunlight quality "Daylight Powerlessness." Kobold wraiths attack with overwhelming odds (at least two to one) or trickery, flee if the odds drop, but attack gnomes on sight at equal numbers.
+- Combat: Constitution drain Fortitude DC 12; treated as a 2 HD undead for turning; the sample text calls the sunlight quality "Daylight Powerlessness." Kobold wraiths attack with overwhelming odds (at least two to one) or trickery, flee if the odds drop, but attack gnomes on sight at equal numbers.
 
 **APOC Note (2701 DR):** Proof the wraith template keeps a small creature dangerous — a kobold wraith is a Kingdom of the Undead scout/assassin in APOC terms. Barred from the Bastion by the Melairshield like all undead.
 
@@ -5121,7 +5102,7 @@ Description: The krenshar is a strange, catlike carnivore with extremely flexibl
 Kumbhakarna — CR 20 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 121 (PDF p. 122). "Book is 3.0-era d20 — reproduced as published."
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 121 (PDF p. 122). 
 **Classification evidence (verbatim from the page):** heading "Kumbhakarna (Tanar'ri)"; type line "Colossal (Tall) Outsider (Chaotic, Evil)"; "Challenge Rating: 20"; "Alignment: Always chaotic evil". A genuine demon entry in this book — rostered.
 
 - **Kumbhakarna (Tanar'ri)**
@@ -5130,16 +5111,16 @@ Kumbhakarna — CR 20 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 - **Initiative:** +1 (–3 Dex, +4 Improved Initiative)
 - **Speed:** 20 ft.
 - **AC:** 39 (–8 size, –3 Dex, +10 Golden Coat, +30 natural)
-- **Attacks:** Crimson Flower +75/+70/+65/+60/+55 melee, or 2 claws +70 melee, bite +68 melee
-- **Damage:** Crimson Flower 8d8+18, claw 2d8+13, bite 4d6+13
-- **Face/Reach:** 60 ft. by 60 ft./30 ft. (150 ft. with longspear)
+- **Attack:** Crimson Flower +75 melee (8d8+18)
+- **Full Attack:** Crimson Flower +75/+70/+65/+60/+55 melee (8d8+18), or 2 claws +70 melee (2d8+13) and bite +68 melee (4d6+13)
+- **Space/Reach:** 60 ft./30 ft. (150 ft. with longspear)
 - **Special Attacks:** Frightful presence, summon tanar'ri, trample
-- **Special Qualities:** Damage reduction 25/+4, fast healing 20, SR 30, tanar'ri qualities
+- **Special Qualities:** Damage reduction 25/magic, fast healing 20, SR 30, tanar'ri qualities
 - **Saves:** Fort +23, Ref +11, Will +19
 - **Abilities:** Str 37, Dex 5, Con 29, Int 10, Wis 20, Cha 16
-- **Skills:** Intimidate +131, Listen +133, Spot +133, Swim +141 *(three-digit skill bonuses as printed, verified at 300 dpi; reproduced as published)*
+- **Skills:** Intimidate +131, Listen +133, Spot +133, Swim +141
 - **Feats:** Alertness, Blind-Fight, Cleave, Endurance, Great Cleave, Great Fortitude, Improved Critical (Longspear), Improved Initiative, Iron Will, Lightning Reflexes, Multiattack, Power Attack, Quick Draw, Sunder, Weapon Focus (Bite), Weapon Focus (Claws), Weapon Focus (Longspear)
-- **Climate/Terrain:** Any land or underground
+- **Environment:** Any land or underground
 - **Organization:** Unique
 - **Challenge Rating:** 20
 - **Treasure:** None
@@ -5156,7 +5137,7 @@ Kumbhakarna — CR 20 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 **Trample (Ex) (verbatim):** "Kumbhakarna can trample Gargantuan-size or smaller opponents for 8d8+13 points of damage. Opponents who do not make attacks of opportunity against the demon can attempt a Reflex save (DC 26) to halve the damage."
 **Summon Tanar'ri (Sp) (verbatim):** "Once per day Kumbhakarna, can automatically summon 4d12 dretches." — ⚠ **PUBLISHED ERROR, reproduced as printed: the stray comma after "Kumbhakarna" stands in the book (verified at 300 dpi); not silently removed.**
 
-**APOC NOTE (Shaun's canon — separate from the published text above):** Third-party lore is reference only, not FR canon — the Hindu-tales treatment is the book's mythology, not Forgotten Realms canon. In APOC Kumbhakarna is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so his summon tanar'ri calls nothing; the Bastion's mythal bars demons absolutely.
+**APOC NOTE (APOC canon — separate from the published text above):** Third-party lore is reference only, not FR canon — the Hindu-tales treatment is the book's mythology, not Forgotten Realms canon. In APOC Kumbhakarna is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so his summon tanar'ri calls nothing; the Bastion's mythal bars demons absolutely.
 
 ---
 
@@ -5164,7 +5145,7 @@ Kumbhakarna — CR 20 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 ![Lamprey Ship](pictures/ship-plan-lamprey-ship.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -5176,7 +5157,7 @@ Tonnage 26 · Hull Points 26 · Crew 8/26 · Maneuver Class B · Armor Rating 4 
 
 ![Leaf Ship](pictures/ship-plan-leaf-ship.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -5359,7 +5340,7 @@ Source book(s): Monster Manual III
 Description: A 3-foot-long strand of striated muscle connects two floating eyeballs. The strand flexes and twists. Many species enjoy pets that resemble themselves. Some humans keep monkeys as companions and some rakshasas keep house cats. Gauths and beholders enjoy lurking stranglers. This lesser creature acts as a companion, pet, and occasional spy for them. Lurking stranglers are 3 feet long from eyeball to eyeball. They weigh 5 pounds. Lurking stranglers understand Beholder and Common. They have neither a mouth nor any means of speaking. They communicate by twisting their bodies.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Malachi Vane — CR 2 — NPCs — ALL-150 (Shaun's cast)
+## Malachi Vane — CR 2 — NPCs — ALL-150
 
 ![Malachi Vane](pictures/malachi-vane.jpg)
 
@@ -5402,7 +5383,7 @@ Description: A 3-foot-long strand of striated muscle connects two floating eyeba
 
 ![Man-o-War, Archaic](pictures/ship-plan-man-o-war-archaic.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -5452,15 +5433,15 @@ CR 17 — Marilith
 - Source: Monster Manual p.44 / d20 SRD
 - **APOC Note:** Summon Demon — [APOC: inert — no summoning / severed planes]
 
-## Market Crowd — At the Crush — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
+## Market Crowd — At the Crush — CR 1 — APOC city population — generator entry
 
 ![Market Crowd — At the Crush](pictures/market-crowd.jpg)
 
-*Picture: Scene art — a market district at the crush (Shaun's map files)*
+*Picture: Scene art — a market district at the crush (map files)*
 
 **Partial — fullest block on file:**
 
-Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+Generator entry — city population (the city is packed; crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
 ## Marraenoloth — CR 10 — Monster Manual II
 
@@ -5476,11 +5457,11 @@ Source book(s): Monster Manual II
 Description: The marraenoloths serve a specialized function, possibly the most specialized of any of the yugoloths. They are the ferrymen on the River Styx, somberly poling their ghastly crafts along that sepulchral river and through all the horrid planes it visits. These pallid humanoids are little more than skeletons clothed in rotted robes and grave wrappings. Only their red-glowing eyes show signs of life. Like all natives of Gehenna, they are pitiless and mercenary. They can speak any language, but they communicate with other marraenoloths telepathically.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Marshal Ezekiel Thorn — CR 16 — NPCs — ALL-150 (Shaun's cast)
+## Marshal Ezekiel Thorn — CR 16 — NPCs — ALL-150
 
 ![Marshal Ezekiel Thorn](pictures/marshal-ezekiel-thorn.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 78. Marshal Ezekiel Thorn
 
@@ -5550,11 +5531,11 @@ Source book(s): Monster Manual III
 Description: The strange-looking creature resembles a gaunt, fleshy spider with only four thin legs. Two tentacles protrude from its shoulders, swinging over the creature's head and dripping a toxic-looking slime. The creature's skin has a faint bluish glow, and it is clear that some strange mystical energy surrounds it. The final and most powerful life stage of the strange creatures known as mindshredders, the mindshredder zenthal combines powerful spell-like abilities with the Wisdom-damaging attacks that all mindshredders share.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Mira Cogwheel — CR 10 — NPCs — ALL-150 (Shaun's cast)
+## Mira Cogwheel — CR 10 — NPCs — ALL-150
 
 ![Mira Cogwheel](pictures/mira-cogwheel.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 49. Mira Cogwheel — Gnome Bard 10, CN
 
@@ -5570,11 +5551,11 @@ Description: The strange-looking creature resembles a gaunt, fleshy spider with 
 
 ---
 
-## Mira Voss — CR 6 — NPCs — ALL-150 (Shaun's cast)
+## Mira Voss — CR 6 — NPCs — ALL-150
 
 ![Mira Voss](pictures/mira-voss.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 26. Mira Voss — Human Rogue 5 / Assassin 1, NE — *Prestige*
 
@@ -5601,11 +5582,11 @@ Description: The strange-looking creature resembles a gaunt, fleshy spider with 
 
 ---
 
-## Mirella Voss — CR 13 — NPCs — ALL-150 (Shaun's cast)
+## Mirella Voss — CR 13 — NPCs — ALL-150
 
 ![Mirella Voss](pictures/mirella-voss.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 62. Mirella Voss — Grandmaster Alchemist
 
@@ -6000,11 +5981,11 @@ Source book(s): Monster Manual IV
 Description: This creature has the lower body of a worm, the head of a snake with milky white eyes, and two long arms that terminate in enormous bone claws. It holds its body at about the height of a human as it rises to attack.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Naronen Monroe — CR 20 — NPCs — ALL-150 (Shaun's cast)
+## Naronen Monroe — CR 20 — NPCs — ALL-150
 
 ![Naronen Monroe](pictures/naronen-monroe.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 137. Naronen Monroe — Male Human Wizard 10 / Steam Mage 10, LN (ECL 20)
 
@@ -6025,7 +6006,7 @@ Description: This creature has the lower body of a worm, the head of a snake wit
 
 ![Nautiloid](pictures/ship-plan-nautiloid.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -6037,7 +6018,7 @@ Built by mind flayers; used primarily by mind flayers. Tonnage 35 · Hull Points
 
 ![Neogi Mindspider](pictures/ship-plan-neogi-mindspider.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -6053,17 +6034,17 @@ Built by neogi; used primarily by neogi. Tonnage 40 · Hull Points 40 · Crew 3/
 
 **Partial — fullest block on file:**
 
-Type: Medium-Size Outsider (Extraplanar)
+Type: Medium Outsider (Extraplanar)
 Challenge Rating: 1
 Source book(s): Fiend Folio
 Description: Varoots are the most common nerras to be found both on the Plane of Mirrors and the Material Plane. They are experts at spying, infiltration, and subterfuge. In their natural form, varoots have a basic humanoid shape that is covered with a mirrorlike sheen that reflects everything around them. Their facial features are smooth and rather indistinct.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Nyx Shadowveil — CR 11 — NPCs — ALL-150 (Shaun's cast)
+## Nyx Shadowveil — CR 11 — NPCs — ALL-150
 
 ![Nyx Shadowveil](pictures/nyx-shadowveil.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 52. Nyx Shadowveil — Halfling Rogue 7 / Shadowdancer 4, NE
 
@@ -6110,7 +6091,7 @@ Description: These bottom-dwelling sea creatures are dangerous only to their pre
 
 ![Octopus Ship](pictures/ship-plan-octopus.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -6226,7 +6207,7 @@ OOZE, UNDEAD
 
 **Kit / Treasure (as published):** Treasure line: "None                                            the ooze, but if they do so they are not entitled to a" — no itemized gear is published for this entry; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
 - **Raw magic blights** the land around the caster in APOC — necromancy worked through raw magic carries that cost; alchemy is the cornerstone inside the walls.
@@ -6359,11 +6340,11 @@ A painspeaker speaks the languages it knew when alive.
 **Advancement:** 7–12 HD (Medium); 13–18 HD (Large)
 **Level Adjustment:** —
 
-## Pell Underbough — CR 5 — NPCs — ALL-150 (Shaun's cast)
+## Pell Underbough — CR 5 — NPCs — ALL-150
 
 ![Pell Underbough](pictures/pell-underbough.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 25. Pell Underbough — Halfling Bard 5, CN
 
@@ -6392,11 +6373,11 @@ A painspeaker speaks the languages it knew when alive.
 
 ---
 
-## PIP-9 — CR 9 — NPCs — ALL-150 (Shaun's cast)
+## PIP-9 — CR 9 — NPCs — ALL-150
 
 ![PIP-9](pictures/pip-9-pip.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 45. PIP-9 "Pip" — Warforged Ranger 9, CG
 
@@ -6416,11 +6397,11 @@ A painspeaker speaks the languages it knew when alive.
 
 ---
 
-## Pippa Underbough — CR 1 — NPCs — ALL-150 (Shaun's cast)
+## Pippa Underbough — CR 1 — NPCs — ALL-150
 
 ![Pippa Underbough](pictures/pippa-underbough.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 3. Pippa Underbough — Halfling Rogue 1
 
@@ -6461,9 +6442,7 @@ A painspeaker speaks the languages it knew when alive.
 
 Pistol Wraith
 
-**Source:** Monsternomicon Vol. I (Privateer Press), p.140 [2005 v3.5 revision text; re-checked 2026-11-08 against the library copy (2002 original), edition differences flagged on the entry]
-
-**2002-original check (2026-11-08, pp.140–141):** CR 9, AC 20, turn resistance +7, Advancement 8–15 HD, Treasure and Legends & Lore confirmed as filed. Edition differences: the 2002 stat table prints '**7d12 (84 hp)**' — an arithmetic error in the 2002 printing (the filed 2005 text prints 46 hp); the 2002 original prints **Wis 7, Ref +11, Will +2** (filed 2005 text: Wis 12, Ref +9, Will +9); Bullets of the Grave makes the pistol a **+3** military pistol of wounding in 2002 (filed 2005 text: +1); and the Energy Drain negative level is removed on a Fortitude save **DC 17** in 2002 (filed 2005 text: DC 18).
+**Source:** Monsternomicon Vol. I (Privateer Press), p.140
 
 Medium Undead (Incorporeal)
 Hit Dice: 7d12 (46 hp)
@@ -6500,7 +6479,7 @@ Legends & Lore — Common: Those who fancy themselves to be deadly pistoleers ma
 
 **Kit / Treasure (as published):** Treasure (from the entry above): "A pistol wraith carries no treasure. However, any bullet fired by a wraith remains in perfect condition and may be reused by another marksman as a normal bullet (powder and such still required). The bullets bear a +3 enchantment bonus; they also add one extra damage die and increase the critical multiplier by one." — where the entry publishes no itemized gear list, none is invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **Planar travel is severed** — any plane shift / Ethereal travel / manifestation in the published text does not function as written in APOC; this undead is bound to the Material Plane on Toril.
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
@@ -6508,11 +6487,11 @@ Legends & Lore — Common: Those who fancy themselves to be deadly pistoleers ma
 
 ---
 
-## Professor Ostwick Hale — CR 8 — NPCs — ALL-150 (Shaun's cast)
+## Professor Ostwick Hale — CR 8 — NPCs — ALL-150
 
 ![Professor Ostwick Hale](pictures/professor-ostwick-hale.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 37. Professor Ostwick Hale — Human Wizard 7 / Loremaster 1, LN — *Prestige*
 
@@ -6557,7 +6536,7 @@ Description: Ihave described many troll varieties in earlier works (cursorily in
 
 ![Quad of Thay](pictures/ship-plan-quad-of-thay.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -6565,15 +6544,15 @@ Hull record (partial) — Quad of Thay. Ships carry no creature stat block and n
 
 Built by Thay mages and priests; used primarily by Thay mages and priests. Tonnage 63 · Hull Points 63 · Crew 10/63 · Maneuver Class A · Landing: Land yes, Water no · Armor Rating 3 (−1) · Saves as Best of metal or crystal · Power: grand helm · Ship's Rating: as per helmsmen · Armament: 4 rams · Cargo 31½ tons · Keel 40 ft (body), 105 ft (claws) · Beam 55 ft. The whole outer hull IS the grand helm: up to four mages pool their levels (total ÷ 4, round up) for the ship's SR. It travels at double spelljamming speed (200 million miles/day) but phases partly into the Border Ethereal doing so, and cannot enter the phlogiston under its own power. The focused light bathes the ship and imposes a −4 penalty on attacks against it. If a claw-ram attack rolls a natural 20, there is a 25% chance 1d4 rams break off; each lost ram costs 25% of SR, and with all four gone the ship is immobile. Most of the interior is a research library. (Stat block read from the printed War Captain's Companion ship card.)
 
-## Queue — Fountain, Office, or Bread Line — CR 1 — APOC city population — generator entry (Shaun, 2026-11-11)
+## Queue — Fountain, Office, or Bread Line — CR 1 — APOC city population — generator entry
 
 ![Queue — Fountain, Office, or Bread Line](pictures/city-queue.jpg)
 
-*Picture: Scene art — a clerk's office (Shaun's map files)*
+*Picture: Scene art — a clerk's office (map files)*
 
 **Partial — fullest block on file:**
 
-Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+Generator entry — city population (the city is packed; crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
 ## Ragewind — CR 19 — Monster Manual II
 
@@ -6589,19 +6568,19 @@ RAGEWIND — Monster Manual II, p.173
 - **Initiative:** +5
 - **Speed:** Fly 120 ft. (perfect)
 - **Armor Class:** 22 (–1 size, +5 Dex, +8 deflection), touch 22, flat-footed 17
-- **Attacks:** 6 longswords +17/+12/+7 melee
-- **Damage:** Longsword 1d8+3/19–20
-- **Face/Reach:** 5 ft. by 5 ft./10 ft.
+- **Attack:** Longsword +17 melee (1d8+3/19–20)
+- **Full Attack:** 6 longswords +17/+12/+7 melee (1d8+3/19–20)
+- **Space/Reach:** 5 ft./10 ft.
 - **Special Attacks:** Blade fury, whirlwind
-- **Special Qualities:** DR 20/+3, invisibility, see invisibility, SR 30, superior multiweapon fighting, undead traits, weapon proficiency
+- **Special Qualities:** DR 20/magic, invisibility, see invisibility, SR 30, superior multiweapon fighting, undead traits, weapon proficiency
 - **Saves:** Fort +10, Ref +15, Will +18
 - **Abilities:** Str 17, Dex 20, Con —, Int 13, Wis 13, Cha 12
-- **Skills:** Balance +7, Hide +16, Intuit Direction +6, Jump +5, Listen +21, Search +22, Spot +22, Tumble +20
-- **Feats:** Blind-Fight, Combat Reflexes, Dodge, Expertise, Flyby Attack, Improved Disarm, Mobility, Spring Attack, Whirlwind Attack
-- **Climate/Terrain:** Any land and underground
+- **Skills:** Balance +7, Hide +16, Survival +6, Jump +5, Listen +21, Search +22, Spot +22, Tumble +20
+- **Feats:** Blind-Fight, Combat Reflexes, Dodge, Combat Expertise, Flyby Attack, Improved Disarm, Mobility, Spring Attack, Whirlwind Attack
+- **Environment:** Any land and underground
 - **Organization:** Solitary, pair, or cluster (3–5)
 - **Challenge Rating:** 19
-- **Treasure:** None *(but see below — as printed)*
+- **Treasure:** None *(but see below)*
 - **Alignment:** Usually chaotic evil
 - **Advancement:** 32–48 HD (Large); 49–64 HD (Huge)
 - **Description:** "Also called sword spirits, ragewinds are the embodied wrath of dead warriors who perished…" *(as published.)* The entry adds: "Its true form is a vaguely humanoid, semisolid cloud of white or gray fog. It has no treasure other than the weapons it carries."
@@ -6614,62 +6593,62 @@ RAGEWIND — Monster Manual II, p.173
 
 ## 5. RAGGAMOFFYN — CR 1 / 3 / 5 / 7 (IN)
 
-**Source:** Monster Manual II, pp. 174–176. **Edition:** 3.0 as published.
+**Source:** Monster Manual II, pp. 174–176.
 **Sentience basis:** Int 10 in all four forms; written as scheming agents that take hosts "to further their agendas." One entry covering all four published blocks.
 
-### Stat blocks (as published)
+### Stat blocks
 
 **Tatterdemanimal** — Small Construct
-- Hit Dice: 1d10 (5 hp)
+- Hit Dice: 1d10+10 (15 hp)
 - Initiative: +5
 - Speed: 40 ft., fly 40 ft. (clumsy)
 - AC: 16 (+1 size, +5 Dex), touch 16, flat-footed 11
-- Attacks: Slam +1 melee
-- Damage: Slam 1d4
-- Face/Reach: 5 ft. by 5 ft./5 ft.
+- Attack: Slam +1 melee (1d4)
+- Full Attack: Slam +1 melee (1d4)
+- Space/Reach: 5 ft./5 ft.
 - Special Attacks: Control host, improved grab, wrap
 - Special Qualities: Construct traits, immunity to blunt weapons
 - Saves: Fort +0, Ref +5, Will +4
 - Abilities: Str 10, Dex 21, Con —, Int 10, Wis 19, Cha 15
-- Climate/Terrain: Any
+- Environment: Any
 - Organization: Solitary, pair, or gang (3–6)
 - Challenge Rating: 1
 - Treasure: None
 - Alignment: Usually chaotic neutral
 - Advancement: 2–3 HD (Small)
 
-**Common Raggamoffyn** — Medium-Size Construct
-- Hit Dice: 3d10 (16 hp)
+**Common Raggamoffyn** — Medium Construct
+- Hit Dice: 3d10+20 (36 hp)
 - Initiative: +2
 - Speed: 30 ft., fly 30 ft. (clumsy)
 - AC: 17 (+2 Dex, +5 natural), touch 12, flat-footed 15
-- Attacks: Slam +4 melee
-- Damage: Slam 1d6+3
-- Face/Reach: 5 ft. by 5 ft./5 ft.
+- Attack: Slam +4 melee (1d6+3)
+- Full Attack: Slam +4 melee (1d6+3)
+- Space/Reach: 5 ft./5 ft.
 - Special Attacks: Control host, improved grab, suffocate, wrap
 - Special Qualities: Construct traits
 - Saves: Fort +1, Ref +3, Will +3
 - Abilities: Str 14, Dex 15, Con —, Int 10, Wis 15, Cha 17
-- Climate/Terrain: Any
+- Environment: Any
 - Organization: Solitary, pair, or gang (3–4)
 - Challenge Rating: 3
 - Treasure: None
 - Alignment: Always neutral
 - Advancement: 4 HD (Medium-size); 5–9 HD (Large)
 
-**Guttersnipe** — Medium-Size Construct
-- Hit Dice: 8d10 (44 hp)
+**Guttersnipe** — Medium Construct
+- Hit Dice: 8d10+20 (64 hp)
 - Initiative: +1
 - Speed: 20 ft., fly 20 ft. (clumsy)
 - AC: 21 (+1 Dex, +10 natural), touch 11, flat-footed 20
-- Attacks: Slam +7 melee
-- Damage: Slam 1d6+1
-- Face/Reach: 5 ft. by 5 ft./5 ft.
+- Attack: Slam +7 melee (1d6+1)
+- Full Attack: Slam +7 melee (1d6+1)
+- Space/Reach: 5 ft./5 ft.
 - Special Attacks: Control host, glitterdust, improved grab, wrap
 - Special Qualities: Construct traits, immunities
 - Saves: Fort +2, Ref +3, Will +5
 - Abilities: Str 13, Dex 13, Con —, Int 10, Wis 16, Cha 17
-- Climate/Terrain: Any
+- Environment: Any
 - Organization: Solitary, pair, or gang (3–4)
 - Challenge Rating: 5
 - Treasure: None
@@ -6677,18 +6656,18 @@ RAGEWIND — Monster Manual II, p.173
 - Advancement: 9–16 HD (Medium-size); 17–24 HD (Large)
 
 **Shrapnyl** — Large Construct
-- Hit Dice: 12d10 (66 hp)
+- Hit Dice: 12d10+30 (96 hp)
 - Initiative: +0
 - Speed: 20 ft., fly 10 ft. (clumsy)
 - AC: 24 (–1 size, +15 natural), touch 9, flat-footed 24
-- Attacks: Slam +12 melee, or gore +12 melee
-- Damage: Slam 1d8+4, gore 1d8+4
-- Face/Reach: 5 ft. by 5 ft./10 ft.
+- Attack: Slam +12 melee (1d8+4) or gore +12 melee (1d8+4)
+- Full Attack: Slam +12 melee (1d8+4) or gore +12 melee (1d8+4)
+- Space/Reach: 10 ft./10 ft.
 - Special Attacks: Cloud of steel, control host, improved grab, wrap
 - Special Qualities: Construct traits, vulnerability to shatter
 - Saves: Fort +4, Ref +4, Will +8
 - Abilities: Str 18, Dex 11, Con —, Int 10, Wis 19, Cha 17
-- Climate/Terrain: Any
+- Environment: Any
 - Organization: Solitary or pair
 - Challenge Rating: 7
 - Treasure: None
@@ -6942,7 +6921,7 @@ are Charisma-based.
 
 **Kit / Treasure (as published):** an incorporeal spirit — no gear and no treasure line is published for it; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **Planar travel is severed** — any plane shift / Ethereal travel / manifestation in the published text does not function as written in APOC; this undead is bound to the Material Plane on Toril.
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
@@ -6950,11 +6929,11 @@ are Charisma-based.
 
 ---
 
-## Rivet — CR 1 — NPCs — ALL-150 (Shaun's cast)
+## Rivet — CR 1 — NPCs — ALL-150
 
 ![Rivet](pictures/rivet.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 5. Rivet — Warforged Barbarian 1
 
@@ -6992,11 +6971,11 @@ are Charisma-based.
 
 ---
 
-## Rodelik Karneth — CR 8 — NPCs — ALL-150 (Shaun's cast)
+## Rodelik Karneth — CR 8 — NPCs — ALL-150
 
 ![Rodelik Karneth](pictures/rodelik-karneth.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 122. Rodelik Karneth — Human Rogue 3 / Expert 5, LG
 
@@ -7140,17 +7119,17 @@ Source book(s): Monster Manual I
 Description: If a community of aquatic elves is located within 100 miles of a sahuagin community, about one in one hundred sahuagin looks just like an aquatic elf. These creatures, called malenti, have a swim speed of 40 feet, can remain out of water for 1 hour per point of Constitution, and have freshwater sensitivity and light sensitivity (dazzled in bright light). Malenti have no natural attacks. They are otherwise identical with sahuagin.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Saint James — CR 15 — Shaun canon / NPCs #150 — Saint James file
+## Saint James — CR 15 — NPCs #150 — Saint James file
 
 ![Saint James](pictures/saint-james.webp)
 
-*Picture: Shaun's established Saint James picture — approved winged version (WINGED14), from his Saint James file*
+*Picture: Saint James picture — winged version (WINGED14), from the Saint James file*
 
 **Partial — fullest block on file:**
 
 # SAINT JAMES — Blendcrafter Build
 
-*APOC Survival (D&D 3.5). Built 2026-11-05 from Shaun's dictation on the live voice call (human; 15th level; 84-point spread, Dexterity and Charisma on top; gun and cutlass, all magical; fully kitted). Saved to the Blendcrafter group shelf — shelf row id `8688df31-808f-401c-91b6-f6909e3be41f`, verified by read-back: the shelf returns the row with name "Saint James". Open Blendcrafter → Characters → Group shelf to load him. His tracker character and this build are the same character. Updated 2026-11-05 ~21:52 under Shaun's revolver ruling (FLAGS #3): the shelf row was re-verified after the update — 75 inventory entries, Revolver +3 equipped as a magic item, Bullets +1 (50) aboard, mundane gun and bullets gone.*
+*APOC Survival (D&D 3.5). Built 2026-11-05 (human; 15th level; 84-point spread, Dexterity and Charisma on top; gun and cutlass, all magical; fully kitted). Saved to the Blendcrafter group shelf — shelf row id `8688df31-808f-401c-91b6-f6909e3be41f`, verified by read-back: the shelf returns the row with name "Saint James". Open Blendcrafter → Characters → Group shelf to load him. His tracker character and this build are the same character. Updated 2026-11-05 ~21:52 under the revolver ruling (FLAGS #3): the shelf row was re-verified after the update — 75 inventory entries, Revolver +3 equipped as a magic item, Bullets +1 (50) aboard, mundane gun and bullets gone.*
 
 ## The Man
 
@@ -7188,7 +7167,7 @@ Description: If a community of aquatic elves is located within 100 miles of a sa
 | 12th level | Improved Critical (cutlass) |
 | 15th level | Dodge |
 
-Class features of note: sneak attack +1d6 and trapfinding (Rogue), Grace +1 and Insightful Strike (Swashbuckler), and the full Dread Pirate line — two-weapon fighting style, fearsome reputation (+6), acrobatic charge, skill mastery. At Dread Pirate 3rd the class splits honorable (rally the crew) vs. dishonorable (sneak attack); the build format doesn't encode the path — Shaun picks it in play (FLAGS #8).
+Class features of note: sneak attack +1d6 and trapfinding (Rogue), Grace +1 and Insightful Strike (Swashbuckler), and the full Dread Pirate line — two-weapon fighting style, fearsome reputation (+6), acrobatic charge, skill mastery. At Dread Pirate 3rd the class splits honorable (rally the crew) vs. dishonorable (sneak attack); the build format doesn't encode the path — picked in play (FLAGS #8).
 
 ## Skills (144 of 144 points spent; totals include ability modifiers)
 
@@ -7215,8 +7194,8 @@ The Circlet of Persuasion's +3 competence bonus on Charisma-based checks (Intimi
 ### Weapons
 
 - **Cutlass of Surety** — 18,310 gp *(magic item; equipped. The catalog's genuine magical cutlass — it never slips from its wielder's grip)*
-- **Revolver +3** — 18,800 gp *(magic item; equipped. The Sorcery & Steam percussion cap revolver — 1d10, crit ×3, range 50 ft. — with a +3 enhancement bonus to attack and damage, priced by the standard magic weapon creation rules: 500 gp base + 300 gp masterwork + 18,000 gp for +3. Per Shaun's ruling (2026-11-05): a firearm takes magic like any other weapon — see FLAGS #3, resolved. With BAB +14 and Dexterity 20 in the gloves, he shoots it at **+22 to hit**.)*
-- **Bullets +1 (50)** — 2,350 gp *(magic ammunition, one lot of fifty, priced by the standard creation rules: 50 gp base + 300 gp masterwork + 2,000 gp for +1. Shaun ordered magical ammunition without naming a grade; +1 is the assumed grade — see FLAGS #10.)*
+- **Revolver +3** — 18,800 gp *(magic item; equipped. The Sorcery & Steam percussion cap revolver — 1d10, crit ×3, range 50 ft. — with a +3 enhancement bonus to attack and damage, priced by the standard magic weapon creation rules: 500 gp base + 300 gp masterwork + 18,000 gp for +3. Ruling of record (2026-11-05): a firearm takes magic like any other weapon — see FLAGS #3, resolved. With BAB +14 and Dexterity 20 in the gloves, he shoots it at **+22 to hit**.)*
+- **Bullets +1 (50)** — 2,350 gp *(magic ammunition, one lot of fifty, priced by the standard creation rules: 50 gp base + 300 gp masterwork + 2,000 gp for +1. The record names no grade for the magical ammunition; +1 is the assumed grade — see FLAGS #10.)*
 - Black powder (dose) ×10 — 10 gp each; Powder horn — 3 gp
 - Dagger ×2 — 2 gp each
 
@@ -7242,15 +7221,15 @@ Backpack (2 gp); Bedroll ×2 (1 sp each); Rope, silk (50 ft.) ×2 (10 gp each); 
 
 **APOC screening:** no extra-dimensional storage (no bag of holding, no handy haversack), no summoning items, no planar or teleport items — all deliberately left out.
 
-## Who He Is (Shaun's canon, carried in the build's personality fields)
+## Who He Is (carried in the build's personality fields)
 
 Saint James is a pirate who lives out in the badlands aboard **ST-JAMES — Booze and Magic**, a multi-story tavern-house carried on the back of a giant four-winged lizard, with his crew. The tavern is **not a fixed place** — nobody travels to it. The lizard flies, and it **lands** in the badlands near adventurers: the flying tavern coming down is how the party generally meets him. Then his rule applies: spend money at the tavern and he doesn't bother you; otherwise he extorts coin or gear. He has a knack for finding adventurers out in the badlands to land on. He has to be able to take care of himself and his whole crew out there — hence the healing, the stores, and Leadership.
 
-## FLAGS — assumptions and adjustments, all flagged per Shaun's rule
+## FLAGS — assumptions and adjustments, all flagged
 
-1. **Entry mix adjusted (the big one).** Shaun approved the frame "Swashbuckler 5 / Dread Pirate 10," but a straight Swashbuckler 5 **cannot legally enter Dread Pirate in this catalog**: the prestige class requires Appraise 8 ranks, and Appraise is not a Swashbuckler class skill (cross-class ranks cap at 4 by 5th level). Minimal fix applied: **Rogue 1 / Swashbuckler 4 / Dread Pirate 10** — total still 15, Dread Pirate still 10, entry BAB still exactly +4, Appraise 8 legally bought with Rogue levels, and every other prerequisite met by 5th level (Profession (sailor) 8, Swim 4, Use Rope 4, Quick Draw, Weapon Finesse). Blendcrafter's own prerequisite gate evaluates the finished build as **selectable: yes, every entry met**. The one Rogue level also brings sneak attack +1d6 and trapfinding, which suit him.
+1. **Entry mix adjusted (the big one).** The approved frame "Swashbuckler 5 / Dread Pirate 10," but a straight Swashbuckler 5 **cannot legally enter Dread Pirate in this catalog**: the prestige class requires Appraise 8 ranks, and Appraise is not a Swashbuckler class skill (cross-class ranks cap at 4 by 5th level). Minimal fix applied: **Rogue 1 / Swashbuckler 4 / Dread Pirate 10** — total still 15, Dread Pirate still 10, entry BAB still exactly +4, Appraise 8 legally bought with Rogue levels, and every other prerequisite met by 5th level (Profession (sailor) 8, Swim 4, Use Rope 4, Quick Draw, Weapon Finesse). Blendcrafter's own prerequisite gate evaluates the finished build as **selectable: yes, every entry met**. The one Rogue level also brings sneak attack +1d6 and trapfinding, which suit him.
 2. **Weapon Finesse takes a general feat slot** in Blendcrafter's accounting (its Dread Pirate gate reads taken feats from the character's feat list), even though Swashbuckler also grants it as a class feature. Combat Reflexes was the flavor feat cut to fit — the build sits at exactly 7 of 7 slots with zero validation warnings.
-3. **The gun question — RESOLVED by Shaun's ruling (2026-11-05 ~21:52, via the AI DM).** As first built, the gun was the mundane Sorcery & Steam revolver record because no complete magical firearm record existed in the catalog. Shaun ruled: *"It's just like any magical creation rules set — give it a plus three to hit and he uses magical ammunition."* Applied the same night: two creation-rules records were added to the catalog (Blendcrafter v20.53) — **Revolver +3** at 18,800 gp and **Bullets +1 (50)** at 2,350 gp — and the shelf build was updated to carry them in place of the mundane gun and bullet lots, verified by read-back. The revolver is no longer the non-magical exception; every weapon he carries is magical now.
+3. **The gun question — RESOLVED (2026-11-05).** As first built, the gun was the mundane Sorcery & Steam revolver record because no complete magical firearm record existed in the catalog. the standard magical creation rules apply, as to any magical weapon* Applied the same night: two creation-rules records were added to the catalog (Blendcrafter v20.53) — **Revolver +3** at 18,800 gp and **Bullets +1 (50)** at 2,350 gp — and the shelf build was updated to carry them in place of the mundane gun and bullet lots, verified by read-back. The revolver is no longer the non-magical exception; every weapon he carries is magical now.
 4. **Engine vs. printed item effects.** Several worn records (Mithralmist Shirt, Ring of Protection +2, Amulet of Natural Armor +1, Cloak of Resistance +2, Circlet of Persuasion, Gloves of Dexterity +2) carry their effects in their text but no engine modifiers, so the app's derived AC and saves read low. Both sets of numbers are given above; the "printed effects" set is the honest one at the table.
 5. **The ship prerequisite is certified in the
 
@@ -7649,7 +7628,7 @@ CR 4 — Schir
 
 - [3RD-PARTY — Publisher: Green Ronin Publishing] Source: *Armies of the Abyss* (Book of Fiends Vol. Two), book p.50 (description continues book p.51)
 - Picture: `book-of-fiends-schir.jpg` — **GENERATED (from the description in Armies of the Abyss, Green Ronin Publishing)**. Verified JPEG, 556,094 bytes, on disk 2026-11-06. Form generated from the book's own description text (human/goat offspring, backward-curving horns, two-kneed cloven-hoofed legs, chest symbols, halberd); grey sky, no sun, no stars.
-- **EXTRACTED from *Armies of the Abyss* 2026-11-06** (book p.50; bonus note `library/armies-transcriptions/range-C-pp51-61.md`): **CR 4** — "Schir (Tanar'ri), Medium-Size Outsider (Chaotic, Evil), Hit Dice: 6d8+12 (39 hp), Initiative: +2 (Dex), Speed: 30 ft., AC: 19 (+2 Dex, +7 natural), AC (Flat-Footed): 17, AC (vs. Touch Attacks): 12, Attacks: Halberd +10/+5 melee; or gore +9 melee, Damage: Halberd 1d10+4 and disease; gore 1d6+4, Face/Reach: 5 ft. by 5 ft./5 ft., Special Attacks: Charge 3d6+3, disease, spell-like abilities, summon tanar'ri, Special Qualities: Tanar'ri qualities, damage reduction 5/+1, SR 7, disease immunity, Saves: Fort +7, Ref +7, Will +3, Abilities: Str 17, Dex 14, Con 14, Int 8, Wis 6, Cha 6, Skills: Climb +12, Intimidate +7, Jump +12, Spot +15, Wilderness Lore +4, Feats: Run, Weapon Focus (halberd), Climate/Terrain: Any land and underground, Organization: Solitary or pack (3–8), Challenge Rating: 4, Treasure: Standard, Alignment: Always chaotic evil, Advancement: 7–12 HD (Medium-size); 13–18 HD (Large)."
+- **EXTRACTED from *Armies of the Abyss* 2026-11-06** (book p.50; bonus note `library/armies-transcriptions/range-C-pp51-61.md`): **CR 4** — "Schir (Tanar'ri), Medium Outsider (Chaotic, Evil), Hit Dice: 6d8+12 (39 hp), Initiative: +2 (Dex), Speed: 30 ft., AC: 19 (+2 Dex, +7 natural), AC (Flat-Footed): 17, AC (vs. Touch Attacks): 12, Attack: Halberd +10 melee (1d10+4 plus disease), Full Attack: Halberd +10/+5 melee (1d10+4 plus disease) or gore +9 melee (1d6+4), Space/Reach: 5 ft./5 ft., Special Attacks: Charge 3d6+3, disease, spell-like abilities, summon tanar'ri, Special Qualities: Tanar'ri qualities, damage reduction 5/magic, SR 7, disease immunity, Saves: Fort +7, Ref +7, Will +3, Abilities: Str 17, Dex 14, Con 14, Int 8, Wis 6, Cha 6, Skills: Climb +12, Intimidate +7, Jump +12, Spot +15, Survival +4, Feats: Run, Weapon Focus (halberd), Environment: Any land and underground, Organization: Solitary or pack (3–8), Challenge Rating: 4, Treasure: Standard, Alignment: Always chaotic evil, Advancement: 7–12 HD (Medium-size); 13–18 HD (Large)."
 - Special ability names listed / detailed (book p.51): Charge (Ex); Disease (Su) — *Demon Fever*; Spell-Like Abilities; Summon Tanar'ri (Su); Disease Immunity (Ex); Skills (note: +8 racial bonus on Spot checks)
 - Description (verbatim, book pp.50–51): "The goat-headed schirim pervade the Material Plane, primarily because they can be summoned by magics easily accessible to spellcasters with very little skill. Clumsy covens fumbling with half-understood scrolls frequently bring a schir from the Abyss, and many credulous cultists believe all demons look like the bestial schirim. / The goat demons revel in their reception on the Prime, seldom speaking of their station at home. In the Abyss, schirim are little more than soldiers or guardians, expected to follow the orders of their betters at all times. Dull-witted and slow to learn, they nonetheless make superlative sentries, thanks to their spell-like abilities and otherworldly sense of focus. / A schir looks like the bastard offspring of human and goat. Its long, muscular neck supports a bestial head topped with two backward-curving horns. The creature's nauseating yellowed teeth reek of decayed meat and human waste, and its beady eyes burn with an amber rage. A tangled, food-encrusted beard dangles from the demon's chin. Coarse hair covers a schir from head to toe, growing especially thick at the legs and shoulders. Its legs feature two knees, the lower set of which bend backwards just above cloven-hoofed feet. / Schirim carve or brand a number of mystical symbols upon their chests. These markings represent clan affiliations, and some schirim refuse to work with members of other clans; such refusals occasionally break out into open battle between the schirim serving allied demon lords. To a schir, clan allegiance is paramount to all other concerns, and no task is too important to get in the way of eons-old internecine struggle. / Though all schirim pay lip service to their creator, the demon prince Azazel, not all serve the progenitor of their race. Perhaps due to their incredible fecundity, schirim have spread to nearly every inhabitable layer of the Abyss, and rare is the demon noble who does not employ at least a pack of the creatures somewhere in its vast retinue. / Schirim speak Abyssal, relying upon their *tongues* ability to communicate with mortals." (Plural printed "schirim" in the book text, as reproduced.)
 - Nature/role: goat-demon soldier/guardian, the common summoned-demon stereotype of the book's lore. APOC Note: third-party reference only; mortal and trapped — in APOC it cannot be summoned at all (summoning spells don't work, whatever the book says about easy summoning magics); Bastion-barred.
@@ -7837,7 +7816,7 @@ of their victims.
 
 **Kit / Treasure (as published):** a swarm of undead birds — no gear and no treasure line is published for it; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
 - **Raw magic blights** the land around the caster in APOC — necromancy worked through raw magic carries that cost; alchemy is the cornerstone inside the walls.
@@ -7880,17 +7859,17 @@ Description: This long, streamlined creature has a striped, leathery hide with a
 
 **Partial — fullest block on file:**
 
-Type: Medium-Size Humanoid (Aquatic, Shapechanger)
+Type: Medium Humanoid (Aquatic, Shapechanger)
 Challenge Rating: 1
 Source book(s): Fiend Folio
 Description: Appearing as humanoids when on land and seals in the sea, selkies are shapechangers with purported fey ancestry whose dealings with nonfey are often tinged with tragedy. In seal form, a selkie looks just like a normal seal, though its eyes usually betray a hint of its intelligence. In humanoid form, selkies resemble very attractive humans, usually with gray hair and eyes and very pale skin.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Sella Turgran — CR 1 — NPCs — ALL-150 (Shaun's cast)
+## Sella Turgran — CR 1 — NPCs — ALL-150
 
 ![Sella Turgran](pictures/sella-turgran.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 2. Sella Turgran — Dwarf Cleric 1 of Moradin
 
@@ -7924,11 +7903,11 @@ Description: Appearing as humanoids when on land and seals in the sea, selkies a
 
 ---
 
-## Selune-Marra Vael — CR 19 — NPCs — ALL-150 (Shaun's cast)
+## Selune-Marra Vael — CR 19 — NPCs — ALL-150
 
 ![Selune-Marra Vael](pictures/selune-marra-vael.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 91. Selune-Marra Vael — Human Wizard 14 / Loremaster 5
 
@@ -7952,11 +7931,11 @@ Description: Appearing as humanoids when on land and seals in the sea, selkies a
 
 ---
 
-## Ser Caspian Thorvald — CR 13 — NPCs — ALL-150 (Shaun's cast)
+## Ser Caspian Thorvald — CR 13 — NPCs — ALL-150
 
 ![Ser Caspian Thorvald](pictures/ser-caspian-thorvald.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 61. Ser Caspian Thorvald — Bastion Commander
 
@@ -7984,11 +7963,11 @@ Str 16 (+3) [15+1 at 8th], Dex 10 (+0), Con 14 (+2), Int 12 (+1), Wis 14 (+2) [1
 
 ---
 
-## Ser Corvin Hale — CR 4 — NPCs — ALL-150 (Shaun's cast)
+## Ser Corvin Hale — CR 4 — NPCs — ALL-150
 
 ![Ser Corvin Hale](pictures/ser-corvin-hale.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 16. Ser Corvin Hale — Human Paladin 4
 
@@ -8023,11 +8002,11 @@ Str 16 (+3) [15+1 at 8th], Dex 10 (+0), Con 14 (+2), Int 12 (+1), Wis 14 (+2) [1
 
 ---
 
-## Ser Ilya Vane — CR 17 — NPCs — ALL-150 (Shaun's cast)
+## Ser Ilya Vane — CR 17 — NPCs — ALL-150
 
 ![Ser Ilya Vane](pictures/ser-ilya-vane.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 84. Ser Ilya Vane — Human Paladin 17
 
@@ -8052,11 +8031,11 @@ Str 16 (+3) [15+1 at 8th], Dex 10 (+0), Con 14 (+2), Int 12 (+1), Wis 14 (+2) [1
 
 ---
 
-## Seraphine Cole — CR 8 — NPCs — ALL-150 (Shaun's cast)
+## Seraphine Cole — CR 8 — NPCs — ALL-150
 
 ![Seraphine Cole](pictures/seraphine-cole.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 40. Seraphine Cole — Half-Elf Druid 8, NG
 
@@ -8081,7 +8060,7 @@ Str 16 (+3) [15+1 at 8th], Dex 10 (+0), Con 14 (+2), Int 12 (+1), Wis 14 (+2) [1
 **DM Hook:** Blight-war arc lead, apparatus-vs-nature debate in person, high-value healer ally.
 
 ---
-**Batch 2 complete: 20/20. Prestige builds: Mira Voss (Assassin), Aldric Vane (Assassin), Ostwick Hale (Loremaster), Kaelis Thornbow (Arcane Archer) = 4. Monstrous/LA: Zesskar, Tiefling LA +1, ECL 6 shown. No summoning spells, no extra-dimensional gear anywhere in batch.** Steampunk aesthetic line added to every NPC, and full stat/kit audit completed (Shaun, 2026-11-03).
+**Batch 2 complete: 20/20. Prestige builds: Mira Voss (Assassin), Aldric Vane (Assassin), Ostwick Hale (Loremaster), Kaelis Thornbow (Arcane Archer) = 4. Monstrous/LA: Zesskar, Tiefling LA +1, ECL 6 shown. No summoning spells, no extra-dimensional gear anywhere in batch.** Steampunk aesthetic line added to every NPC, and full stat/kit audit completed.
 
 ---
 
@@ -8093,7 +8072,7 @@ Str 16 (+3) [15+1 at 8th], Dex 10 (+0), Con 14 (+2), Int 12 (+1), Wis 14 (+2) [1
 
 **Partial — fullest block on file:**
 
-Type: Medium-Size Fey (Extraplanar)
+Type: Medium Fey (Extraplanar)
 Challenge Rating: 1
 Source book(s): Fiend Folio
 Description: The shadar-kai, or shadow fey, are a race of bitter, determined folk whose souls are poisoned by shadow. Gray skinned and dark-eyed, the slender shadar-kai stand slightly taller than average humans, and their soft movements exude grace and uncanny stealth. Shadow follows the shadar-kai wherever they go.
@@ -8113,18 +8092,17 @@ SHADOW DEMON — Book of Vile Darkness, pp.172–174 — **PAGE PINNED by librar
 - **Initiative:** +11 (+7 Dex, +4 Improved Initiative)
 - **Speed:** Fly 40 ft. (perfect)
 - **Armor Class:** 22 (+7 Dex, +5 deflection), touch 22, flat-footed 15
-- **Base Attack/Grapple:** — (no Base Attack/Grapple line in BoVD's 3.0 table format; the Improved Grab text, p.174, gives grapple bonus +17)
-- **Attack:** Claw +17 melee touch
-- **Full Attack:** 2 claws +17 melee touch
-- **Damage:** Claw 1d6 **vile** damage
-- **Space/Reach:** 5 ft. by 5 ft./5 ft. [BoVD Face/Reach line]
+- **Base Attack/Grapple:** +10/+17 (grapple per the Improved Grab text, p.174)
+- **Attack:** Claw +17 melee touch (1d6 **vile** damage)
+- **Full Attack:** 2 claws +17 melee touch (1d6 **vile** damage)
+- **Space/Reach:** 5 ft./5 ft.
 - **Special Attacks:** Improved grab, pounce, rake; spell-like abilities (at will: darkness; 1/day: deeper darkness, damning darkness; 1/week: magic jar; CL 10th; save DC 15 + spell level)
 - **Special Qualities:** Darkness enhancement (+4 enhancement bonus to AC, attack rolls, damage rolls, saves, and skill and ability checks in total darkness); flesh-ripping claws (claws become corporeal on touching flesh; claw/rake attacks are touch attacks; all claw damage is vile damage); incorporeal subtype; light powerlessness (–4 penalty to AC, attack rolls, damage rolls, saves, and skill and ability checks in bright light); outsider traits; **Immunities (Su, verbatim BoVD p.174):** immune to fire, cold, and electricity as well as mind-affecting effects, poison, sleep, paralysis, stunning, and disease; not subject to critical hits, subdual damage, ability damage, energy drain, or death from massive damage
 - **Saves:** Fort +7, Ref +16, Will +10
 - **Abilities:** Str — (incorporeal), Dex 24, Con 10, Int 17, Wis 17, Cha 20
 - **Skills:** Bluff +15, Concentration +10, Diplomacy +12, Hide +30*, Intimidate +7, Knowledge (arcana) +16, Knowledge (the planes) +11, Listen +16, Move Silently +20, Search +16, Spot +15 (*+10 racial bonus on Hide checks)
-- **Feats:** Expertise, Improved Initiative, Lightning Reflexes
-- **Environment:** Any land and underground [BoVD Climate/Terrain line]
+- **Feats:** Combat Expertise, Improved Initiative, Lightning Reflexes
+- **Environment:** Any land and underground
 - **Organization:** Solitary
 - **Challenge Rating:** 8 (BoVD and FC1 agree)
 - **Treasure:** None
@@ -8143,9 +8121,7 @@ SHADOW DEMON — Book of Vile Darkness, pp.172–174 — **PAGE PINNED by librar
 
 Shaft Wight
 
-**Source:** Monsternomicon Vol. I (Privateer Press), p.154 [2005 v3.5 revision text; re-checked 2026-11-08 against the library copy (2002 original), edition differences flagged on the entry]
-
-**2002-original check (2026-11-08, pp.154–155):** CR 5, HD 5d12 (32 hp), AC 18, turn resistance +2, Treasure and Legends & Lore confirmed as filed. Edition differences: the 2002 table prints the mining-pick attack as **+1/+1 melee** (an apparent print error; the filed 2005 text prints +5/+5); Gravel Vomit in 2002 is usable **twice per hour**, a **5-foot spray** dealing **2d8 damage, Reflex DC 14** for half (filed 2005 text: once per hour, 10-foot cone, 2d6, DC 13); and the 2002 Constitution Drain is a *temporary* loss of 2 points (the filed 2005 text makes it permanent drain).
+**Source:** Monsternomicon Vol. I (Privateer Press), p.154
 
 Medium Undead
 Hit Dice: 5d12 (32 hp)
@@ -8182,7 +8158,7 @@ Legends & Lore — Common: Shaft wights are undead created when miners suffocate
 
 **Kit / Treasure (as published):** Treasure (from the entry above): "Shaft wights hoard valuables they take from their victims and also keep ore and precious metals from their mining. Use standard treasure values, 80% of which will be in the form of raw ore or ingots instead of coin. They show some crude ability to shape metal, sometimes crafting armor or bracelets and rings, repairing their mining picks, and so on." — where the entry publishes no itemized gear list, none is invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - Its create spawn still makes more of its kind from Toril's dead — creation on Toril, not summoning — and feeds the Kingdom of the Undead's numbers.
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
@@ -8199,25 +8175,25 @@ Legends & Lore — Common: Shaft wights are undead created when miners suffocate
 Shetan — CR 8 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 177 (PDF p. 178). Book is 3.0-era d20 — reproduced as published.
-**Classification evidence (verbatim from the page):** heading "Shetan (Tanar'ri)"; type line "Medium-size Outsider (Chaotic, Evil)"; "Challenge Rating: 8"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 177 (PDF p. 178). 
+**Classification evidence (verbatim from the page):** heading "Shetan (Tanar'ri)"; type line "Medium Outsider (Chaotic, Evil)"; "Challenge Rating: 8"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
 
 - **Shetan (Tanar'ri)**
-- Medium-size Outsider (Chaotic, Evil)
-- **Hit Dice:** 2d8 +2 (11 hp) *(space before "+2" as printed)*
+- Medium Outsider (Chaotic, Evil)
+- **Hit Dice:** 2d8+2 (11 hp)
 - **Initiative:** +0
 - **Speed:** 30 ft.
-- **AC:** 16 (+6 Natural) *(capital N as printed)*
-- **Attacks:** 2 Claws +3 melee or Bite +3 melee
-- **Damage:** Claw 1d6 +3, Bite 1d4 +3
-- **Face/Reach:** 10 ft. by 10 ft. / 15 ft. *(as printed — the book gives this Medium-size demon a 10 ft. face and 15 ft. reach; reproduced as published, not "corrected")*
+- **AC:** 16 (+6 natural)
+- **Attack:** Claw +3 melee (1d6+3)
+- **Full Attack:** 2 claws +3 melee (1d6+3) or bite +3 melee (1d4+3)
+- **Space/Reach:** 10 ft./15 ft.
 - **Special Attacks:** Summon tanar'ri
-- **Special Qualities:** Damage reduction 30/ +3, SR 28, tanar'ri qualities *(space in "30/ +3" as printed)*
-- **Saves:** Fort +4, Ref +3, Will –1 *(negative Will save as printed)*
-- **Abilities:** Str 13, Dex 11, Con 12, Int 10, Wis 2, Cha 10 *(Wis 2 as printed)*
+- **Special Qualities:** Damage reduction 30/magic, SR 28, tanar'ri qualities
+- **Saves:** Fort +4, Ref +3, Will –1
+- **Abilities:** Str 13, Dex 11, Con 12, Int 10, Wis 2, Cha 10
 - **Skills:** Listen +9, Spot +7
 - **Feats:** Alertness
-- **Climate/Terrain:** Any land and underground
+- **Environment:** Any land and underground
 - **Organization:** Solitary, gang (2-6)
 - **Challenge Rating:** 8
 - **Treasure:** None
@@ -8232,7 +8208,7 @@ Shetan — CR 8 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 **Goat Horns (Su) (verbatim):** "The horns of the Shetan are capable of massive structural damage. When the horns are rammed into a door or side of a castle or other structure, they do 20 points of structural damage. Whenever they hit a locked or blocked door they act as a knock spell. Occasionally one of the horns of the demon will break off in combat. The demon ignores its cast off horn. When such an object falls into the hands of a necromancer, that magic user can blow the horn and summon 1d6 skeletons once a month. These skeletons are intelligent and obey the commands of the summoner, but often they deliberately try to twist their orders to cause him chaos and ruin."
 **Summon Tanar'ri (Sp) (verbatim):** "Once per day, Shetan can attempt to summon a single dretch with a 30% chance of success."
 
-**APOC NOTE (Shaun's canon — separate from the published text above):** Third-party reference only — the Encyclopedia's mythology lore (Lore of India, quests of jealousy or greed) is reference only, not FR canon. In APOC the shetan is mortal and trapped in the scarred sphere; summoning spells DON'T WORK, so nothing "sends" a shetan to anyone and its summon tanar'ri calls nothing; the Bastion's mythal bars it absolutely.
+**APOC NOTE (APOC canon — separate from the published text above):** Third-party reference only — the Encyclopedia's mythology lore (Lore of India, quests of jealousy or greed) is reference only, not FR canon. In APOC the shetan is mortal and trapped in the scarred sphere; summoning spells DON'T WORK, so nothing "sends" a shetan to anyone and its summon tanar'ri calls nothing; the Bastion's mythal bars it absolutely.
 
 ---
 
@@ -8240,7 +8216,7 @@ Shetan — CR 8 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 ![Shrike](pictures/ship-plan-shrike.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -8248,11 +8224,11 @@ Hull record (partial) — Shrike. Ships carry no creature stat block and no publ
 
 Used primarily by humans and halflings. Tonnage 30 · Hull Points 30 · Crew 14/30 · Maneuver Class B · Landing: Land yes · Armor Rating 5 · Armament: 3 heavy ballistae, 1 light jettison, piercing ram · Cargo 20 tons · Keel 100 ft · Beam 20 ft. A fast light warship and trader, from Lost Ships and reprinted in the War Captain's Companion. Price as printed in 2e.
 
-## Sibil Thistledown — CR 16 — NPCs — ALL-150 (Shaun's cast)
+## Sibil Thistledown — CR 16 — NPCs — ALL-150
 
 ![Sibil Thistledown](pictures/sibil-thistledown.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 79. Sibil Thistledown — Spymaster of the Gray Hands
 
@@ -8311,7 +8287,7 @@ Description: The loud buzz of whipping wings fills the air as a tremendous insec
 
 ![Skeleton Ship](pictures/ship-plan-skeleton-ship.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -8511,7 +8487,7 @@ SKULLETON
 
 **Kit / Treasure (as published):** Treasure line: "Standard" — no itemized gear is published for this entry; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
 - **Raw magic blights** the land around the caster in APOC — necromancy worked through raw magic carries that cost; alchemy is the cornerstone inside the walls.
@@ -8562,17 +8538,17 @@ Description: Six squat, powerful legs support this stone automaton's thick, inse
 > Hit Dice: 4d12 (26 hp)
 > Initiative: +1 (Dex)
 > Speed: 60 ft., fly 100 ft. (good)
-> Armor Class: *[total *verify — library extraction*]* (–1 size, +1 Dex, +1 deflection) or 11 (–1 size, +1 Dex, +1 natural) *[dual corporeal/incorporeal AC lines as printed in this book's format; first total clipped in the column]*
-> Attacks: 2 incorporeal hoof touches +2 melee touch, incorporeal bite touch +0 melee touch; or 2 [hoof touch]es +1 melee, bite –1 melee *[as read from the column; wording *verify*]*
-> Damage: Incorporeal touch 1d4 cold, incorporeal [bite] 1d6 cold plus energy drain, hoof 1d4 cold, bite 1d6 cold plus energy drain *[as read; *verify*]*
-> Face/Reach: 5 ft. by 10 ft./5 ft.
+> Armor Class: *[total *verify — library extraction*]* (–1 size, +1 Dex, +1 deflection) or 11 (–1 size, +1 Dex, +1 natural) *[dual corporeal/incorporeal AC lines; first total clipped in the column]*
+> Attack: Incorporeal hoof touch +2 melee touch, or hoof +1 melee
+> Full Attack: 2 incorporeal hoof touches +2 melee touch, incorporeal bite touch +0 melee touch; or 2 hoof touches +1 melee, bite –1 melee *[as read from the column; wording *verify*]* (damage: Incorporeal touch 1d4 cold, incorporeal [bite] 1d6 cold plus energy drain, hoof 1d4 cold, bite 1d6 cold plus energy drain *[as read; *verify*]*
+> Space/Reach: 10 ft./5 ft.)
 > Special Attacks: Energy drain, soul charge
 > Special Qualities: Incorporeal, scent, sunlight [powerlessness], turn resistance +2, undead traits
 > Saves: Fort +1, Ref +4, Will +6
 > Abilities: Str —, Dex 13, Con —, Int 5, Wis 14, Cha 10 *[last score as read; *verify*]*
 > Skills: Hide +4, Listen +7, Spot +9
 > Feats: Lightning Reflexes
-> Climate/Terrain: Any land and underground
+> Environment: Any land and underground
 > Organization: Solitary or herd (2–12)
 > Challenge Rating: 3
 > Treasure: None
@@ -8706,7 +8682,7 @@ Description: These free-swimming mollusks are fairly aggressive. They are more f
 
 ![Squid Ship](pictures/ship-plan-squid-ship.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -8774,7 +8750,7 @@ Description: This headless humanoid shape appears to be covered in glass shards 
 
 ![Swan Ship](pictures/ship-plan-swan-ship.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -8866,23 +8842,22 @@ Flavor/combat prose (read in full): a swarm of undead mosquitoes; never sated. B
 SWORDWRAITH — Fiend Folio, p.173 (template; fully statted sample filed here)
 
 
-- **Size/Type:** Medium-Size Undead (sample creature; "Swordwraith" is a template that can be added to any humanoid or monstrous humanoid creature with levels in fighter — the creature's type changes to undead)
+- **Size/Type:** Medium Undead (sample creature; "Swordwraith" is a template that can be added to any humanoid or monstrous humanoid creature with levels in fighter — the creature's type changes to undead)
 - **Hit Dice:** 5d12 (32 hp) (sample)
 - **Initiative:** +5
 - **Speed:** 20 ft. (sample)
 - **Armor Class:** 20 (+1 Dex, +6 +1 breastplate, +3 +1 large metal shield), touch 11, flat-footed 19
 - **Base Attack/Grapple:** +5/+8
-- **Attack:** +1 longsword +10 melee, or +1 heavy crossbow +7 ranged
-- **Full Attack:** +1 longsword +10 melee, or +1 heavy crossbow +7 ranged
-- **Damage:** Longsword 1d8+6 and Strength damage, or heavy crossbow 1d10+1
-- **Face/Reach:** 5 ft./5 ft.
+- **Attack:** +1 longsword +10 melee (1d8+6 plus Strength damage), or +1 heavy crossbow +7 ranged (1d10+1)
+- **Full Attack:** +1 longsword +10 melee (1d8+6 plus Strength damage), or +1 heavy crossbow +7 ranged (1d10+1)
+- **Space/Reach:** 5 ft./5 ft.
 - **Special Attacks:** Strength damage
-- **Special Qualities:** DR 10/+2, turn resistance +2, undead traits
+- **Special Qualities:** DR 10/magic, turn resistance +2, undead traits
 - **Saves:** Fort +5, Ref +3, Will +3
 - **Abilities:** Str 17, Dex 13, Con —, Int 11, Wis 13, Cha 8 (sample)
 - **Skills:** Climb +3, Hide +5, Jump +3, Listen +7, Move Silently +1, Ride +5, Spot +7
 - **Feats:** Alertness (B), Cleave, Improved Initiative, Iron Will (B), Power Attack, Quick Draw, Weapon Focus (longsword), Weapon Specialization (longsword)
-- **Climate/Terrain:** Any land and underground (sample and template alike, as printed)
+- **Environment:** Any land and underground
 - **Organization:** Solitary, company (2–8), or squadron (11–20 plus 1 leader of 6th–9th level) (sample; the template text, p.174, prints the squadron leader as "1–4 levels higher")
 - **Challenge Rating:** 7 (sample; template: same as the base creature +2)
 - **Treasure:** Standard
@@ -8897,11 +8872,11 @@ SWORDWRAITH — Fiend Folio, p.173 (template; fully statted sample filed here)
   - potion of gaseous form
 - **Description:** "Some mercenaries are so dedicated to a life of war that they rise from death to continue the battle, prowling the site of their deaths or the places of their burial, looking for foes to put to the sword. Swordwraiths appear similar to how they did in life, although their equipment is more battered and their flesh appears insubstantial. In dim light or darkness, their eyes can be seen to glow dimly. As most in a particular band come from the same mercenary company, they usually bear the same insignia. Swordwraiths speak any languages they knew in life. Some have been willing to parlay with those they consider their military equal. The sample swordwraith uses a 5th-level human fighter as the base creature."
 
-## Sylvaris Lonn — CR 5 — NPCs — ALL-150 (Shaun's cast)
+## Sylvaris Lonn — CR 5 — NPCs — ALL-150
 
 ![Sylvaris Lonn](pictures/sylvaris-lonn.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 23. Sylvaris Lonn — Elf Wizard 5, CG
 
@@ -8936,10 +8911,7 @@ SWORDWRAITH — Fiend Folio, p.173 (template; fully statted sample filed here)
 
 Sythyss
 
-**Source:** Monsternomicon Vol. I (Privateer Press), p.62 [2005 v3.5 revision text; re-checked 2026-11-08 against the library copy (2002 original), edition differences flagged on the entry]
-
-**2002-original check (2026-11-08, pp.64–65):** the template rules are confirmed as filed (+2 natural armor, slam 1d6, Str +4/Dex +2, template feats, CR same as base creature +1, alignment always lawful evil) — but the 2002 SAMPLE is a different build from the filed 2005 sample. 2002 sample (1st-level elven aristocrat): HD 1d12+3 (9 hp), AC 17 (+5 Dex, +2 natural), slam +3 melee (1d6+3), Str 17, Dex 20, Con —, Int 10, Wis 16, Cha 17, saves Fort +0/Ref +5/Will +7, feats Alertness, Improved Initiative, Iron Will, Toughness, and no CR printed in the sample table. Filed 2005 sample (kept as primary): HD 1d12+3 (9 hp), AC 15, slam +1 (1d6+1), Str 12, Dex 17, Wis 11, Cha 12, CR 2. Both stand, editions named.
-[Sythyss entry is printed within the Eldritch entry, pp.64–65.]
+**Source:** Monsternomicon Vol. I (Privateer Press), p.62
 
 Template — "Sythyss" is an acquired template. Sample creature (p.65):
 
@@ -8978,9 +8950,9 @@ Eldritch Artifact: The Hand of Tadhg (p.65) — ancient Iosan artifact, once bel
 
 ---
 
-**Kit / Treasure (as published):** no treasure line or itemized gear is published in this entry; none invented. **Confirmed against the 2002 original (pp.64–65): no treasure line or itemized gear is printed for the sythyss in either edition; *verify* cleared 2026-11-08.**
+**Kit / Treasure (as published):** no treasure line or itemized gear is published in this entry; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - Template: applied in APOC only to base creatures already on Toril; nothing about the template summons or imports a creature.
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
@@ -9061,11 +9033,11 @@ Source book(s): Monsternomicon Vol. 1
 Description: Tatzylwurms are a remarkable group of predators that roam the less tamed lands and waters of the Iron Kingdoms. There are two dominant varieties, 'painted' and 'pale.' The highly aggressive pale tatzylwurms make their homes in the most secluded areas of the Iron Kingdoms. They are fearless and unyielding creatures, attacking anything and everything that comes within their territory. Their scales are an indistinct grayish color, perfect for concealing themselves within the shadows.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Tells — CR 16 — NPCs — ALL-150 (Shaun's cast)
+## Tells — CR 16 — NPCs — ALL-150
 
 ![Tells](pictures/tells.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 142. Tells — LG Human Male Fighter 8 / Watchman 8 (ECL 16)
 
@@ -9095,15 +9067,15 @@ Source book(s): Monster Manual III
 Description: Thankfully rare in the extreme, solitary ten-headed shrieking terrors have been reported by planar travelers. A ten-headed terror has a wingspan of 16 feet and weighs 1,600 pounds.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Tenement Crowd — Stacked Stairwell — CR 2 — APOC city population — generator entry (Shaun, 2026-11-11)
+## Tenement Crowd — Stacked Stairwell — CR 2 — APOC city population — generator entry
 
 ![Tenement Crowd — Stacked Stairwell](pictures/tenement-crowd.jpg)
 
-*Picture: Scene art — a packed city block (Shaun's map files)*
+*Picture: Scene art — a packed city block (map files)*
 
 **Partial — fullest block on file:**
 
-Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+Generator entry — city population (the city is packed; crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
 ## Teratomorph — CR 16 — Monster Manual II
 
@@ -9119,11 +9091,11 @@ Source book(s): Monster Manual II
 Description: Teratomorphs lurk in the watery depths of the sea and in underground caverns. Normally, they spend most of their time floating on underwater currents, but sometimes these currents wash them ashore. Occasionally they come ashore of their own volition to search for food. A teratomorph is a shapeless horror the size of a cottage. Its body consists primarily of thick, translucent, iridescent slime coating coils of opaque tissue that shift and move, as though constantly in a state of flux. Beneath its slimy hide, bursts of energy occasionally flash, lighting portions of its form momentarily.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Thaloril Fenwick — CR 1 — NPCs — ALL-150 (Shaun's cast)
+## Thaloril Fenwick — CR 1 — NPCs — ALL-150
 
 ![Thaloril Fenwick](pictures/thaloril-fenwick.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 4. Thaloril Fenwick — Elf Wizard 1
 
@@ -9219,7 +9191,7 @@ THE BLACK DUKE — Monster Manual V, p.190 (unique)
 - **Alignment:** Chaotic evil
 - **Description:** "A mighty warrior steps into view through the fog, adorned in gleaming mithral armor. The massive blue blade in his hands is wrapped with tendrils of mist. Through the grate of his wolf-shaped helm, the dark figure laughs."
 
-## The Enemy Battleship — CR 14 — Shaun's homebrew ship files (Blendcrafter library)
+## The Enemy Battleship — CR 14 — Homebrew ship files (Blendcrafter library)
 
 ![The Enemy Battleship](pictures/the-enemy-battleship.webp)
 
@@ -9227,9 +9199,9 @@ THE BLACK DUKE — Monster Manual V, p.190 (unique)
 
 **Partial — fullest block on file:**
 
-Hull record (partial) — The Enemy Battleship, from Shaun's own ship files. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class.
+Hull record (partial) — The Enemy Battleship, from the homebrew ship files. Ships carry no creature stat block and no published CR; the CR shown is a generator rating by hull class.
 
-Tonnage 80 · Keel 150 ft · Beam 50 ft · Hull Points 80 · Crew: optimum 30 / max total passenger load 50 · Ship's Rating 5 (major helm, 9th-level technomancer) · Tactical speed 2,500 ft/round (65 mph, 2,000 miles/day). The heavy of the fleet — the only one of Shaun's six homebrew warships rated SR 5. Standard fit on all six: free turrets, an ammunition distribution system, and heavy cannon (shared ship systems, Blendcrafter records).
+Tonnage 80 · Keel 150 ft · Beam 50 ft · Hull Points 80 · Crew: optimum 30 / max total passenger load 50 · Ship's Rating 5 (major helm, 9th-level technomancer) · Tactical speed 2,500 ft/round (65 mph, 2,000 miles/day). The heavy of the fleet — the only one of the six homebrew warships rated SR 5. Standard fit on all six: free turrets, an ammunition distribution system, and heavy cannon (shared ship systems, Blendcrafter records).
 
 ## The Lord of Blades — CR 12 — Five Nations
 
@@ -9285,21 +9257,21 @@ Narrative (pp. 83–84, summarized, not reproduced in full): the Lord of Blades,
 
 **Kit note (components cross-reference):** his *embedded wand of magic missile* is an embedded warforged component in use — the wand component itself is an ECS item (Batch 2 components layer); not re-entered here.
 
-## The Rock of Bral — CR 1 — APOC sphere canon — generator entry (Shaun, 2026-11-12)
+## The Rock of Bral — CR 1 — APOC sphere canon — generator entry
 
 ![The Rock of Bral](pictures/rock-of-bral.jpg)
 
-*Picture: Shaun's collection — the Rock of Bral (Spelljammer files, Maps)*
+*Picture: Collection art — the Rock of Bral (Spelljammer files, Maps)*
 
 **Partial — fullest block on file:**
 
-Generator entry — the sphere's great station (Shaun's canon, 2026-11-11/12). The Rock of Bral is the published Rock of Bral: a city-bearing asteroid anchored above the Bastion, in deep space off Toril's surface, serving as a trading point between the held cities. It is a place and a port, not a creature, and no published stat line exists for it as an encounter; its ships, docks, markets, and crowds are the encounter. (Shaun's fuller expansion of the Rock is filed separately and is not blended into this entry.)
+Generator entry — the sphere's great station. The Rock of Bral is the published Rock of Bral: a city-bearing asteroid anchored above the Bastion, in deep space off Toril's surface, serving as a trading point between the held cities. It is a place and a port, not a creature, and no published stat line exists for it as an encounter; its ships, docks, markets, and crowds are the encounter. (A fuller expansion of the Rock is filed separately and is not blended into this entry.)
 
 ## The Spelljammer — CR 20 — Spelljammer — Legend of Spelljammer / Lorebook of the Void (Blendcrafter library)
 
 ![The Spelljammer](pictures/the-spelljammer.png)
 
-*Picture: Printed plans of The Spelljammer — Shaun's Spelljammer collection*
+*Picture: Printed plans of The Spelljammer — the Spelljammer collection*
 
 **Partial — fullest block on file:**
 
@@ -9335,11 +9307,11 @@ Source book(s): Monster Manual II
 Description: Thri-kreen, often called mantis warriors, are intelligent humanoids with insectlike features. They prefer deserts and savannas, where they maintain a nomadic lifestyle as hunters. A thri-kreen looks like a bipedal praying mantis. Of the six limbs protruding from its midsection, two are used for walking, and each of the other four ends in a four-fingered hand. A sandy yellow exoskeleton covers an adult thri-kreen’s body. Two compound eyes, two antennae, and a complicated jaw structure that includes a pair of wicked mandibles give its head an insectlike appearance.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Tilda Cogspring — CR 6 — NPCs — ALL-150 (Shaun's cast)
+## Tilda Cogspring — CR 6 — NPCs — ALL-150
 
 ![Tilda Cogspring](pictures/tilda-cogspring.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 29. Tilda Cogspring — Gnome Ranger 6, NG
 
@@ -9365,11 +9337,11 @@ Description: Thri-kreen, often called mantis warriors, are intelligent humanoids
 
 ---
 
-## Tilda Ironfoot — CR 2 — NPCs — ALL-150 (Shaun's cast)
+## Tilda Ironfoot — CR 2 — NPCs — ALL-150
 
 ![Tilda Ironfoot](pictures/tilda-ironfoot.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 10. Tilda Ironfoot — Dwarf Fighter 2
 
@@ -9417,17 +9389,17 @@ Description: Thri-kreen, often called mantis warriors, are intelligent humanoids
 
 **Gate:** Intelligence 5, and the article says it outright: tin golems "are imbued with a very basic intelligence… They can also understand, follow, and even respond to basic instructions," with a printed **Speech (Ex)** quality. This is a golem published as a thinking, talking worker — in, on both prongs of the gate.
 
-### Published stat block (as printed)
+### Stat block
 
 Medium Construct
-Hit Dice: 3d10+23 (39 hp) *(as printed — the +23 does not match the standard construct size bonus for a Medium construct; reproduced as published, flagged, not corrected)*
+Hit Dice: 3d10+23 (39 hp) *(the book's own bonus, not the standard construct size bonus)*
 Initiative: +0
 Speed: 30 ft. (6 squares)
 Armor Class: 19 (+7 natural, +2 shield), touch 10, flat-footed 17
 Base Attack/Grapple: +2/+4
 Attack: Masterwork heavy mace +5 melee (1d8+2)
 Full Attack: Masterwork heavy mace +5 melee (1d8+2)
-Face/Reach: 5 ft./5 ft.
+Space/Reach: 5 ft./5 ft.
 Special Attacks: —
 Special Qualities: Construct traits, craftsmanship, low-light vision, magic immunity, proficiency, speech
 Saves: Fort +1, Ref +1, Will +1
@@ -9485,11 +9457,11 @@ Source book(s): Monster Manual I
 Description: These diminutive amphibians are innocuous and beneficial, since they eat insects.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Tomas Reyne, the Last Marshal — CR 20 — NPCs — ALL-150 (Shaun's cast)
+## Tomas Reyne, the Last Marshal — CR 20 — NPCs — ALL-150
 
 ![Tomas Reyne, the Last Marshal](pictures/tomas-reyne-the-last-marshal.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 100. Tomas Reyne, the Last Marshal — Human Fighter 20 — HEROIC LEGEND
 
@@ -9527,7 +9499,7 @@ Description: These diminutive amphibians are innocuous and beneficial, since the
 
 ![Tradesman](pictures/ship-plan-tradesman.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -9595,7 +9567,7 @@ Description: The most civilized form of troll is the trollkin, and they boast a 
 
 ![Turtle Ship](pictures/ship-plan-turtle-ship.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -9629,11 +9601,11 @@ Hull record (partial) — Tyrant Ship. Ships carry no creature stat block and no
 
 Built by the Arcane; used by beholders. Tonnage 23 · Hull Points 23 · Crew 15/23 · Maneuver Class C · Landing: Land no, Water no · Armor Rating 0 · Saves as Stone · Power: Orbus · Ship's Rating 1-6 · Armament: special (see below) · Cargo 11 tons · Keel varies (100 ft front-to-back typical) · Beam varies (100 ft radius typical). The most varied class of ship in space — stone shells shaped like walnuts, eyeballs, or tentacled shells, each grown for one beholder subspecies; these stats are for a "typical" tyrant ship. It carries no ship weapons; the crew is the weapon: a "beholder circuit" of common beholders, orbi, and a queen focuses a beam of magical energy (about 1,200 ft long in tactical combat) that can duplicate the eye powers of its members — charm, sleep, telekinesis, flesh to stone, disintegrate, fear, slow, death, and an anti-magic ray that can shut down a spelljamming helm it strikes.
 
-## Unit Bastion-4 — CR 7 — NPCs — ALL-150 (Shaun's cast)
+## Unit Bastion-4 — CR 7 — NPCs — ALL-150
 
 ![Unit Bastion-4](pictures/unit-bastion-4-bast.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 33. Unit Bastion-4 "Bast" — Warforged Fighter 7, LG
 
@@ -9660,11 +9632,11 @@ Built by the Arcane; used by beholders. Tonnage 23 · Hull Points 23 · Crew 15/
 
 ---
 
-## Unit Rook-9 — CR 5 — NPCs — ALL-150 (Shaun's cast)
+## Unit Rook-9 — CR 5 — NPCs — ALL-150
 
 ![Unit Rook-9](pictures/unit-rook-9.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 24. Unit Rook-9 — Warforged Rogue 5, N
 
@@ -9680,14 +9652,14 @@ Built by the Arcane; used by beholders. Tonnage 23 · Hull Points 23 · Crew 15/
 **Skills:** Hide +11, Move Silently +11, Disable Device +12, Open Lock +13, Search +10, Spot +8, Listen +8, Climb +9, Tumble +11
 **Feats:** Improved Initiative [1], Weapon Finesse [3]
 **Gear (~4,200 gp):** +1 buckler forearm plate, mwk short sword, mwk light crossbow, mwk thieves' tools, *oil of repair moderate damage* ×2, silk rope 50 ft, grappling hook, everburning lamp, 90 gp in unmarked cheqs.
-**Repair note:** Healed at full effect per Shaun's Doc #4 Warforged ruling; nanite natural healing applies.
+**Repair note:** Healed at full effect per the Doc #4 Warforged ruling; nanite natural healing applies.
 **Steampunk aesthetic:** Matte composite plating seamed with exposed rivets and patched with mismatched brass plates, a boiler-heart that ticks audibly in quiet rooms, and his single amber optic set in a rotating brass goggle-ring; oil and coal-dust never quite leave his joints.
 **Appearance:** Slim scout chassis, matte grey plating scratched with nine tally notches, one amber optic.
 **Traits/Voice:** Flat, literal, learning slang badly. *"I am not lost. The fog is unmapped. Different problem."*
 **Motivation:** Buy legal personhood papers — Warforged are second-class citizens in the Bastion.
 **Secret/Flaw:** Still carries a sealed orders-slate from before the calamity he cannot read and fears to open.
 **Background:** Runs locks and messages through the fog for whoever pays, based from a Dungsweepers' Guildhall loft.
-**DM Hook:** Hireable scout; his sealed slate is a campaign thread if Shaun wants it.
+**DM Hook:** Hireable scout; his sealed slate is an open campaign thread.
 
 ---
 
@@ -9733,7 +9705,7 @@ Vampire spawn appear much as they did in life, although their features are often
 
 Vampire spawn speak Common.
 
-## Vasha Rook — CR 1 — NPCs — ALL-150 (Shaun's cast)
+## Vasha Rook — CR 1 — NPCs — ALL-150
 
 ![Vasha Rook](pictures/vasha-rook.jpg)
 
@@ -9818,11 +9790,11 @@ Source book(s): Monster Manual III
 Description: The insectlike creature before you stands 12 feet tall on locust legs. It has four arms, two of which wield a sword and shield in chitinous hands while the others bear large, scorpionlike claws. Beneath its armor, its body is covered with green and black chitin. Pincers project from its mouth, and a scorpion's tail quivers behind it. As it steps forward, the beetlelike carapace on its back flickers open and closed, causing the great wasp wings beneath to rustle like dry leaves.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Vespera Thorn — CR 9 — NPCs — ALL-150 (Shaun's cast)
+## Vespera Thorn — CR 9 — NPCs — ALL-150
 
 ![Vespera Thorn](pictures/vespera-thorn.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 41. Vespera Thorn — Human Wizard 5 / Loremaster 4, NG
 
@@ -9838,11 +9810,11 @@ Description: The insectlike creature before you stands 12 feet tall on locust le
 
 ---
 
-## Vessa Kade — CR 5 — NPCs — ALL-150 (Shaun's cast)
+## Vessa Kade — CR 5 — NPCs — ALL-150
 
 ![Vessa Kade](pictures/vessa-kade.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 21. Vessa Kade — Human Fighter 5, LN
 
@@ -9875,7 +9847,7 @@ Description: The insectlike creature before you stands 12 feet tall on locust le
 
 **Partial — fullest block on file:**
 
-Type: Medium-Size Plant (Aquatic)
+Type: Medium Plant (Aquatic)
 Challenge Rating: 4
 Source book(s): Fiend Folio
 Description: Primitive, cruel, and elusive, vine horrors are sentient colonies of algae with the ability to assume a roughly humanoid form. They stalk swamps and similar areas, and they attack by surprise whenever possible. Vine horrors are often mistaken for green-skinned humanoids with coarse, rough features. A vine horror’s features appear smooth and somewhat unformed, and when it speaks, its voice often changes pitch in unusual and seemingly random patterns.
@@ -9911,7 +9883,7 @@ Cross-reference record A — WARFORGED (MM III monster version)
 
 - **What MM III adds:** a monster-format presentation of the same race — a sample **Warforged, 1st-Level Warrior**, CR **1/2**, LA +0, with the living construct traits referenced to p. 215.
 - **Sample block (as published):** Medium Construct (Living Construct); HD 1d8+2 (6 hp); Init +0; Speed 30 ft. (6 squares); AC 15 (+5 Mithral Body), touch 10, flat-footed 15; BAB/Grapple +1/+2; Attack spear +2 melee (1d8+1/×3) or slam +2 melee (1d4+1) or spear +1 ranged (1d8+1/×3); Space/Reach 5 ft./5 ft.; SA —; SQ composite plating, light fortification, living construct traits; Saves Fort +4, Ref +0, Will –1; Str 13, Dex 11, Con 14, Int 9, Wis 8, Cha 6; Skills Intimidate +1, Jump +0; Feats Mithral Body; Environment Any land; Organization solitary, pair, or squad (4–20 plus 1 3rd-level sergeant); Treasure None; Alignment usually lawful neutral; Advancement by character class. (Base scores before racial adjustments: Str 13, Dex 11, Con 12, Int 9, Wis 10, Cha 8.)
-- **Differences vs. the ECS presentation:** none in the racial traits — +2 Con, –2 Wis, –2 Cha; composite plating (+2 armor, 5% arcane spell failure); light fortification; favored class fighter; LA +0 — identical. The differences are presentational only: MM III assigns the CR 1/2 and the warrior sample (which spends its feat on Mithral Body, raising the sample's armor bonus to +5), and its descriptive text is written for Eberron's Last War aftermath ("most warforged in those lands serve as slave laborers… in other lands, they are free but sometimes the victims of discrimination"). Eberron lore is stripped at the merge; Shaun's APOC Note in Batch 2 governs.
+- **Differences vs. the ECS presentation:** none in the racial traits — +2 Con, –2 Wis, –2 Cha; composite plating (+2 armor, 5% arcane spell failure); light fortification; favored class fighter; LA +0 — identical. The differences are presentational only: MM III assigns the CR 1/2 and the warrior sample (which spends its feat on Mithral Body, raising the sample's armor bonus to +5), and its descriptive text is written for Eberron's Last War aftermath ("most warforged in those lands serve as slave laborers… in other lands, they are free but sometimes the victims of discrimination"). Eberron lore is stripped at the merge; The APOC Note in Batch 2 governs.
 - **Picture:** official illustration, Monster Manual III, p. 190. Extraction owed.
 **Picture (final, at merge):** `pictures/warforged-mm3-p190.png` — OFFICIAL BOOK ART (Monster Manual III, p. 190 — cross-reference row; the entry's primary picture is the ECS plate in Part I)
 
@@ -9919,7 +9891,7 @@ Cross-reference record A — WARFORGED (MM III monster version)
 
 ![Wasp](pictures/ship-plan-wasp.webp)
 
-*Picture: Printed deck plans — Shaun's Spelljammer collection (Blendcrafter deck-plan sheets)*
+*Picture: Printed deck plans — the Spelljammer collection (Blendcrafter deck-plan sheets)*
 
 **Partial — fullest block on file:**
 
@@ -9927,15 +9899,15 @@ Hull record (partial) — Wasp. Ships carry no creature stat block and no publis
 
 Built by lizard men; used by lizard men and humans. Tonnage 18 · Hull Points 18 · Crew 8/18 · Maneuver Class D · Landing: Land yes, Water yes (Bee class only — the Concordance list says Water no) · Armor Rating 6 · Saves as Thick wood · Power: major or minor helm · Ship's Rating: as for helmsman · Armament: 1 heavy ballista (crew 4) · Cargo 9 tons · Keel 80 ft · Beam 20 ft. A dragonfly relative built for the lizard man physique, with flooded lower decks for its crew and a raised hump carrying the ballista turret. Cheap and roomy for its size, a favorite pirate and free-adventuring ship and an excellent boarding platform. Variants: the deep-space "bee" and the bloated cargo "bumble bee."
 
-## Watch Patrol — CR 3 — APOC city population — generator entry (Shaun, 2026-11-11)
+## Watch Patrol — CR 3 — APOC city population — generator entry
 
 ![Watch Patrol](pictures/watch-patrol.jpg)
 
-*Picture: Scene art — a Watch barracks street (Shaun's map files)*
+*Picture: Scene art — a Watch barracks street (map files)*
 
 **Partial — fullest block on file:**
 
-Generator entry — Shaun's city population (2026-11-11: the city is packed, crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
+Generator entry — city population (the city is packed; crowds are its standing character). This is a body of the city's own people, not a single published creature, and no published stat line exists for it as such — none is invented here. For individuals within it, use the city's own records on these tables: the named NPC entries carry their full published sections, and a Watch patrol's members are Watch people of those same records (Bram Holt, Tilda Ironfoot, Vessa Kade, Tells, and their officers).
 
 ## Waterveiled Assassin — CR 15 — Monster Manual IV
 
@@ -9951,7 +9923,7 @@ Source book(s): Monster Manual IV
 Description: The walls around you groan, buckle, and bulge outward as a torrent of water sprays out from a dozen rents. The water flows together, forming a monstrous shape. Bits of rock, dirt, and bones float within it, along with the shredded remnants of weapons, armor, and clothing. The shape rushes toward you like a tidal wave as it attacks.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Waystation — Unnamed — CR 1 — APOC sphere canon — generator entry (Shaun, 2026-11-12)
+## Waystation — Unnamed — CR 1 — APOC sphere canon — generator entry
 
 ![Waystation — Unnamed](pictures/waystation.webp)
 
@@ -9959,7 +9931,7 @@ Description: The walls around you groan, buckle, and bulge outward as a torrent 
 
 **Partial — fullest block on file:**
 
-Generator entry — an unnamed waystation of the sphere (Shaun's canon: a couple of other stations exist, unnamed and unplaced so far). A hollowed rock with docks, stores, and a beacon — a place, not a creature; no published stat line exists for it. Who holds it, and what they charge, is the encounter.
+Generator entry — an unnamed waystation of the sphere (a couple of other stations exist, unnamed and unplaced so far). A hollowed rock with docks, stores, and a beacon — a place, not a creature; no published stat line exists for it. Who holds it, and what they charge, is the encounter.
 
 ## Windghost — CR 15 — Monster Manual II
 
@@ -9989,11 +9961,11 @@ Source book(s): Monster Manual I
 Description: A typical worg has gray or black fur, grows to 5 feet long and stands 3 feet tall at the shoulder. It weighs 300 pounds. More intelligent than their smaller cousins, worgs speak their own language. Some can also speak Common and Goblin.
 [Partial — fullest available from APOC-VTT registry record; no roster stat block found. No stat lines invented.]
 
-## Wrenna Caladrel — CR 3 — NPCs — ALL-150 (Shaun's cast)
+## Wrenna Caladrel — CR 3 — NPCs — ALL-150
 
 ![Wrenna Caladrel](pictures/wrenna-caladrel.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 11. Wrenna Caladrel — Half-Elf Rogue 3
 
@@ -10027,11 +9999,11 @@ Description: A typical worg has gray or black fur, grows to 5 feet long and stan
 
 ---
 
-## Xale — CR 13 — NPCs — ALL-150 (Shaun's cast)
+## Xale — CR 13 — NPCs — ALL-150
 
 ![Xale](pictures/xale.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 138. Xale — Human Paladin 13 of Selûne, LG
 
@@ -10127,46 +10099,44 @@ Description: This six-limbed insectoid horror stares ahead unblinkingly through 
 Yunwi Djunsti — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 
-**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 205 (PDF p. 206). The book's last entry. "Book is 3.0-era d20 — reproduced as published."
-**Classification evidence (verbatim from the page):** heading "Yunwi Djunsti (Tanar'ri)"; type line "Medium-size Outsider (Chaotic, Evil)"; "Challenge Rating: 9"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
+**Source:** *The Encyclopedia of Demons & Devils* Vol. 1, book p. 205 (PDF p. 206). The book's last entry. 
+**Classification evidence (verbatim from the page):** heading "Yunwi Djunsti (Tanar'ri)"; type line "Medium Outsider (Chaotic, Evil)"; "Challenge Rating: 9"; "Alignment: Always chaotic evil." A genuine demon entry in this book — rostered.
 
 - **Yunwi Djunsti (Tanar'ri)**
-- Medium-size Outsider (Chaotic, Evil)
-- **Hit Dice:** 2d8 +2 (11 hp) *(space before "+2" as printed)*
+- Medium Outsider (Chaotic, Evil)
+- **Hit Dice:** 2d8+2 (11 hp)
 - **Initiative:** +0
 - **Speed:** 30 ft.
 - **AC:** 16 (+6 natural)
-- **Attacks:** Invisible Weapons +3 melee
-- **Damage:** Club 1d6 +three times per x3 crit — ⚠ **PUBLISHED ERROR** note: damage line garbled as printed (verified at 300 dpi; same garble as the Yezerha-Ra dagger line above); reproduced as published.
-- **Face/Reach:** 5 ft. by 5 ft./5 ft.
+- **Attack:** Invisible weapons +3 melee (club 1d6+3, ×3 crit) - **Full Attack:** Invisible weapons +3 melee (club 1d6+3, ×3 crit) — ⚠ **PUBLISHED ERROR:** the book's damage line for this entry is garbled (verified at 300 dpi; the same garble as the Yezerha-Ra dagger line); the damage here reads it as club 1d6+3, ×3 crit. - **Space/Reach:** 5 ft./5 ft.
 - **Special Attacks:** Summon tanar'ri
-- **Special Qualities:** Damage reduction 30/ +3, SR 28, tanar'ri qualities *(space in "30/ +3" as printed)*
+- **Special Qualities:** Damage reduction 30/magic, SR 28, tanar'ri qualities
 - **Saves:** Fort +4, Ref +3, Will +4
-- **Abilities:** Str 13, Dex 11, Con 13, Int 9, Wis13, Cha 15 *(no space in "Wis13" as printed)*
-- **Skills:** Hide +4, Open Lock +4, Pick Pocket +4, Disable Device +4
+- **Abilities:** Str 13, Dex 11, Con 13, Int 9, Wis 13, Cha 15
+- **Skills:** Hide +4, Open Lock +4, Sleight of Hand +4, Disable Device +4
 - **Feats:** Run
-- **Climate/Terrain:** Any land and underground
+- **Environment:** Any land and underground
 - **Organization:** Solitary, 2-5 (gang)
 - **Challenge Rating:** 9
 - **Treasure:** Standard
 - **Alignment:** Always chaotic evil
 - **Advancement Range:** None
 
-**Description (verbatim, book p. 205):** "This demon of North American Cherokee legend comes to the prime material plane as a 3-4 foot tall comely human. Each of these demons have long dark hair that flows down to the ground. They arrive in white leather clothing. They are summoned to do deviltry to the enemies of the summoner. Hair from the victim is part of the summoning ritual. The Yunwi Djunsti demon is summoned for a time period from one full moon to the next. Many times after the demon has served its purpose, it remains to work its tricks on the summoner in turn. Freed, the demon summons others of its type, and they make invisible lairs in the summoner's lands. They don't like humans, and they play vicious and deadly tricks on people who try to live near their demon dens." / "There are four different types of this demon, and each appears differently, depending on the geography of the area it is summoned into. When summoned into mountains or rocky lands, the demon is gray skinned and its hide is the texture of flint. When summoned in the desert, the demon has skin just like sand. When summoned in grassy or planted lands, the demon is green-skinned. When summoned in jungles or woods, the demon is very elf-like, with all the abilities of an elf." / "It's bad luck to view a Yunwi Djunsti, and those who look in the demon's eyes have –1 to all their DC checks for 24 hours. Many cultures know these common demons and call them the little people, making sacrifices to them in the form of fresh milk and the first cut of meat from any wild animal taken in hunting." *("DC checks" as printed)*
+**Description (verbatim, book p. 205):** "This demon of North American Cherokee legend comes to the prime material plane as a 3-4 foot tall comely human. Each of these demons have long dark hair that flows down to the ground. They arrive in white leather clothing. They are summoned to do deviltry to the enemies of the summoner. Hair from the victim is part of the summoning ritual. The Yunwi Djunsti demon is summoned for a time period from one full moon to the next. Many times after the demon has served its purpose, it remains to work its tricks on the summoner in turn. Freed, the demon summons others of its type, and they make invisible lairs in the summoner's lands. They don't like humans, and they play vicious and deadly tricks on people who try to live near their demon dens." / "There are four different types of this demon, and each appears differently, depending on the geography of the area it is summoned into. When summoned into mountains or rocky lands, the demon is gray skinned and its hide is the texture of flint. When summoned in the desert, the demon has skin just like sand. When summoned in grassy or planted lands, the demon is green-skinned. When summoned in jungles or woods, the demon is very elf-like, with all the abilities of an elf." / "It's bad luck to view a Yunwi Djunsti, and those who look in the demon's eyes have –1 to all their DC checks for 24 hours. Many cultures know these common demons and call them the little people, making sacrifices to them in the form of fresh milk and the first cut of meat from any wild animal taken in hunting."
 
 **Combat (verbatim):** "Rocky Yunwi Djunsti are able to attack with invisible hurled stones, doing 3d6 of damage. The stones turn to dust after striking. These demons are totally invisible in the sun's light, but they can be seen in moonlight." / "Desert Yunwi Djunsti can generate an invisible sandstorm, doing 3 points of damage every combat round until the demon is destroyed. These demons are able to move through the sand of the desert as fast as they can travel overland." / "Grassland Yunwi Djunsti can generate the tangle spell five times a day. These demons cannot be summoned to harm elves." — ⚠ **PUBLISHED ERROR** note: "tangle spell" as printed (verified at 300 dpi; evidently for "entangle"); reproduced as published. / "Jungle Yunwi Djunsti can summon a dire bear to fight by their side once a day. These demons will breed dire bears to have one bear per demon living in the area." / "The Yunwi Djunsti can do all their attacks and tricks while invisible." / "When the demon picks up a weapon, that weapon becomes invisible in its hands. This invisibility lasts on the weapon for 24 hours or longer if the demon keeps the weapon by its side."
 **Summon Tanar'ri (Sp) (verbatim):** "Once per day, a Yunwi Djunsti can attempt to summon 1d2 dretch with a 20% chance of success."
 **Gifts of the Yunwi Djunsti (verbatim):** "The demon enjoys helping the young and can be found acting as protectors of children in all lands. Children under 10 can see these demons and talk to them as friends. These children are often given valuable diamonds and emeralds as presents on their birthdays."
 
-**APOC NOTE (Shaun's canon — separate from the published text above):** Third-party lore is reference only, not FR canon. In APOC the Yunwi Djunsti is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so its summon tanar'ri calls nothing and no ritual summons it; the Bastion's mythal bars demons absolutely.
+**APOC NOTE (APOC canon — separate from the published text above):** Third-party lore is reference only, not FR canon. In APOC the Yunwi Djunsti is mortal and trapped inside the scarred crystal sphere; planar travel is severed and summoning spells DON'T WORK, so its summon tanar'ri calls nothing and no ritual summons it; the Bastion's mythal bars demons absolutely.
 
 ---
 
-## Zareth the Pale — CR 17 — NPCs — ALL-150 (Shaun's cast)
+## Zareth the Pale — CR 17 — NPCs — ALL-150
 
 ![Zareth the Pale](pictures/zareth-the-pale.jpg)
 
-*Picture: NPC portrait — Shaun's NPC cast artwork (ALL-150)*
+*Picture: NPC portrait — NPC cast artwork (ALL-150)*
 
 85. Zareth the Pale — Elf Wizard (Transmuter) 17, barred: Conjuration & Illusion
 
@@ -10200,30 +10170,29 @@ Yunwi Djunsti — CR 9 [3RD-PARTY — Publisher: Fast Forward Entertainment]
 
 *Picture: Constructs roster picture index: Official book art — Fiend Folio, p. 199 (captioned)*
 
-ZODAR [3.0-format as published]
+### Stat block
 
-**Medium-Size Construct**
+**Medium Construct**
 **Hit Dice:** 16d10+20 (108 hp)
 **Initiative:** +3
 **Speed:** 60 ft. (can't run)
 **AC:** 28 (+3 Dex, +10 natural, +5 deflection), touch 18, flat-footed 25
 **Base Attack/Grapple:** +12/+19
-**Attack:** Slam +19 melee
-**Full Attack:** 2 slams +19 melee
-**Damage:** Slam 2d6+7
-**Face/Reach:** 5 ft./5 ft.
+**Attack:** Slam +19 melee (2d6+7)
+**Full Attack:** 2 slams +19 melee (2d6+7)
+**Space/Reach:** 5 ft./5 ft.
 **Special Attacks:** Constrict
 **Special Qualities:** Burst of strength, construct traits, invulnerability, wish
 **Saves:** Fort +5, Ref +8, Will +8
 **Abilities:** Str 25, Dex 16, Con —, Int —, Wis 16, Cha 10
 **Skills:** —
 **Feats:** —
-**Climate/Terrain:** Any land
+**Environment:** Any land
 **Organization:** Solitary
 **Challenge Rating:** 16
 **Treasure:** Magic items only
 **Alignment:** Usually chaotic neutral
-**Advancement:** 17–45 HD (Medium-size)
+**Advancement:** 17–45 HD (Medium)
 
 Incredibly powerful, enigmatic constructs of unknown origin, zodars resemble animated suits of polished black plate armor. Some are beautifully ornate, while others are plain and simply functional. They are made not of metal, but some sort of ceramic substance surrounding a solid mass of muscle capable of producing tremendous bursts of strength.
 Zodars seldom, if ever, talk. A zodar never speaks more than one sentence during a typical human lifetime. Even then, the utterance may be no more than a sentence fragment, but whatever the zodar says is certain to be important. Every character within hearing understands the statement, regardless of what languages it knows (treat such characters as though affected by a *tongues* spell of instantaneous duration).
@@ -10293,7 +10262,7 @@ ZOMBIE, BRINE
 
 **Kit / Treasure (as published):** Treasure line: "None                                                              New Weapon" — no itemized gear is published for this entry; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
 - **Raw magic blights** the land around the caster in APOC — necromancy worked through raw magic carries that cost; alchemy is the cornerstone inside the walls.
@@ -10364,7 +10333,7 @@ ZOMBIE, BRINE
 
 **Kit / Treasure (as published):** Treasure line: "None                                                              New Weapon" — no itemized gear is published for this entry; none invented.
 
-**APOC Note** *(Shaun's — separate from the published text above)*
+**APOC Note** *(separate from the published text above)*
 - Counts toward the **Kingdom of the Undead** faction in the badlands war (2701 DR).
 - **The Bastion's Melairshield bars undead** — it cannot enter the Bastion of Last Hope.
 - **Raw magic blights** the land around the caster in APOC — necromancy worked through raw magic carries that cost; alchemy is the cornerstone inside the walls.

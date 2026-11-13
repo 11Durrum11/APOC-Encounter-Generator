@@ -1,52 +1,52 @@
 # APOC Survival — Random Encounter Tables (d1000)
 
-Built 2026-11-09 from canonical sources only: Demons roster (361 in file — the build order said 355; file truth 361 governs), Undead roster (346), Sentient Constructs roster (92), NPCs cast (150), APOC-VTT monster registry (1,486, Monsternomicon I at 2002-original values).
+Built 2026-11-09 from canonical sources only: Demons roster (361 in file — the build order said 355; file truth 361 governs), Undead roster (346), Sentient Constructs roster (92), NPCs cast (150), APOC-VTT monster registry (1,486).
 
 **Stat blocks & pictures:** every creature on these tables carries its full stat block and its picture in the roller (`index.html`) and in [STATBLOCKS.md](STATBLOCKS.md) / `encounters.json` — roll on the page to see the rolled creature's block and picture. This document stays the quick-reference table set.
 
-## The Badlands — the world outside the cities (Shaun, canon correction 2026-11-11)
+## The Badlands — the world outside the cities (canon, 2026-11-11)
 **The Badlands is everywhere the city is not.** It is all the untamed world outside the held cities — everywhere the demons crossed the landscape and blighted it as they travelled through. Every table in this set except the Bastion's own describes a place WITHIN the Badlands: its plains, forests, hills, mountains, deserts, swamps, waters, ruins, roads, and deep places are regions of the Badlands, not lands beside it. The **Open Wastes** table is the general table for the open blighted country of the Badlands, between and beyond those regions. Only the Bastion tables are inside a held city.
 
-## One to a thousand — the d1000 scale (Shaun, 2026-11-11)
-With every landscape of the Badlands on the tables, the rolls now run **1 to 1000** instead of 1 to 100 (Shaun: "maybe you should make it one to a thousand"), so all the different landscapes and their populations ride at their proper weight on the finer scale. The conversion is exact scaling, nothing more: every band was multiplied by ten (a band printed 46–50 is now 451–500; the old roll of 100 is now 991–1000), so **every creature keeps precisely the share of its table it always had** — nothing was padded, added, removed, or re-weighted, and Saint James still waits on the last 1% of his three tables. All twenty tables run on the one scale, the Bastion's included, so the roller throws a single die throughout; the Chart Generator builds d1000 charts to match. The Badlands layer rides over the new scale unchanged — it keys on landscapes, not numbers.
+## One to a thousand — the d1000 scale
+With every landscape of the Badlands on the tables, the rolls now run **1 to 1000**, so all the different landscapes and their populations ride at their proper weight on the finer scale. Every band carries its population at its proper weight on the finer scale, and **every creature keeps precisely its share of its table** — nothing was padded, added, removed, or re-weighted, and Saint James still waits on the last 1% of his three tables. All twenty tables run on the one scale, the Bastion's included, so the roller throws a single die throughout; the Chart Generator builds d1000 charts to match. The Badlands layer rides over the new scale unchanged — it keys on landscapes, not numbers.
 
-## Space — the wildspace environment (Shaun, 2026-11-12)
-The twentieth table is not a landscape: it is **wildspace itself**, the crystal sphere the world hangs in. It is built the same way as the other environments — d1000, stat blocks, pictures, scenarios — and from the same discipline: his canon only. Its population is the sphere's own: the spelljamming traffic of his incorporated Spelljammer material (the hulls and Peoples of Space of the Blendcrafter Spelljamming records), the sphere's stations, and the demon incursions flown outward from Toril, the demons' home base — the other worlds were never touched by portals, only by incursions like those — **with undead marched in the demons' train**, for the enclaves move undead armies through the sphere as they do across the Badlands (Shaun's addition, same call: "And some demons. And some undead." — a real presence on the table, not its body: five demon entries on the incursion ladder and four undead, the boneship among them, against the Spelljammer population that carries the table). The **Rock of Bral** (pronounced 'brawl') rides on it as what it is: the published Rock itself, anchored above the Bastion, the trading point between the held cities; a couple of other stations exist, unnamed, and one rolls as the unnamed waystation it is. **The Spelljammer** waits at the extreme tail (991–1000), the sphere's great legend. The sphere's APOC state governs every line: the wall is scarred shut — the Cut — and nothing crosses it; planar travel is severed; everything on this table sails, trades, and wars *inside* the sphere. The boundary rule has its space form here: this is the sphere's own population, not the Bastion's tables and not an overlay — the Badlands layer does not reach it (the layer is the blighted land's condition; the void has its own), the bleed neither enters nor leaves it, and the Twisted overlay does not twist hulls. Ships carry their published hull records as partial blocks (ships have no creature stat block and no published CR; the CR shown is a generator rating by hull class for the builder), and their pictures are their printed deck plans from Shaun's collection, or art generated from the published description where no plan or art is on file.
-**Steampunk — as built, on Shaun's word.** The Steampunk overlay reaches this table exactly as it reaches every other — toggled on, a Space roll takes the treatment (hulls as machines of the age, creatures in their steamwork form, corporeal undead Steampunk-Augmented under Shaun's original, gear drops), with the published records underneath. It is NOT steampunked by default: Shaun closed that flag on the AI DM call (2026-11-12) — "No, we're good" — and the table stands as built.
+## Space — the wildspace environment
+The twentieth table is not a landscape: it is **wildspace itself**, the crystal sphere the world hangs in. It is built the same way as the other environments — d1000, stat blocks, pictures, scenarios — and from the same discipline: his canon only. Its population is the sphere's own: the spelljamming traffic of his incorporated Spelljammer material (the hulls and Peoples of Space of the Blendcrafter Spelljamming records), the sphere's stations, and the demon incursions flown outward from Toril, the demons' home base — the other worlds were never touched by portals, only by incursions like those — **with undead marched in the demons' train**, for the enclaves move undead armies through the sphere as they do across the Badlands (an addition from the same call — a real presence on the table, not its body: five demon entries on the incursion ladder and four undead, the boneship among them, against the Spelljammer population that carries the table). The **Rock of Bral** (pronounced 'brawl') rides on it as what it is: the published Rock itself, anchored above the Bastion, the trading point between the held cities; a couple of other stations exist, unnamed, and one rolls as the unnamed waystation it is. **The Spelljammer** waits at the extreme tail (991–1000), the sphere's great legend. The sphere's APOC state governs every line: the wall is scarred shut — the Cut — and nothing crosses it; planar travel is severed; everything on this table sails, trades, and wars *inside* the sphere. The boundary rule has its space form here: this is the sphere's own population, not the Bastion's tables and not an overlay — the Badlands layer does not reach it (the layer is the blighted land's condition; the void has its own), the bleed neither enters nor leaves it, and the Twisted overlay does not twist hulls. Ships carry their published hull records as partial blocks (ships have no creature stat block and no published CR; the CR shown is a generator rating by hull class for the builder), and their pictures are their printed deck plans from the collection, or art generated from the published description where no plan or art is on file.
+**Steampunk — as built.** The Steampunk overlay reaches this table exactly as it reaches every other — toggled on, a Space roll takes the treatment (hulls as machines of the age, creatures in their steamwork form, corporeal undead Steampunk-Augmented under the original template, gear drops). It is NOT steampunked by default: The flag on that question is closed (2026-11-12), and the table stands as built.
 
-## The Badlands layer in the roller — an on/off additive (Shaun, 2026-11-11)
-The roller carries a **Badlands layer** toggle. It is not a table and not a landscape: it is the Badlands itself, layered over whichever landscape is rolled. **Off** (the default): landscape rolls stand as printed. **On**: the party is out in the Badlands, and every landscape result is produced as a Badlands encounter — the result carries the layer's canon conditions for that country (on the surface: one grey sky, Fog of Life, hatestorm country, the permanent war, the unclaimed walking it; below ground: no Fog of Life, but the blight soaked deep and the war runs through the dark), and the land's own living creatures in that defiled country may be twisted — warped in body, wrong in habit, no demon and no servant of demons — under Shaun's Twisted template where the DM calls it. The layer never reaches the Bastion tables: the city is the exception, held behind its walls and mythal. Table contents and math are unchanged either way; the roll history records when the layer was on.
+## The Badlands layer in the roller — an on/off additive
+The roller carries a **Badlands layer** toggle. It is not a table and not a landscape: it is the Badlands itself, layered over whichever landscape is rolled. **Off** (the default): landscape rolls stand as printed. **On**: the party is out in the Badlands, and every landscape result is produced as a Badlands encounter — the result carries the layer's canon conditions for that country (on the surface: one grey sky, Fog of Life, hatestorm country, the permanent war, the unclaimed walking it; below ground: no Fog of Life, but the blight soaked deep and the war runs through the dark), and the land's own living creatures in that defiled country may be twisted — warped in body, wrong in habit, no demon and no servant of demons — under the Twisted template where the DM calls it. The layer never reaches the Bastion tables: the city is the exception, held behind its walls and mythal. Table contents and math are unchanged either way; the roll history records when the layer was on.
 
 ## APOC screening rules (hard)
 - No summoning, no planar arrivals. Demons are mortal enclave demons already here; undead are the Kingdom of the Undead and local undead.
 - Fog of Life is surface-only — it does not apply underground or inside the Bastion. Hatestorms rage across the Badlands — the whole untamed world outside the held cities; inside the Bastion only regular fog applies.
 - The Bastion's Melairshield bars undead, demons, dragons and flying creatures. Bastion-interior tables are Watch/Guard patrols, citizens, consortium people, Warforged, War-Torn, sentient constructs, vermin and NPCs.
 - Drow do not appear (folded into the demons) and tieflings do not appear (they were taken) — both excluded entirely.
-- **Dragons haven't been seen in a thousand years** (Shaun, 2026-11-09) — a legend under the Council of Wyrms. NO dragon is rollable on any table, including dracolich and any Dragon-type creature; excluded and counted in COVERAGE.md.
-- Undead entries carry Shaun's house rules in their APOC note: maximized hp, +4 turning/control resistance re-rolled every round, zombie-type bite infects.
+- **Dragons haven't been seen in a thousand years** — a legend under the Council of Wyrms. NO dragon is rollable on any table, including dracolich and any Dragon-type creature; excluded and counted in COVERAGE.md.
+- Undead entries carry the house rules in their APOC note: maximized hp, +4 turning/control resistance re-rolled every round, zombie-type bite infects.
 
-## WORLD LORE — claimed and unclaimed undead (Shaun, 2026-11-09: "Not world law, world lore")
+## WORLD LORE — claimed and unclaimed undead (world lore, not world law)
 There are two kinds of undead, as it were. The **unclaimed** are wild undead, living out in the Badlands — each in its own corner of it — following no nation's rule. The **claimed** are the undead nation — the Kingdom of the Undead — ruled by its own laws and its own way of doing things. The nation's society is led from the top: the highest order of undead — its most powerful and intelligent — make up the society's upper crust and leadership, and the lesser claimed are its rank and file under them. Every undead entry carries a lore tag (`undeadKind`: claimed / unclaimed / either) in the APOC layer only; published stat lines are untouched, and no specific laws, rulers, or customs of the nation are invented — only the above is established. Claimed undead still never appear inside the Bastion: the Melairshield bars all undead regardless of claimed status.
 
 - Correction pass 2026-11-09: the Drowned (Monster Manual III) restored — it is an undead, not a drow; the drow exclusion is word-boundary (the Tirbana Drowser, a Monster Manual V magical beast, was a second substring false positive). Extraction-noise rows cleaned — see COVERAGE.md.
 
 - Improvement pass 2026-11-09: full stat blocks merged onto every entry (see STATBLOCKS.md), pictures matched from the roster picture pools, and an ecology audit applied (published Environment governs; swaps and weak fits logged in COVERAGE.md).
 
-## The Steampunk overlay — the second additive (Shaun, 2026-11-11)
+## The Steampunk overlay — the second additive
 Beside the Badlands layer sits a second toggle: the **Steampunk overlay**. The two are independent and combine in any state — Badlands on or off, Steampunk on or off — because they layer different things: the Badlands layer is the world's condition; the Steampunk overlay is the age's technology. Steampunk belongs everywhere in this age, so the overlay reaches **every** table, the Bastion's included — the city runs on steam (cannoneer towers, the walking constructs, steamcraft in the workshops), and out in the landscapes the enclaves' war-machines crawl, constructs work fields and ruins, and steamcraft gear turns up in ready hands; elemental workings, in the city or out of it, are fed through steampunk apparatus. When a roll itself produces a construct, the overlay names it the element made manifest: a machine of the age, met in the field. Like the layer, it changes no table contents and no math; the roll history marks it [Steampunk], and the two marks stack when both are on.
 
-**The rewrite (Shaun's spec, 2026-11-11):** with the overlay ON, the rolled creature itself is presented rewritten as a steampunk version — **Steamwork [creature]** — its description and build reworked in the idiom from its own published lines (frame and size, how it moves, its natural weapons rebuilt in steel), shown as the version in play over a published record that stays verbatim and untouched below it; the overlay reworks the form, not the numbers, and OFF the creature stands exactly as published. Two classes are not rewritten: **constructs** (the Warforged among them) are already machines of the age and stand as published; **persons** — the NPC cast, Saint James — are not rebuilt either, for rebuilding a person into a machine is precisely what makes a War-Torn: they are presented kitted in the idiom (steamcraft gear, apparatus, firearms) and themselves unchanged. Both collisions are flagged for Shaun in COVERAGE.md rather than guessed past.
+**The rewrite (the spec):** with the overlay ON, the rolled creature itself is presented rewritten as a steampunk version — **Steamwork [creature]** — its description and build reworked in the idiom from its own published lines (frame and size, how it moves, its natural weapons rebuilt in steel), shown as the version in play over a published record that stays verbatim and untouched below it; the overlay reworks the form, not the numbers, and OFF the creature stands exactly as published. Two classes are not rewritten: **constructs** (the Warforged among them) are already machines of the age and stand as published; **persons** — the NPC cast, Saint James — are not rebuilt either, for rebuilding a person into a machine is precisely what makes a War-Torn: they are presented kitted in the idiom (steamcraft gear, apparatus, firearms) and themselves unchanged. Both collisions are flagged in COVERAGE.md rather than guessed past.
 
-## The overlays, settled — bleed, weighting, gear, and the Twisted (Shaun's rulings, 2026-11-11)
-Three independent overlays, any combination. **Badlands:** with the layer on, the Open Wastes pool bleeds into the other landscapes' rolls at random — one roll in twenty comes out of the general Badlands pool instead (Shaun's settled rate) — and never into the Bastion, whose tables stay city populations only on every overlay; Saint James is never displaced by an overlay. **Steampunk:** besides the rewrite, machines are weighted seven out of ten under steam — a non-machine result bends to the table's own machine population at the rate that makes machines seven in ten over time, drawn in proportion to their bands (a landscape whose published population holds no machines has nothing to bend to); and steamcraft gear drops with the roll, one piece of the age's gear, named plainly. **Twisted:** the third overlay stands on its own toggle now — with it on, the land's own living life on a roll is presented Twisted, warped in body and wrong in habit, over a published block that stands as printed; the undead, constructs, demons, and persons are not twisted by it. Shaun's Twisted template (his Doc #4) carries the mechanics when it is on file; until then the overlay presents the form in canon's words and changes no numbers.
+## The overlays, settled — bleed, weighting, gear, and the Twisted
+Three independent overlays, any combination. **Badlands:** with the layer on, the Open Wastes pool bleeds into the other landscapes' rolls at random — one roll in twenty comes out of the general Badlands pool instead (the settled rate) — and never into the Bastion, whose tables stay city populations only on every overlay; Saint James is never displaced by an overlay. **Steampunk:** besides the rewrite, machines are weighted seven out of ten under steam — a non-machine result bends to the table's own machine population at the rate that makes machines seven in ten over time, drawn in proportion to their bands (a landscape whose published population holds no machines has nothing to bend to); and steamcraft gear drops with the roll, one piece of the age's gear, named plainly. **Twisted:** the third overlay stands on its own toggle now — with it on, the land's own living life on a roll is presented Twisted, warped in body and wrong in habit, over a published block that stands as printed; the undead, constructs, demons, and persons are not twisted by it. the Twisted template (his Doc #4) carries the mechanics when it is on file; until then the overlay presents the form in canon's words and changes no numbers.
 
-**The templates are on file now (2026-11-11).** Both of Shaun's house templates live in the Blendcrafter library's homebrew records, and the overlays apply them for real. The **Twisted template** (Misc Other House Rules, Doc #4 — the record is "Twisted (House)") rides the Twisted overlay: +4 Strength, +4 Constitution, −2 Charisma, Intelligence at least 3, natural armor +2, alignment to evil, Smite Good and a vile Disruptive Attack, two claws, darkvision, damage reduction 5/cold iron, immunities and resistances — and no CR adjustment, for the document gives none; animals and vermin become magical beasts under it. The **Steampunk-Augmented Undead** template rides the Steampunk overlay onto corporeal undead: boiler-driven thralls in bolted plate, CR +1, a Piston Slam, a boiler that bursts when they fall. In both cases the application is the overlay's layer; the published record underneath stands verbatim.
+**The templates are on file now (2026-11-11).** Both house templates live in the Blendcrafter library's homebrew records, and the overlays apply them for real. The **Twisted template** (Misc Other House Rules, Doc #4 — the record is "Twisted (House)") rides the Twisted overlay: +4 Strength, +4 Constitution, −2 Charisma, Intelligence at least 3, natural armor +2, alignment to evil, Smite Good and a vile Disruptive Attack, two claws, darkvision, damage reduction 5/cold iron, immunities and resistances — and no CR adjustment, for the document gives none; animals and vermin become magical beasts under it. The **Steampunk-Augmented Undead** template rides the Steampunk overlay onto corporeal undead: boiler-driven thralls in bolted plate, CR +1, a Piston Slam, a boiler that bursts when they fall. In both cases the application is the overlay's layer, and the panel stands alone in the result — the published record stays in the data and the tools, not under the panel.
 
-**The twisting happens randomly (Shaun's ruling, 2026-11-11):** under the Twisted overlay an eligible creature is not twisted on every roll — each result rolls its own chance, because in the world the twisting is a matter of chance, not a fixed rate or schedule. (The generator's working chance is 1 in 5 — a build parameter, stated here so it is never mistaken for a canon rate.)
+**The twisting happens randomly (standing ruling):** under the Twisted overlay an eligible creature is not twisted on every roll — each result rolls its own chance, because in the world the twisting is a matter of chance, not a fixed rate or schedule. (The generator's working chance is 1 in 5 — a build parameter, stated here so it is never mistaken for a canon rate.)
 
-**Feature toggles (Shaun, 2026-11-11: "Make them toggles too"):** the bleed, the machine weighting, and the gear drops each carry their own on/off switch beside the overlay toggles, defaulting ON — they are Shaun's rulings, switched on unless he turns one off — and each gates only its own feature; a feature still needs its overlay on to do anything.
+**Feature toggles:** the bleed, the machine weighting, and the gear drops each carry their own on/off switch beside the overlay toggles, defaulting ON — they are standing rulings, switched on unless he turns one off — and each gates only its own feature; a feature still needs its overlay on to do anything.
 
-## Possible scenarios — who, what, when, where, why, and how (Shaun, 2026-11-11)
+## Possible scenarios — who, what, when, where, why, and how
 Every roll in the roller now also presents a **scenario**: six lines — Who, What, When, Where, Why, How — drawn from the frames below by the table's context and the creature's kind. They are DM-facing POSSIBILITIES, not script: the roll names the creature, the scenario offers a shape for the meeting. Who is the rolled creature or person by name and number appearing (a named person's own Faction, Role, and Motivation ride the line, from their record); the version in play leads when an overlay fired — Twisted, Steamwork, Steampunk-Augmented, or bled in from the Open Wastes — with the published base named. Canon holds throughout: the Fog of Life lies on surface country only — never in the Bastion and never underground; hatestorms are Badlands weather; under the grey sky there is no dawn, dusk, sun, or star anywhere, and underground there is no day at all; no dragon ever appears (a thousand years unseen — legend only); nothing is summoned and nothing arrives by plane. **The Bastion frames default to packed conditions** — the city is very crowded, life boiling over, and that is why the Watch holds it the way it does: shoulder-to-shoulder streets, queues, markets at the crush; an empty street inside the walls is called out as the omen it is.
 
 ### Scenarios — The Bastion (city tables)
@@ -235,7 +235,7 @@ Every roll in the roller now also presents a **scenario**: six lines — Who, Wh
 | 951–970 | Dream Vestige | 16 | Solitary | Libris Mortis |
 | 971–980 | Lifespark Construct | 18 | Solitary | Advanced Bestiary |
 | 981–990 | Isitwalangcengce | 21 | Solitary | Encyclopedia of Demons & Devils Vol. 1 |
-| 991–1000 | Saint James | 15 | 1 (plus sentient telepathic dire crocodile partner and flying tavern ST-JAMES — Booze and Magic; crew of unseen servants / invisible stalkers) | Shaun canon / NPCs #150 — Saint James file |
+| 991–1000 | Saint James | 15 | 1 (plus sentient telepathic dire crocodile partner and flying tavern ST-JAMES — Booze and Magic; crew of unseen servants / invisible stalkers) | NPCs #150 — Saint James file |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
 
@@ -309,16 +309,16 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 |---|---|---|---|---|
 | 01–50 | Kobold | 0.25 | Solitary (see source book) | Monster Manual I |
 | 51–100 | Gnome, Forest | 0.5 | Solitary (see source book) | Monster Manual I |
-| 101–180 | Bram Holt | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 101–180 | Bram Holt | 1 | Solitary | NPCs — ALL-150 |
 | 181–240 | Raiment | 1 | Solitary | Libris Mortis |
 | 241–300 | Baneguard | 2 | Solitary, pair, or squad (3–10) | Lost Empires of Faerûn |
-| 301–360 | Malachi Vane | 2 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 301–360 | Malachi Vane | 2 | Solitary | NPCs — ALL-150 |
 | 361–410 | Bile Thrall | 3 | Solitary or troop (6-10); often accompa- | Monsternomicon Vol. II |
 | 411–460 | Hoar Spirit | 3 | Pack (2–5) or gang (6–11) | Tome of Horrors II |
 | 461–510 | Skin Kite | 3 | Solitary, pair, or flock (5–8) | Libris Mortis |
 | 511–560 | Draug | 4 | Solitary or crew (1 draug plus 6-11 brine | Tome of Horrors Revised (Necromancer Games |
 | 561–600 | Orc Berserker | 4 | Solitary (see source book) | Monster Manual IV |
-| 601–650 | Anvil-7 | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 601–650 | Anvil-7 | 5 | Solitary | NPCs — ALL-150 |
 | 651–700 | Cadaver Lord | 5 | Solitary or troupe (cadaver lord plus 1–4 cadavers) | Tome of Horrors II |
 | 701–750 | Darnoc | 6 | Solitary or gang (2-4) | Tome of Horrors Revised (Necromancer Games |
 | 751–790 | Apparition | 7 | Solitary or gang (2-4)                                                              succeeds, the victim | Tome of Horrors Revised (Necromancer Games |
@@ -463,8 +463,8 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 | d1000 | Encounter | CR | Number appearing | Source |
 |---|---|---|---|---|
 | 01–60 | Cerebral Symbiont, Mind Leech | 0.125 | Solitary (see source book) | Fiend Folio |
-| 61–120 | Bram Holt | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 121–180 | Vasha Rook | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 61–120 | Bram Holt | 1 | Solitary | NPCs — ALL-150 |
+| 121–180 | Vasha Rook | 1 | Solitary | NPCs — ALL-150 |
 | 181–240 | Lurking Strangler | 2 | Solitary (see source book) | Monster Manual III |
 | 241–300 | Automaton Hammerer | 3 | Solitary (see source book) | Monster Manual II |
 | 301–370 | Ghoul-Stirge | 3 | Solitary, gang (2-4), or flock (5-8) | Tome of Horrors Revised (Necromancer Games |
@@ -483,7 +483,7 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 | 921–950 | Slaughterstone Eviscerator | 12 | Solitary (see source book) | Monster Manual III |
 | 951–970 | Dolomite | 15 | Solitary (see source book) | Monsternomicon Vol. 1 |
 | 971–980 | Ethergaunt, Black | 17 | Solitary (see source book) | Fiend Folio |
-| 981–1000 | Brammin Ironroot | 19 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 981–1000 | Brammin Ironroot | 19 | Solitary | NPCs — ALL-150 |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
 
@@ -515,7 +515,7 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 | 951–970 | Thoon Elder Brain | 15 | Solitary (see source book) | Monster Manual V |
 | 971–980 | Vermin Lord | 17 | Solitary (see source book) | Monster Manual III |
 | 981–990 | Aspect of Dispater | 21 | Solitary (see source book) | Fiendish Codex II |
-| 991–1000 | Saint James | 15 | 1 (plus sentient telepathic dire crocodile partner and flying tavern ST-JAMES — Booze and Magic; crew of unseen servants / invisible stalkers) | Shaun canon / NPCs #150 — Saint James file |
+| 991–1000 | Saint James | 15 | 1 (plus sentient telepathic dire crocodile partner and flying tavern ST-JAMES — Booze and Magic; crew of unseen servants / invisible stalkers) | NPCs #150 — Saint James file |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
 
@@ -525,32 +525,32 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 
 | d1000 | Encounter | CR | Number appearing | Source |
 |---|---|---|---|---|
-| 01–160 | Citizens of the Bastion — Street Crowd | 1 | Crowd (20–200) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 161–260 | Gate Queue — Citizens at the Wall | 1 | Queue (30–300) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 261–370 | Watch Patrol | 3 | Patrol (3–12) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 371–440 | Consortium Porters and Carters | 1 | Crew (6–40) | APOC city population — generator entry (Shaun, 2026-11-11) |
+| 01–160 | Citizens of the Bastion — Street Crowd | 1 | Crowd (20–200) | APOC city population — generator entry |
+| 161–260 | Gate Queue — Citizens at the Wall | 1 | Queue (30–300) | APOC city population — generator entry |
+| 261–370 | Watch Patrol | 3 | Patrol (3–12) | APOC city population — generator entry |
+| 371–440 | Consortium Porters and Carters | 1 | Crew (6–40) | APOC city population — generator entry |
 | 441–500 | Warforged | 0.5 | Solitary (see source book) | Monster Manual III |
-| 501–560 | Bram Holt | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 561–610 | Tilda Ironfoot | 2 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 611–650 | Rivet | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 501–560 | Bram Holt | 1 | Solitary | NPCs — ALL-150 |
+| 561–610 | Tilda Ironfoot | 2 | Solitary | NPCs — ALL-150 |
+| 611–650 | Rivet | 1 | Solitary | NPCs — ALL-150 |
 | 651–690 | Clockroach | 1 | Solitary (see source book) | Monster Manual IV |
-| 691–725 | Vessa Kade | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 691–725 | Vessa Kade | 5 | Solitary | NPCs — ALL-150 |
 | 726–755 | Tin Golem | 3 | Solitary, pair, or gang (3–4) | Dragon Magazine / Constructs roster (web-sourced entry) |
 | 756–785 | Mule | 1 | Solitary (see source book) | Monster Manual I |
-| 786–810 | Unit Rook-9 | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 811–835 | Unit Bastion-4 | 7 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 836–855 | Ser Corvin Hale | 4 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 856–875 | Derek Windsfire | 11 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 876–890 | Ser Caspian Thorvald | 13 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 891–905 | Tells | 16 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 906–920 | Captain Rulathon | 15 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 921–932 | Xale | 13 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 933–944 | Helve Urtrace | 14 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 945–956 | Marshal Ezekiel Thorn | 16 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 957–968 | Inara Steelhand | 14 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 969–980 | Ser Ilya Vane | 17 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 981–990 | Anvil-7 | 18 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 991–1000 | Tomas Reyne, the Last Marshal | 20 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 786–810 | Unit Rook-9 | 5 | Solitary | NPCs — ALL-150 |
+| 811–835 | Unit Bastion-4 | 7 | Solitary | NPCs — ALL-150 |
+| 836–855 | Ser Corvin Hale | 4 | Solitary | NPCs — ALL-150 |
+| 856–875 | Derek Windsfire | 11 | Solitary | NPCs — ALL-150 |
+| 876–890 | Ser Caspian Thorvald | 13 | Solitary | NPCs — ALL-150 |
+| 891–905 | Tells | 16 | Solitary | NPCs — ALL-150 |
+| 906–920 | Captain Rulathon | 15 | Solitary | NPCs — ALL-150 |
+| 921–932 | Xale | 13 | Solitary | NPCs — ALL-150 |
+| 933–944 | Helve Urtrace | 14 | Solitary | NPCs — ALL-150 |
+| 945–956 | Marshal Ezekiel Thorn | 16 | Solitary | NPCs — ALL-150 |
+| 957–968 | Inara Steelhand | 14 | Solitary | NPCs — ALL-150 |
+| 969–980 | Ser Ilya Vane | 17 | Solitary | NPCs — ALL-150 |
+| 981–990 | Anvil-7 | 18 | Solitary | NPCs — ALL-150 |
+| 991–1000 | Tomas Reyne, the Last Marshal | 20 | Solitary | NPCs — ALL-150 |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
 
@@ -562,7 +562,7 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 |---|---|---|---|---|
 | 01–80 | Toad | 0.1 | Solitary (see source book) | Monster Manual I |
 | 81–150 | Elf, Gray | 0.5 | Solitary (see source book) | Monster Manual I |
-| 151–220 | Bram Holt | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 151–220 | Bram Holt | 1 | Solitary | NPCs — ALL-150 |
 | 221–280 | Orc Battle Priest | 1 | Solitary (see source book) | Monster Manual IV |
 | 281–340 | Boar | 2 | Solitary (see source book) | Monster Manual I |
 | 341–400 | Leopard | 2 | Solitary (see source book) | Monster Manual I |
@@ -589,28 +589,28 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 
 | d1000 | Encounter | CR | Number appearing | Source |
 |---|---|---|---|---|
-| 01–135 | Citizens of the Bastion — Street Crowd | 1 | Crowd (20–200) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 136–260 | Market Crowd — At the Crush | 1 | Crowd (40–400) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 261–364 | Watch Patrol | 3 | Patrol (3–12) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 365–458 | Queue — Fountain, Office, or Bread Line | 1 | Queue (20–150) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 459–510 | Bram Holt | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 01–135 | Citizens of the Bastion — Street Crowd | 1 | Crowd (20–200) | APOC city population — generator entry |
+| 136–260 | Market Crowd — At the Crush | 1 | Crowd (40–400) | APOC city population — generator entry |
+| 261–364 | Watch Patrol | 3 | Patrol (3–12) | APOC city population — generator entry |
+| 365–458 | Queue — Fountain, Office, or Bread Line | 1 | Queue (20–150) | APOC city population — generator entry |
+| 459–510 | Bram Holt | 1 | Solitary | NPCs — ALL-150 |
 | 511–562 | Kenku | 0.5 | Solitary (see source book) | Monster Manual III |
-| 563–609 | Pippa Underbough | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 563–609 | Pippa Underbough | 1 | Solitary | NPCs — ALL-150 |
 | 610–656 | Warforged | 0.5 | Solitary (see source book) | Monster Manual III |
-| 657–698 | Wrenna Caladrel | 3 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 657–698 | Wrenna Caladrel | 3 | Solitary | NPCs — ALL-150 |
 | 699–740 | Clockroach | 1 | Solitary (see source book) | Monster Manual IV |
-| 741–771 | Tilda Cogspring | 6 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 772–802 | Fenwick Aldous | 7 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 803–828 | Jasker | 7 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 829–854 | Kailee Restinan | 6 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 741–771 | Tilda Cogspring | 6 | Solitary | NPCs — ALL-150 |
+| 772–802 | Fenwick Aldous | 7 | Solitary | NPCs — ALL-150 |
+| 803–828 | Jasker | 7 | Solitary | NPCs — ALL-150 |
+| 829–854 | Kailee Restinan | 6 | Solitary | NPCs — ALL-150 |
 | 855–880 | Mule | 1 | Solitary (see source book) | Monster Manual I |
-| 881–901 | Mira Voss | 6 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 902–922 | Aldric Vane | 8 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 923–938 | Rodelik Karneth | 8 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 939–954 | PIP-9 | 9 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 955–970 | Nyx Shadowveil | 11 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 971–985 | Sibil Thistledown | 16 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 986–1000 | Derek Windsfire | 11 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 881–901 | Mira Voss | 6 | Solitary | NPCs — ALL-150 |
+| 902–922 | Aldric Vane | 8 | Solitary | NPCs — ALL-150 |
+| 923–938 | Rodelik Karneth | 8 | Solitary | NPCs — ALL-150 |
+| 939–954 | PIP-9 | 9 | Solitary | NPCs — ALL-150 |
+| 955–970 | Nyx Shadowveil | 11 | Solitary | NPCs — ALL-150 |
+| 971–985 | Sibil Thistledown | 16 | Solitary | NPCs — ALL-150 |
+| 986–1000 | Derek Windsfire | 11 | Solitary | NPCs — ALL-150 |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
 
@@ -620,41 +620,41 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 
 | d1000 | Encounter | CR | Number appearing | Source |
 |---|---|---|---|---|
-| 01–118 | Tenement Crowd — Stacked Stairwell | 2 | Crowd (20–120) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 119–208 | Market Crowd — At the Crush | 1 | Crowd (40–400) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 209–288 | Consortium Hall — Full Session | 2 | Assembly (30–200) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 289–358 | Queue — Fountain, Office, or Bread Line | 1 | Queue (20–150) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 359–418 | Watch Patrol | 3 | Patrol (3–12) | APOC city population — generator entry (Shaun, 2026-11-11) |
-| 419–458 | Sella Turgran | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 01–118 | Tenement Crowd — Stacked Stairwell | 2 | Crowd (20–120) | APOC city population — generator entry |
+| 119–208 | Market Crowd — At the Crush | 1 | Crowd (40–400) | APOC city population — generator entry |
+| 209–288 | Consortium Hall — Full Session | 2 | Assembly (30–200) | APOC city population — generator entry |
+| 289–358 | Queue — Fountain, Office, or Bread Line | 1 | Queue (20–150) | APOC city population — generator entry |
+| 359–418 | Watch Patrol | 3 | Patrol (3–12) | APOC city population — generator entry |
+| 419–458 | Sella Turgran | 1 | Solitary | NPCs — ALL-150 |
 | 459–493 | Tin Golem | 3 | Solitary, pair, or gang (3–4) | Dragon Magazine / Constructs roster (web-sourced entry) |
-| 494–528 | Thaloril Fenwick | 1 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 529–563 | Brin Odo (Brindlewick Odometer) | 2 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 564–593 | Kazrik Emberhand | 3 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 494–528 | Thaloril Fenwick | 1 | Solitary | NPCs — ALL-150 |
+| 529–563 | Brin Odo (Brindlewick Odometer) | 2 | Solitary | NPCs — ALL-150 |
+| 564–593 | Kazrik Emberhand | 3 | Solitary | NPCs — ALL-150 |
 | 594–623 | Animated Object | 2 | Solitary (see source book) | Monster Manual I |
 | 624–653 | Farrow | 1 | Solitary (see source book) | Monsternomicon Vol. 1 |
-| 654–678 | Ingrid Hollowdelve | 4 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 679–703 | Bram Tallowick | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 654–678 | Ingrid Hollowdelve | 4 | Solitary | NPCs — ALL-150 |
+| 679–703 | Bram Tallowick | 5 | Solitary | NPCs — ALL-150 |
 | 704–728 | Kenku | 0.5 | Solitary (see source book) | Monster Manual III |
-| 729–748 | Pell Underbough | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 749–768 | Sylvaris Lonn | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 729–748 | Pell Underbough | 5 | Solitary | NPCs — ALL-150 |
+| 749–768 | Sylvaris Lonn | 5 | Solitary | NPCs — ALL-150 |
 | 769–788 | Caryatid Column | 6 | Solitary, corbel (2), or colonnade (4–24) | Fiend Folio |
-| 789–806 | Seraphine Cole | 8 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 807–824 | Professor Ostwick Hale | 8 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 825–842 | Durgan Ironvein | 8 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 843–857 | Vespera Thorn | 9 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 858–872 | Grath Ironjaw | 9 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 873–887 | Brother Cadmus Vale | 10 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 888–902 | Mira Cogwheel | 10 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 903–914 | Durgan Stonevein | 10 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 915–926 | Mirella Voss | 13 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 927–938 | Fenwick Loam | 12 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 789–806 | Seraphine Cole | 8 | Solitary | NPCs — ALL-150 |
+| 807–824 | Professor Ostwick Hale | 8 | Solitary | NPCs — ALL-150 |
+| 825–842 | Durgan Ironvein | 8 | Solitary | NPCs — ALL-150 |
+| 843–857 | Vespera Thorn | 9 | Solitary | NPCs — ALL-150 |
+| 858–872 | Grath Ironjaw | 9 | Solitary | NPCs — ALL-150 |
+| 873–887 | Brother Cadmus Vale | 10 | Solitary | NPCs — ALL-150 |
+| 888–902 | Mira Cogwheel | 10 | Solitary | NPCs — ALL-150 |
+| 903–914 | Durgan Stonevein | 10 | Solitary | NPCs — ALL-150 |
+| 915–926 | Mirella Voss | 13 | Solitary | NPCs — ALL-150 |
+| 927–938 | Fenwick Loam | 12 | Solitary | NPCs — ALL-150 |
 | 939–950 | Runic Guardian | 10 | Solitary (see source book) | Monster Manual II |
-| 951–960 | Zareth the Pale | 17 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 961–970 | Dagna Stoneveil | 18 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 971–978 | Selune-Marra Vael | 19 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 979–986 | Forge Father | 20 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 987–994 | Elowen Thistledown | 20 | Solitary | NPCs — ALL-150 (Shaun's cast) |
-| 995–1000 | Naronen Monroe | 20 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 951–960 | Zareth the Pale | 17 | Solitary | NPCs — ALL-150 |
+| 961–970 | Dagna Stoneveil | 18 | Solitary | NPCs — ALL-150 |
+| 971–978 | Selune-Marra Vael | 19 | Solitary | NPCs — ALL-150 |
+| 979–986 | Forge Father | 20 | Solitary | NPCs — ALL-150 |
+| 987–994 | Elowen Thistledown | 20 | Solitary | NPCs — ALL-150 |
+| 995–1000 | Naronen Monroe | 20 | Solitary | NPCs — ALL-150 |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
 
@@ -706,9 +706,9 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 | 661–710 | Yugoloth, Mezzoloth | 6 | Solitary (see source book) | Monster Manual III |
 | 711–760 | Orc Plague Speaker | 7 | Solitary (see source book) | Monster Manual IV |
 | 761–800 | Gorgon | 8 | Solitary (see source book) | Monster Manual I |
-| 801–840 | Demon, Zovvut | 9 | Solitary or squad (1 plus 2–4 wights) | Monster Manual II |
+| 801–840 | Demon, Zovvut | 7 | Solitary or squad (1 plus 2–4 wights) | Monster Manual II |
 | 841–880 | Azi-Dahaka | 10 | Solitary | Encyclopedia of Demons & Devils Vol. 1 |
-| 881–920 | Derek Windsfire | 11 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 881–920 | Derek Windsfire | 11 | Solitary | NPCs — ALL-150 |
 | 921–950 | Ooze, Elder Black Pudding | 12 | Solitary                                        to move over the opponents, affecting as many as it can | Monster Manual I |
 | 951–970 | Ammit | 15 | Solitary | Encyclopedia of Demons & Devils Vol. 1 |
 | 971–980 | Ethergaunt, Black | 17 | Solitary (see source book) | Fiend Folio |
@@ -730,7 +730,7 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 | 341–400 | Vampire Spawn | 4 | Solitary or pack (2–5) | Monster Manual I |
 | 401–470 | Painspeaker | 4 | Solitary or cabal (2–6) | Tome of Magic |
 | 471–530 | Deadly Sin, Envy | 5 | Solitary | Encyclopedia of Demons & Devils Vol. 1 |
-| 531–600 | Selune-Marra Vael | 5 | Solitary | NPCs — ALL-150 (Shaun's cast) |
+| 531–600 | Selune-Marra Vael | 5 | Solitary | NPCs — ALL-150 |
 | 601–650 | Gear Wyrm | 6 | Solitary (see source book) | Monsternomicon Vol. 1 |
 | 651–700 | Chaos Beast | 7 | Solitary (see source book) | Monster Manual I |
 | 701–750 | Susurrus | 7 | Solitary (see source book) | Monster Manual III |
@@ -742,7 +742,7 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 | 951–970 | Giant Psurlon | 15 | Solitary (see source book) | Monster Manual II |
 | 971–980 | Inevitable, Quarut | 17 | Solitary | Fiend Folio |
 | 981–990 | Kumbhakarna | 20 | Unique | Encyclopedia of Demons & Devils Vol. 1 |
-| 991–1000 | Saint James | 15 | 1 (plus sentient telepathic dire crocodile partner and flying tavern ST-JAMES — Booze and Magic; crew of unseen servants / invisible stalkers) | Shaun canon / NPCs #150 — Saint James file |
+| 991–1000 | Saint James | 15 | 1 (plus sentient telepathic dire crocodile partner and flying tavern ST-JAMES — Booze and Magic; crew of unseen servants / invisible stalkers) | NPCs #150 — Saint James file |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
 
@@ -802,7 +802,7 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 
 ## Space — Wildspace (d1000)
 
-*Wildspace — the crystal sphere itself: its ships, its peoples, its stations, the demon incursions flown out of Toril, and the undead marched in the demons' train. The sphere's own population — not a Bastion table and not an overlay. The wall is scarred shut (the Cut): nothing crosses it, and everything here sails inside it. The Rock of Bral rides anchored above the Bastion as the sphere's trading point; a couple of other stations exist, unnamed. Built from Shaun's incorporated Spelljammer material (Blendcrafter Spelljamming records), his demon and undead rosters, and the sphere canon.*
+*Wildspace — the crystal sphere itself: its ships, its peoples, its stations, the demon incursions flown out of Toril, and the undead marched in the demons' train. The sphere's own population — not a Bastion table and not an overlay. The wall is scarred shut (the Cut): nothing crosses it, and everything here sails inside it. The Rock of Bral rides anchored above the Bastion as the sphere's trading point; a couple of other stations exist, unnamed. Built from the incorporated Spelljammer material (Blendcrafter Spelljamming records), the demon and undead rosters, and the sphere canon.*
 
 | d1000 | Encounter | CR | Number appearing | Source |
 |---|---|---|---|---|
@@ -813,7 +813,7 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 | 219–260 | Turtle Ship | 5 | 1 ship (crew 12/40 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
 | 261–302 | Drakkar | 4 | 1 ship | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
 | 303–340 | Goblin Blade | 5 | 1 ship (crew 1/2 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 341–367 | The Rock of Bral | 1 | Station — a small city in the void | APOC sphere canon — generator entry (Shaun, 2026-11-12) |
+| 341–367 | The Rock of Bral | 1 | Station — a small city in the void | APOC sphere canon — generator entry |
 | 368–403 | Hammership | 8 | 1 ship (crew 24/60 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
 | 404–437 | Dragonship | 8 | 1 ship (crew 20/45 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
 | 438–469 | Leaf Ship | 6 | 1 ship (crew 20/65 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
@@ -844,8 +844,8 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 | 939–951 | Voidwraith | 6 | Solitary, pair, or gang (3–5) | Libris Mortis |
 | 952–963 | Mohrg | 8 | Solitary, gang (2–4), or mob (2–4 plus 5–10 zombies) | Monster Manual I |
 | 964–974 | Bodak | 8 | Solitary or gang (2–4) | Monster Manual I |
-| 975–983 | Waystation — Unnamed | 1 | Station (small) | APOC sphere canon — generator entry (Shaun, 2026-11-12) |
-| 984–990 | The Enemy Battleship | 14 | 1 ship (crew: optimum 30, as printed in Shaun's file) | Shaun's homebrew ship files (Blendcrafter library) |
+| 975–983 | Waystation — Unnamed | 1 | Station (small) | APOC sphere canon — generator entry |
+| 984–990 | The Enemy Battleship | 14 | 1 ship (crew: optimum 30, as printed in the ship file) | Homebrew ship files (Blendcrafter library) |
 | 991–1000 | The Spelljammer | 20 | Unique | Spelljammer — Legend of Spelljammer / Lorebook of the Void (Blendcrafter library) |
 
 APOC notes, stat blocks and pictures per entry are in encounters.json / the roller / STATBLOCKS.md (undead house rules, enclave-demon note, named-encounter flags).
