@@ -9949,11 +9949,11 @@
   },
   {
    "name": "Space \u2014 Wildspace",
-   "note": "Wildspace \u2014 the crystal sphere itself: its ships, its peoples, its stations, and the demon incursions flown out of Toril. The sphere's own population \u2014 not a Bastion table and not an overlay. The wall is scarred shut (the Cutting / the Cut): nothing crosses it, and everything here sails inside it. The Rock of Bral rides anchored above the Bastion as the sphere's trading point; a couple of other stations exist, unnamed. Built from Shaun's incorporated Spelljammer material (Blendcrafter Spelljamming records) and the sphere canon.",
+   "note": "Wildspace \u2014 the crystal sphere itself: its ships, its peoples, its stations, the demon incursions flown out of Toril, and the undead marched in the demons' train. The sphere's own population \u2014 not a Bastion table and not an overlay. The wall is scarred shut (the Cut): nothing crosses it, and everything here sails inside it. The Rock of Bral rides anchored above the Bastion as the sphere's trading point; a couple of other stations exist, unnamed. Built from Shaun's incorporated Spelljammer material (Blendcrafter Spelljamming records), his demon and undead rosters, and the sphere canon.",
    "entries": [
     {
      "low": 1,
-     "high": 69,
+     "high": 63,
      "name": "Tradesman",
      "cr": 4,
      "number": "1 ship (crew 10/25 as printed)",
@@ -9978,8 +9978,8 @@
      }
     },
     {
-     "low": 70,
-     "high": 131,
+     "low": 64,
+     "high": 120,
      "name": "Wasp",
      "cr": 5,
      "number": "1 ship (crew 8/18 as printed)",
@@ -10004,8 +10004,8 @@
      }
     },
     {
-     "low": 132,
-     "high": 188,
+     "low": 121,
+     "high": 170,
      "name": "Cargo Barge",
      "cr": 3,
      "number": "1 ship",
@@ -10030,8 +10030,8 @@
      }
     },
     {
-     "low": 189,
-     "high": 243,
+     "low": 171,
+     "high": 218,
      "name": "Dragonfly",
      "cr": 4,
      "number": "1 ship (crew 3/10 as printed)",
@@ -10056,8 +10056,8 @@
      }
     },
     {
-     "low": 244,
-     "high": 291,
+     "low": 219,
+     "high": 260,
      "name": "Turtle Ship",
      "cr": 5,
      "number": "1 ship (crew 12/40 as printed)",
@@ -10082,8 +10082,8 @@
      }
     },
     {
-     "low": 292,
-     "high": 339,
+     "low": 261,
+     "high": 302,
      "name": "Drakkar",
      "cr": 4,
      "number": "1 ship",
@@ -10108,8 +10108,8 @@
      }
     },
     {
-     "low": 340,
-     "high": 383,
+     "low": 303,
+     "high": 340,
      "name": "Goblin Blade",
      "cr": 5,
      "number": "1 ship (crew 1/2 as printed)",
@@ -10134,8 +10134,8 @@
      }
     },
     {
-     "low": 384,
-     "high": 407,
+     "low": 341,
+     "high": 367,
      "name": "The Rock of Bral",
      "cr": 1,
      "number": "Station \u2014 a small city in the void",
@@ -10161,8 +10161,8 @@
      }
     },
     {
-     "low": 408,
-     "high": 447,
+     "low": 368,
+     "high": 403,
      "name": "Hammership",
      "cr": 8,
      "number": "1 ship (crew 24/60 as printed)",
@@ -10187,8 +10187,8 @@
      }
     },
     {
-     "low": 448,
-     "high": 485,
+     "low": 404,
+     "high": 437,
      "name": "Dragonship",
      "cr": 8,
      "number": "1 ship (crew 20/45 as printed)",
@@ -10213,8 +10213,8 @@
      }
     },
     {
-     "low": 486,
-     "high": 521,
+     "low": 438,
+     "high": 469,
      "name": "Leaf Ship",
      "cr": 6,
      "number": "1 ship (crew 20/65 as printed)",
@@ -10239,8 +10239,8 @@
      }
     },
     {
-     "low": 522,
-     "high": 557,
+     "low": 470,
+     "high": 501,
      "name": "Squid Ship",
      "cr": 9,
      "number": "1 ship (crew 12/45 as printed)",
@@ -10265,8 +10265,8 @@
      }
     },
     {
-     "low": 558,
-     "high": 591,
+     "low": 502,
+     "high": 531,
      "name": "Eel Ship",
      "cr": 6,
      "number": "1 ship (crew 4/20 as printed)",
@@ -10291,8 +10291,8 @@
      }
     },
     {
-     "low": 592,
-     "high": 623,
+     "low": 532,
+     "high": 560,
      "name": "Lamprey Ship",
      "cr": 6,
      "number": "1 ship (crew 8/26 as printed)",
@@ -10317,8 +10317,8 @@
      }
     },
     {
-     "low": 624,
-     "high": 653,
+     "low": 561,
+     "high": 587,
      "name": "Shrike",
      "cr": 7,
      "number": "1 ship (crew 14/30 as printed)",
@@ -10343,8 +10343,8 @@
      }
     },
     {
-     "low": 654,
-     "high": 683,
+     "low": 588,
+     "high": 614,
      "name": "Swan Ship",
      "cr": 6,
      "number": "1 ship (crew 12/32 as printed)",
@@ -10369,8 +10369,8 @@
      }
     },
     {
-     "low": 684,
-     "high": 711,
+     "low": 615,
+     "high": 639,
      "name": "Hummingbird",
      "cr": 5,
      "number": "1 ship (crew 2/10 as printed)",
@@ -10395,8 +10395,8 @@
      }
     },
     {
-     "low": 712,
-     "high": 737,
+     "low": 640,
+     "high": 662,
      "name": "Octopus Ship",
      "cr": 7,
      "number": "1 ship (crew 13/70 as printed)",
@@ -10421,8 +10421,8 @@
      }
     },
     {
-     "low": 738,
-     "high": 763,
+     "low": 663,
+     "high": 688,
      "name": "Giff Mercenary Company",
      "cr": 5,
      "number": "Mercenary company",
@@ -10448,8 +10448,8 @@
      }
     },
     {
-     "low": 764,
-     "high": 787,
+     "low": 689,
+     "high": 712,
      "name": "Hadozee",
      "cr": 3,
      "number": "Deck crew",
@@ -10475,8 +10475,8 @@
      }
     },
     {
-     "low": 788,
-     "high": 811,
+     "low": 713,
+     "high": 736,
      "name": "Scro War Crew",
      "cr": 4,
      "number": "War crew",
@@ -10502,8 +10502,8 @@
      }
     },
     {
-     "low": 812,
-     "high": 833,
+     "low": 737,
+     "high": 758,
      "name": "Dracon",
      "cr": 8,
      "number": "Solitary or small company",
@@ -10529,8 +10529,8 @@
      }
     },
     {
-     "low": 834,
-     "high": 853,
+     "low": 759,
+     "high": 778,
      "name": "Shadow Demon",
      "cr": 8.0,
      "number": "Solitary",
@@ -10556,8 +10556,35 @@
      }
     },
     {
-     "low": 854,
-     "high": 871,
+     "name": "Schir",
+     "cr": 4.0,
+     "number": "Solitary or pack (3\u20138)",
+     "source": "Book of Fiends",
+     "environment": "Type-mapped (see COVERAGE.md)",
+     "apoc": "APOC: Mortal enclave demon \u2014 already here, not summoned or plane-shifted. Planar travel is severed. APOC \u2014 in wildspace: a demon incursion out of Toril, the demons' home base, striking outward across the sphere; the other worlds were never touched by portals, only by incursions like this one.",
+     "kinds": [
+      "demon"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/schir.webp",
+      "credit": "Demons roster picture index: GENERATED (from the published description)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "full",
+      "text": "CR 4 \u2014 Schir\n\n- [3RD-PARTY \u2014 Publisher: Green Ronin Publishing] Source: *Armies of the Abyss* (Book of Fiends Vol. Two), book p.50 (description continues book p.51)\n- Picture: `book-of-fiends-schir.jpg` \u2014 **GENERATED (from the description in Armies of the Abyss, Green Ronin Publishing)**. Verified JPEG, 556,094 bytes, on disk 2026-11-06. Form generated from the book's own description text (human/goat offspring, backward-curving horns, two-kneed cloven-hoofed legs, chest symbols, halberd); grey sky, no sun, no stars.\n- **EXTRACTED from *Armies of the Abyss* 2026-11-06** (book p.50; bonus note `library/armies-transcriptions/range-C-pp51-61.md`): **CR 4** \u2014 \"Schir (Tanar'ri), Medium-Size Outsider (Chaotic, Evil), Hit Dice: 6d8+12 (39 hp), Initiative: +2 (Dex), Speed: 30 ft., AC: 19 (+2 Dex, +7 natural), AC (Flat-Footed): 17, AC (vs. Touch Attacks): 12, Attacks: Halberd +10/+5 melee; or gore +9 melee, Damage: Halberd 1d10+4 and disease; gore 1d6+4, Face/Reach: 5 ft. by 5 ft./5 ft., Special Attacks: Charge 3d6+3, disease, spell-like abilities, summon tanar'ri, Special Qualities: Tanar'ri qualities, damage reduction 5/+1, SR 7, disease immunity, Saves: Fort +7, Ref +7, Will +3, Abilities: Str 17, Dex 14, Con 14, Int 8, Wis 6, Cha 6, Skills: Climb +12, Intimidate +7, Jump +12, Spot +15, Wilderness Lore +4, Feats: Run, Weapon Focus (halberd), Climate/Terrain: Any land and underground, Organization: Solitary or pack (3\u20138), Challenge Rating: 4, Treasure: Standard, Alignment: Always chaotic evil, Advancement: 7\u201312 HD (Medium-size); 13\u201318 HD (Large).\"\n- Special ability names listed / detailed (book p.51): Charge (Ex); Disease (Su) \u2014 *Demon Fever*; Spell-Like Abilities; Summon Tanar'ri (Su); Disease Immunity (Ex); Skills (note: +8 racial bonus on Spot checks)\n- Description (verbatim, book pp.50\u201351): \"The goat-headed schirim pervade the Material Plane, primarily because they can be summoned by magics easily accessible to spellcasters with very little skill. Clumsy covens fumbling with half-understood scrolls frequently bring a schir from the Abyss, and many credulous cultists believe all demons look like the bestial schirim. / The goat demons revel in their reception on the Prime, seldom speaking of their station at home. In the Abyss, schirim are little more than soldiers or guardians, expected to follow the orders of their betters at all times. Dull-witted and slow to learn, they nonetheless make superlative sentries, thanks to their spell-like abilities and otherworldly sense of focus. / A schir looks like the bastard offspring of human and goat. Its long, muscular neck supports a bestial head topped with two backward-curving horns. The creature's nauseating yellowed teeth reek of decayed meat and human waste, and its beady eyes burn with an amber rage. A tangled, food-encrusted beard dangles from the demon's chin. Coarse hair covers a schir from head to toe, growing especially thick at the legs and shoulders. Its legs feature two knees, the lower set of which bend backwards just above cloven-hoofed feet. / Schirim carve or brand a number of mystical symbols upon their chests. These markings represent clan affiliations, and some schirim refuse to work with members of other clans; such refusals occasionally break out into open battle between the schirim serving allied demon lords. To a schir, clan allegiance is paramount to all other concerns, and no task is too important to get in the way of eons-old internecine struggle. / Though all schirim pay lip service to their creator, the demon prince Azazel, not all serve the progenitor of their race. Perhaps due to their incredible fecundity, schirim have spread to nearly every inhabitable layer of the Abyss, and rare is the demon noble who does not employ at least a pack of the creatures somewhere in its vast retinue. / Schirim speak Abyssal, relying upon their *tongues* ability to communicate with mortals.\" (Plural printed \"schirim\" in the book text, as reproduced.)\n- Nature/role: goat-demon soldier/guardian, the common summoned-demon stereotype of the book's lore. APOC Note: third-party reference only; mortal and trapped \u2014 in APOC it cannot be summoned at all (summoning spells don't work, whatever the book says about easy summoning magics); Bastion-barred."
+     },
+     "scenario": {
+      "role": "incursion infantry",
+      "motivation": "Outward from Toril on the enclaves' war \u2014 an incursion, not a migration."
+     },
+     "low": 779,
+     "high": 792
+    },
+    {
+     "low": 793,
+     "high": 810,
      "name": "Nautiloid",
      "cr": 10,
      "number": "1 ship (crew 10/35 as printed)",
@@ -10582,8 +10609,8 @@
      }
     },
     {
-     "low": 872,
-     "high": 887,
+     "low": 811,
+     "high": 826,
      "name": "Neogi Mindspider",
      "cr": 10,
      "number": "1 ship (crew 3/40 as printed)",
@@ -10608,8 +10635,8 @@
      }
     },
     {
-     "low": 888,
-     "high": 901,
+     "low": 827,
+     "high": 840,
      "name": "Tyrant Ship",
      "cr": 12,
      "number": "1 ship (crew 15/23 as printed)",
@@ -10634,8 +10661,8 @@
      }
     },
     {
-     "low": 902,
-     "high": 915,
+     "low": 841,
+     "high": 854,
      "name": "Skeleton Ship",
      "cr": 8,
      "number": "1 ship (crew 1/1\u201312 as printed)",
@@ -10660,8 +10687,8 @@
      }
     },
     {
-     "low": 916,
-     "high": 928,
+     "low": 855,
+     "high": 867,
      "name": "Man-o-War, Archaic",
      "cr": 11,
      "number": "1 ship (crew 10/50 as printed)",
@@ -10686,8 +10713,8 @@
      }
     },
     {
-     "low": 929,
-     "high": 940,
+     "low": 868,
+     "high": 879,
      "name": "Armada, Monarch Class",
      "cr": 13,
      "number": "1 ship (crew 40/100 as printed)",
@@ -10712,8 +10739,8 @@
      }
     },
     {
-     "low": 941,
-     "high": 952,
+     "low": 880,
+     "high": 891,
      "name": "Deathglory",
      "cr": 13,
      "number": "1 ship (crew 18/70 as printed)",
@@ -10738,8 +10765,8 @@
      }
     },
     {
-     "low": 953,
-     "high": 963,
+     "low": 892,
+     "high": 902,
      "name": "Quad of Thay",
      "cr": 11,
      "number": "1 ship (crew 10/63 as printed)",
@@ -10764,8 +10791,62 @@
      }
     },
     {
-     "low": 964,
-     "high": 974,
+     "name": "Cerebrilith",
+     "cr": 10.0,
+     "number": "Solitary or gang (2\u20134)",
+     "source": "Expanded Psionics Handbook",
+     "environment": "Infinite Layers of the Abyss \u2014",
+     "apoc": "APOC: Mortal enclave demon \u2014 already here, not summoned or plane-shifted. Planar travel is severed. APOC \u2014 in wildspace: a demon incursion out of Toril, the demons' home base, striking outward across the sphere; the other worlds were never touched by portals, only by incursions like this one.",
+     "kinds": [
+      "demon"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/cerebrilith.webp",
+      "credit": "Demons roster picture index: LIBRARY (tier 1)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "full",
+      "text": "## CEREBRILITH \u2014 CR 10\n\n**Sources:** Expanded Psionics Handbook (XPH), Chapter 8 \u2014 primary, 3.5; the XPH cerebrilith text is Open Game Content and is reproduced identically in the Psionics SRD, from which the block below is verified line for line. Classed in FC1 Appendix III as a tanar'ri: \"Cerebrilith \u2014 Tanar'ri \u2014 EPH,\" CR 10 (FC1 Appendix III CR rankings). **Variant flagged:** the earlier 3.0 *Psionics Handbook* cerebrilith (CR 14 in that book's own rankings, DR 15/good, PR 23, resistances 20, different psi-like suite \u2014 *mass domination, whitefire*, etc.) is superseded by the XPH 3.5 version below.\n\n### Stat block \u2014 Expanded Psionics Handbook (3.5, primary)\n\n- **Cerebrilith**\n- Large Outsider (Chaotic, Evil, Extraplanar, Psionic, Tanar'ri) \u2014 **CORRECTED by library extraction:** the XPH header (p.193) DOES carry the Tanar'ri subtype alongside Psionic; the earlier note in this entry saying the XPH header carries Psionic in place of Tanar'ri was wrong and is removed. FC1 Appendix III's tanar'ri classing agrees with the book.\n- **Hit Dice:** 9d8+63 (103 hp)\n- **Initiative:** +1\n- **Speed:** 30 ft. (6 squares)\n- **Armor Class:** 25 (\u20131 size, +1 Dex, +15 natural), touch 10, flat-footed 24\n- **Base Attack/Grapple:** +9/+19\n- **Attack:** Bite +14 melee (1d8+6)\n- **Full Attack:** Bite +14 melee (1d8+6) and 2 claws +9 melee (1d6+3)\n- **Space/Reach:** 10 ft./10 ft.\n- **Special Attacks:** Psi-like abilities, spell-like abilities, summon tanar'ri \u2014 **as printed in XPH p.193** (the SRD text renames this line *summon demon*; the book reads \"summon tanar'ri,\" and its ability text is headed \"Summon Tanar'ri (Sp)\")\n- **Special Qualities:** Damage reduction 10/good, darkvision 60 ft., immunity to electricity and poison, outsider traits, psionic traits, resistance to acid 10, cold 10, and fire 10, power resistance 20, telepathy 100 ft.\n- **Saves:** Fort +13, Ref +7, Will +10\n- **Abilities:** Str 22, Dex 13, Con 25, Int 15, Wis 18, Cha 21\n- **Skills:** Concentration +17, Hide +7, Jump +16, Knowledge (arcana) +12, Knowledge (psionics) +12, Knowledge (planes) +12, Listen +22, Move Silently +11, Psicraft +12, Search +12, Sense Motive +14, Spot +22\n- **Feats:** Power Attack, Psionic Meditation, Psionic Fist, Unavoidable Strike, Wild Talent\u1d2e\n- **Environment:** Infinite Layers of the Abyss \u2014 **as printed in XPH p.194** (the SRD text reads \"Chaotic evil planes\"; the book line is primary here, SRD wording flagged as the variant)\n- **Organization:** Solitary or gang (2\u20134)\n- **Challenge Rating:** 10\n- **Treasure:** Standard\n- **Alignment:** Always chaotic evil\n- **Advancement:** 10\u201318 HD (Large); 19\u201327 HD (Huge)\n- **Level Adjustment:** +9\n\n### Combat text (verbatim, XPH/SRD)\n\n\"Cerebriliths favor telepathic attacks, usually beginning a battle by launching a furious barrage of *ego whip* and *id insinuation* attacks. In melee, cerebriliths often use their Concentration skill to gain psionic focus, so that they can use Psionic Fist or Unavoidable Strike (the latter in conjunction with Power Attack). A cerebrilith's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\"\n\n- **Psi-Like Abilities:** At will \u2014 *brain lock* (any nonmindless, DC 17*), *detect psionics, ego whip* (2d4, DC 19*), *id insinuation* (four targets, DC 20*), *mind trap* (5 rounds*); 3/day \u2014 *psionic dominate* (24 hours, DC 20*), *ectoplasmic form, mind probe* (DC 20); 1/day \u2014 *mind thrust* (9d10, DC 20*). Manifester level 9th. The save DCs are Charisma-based. (*Includes augmentation for the cerebrilith's manifester level.)\n- **Spell-Like Abilities:** At will \u2014 *deeper darkness, desecrate, detect good, dispel good* (DC 20), *greater teleport* (self plus 50 pounds of objects only), *magic circle against good* (DC 18), *unholy blight* (DC 19). Caster level 9th. The save DCs are Charisma-based.\n- **Summon Demon (Sp):** Once per day a cerebrilith can attempt to summon 4d6 dretches or another cerebrilith with a 35% chance of success. This ability is equivalent to a 4th-level spell.\n- **Outsider Traits:** A cerebrilith cannot be *raised, reincarnated* or *resurrected* (though a *limited wish, wish, miracle,* or *true resurrection* spell can restore life). It has darkvision out to 60 feet.\n- **Skills:** Cerebriliths have a +8 racial bonus on Listen and Spot checks.\n\n### Description\n\n**VERIFIED verbatim, XPH pp.193\u2013194** (library copy). Italic flavor text (p.193): \"This monstrosity appears to be a massive humanoid about 8 feet tall, with an unbelievably swollen brain. Its bulging, elongated skull is swept back, fusing seamlessly with its hunched back. Its fanged maw protrudes from beneath a bony brow. The rest of the body is spindly but slick, as if coated with constantly leaking fluid. The demon walks on all fours but fights standing up.\" Body text (pp.193\u2013194): \"Cerebriliths are demons whose already fearsome powers are augmented by psionics. They are specialists that join demonic armies only in response to specific requirements (such as the need to defeat mortal psionic creatures and characters). When not so occupied, they continually develop and train their already impressive mental abilities (alone or in small groups), usually by stalking mortals. Cerebriliths stop at nothing to slay intelligent foes. They delight in extracting the brains of their victims, examining them in hopes of prying loose new insights into the mental arts.\" (The earlier draft's Forgotten Realms Wiki summary \u2014 breeding from dretch and tiefling stock, spinal-bone lattice \u2014 is NOT in the XPH entry text and is retired from the reproduced lines; the tiefling-stock point is addressed, as a flagged non-XPH claim, in the APOC Note below.)\n\n**Nature/role:** The brain demon \u2014 a bred psionic enforcer, all telepathic domination and mind-blasts, serving whichever lord owns the leash."
+     },
+     "scenario": {
+      "role": "incursion mind",
+      "motivation": "Outward from Toril on the enclaves' war \u2014 an incursion, not a migration."
+     },
+     "low": 903,
+     "high": 915
+    },
+    {
+     "name": "Jarilith",
+     "cr": 13.0,
+     "number": "Solitary, pair, or pride (6\u201310)",
+     "source": "Monster Manual II",
+     "environment": "Any land and underground (Climate/Terrain line as printed)",
+     "apoc": "APOC: Mortal enclave demon \u2014 already here, not summoned or plane-shifted. Planar travel is severed. APOC \u2014 in wildspace: a demon incursion out of Toril, the demons' home base, striking outward across the sphere; the other worlds were never touched by portals, only by incursions like this one.",
+     "kinds": [
+      "demon"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/jarilith.webp",
+      "credit": "Demons roster picture index: LIBRARY (tier 1)",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "full",
+      "text": "JARILITH \u2014 Monster Manual II, pp.60\u201361\n\n\n- **Size/Type:** Large Outsider (Chaotic, Evil, Extraplanar, Tanar'ri)\n- **Hit Dice:** 10d8+80 (125 hp)\n- **Initiative:** +9\n- **Speed:** 60 ft.\n- **Armor Class:** 32 (\u22121 size, +9 Dex, +14 natural), touch 18, flat-footed 23\n- **Base Attack/Grapple:** \u2014 (not published in Monster Manual II's 3.0 stat format)\n- **Attack:** Claw +22 melee\n- **Full Attack:** 2 claws +22 melee and bite +19 melee\n- **Damage:** Claw 2d6+12/18\u201320\u00d73; bite 2d8+6/18\u201320\u00d73\n- **Space/Reach:** 10 ft. by 5 ft./5 ft. (3.0 Face/Reach form, per MM2 spread)\n- **Special Attacks:** Frightful presence (DC 17), improved grab, pounce, rake (2d6+6/18\u201320), spell-like abilities (at will: clairaudience/clairvoyance, darkness, detect good, detect thoughts, doom; CL 12)\n- **Special Qualities:** Augmented critical (claws and bite threaten 18\u201320 and deal \u00d73); DR 15/good (3.5 form; **as printed in MM2: DR 30/+3**); SR 25; summon tanar'ri (35%, another jarilith)\n- **Saves:** Fort +15, Ref +16, Will +8\n- **Abilities:** Str 35, Dex 29, Con 27, Int 8, Wis 12, Cha 14\n- **Skills:** Balance +14, Climb +14, Concentration +21, Hide +22*, Jump +14, Listen +12, Move Silently +25, Search +4, Spot +12 (a jarilith receives a +4 racial bonus on Balance, Hide, and Move Silently checks; *in areas of tall grass or heavy undergrowth, its Hide bonus improves to +12)\n- **Feats:** Multiattack, Power Attack, Weapon Focus (claw)\n- **Environment:** Any land and underground (Climate/Terrain line as printed)\n- **Organization:** Solitary, pair, or pride (6\u201310)\n- **Challenge Rating:** 13\n- **Treasure:** Standard\n- **Alignment:** Always chaotic evil\n- **Advancement:** 11\u201323 HD (Large); 24\u201330 HD (Huge)\n- **Level Adjustment:** \u2014 (none published in Monster Manual II)\n- **Description:** \"Jariliths, the elite hunting beasts of the Abyss, are terrifying feline creatures conjured up from the nightmares of a thousand generations of mortals. They prefer demonic flesh and are comfortable hunting their favorite prey in desert, jungle, waste, or forest. A jarilith resembles a slightly larger than average male lion, complete with a glorious mane. Long teeth extend from its jaws, and its claws are longer still. The creature's blood-red coat reveals its origin, but it strikes so fast that the only clue most victims get to its presence is a slight reek of brimstone. Jariliths do not speak, but they understand Abyssal. They communicate silently with one another through telepathy.\" \n\n**Nature/role:** A lion-like tanar'ri killing machine \u2014 low cunning, extreme lethality; CR 13 on only 10 HD."
+     },
+     "scenario": {
+      "role": "incursion hunters",
+      "motivation": "Outward from Toril on the enclaves' war \u2014 an incursion, not a migration."
+     },
+     "low": 916,
+     "high": 927
+    },
+    {
+     "low": 928,
+     "high": 938,
      "name": "Marilith",
      "cr": 17.0,
      "number": "Solitary or pair",
@@ -10790,6 +10871,90 @@
       "role": "incursion warleader",
       "motivation": "Outward from Toril on the enclaves' war \u2014 an incursion, not a migration."
      }
+    },
+    {
+     "name": "Voidwraith",
+     "cr": 6.0,
+     "number": "Solitary, pair, or gang (3\u20135)",
+     "source": "Libris Mortis",
+     "environment": "Any",
+     "apoc": "APOC: Kingdom of the Undead / local undead \u2014 already here, never summoned. Maximized hp; +4 turn/control resistance, re-rolled every round; zombie-type bite infects and the bitten eventually turn. World lore: Claimed or unclaimed \u2014 the record does not settle whether this one answers to the undead nation or runs wild; either is possible. APOC \u2014 in wildspace: undead in the demons' train, marched with an incursion out of Toril \u2014 the enclaves move undead armies through the sphere as they do across the Badlands.",
+     "kinds": [
+      "undead"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/voidwraith.webp",
+      "credit": "Undead roster picture index: official book art \u2014 official book art \u2014 Libris Mortis",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "full",
+      "text": "46. VOIDWRAITH \u2014 Libris Mortis p.131, CR 6\n\n**Medium Undead (Air, Incorporeal)**\n**Hit Dice:** 6d12 (39 hp) **Initiative:** +9 **Speed:** Fly 60 ft. (12 squares) (perfect) **Armor Class:** 22 (+5 Dex, +5 natural, +2 deflection) [as printed in the mirror \u2014 natural armor component on an incorporeal creature, *verify \u2014 web extraction*], touch 17, flat-footed 17 **Base Attack/Grapple:** +3/+4 **Attack:** Incorporeal touch +8 melee (1d4 plus 1d2 Con drain) **Full Attack:** Incorporeal touch +8 melee (1d4 plus 1d2 Con drain) **Space/Reach:** 5 ft./5 ft. **Special Attacks:** Steal breath **Special Qualities:** Airless aura, darkvision 60 ft., elemental turning vulnerability, incorporeal traits, inescapable craving, undead traits **Saves:** Fort +2, Ref +7, Will +6 **Abilities:** Str 12, Dex 21, Con \u2014, Int 8, Wis 13, Cha 15 **Skills:** Hide +18, Listen +10, Spot +10 **Feats:** Improved Initiative, Lightning Reflexes, Weapon Finesse **Environment:** Any **Organization:** Solitary, pair, or gang (3\u20135) **Challenge Rating:** 6 **Treasure:** None **Alignment:** Always neutral evil **Advancement:** 7\u20139 HD (Medium); 10\u201312 HD (Large); 13\u201318 HD (Huge) **Level Adjustment:** \u2014\n> *This creature appears to be a formless cloud of darkness, broken only by two pinpoints of glowing red. A breeze blows toward it, as if it were drawing air into its body.*\nFlavor/combat prose (read in full): an undead manifestation of elemental air that hungers for the breath of the living; fills ~5 ft. square, weightless; speaks Auran. Airless Aura (Su): adjacent creatures have no air and must hold their breath. Steal Breath (Su): touch, Fort DC 15 or 1d2 Con drain (air subtype \u20134), gains 5 temporary hp per drain; against a breath-holding target, each point drained also cuts remaining breath by 2 rounds. Inescapable Craving: Constitution.\n**Kit:** Published treasure: **None.**\n**APOC Note:** The air-elemental counterpart to the Cinderspawn/Desiccator \u2014 a stranded remnant that eats breath. In APOC's surface world of inert Fog, a voidwraith's personal vacuum is a local horror, not a weather effect \u2014 the Fog does not move for it or feed it. Kingdom of the Undead ambusher for enclosed badlands sites (mines, vaults) where breath is already scarce. Barred from the Bastion by the Melairshield."
+     },
+     "undeadKind": "either",
+     "scenario": {
+      "role": "the train \u2014 void dead",
+      "motivation": "Marched in the demons' train \u2014 the enclaves move undead armies with their incursions."
+     },
+     "low": 939,
+     "high": 951
+    },
+    {
+     "name": "Mohrg",
+     "cr": 8.0,
+     "number": "Solitary, gang (2\u20134), or mob (2\u20134 plus 5\u201310 zombies)",
+     "source": "Monster Manual I",
+     "environment": "Any",
+     "apoc": "APOC: Kingdom of the Undead / local undead \u2014 already here, never summoned. Maximized hp; +4 turn/control resistance, re-rolled every round; zombie-type bite infects and the bitten eventually turn. World lore: Claimed \u2014 of the undead nation (the Kingdom of the Undead), under its own laws and its own way of doing things. APOC \u2014 in wildspace: undead in the demons' train, marched with an incursion out of Toril \u2014 the enclaves move undead armies through the sphere as they do across the Badlands.",
+     "kinds": [
+      "undead"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/mohrg.webp",
+      "credit": "Undead roster picture index: official book art \u2014 official book art \u2014 Monster Manual I",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "full",
+      "text": "7. MOHRG\n\n\n**Source:** Monster Manual (3.5), p. 189 \u2014 extracted from the local library copy (`MonsterManual1.pdf` / `MonsterManual1.txt`). SRD cross-check: https://dnd-wiki.org/wiki/SRD:Mohrg\n**SRD status:** In the SRD (Open Game Content) \u2014 see the correction in the enumeration file. Book and SRD agree except the flat-footed value flagged below.\n\n**Size/Type:** Medium Undead\n**Hit Dice:** 14d12 (91 hp)\n**Initiative:** +9\n**Speed:** 30 ft. (6 squares)\n**Armor Class:** 23 (+4 Dex, +9 natural), touch 14, flat-footed 14 [*as printed in the book \u2014 verified in the local text layer. The printed value duplicates the touch AC and breaks the usual arithmetic (+9 natural armor alone would give flat-footed 19); d20srd.org prints 19. Book value kept, anomaly flagged, not silently corrected.*]\n**Base Attack/Grapple:** +7/+12\n**Attack:** Slam +12 melee (1d6+7) or tongue +12 melee touch (paralysis)\n**Full Attack:** Slam +12 melee (1d6+7) and tongue +12 melee touch (paralysis)\n**Space/Reach:** 5 ft./5 ft.\n**Special Attacks:** Improved grab, paralyzing touch, create spawn\n**Special Qualities:** Darkvision 60 ft., undead traits\n**Saves:** Fort +4, Ref +10, Will +9\n**Abilities:** Str 21, Dex 19, Con \u2014, Int 11, Wis 10, Cha 10\n**Skills:** Climb +13, Hide +21, Listen +11, Move Silently +21, Spot +15, Swim +9\n**Feats:** Alertness, Dodge, Improved Initiative, Lightning Reflexes, Mobility\n**Environment:** Any\n**Organization:** Solitary, gang (2\u20134), or mob (2\u20134 plus 5\u201310 zombies)\n**Challenge Rating:** 8\n**Treasure:** None\n**Alignment:** Always chaotic evil\n**Advancement:** 15\u201321 HD (Medium); 22\u201328 HD (Large)\n**Level Adjustment:** \u2014\n\n*This creature looks like a gaunt, nearly skeletal corpse, its rib cage filled with horrid, writhing viscera. The creature's tongue is its most noteworthy feature \u2014 long, cartilaginous, and clawed.*\n*(Book flavor line; the SRD omits it.)*\n\nMohrgs are the animated corpses of mass murderers or similar villains who died without atoning for their crimes. Tortured by an all-consuming hatred of living things, they long to live again.\n*(Second sentence is book text; the SRD omits it.)*\n\nMost mohrgs are 5 to 6 feet tall and weigh about 120 pounds."
+     },
+     "undeadKind": "claimed",
+     "scenario": {
+      "role": "the train \u2014 murder troops",
+      "motivation": "Marched in the demons' train \u2014 the enclaves move undead armies with their incursions."
+     },
+     "low": 952,
+     "high": 963
+    },
+    {
+     "name": "Bodak",
+     "cr": 8.0,
+     "number": "Solitary or gang (2\u20134)",
+     "source": "Monster Manual I",
+     "environment": "A chaotic evil-aligned plane",
+     "apoc": "APOC: Kingdom of the Undead / local undead \u2014 already here, never summoned. Maximized hp; +4 turn/control resistance, re-rolled every round; zombie-type bite infects and the bitten eventually turn. World lore: Claimed or unclaimed \u2014 the record does not settle whether this one answers to the undead nation or runs wild; either is possible. APOC \u2014 in wildspace: undead in the demons' train, marched with an incursion out of Toril \u2014 the enclaves move undead armies through the sphere as they do across the Badlands.",
+     "kinds": [
+      "undead"
+     ],
+     "type": "",
+     "picture": {
+      "file": "pictures/bodak.webp",
+      "credit": "Undead roster picture index: official book art \u2014 official book art \u2014 Monster Manual I",
+      "status": "on file"
+     },
+     "statblock": {
+      "status": "full",
+      "text": "2. BODAK\n\n\n**Source:** Monster Manual (3.5), p. 28 \u2014 book copy in the local library (`MonsterManual1.pdf` / `MonsterManual1.txt`). SRD cross-check: https://dnd-wiki.org/wiki/SRD:Bodak\n\n**Size/Type:** Medium Undead (Extraplanar)\n**Hit Dice:** 9d12 (58 hp)\n**Initiative:** +6\n**Speed:** 20 ft. (4 squares)\n**Armor Class:** 20 (+2 Dex, +8 natural), touch 12, flat-footed 18\n**Base Attack/Grapple:** +4/+5\n**Attack:** Slam +6 melee (1d8+1)\n**Full Attack:** Slam +6 melee (1d8+1)\n**Space/Reach:** 5 ft./5 ft.\n**Special Attacks:** Death gaze\n**Special Qualities:** Damage reduction 10/cold iron, darkvision 60 ft., immunity to electricity, resistance to acid 10 and fire 10, undead traits, vulnerability to sunlight\n**Saves:** Fort +3, Ref +5, Will +7\n**Abilities:** Str 13, Dex 15, Con \u2014, Int 6, Wis 12, Cha 12\n**Skills:** Listen +11, Move Silently +10, Spot +11\n**Feats:** Alertness, Dodge, Improved Initiative, Weapon Focus (slam)\n**Environment:** A chaotic evil-aligned plane\n**Organization:** Solitary or gang (2\u20134)\n**Challenge Rating:** 8\n**Treasure:** None\n**Alignment:** Always chaotic evil\n**Advancement:** 10\u201313 HD (Medium); 14\u201327 HD (Large)\n**Level Adjustment:** \u2014\n\n*This creature is a gray-fleshed, hairless humanoid with an elongated skull-like head, noseless face, and white, empty eyes.*\n*(Book flavor line; the SRD omits it.)*\n\nBodaks are the undead remnants of humanoids who have been destroyed by the touch of absolute evil.\n\nA bodak retains fleeting memories of its past life and can speak Common (or some other humanoid language)."
+     },
+     "undeadKind": "either",
+     "scenario": {
+      "role": "the train \u2014 gaze-killers",
+      "motivation": "Marched in the demons' train \u2014 the enclaves move undead armies with their incursions."
+     },
+     "low": 964,
+     "high": 974
     },
     {
      "low": 975,

@@ -11,7 +11,7 @@ Built 2026-11-09 from canonical sources only: Demons roster (361 in file — the
 With every landscape of the Badlands on the tables, the rolls now run **1 to 1000** instead of 1 to 100 (Shaun: "maybe you should make it one to a thousand"), so all the different landscapes and their populations ride at their proper weight on the finer scale. The conversion is exact scaling, nothing more: every band was multiplied by ten (a band printed 46–50 is now 451–500; the old roll of 100 is now 991–1000), so **every creature keeps precisely the share of its table it always had** — nothing was padded, added, removed, or re-weighted, and Saint James still waits on the last 1% of his three tables. All twenty tables run on the one scale, the Bastion's included, so the roller throws a single die throughout; the Chart Generator builds d1000 charts to match. The Badlands layer rides over the new scale unchanged — it keys on landscapes, not numbers.
 
 ## Space — the wildspace environment (Shaun, 2026-11-12)
-The twentieth table is not a landscape: it is **wildspace itself**, the crystal sphere the world hangs in. It is built the same way as the other environments — d1000, stat blocks, pictures, scenarios — and from the same discipline: his canon only. Its population is the sphere's own: the spelljamming traffic of his incorporated Spelljammer material (the hulls and Peoples of Space of the Blendcrafter Spelljamming records), the sphere's stations, and the demon incursions flown outward from Toril, the demons' home base — the other worlds were never touched by portals, only by incursions like those. The **Rock of Bral** (pronounced 'brawl') rides on it as what it is: the published Rock itself, anchored above the Bastion, the trading point between the held cities; a couple of other stations exist, unnamed, and one rolls as the unnamed waystation it is. **The Spelljammer** waits at the extreme tail (991–1000), the sphere's great legend. The sphere's APOC state governs every line: the wall is scarred shut — the Cut — and nothing crosses it; planar travel is severed; everything on this table sails, trades, and wars *inside* the sphere. The boundary rule has its space form here: this is the sphere's own population, not the Bastion's tables and not an overlay — the Badlands layer does not reach it (the layer is the blighted land's condition; the void has its own), the bleed neither enters nor leaves it, and the Twisted overlay does not twist hulls. Ships carry their published hull records as partial blocks (ships have no creature stat block and no published CR; the CR shown is a generator rating by hull class for the builder), and their pictures are their printed deck plans from Shaun's collection, or art generated from the published description where no plan or art is on file.
+The twentieth table is not a landscape: it is **wildspace itself**, the crystal sphere the world hangs in. It is built the same way as the other environments — d1000, stat blocks, pictures, scenarios — and from the same discipline: his canon only. Its population is the sphere's own: the spelljamming traffic of his incorporated Spelljammer material (the hulls and Peoples of Space of the Blendcrafter Spelljamming records), the sphere's stations, and the demon incursions flown outward from Toril, the demons' home base — the other worlds were never touched by portals, only by incursions like those — **with undead marched in the demons' train**, for the enclaves move undead armies through the sphere as they do across the Badlands (Shaun's addition, same call: "And some demons. And some undead." — a real presence on the table, not its body: five demon entries on the incursion ladder and four undead, the boneship among them, against the Spelljammer population that carries the table). The **Rock of Bral** (pronounced 'brawl') rides on it as what it is: the published Rock itself, anchored above the Bastion, the trading point between the held cities; a couple of other stations exist, unnamed, and one rolls as the unnamed waystation it is. **The Spelljammer** waits at the extreme tail (991–1000), the sphere's great legend. The sphere's APOC state governs every line: the wall is scarred shut — the Cut — and nothing crosses it; planar travel is severed; everything on this table sails, trades, and wars *inside* the sphere. The boundary rule has its space form here: this is the sphere's own population, not the Bastion's tables and not an overlay — the Badlands layer does not reach it (the layer is the blighted land's condition; the void has its own), the bleed neither enters nor leaves it, and the Twisted overlay does not twist hulls. Ships carry their published hull records as partial blocks (ships have no creature stat block and no published CR; the CR shown is a generator rating by hull class for the builder), and their pictures are their printed deck plans from Shaun's collection, or art generated from the published description where no plan or art is on file.
 
 ## The Badlands layer in the roller — an on/off additive (Shaun, 2026-11-11)
 The roller carries a **Badlands layer** toggle. It is not a table and not a landscape: it is the Badlands itself, layered over whichever landscape is rolled. **Off** (the default): landscape rolls stand as printed. **On**: the party is out in the Badlands, and every landscape result is produced as a Badlands encounter — the result carries the layer's canon conditions for that country (on the surface: one grey sky, Fog of Life, hatestorm country, the permanent war, the unclaimed walking it; below ground: no Fog of Life, but the blight soaked deep and the war runs through the dark), and the land's own living creatures in that defiled country may be twisted — warped in body, wrong in habit, no demon and no servant of demons — under Shaun's Twisted template where the DM calls it. The layer never reaches the Bastion tables: the city is the exception, held behind its walls and mythal. Table contents and math are unchanged either way; the roll history records when the layer was on.
@@ -801,42 +801,48 @@ APOC notes, stat blocks and pictures per entry are in encounters.json / the roll
 
 ## Space — Wildspace (d1000)
 
-*Wildspace — the crystal sphere itself: its ships, its peoples, its stations, and the demon incursions flown out of Toril. The sphere's own population — not a Bastion table and not an overlay. The wall is scarred shut (the Cutting / the Cut): nothing crosses it, and everything here sails inside it. The Rock of Bral rides anchored above the Bastion as the sphere's trading point; a couple of other stations exist, unnamed. Built from Shaun's incorporated Spelljammer material (Blendcrafter Spelljamming records) and the sphere canon.*
+*Wildspace — the crystal sphere itself: its ships, its peoples, its stations, the demon incursions flown out of Toril, and the undead marched in the demons' train. The sphere's own population — not a Bastion table and not an overlay. The wall is scarred shut (the Cut): nothing crosses it, and everything here sails inside it. The Rock of Bral rides anchored above the Bastion as the sphere's trading point; a couple of other stations exist, unnamed. Built from Shaun's incorporated Spelljammer material (Blendcrafter Spelljamming records), his demon and undead rosters, and the sphere canon.*
 
 | d1000 | Encounter | CR | Number appearing | Source |
 |---|---|---|---|---|
-| 01–69 | Tradesman | 4 | 1 ship (crew 10/25 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
-| 70–131 | Wasp | 5 | 1 ship (crew 8/18 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
-| 132–188 | Cargo Barge | 3 | 1 ship | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 189–243 | Dragonfly | 4 | 1 ship (crew 3/10 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
-| 244–291 | Turtle Ship | 5 | 1 ship (crew 12/40 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 292–339 | Drakkar | 4 | 1 ship | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
-| 340–383 | Goblin Blade | 5 | 1 ship (crew 1/2 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 384–407 | The Rock of Bral | 1 | Station — a small city in the void | APOC sphere canon — generator entry (Shaun, 2026-11-12) |
-| 408–447 | Hammership | 8 | 1 ship (crew 24/60 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
-| 448–485 | Dragonship | 8 | 1 ship (crew 20/45 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
-| 486–521 | Leaf Ship | 6 | 1 ship (crew 20/65 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 522–557 | Squid Ship | 9 | 1 ship (crew 12/45 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
-| 558–591 | Eel Ship | 6 | 1 ship (crew 4/20 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 592–623 | Lamprey Ship | 6 | 1 ship (crew 8/26 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 624–653 | Shrike | 7 | 1 ship (crew 14/30 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 654–683 | Swan Ship | 6 | 1 ship (crew 12/32 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 684–711 | Hummingbird | 5 | 1 ship (crew 2/10 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 712–737 | Octopus Ship | 7 | 1 ship (crew 13/70 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 738–763 | Giff Mercenary Company | 5 | Mercenary company | Spelljammer MC Appendix, converted to 3.5 (Blendcrafter library) |
-| 764–787 | Hadozee | 3 | Deck crew | Spelljammer MC / Complete Spacefarer's Handbook (Blendcrafter library) |
-| 788–811 | Scro War Crew | 4 | War crew | Spelljammer MC / Complete Spacefarer's Handbook (Blendcrafter library) |
-| 812–833 | Dracon | 8 | Solitary or small company | Spelljammer MC Appendix, converted to 3.5 (Blendcrafter library) |
-| 834–853 | Shadow Demon | 8 | Solitary | Book of Vile Darkness |
-| 854–871 | Nautiloid | 10 | 1 ship (crew 10/35 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
-| 872–887 | Neogi Mindspider | 10 | 1 ship (crew 3/40 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
-| 888–901 | Tyrant Ship | 12 | 1 ship (crew 15/23 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
-| 902–915 | Skeleton Ship | 8 | 1 ship (crew 1/1–12 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 916–928 | Man-o-War, Archaic | 11 | 1 ship (crew 10/50 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 929–940 | Armada, Monarch Class | 13 | 1 ship (crew 40/100 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 941–952 | Deathglory | 13 | 1 ship (crew 18/70 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 953–963 | Quad of Thay | 11 | 1 ship (crew 10/63 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
-| 964–974 | Marilith | 17 | Solitary or pair | Monster Manual I |
+| 01–63 | Tradesman | 4 | 1 ship (crew 10/25 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
+| 64–120 | Wasp | 5 | 1 ship (crew 8/18 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
+| 121–170 | Cargo Barge | 3 | 1 ship | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 171–218 | Dragonfly | 4 | 1 ship (crew 3/10 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
+| 219–260 | Turtle Ship | 5 | 1 ship (crew 12/40 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 261–302 | Drakkar | 4 | 1 ship | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
+| 303–340 | Goblin Blade | 5 | 1 ship (crew 1/2 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 341–367 | The Rock of Bral | 1 | Station — a small city in the void | APOC sphere canon — generator entry (Shaun, 2026-11-12) |
+| 368–403 | Hammership | 8 | 1 ship (crew 24/60 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
+| 404–437 | Dragonship | 8 | 1 ship (crew 20/45 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
+| 438–469 | Leaf Ship | 6 | 1 ship (crew 20/65 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 470–501 | Squid Ship | 9 | 1 ship (crew 12/45 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
+| 502–531 | Eel Ship | 6 | 1 ship (crew 4/20 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 532–560 | Lamprey Ship | 6 | 1 ship (crew 8/26 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 561–587 | Shrike | 7 | 1 ship (crew 14/30 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 588–614 | Swan Ship | 6 | 1 ship (crew 12/32 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 615–639 | Hummingbird | 5 | 1 ship (crew 2/10 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 640–662 | Octopus Ship | 7 | 1 ship (crew 13/70 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 663–688 | Giff Mercenary Company | 5 | Mercenary company | Spelljammer MC Appendix, converted to 3.5 (Blendcrafter library) |
+| 689–712 | Hadozee | 3 | Deck crew | Spelljammer MC / Complete Spacefarer's Handbook (Blendcrafter library) |
+| 713–736 | Scro War Crew | 4 | War crew | Spelljammer MC / Complete Spacefarer's Handbook (Blendcrafter library) |
+| 737–758 | Dracon | 8 | Solitary or small company | Spelljammer MC Appendix, converted to 3.5 (Blendcrafter library) |
+| 759–778 | Shadow Demon | 8 | Solitary | Book of Vile Darkness |
+| 779–792 | Schir | 4 | Solitary or pack (3–8) | Book of Fiends |
+| 793–810 | Nautiloid | 10 | 1 ship (crew 10/35 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
+| 811–826 | Neogi Mindspider | 10 | 1 ship (crew 3/40 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
+| 827–840 | Tyrant Ship | 12 | 1 ship (crew 15/23 as printed) | Spelljammer: Adventures in Space — Lorebook of the Void (Blendcrafter library) |
+| 841–854 | Skeleton Ship | 8 | 1 ship (crew 1/1–12 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 855–867 | Man-o-War, Archaic | 11 | 1 ship (crew 10/50 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 868–879 | Armada, Monarch Class | 13 | 1 ship (crew 40/100 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 880–891 | Deathglory | 13 | 1 ship (crew 18/70 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 892–902 | Quad of Thay | 11 | 1 ship (crew 10/63 as printed) | Spelljammer, wider line — Blendcrafter Spelljamming records |
+| 903–915 | Cerebrilith | 10 | Solitary or gang (2–4) | Expanded Psionics Handbook |
+| 916–927 | Jarilith | 13 | Solitary, pair, or pride (6–10) | Monster Manual II |
+| 928–938 | Marilith | 17 | Solitary or pair | Monster Manual I |
+| 939–951 | Voidwraith | 6 | Solitary, pair, or gang (3–5) | Libris Mortis |
+| 952–963 | Mohrg | 8 | Solitary, gang (2–4), or mob (2–4 plus 5–10 zombies) | Monster Manual I |
+| 964–974 | Bodak | 8 | Solitary or gang (2–4) | Monster Manual I |
 | 975–983 | Waystation — Unnamed | 1 | Station (small) | APOC sphere canon — generator entry (Shaun, 2026-11-12) |
 | 984–990 | The Enemy Battleship | 14 | 1 ship (crew: optimum 30, as printed in Shaun's file) | Shaun's homebrew ship files (Blendcrafter library) |
 | 991–1000 | The Spelljammer | 20 | Unique | Spelljammer — Legend of Spelljammer / Lorebook of the Void (Blendcrafter library) |
