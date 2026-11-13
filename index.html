@@ -10136,7 +10136,7 @@ const DATA={
   },
   {
    "name": "Space \u2014 Wildspace",
-   "note": "Wildspace \u2014 the crystal sphere itself: its ships, its peoples, its stations, the demon incursions flown out of Toril, and the undead marched in the demons' train. The sphere's own population \u2014 not a Bastion table and not an overlay. The wall is scarred shut (the Cut): nothing crosses it, and everything here sails inside it. The Rock of Bral rides anchored above the Bastion as the sphere's trading point; a couple of other stations exist, unnamed. Built from Shaun's incorporated Spelljammer material (Blendcrafter Spelljamming records), his demon and undead rosters, and the sphere canon. The whole environment is steampunkified throughout (Shaun): spelljamming in 2511 runs on steam, boilers, and alchemy alongside the helms \u2014 raw magic blights, and elemental workings are fed through apparatus \u2014 so every roll on this table is presented under the steampunk treatment (hulls as machines of the age, creatures in their steamwork form, corporeal undead Steampunk-Augmented), with the published records standing underneath.",
+   "note": "Wildspace \u2014 the crystal sphere itself: its ships, its peoples, its stations, the demon incursions flown out of Toril, and the undead marched in the demons' train. The sphere's own population \u2014 not a Bastion table and not an overlay. The wall is scarred shut (the Cut): nothing crosses it, and everything here sails inside it. The Rock of Bral rides anchored above the Bastion as the sphere's trading point; a couple of other stations exist, unnamed. Built from Shaun's incorporated Spelljammer material (Blendcrafter Spelljamming records), his demon and undead rosters, and the sphere canon.",
    "entries": [
     {
      "low": 1,
@@ -21621,15 +21621,7 @@ syncBadlands();
 let steam=false; try{steam=localStorage.getItem('apocEncSteampunk')==='1';}catch(e){}
 function syncSteam(){const b=document.getElementById('steamToggle');if(!b)return;
   b.textContent='Steampunk overlay: '+(steam?'ON':'OFF');b.classList.toggle('on',steam);
-  const t=DATA.tables[sel.value];
-  document.getElementById('steamNote').textContent=(t&&t.name.indexOf('Space')===0)?'Space is steampunkified throughout (Shaun) — the steam treatment runs on this table whether or not the overlay is toggled.':(steam?'Steam and gearwork layered over this roll — the age runs on steam.':'');}
-/* Space is steampunkified throughout (Shaun, 2026-11-12: "Of course, steampunkify
-   it all") — the environment's own character, not just the toggle: every roll on
-   the Space table is presented under the steampunk treatment exactly as the
-   overlay applies it (hulls as machines of the age, creatures rewritten, corporeal
-   undead Steampunk-Augmented, gear drops), with the published records underneath. */
-function steamFor(tname){return steam||(tname&&tname.indexOf('Space')===0);}
-sel.addEventListener('change',syncSteam);
+  document.getElementById('steamNote').textContent=steam?'Steam and gearwork layered over this roll — the age runs on steam.':'';}
 document.getElementById('steamToggle').addEventListener('click',()=>{steam=!steam;try{localStorage.setItem('apocEncSteampunk',steam?'1':'0');}catch(e){}syncSteam();});
 syncSteam();
 /* The Twisted overlay — the third additive (Shaun's rulings, 2026-11-11). When ON, the
@@ -21679,10 +21671,10 @@ function buildScenario(t,e,fx,head){
   const isPerson=kinds.includes('npc')||e.name==='Saint James';
   const isUndead=kinds.includes('undead')||/undead/i.test(e.type||'')||/\bUndead\b/.test((head||'').split('\n').slice(0,4).join(' '));
   let dn=e.name, base='';
-  if(steamFor(t.name)&&isUndead&&!isMachine&&!isPerson&&!/incorporeal/i.test((e.type||'')+' '+(head||''))){dn='Steampunk-Augmented '+e.name;base=e.name;}
-  else if(steamFor(t.name)&&!isMachine&&!isPerson){dn='Steamwork '+e.name;base=e.name;}
-  else if(steamFor(t.name)&&isPerson){dn=e.name+' (in the steam idiom — the person as published)';}
-  else if(steamFor(t.name)&&isMachine){dn=e.name+' (a machine of the age, as published)';}
+  if(steam&&isUndead&&!isMachine&&!isPerson&&!/incorporeal/i.test((e.type||'')+' '+(head||''))){dn='Steampunk-Augmented '+e.name;base=e.name;}
+  else if(steam&&!isMachine&&!isPerson){dn='Steamwork '+e.name;base=e.name;}
+  else if(steam&&isPerson){dn=e.name+' (in the steam idiom — the person as published)';}
+  else if(steam&&isMachine){dn=e.name+' (a machine of the age, as published)';}
   if(fx&&fx.twisted){dn='Twisted '+e.name;base=e.name;}
   let who=dn+' — '+e.number;
   if(base)who+=' (published base: '+base+')';
@@ -21711,7 +21703,7 @@ function showResult(t,r,e,fx){
       ?'Demon-crossed country, even down here: no Fog of Life underground, but the blight soaked deep, the permanent war runs through the dark, and the unclaimed walk here.'
       :'One grey sky over demon-crossed country: Fog of Life lies on the surface, hatestorms rage in this country, the permanent war runs through it, and the unclaimed walk here.')
       +'</div>';}
-  if(steamFor(t.name)){const city=BASTION_TABLES.includes(t.name); const space=t.name.indexOf('Space')===0;
+  if(steam){const city=BASTION_TABLES.includes(t.name);
     /* The rewrite (Shaun's spec, 2026-11-11): with the overlay ON the rolled creature is
        presented rewritten as a steampunk version of itself — the overlay's layer on top.
        The published record below stays verbatim and untouched; OFF = exactly as published. */
@@ -21738,10 +21730,8 @@ function showResult(t,r,e,fx){
       dsc+='What it was shows through the work: the same creature, wearing the age.';
       h+='<div class="apoc"><b>Steamwork '+esc(e.name)+'</b> — the steampunk version in play (Steampunk overlay). Base creature: '+esc(e.name)+', CR '+esc(e.cr)+' — its published record stands below, untouched.<br>'+esc(dsc)+'<br><i>Build: steamwork construction over the published form — run the block exactly as printed. The overlay reworks the form, not the numbers.</i></div>';
     }
-    h+='<div class="apoc"><b>'+(space?'Steampunkified throughout':'Steampunk overlay — ON')+'.</b> '+(city
+    h+='<div class="apoc"><b>Steampunk overlay — ON.</b> '+(city
       ?'The city runs on steam: cannoneer towers along the wall, the walking constructs on their rounds, steamcraft in the workshops — and elemental workings fed through steampunk apparatus.'
-      :space
-      ?'The sphere runs on steam in this age: boilers along the keel and furnace stacks over the air envelope, alchemical airworks breathing for the crew, refit yards at the Rock bolting plate and gear onto every hull that docks — spelljamming in 2511 runs on steam, boilers, and alchemy alongside the helms, and what magic works at all works through apparatus, for raw magic blights.'
       :'Steam and gearwork run through this country too: war-machines crawl out of the enclaves, constructs work the fields and ruins, steamcraft gear turns up in ready hands — and elemental workings are fed through steampunk apparatus.')
       +(isMachine?' This roll is the element itself: a machine of the age, met in the field.':'')+'</div>';
     if(gearOn())h+='<div class="credit">Steamcraft gear drop: '+GEAR[Math.floor(Math.random()*GEAR.length)]+'.</div>';}
@@ -21785,7 +21775,7 @@ document.getElementById('roll').onclick=()=>{
   /* Steampunk weighting (Shaun's ruling): machines 7 out of 10 under steam — a
      non-machine result bends to this table's own machine population at the rate
      that makes machines seven in ten in expectation, drawn by band weight. */
-  if(steamFor(t.name)&&weightOn()&&e.name!=='Saint James'&&!/construct/i.test(e.type||'')){
+  if(steam&&weightOn()&&e.name!=='Saint James'&&!/construct/i.test(e.type||'')){
     const ms=t.entries.filter(x=>/construct/i.test(x.type||''));
     const pm=ms.reduce((a,x)=>a+(x.high-x.low+1),0)/1000;
     if(ms.length&&pm<0.7){
@@ -21799,7 +21789,7 @@ document.getElementById('roll').onclick=()=>{
      parameter; the ruling is the randomness itself. */
   fx.twisted=twistable(e)&&Math.random()<0.2;
   showResult(t,r,e,fx);
-  hist.unshift(t.name+': '+r+' — '+e.name+' (CR '+e.cr+')'+(badlandsOn(t.name)?' [Badlands layer]':'')+(steamFor(t.name)?' [Steampunk]':'')+(fx.twisted?' [Twisted]':'')+(fx.bled?' [bled in from the Open Wastes]':'')+(fx.weighted?' [Steampunk weighting]':''));
+  hist.unshift(t.name+': '+r+' — '+e.name+' (CR '+e.cr+')'+(badlandsOn(t.name)?' [Badlands layer]':'')+(steam?' [Steampunk]':'')+(fx.twisted?' [Twisted]':'')+(fx.bled?' [bled in from the Open Wastes]':'')+(fx.weighted?' [Steampunk weighting]':''));
   document.getElementById('history').innerHTML='<b>Roll history</b><br>'+hist.slice(0,20).map(esc).join('<br>');
 };
 document.getElementById('previewBtn').onclick=()=>{
