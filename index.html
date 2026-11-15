@@ -44,6 +44,8 @@ select option{background:hsl(222 20% 13%);color:var(--foreground)}
 #editbar button:hover{opacity:1;color:var(--mv-blue);border-color:var(--mv-blue)}
 body.editing #editToggle{opacity:1;color:var(--mv-blue);border-color:var(--mv-blue)}
 .piece{position:relative;margin:0 0 8px;border:1px solid var(--card-border);border-radius:var(--radius);padding:8px;width:max-content;max-width:97vw;background:var(--card)}
+.piece:has(>#preview:empty),.piece:has(>#history:empty){display:none}
+body.editing .piece:has(>#preview:empty),body.editing .piece:has(>#history:empty){display:block}
 .piece.abs{position:absolute;margin:0;z-index:40}
 .grip{display:none;background:var(--mv-blue);color:#fff;font-size:12px;padding:2px 6px;cursor:move;user-select:none;margin:-8px -8px 6px;border-radius:var(--radius) var(--radius) 0 0}
 body.editing .grip{display:flex;justify-content:space-between;align-items:center}
@@ -21739,6 +21741,12 @@ const sel=document.getElementById('tbl');
 DATA.tables.forEach((t,i)=>{const o=document.createElement('option');o.value=i;o.textContent=t.name;sel.appendChild(o);});
 const hist=[];
 function esc(s){const d=document.createElement('div');d.textContent=(s==null?'':String(s));return d.innerHTML;}
+/* Stat-block display formatting (2026-11-15, phone-check fix): the blocks are
+   markdown text; render the parts that read as raw markup on the page — bold,
+   heading lines, and the NPC portrait embeds (the picture itself is already
+   shown separately above the block). Single asterisks stay literal: in the
+   blocks they are footnote marks and asides, not emphasis. */
+function fmtBlock(s){let t=esc(s);t=t.replace(/!\[[^\]]*\]\([^)]*\)/g,'');t=t.replace(/^#{1,4}\s+(.+)$/gm,'<strong>$1</strong>');t=t.replace(/\*\*\*([^*]+)\*\*\*/g,'<strong><em>$1</em></strong>');t=t.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');t=t.replace(/\n{3,}/g,'\n\n').replace(/^\n+/,'');return t;}
 /* The Badlands layer — an ON/OFF additive over the landscape tables.
    Not a landscape of its own: the Badlands is the world outside the held cities.
    It never reaches the Bastion tables. State persists per device. */
@@ -21891,9 +21899,9 @@ function showResult(t,r,e,fx){
   const overlayRoll=steam||(fx&&fx.twisted);
   if(!overlayRoll){
     if(sb.status==='full'){
-      h+='<details open><summary>Full stat block</summary><div class="statblock">'+esc(sb.text)+'</div></details>';
+      h+='<details open><summary>Full stat block</summary><div class="statblock">'+fmtBlock(sb.text)+'</div></details>';
     } else if(sb.status==='partial'){
-      h+='<details open><summary>Stat block — Partial (fullest block on file)</summary><div class="statblock">'+esc(sb.text)+'</div></details>';
+      h+='<details open><summary>Stat block — Partial (fullest block on file)</summary><div class="statblock">'+fmtBlock(sb.text)+'</div></details>';
     } else {
       h+='<div class="statblock">Stat block not on file — see '+esc(e.source)+'.</div>';
     }
@@ -21933,8 +21941,12 @@ document.getElementById('roll').onclick=()=>{
   hist.unshift(t.name+': '+r+' — '+e.name+' (CR '+e.cr+')'+(badlandsOn(t.name)?' [Badlands layer]':'')+(steam?' [Steampunk]':'')+(fx.twisted?' [Twisted]':'')+(fx.bled?' [bled in from the Open Wastes]':'')+(fx.weighted?' [Steampunk weighting]':''));
   document.getElementById('history').innerHTML='<b>Roll history</b><br>'+hist.slice(0,20).map(esc).join('<br>');
 };
+let previewFor=-1;
 document.getElementById('previewBtn').onclick=()=>{
+  const pv=document.getElementById('preview');
+  if(previewFor===Number(sel.value)&&pv.innerHTML){pv.innerHTML='';previewFor=-1;return;}
   const t=DATA.tables[sel.value];
+  previewFor=Number(sel.value);
   let h='<b>'+esc(t.name)+'</b><br>';
   t.entries.forEach((e,i)=>{
     const band=(e.low===e.high?e.low:e.low+'–'+e.high);
@@ -22121,7 +22133,7 @@ function renderBuilder(){
   $('bOut').querySelectorAll('[data-dec]').forEach(b=>b.onclick=()=>{const it=bState.items[+b.getAttribute('data-dec')];it.count=Math.max(1,it.count-1);renderBuilder();});
   $('bOut').querySelectorAll('[data-del]').forEach(b=>b.onclick=()=>{bState.items.splice(+b.getAttribute('data-del'),1);renderBuilder();});
   $('bOut').querySelectorAll('[data-lock]').forEach(b=>b.onchange=()=>{bState.items[+b.getAttribute('data-lock')].locked=b.checked;});
-  $('bOut').querySelectorAll('[data-sb]').forEach(b=>b.onclick=()=>{const it=bState.items[+b.getAttribute('data-sb')];const p=poolByName(it.name);const d=$('bsb-'+b.getAttribute('data-sb'));d.innerHTML=d.innerHTML?(''):('<div class="statblock">'+esc(sbText(p)||'Stat block not on file — see '+p.source+'.')+'</div>'+(p.apoc?'<div class="small">'+esc(p.apoc)+'</div>':''));});
+  $('bOut').querySelectorAll('[data-sb]').forEach(b=>b.onclick=()=>{const it=bState.items[+b.getAttribute('data-sb')];const p=poolByName(it.name);const d=$('bsb-'+b.getAttribute('data-sb'));d.innerHTML=d.innerHTML?(''):('<div class="statblock">'+fmtBlock(sbText(p)||'Stat block not on file — see '+p.source+'.')+'</div>'+(p.apoc?'<div class="small">'+esc(p.apoc)+'</div>':''));});
   $('bOut').querySelectorAll('img.thumb2').forEach(im=>{im.onclick=()=>{const p=poolByName(bState.items[+im.getAttribute('data-bi')].name);if(p)openPic(p.picture.file,p.name,p.picture.credit||'');};});
   renderRun();}
 function renderRun(){
@@ -22306,7 +22318,7 @@ function advance(){
   const header='⬆ ADVANCED — '+p.name+', CR '+fmtCr(cr)+' (was '+fmtCr(p.cr)+')\nCR: '+crNotes.join('; ')+'.\nCalculated per SRD Improving Monsters. Lines not covered by the change notes are as printed.\n';
   const notesTxt=notes.length?('\nChange notes:\n- '+notes.join('\n- ')):'\nChange notes: none.';
   bState.advanced=header+'\n'+out+notesTxt;
-  $('aOut').innerHTML='<div class="statblock">'+esc(bState.advanced)+'</div>';}
+  $('aOut').innerHTML='<div class="statblock">'+fmtBlock(bState.advanced)+'</div>';}
 $('aGo').onclick=advance;
 $('aCopy').onclick=()=>{if(bState.advanced&&navigator.clipboard)navigator.clipboard.writeText(bState.advanced);};
 /* ================= CHART GENERATOR ================= */
@@ -22336,11 +22348,11 @@ function renderChart(){
   chartState.bands.forEach((b,i)=>{const thumb=(b.p.picture&&b.p.picture.status==='on file')?' <img class="thumb2" data-ci="'+i+'" src="'+esc(b.p.picture.file)+'" alt="">':'';
     h+=(b.low===b.high?b.low:b.low+'–'+b.high)+' — '+esc(b.p.name)+' (CR '+fmtCr(b.p.cr)+', '+esc(b.p.number)+')'+thumb+' <button data-csb="'+i+'">Block</button><br><span class="sb" id="csb-'+i+'"></span>';});
   $('cOut').innerHTML=h;
-  $('cOut').querySelectorAll('[data-csb]').forEach(btn=>btn.onclick=()=>{const b=chartState.bands[+btn.getAttribute('data-csb')];const d=$('csb-'+btn.getAttribute('data-csb'));d.innerHTML=d.innerHTML?'':'<span class="statblock" style="display:block">'+esc(sbText(b.p)||'Stat block not on file — see '+b.p.source+'.')+'</span>';});
+  $('cOut').querySelectorAll('[data-csb]').forEach(btn=>btn.onclick=()=>{const b=chartState.bands[+btn.getAttribute('data-csb')];const d=$('csb-'+btn.getAttribute('data-csb'));d.innerHTML=d.innerHTML?'':'<span class="statblock" style="display:block">'+fmtBlock(sbText(b.p)||'Stat block not on file — see '+b.p.source+'.')+'</span>';});
   $('cOut').querySelectorAll('img.thumb2').forEach(im=>{im.onclick=()=>{const b=chartState.bands[+im.getAttribute('data-ci')];openPic(b.p.picture.file,b.p.name,b.p.picture.credit||'');};});}
 $('cGen').onclick=genChart;
 $('cRoll').onclick=()=>{if(!chartState)return;const r=1+Math.floor(Math.random()*1000);const b=chartState.bands.find(x=>r>=x.low&&r<=x.high);
-  $('cOut').insertAdjacentHTML('afterbegin','<div class="encrow"><b>d1000: '+r+'</b> — <b>'+esc(b.p.name)+'</b> (CR '+fmtCr(b.p.cr)+') — '+esc(b.p.number)+'<br><span class="statblock" style="display:block">'+esc(sbText(b.p)||'Stat block not on file — see '+b.p.source+'.')+'</span></div>');};
+  $('cOut').insertAdjacentHTML('afterbegin','<div class="encrow"><b>d1000: '+r+'</b> — <b>'+esc(b.p.name)+'</b> (CR '+fmtCr(b.p.cr)+') — '+esc(b.p.number)+'<br><span class="statblock" style="display:block">'+fmtBlock(sbText(b.p)||'Stat block not on file — see '+b.p.source+'.')+'</span></div>');};
 $('cLoad').onclick=()=>{if(!chartState)return;const t={name:chartState.name,note:'Generated chart (APOC pool, published Environment placement).',entries:chartState.bands.map(b=>({low:b.low,high:b.high,name:b.p.name,cr:b.p.cr,number:b.p.number,source:b.p.source,environment:b.p.environment,apoc:b.p.apoc,kinds:[],type:b.p.type,picture:b.p.picture,statblock:b.p.sb?{status:b.p.sb.status,b:b.p.sb.b}:{status:'missing'}}))};
   // the roller resolves stat blocks from the entry's own text; give it the pool text via blocks index already shared
   DATA.tables.push(t);const o=document.createElement('option');o.value=DATA.tables.length-1;o.textContent=t.name;sel.appendChild(o);sel.value=DATA.tables.length-1;sel.dispatchEvent(new Event('change'));
