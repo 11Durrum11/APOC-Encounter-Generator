@@ -21896,15 +21896,12 @@ function showResult(t,r,e,fx){
     if(e.picture.credit) h+='<div class="credit">Picture: '+esc(e.picture.credit)+' (hover to enlarge, click to expand)</div>';
   } else { h+='<div class="credit">Picture: none on file.</div>'; }
   const sbo=e.statblock||{status:'missing'}; const sb={status:sbo.status,text:(sbo.b!=null?DATA.blocks[sbo.b]:(sbo.text||''))};
-  const overlayRoll=steam||(fx&&fx.twisted);
-  if(!overlayRoll){
-    if(sb.status==='full'){
-      h+='<details open><summary>Full stat block</summary><div class="statblock">'+fmtBlock(sb.text)+'</div></details>';
-    } else if(sb.status==='partial'){
-      h+='<details open><summary>Stat block — Partial (fullest block on file)</summary><div class="statblock">'+fmtBlock(sb.text)+'</div></details>';
-    } else {
-      h+='<div class="statblock">Stat block not on file — see '+esc(e.source)+'.</div>';
-    }
+  if(sb.status==='full'){
+    h+='<details open><summary>Full stat block</summary><div class="statblock">'+fmtBlock(sb.text)+'</div></details>';
+  } else if(sb.status==='partial'){
+    h+='<details open><summary>Stat block — Partial (fullest block on file)</summary><div class="statblock">'+fmtBlock(sb.text)+'</div></details>';
+  } else {
+    h+='<div class="statblock">Stat block not on file — see '+esc(e.source)+'.</div>';
   }
   document.getElementById('result').innerHTML=h;
   const pim=document.querySelector('#result img.pic');
